@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Electonic Computing](#electonic-computing)
+- [Electronic Computing](#electronic-computing)
 - [Boolean Logic](#boolean-logic)
 - [Registers and RAM](#registers-and-ram)
 - [Central Processing Unit(cpu)](#central-processing-unit)
@@ -22,8 +22,8 @@
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
 
-## [Electonic Computing](#electonic-computing)
-Not added
+## [Electronic Computing](#electronic-computing)
+A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or that assembles, stores, correlates, or otherwise processes information.
 
 ## [Boolean Logic](#boolean-logic)
 Not added

@@ -28,6 +28,12 @@ A device that computes, especially a programmable electronic machine that perfor
 
 ## [Boolean Logic](Boolean%20Logic/readme.md)
 Boolean logic is a branch of mathematics that deals with the values of truth and falsehood. It is a system of logic that uses only two values, 0 and 1, to represent false and true, respectively. It is also known as Boolean algebra, named after George Boole, who first described it in 1854.
+### Common Boolean Operators
+| Operator | Name | Description |
+|:--------:|:----:|:-----------:|
+| ! | NOT | Negates the value of the operand. |
+| && | AND | Returns true if both operands are true. |
+| \|\| | OR | Returns true if either operand is true. |
 
 ## [Number Systems](Number%20System/readme.md)
 A number system is a mathematical system for expressing numbers. A number system consists of a set of symbols that are used to represent numbers, and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals. The symbols used in a number system are called numerals. The symbols used in a number system are called numerals.

@@ -1,6 +1,13 @@
 # Boolean Logic
 Boolean logic is a branch of mathematics that deals with the values of truth and falsehood. It is a system of logic that uses only two values, 0 and 1, to represent false and true, respectively. It is also known as Boolean algebra, named after George Boole, who first described it in 1854.
 
+## Common Boolean Operators
+| Operator | Name | Description |
+|:--------:|:----:|:-----------:|
+| ! | NOT | Negates the value of the operand. |
+| && | AND | Returns true if both operands are true. |
+| \|\| | OR | Returns true if either operand is true. |
+
 ## Boolean Algebra
 Boolean algebra is a branch of algebra in which the values of the variables are the truth values true and false, usually denoted 1 and 0 respectively. Instead of elementary algebra where the values of the variables are numbers and the main operations are addition and multiplication, the main operations of Boolean algebra are the conjunction (denoted ∧), the disjunction (denoted ∨), and the negation (denoted ¬). These operations are also known as logical AND, logical OR, and logical NOT, respectively.
 

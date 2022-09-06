@@ -11,13 +11,13 @@ Sorting is the process of arranging a list of items in a particular order. For e
 * [Quick Sort](Sorting/QuickSort/readme.md)
 * [Heap Sort](Sorting/HeapSort/readme.md)
 
-## Graph Search
+## [Graph Search](Graph%20Search/readme.md)
 Graph search is the process of searching through a graph to find a particular node. A graph is a data structure that consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for an undirected graph and as arrows, directed edges, directed arcs, or directed lines for a directed graph. The vertices may be part of the graph structure, or may be external entities represented by integer indices or references. Graphs are one of the most useful data structures for many real-world applications. Graphs are used to model pairwise relations between objects. For example, the airline route network is a graph in which the cities are the vertices and the flight routes are the edges. Graphs are also used to represent networks. The Internet can be modeled as a graph in which the computers are the vertices and the links between computers are the edges. Graphs are also used in social networks like linkedIn, Facebook. In fact, graphs are used to represent many real-world applications: computer networks, circuit design, and aeronautical scheduling to name just a few.
 ### Popular Graph Search Algorithms
-* [Breadth First Search](GraphSearch/BreadthFirstSearch/readme.md)
-* [Depth First Search](GraphSearch/DepthFirstSearch/readme.md)
-* [Dijkstra's Algorithm](GraphSearch/Dijkstra'sAlgorithm/readme.md)
-* [A* Search](GraphSearch/A*Search/readme.md)
+* [Breadth First Search](Graph%20Search/BreadthFirstSearch/readme.md)
+* [Depth First Search](Graph%20Search/DepthFirstSearch/readme.md)
+* [Dijkstra's Algorithm](Graph%20Search/Dijkstra'sAlgorithm/readme.md)
+* [A* Search](Graph%20Search/A*Search/readme.md)
 
 ## Dynamic Programming
 Dynamic programming is both a mathematical optimization method and a computer programming method. The method was developed by Richard Bellman in the 1950s and has found applications in numerous fields, from aerospace engineering to economics. In both contexts it refers to simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner. While some decision problems cannot be taken apart this way, decisions that span several points in time do often break apart recursively. Likewise, in computer science, if a problem can be solved optimally by breaking it into sub-problems and then recursively finding the optimal solutions to the sub-problems, then it is said to have optimal substructure. Dynamic programming is one way to solve problems with these properties. The process of breaking a complicated problem down into simpler sub-problems is called "divide and conquer".

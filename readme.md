@@ -32,6 +32,12 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 ## [Number Systems](Number%20System/readme.md)
 A number system is a mathematical system for expressing numbers. A number system consists of a set of symbols that are used to represent numbers, and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals. The symbols used in a number system are called numerals. The symbols used in a number system are called numerals.
 
+### Types of Number Systems
+- [Binary Number System](Number%20System/readme.md#binary-number-system)
+- [Octal Number System](Number%20System/readme.md#octal-number-system)
+- [Decimal Number System](Number%20System/readme.md#decimal-number-system)
+- [Hexadecimal Number System](Number%20System/readme.md#hexadecimal-number-system)
+
 ## [Registers and RAM](#registers-and-ram)
 Not added
 

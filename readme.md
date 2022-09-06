@@ -6,7 +6,7 @@
 - [Boolean Logic](#boolean-logic)
 - [Number Systems](#number-systems)
 - [Registers and RAM](#registers-and-ram)
-- [Central Processing Unit(cpu)](#central-processing-unit)
+- [Central Processing Unit(CPU)](#central-processing-unitcpu)
 - [Instruction and Program](#instruction-and-program)
 - [Programming Language](#programming-language)
 - [Data Types](#data-types)
@@ -47,7 +47,7 @@ A number system is a mathematical system for expressing numbers. A number system
 ## [Registers and RAM](#registers-and-ram)
 Not added
 
-## [Central Processing Unit(cpu)](#central-processing-unit)
+## [Central Processing Unit(CPU)](#central-processing-unit)
 Not added
 
 ## [Instruction and Program](#instruction-and-program)

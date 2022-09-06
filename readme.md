@@ -4,6 +4,7 @@
 - [Introduction](#introduction)
 - [Electronic Computing](#electronic-computing)
 - [Boolean Logic](#boolean-logic)
+- [Number Systems](#number-systems)
 - [Registers and RAM](#registers-and-ram)
 - [Central Processing Unit(cpu)](#central-processing-unit)
 - [Instruction and Program](#instruction-and-program)
@@ -25,8 +26,11 @@ Computer science is the study of computers and computing as well as their theore
 ## [Electronic Computing](#electronic-computing)
 A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or that assembles, stores, correlates, or otherwise processes information.
 
-## [Boolean Logic](#boolean-logic)
-Not added
+## [Boolean Logic](Boolean%20Logic/readme.md)
+Boolean logic is a branch of mathematics that deals with the values of truth and falsehood. It is a system of logic that uses only two values, 0 and 1, to represent false and true, respectively. It is also known as Boolean algebra, named after George Boole, who first described it in 1854.
+
+## [Number Systems](Number%20System/readme.md)
+A number system is a mathematical system for expressing numbers. A number system consists of a set of symbols that are used to represent numbers, and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals. The symbols used in a number system are called numerals. The symbols used in a number system are called numerals.
 
 ## [Registers and RAM](#registers-and-ram)
 Not added

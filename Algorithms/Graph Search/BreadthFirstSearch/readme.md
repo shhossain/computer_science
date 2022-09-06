@@ -4,8 +4,8 @@ Breadth First Search (BFS) is an algorithm for traversing or searching tree or g
 ## Complexity
 | Algorithm | Average | Worst case |
 | --- | --- | --- |
-| Space | O(|V|+|E|) | O(|V|+|E|) |
-| Search | O(|V|+|E|) | O(|V|+|E|) |
+| Space | O(\|V\|+\|E\|) | O(\|V\|+\|E\|) |
+| Search | O(\|V\|+\|E\|) | O(\|V\|+\|E\|) |
 
 
 ## Pseudocode

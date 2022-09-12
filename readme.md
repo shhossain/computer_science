@@ -38,6 +38,8 @@ The CPU is an electronic machine that works on a list of computer things to do, 
 ## [Instruction and Program](#instruction-and-program)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. And a  computer program is a list of instructions that tell a computer what to do. Everything a computer does is done by using a computer program. Programs stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
 
+## [Programming Language](#programming-language)
+A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output.[citation needed] Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.
 
 ## [Data Types](#data-types)
 

@@ -26,22 +26,22 @@ Computer science is the study of computers and computing as well as their theore
 A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or that assembles, stores, correlates, or otherwise processes information.
 
 ## [Boolean Logic](#boolean-logic)
-Not added
+Boolean Logic is a form of algebra which is centered around three simple words known as Boolean Operators: “Or,” “And,” and “Not”. At the heart of Boolean Logic is the idea that all values are either true or false. 
 
 ## [Registers and RAM](#registers-and-ram)
-Not added
-
+Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. Whereas RAM stands for random-access memory. It is essentially short term memory where data is stored as the processor needs it.
 ## [Central Processing Unit(cpu)](#central-processing-unit)
-Not added
+A central processing unit (CPU) is an important part of every computer.[1] The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.[2]
+
+The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program.
 
 ## [Instruction and Program](#instruction-and-program)
-Not added
+In computer science, an instruction is a single operation of a processor defined by the processor instruction set. And a  computer program is a list of instructions that tell a computer what to do. Everything a computer does is done by using a computer program. Programs stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
 
-## [Programming Language](#programming-language)
-Not added
 
 ## [Data Types](#data-types)
-Not added
+
+A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational or logical operations can be applied to it without causing an error.
 
 
 ## [Data Structures](Data%20Structures/readme.md)

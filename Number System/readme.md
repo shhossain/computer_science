@@ -1,22 +1,35 @@
 # [Number Systems](#number-systems)
 
-Number systems are a mathematical system for expressing numbers. A number system consists of a set of symbols that are used to represent numbers, and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals. The symbols used in the decimal number system are the Hindu-Arabic numerals 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. It is base 10, which means that each place in the number represents a power of 10, also known as the base or the radix.
+Number systems are a mathematical system for expressing numbers. A number system consists of a set of symbols that are used to represent numbers, and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals.
 
 ## [Table of Contents](#table-of-contents)
 
 - [Number Systems](#number-systems)
   - [Table of Contents](#table-of-contents)
-  - [Common Number Systems](#common-number-systems)
+  - [Types of Number Systems](#types-of-number-systems)
+    - [Positional Numeral System](#positional-numeral-system)
+    - [Sign-value Notation System](#sign-value-notation-system)
+  - [Common Positional Number Systems](#common-positional-number-systems)
     - [Binary](#binary)
+    - [Octal](#octal)
     - [Decimal](#decimal)
-    - [Decimal](#decimal-1)
     - [Hexadecimal](#hexadecimal)
   - [Base/Radix Conversion](#baseradix-conversion)
     - [Radix to Decimal](#radix-to-decimal)
     - [Decimal to Radix](#decimal-to-radix)
   - [Mixed-Base Number Systems](#mixed-base-number-systems)
 
-## [Common Number Systems](#common-number-systems)
+## [Types of Number Systems](#types-of-number-systems)
+
+### [Positional Numeral System](#positional-numeral-system)
+
+Positional Notation most commonly uses the decinal system. The symbols used in the decimal number system are the Hindu-Arabic numerals 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. It is positional numeral system and is base 10, which means that each place in the number represents a power of 10, also known as the radix. The place value of each digit is determined by its position in the number, with the most significant digit on the left and the least significant digit on the right. The value of a digit is multiplied by the radix raised to the power of its position. For example, in the number 123, the digit 1 is in the hundreds place, the digit 2 is in the tens place, and the digit 3 is in the ones place. The value of the digit 1 is 100, the value of the digit 2 is 20, and the value of the digit 3 is 3. The sum of these values is 123.
+
+### [Sign-value Notation System](#sign-value-notation-system)
+
+Sign-value notation represents numbers by a series of numeric signs that when added together give the value of the number. The most commonly known exmaple would be Roman Numerals, where I means 1, V means 5, X means 10. Thus IV means 4, IX means 9, and XI means 11. Sign-value notation is mostly historical and is not used commonly in the modern world.
+
+## [Common Positional Number Systems](#common-positional-number-systems)
 
 ### [Binary](#binary)
 
@@ -27,7 +40,7 @@ Binary Numbers only have two v, 0 and 1. Binary numbers are used in computers be
 | Decimal | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   |
 | Binary  | 0000 | 0001 | 0010 | 0011 | 0100 | 0101 | 0110 | 0111 | 1000 | 1001 | 1010 | 1011 | 1100 | 1101 | 1110 | 1111 |
 
-### [Decimal](#decimal)
+### [Octal](#octal)
 
 Octal Numbers have eight characters, 0, 1, 2, 3, 4, 5, 6, and 7. The main advantage of using octal numbers is that they are easier to work with than binary numbers. Octal numbers are used in computer programming and in the Unix operating system.
 
@@ -36,7 +49,7 @@ Octal Numbers have eight characters, 0, 1, 2, 3, 4, 5, 6, and 7. The main advant
 | Decimal | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   |
 | Octal   | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 10   | 11   | 12   | 13   | 14   | 15   | 16   | 17   |
 
-### [Decimal](#decimal-1)
+### [Decimal](#decimal)
 
 Decimal Numbers have ten characters, 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Decimal numbers are commonly used in everyday life.
 

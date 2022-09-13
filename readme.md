@@ -36,7 +36,15 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 | \|\| | OR | Returns true if either operand is true. |
 
 ## [Number Systems](Number%20System/readme.md#number-systems)
-Number systems are a mathematical system for expressing numbers. A number system consists of a set of symbols that are used to represent numbers, and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals. The symbols used in the decimal number system are the Hindu-Arabic numerals 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.
+
+Number systems are a mathematical system for expressing numbers. A number system consists of a set of symbols that are used to represent numbers, and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals.
+
+### [Types of Number Systems](#types-of-number-systems)
+
+- [Positional Numeral System](Number%20System/readme.md#positional-numeral-system)
+- [Sign-value Notation System](Number%20System/readme.md#sign-value-notation-system)
+
+### [Common Positional Number Systems](#common-positional-number-systems)
 
 ### [Common Types of Number Systems](Number%20System/readme.md#common-number-systems)
 - [Binary](Number%20System/readme.md#binary)

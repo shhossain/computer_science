@@ -35,14 +35,21 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 | && | AND | Returns true if both operands are true. |
 | \|\| | OR | Returns true if either operand is true. |
 
-## [Number Systems](Number%20System/readme.md)
-A number system is a mathematical system for expressing numbers. A number system consists of a set of symbols that are used to represent numbers, and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals. The symbols used in a number system are called numerals. The symbols used in a number system are called numerals.
+## [Number Systems](Number%20System/readme.md#number-systems)
 
-### Types of Number Systems
-- [Binary Number System](Number%20System/readme.md#binary-number-system)
-- [Octal Number System](Number%20System/readme.md#octal-number-system)
-- [Decimal Number System](Number%20System/readme.md#decimal-number-system)
-- [Hexadecimal Number System](Number%20System/readme.md#hexadecimal-number-system)
+Number systems are a mathematical system for expressing numbers. A number system consists of a set of symbols that are used to represent numbers, and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals.
+
+### [Types of Number Systems](#types-of-number-systems)
+
+- [Positional Numeral System](Number%20System/readme.md#positional-numeral-system)
+- [Sign-value Notation System](Number%20System/readme.md#sign-value-notation-system)
+
+### [Common Positional Number Systems](#common-positional-number-systems)
+
+- [Binary](Number%20System/readme.md#binary)
+- [Octal](Number%20System/readme.md#octal)
+- [Decimal](Number%20System/readme.md#decimal)
+- [Hexadecimal](Number%20System/readme.md#hexadecimal)
 
 ## [Registers and RAM](#registers-and-ram)
 Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. Whereas RAM stands for random-access memory. It is essentially short term memory where data is stored as the processor needs it.

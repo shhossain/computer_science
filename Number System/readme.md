@@ -35,36 +35,36 @@ Sign-value notation represents numbers by a series of numeric signs that when ad
 
 Binary Numbers only have two v, 0 and 1. Binary numbers are used in computers because they are easy to represent using electronic circuits. Binary numbers are also used in digital electronics, such as digital cameras, digital watches, and digital televisions.
 
-|         |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|:--------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
-| Decimal | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   |
-| Binary  | 0000 | 0001 | 0010 | 0011 | 0100 | 0101 | 0110 | 0111 | 1000 | 1001 | 1010 | 1011 | 1100 | 1101 | 1110 | 1111 |
-
 ### [Octal](#octal)
 
 Octal Numbers have eight characters, 0, 1, 2, 3, 4, 5, 6, and 7. The main advantage of using octal numbers is that they are easier to work with than binary numbers. Octal numbers are used in computer programming and in the Unix operating system.
-
-|         |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|:--------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
-| Decimal | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   |
-| Octal   | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 10   | 11   | 12   | 13   | 14   | 15   | 16   | 17   |
 
 ### [Decimal](#decimal)
 
 Decimal Numbers have ten characters, 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Decimal numbers are commonly used in everyday life.
 
-|         |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|:--------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
-| Decimal | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   |
-
 ### [Hexadecimal](#hexadecimal)
 
 Hexadecimal Numbers have sixteen characters, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The Hexadecimal, or Hex, numbering system is commonly used in computer and digital systems to reduce large strings of binary numbers into a sets of four digits for us to easily read.
 
-|         |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|:--------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
-| Decimal | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   | 11   | 12   | 13   | 14   | 15   |
-| Hexadecimal     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | A    | B    | C    | D    | E    | F    |
+| Deciaml | Binary | Octal | Hexadecimal |
+|:-------:|:------:|:-----:|:-----------:|
+| 0       | 0000   | 0     | 0           |
+| 1       | 0001   | 1     | 1           |
+| 2       | 0010   | 2     | 2           |
+| 3       | 0011   | 3     | 3           |
+| 4       | 0100   | 4     | 4           |
+| 5       | 0101   | 5     | 5           |
+| 6       | 0110   | 6     | 6           |
+| 7       | 0111   | 7     | 7           |
+| 8       | 1000   | 10    | 8           |
+| 9       | 1001   | 11    | 9           |
+| 10      | 1010   | 12    | A           |
+| 11      | 1011   | 13    | B           |
+| 12      | 1100   | 14    | C           |
+| 13      | 1101   | 15    | D           |
+| 14      | 1110   | 16    | E           |
+| 15      | 1111   | 17    | F           |
 
 ## [Base/Radix Conversion](#baseradix-conversion)
 

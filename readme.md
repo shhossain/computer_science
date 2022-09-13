@@ -102,7 +102,30 @@ Branch and bound is a general technique for solving combinatorial optimization p
 Not added
 
 ## [Software Engineering](Software%20Engineering/readme.md)
-Not added
+Software engineering is the branch of computer science that deals with the design, development, testing, and maintenance of software applications. Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users.
+
+Let’s look at the various definitions of software engineering:
+
+- IEEE, in its standard 610.12-1990, defines software engineering as the application of a systematic, disciplined, which is a computable approach for the development, operation, and maintenance of software.
+- Fritz Bauer defined it as ‘the establishment and used standard engineering principles. It helps you to obtain, economically, software which is reliable and works efficiently on the real machines’.
+- Boehm defines software engineering, which involves, ‘the practical application of scientific knowledge to the creative design and building of computer programs. It also includes associated documentation needed for developing, operating, and maintaining them.’
+
+###Software engineer tasks and responsibilities
+Successful engineers know how to use the right programming languages, platforms, and architectures to develop everything from computer games to network control systems. In addition to building their own systems, software engineers also test, improve, and maintain software built by other engineers. 
+
+In this role, your day-to-day tasks might include:
+- Designing and maintaining software systems
+- Evaluating and testing new software programs
+- Optimizing software for speed and scalability
+- Writing and testing code
+- Consulting with clients, engineers, security specialists, and other stakeholders
+- Presenting new features to stakeholders and internal customers
+
+### Why Software Engineering is Popular?
+- Computer Science: Gives the scientific foundation for the software as electrical engineering mainly depends on physics.
+- Management Science: Software engineering is labor-intensive work which demands both technical and managerial control. Therefore, it is widely used in management science.
+- Economics: In this sector, software engineering helps you in resource estimation and cost control. Computing system must be developed, and data should be maintained regularly within a given budget.
+- System Engineering: Most software is a component of a much larger system. For example, the software in an Industry monitoring system or the flight software on an airplane. Software engineering methods should be applied to the study of this type of systems.
 
 ## [Integrated Circuits](Integrated%20Circuits/readme.md)
 Not added

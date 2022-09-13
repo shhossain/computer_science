@@ -46,7 +46,6 @@ Number systems are a mathematical system for expressing numbers. A number system
 
 ### [Common Positional Number Systems](#common-positional-number-systems)
 
-### [Common Types of Number Systems](Number%20System/readme.md#common-number-systems)
 - [Binary](Number%20System/readme.md#binary)
 - [Octal](Number%20System/readme.md#octal)
 - [Decimal](Number%20System/readme.md#decimal)

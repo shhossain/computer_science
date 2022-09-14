@@ -121,7 +121,7 @@ Let’s look at the various definitions of software engineering:
 - Fritz Bauer defined it as ‘the establishment and used standard engineering principles. It helps you to obtain, economically, software which is reliable and works efficiently on the real machines’.
 - Boehm defines software engineering, which involves, ‘the practical application of scientific knowledge to the creative design and building of computer programs. It also includes associated documentation needed for developing, operating, and maintaining them.’
 
-###Software engineer tasks and responsibilities
+### Software engineer tasks and responsibilities
 Successful engineers know how to use the right programming languages, platforms, and architectures to develop everything from computer games to network control systems. In addition to building their own systems, software engineers also test, improve, and maintain software built by other engineers. 
 
 In this role, your day-to-day tasks might include:

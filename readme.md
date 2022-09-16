@@ -58,6 +58,10 @@ Registers are small amounts of high-speed memory contained within the CPU. They 
 A central processing unit (CPU) is an important part of every computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.
 The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program.
 
+Additional resources:
+- [CPU. How it works (brief)](https://www.youtube.com/watch?v=c06WxAvD4Nk)
+- [How a CPU Works (in-depth)](https://www.youtube.com/watch?v=cNN_tTXABUA)
+
 ## [Instruction and Program](#instruction-and-program)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. And a  computer program is a list of instructions that tell a computer what to do. Everything a computer does is done by using a computer program. Programs stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
 

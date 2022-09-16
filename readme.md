@@ -171,9 +171,20 @@ An even more common definition is that the operating system is the one program r
 - **Memory Management**: Refers to the management of primary memory. The operating system has to keep track, how much memory has been used and by whom. It has to decide which process needs memory space and how much. OS also has to allocate and deallocate the memory space.
 - **Security/Privacy Management**: Privacy is also provided by the Operating system by means of passwords so that unauthorized applications can’t access programs or data. For example, Windows uses ***Kerberos*** authentication to prevent unauthorized access to data.
 
-
 ## [Memory and Storage](Memory%20and%20Storage/readme.md)
-Not added
+ If you are unsure about the difference between memory and storage in computers, this article covers the differences between the two.
+
+ ### Memory
+ The term *memory* refers to the component within your computer that allows for short-term data access. You may recognise this component as DRAM, or dynamic random-access memory. Your computer performs many operations by accessing data stored in its short-term memory. Some examples of such operations include editing a document, loading applications and browsing the internet. The speed and performance of your system depends on the amount of memory that is installed on your computer.
+
+If you have a desk and a filing cabinet, the desk represents the memory of your computer. Items you need to use immediately are kept on your desk for easy access. However, not much can be stored on a desk due to its size limitations.
+
+### Storage
+Whereas memory refers to the location of short-term data, *storage* is the component within your computer that allows you to store and access data on a long-term basis. Usually, storage comes in the form of a solid-state drive or a hard drive. Storage houses your applications, operating system and files for an indefinite period. Computers need to write information and read it from the storage system, so the speed of the storage determines how fast your system can boot up, load and access what you’ve saved.
+
+While the desk represents the computer's memory, the filing cabinet represents the storage of your computer. It holds items that need to be saved and stored but are not necessarily needed for immediate access. The size of the filing cabinet means that it can hold a large number of things.
+
+**An important distinction** between memory and storage is that memory clears when the computer is turned off. On the other hand, storage remains intact no matter how many times you shut off your computer. Therefore, in the desk and filing cabinet analogy, any files that are left on your desk when you leave the office will be thrown away. Everything in your filing cabinet will remain.
 
 ## [File System](File%20System/readme.md)
 Not added

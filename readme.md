@@ -70,7 +70,7 @@ A data type, in programming, is a classification that specifies which type of va
 ### [Primitive Data Types](Data%20Types/readme.md#primitive-data-types)
 Primitive data types are the most basic data types in a programming language. They are the building blocks of more complex data types. Primitive data types are predefined by the programming language and are named by a reserved keyword.
 
-### Common Primitive Data Types
+### [Common Primitive Data Types](Data%20Types/readme.md#common-primitive-data-types)
 - [Integer](Data%20Types/readme.md#integer)
 - [Float](Data%20Types/readme.md#float)
 - [Boolean](Data%20Types/readme.md#boolean)
@@ -80,7 +80,7 @@ Primitive data types are the most basic data types in a programming language. Th
 ### [Non-Primitive Data Types](Data%20Types/readme.md#non-primitive-data-types)
 Non-primitive data types are also known as reference data types. They are created by the programmer and are not defined by the programming language. Non-primitive data types are also called composite data types because they are composed of other types.
 
-### Common Non-Primitive Data Types
+### [Common Non-Primitive Data Types](Data%20Types/readme.md#common-non-primitive-data-types)
 - [Array](Data%20Types/readme.md#array)
 - [Struct](Data%20Types/readme.md#struct)
 - [Union](Data%20Types/readme.md#union)

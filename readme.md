@@ -63,6 +63,13 @@ In computer science, an instruction is a single operation of a processor defined
 ## [Programming Language](#programming-language)
 A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output.[citation needed] Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.
 
+Some Languages Include:
+- Python
+- Java
+- C++
+- C
+- C#
+
 ## [Data Types](Data%20Types/readme.md#data-types)
 A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational or logical operations can be applied to it without causing an error.
 
@@ -88,7 +95,11 @@ Non-primitive data types are also known as reference data types. They are create
 - [Class](Data%20Types/readme.md#class)
 
 ## [Statements and Functions](#statement-and-function)
-Not Added Yet
+In computer programming, a statement is a syntactic unit of an imperative programming language that expresses some action to be carried out. A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., expressions).
+
+A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily, without having to write the same code again and again.
+
+Different functional languages use different syntax to write a function.
 
 ## [Data Structures](Data%20Structures/readme.md)
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.

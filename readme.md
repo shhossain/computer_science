@@ -6,8 +6,8 @@
 - [Electronic Computing](#electronic-computing)
 - [Boolean Logic](#boolean-logic)
 - [Number Systems](#number-systems)
-- [Registers and RAM](#registers-and-ram)
 - [Central Processing Unit(CPU)](#central-processing-unitcpu)
+- [Registers and RAM](#registers-and-ram)
 - [Instruction and Program](#instruction-and-program)
 - [Programming Language](#programming-language)
 - [Data Types](#data-types)
@@ -50,25 +50,18 @@ Number systems are a mathematical system for expressing numbers. A number system
 - [Decimal](Number%20System/readme.md#decimal)
 - [Hexadecimal](Number%20System/readme.md#hexadecimal)
 
-## [Registers and RAM](#registers-and-ram)
-Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. Whereas RAM stands for random-access memory. It is essentially short term memory where data is stored as the processor needs it.
-
 ## [Central Processing Unit(CPU)](#central-processing-unit)
 A central processing unit (CPU) is an important part of every computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.
-The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program.
+The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program. A CPU can process more than one instruction at a time on sections called Cores. A CPU with four cores may process four programs at once.
+
+## [Registers, Cache and RAM](#registers-CACHE-and-ram)
+Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Larger amounds of data may be stored in Cache (pronounced like cash).  This is very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuts not part of the CPU. Whereas RAM stands for random-access memory. It is essentially short term memory where data is stored as the processor needs it.
 
 ## [Instruction and Program](#instruction-and-program)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. And a computer program is a list of instructions that tell a computer what to do. Everything a computer does is done by using a computer program. Programs stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
 
 ## [Programming Language](#programming-language)
 A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output.[citation needed] Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.
-
-Some Languages Include:
-- Python
-- Java
-- C++
-- C
-- C#
 
 ## [Data Types](Data%20Types/readme.md#data-types)
 A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational or logical operations can be applied to it without causing an error.
@@ -95,11 +88,7 @@ Non-primitive data types are also known as reference data types. They are create
 - [Class](Data%20Types/readme.md#class)
 
 ## [Statements and Functions](#statement-and-function)
-In computer programming, a statement is a syntactic unit of an imperative programming language that expresses some action to be carried out. A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., expressions).
-
-A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily, without having to write the same code again and again.
-
-Different functional languages use different syntax to write a function.
+Not Added Yet
 
 ## [Data Structures](Data%20Structures/readme.md)
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.

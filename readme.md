@@ -37,18 +37,18 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 |    &&    | AND  | Returns true if both operands are true. |
 |   \|\|   |  OR  | Returns true if either operand is true. |
 
-## [Number Systems](Number%20System/readme.md#number-systems)
+## [Number Systems](Software/Number%20System/readme.md#number-systems)
 Number systems are a mathematical system for expressing numbers. A number system consists of a set of symbols that are used to represent numbers, and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals.
 
 ### [Types of Number Systems](#types-of-number-systems)
-- [Positional Numeral System](Number%20System/readme.md#positional-numeral-system)
-- [Sign-value Notation System](Number%20System/readme.md#sign-value-notation-system)
+- [Positional Numeral System](Software/Number%20System/readme.md#positional-numeral-system)
+- [Sign-value Notation System](Software/Number%20System/readme.md#sign-value-notation-system)
 
 ### [Common Positional Number Systems](#common-positional-number-systems)
-- [Binary](Number%20System/readme.md#binary)
-- [Octal](Number%20System/readme.md#octal)
-- [Decimal](Number%20System/readme.md#decimal)
-- [Hexadecimal](Number%20System/readme.md#hexadecimal)
+- [Binary](Software/Number%20System/readme.md#binary)
+- [Octal](Software/Number%20System/readme.md#octal)
+- [Decimal](Software/Number%20System/readme.md#decimal)
+- [Hexadecimal](Software/Number%20System/readme.md#hexadecimal)
 
 ## [Registers and RAM](#registers-and-ram)
 Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. Whereas RAM stands for random-access memory. It is essentially short term memory where data is stored as the processor needs it.
@@ -56,6 +56,7 @@ Registers are small amounts of high-speed memory contained within the CPU. They 
 ## [Central Processing Unit(CPU)](#central-processing-unit)
 A central processing unit (CPU) is an important part of every computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.
 The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program.
+- [CPU](Hardware/CPU/readme.md)
 
 ## [Instruction and Program](#instruction-and-program)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. And a computer program is a list of instructions that tell a computer what to do. Everything a computer does is done by using a computer program. Programs stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
@@ -70,29 +71,29 @@ Some Languages Include:
 - C
 - C#
 
-## [Data Types](Data%20Types/readme.md#data-types)
+## [Data Types](Software/Data%20Types/readme.md#data-types)
 A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational or logical operations can be applied to it without causing an error.
 
-### [Primitive Data Types](Data%20Types/readme.md#primitive-data-types)
+### [Primitive Data Types](Software/Data%20Types/readme.md#primitive-data-types)
 Primitive data types are the most basic data types in a programming language. They are the building blocks of more complex data types. Primitive data types are predefined by the programming language and are named by a reserved keyword.
 
-### [Common Primitive Data Types](Data%20Types/readme.md#common-primitive-data-types)
+### [Common Primitive Data Types](Software/Data%20Types/readme.md#common-primitive-data-types)
 - [Integer](Data%20Types/readme.md#integer)
 - [Float](Data%20Types/readme.md#float)
 - [Boolean](Data%20Types/readme.md#boolean)
 - [Character](Data%20Types/readme.md#character)
 - [String](Data%20Types/readme.md#string)
 
-### [Non-Primitive Data Types](Data%20Types/readme.md#non-primitive-data-types)
+### [Non-Primitive Data Types](Software/Data%20Types/readme.md#non-primitive-data-types)
 Non-primitive data types are also known as reference data types. They are created by the programmer and are not defined by the programming language. Non-primitive data types are also called composite data types because they are composed of other types.
 
-### [Common Non-Primitive Data Types](Data%20Types/readme.md#common-non-primitive-data-types)
-- [Array](Data%20Types/readme.md#array)
-- [Struct](Data%20Types/readme.md#struct)
-- [Union](Data%20Types/readme.md#union)
-- [Pointer](Data%20Types/readme.md#pointer)
-- [Function](Data%20Types/readme.md#function)
-- [Class](Data%20Types/readme.md#class)
+### [Common Non-Primitive Data Types](Software/Data%20Types/readme.md#common-non-primitive-data-types)
+- [Array](Software/Data%20Types/readme.md#array)
+- [Struct](Software/Data%20Types/readme.md#struct)
+- [Union](Software/Data%20Types/readme.md#union)
+- [Pointer](Software/Data%20Types/readme.md#pointer)
+- [Function](Software/Data%20Types/readme.md#function)
+- [Class](Software/Data%20Types/readme.md#class)
 
 ## [Statements and Functions](#statement-and-function)
 In computer programming, a statement is a syntactic unit of an imperative programming language that expresses some action to be carried out. A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., expressions).
@@ -101,29 +102,29 @@ A function is a block of statements that performs a specific task. Functions acc
 
 Different functional languages use different syntax to write a function.
 
-## [Data Structures](Data%20Structures/readme.md)
+## [Data Structures](Software/Data%20Structures/readme.md)
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
 
 ### Types of Data Structures
-- [Array](Data%20Structures/readme.md#array)
-- [Linked List](Data%20Structures/readme.md#linkedlist)
-- [Stack](Data%20Structures/readme.md#stack)
-- [Queue](Data%20Structures/readme.md#queue)
-- [Hash Table](Data%20Structures/readme.md#hashtable)
-- [Heap](Data%20Structures/readme.md#heap)
-- [Tree](Data%20Structures/readme.md#tree)
-- [Graph](Data%20Structures/readme.md#graph)
+- [Array](Software/Data%20Structures/readme.md#array)
+- [Linked List](Software/Data%20Structures/readme.md#linkedlist)
+- [Stack](Software/Data%20Structures/readme.md#stack)
+- [Queue](Software/Data%20Structures/readme.md#queue)
+- [Hash Table](Software/Data%20Structures/readme.md#hashtable)
+- [Heap](Software/Data%20Structures/readme.md#heap)
+- [Tree](Software/Data%20Structures/readme.md#tree)
+- [Graph](Software/Data%20Structures/readme.md#graph)
 
-## [Algorithms](Algorithms/readme.md)
+## [Algorithms](Software/Algorithms/readme.md)
 Algorithms are the sets of steps necessary to complete computation - they are at the heart of what our devices actually do. And this isn’t a new concept. Since the development of math itself algorithms have been needed to help us complete tasks more efficiently, but today we’re going to take a look a couple modern computing problems like sorting and graph search, and show how we’ve made them more efficient so you can more easily find cheap airfare or map directions to Winterfell... or like a restaurant or something.
 
-### [Time Complexity](Algorithms/Time%20Complexity/readme.md)
+### [Time Complexity](Software/Algorithms/Time%20Complexity/readme.md)
 The time complexity of an algorithm estimates how much time the algorithm will use for some input. The idea is to represent the efficiency as a function whose parameter is the size of the input. By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it.
 
-### [Sorting](Algorithms/Sorting/readme.md)
+### [Sorting](Software/Algorithms/Sorting/readme.md)
 Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Or if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
 
-### [Graph Search](Algorithms/Graph%20Search/readme.md)
+### [Graph Search](Software/Algorithms/Graph%20Search/readme.md)
 Graph search is the process of searching through a graph to find a particular node. A graph is a data structure that consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for an undirected graph and as arrows, directed edges, directed arcs, or directed lines for a directed graph. The vertices may be part of the graph structure, or may be external entities represented by integer indices or references. Graphs are one of the most useful data structures for many real-world applications. Graphs are used to model pairwise relations between objects. For example, the airline route network is a graph in which the cities are the vertices and the flight routes are the edges. Graphs are also used to represent networks. The Internet can be modeled as a graph in which the computers are the vertices and the links between computers are the edges. Graphs are also used in social networks like linkedIn, Facebook. In fact, graphs are used to represent many real-world applications: computer networks, circuit design, and aeronautical scheduling to name just a few.
 
 ### Dynamic Programming

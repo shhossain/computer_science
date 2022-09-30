@@ -6,8 +6,8 @@
 - [Electronic Computing](#electronic-computing)
 - [Boolean Logic](#boolean-logic)
 - [Number Systems](#number-systems)
-- [Registers and RAM](#registers-and-ram)
 - [Central Processing Unit(CPU)](#central-processing-unitcpu)
+- [Registers, Cache and RAM](#registers-cache-and-ram)
 - [Instruction and Program](#instruction-and-program)
 - [Programming Language](#programming-language)
 - [Data Types](#data-types)
@@ -50,12 +50,14 @@ Number systems are a mathematical system for expressing numbers. A number system
 - [Decimal](Number%20System/readme.md#decimal)
 - [Hexadecimal](Number%20System/readme.md#hexadecimal)
 
-## [Registers and RAM](#registers-and-ram)
-Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. Whereas RAM stands for random-access memory. It is essentially short term memory where data is stored as the processor needs it.
 
 ## [Central Processing Unit(CPU)](#central-processing-unit)
 A central processing unit (CPU) is an important part of every computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.
-The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program.
+The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program. A CPU can process more than one instruction at a time on sections called Cores. A CPU with four cores may process four programs at once.
+
+
+## [Registers, Cache and RAM](#registers-cache-and-ram)
+Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Larger amounds of data may be stored in Cache (pronounced like cash).  This is very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuts not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
 
 ## [Instruction and Program](#instruction-and-program)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. And a computer program is a list of instructions that tell a computer what to do. Everything a computer does is done by using a computer program. Programs stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.

@@ -40,29 +40,29 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 ## [Number Systems](Number%20System/readme.md#number-systems)
 Number systems are a mathematical system for expressing numbers. A number system consists of a set of symbols that are used to represent numbers, and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals.
 
-### [Types of Number Systems](#types-of-number-systems)
+### [Types of Number Systems](Number%20System/readme.md#types-of-number-systems)
 - [Positional Numeral System](Number%20System/readme.md#positional-numeral-system)
 - [Sign-value Notation System](Number%20System/readme.md#sign-value-notation-system)
 
-### [Common Positional Number Systems](#common-positional-number-systems)
+### [Common Positional Number Systems](Number%20System/readme.md#common-positional-number-systems)
 - [Binary](Number%20System/readme.md#binary)
 - [Octal](Number%20System/readme.md#octal)
 - [Decimal](Number%20System/readme.md#decimal)
 - [Hexadecimal](Number%20System/readme.md#hexadecimal)
 
 
-## [Central Processing Unit(CPU)](#central-processing-unit)
+## [Central Processing Unit(CPU)](Not-Added)
 A central processing unit (CPU) is an important part of every computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.
 The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program. A CPU can process more than one instruction at a time on sections called Cores. A CPU with four cores may process four programs at once.
 
 
-## [Registers, Cache and RAM](#registers-cache-and-ram)
+## [Registers, Cache and RAM](Not-Added)
 Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Larger amounds of data may be stored in Cache (pronounced like cash).  This is very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuts not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
 
-## [Instruction and Program](#instruction-and-program)
+## [Instruction and Program](Not-Added)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. And a computer program is a list of instructions that tell a computer what to do. Everything a computer does is done by using a computer program. Programs stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
 
-## [Programming Language](#programming-language)
+## [Programming Language](Not-Added)
 A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output.[citation needed] Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.
 
 Some Languages Include:
@@ -96,7 +96,7 @@ Non-primitive data types are also known as reference data types. They are create
 - [Function](Data%20Types/readme.md#function)
 - [Class](Data%20Types/readme.md#class)
 
-## [Statements and Functions](#statement-and-function)
+## [Statements and Functions](Not-Added)
 In computer programming, a statement is a syntactic unit of an imperative programming language that expresses some action to be carried out. A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., expressions).
 
 A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily, without having to write the same code again and again.

@@ -85,6 +85,15 @@ Some Languages Include:
 - C
 - C#
 
+### Scripting Languages
+Ascripting language is a computer language that doesn't have to be compiled.One advantage of Scripting languages is that the code can be quickly edited and can be reexecuted.They can be used in server side of web applications and client side of web applications.
+
+Some Scripting Languages include:
+- Javascript
+- PHP
+- Python
+- Perl
+
 ## [Data Types](Data%20Types/readme.md#data-types)
 A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational or logical operations can be applied to it without causing an error.
 

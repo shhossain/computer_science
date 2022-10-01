@@ -51,6 +51,19 @@ Number systems are a mathematical system for expressing numbers. A number system
 - [Hexadecimal](Number%20System/readme.md#hexadecimal)
 
 
+### Importance Of Binary
+Binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day.The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and "1" represents electricity being allowed to flow. In this way, numbers are represented physically inside the computing device, permitting calculations.
+
+Binary is still the primary language for computers and used with electronics and computer hardware for the following reasons.
+
+-> It is a simple and elegant design.
+-> Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
+-> Having only two states placed far apart in an electrical signal makes it less susceptible to electrical interference.
+-> The positive and negative poles of magnetic media are quickly translated to binary.
+-> Binary is the most efficient way to control logic circuits.
+
+
+
 ## [Central Processing Unit(CPU)](Not-Added)
 A central processing unit (CPU) is an important part of every computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.
 The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program. A CPU can process more than one instruction at a time on sections called Cores. A CPU with four cores may process four programs at once.

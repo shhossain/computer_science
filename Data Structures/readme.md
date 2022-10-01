@@ -76,8 +76,25 @@ index 5 value is 6 with memory location 1010 and pointer to first node 1000
 ## Stack
 A stack is a data structure that stores a collection of data values in a LIFO (last in, first out) order.
 
+## Queue
+A queue stores a collection of data values in a FIFO (First In, First Out) order. The first element added to the queue will be the first to be processed (removed).\
+The implementation could use be an array-like (static and contiguous) or a linked-list-like (dynamic and dis-contiguous).
+### Queue's Common Operations
+#### Enqueue
+Add item to the rear of the queue
+##### Example
+```
+let queue = [4, 1, 0, 2];
+queue.enqueue(5);
+// queue is now [4, 1, 0, 2, 5]
+```
+#### Dequeue
+Remove the item from the front of the queue
+##### Example
 
-
-
-
-
+```
+let queue = [4, 1, 0, 2];
+let head = queue.dequeue();
+// head is 4
+// queue is now [1, 0, 2]
+```

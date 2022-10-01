@@ -6,6 +6,7 @@
 - [Electronic Computing](#electronic-computing)
 - [Boolean Logic](#boolean-logic)
 - [Number Systems](#number-systems)
+- [Binary] (#binary)
 - [Central Processing Unit(CPU)](#central-processing-unitcpu)
 - [Registers, Cache and RAM](#registers-cache-and-ram)
 - [Instruction and Program](#instruction-and-program)
@@ -49,6 +50,19 @@ Number systems are a mathematical system for expressing numbers. A number system
 - [Octal](Number%20System/readme.md#octal)
 - [Decimal](Number%20System/readme.md#decimal)
 - [Hexadecimal](Number%20System/readme.md#hexadecimal)
+
+
+## [Binary]
+Binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day.The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and "1" represents electricity being allowed to flow. In this way, numbers are represented physically inside the computing device, permitting calculations.
+
+Binary is still the primary language for computers and used with electronics and computer hardware for the following reasons.
+
+-> It is a simple and elegant design.
+-> Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
+-> Having only two states placed far apart in an electrical signal makes it less susceptible to electrical interference.
+-> The positive and negative poles of magnetic media are quickly translated to binary.
+-> Binary is the most efficient way to control logic circuits.
+
 
 
 ## [Central Processing Unit(CPU)](Not-Added)

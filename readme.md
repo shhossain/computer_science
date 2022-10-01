@@ -64,9 +64,13 @@ Binary is still the primary language for computers and used with electronics and
 
 
 
-## [Central Processing Unit(CPU)](Not-Added)
+## [Central Processing Unit(CPU)](https://github.com/umadhatri/computer_science/tree/main/CPU)
 A central processing unit (CPU) is an important part of every computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.
 The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program. A CPU can process more than one instruction at a time on sections called Cores. A CPU with four cores may process four programs at once.
+The CPU itself is made of three main components. They are:
+1) Memory or storage Unit
+2) Control Unit
+3) Arithmetic and Logic unit (ALU)
 
 
 ## [Registers, Cache and RAM](Not-Added)

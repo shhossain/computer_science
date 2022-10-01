@@ -83,6 +83,15 @@ index 4 value is 14 with memory location 1006 and pointer to next node 1010
 index 5 value is 6 with memory location 1010 and pointer to first node 1000
 ```
 
+#### Time complexities of some basic Linked List operations
+
+| Operation | Time Complexity |
+|-----------------|-------|
+| Accesing an element             | O(N)     |
+| Searching an element           | O(N)     |
+| Inserting an element             | O(1)     |
+| Deleting an element             | O(1)     |
+
 ## Stack
 A stack is a data structure that stores a collection of data values in a LIFO (last in, first out) order.
 

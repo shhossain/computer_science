@@ -211,6 +211,12 @@ d. O(n*n): This denotes quadratic time. O(n2) means that the performance is dire
 | Tree Sort   	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	   | O(n)             |
 | Cube Sort	     | Ω(n)	       | θ(n log(n)) | O(n log(n)) | O(n)             |
 
+| Algorithm	     |             |  Time Complexity|	       |
+|   :---:        |  :---:      |  :---: 	 |   :---: 	   |  
+|  	             | Best	       | Average	 |  Worst	   |
+| Linear Search | O(1)	   | O(N)	     | O(N)	   | O(1)  |
+| Binary Search	 | O(1)	       | O(logN)     | O(logN)	   |
+
 
 ## [Alan Turing](Alan%20Turing/readme.md)
 Alan Turing, (born June 23, 1912, London, Eng.—died June 7, 1954, Wilmslow, Cheshire), English mathematician and logician. He studied at the University of Cambridge and at Princeton’s Institute for Advanced Study. In his seminal 1936 paper “On Computable Numbers,” he proved that there cannot exist any universal algorithmic method of determining truth in mathematics and that mathematics will always contain undecidable (as opposed to unknown) propositions. That paper also introduced the Turing machine. He believed that computers eventually would be capable of thought indistinguishable from that of a human and proposed a simple test (see Turing test) to assess this capability. His papers on the subject are widely acknowledged as the foundation of research in artificial intelligence. He did valuable work in cryptography during World War II, playing an important role in breaking the Enigma code used by Germany for radio communications. After the war he taught at the University of Manchester and began work on what is now known as artificial intelligence. In the midst of this groundbreaking work, Turing was found dead in his bed, poisoned by cyanide. His death followed his arrest for a homosexual act (then a crime) and sentence of 12 months of hormone “therapy.

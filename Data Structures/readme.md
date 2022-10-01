@@ -40,6 +40,16 @@ array[5] // 14 (index 5 is the sixth element) (1005)
 array[6] // 6 (index 6 is the seventh element) (1006)
 ```
 
+#### Time complexities of some basic array operations
+
+| Operation | Time Complexity |
+|-----------------|-------|
+| Accesing an element             | O(1)     |
+| Searching an element           | O(N)     |
+| Inserting an element             | O(N)     |
+| Deleting an element             | O(N)     |
+
+
 ## LinkedList
 A linked list is a data structure that consists of a group of nodes where each node contains a data value and a reference (or link) to the next node in the list.
 

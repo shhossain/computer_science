@@ -167,6 +167,50 @@ Backtracking is an algorithmic-technique for solving problems recursively by try
 Branch and bound is a general technique for solving combinatorial optimization problems. It is a systematic enumeration technique that reduces the number of candidate solutions by using the problem's structure to eliminate candidate solutions that cannot possibly be optimal.
 
 
+### [Time Complexity and Space Complexity of Different Searching and Sorting Algorithms](Not-Added)
+Time Complexity: It is defined as the number of times a particular instruction set is expected to be executed rather than the total time taken. Since time is a dependent phenomenon, time complexity may vary on some external factors like processor speed, the compiler used, etc.
+
+Space Complexity: It is the total memory space consumed by the program for its execution.
+
+Both are calculated as the function of input size(n). The time complexity of an algorithm is expressed in big O notation.
+
+The efficiency of an algorithm depends on two parameters:
+1. Time Complexity
+2. Space Complexity
+
+Types Of Time Complexity :
+
+a. Best Time Complexity: The input for which algorithm takes less time or minimum time. In the best case calculate the lower bound of an algorithm. Example: The search data is present at the first location of large data in the linear search then the best case occurs.
+b. Average Time Complexity: We take all random inputs and calculate the computation time for all inputs. And then we divide it by the total number of inputs.
+c. Worst Time Complexity: Define the input for which algorithm takes a long time or maximum time. In the worst calculate the upper bound of an algorithm. Example: The search data is present at the last location of large data in the linear search then the worst case occurs.
+
+Some time complexities are :
+
+a. O(1): This denotes the constant time. 0(1) usually means that an algorithm will have constant time regardless of the input size. Hash Maps are perfect examples of constant time.
+
+b. O(log n): This denotes logarithmic time. O(log n) means to decrease with each instance for the operations. Binary search trees are the best examples of logarithmic time.
+
+c. O(n): This denotes linear time. O(n) means that the performance is directly proportional to the input size. In simple terms, the number of inputs and the time taken to execute those inputs will be proportional or the same. Linear search in arrays is the best example of linear time complexity.
+
+d. O(n*n): This denotes quadratic time. O(n2) means that the performance is directly proportional to the square of the input taken. In simple, the time taken for execution will take square times the input size. Nested loops are perfect examples of quadratic time complexity.
+
+| Algorithm	     |             |  Time Complexity|	       | Space Complexity |
+|   :---:        |  :---:      |  :---: 	 |   :---: 	   |   :---:          |
+|  	             | Best	       | Average	 |  Worst	   |  Worst           |
+| Selection Sort | Ω(n^2)	   | θ(n^2)	     | O(n^2)	   | O(1)             |
+| Bubble Sort	 | Ω(n)	       | θ(n^2)	     | O(n^2)	   | O(1)             |
+| Insertion Sort | Ω(n)	       | θ(n^2)	     | O(n^2)	   | O(1)             |
+| Heap Sort	     | Ω(n log(n)) | θ(n log(n)) | O(n log(n)) | O(1)             |
+| Quick Sort	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	   | O(n)             |
+| Merge Sort	 | Ω(n log(n)) | θ(n log(n)) | O(n log(n)) | O(n)             |
+| Bucket Sort    | Ω(n +k)	   | θ(n +k)	 | O(n^2)	   | O(n)             |
+| Radix Sort  	 | Ω(nk)	   | θ(nk)	     | O(nk)	   | O(n + k)         |
+| Count Sort  	 | Ω(n +k)	   | θ(n +k)	 | O(n +k)	   | O(k)             |
+| Shell Sort  	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	   | O(1)             |
+| Tim Sort	     | Ω(n)	       | θ(n log(n)) | O(n log(n)) | O(n)             |
+| Tree Sort   	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	   | O(n)             |
+| Cube Sort	     | Ω(n)	       | θ(n log(n)) | O(n log(n)) | O(n)             |
+
 
 ## [Alan Turing](Alan%20Turing/readme.md)
 Alan Turing, (born June 23, 1912, London, Eng.—died June 7, 1954, Wilmslow, Cheshire), English mathematician and logician. He studied at the University of Cambridge and at Princeton’s Institute for Advanced Study. In his seminal 1936 paper “On Computable Numbers,” he proved that there cannot exist any universal algorithmic method of determining truth in mathematics and that mathematics will always contain undecidable (as opposed to unknown) propositions. That paper also introduced the Turing machine. He believed that computers eventually would be capable of thought indistinguishable from that of a human and proposed a simple test (see Turing test) to assess this capability. His papers on the subject are widely acknowledged as the foundation of research in artificial intelligence. He did valuable work in cryptography during World War II, playing an important role in breaking the Enigma code used by Germany for radio communications. After the war he taught at the University of Manchester and began work on what is now known as artificial intelligence. In the midst of this groundbreaking work, Turing was found dead in his bed, poisoned by cyanide. His death followed his arrest for a homosexual act (then a crime) and sentence of 12 months of hormone “therapy.

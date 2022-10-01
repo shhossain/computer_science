@@ -31,7 +31,7 @@ array[6] // 6 (index 6 is the seventh element) (1006)
 
 | Operation | Time Complexity |
 |-----------------|-------|
-| Accesing an element             | O(1)     |
+| Accessing an element             | O(1)     |
 | Searching an element           | O(N)     |
 | Inserting an element             | O(N)     |
 | Deleting an element             | O(N)     |

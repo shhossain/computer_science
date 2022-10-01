@@ -72,21 +72,6 @@ The CPU itself is made of three main components. They are:
 2) Control Unit
 3) Arithmetic and Logic unit (ALU)
 
-## Memory or Storage Unit:
-The memory or storage unit stores vital information such as instructions, data, and intermediate results. The memory unit is responsible for transferring information to other units of the computer when needed. It is also known as an internal storage unit or the main memory or the primary storage or Random Access Memory (RAM) as all these are storage devices.
-
-## Control Unit:
-The control unit controls the operations of all parts of the computer but does not carry out any actual data processing operations. Its functions include:
-a) controlling the transfer of data and instructions among other units of a computer.
-b) managing and co-ordinating all the units of the computer.
-c) obtaining the instructions from the memory, interpreting them, and directing the operations of the computer.
-d) responsible for the communication with peripheral devices such as input and output devices.
-
-## Arithmetic and Logic Unit (ALU)
-The ALU, as can be seen, is made of two sections. They are:
-1) The Arithmetic Unit: It is responsible for the arithmetic operations such as addition, subtraction, multiplication and division. Any complicated actions are done by repeating the same steps over and over to achieve the final result
-2) The Logic Unit: As the name gives it away, it performs all the logical operations such as selecting, comparing, matching and merging of data
-
 
 ## [Registers, Cache and RAM](Not-Added)
 Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Larger amounds of data may be stored in Cache (pronounced like cash).  This is very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuts not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.

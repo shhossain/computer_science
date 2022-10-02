@@ -6,7 +6,7 @@ In computer science, a data structure is a data organization, management, and st
 - [Linked List](#linkedlist)
 - [Stack](#stack)
 - [Queue](#queue)
-- [Hash Table](#hashtable)
+- [Hash Table](#hash-table)
 - [Heap](#heap)
 - [Tree](#tree)
 - [Graph](#graph)
@@ -99,40 +99,28 @@ index 5 value is 6 with memory location 1010 and pointer to first node 1000
 
 
 ## Stack
-A stack is a data structure that stores a collection of data values in a LIFO (last in, first out) order.
+A stack is a data structure that stores a collection of data values in a LIFO (last in, first out) order.\
+A stack operations can only occur through one of its end, referred as the _top_ of the stack.\
+The implementation could be an array-like (static and contiguous) or a linked-list-like (dynamic and dis-contiguous).
+
+[More on Stack](Stack.md)
 
 ## Queue
 A queue stores a collection of data values in a FIFO (First In, First Out) order. The first element added to the queue will be the first to be processed (removed).\
-The implementation could use be an array-like (static and contiguous) or a linked-list-like (dynamic and dis-contiguous).
-### Queue's Common Operations
-#### Enqueue
-Add item to the rear of the queue
-##### Example
-```
-let queue = [4, 1, 0, 2];
-queue.enqueue(5);
-// queue is now [4, 1, 0, 2, 5]
-```
-#### Dequeue
-Remove the item from the front of the queue
-##### Example
+A queue can only be accessed through its ends, referred as _head_ for its rear and _tail_ for its back.\
+The implementation could be an array-like (static and contiguous) or a linked-list-like (dynamic and dis-contiguous).
 
-```
-let queue = [4, 1, 0, 2];
-let head = queue.dequeue();
-// head is 4
-// queue is now [1, 0, 2]
-```
+[More on Queue](Queue.md)
 
-#### Hash Table
+## Hash Table
 
 Hash Table is a data structure which stores data in an associative manner. In a hash table, data is stored in an array format, where each data value has its own unique index value. Access of data becomes very fast if we know the index of the desired data.
 
-##### Example 
+### Example 
 
 ```
 Let hash function H(x) = [11,12,13,14,15]
 // it will be stored at positions {1,2,3,4,5}
 // in the array or Hash table respectively.
-
 ```
+[More on Hash Table](HashTable.md)

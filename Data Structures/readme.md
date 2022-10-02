@@ -2,11 +2,11 @@
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
 
 ## Types of Data Structures
-- [Array](Array.md)
-- [Linked List](LinkedList.md)
-- [Stack](Stack.md)
-- [Queue](Queue.md)
-- [Hash Table](HashTable.md)
+- [Array](#array)
+- [Linked List](#linkedlist)
+- [Stack](#stack)
+- [Queue](#queue)
+- [Hash Table](#hash-table)
 - [Heap](#heap)
 - [Tree](#tree)
 - [Graph](#graph)
@@ -102,67 +102,15 @@ index 5 value is 6 with memory location 1010 and pointer to first node 1000
 A stack is a data structure that stores a collection of data values in a LIFO (last in, first out) order.\
 A stack operations can only occur through one of its end, referred as the _top_ of the stack.\
 The implementation could be an array-like (static and contiguous) or a linked-list-like (dynamic and dis-contiguous).
-### Stack's Common Operations
-#### Push
-Add item to the top of the stack.
-##### Example
-```
-let stack = [4, 1, 0, 2];
-stack.push(5);
-// stack is now [5, 4, 1, 0, 2]
-```
-#### Pop
-Remove item from the top of the stack.
-##### Example
-```
-let stack = [4, 1, 0, 2];
-let top = stack.pop();
-// top is 4
-// stack is now [1, 0, 2]
-```
-#### Peek
-Some programming languages provides `peek` method to allow checking the value of the current top without removing the value from the stack.
-##### Example
-```
-let stack = [4, 1, 0, 2];
-let currentHead = stack.peek();
-// currentHead is 4
-// stack remains [4, 1, 0, 2]
-```
+
+[More on Stack](Stack.md)
 
 ## Queue
 A queue stores a collection of data values in a FIFO (First In, First Out) order. The first element added to the queue will be the first to be processed (removed).\
 A queue can only be accessed through its ends, referred as _head_ for its rear and _tail_ for its back.\
 The implementation could be an array-like (static and contiguous) or a linked-list-like (dynamic and dis-contiguous).
-### Queue's Common Operations
-#### Enqueue
-Add item to the rear of the queue
-##### Example
-```
-let queue = [4, 1, 0, 2];
-queue.enqueue(5);
-// queue is now [4, 1, 0, 2, 5]
-```
-#### Dequeue
-Remove the item from the front of the queue
-##### Example
 
-```
-let queue = [4, 1, 0, 2];
-let head = queue.dequeue();
-// head is 4
-// queue is now [1, 0, 2]
-```
-#### Peek
-Some programming languages provides `peek` method to allow checking the value of the current head without removing the value from the queue.
-##### Example
-
-```
-let queue = [4, 1, 0, 2];
-let currentHead = queue.peek();
-// currentHead is 4
-// queue remains [4, 1, 0, 2]
-```
+[More on Queue](Queue.md)
 
 ## Hash Table
 
@@ -175,3 +123,4 @@ Let hash function H(x) = [11,12,13,14,15]
 // it will be stored at positions {1,2,3,4,5}
 // in the array or Hash table respectively.
 ```
+[More on Hash Table](HashTable.md)

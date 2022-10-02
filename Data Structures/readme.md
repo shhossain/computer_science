@@ -95,6 +95,8 @@ index 5 value is 6 with memory location 1010 and pointer to first node 1000
 | Deleting an element             | O(1)     |
 
 
+[More on Array](LinkedList.md)
+
 
 ## Stack
 A stack is a data structure that stores a collection of data values in a LIFO (last in, first out) order.

@@ -28,3 +28,44 @@ Below are some important properties of the Trie data structure:
 - Every node consists of hashmaps or an array of pointers, with each index representing a character and a flag to indicate if any string ends at the current node.
 - Trie data structure can contain any number of characters including alphabets, numbers, and special characters. But for this article, we will discuss strings with characters a-z. Therefore, only 26 pointers need for every node, where the 0th index represents ‘a’ and the 25th index represents ‘z’ characters.
 - Each path from the root to any node represents a word or string.
+
+## Example
+
+Below is a simple example of Trie data structure.
+
+![trie-data-structure](https://media.geeksforgeeks.org/wp-content/uploads/20220828232752/Triedatastructure1.png)
+
+## How does Trie Data Structure work?
+
+We already know that the Trie data structure can contain any number of characters including alphabets, numbers, and special characters. But for this article, we will discuss strings with characters a-z.  
+Therefore, only 26 pointers need for every node, where the 0th index represents ‘a’ and the 25th index represents ‘z’ characters.
+
+Any lowercase English word can start with a-z, then the next letter of the word could be a-z, the third letter of the word again could be a-z, and so on. So for storing a word,  
+we need to take an array (container) of size 26 and initially, all the characters are empty as there are no words and it will look as shown below.
+
+![trie-nodes](https://media.geeksforgeeks.org/wp-content/uploads/20220829160839/nodeintrie.png)
+
+## Let’s see how a word “and” and “ant” is stored in the Trie data structure:
+
+- Store “and” in Trie data structure:
+
+The word “and” starts with “a“, So we will mark the position “a” as filled in the Trie node, which represents the use of “a”.
+After placing the first character, for the second character again there are 26 possibilities,  
+ So from “a“, again there is an array of size 26, for storing the 2nd character.
+The second character is “n“, So from “a“, we will move to “n”  
+and mark “n” in the 2nd array as used.
+After “n“, the 3rd character is “d“, So mark the position “d” as used in the respective array.
+
+- Store “any” in the Trie data structure:
+
+The word “any” starts with “a” and the position of “a” in the root node has already been filled. So, no need to fill it again, just move to the node ‘a‘ in Trie.  
+For the second character ‘n‘ we can observe that the position of ‘n’ in the ‘a’ node has already been filled. So, no need to fill it again, just move to node ‘n’ in Trie.  
+For the last character ‘t‘ of the word, The position for ‘t‘ in the ‘n‘ node is not filled. So, filled the position of ‘t‘ in ‘n‘ node and move to ‘t‘ node. After storing the word “and” and “any” the Trie will look like this:
+
+- After storing the word “and” and “any” the Trie will look like this:
+
+![trie](https://media.geeksforgeeks.org/wp-content/uploads/20220831102825/a1.png)
+
+## Reference
+
+- GeeksforGeeks

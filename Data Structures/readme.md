@@ -40,6 +40,18 @@ array[5] // 14 (index 5 is the sixth element) (1005)
 array[6] // 6 (index 6 is the seventh element) (1006)
 ```
 
+#### Time complexities of some basic array operations
+
+| Operation | Time Complexity |
+|-----------------|-------|
+| Accessing an element             | O(1)     |
+| Searching an element           | O(N)     |
+| Inserting an element             | O(N)     |
+| Deleting an element             | O(N)     |
+
+[More on Array](Array.md)
+
+
 ## LinkedList
 A linked list is a data structure that consists of a group of nodes where each node contains a data value and a reference (or link) to the next node in the list.
 
@@ -72,6 +84,19 @@ index 3 value is 0 with memory location 1004 and pointer to next node 1006
 index 4 value is 14 with memory location 1006 and pointer to next node 1010
 index 5 value is 6 with memory location 1010 and pointer to first node 1000
 ```
+
+#### Time complexities of some basic Linked List operations
+
+| Operation | Time Complexity |
+|-----------------|-------|
+| Accesing an element             | O(N)     |
+| Searching an element           | O(N)     |
+| Inserting an element             | O(1)     |
+| Deleting an element             | O(1)     |
+
+
+[More on Linked List](LinkedList.md)
+
 
 ## Stack
 A stack is a data structure that stores a collection of data values in a LIFO (last in, first out) order.

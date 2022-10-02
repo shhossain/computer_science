@@ -134,6 +134,34 @@ A heap is a specialized tree-based data structure which is an almost complete tr
 ```
 Let array of numbers be [100, 7, 2, 17, 3, 25, 1, 36, 19]
 // It will be in a tree-like form where the largest number will point to a smaller number and the smaller number points to an even smaller number and so on
+
+A heap representation of the array would look like this:
+                    100
+                  /     \
+                 19      36
+                /  \    /  \
+               17   3  25   1
+              /  \    
+             2    7
 ```
-![Heap example](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Max-Heap-new.svg/1200px-Max-Heap-new.svg.png)
 [More on Heap](Heap.md)
+
+## Tree
+
+A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value and a list of references to other nodes (the “children”).
+
+### Example
+
+```
+Let array of numbers be [100, 7, 2, 17, 3, 25, 1, 36, 19]
+// The tree is a specialized method to organize and store data in the computer to be used more effectively
+A tree representation of the array would look like this:
+                    100
+                  /     \
+                 19      36
+                /  \    /  \
+               17   3  25   1
+              /  \    
+             2    7
+```
+[More on Trees](Tree.md)

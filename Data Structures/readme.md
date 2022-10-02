@@ -134,6 +134,14 @@ A heap is a specialized tree-based data structure which is an almost complete tr
 ```
 Let array of numbers be [100, 7, 2, 17, 3, 25, 1, 36, 19]
 // It will be in a tree-like form where the largest number will point to a smaller number and the smaller number points to an even smaller number and so on
+
+A heap representation of the array would look like this:
+                    100
+                  /     \
+                 19      36
+                /  \    /  \
+               17   3  25   1
+              /  \    
+             2    7
 ```
-![Heap example](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Max-Heap-new.svg/1200px-Max-Heap-new.svg.png)
 [More on Heap](Heap.md)

@@ -6,6 +6,21 @@ Dynamic programming is both a mathematical optimization method and a computer pr
 Dynamic Programming is mainly an optimization over plain recursion. Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later. This simple optimization reduces time complexities from exponential to polynomial.
 
 
+# Steps of Dynamic Programming Approach
+Dynamic Programming algorithm is designed using the following four steps −
+
+1. Characterize the structure of an optimal solution.
+2. Recursively define the value of an optimal solution.
+3. Compute the value of an optimal solution, typically in a bottom-up fashion.
+4. Construct an optimal solution from the computed information.
+
+
+# Applications of Dynamic Programming Approach
+- Matrix Chain Multiplication
+- Longest Common Subsequence
+- Travelling Salesman Problem
+
+
 ## Popular Algorithms
 
 * [Fibonacci Sequence](Fibonacci%20Sequence/README.md)

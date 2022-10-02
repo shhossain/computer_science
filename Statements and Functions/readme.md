@@ -138,7 +138,7 @@ Here,` range(2, 11, 2)` tells the program that it should run the loop for all th
 
 ## 2. while / do while statements
 
-A while statement always checks if the condition provided is True or False at the beginning of the loop and in case it is True, the block of code within the loop is executed. Otherwise, the loop is terminated. 
+A while statement always checks if the condition provided is True or False at the beginning of the loop and in case it is True, the block of code within the loop is executed. Otherwise, the loop is terminated. As it always checks the condition at the beginning it is also called as Entry-Controlled loop.
 
 
 * A code in C++ to implement the same:
@@ -161,7 +161,7 @@ while i <= 10:
 
 In the above codes, the while loop runs until the value of i is 10.
 
-In a do while loop, the validity of the condition is checked at the end of loop. Hence, the code runs atleast once even if the provided condition is False.
+In a do while loop, the validity of the condition is checked at the end of loop. Hence, the code runs atleast once even if the provided condition is False. Also known as Exit-Controlled loop as condition is checked after the loop body is executed.
 
 If I modify the above code to a do while loop, it will print even numbers upto 12 as it checks the condition after the loop is executed.
 

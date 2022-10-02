@@ -23,7 +23,7 @@ end procedure
 
 ## Implementations
 * [CPP](#cpp)
-*[C](#c)
+* [C](#c)
 
 ### CPP
 ```cpp

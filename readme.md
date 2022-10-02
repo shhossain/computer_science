@@ -83,6 +83,11 @@ In computer science, an instruction is a single operation of a processor defined
 ## [Programming Language](Not-Added)
 A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output.[citation needed] Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.
 
+Programming languages are mainly of two types : 
+1. High-level language uses syntax similar to the English language.The source code is converted into machine-understandable machine code using a compiler or an interpreter. Java, Python are some examples of high-level programming languages.
+2. Low-level programming languages work more closely to the hardware and have more control over it. They directly interact with the hardware. Two common examples of low-level languages are machine language and assembly language.
+
+
 Some Languages Include:
 - Python
 - Java
@@ -91,7 +96,7 @@ Some Languages Include:
 - C#
 
 ### Scripting Languages
-Ascripting language is a computer language that doesn't have to be compiled.One advantage of Scripting languages is that the code can be quickly edited and can be reexecuted.They can be used in server side of web applications and client side of web applications.
+A scripting language is a computer language that doesn't have to be compiled.One advantage of Scripting languages is that the code can be quickly edited and can be reexecuted.They can be used in server side of web applications and client side of web applications.
 
 Some Scripting Languages include:
 - Javascript

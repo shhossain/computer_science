@@ -12,7 +12,12 @@ In computer science, a data structure is a data organization, management, and st
 - [Graph](#graph)
 
 ## Array
-An array is a data structure that stores a collection of data values in contiguous memory locations.
+An array is a data structure that stores a collection of data values in continuous memory locations.
+
+Pracrical real real life examples of Linked list are below:
+1) Contacts on a cell phone.
+2) For CPU scheduling in computer.
+3) Book titles in a Library Management Systems.
 
 ### Example
 ```
@@ -54,6 +59,11 @@ array[6] // 6 (index 6 is the seventh element) (1006)
 
 ## LinkedList
 A linked list is a data structure that consists of a group of nodes where each node contains a data value and a reference (or link) to the next node in the list.
+
+Pracrical real real life examples of Linked list are below:
+1) Image viewer – Previous and next images can be accessed by the next and previous buttons if we use linked list under the hood.
+2) Web browser – We can access the previous and next URL searched in a web browser as they are linked through a linked list.
+3) Music Player – Songs in the music player are linked to the previous and next songs. So you can play songs either from starting or ending of the list.
 
 ### Example
 ```
@@ -115,6 +125,11 @@ The implementation could be an array-like (static and contiguous) or a linked-li
 ## Hash Table
 
 Hash Table is a data structure which stores data in an associative manner. In a hash table, data is stored in an array format, where each data value has its own unique index value. Access of data becomes very fast if we know the index of the desired data.
+
+Pracrical real real life examples of Linked list are below:
+1) Authentication - Cryptographic hash functions let you log in to a system without storing your password anywhere vulnerable.
+
+2) Search - Hashing is useful for indexing large storage spaces, so that you can look things up in them without reading their entire contents every time.
 
 ### Example 
 

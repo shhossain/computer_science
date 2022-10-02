@@ -279,7 +279,8 @@ func element(a, b int) int {
 ```
 
 ### Ruby
-```ruby
+```ruby implementation
+
 # Ruby program for implementation of Shell Sort
 
 class ShellSorter

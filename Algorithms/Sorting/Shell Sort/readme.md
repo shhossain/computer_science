@@ -77,9 +77,6 @@ print("input array:",arr2)
 
 shellSort(arr2,len(arr2))
 print("sorted array",arr2)
-
-# This code is contributed by Illion
-
 ```
 
 ### CPP

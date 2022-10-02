@@ -20,6 +20,7 @@
 - [Operating Systems](#operating-systems)
 - [Memory and Storage](#memory-and-storage)
 - [File System](#file-system)
+- [Cloud Computing](#cloud-computing)
 
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
@@ -337,3 +338,16 @@ Major file systems include the following:
 - The NT file system -- also known as the New Technology File System (NTFS) -- is the default file system for Windows products from Windows NT 3.1 OS onward. Improvements from the previous FAT file system include better metadata support, performance and use of disk space. NTFS is also supported in the Linux OS through a free, open-source NTFS driver. Mac OSes have read-only support for NTFS.
 
 - Universal Disk Format (UDF) is a vendor-neutral file system used on optical media and DVDs. UDF replaces the ISO 9660 file system and is the official file system for DVD video and audio as chosen by the DVD Forum.
+
+
+## [Cloud Computing](Cloud%20Computing/readme.md)
+Cloud computing is the ability to access information and applications over the Internet. Cloud computing allows users to access applications and data from any location, as long as they have an Internet connection.
+
+Cloud computing is a type of Internet-based computing that provides shared computer processing resources and data to computers and other devices on demand.
+
+It is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.
+
+### Types of Cloud Computing Services
+- [Infrastructure as a Service (IaaS)](Cloud%20Computing/Readme.md#infrastructure-as-a-service-iaas)
+- [Platform as a Service (PaaS)](Cloud%20Computing/Readme.md#platform-as-a-service-paas)
+- [Software as a Service (SaaS)](Cloud%20Computing/Readme.md#software-as-a-service-saas)

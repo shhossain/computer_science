@@ -124,3 +124,16 @@ Let hash function H(x) = [11,12,13,14,15]
 // in the array or Hash table respectively.
 ```
 [More on Hash Table](HashTable.md)
+
+## Heap
+
+A heap is a specialized tree-based data structure which is an almost complete tree that satisfies the heap property. The heap property means that the element with the greatest key is always in the root node such a heap is sometimes called a max-heap.
+
+### Example
+
+```
+Let array of numbers be [100, 7, 2, 17, 3, 25, 1, 36, 19]
+// It will be in a tree-like form where the largest number will point to a smaller number and the smaller number points to an even smaller number and so on
+```
+![Heap example](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Max-Heap-new.svg/1200px-Max-Heap-new.svg.png)
+[More on Heap](Heap.md)

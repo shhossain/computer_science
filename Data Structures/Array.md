@@ -26,6 +26,10 @@ array[4] // 0 (index 4 is the fifth element) (1004)
 array[5] // 14 (index 5 is the sixth element) (1005)
 array[6] // 6 (index 6 is the seventh element) (1006)
 ```
+<p align="center">
+  <img src="images/Array.png?raw=true" alt="Array Image"/>
+</p>
+
 
 #### Time complexities of some basic array operations
 

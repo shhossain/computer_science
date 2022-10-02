@@ -91,13 +91,14 @@ Some Languages Include:
 - C#
 
 ### Scripting Languages
-Ascripting language is a computer language that doesn't have to be compiled.One advantage of Scripting languages is that the code can be quickly edited and can be reexecuted.They can be used in server side of web applications and client side of web applications.
+A scripting language or script language is a programming language that is used to manipulate, customize, and automate the facilities of an existing system. Scripting languages are usually interpreted at runtime rather than compiled. 
 
 Some Scripting Languages include:
 - Javascript
 - PHP
 - Python
 - Perl
+- Ruby
 
 ## [Data Types](Data%20Types/readme.md#data-types)
 A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational or logical operations can be applied to it without causing an error.
@@ -287,28 +288,30 @@ Modern electronic component distributors often further sub-categorize integrated
 - Three-dimensional integrated circuits (3D ICs) are categorized into through-silicon via (TSV) ICs and Cu-Cu connection ICs.
 
 ## [Operating Systems](Operating%20Systems/readme.md)
-An operating system (or OS for short) acts as an intermediary between the user of a computer and computer hardware. The purpose of an operating system is to provide an environment in which an user can execute programs conveniently and efficiently.
+An operating system (often abbreviated to Os) acts as an intermediary between the user of a computer and computer hardware. The purpose of an operating system is to provide an environment in which an user can execute programs conveniently and efficiently.
 An operating system is a software that manages computer hardware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent user programs from interfering with the proper operation of the system.
 An even more common definition is that the operating system is the one program running at all times on the computer (usually called the kernel), with all else being application programs.
 
 ### Functions of an OS
-- **Convenience**: An OS makes a computer more convenient to use.
-- **Efficiency**: An OS allows the computer system resources to be used efficiently.
+- **Convenience  of os**: An OS makes a computer more convenient to use.
+- **Efficiency of os**: An OS allows the computer system resources to be used efficiently.
 - **Ability to Evolve**: An OS should be constructed in such a way as to permit the effective development, testing, and introduction of new system functions at the same time without interfering with service.
 - **Throughput**: An OS should be constructed so that It can give maximum throughput(Number of tasks per unit time).
 
-### Major functionalities of an OS
+### Major functionalities of an OS (operating system)
 - **Resource Management**: When parallel accessing happens in the OS means when multiple users are accessing the system the OS works as Resource Manager, Its responsibility is to provide hardware to the user. It decreases the load in the system.
 - **Process Management**: It includes various tasks like scheduling, termination of the process. OS manages various tasks at a time. Here CPU Scheduling happens means all the tasks would be done by the many algorithms that use for scheduling.
 - **Storage Management**: The file system mechanism used for the management of the storage. NIFS, CFS, CIFS, NFS, etc. are some file systems. All the data stores in various tracks of Hard disks that all managed by the storage manager. It included Hard Disk.
 - **Memory Management**: Refers to the management of primary memory. The operating system has to keep track, how much memory has been used and by whom. It has to decide which process needs memory space and how much. OS also has to allocate and deallocate the memory space.
 - **Security/Privacy Management**: Privacy is also provided by the Operating system by means of passwords so that unauthorized applications can’t access programs or data. For example, Windows uses **_Kerberos_** authentication to prevent unauthorized access to data.
 
+"Kerberos" is a computer-network authentication protocol that works on the basis of tickets to allow nodes communicating over a non-secure network to prove their identity to one another in a secure manner
+
 ## [Memory and Storage](Memory%20and%20Storage/readme.md)
-If you are unsure about the difference between memory and storage in computers, this article covers the differences between the two.
+If you are not aware of the difference between memory and storage in computers, this article covers the differences between the two. {memory and storage}
 
 ### Memory
-The term _memory_ refers to the component within your computer that allows for short-term data access. You may recognise this component as DRAM, or dynamic random-access memory. Your computer performs many operations by accessing data stored in its short-term memory. Some examples of such operations include editing a document, loading applications and browsing the internet. The speed and performance of your system depends on the amount of memory that is installed on your computer.
+The term "memory" refers to the component within your computer that allows for short-term data access. You may recognise this component as DRAM, or dynamic random-access memory. Your computer performs many operations by accessing data stored in its short-term memory. Some examples of such operations include editing a document, loading applications and browsing the internet. The speed and performance of your system depends on the amount of memory that is installed on your computer.
 
 If you have a desk and a filing cabinet, the desk represents the memory of your computer. Items you need to use immediately are kept on your desk for easy access. However, not much can be stored on a desk due to its size limitations.
 
@@ -322,7 +325,7 @@ While the desk represents the computer's memory, the filing cabinet represents t
 ## [File System](File%20System/readme.md)
 In computing, file system or filesystem (often abbreviated to fs) is a method and data structure that the operating system uses to control how data is stored and retrieved. Without a file system, data placed in a storage medium would be one large body of data with no way to tell where one piece of data stopped and the next began, or where any piece of data was located when it was time to retrieve it. By separating the data into pieces and giving each piece a name, the data is easily isolated and identified. Taking its name from the way a paper-based data management system is named, each group of data is called a "file". The structure and logic rules used to manage the groups of data and their names is called a "file system."
 
-There are many kinds of file systems, each with unique structure and logic, properties of speed, flexibility, security, size and more. Some file systems have been designed to be used for specific applications. For example, the ISO 9660 file system is designed specifically for optical discs.
+There are many kinds of file systems, each has unique structures and logic, properties of speed, flexibility, security, size and more. Some file systems have been designed to be used for specific applications. For example, the ISO 9660 file system is designed specifically for optical discs.
 
 File systems can be used on many types of storage devices using various media. As of 2019, hard disk drives have been key storage devices and are projected to remain so for the foreseeable future. Other kinds of media that are used include SSDs, magnetic tapes, and optical discs. In some cases, such as with tmpfs, the computer's main memory (random-access memory, RAM) is used to create a temporary file system for short-term use.
 
@@ -363,6 +366,14 @@ Cloud computing is the ability to access information and applications over the I
 Cloud computing is a type of Internet-based computing that provides shared computer processing resources and data to computers and other devices on demand.
 
 It is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.
+
+### the four main types of cloud computing are :
+
+- [private-clouds] 
+- [public-clouds]
+- [hybrid-clouds]
+- [multi-clouds]
+
 
 ### Types of Cloud Computing Services
 - [Infrastructure as a Service (IaaS)](Cloud%20Computing/Readme.md#infrastructure-as-a-service-iaas)

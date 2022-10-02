@@ -30,6 +30,7 @@ procedure BFS(G,v) is
 * [C#](#csharp)
 * [C](#c)
 * [Java](#java)
+* [JavaScript](#javascript)
 * [Python](#python)
 * [Ruby](#ruby)
 * [Swift](#swift)
@@ -618,4 +619,56 @@ g.addEdge(3, 3)
 g.BFS(2)
 ```
 
+### JavaScript
+```javascript
+class Graph {
+    constructor(vertices) {
+        this.vertices = vertices;
+        this.adj = [];
+        for (let i = 0; i < vertices; i++) {
+            this.adj[i] = [];
+        }
+    }
 
+    addEdge(source, destination) {
+        this.adj[source].push(destination);
+    }
+
+    bfsUtil(vertex, visited) {
+        const queue = [vertex];
+        
+
+        while(queue.length) {
+            const top = queue.shift();
+            visited[top] = true;
+
+            console.log(top);
+
+            this.adj[top].forEach((v) => {
+                if(!visited[v]) {
+                    queue.push(v);
+                }
+            })
+        }
+    }
+
+    bfs(vertex) {
+        const visited = [];
+        for (let i = 0; i < this.vertices; i++) {
+            visited[i] = false;
+        }
+        this.bfsUtil(vertex, visited);
+    }
+}
+
+const g = new Graph(4);
+g.addEdge(0, 1);
+g.addEdge(0, 2);
+g.addEdge(1, 2);
+g.addEdge(2, 0);
+g.addEdge(2, 3);
+g.addEdge(3, 3);
+
+console.log("Following is Breadth First Traversal (starting from vertex 2)");
+g.bfs(2);
+```

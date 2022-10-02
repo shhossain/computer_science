@@ -49,7 +49,7 @@ array[6] // 6 (index 6 is the seventh element) (1006)
 | Inserting an element             | O(N)     |
 | Deleting an element             | O(N)     |
 
-[More on Array](BlobAccess/Array.md)
+[More on Array](Array.md)
 
 
 ## LinkedList

@@ -135,8 +135,6 @@ Different functional languages use different syntax to write a function.
 There are two main types of statements in any programming language that are necessary to build the logic of a code.
 1. [Conditional-Statements](Statements%20and%20Functions/readme.md#conditional-statements)
 
-<br>
-
 There are two types of conditional statements mainly:
 - if else
 - switch case
@@ -144,7 +142,7 @@ There are two types of conditional statements mainly:
 <br>
 
 2. [Loops](Statements%20and%20Functions/readme.md#loops)
-<br>
+
 There are three types of conditional statements mainly:
 - for loop
 - while loop

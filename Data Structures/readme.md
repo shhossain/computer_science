@@ -95,7 +95,7 @@ index 5 value is 6 with memory location 1010 and pointer to first node 1000
 | Deleting an element             | O(1)     |
 
 
-[More on Array](LinkedList.md)
+[More on Linked List](LinkedList.md)
 
 
 ## Stack

@@ -123,12 +123,32 @@ Non-primitive data types are also known as reference data types. They are create
 - [Function](Data%20Types/readme.md#function)
 - [Class](Data%20Types/readme.md#class)
 
-## [Statements and Functions](Not-Added)
+## [Statements and Functions](Functions%20and%20Statements/readme.md)
 In computer programming, a statement is a syntactic unit of an imperative programming language that expresses some action to be carried out. A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., expressions).
 
 A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily, without having to write the same code again and again.
 
 Different functional languages use different syntax to write a function.
+
+<hr>
+
+There are two main types of statements in any programming language that are necessary to build the logic of a code.
+1. [Conditional-Statements](Statements%20and%20Functions/readme.md#conditional-statements)
+
+There are two types of conditional statements mainly:
+- if else
+- switch case
+
+<br>
+
+2. [Loops](Statements%20and%20Functions/readme.md#loops)
+
+There are three types of conditional statements mainly:
+- for loop
+- while loop
+- do - while loop (a variation of while loop)
+
+<hr>
 
 ## [Data Structures](Data%20Structures/readme.md)
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.

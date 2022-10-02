@@ -19,10 +19,10 @@ Graph search is the process of searching through a graph to find a particular no
 * [Dijkstra's Algorithm](Graph%20Search/Dijkstra'sAlgorithm/readme.md)
 * [A* Search](Graph%20Search/A*Search/readme.md)
 
-## Dynamic Programming
+## [Dynamic Programming](Dynamic%20Programming/README.md)
 Dynamic programming is both a mathematical optimization method and a computer programming method. The method was developed by Richard Bellman in the 1950s and has found applications in numerous fields, from aerospace engineering to economics. In both contexts it refers to simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner. While some decision problems cannot be taken apart this way, decisions that span several points in time do often break apart recursively. Likewise, in computer science, if a problem can be solved optimally by breaking it into sub-problems and then recursively finding the optimal solutions to the sub-problems, then it is said to have optimal substructure. Dynamic programming is one way to solve problems with these properties. The process of breaking a complicated problem down into simpler sub-problems is called "divide and conquer".
 ### Popular Dynamic Programming Algorithms
-* [Fibonacci Sequence](DynamicProgramming/FibonacciSequence/readme.md)
+* [Fibonacci Sequence](Dynamic%20Programming/Fibonacci%20Sequence/README.md)
 * [Longest Common Subsequence](DynamicProgramming/LongestCommonSubsequence/readme.md)
 * [Longest Increasing Subsequence](DynamicProgramming/LongestIncreasingSubsequence/readme.md)
 * [Knapsack Problem](DynamicProgramming/KnapsackProblem/readme.md)

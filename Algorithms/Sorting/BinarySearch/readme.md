@@ -83,10 +83,10 @@ int binarySearch(int[] arr){
 
             if(arr[mid]>arr[mid+1]){
                 // you are in descending part of the array
+               //this may be the answer but we need to look at the left part
                 end = mid;
             }else{
                 // you are in ascending part of n array
-                //this may be the answer
                 start = mid +1;
             }
         }    

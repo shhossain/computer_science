@@ -21,7 +21,7 @@ A simple method that is a direct recursive implementation mathematical recurrenc
 ```JAVA
 //Binary search in Ascending order array
 int binarySearch(int[] arr, int target){
-        //int arr[] = {1,2,3,4,5,6,7,8,9,10}, target ==6
+        //int arr[] = {1,2,3,4,5,6,7,8,9,10}, target ==9
     int start=0, end=arr.length-1;//start and end pointers
     while(start<=end){
         int mid = start + (end-start)/2 //mid of the array
@@ -42,7 +42,7 @@ int binarySearch(int[] arr, int target){
 **Output:**
 
 ```
-5
+8
 ```
 
 ***Time Complexity: Log n***, 

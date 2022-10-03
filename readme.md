@@ -17,6 +17,7 @@
 - [Alan Turing](#alan-turing)
 - [Software Engineering](#software-engineering)
 - [Integrated Circuits](#integrated-circuits)
+- [Object Oriented Programming](#object-oriented-programming)
 - [Operating Systems](#operating-systems)
 - [Memory and Storage](#memory-and-storage)
 - [File System](#file-system)
@@ -131,11 +132,6 @@ Non-primitive data types are also known as reference data types. They are create
 ## [Statements and Functions](Statements%20and%20Functions/readme.md)
 In computer programming, a statement is a syntactic unit of an imperative programming language that expresses some action to be carried out. A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., expressions).
 
-A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily, without having to write the same code again and again.
-
-Different functional languages use different syntax to write a function.
-
-
 There are two main types of statements in any programming language that are necessary to build the logic of a code.
 1. [Conditional-Statements](Statements%20and%20Functions/readme.md#conditional-statements)
 
@@ -150,6 +146,27 @@ There are three types of conditional statements mainly:
 - for loop
 - while loop
 - do - while loop (a variation of while loop)
+
+------------
+
+A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily, without having to write the same code again and again.
+
+Different functional languages use different syntax to write a function.
+
+Read more about functions [here](Statements%20and%20Functions/readme.md#functions)
+
+## [Object Oriented Programming](Object%20Oriented%20Programming/readme.md)
+Object Oriented Programming is a fundamental programming paradigm which is based on the concepts of objects and data.
+
+It is the standard way of code that every programmer has to abide by for better readability and reusability of the code. 
+
+### * There are four basic concepts of Object Oriented Programming:
+- Abstraction
+- Encapsulation
+- Inheritance
+- Polymorphism 
+
+Read more about these concepts of OOP [here](Object%20Oriented%20Programming/readme.md)
 
 
 ## [Data Structures](Data%20Structures/readme.md)

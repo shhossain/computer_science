@@ -1,6 +1,7 @@
 ## Sorting
 Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Or if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
 ### Popular Sorting Algorithms
+
 * [Bubble Sort](BubbleSort/readme.md)
 * [Insertion Sort](InsertionSort/readme.md)
 * [Selection Sort](SelectionSort/readme.md)
@@ -12,3 +13,6 @@ Sorting is the process of arranging a list of items in a particular order. For e
 * [Shell Sort](Sorting/ShellSort/readme.md)
 * [Count Sort](Sorting/CountSort/readme.md)
 
+### Searching Algorithms
+
+* [Binary Search](BinarySearch/readme.md)

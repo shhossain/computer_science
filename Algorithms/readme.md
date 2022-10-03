@@ -67,6 +67,14 @@ Branch and bound is a general technique for solving combinatorial optimization p
 * [0-1 Knapsack](BranchandBound/0-1Knapsack/readme.md)
 * [Travelling Salesman Problem](BranchandBound/TravellingSalesmanProblem/readme.md)
 
+## [Searching](Searching/README.md)
+Searching is algorithm for finding a certain target element inside a container. Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
 
+### Popular Searching Algorithms revert-67-add-Vovka1759 
+* [Linear Search](Searching/LinearSearch/readme.md)
+* [Binary Search](Searching/BinarySearch/readme.md)
+* [Jump Search](Not-Added)
+* [Interpolation Search](Not-Added)
+* [Exponential Search](Not-Added)
 
 

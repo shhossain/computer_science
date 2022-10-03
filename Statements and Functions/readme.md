@@ -186,3 +186,54 @@ do	{
 
 * *Note: In Python, we do not have do-while loops.*
 ------------
+
+# Functions
+
+In programming, we often have a block of code which performs a specific task and many times within the program, we may need to use the exact same piece of code. In this case, to eliminate repeatedly writing the same code over and over again and also to maintain readability of the code, we define functions for the same.
+
+* A function can be reused multiple times.
+* You can send data to a function which it uses to perform a task.
+* A function generally returns a value to the main function which is then used to perform other operations.
+* Every programming language has some built-in functions which you can use.
+* You  can also write functions on your own.
+* When you call a function, the flow of control shifts from the main function to the function which is **always executed from top to bottom**.
+* A function can call another function or even call itself (known as recursive functions).
+* A return function takes the flow of control out of the function and goes back to the main function.
+
+------------
+
+Let us consider a situation where I want to print all the prime numbers between 1 to 100:
+
+So, we can write a function to check if a number is prime or not. It returns a boolean data type value based on which we decide whether the number should be printed or not.
+
+Code Snippet for the `isPrime` function:
+
+```python
+def isPrime (number: int) -> bool:
+	factors = 0
+	for i in range (2, (number // 2) + 1):
+		if number % i == 0:
+			factors += 1
+	if factors == 0:
+		return True
+	return False
+```
+**<li> The topmost line of a function is called a function header. </li>**
+
+In, `def isPrime (number: int) -> bool:` ,
+the parameters within the bracket tells the program how many parameters this function will accept and what are they called.
+
+In this case, the function header tells the program that it has to pass one parameter to the `isPrime` function and that parameter/ variable will be refered to as `number` inside the function.
+<br>
+
+Now let us use this function to print prime numbers upto 100:
+```python
+for i in range(1, 101):
+	if isPrime(i):
+		print (i)
+```
+
+* This code uses the `isPrime ` function to determine if the number is prime or not for every value of i from 1 to 100 and prints the prime numbers only.
+* This not only just increases the readability of the main program but the isPrime function can be used by other programs too.
+
+------------

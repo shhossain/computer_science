@@ -5,3 +5,4 @@ Searching Algorithms are designed to check for an element or retrieve an element
 
 ## Searching Algorithms
 * [Linear Search](LinearSearch/readme.md)
+* [Binary Search](BinarySearch/readme.md)

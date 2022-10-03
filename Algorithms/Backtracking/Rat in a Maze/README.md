@@ -62,6 +62,7 @@ Print N lines containing N integers each, where jth integer int ith line denotes
 		<li> If no element fits, backtrack and return false
 	</ol>
 </ol>
+</ol>
 <br> <br>
 <h2> Using Recursion in Cpp </h2>
 
@@ -156,7 +157,7 @@ int main() {
 	return 0;
 }
 ```
-<br><br>
+<br>
 <h3> Complexity Analysis </h3>
 <p><h> Time Complexity: </h>
 <br>

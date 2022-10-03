@@ -1,7 +1,14 @@
-## Graph Search
-Graph search is the process of searching through a graph to find a particular node. A graph is a data structure that consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for an undirected graph and as arrows, directed edges, directed arcs, or directed lines for a directed graph. The vertices may be part of the graph structure, or may be external entities represented by integer indices or references. Graphs are one of the most useful data structures for many real-world applications. Graphs are used to model pairwise relations between objects. For example, the airline route network is a graph in which the cities are the vertices and the flight routes are the edges. Graphs are also used to represent networks. The Internet can be modeled as a graph in which the computers are the vertices and the links between computers are the edges. Graphs are also used in social networks like linkedIn, Facebook. In fact, graphs are used to represent many real-world applications: computer networks, circuit design, and aeronautical scheduling to name just a few.
-### Popular Graph Search Algorithms
-* [Breadth First Search](BreadthFirstSearch/readme.md)
-* [Depth First Search](DepthFirstSearch/readme.md)
-* [Dijkstra's Algorithm](Dijkstra'sAlgorithm/readme.md)
-* [A* Search](A*Search/readme.md)
+# Graphs := Non-Linear DS
+
+A Graph is a non-linear data structure consisting of vertices and edges. The vertices are sometimes also referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph. More formally a Graph is composed of a set of vertices( V ) and a set of edges( E ). The graph is denoted by G(E, V).
+
+
+## Components of a Graph
+Vertices: Vertices are the fundamental units of the graph. Sometimes, vertices are also known as vertex or nodes. Every node/vertex can be labeled or unlabelled.
+Edges: Edges are drawn or used to connect two nodes of the graph. It can be ordered pair of nodes in a directed graph. Edges can connect any two nodes in any possible way. There are no rules. Sometimes, edges are also known as arcs. Every edge can be labeled/unlabelled.
+
+
+## Topics
+
+- [Graph Traversals](https://github.com/altafshaikh/computer_science/tree/main/Algorithms/Graphs/traversal-techniques)
+- [Cycle Detection in Graph](https://github.com/altafshaikh/computer_science/tree/main/Algorithms/Graphs/cycle-detection)

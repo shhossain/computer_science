@@ -10,6 +10,7 @@ In computer science, a data structure is a data organization, management, and st
 - [Heap](#heap)
 - [Tree](#tree)
 - [Graph](#graph)
+- [Trie](Trie)
 
 ## Array
 An array is a data structure that stores a collection of data values in contiguous memory locations.

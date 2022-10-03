@@ -203,7 +203,7 @@ Greedy algorithms are a simple, intuitive class of algorithms that can be used t
 ### [Backtracking](Algorithms/Backtracking/README.md)
 Backtracking is an algorithmic-technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the time elapsed till reaching any level of the search tree).
 
-### Branch and Bound
+### [Branch and Bound](Algorithms/Branch%20and%20Bound/README.md)
 Branch and bound is a general technique for solving combinatorial optimization problems. It is a systematic enumeration technique that reduces the number of candidate solutions by using the problem's structure to eliminate candidate solutions that cannot possibly be optimal.
 
 

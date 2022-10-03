@@ -31,3 +31,26 @@ let currentHead = queue.peek();
 // currentHead is 4
 // queue remains [4, 1, 0, 2]
 ```
+#### isEmpty
+It is used to return whether the queue is empty or not.It does not take any parameters.
+##### Example
+
+```
+let queue = [4, 1, 0, 2];
+Input :  myqueue = 1, 2, 3
+         myqueue.empty();
+Output : False
+```
+
+#### isFull
+Checks if the queue is full.It does not take any parameters.
+##### Example
+
+```
+let queue = [4, 1, 0, 2];
+//max size of queue is 4
+Input :  myqueue = 1, 2, 3
+         myqueue.full();
+Output : True
+```
+

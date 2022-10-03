@@ -41,3 +41,44 @@ index 5 value is 6 with memory location 1010 and pointer to first node 1000
 | Inserting an element             | O(1)     |
 | Deleting an element             | O(1)     |
 
+
+### Loop
+Why Floyd cycle detection Works?: [https://www.youtube.com/watch?v=LUm2ABqAs1w&t=1220s](https://www.youtube.com/watch?v=LUm2ABqAs1w&t=1220s)
+
+```cpp
+bool hasCycle(ListNode *head)
+{
+    if (!head) return false;
+    ListNode *slow = head, *fast = head->next;
+    while (slow && fast && fast->next)
+    {
+        slow = slow->next, fast = fast->next->next;
+        if (slow == fast) return true;
+    }
+    return false;
+}
+
+void removeTheLoop(Node *A)
+{
+    Node *slow = A, *fast = A;
+    while (slow && fast)
+    {
+        slow = slow->next;
+        if (!fast || !slow || !fast->next) return;
+        fast = fast->next->next;
+        if (!fast || !slow || !fast->next) return;
+        if (slow == fast) break;
+    }
+    if (!fast || !slow || !fast->next) return;
+    fast = A;
+    Node* prev = NULL;
+    while (slow !=fast)
+    {
+        prev = slow;
+        slow = slow->next;
+        fast = fast->next;
+    }
+    prev->next = NULL;
+}
+```
+

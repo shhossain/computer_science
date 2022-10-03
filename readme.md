@@ -39,6 +39,18 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 |    &&    | AND  | Returns true if both operands are true. |
 |   \|\|   |  OR  | Returns true if either operand is true. |
 
+### Nice to know Boolean Operators
+| Operator | Name |               Description               |
+| :------: | :--: | :-------------------------------------: |
+|    ()     | Parentheses   |   Allows you to group together keywords and control the order in which the terms will be searched.    |
+|    “”    | Quotation marks  | Provides results with the exact phrase. |
+|   *   |  Asterisk   | Provides results that contain a variation of the keyword. |
+|   ⊕   |  XOR    | Returns true if the operand are diffrent. |
+|   Plus sign( + ) with a line or Overline, ( ‾‾ )   |  NOR     | Returns true if neither operand are true. |
+|   dot sign( . ) with a line or Overline, ( ‾‾ )   |  NAND     | Returns false value only if both values of its two inputs are true. |
+
+
+
 ## [Number Systems](Number%20System/readme.md#number-systems)
 Number systems are mathematical systems for expressing numbers. A number system consists of a set of symbols that are used to represent numbers and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals.
 

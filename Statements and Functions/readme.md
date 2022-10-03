@@ -138,7 +138,7 @@ Here,` range(2, 11, 2)` tells the program that it should run the loop for all th
 
 ## 2. while / do while statements
 
-A while statement always checks if the condition provided is True or False at the beginning of the loop and in case it is True, the block of code within the loop is executed. Otherwise, the loop is terminated. 
+A while statement always checks if the condition provided is True or False at the beginning of the loop and in case it is True, the block of code within the loop is executed. Otherwise, the loop is terminated. As it always checks the condition at the beginning it is also called as Entry-Controlled loop.
 
 
 * A code in C++ to implement the same:
@@ -161,7 +161,7 @@ while i <= 10:
 
 In the above codes, the while loop runs until the value of i is 10.
 
-In a do while loop, the validity of the condition is checked at the end of loop. Hence, the code runs atleast once even if the provided condition is False.
+In a do while loop, the validity of the condition is checked at the end of loop. Hence, the code runs atleast once even if the provided condition is False. Also known as Exit-Controlled loop as condition is checked after the loop body is executed.
 
 If I modify the above code to a do while loop, it will print even numbers upto 12 as it checks the condition after the loop is executed.
 
@@ -185,4 +185,55 @@ do	{
 
 
 * *Note: In Python, we do not have do-while loops.*
+------------
+
+# Functions
+
+In programming, we often have a block of code which performs a specific task and many times within the program, we may need to use the exact same piece of code. In this case, to eliminate repeatedly writing the same code over and over again and also to maintain readability of the code, we define functions for the same.
+
+* A function can be reused multiple times.
+* You can send data to a function which it uses to perform a task.
+* A function generally returns a value to the main function which is then used to perform other operations.
+* Every programming language has some built-in functions which you can use.
+* You  can also write functions on your own.
+* When you call a function, the flow of control shifts from the main function to the function which is **always executed from top to bottom**.
+* A function can call another function or even call itself (known as recursive functions).
+* A return function takes the flow of control out of the function and goes back to the main function.
+
+------------
+
+Let us consider a situation where I want to print all the prime numbers between 1 to 100:
+
+So, we can write a function to check if a number is prime or not. It returns a boolean data type value based on which we decide whether the number should be printed or not.
+
+Code Snippet for the `isPrime` function:
+
+```python
+def isPrime (number: int) -> bool:
+	factors = 0
+	for i in range (2, (number // 2) + 1):
+		if number % i == 0:
+			factors += 1
+	if factors == 0:
+		return True
+	return False
+```
+**<li> The topmost line of a function is called a function header. </li>**
+
+In, `def isPrime (number: int) -> bool:` ,
+the parameters within the bracket tells the program how many parameters this function will accept and what are they called.
+
+In this case, the function header tells the program that it has to pass one parameter to the `isPrime` function and that parameter/ variable will be refered to as `number` inside the function.
+<br>
+
+Now let us use this function to print prime numbers upto 100:
+```python
+for i in range(1, 101):
+	if isPrime(i):
+		print (i)
+```
+
+* This code uses the `isPrime ` function to determine if the number is prime or not for every value of i from 1 to 100 and prints the prime numbers only.
+* This not only just increases the readability of the main program but the isPrime function can be used by other programs too.
+
 ------------

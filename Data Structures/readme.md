@@ -10,6 +10,7 @@ In computer science, a data structure is a data organization, management, and st
 - [Heap](#heap)
 - [Tree](#tree)
 - [Graph](#graph)
+- [Trie](Trie.md)
 
 ## Array
 An array is a data structure that stores a collection of data values in contiguous memory locations.
@@ -124,3 +125,50 @@ Let hash function H(x) = [11,12,13,14,15]
 // in the array or Hash table respectively.
 ```
 [More on Hash Table](HashTable.md)
+
+## Heap
+
+A heap is a specialized tree-based data structure which is an almost complete tree that satisfies the heap property. The heap property means that the element with the greatest key is always in the root node such a heap is sometimes called a max-heap.
+
+### Example
+
+```
+Let array of numbers be [100, 7, 2, 17, 3, 25, 1, 36, 19]
+// It will be in a tree-like form where the largest number will point to a smaller number and the smaller number points to an even smaller number and so on
+
+A heap representation of the array would look like this:
+                    100
+                  /     \
+                 19      36
+                /  \    /  \
+               17   3  25   1
+              /  \    
+             2    7
+```
+[More on Heap](Heap.md)
+
+## Tree
+
+A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value and a list of references to other nodes (the “children”).
+
+### Example
+
+```
+Let array of numbers be [100, 7, 2, 17, 3, 25, 1, 36, 19]
+// The tree is a specialized method to organize and store data in the computer to be used more effectively
+A tree representation of the array would look like this:
+                    100
+                  /     \
+                 19      36
+                /  \    /  \
+               17   3  25   1
+              /  \    
+             2    7
+```
+[More on Trees](Tree.md)
+
+## Graph
+A Graph is a non-linear data structure consisting of vertices and edges. The vertices are sometimes also referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph. More formally a Graph is composed of a set of vertices( V ) and a set of edges( E ). The graph is denoted by G(E, V).
+
+[More on Graph](Graph.md)
+

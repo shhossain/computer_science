@@ -41,11 +41,11 @@ array[6] // 6 (index 6 is the seventh element) (1006)
 | Deleting an element             | O(N)     |
 
 
-### Algorithms on Array
+## Algorithms on Array
 
-#### Searching :
+### Searching :
  
-# 1. Linear Search :
+### 1. Linear Search :
 
 Algorithm :
 
@@ -63,7 +63,7 @@ Algorithm :
      print "Element Not Found".
      
 
-# 2. Binary Search
+### 2. Binary Search
 
 Algorithm :
 

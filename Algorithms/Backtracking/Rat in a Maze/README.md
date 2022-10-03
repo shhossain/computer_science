@@ -1,6 +1,6 @@
-<h1> Rat in a Maze </h1>
+<h1> Sudoku Solver </h1>
 <hr>
-<p> Rat in a Maze is one of the classic backtracking problems. It is widely asked in technical interviews. </p>
+<p> Sudoku Solver is one of the classic problems. It is widely asked in technical interviews. Usually a sudoku puzzle is a 9x9 grid matrix containing integers from 1 to 9 jumbled in such a way that every row, every column and every 3x3 matrix, each integer appears only once. We can solve this traditional problem using backtracking. </p>
 <hr>
 <h3> <b> Problem Statement</b> </h3>
 <br>
@@ -38,6 +38,31 @@ Print N lines containing N integers each, where jth integer int ith line denotes
 2 8 7 4 1 9 6 3 5 <br>
 3 4 5 2 8 6 1 7 9 </p>
 <br>
+<h2> Approach: </h2>
+<p>
+<ol>
+	<li> Create a function 'issafe' to check whether the current element is safe to be assigned to the current index. 
+	<ol>
+		<li> Check if the element already exists in the current column
+		<li> Check if the element already exists in the current row
+		<li> Check if the element already exists in the current 3x3 grid
+		<li> If the element is safe till now, then return true 
+	</ol>
+	<li> Create a function 'solve' to recursively solve the grid
+	<ol>
+		<li> Firstly, check if we've reached at the end of the 2D matrix. If yes, then print the final matrix
+		<li> Secondly, check if we've reached at the end of the current row. If yes, then move to the next row
+		<li> Check if the current index is filled or not. 
+			<ol>
+				<li> If yes, move ahead by recursively calling 'solve' function. 
+				<li> If no, call the 'issafe' function for every integer from 1-9
+					<ol>
+						<li> If the current element return true, save it and continue, else move ahead
+					</ol>
+		<li> If no element fits, backtrack and return false
+	</ol>
+</ol>
+<br> <br>
 <h2> Using Recursion in Cpp </h2>
 
 ```cpp
@@ -131,4 +156,12 @@ int main() {
 	return 0;
 }
 ```
+<br><br>
+<h3> Complexity Analysis </h3>
+<p><h> Time Complexity: </h>
+<br>
+O(9^k) where k is the number of unfilled elements. <br>
+<h>Space Complexity: </h>
+<br>
+O(n*n) where n is the number of rows and columns of the sudoku 2D matrix
 

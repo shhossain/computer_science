@@ -17,6 +17,7 @@
 - [Alan Turing](#alan-turing)
 - [Software Engineering](#software-engineering)
 - [Integrated Circuits](#integrated-circuits)
+- [Object Oriented Programming](#object-oriented-programming)
 - [Operating Systems](#operating-systems)
 - [Memory and Storage](#memory-and-storage)
 - [File System](#file-system)
@@ -75,13 +76,18 @@ The CPU itself is made of three main components. They are:
 
 
 ## [Registers, Cache and RAM](Not-Added)
-Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Larger amounds of data may be stored in Cache (pronounced like cash).  This is very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuts not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
+Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Larger amounts of data may be stored in Cache (pronounced like cash).  This is very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuits not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
 
 ## [Instruction and Program](Not-Added)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. And a computer program is a list of instructions that tell a computer what to do. Everything a computer does is done by using a computer program. Programs stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
 
 ## [Programming Language](Not-Added)
 A programming language is any set of rules that converts strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output.[citation needed] Programming languages are one kind of computer language, and are used in computer programming to implement algorithms.
+
+Programming languages are mainly of two types : 
+1. High-level language uses syntax similar to the English language.The source code is converted into machine-understandable machine code using a compiler or an interpreter. Java, Python are some examples of high-level programming languages.
+2. Low-level programming languages work more closely to the hardware and have more control over it. They directly interact with the hardware. Two common examples of low-level languages are machine language and assembly language.
+
 
 Some Languages Include:
 - Python
@@ -91,7 +97,7 @@ Some Languages Include:
 - C#
 
 ### Scripting Languages
-Ascripting language is a computer language that doesn't have to be compiled.One advantage of Scripting languages is that the code can be quickly edited and can be reexecuted.They can be used in server side of web applications and client side of web applications.
+A scripting language is a computer language that doesn't have to be compiled.One advantage of Scripting languages is that the code can be quickly edited and can be reexecuted.They can be used in server side of web applications and client side of web applications.
 
 Some Scripting Languages include:
 - Javascript
@@ -123,12 +129,45 @@ Non-primitive data types are also known as reference data types. They are create
 - [Function](Data%20Types/readme.md#function)
 - [Class](Data%20Types/readme.md#class)
 
-## [Statements and Functions](Not-Added)
+## [Statements and Functions](Statements%20and%20Functions/readme.md)
 In computer programming, a statement is a syntactic unit of an imperative programming language that expresses some action to be carried out. A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., expressions).
+
+There are two main types of statements in any programming language that are necessary to build the logic of a code.
+1. [Conditional-Statements](Statements%20and%20Functions/readme.md#conditional-statements)
+
+There are two types of conditional statements mainly:
+- if else
+- switch case
+
+
+2. [Loops](Statements%20and%20Functions/readme.md#loops)
+
+There are three types of conditional statements mainly:
+- for loop
+- while loop
+- do - while loop (a variation of while loop)
+
+------------
 
 A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily, without having to write the same code again and again.
 
 Different functional languages use different syntax to write a function.
+
+Read more about functions [here](Statements%20and%20Functions/readme.md#functions)
+
+## [Object Oriented Programming](Object%20Oriented%20Programming/readme.md)
+Object Oriented Programming is a fundamental programming paradigm which is based on the concepts of objects and data.
+
+It is the standard way of code that every programmer has to abide by for better readability and reusability of the code. 
+
+### * There are four basic concepts of Object Oriented Programming:
+- Abstraction
+- Encapsulation
+- Inheritance
+- Polymorphism 
+
+Read more about these concepts of OOP [here](Object%20Oriented%20Programming/readme.md)
+
 
 ## [Data Structures](Data%20Structures/readme.md)
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
@@ -153,7 +192,7 @@ The time complexity of an algorithm estimates how much time the algorithm will u
 Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Or if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
 
 ### [Graph Search](Algorithms/Graph%20Search/readme.md)
-Graph search is the process of searching through a graph to find a particular node. A graph is a data structure that consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for an undirected graph and as arrows, directed edges, directed arcs, or directed lines for a directed graph. The vertices may be part of the graph structure, or may be external entities represented by integer indices or references. Graphs are one of the most useful data structures for many real-world applications. Graphs are used to model pairwise relations between objects. For example, the airline route network is a graph in which the cities are the vertices and the flight routes are the edges. Graphs are also used to represent networks. The Internet can be modeled as a graph in which the computers are the vertices and the links between computers are the edges. Graphs are also used in social networks like linkedIn, Facebook. In fact, graphs are used to represent many real-world applications: computer networks, circuit design, and aeronautical scheduling to name just a few.
+Graph search is the process of searching through a graph to find a particular node. A graph is a data structure that consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for an undirected graph and as arrows, directed edges, directed arcs, or directed lines for a directed graph. The vertices may be part of the graph structure, or may be external entities represented by integer indices or references. Graphs are one of the most useful data structures for many real-world applications. Graphs are used to model pairwise relations between objects. For example, the airline route network is a graph in which the cities are the vertices and the flight routes are the edges. Graphs are also used to represent networks. The Internet can be modelled as a graph in which the computers are the vertices and the links between computers are the edges. Graphs are also used in social networks like linkedIn, Facebook. In fact, graphs are used to represent many real-world applications: computer networks, circuit design, and aeronautical scheduling to name just a few.
 
 ### [Dynamic Programming](Algorithms/Dynamic%20Programming/README.md)
 Dynamic programming is both a mathematical optimization method and a computer programming method. The method was developed by Richard Bellman in the 1950s and has found applications in numerous fields, from aerospace engineering to economics. In both contexts it refers to simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner. While some decision problems cannot be taken apart this way, decisions that span several points in time do often break apart recursively. Likewise, in computer science, if a problem can be solved optimally by breaking it into sub-problems and then recursively finding the optimal solutions to the sub-problems, then it is said to have optimal substructure. Dynamic programming is one way to solve problems with these properties. The process of breaking a complicated problem down into simpler sub-problems is called "divide and conquer".
@@ -274,6 +313,17 @@ An operating system (or OS for short) acts as an intermediary between the user o
 An operating system is a software that manages computer hardware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent user programs from interfering with the proper operation of the system.
 An even more common definition is that the operating system is the one program running at all times on the computer (usually called the kernel), with all else being application programs.
 
+### History of Operating Systems
+- **First Generation (1945-55)**: Little progress was achieved in building digital computers after Babbage's disastrous efforts until the World War II era. At Iowa State University, Professor John Atanasoff and his graduate student Clifford Berry created what is today recognised as the first operational digital computer. Konrad Zuse in Berlin constructed the Z3 computer using electromechanical relays around the same time. The Mark I was created by Howard Aiken at Harvard, the Colossus by a team of scientists at Bletchley Park in England, and the ENIAC by William Mauchley and his doctoral student J. Presper Eckert at the University of Pennsylvania in 1944.
+
+- **Second Generation (1955-65)**: The transistor's invention in the middle of the 1950s drastically altered the situation. Computers became dependable enough that they could be manufactured and sold to paying customers with the assumption that they would keep working long enough to conduct some meaningful job. Mainframes, as these machines are now known, were kept locked up in huge, particularly air-conditioned computer rooms, with teams of qualified operators to manage them. Only huge businesses, significant government entities, or institutions could afford the price tag of several million dollars.
+
+- **Third Generation (1965-80)**: In comparison to second-generation computers, which were constructed from individual transistors, the IBM 360 was the first major computer line to employ (small-scale) ICs (Integrated Circuits). As a result, it offered a significant price/performance benefit. It was an instant hit, and all the other big manufacturers quickly embraced the concept of a family of interoperable computers. All software, including the OS/360 operating system, was supposed to be compatible with all models in the original design. It had to run on both extremely big systems, which frequently replaced 7094s for heavy computation and weather forecasting, and tiny systems, which frequently merely replaced 1401s for transferring cards to tape. Both systems with few peripherals and systems with many of peripherals needed to function well with it. It had to function both in professional and academic settings. Above all, it had to be effective for each of these many applications.
+
+- **Fourth Generation (1980-Present)**: The era of the personal computer began with the creation of LSI (Large Scale Integration) circuits, processors with thousands of transistors on a square centimetre of silicon. Although personal computers, originally known as microcomputers, did not change significantly in architecture from minicomputers of the PDP-11 class, they did differ significantly in price.
+
+- **Fifth Generation (1990-Present)**: People have yearned for a portable communication gadget ever since detective Dick Tracy in the 1940s comic strip began conversing with his "two-way radio wrist watch." In 1946, a real mobile phone made its debut and it weighed about 40 kilogrammes. The first real portable phone debuted in the 1970s and was incredibly lightweight at about one kilogramme. It was jokingly referred to as "the brick." Soon, everyone was clamouring for one.
+
 ### Functions of an OS
 - **Convenience**: An OS makes a computer more convenient to use.
 - **Efficiency**: An OS allows the computer system resources to be used efficiently.
@@ -327,7 +377,7 @@ There are a number of types of file systems, all with different logical structur
 
 Major file systems include the following:
 
-- File allocation table (FAT) is supported by the Microsoft Windows OS. FAT is considered simple and reliable, and it is modeled after legacy file systems. FAT was designed in 1977 for floppy disks, but was later adapted for hard disks. While efficient and compatible with most current OSes, FAT cannot match the performance and scalability of more modern file systems.
+- File allocation table (FAT) is supported by the Microsoft Windows OS. FAT is considered simple and reliable, and it is modelled after legacy file systems. FAT was designed in 1977 for floppy disks, but was later adapted for hard disks. While efficient and compatible with most current OSes, FAT cannot match the performance and scalability of more modern file systems.
 
 - Global file system (GFS) is a file system for the Linux OS, and it is a shared disk file system. GFS offers direct access to shared block storage and can be used as a local file system.
 

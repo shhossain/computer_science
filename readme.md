@@ -17,6 +17,7 @@
 - [Alan Turing](#alan-turing)
 - [Software Engineering](#software-engineering)
 - [Integrated Circuits](#integrated-circuits)
+- [Object Oriented Programming](#object-oriented-programming)
 - [Operating Systems](#operating-systems)
 - [Memory and Storage](#memory-and-storage)
 - [File System](#file-system)
@@ -130,13 +131,8 @@ Non-primitive data types are also known as reference data types. They are create
 
 ## [Statements and Functions](Statements%20and%20Functions/readme.md)
 In computer programming, a statement is a syntactic unit of an imperative programming language that expresses some action to be carried out. A program written in such a language is formed by a sequence of one or more statements. A statement may have internal components (e.g., expressions).
-
-A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily, without having to write the same code again and again.
-
-Different functional languages use different syntaxes to write a function.
-
-
 There are two main types of statements in any programming language that is necessary to build the logic of a code.
+
 1. [Conditional-Statements](Statements%20and%20Functions/readme.md#conditional-statements)
 
 There are two types of conditional statements mainly:
@@ -150,6 +146,27 @@ There are three types of conditional statements mainly:
 - for loop
 - while loop
 - do - while loop (a variation of while loop)
+
+------------
+
+A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily, without having to write the same code again and again.
+
+Different functional languages use different syntax to write a function.
+
+Read more about functions [here](Statements%20and%20Functions/readme.md#functions)
+
+## [Object Oriented Programming](Object%20Oriented%20Programming/readme.md)
+Object Oriented Programming is a fundamental programming paradigm which is based on the concepts of objects and data.
+
+It is the standard way of code that every programmer has to abide by for better readability and reusability of the code. 
+
+### * There are four basic concepts of Object Oriented Programming:
+- Abstraction
+- Encapsulation
+- Inheritance
+- Polymorphism 
+
+Read more about these concepts of OOP [here](Object%20Oriented%20Programming/readme.md)
 
 
 ## [Data Structures](Data%20Structures/readme.md)
@@ -174,19 +191,22 @@ The time complexity of an algorithm estimates how much time the algorithm will u
 ### [Sorting](Algorithms/Sorting/readme.md)
 Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Or if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
 
-### [Graph Search](Algorithms/Graph%20Search/readme.md)
+### [Graph Search](Algorithms/Graph/readme.md)
 Graph search is the process of searching through a graph to find a particular node. A graph is a data structure that consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for an undirected graph and as arrows, directed edges, directed arcs, or directed lines for a directed graph. The vertices may be part of the graph structure or may be external entities represented by integer indices or references. Graphs are one of the most useful data structures for many real-world applications. Graphs are used to model pairwise relations between objects. For example, the airline route network is a graph in which the cities are the vertices and the flight routes are the edges. Graphs are also used to represent networks. The Internet can be modelled as a graph in which the computers are the vertices and the links between computers are the edges. Graphs are also used on social networks like LinkedIn and Facebook. Graphs are used to represent many real-world applications: computer networks, circuit design, and aeronautical scheduling to name just a few.
+
 
 ### [Dynamic Programming](Algorithms/Dynamic%20Programming/README.md)
 Dynamic programming is both a mathematical optimization method and a computer programming method. The method was developed by Richard Bellman in the 1950s and has found applications in numerous fields, from aerospace engineering to economics. In both contexts, it refers to simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner. While some decision problems cannot be taken apart this way, decisions that span several points in time do often break apart recursively. Likewise, in computer science, if a problem can be solved optimally by breaking it into sub-problems and then recursively finding the optimal solutions to the sub-problems, then it is said to have an optimal substructure. Dynamic programming is one way to solve problems with these properties. The process of breaking a complicated problem down into simpler sub-problems is called "divide and conquer".
 
-### Greedy Algorithms
+
+### [Greedy Algorithms](Algorithms/Greedy%20Algorithms/README.md)
 Greedy algorithms are a simple, intuitive class of algorithms that can be used to find the optimal solution to some optimization problems. They are called greedy because at each step they make the choice that seems best at that moment. This means that greedy algorithms do not guarantee to return the globally optimal solution, but instead make locally optimal choices in the hope of finding a global optimum. Greedy algorithms are used for optimization problems. An optimization problem can be solved using Greedy if the problem has the following property: at every step, we can make a choice that looks best at the moment, and we get the optimal solution to the complete problem.
 
-### Backtracking
+### [Backtracking](Algorithms/Backtracking/README.md)
 Backtracking is an algorithmic technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point in time (by time, here, is referred to the time elapsed till reaching any level of the search tree).
 
-### Branch and Bound
+
+### [Branch and Bound](Algorithms/Branch%20and%20Bound/README.md)
 Branch and bound is a general technique for solving combinatorial optimization problems. It is a systematic enumeration technique that reduces the number of candidate solutions by using the problem's structure to eliminate candidate solutions that cannot possibly be optimal.
 
 
@@ -241,8 +261,10 @@ d. O(n*n): This denotes quadratic time. O(n2) means that the performance is dire
 | Binary Search	 | O(1)	       | O(logN)     | O(logN)	   |
 
 
-## [Alan Turing](Alan%20Turing/readme.md)
+
+## [Alan Turing](Not-Added)
 Alan Turing, (born June 23, 1912, London, Eng.—died June 7, 1954, Wilmslow, Cheshire), English mathematician and logician. He studied at the University of Cambridge and Princeton’s Institute for Advanced Study. In his seminal 1936 paper “On Computable Numbers,” he proved that there cannot exist any universal algorithmic method of determining truth in mathematics and that mathematics will always contain undecidable (as opposed to unknown) propositions. That paper also introduced the Turing machine. He believed that computers eventually would be capable of thought indistinguishable from that of a human and proposed a simple test (see Turing test) to assess this capability. His papers on the subject are widely acknowledged as the foundation of research in artificial intelligence. He did valuable work in cryptography during World War II, playing an important role in breaking the Enigma code used by Germany for radio communications. After the war he taught at the University of Manchester and began work on what is now known as artificial intelligence. In the midst of this groundbreaking work, Turing was found dead in his bed, poisoned by cyanide. His death followed his arrest for a homosexual act (then a crime) and sentence of 12 months of hormone “therapy.
+
 
 Following a public campaign in 2009, the British Prime Minister Gordon Brown made an official public apology on behalf of the British government for "the appalling way [Turing] was treated". Queen Elizabeth II granted a posthumous pardon in 2013. The term "Alan Turing law" is now used informally to refer to a 2017 law in the United Kingdom that retroactively pardoned men cautioned or convicted under historical legislation that outlawed homosexual acts.[15]
 
@@ -295,6 +317,17 @@ Modern electronic component distributors often further sub-categorize integrated
 An operating system (or OS for short) acts as an intermediary between the user of a computer and computer hardware. The purpose of an operating system is to provide an environment in which an user can execute programs conveniently and efficiently.
 An operating system is a software that manages computer hardware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent user programs from interfering with the proper operation of the system.
 An even more common definition is that the operating system is the one program running at all times on the computer (usually called the kernel), with all else being application programs.
+
+### History of Operating Systems
+- **First Generation (1945-55)**: Little progress was achieved in building digital computers after Babbage's disastrous efforts until the World War II era. At Iowa State University, Professor John Atanasoff and his graduate student Clifford Berry created what is today recognised as the first operational digital computer. Konrad Zuse in Berlin constructed the Z3 computer using electromechanical relays around the same time. The Mark I was created by Howard Aiken at Harvard, the Colossus by a team of scientists at Bletchley Park in England, and the ENIAC by William Mauchley and his doctoral student J. Presper Eckert at the University of Pennsylvania in 1944.
+
+- **Second Generation (1955-65)**: The transistor's invention in the middle of the 1950s drastically altered the situation. Computers became dependable enough that they could be manufactured and sold to paying customers with the assumption that they would keep working long enough to conduct some meaningful job. Mainframes, as these machines are now known, were kept locked up in huge, particularly air-conditioned computer rooms, with teams of qualified operators to manage them. Only huge businesses, significant government entities, or institutions could afford the price tag of several million dollars.
+
+- **Third Generation (1965-80)**: In comparison to second-generation computers, which were constructed from individual transistors, the IBM 360 was the first major computer line to employ (small-scale) ICs (Integrated Circuits). As a result, it offered a significant price/performance benefit. It was an instant hit, and all the other big manufacturers quickly embraced the concept of a family of interoperable computers. All software, including the OS/360 operating system, was supposed to be compatible with all models in the original design. It had to run on both extremely big systems, which frequently replaced 7094s for heavy computation and weather forecasting, and tiny systems, which frequently merely replaced 1401s for transferring cards to tape. Both systems with few peripherals and systems with many of peripherals needed to function well with it. It had to function both in professional and academic settings. Above all, it had to be effective for each of these many applications.
+
+- **Fourth Generation (1980-Present)**: The era of the personal computer began with the creation of LSI (Large Scale Integration) circuits, processors with thousands of transistors on a square centimetre of silicon. Although personal computers, originally known as microcomputers, did not change significantly in architecture from minicomputers of the PDP-11 class, they did differ significantly in price.
+
+- **Fifth Generation (1990-Present)**: People have yearned for a portable communication gadget ever since detective Dick Tracy in the 1940s comic strip began conversing with his "two-way radio wrist watch." In 1946, a real mobile phone made its debut and it weighed about 40 kilogrammes. The first real portable phone debuted in the 1970s and was incredibly lightweight at about one kilogramme. It was jokingly referred to as "the brick." Soon, everyone was clamouring for one.
 
 ### Functions of an OS
 - **Convenience**: An OS makes a computer more convenient to use.

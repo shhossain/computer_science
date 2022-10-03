@@ -13,6 +13,7 @@ Sorting is the process of arranging a list of items in a particular order. For e
 * [Swap Sort](Sorting/SwapSort/readme.md)
 * [Radix Sort](Sorting/RadixSort/readme.md)
 * [Shell Sort](Sorting/ShellSort/readme.md)
+* [Count Sort](Sorting/CountSort/readme.md)
 
 
 ## [Graph Search](Graph%20Search/readme.md)

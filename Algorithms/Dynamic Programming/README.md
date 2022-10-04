@@ -27,7 +27,7 @@ Dynamic Programming algorithm is designed using the following four steps −
 * [Longest Increasing Subsequence](Not-Added)
 * [Knapsack Problem](Not-Added)
 * [Edit Distance](Not-Added)
-* [Coin Change](CoinChange/readme.md)
+* [Coin Change](Coin%20Change/README.md)
 * [Matrix Chain Multiplication](Not-Added)
 
 

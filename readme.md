@@ -88,7 +88,22 @@ The CPU itself is made of three main components. They are:
 
 
 ## [Registers, Cache and RAM](Not-Added)
-Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Larger amounts of data may be stored in Cache (pronounced like cash).  This is a very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuits not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
+Registers are small amounts of high-speed memory contained within the CPU. Registers are basically a collection of flip-flops (a circuit used to store 1 bit of memory). They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Register also helps in arithmetic and logic operations. 
+Even a very basic computer has atleast eight types of registers:
+| Register Name             |Bits|              Function                            |
+| :-----------------------: |:--:| :-------------------------------------:          |
+|  Data register (DR)       | 16 |   Holds memory Operand                           |
+| Address Register (AR)     | 12 | Holds address for memory                         |
+|   Accumulator(AC)         | 16 | Processor Register used to arithmetic and logic  |
+| Instruction Register (IR) | 16 | Holds the instruction code                       |
+| Programme Counter (PC)    | 12 | Holds the address of the next instruction        |
+| Temporary Register (TR)   | 16 | Holds the temporary data                         | 
+| Input Register (INPR)     | 8  | Holds the input character                        |
+| Output Register (OUTR)    | 8  | Holds the output character                       | 
+
+These basic computer registers are connected by a common bus through which information is transferred among these registers and operations are performed.
+
+Larger amounts of data may be stored in Cache (pronounced like cash).  This is a very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuits not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
 
 ## [Instruction and Program](Not-Added)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. And a computer program is a list of instructions that tell a computer what to do. Everything a computer does is done by using a computer program. Programs stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.

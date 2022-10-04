@@ -46,8 +46,8 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 |    “”    | Quotation marks  | Provides results with the exact phrase. |
 |   *   |  Asterisk   | Provides results that contain a variation of the keyword. |
 |   ⊕   |  XOR    | Returns true if the operand are diffrent. |
-|   Plus sign( + ) with a line or Overline, ( ‾‾ )   |  NOR     | Returns true if neither operand are true. |
-|   dot sign( . ) with a line or Overline, ( ‾‾ )   |  NAND     | Returns false value only if both values of its two inputs are true. |
+|   ⊽   |  NOR     | Returns true if neither operand are true. |
+|   ⊼   |  NAND     | Returns false value only if both values of its two inputs are true. |
 
 
 

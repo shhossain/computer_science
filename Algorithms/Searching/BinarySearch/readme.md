@@ -60,7 +60,7 @@ start =0                                        end = 10
 start =0             mid=5 |                    end = 10
 
                      7  8  9  10                                
-start =0            mid=8  |                    end = 10
+start =6            mid=8  |                    end = 10
 
             target found at index 8 
 ```

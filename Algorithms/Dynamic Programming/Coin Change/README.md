@@ -343,7 +343,6 @@ class CoinChange {
 
 ```javascript
 
-<script>
 
 /* Dynamic Programming javascript implementation of Coin
 Change problem */

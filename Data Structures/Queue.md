@@ -35,8 +35,8 @@ let currentHead = queue.peek();
 The above shows the implementation of a simple Queue.
 
 There are more types of Queues: 
-#####   Circular Queue
-#####   Double Ended Queue
+- Circular Queue
+- Double Ended Queue
 
 ### Circular Queue
 
@@ -95,9 +95,9 @@ queue.DeleteEnd();
 
 There are 2 types of Deque:
 
-##### Input restricted Queue
+##### Input restricted
 In this Input is restricted to one end only whereas deletion is possible from both ends.
 
-##### Output restricted Queue
+##### Output restricted
 In this Input is deletion from one end only whereas insertion(input) is possible to both ends.
 

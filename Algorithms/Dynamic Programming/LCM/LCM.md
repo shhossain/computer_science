@@ -5,7 +5,7 @@ The least common multiple (L.C.M.) of two numbers is the smallest positive integ
 For example, the L.C.M. of 12 and 14 is 84.
 
 Program to Compute LCM
-# Python Program to find the L.C.M. of two input number
+### Python Program to find the L.C.M. of two input number
 
 def compute_lcm(x, y):
 

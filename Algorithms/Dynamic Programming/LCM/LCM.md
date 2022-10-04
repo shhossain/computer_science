@@ -6,10 +6,11 @@ For example, the L.C.M. of 12 and 14 is 84.
 
 Program to Compute LCM
 ### Python Program to find the L.C.M. of two input number
-
+```python
 def compute_lcm(x, y):
 
    #choose the greater number
+   
    if x > y:
        greater = x
    else:
@@ -27,7 +28,7 @@ num1 = 54
 num2 = 24
 
 print("The L.C.M. is", compute_lcm(num1, num2))
-
+```
 ## Explanation
 
 This program stores two number in num1 and num2 respectively. These numbers are passed to the compute_lcm() function. The function returns the L.C.M of two numbers.

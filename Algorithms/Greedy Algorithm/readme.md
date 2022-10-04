@@ -5,7 +5,7 @@ Greedy algorithms are a simple, intuitive class of algorithms that can be used t
 * [Activity Selection](Not-added)
 * [Huffman Coding](notadded)
 * [Prim's Algorithm](notadded)
-* [Kruskal's Algorithm](Kruskal Algorithm/readme.md)
+* [Kruskal's Algorithm](Kruskal%20Algorithm/readme.md)
 * [Dijkstra's Algorithm](notadded)
 * [Job Sequencing](notadded)
 * [Fractional Knapsack](notadded)

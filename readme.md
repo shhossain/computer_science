@@ -70,11 +70,11 @@ Binary is a base-2 number system invented by Gottfried Leibniz that's made up of
 
 Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons.
 
--> It is a simple and elegant design.
--> Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
--> Having only two states placed far apart in an electrical signal makes it less susceptible to electrical interference.
--> The positive and negative poles of magnetic media are quickly translated to binary.
--> Binary is the most efficient way to control logic circuits.
+- It is a simple and elegant design.
+- Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
+- Having only two states placed far apart in an electrical signal makes it less susceptible to electrical interference.
+- The positive and negative poles of magnetic media are quickly translated to binary.
+- Binary is the most efficient way to control logic circuits.
 
 
 
@@ -163,7 +163,7 @@ There are two main types of statements in any programming language that is neces
 1. [Conditional-Statements](Statements%20and%20Functions/readme.md#conditional-statements)
 
 There are two types of conditional statements mainly:
-- if else
+- if-else
 - switch case
 
 
@@ -244,15 +244,13 @@ Branch and bound is a general technique for solving combinatorial optimization p
 
 
 ### [Time Complexity and Space Complexity of Different Searching and Sorting Algorithms](Not-Added)
-Time Complexity: It is defined as the number of times a particular instruction set is expected to be executed rather than the total time is taken. Since time is a dependent phenomenon, time complexity may vary on some external factors like processor speed, the compiler used, etc.
+**Time Complexity**: It is defined as the number of times a particular instruction set is expected to be executed rather than the total time is taken. Since time is a dependent phenomenon, time complexity may vary on some external factors like processor speed, the compiler used, etc.
 
-Space Complexity: It is the total memory space consumed by the program for its execution.
+**Space Complexity**: It is the total memory space consumed by the program for its execution.
 
 Both are calculated as the function of input size(n). The time complexity of an algorithm is expressed in big O notation.
 
-The efficiency of an algorithm depends on two parameters:
-1. Time Complexity
-2. Space Complexity
+The efficiency of an algorithm depends on these two parameters.
 
 Types Of Time Complexity :
 

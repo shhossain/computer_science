@@ -96,6 +96,19 @@ index 5 value is 6 with memory location 1010 and pointer to first node 1000
 | Deleting an element             | O(1)     |
 
 
+#### There can be differeent types of Linked list:
+
+### Singly Linked List
+A singly linked list is a type of linked list that is unidirectional, that is, it can be traversed in only one direction from head to the last node (tail).
+
+### Circular Linked List
+Here, the last node of the list contains a pointer to the first node of the list. We traverse the circular singly linked list until we reach the same node where we started. It has no beginning or end. All node cannot be null.
+
+### Doubly Linked List
+In a doubly linked list, a node consists of three parts: node data, pointer to the next node in sequence (next pointer) , pointer to the previous node (previous pointer). We can traverse in any direction.
+
+
+
 [More on Linked List](LinkedList.md)
 
 

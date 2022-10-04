@@ -375,7 +375,7 @@ function countWays(S , m , n)
 var coins = [1, 2, 3];
 var n = coins.length;
 var sum = 4;
-document.write(countWays(coins, n, sum));
+console.log(countWays(coins, n, sum));
 
 </script>
 

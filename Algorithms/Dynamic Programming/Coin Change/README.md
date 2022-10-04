@@ -142,7 +142,7 @@ Follow the below steps to Implement the idea:
 * [C++](#cpp)
 * [C#](#csharp)
 * [Java](#java)
-* [Pyhon](#python)
+* [Python](#python)
 * [JavaScript](#javascript)
 
 

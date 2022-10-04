@@ -70,11 +70,11 @@ Binary is a base-2 number system invented by Gottfried Leibniz that's made up of
 
 Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons.
 
--> It is a simple and elegant design.
--> Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
--> Having only two states placed far apart in an electrical signal makes it less susceptible to electrical interference.
--> The positive and negative poles of magnetic media are quickly translated to binary.
--> Binary is the most efficient way to control logic circuits.
+- It is a simple and elegant design.
+- Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
+- Having only two states placed far apart in an electrical signal makes it less susceptible to electrical interference.
+- The positive and negative poles of magnetic media are quickly translated to binary.
+- Binary is the most efficient way to control logic circuits.
 
 
 
@@ -87,8 +87,10 @@ The CPU itself is made of three main components. They are:
 3. [Arithmetic and Logic unit (ALU)](CPU/readme.md#arithmetic-and-logic-unit-alu)
 
 
-## [Registers, Cache and RAM](Not-Added)
-Registers are small amounts of high-speed memory contained within the CPU. They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Larger amounts of data may be stored in Cache (pronounced like cash).  This is a very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuits not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
+## [Registers, Cache and RAM](/Registers%20Cache%20and%20RAM)
+
+### [Register](/Registers%20Cache%20and%20RAM#register)
+Registers are small amounts of high-speed memory contained within the CPU. Registers are basically a collection of flip-flops (a circuit used to store 1 bit of memory). They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Register also helps in arithmetic and logic operations.Larger amounts of data may be stored in Cache (pronounced like cash).  This is a very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuits not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
 
 ## [Instruction and Program](Not-Added)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. And a computer program is a list of instructions that tell a computer what to do. Everything a computer does is done by using a computer program. Programs stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
@@ -99,7 +101,6 @@ A programming language is any set of rules that convert strings, or graphical pr
 Programming languages are mainly of two types : 
 1. High-level language uses a syntax similar to the English language. The source code is converted into machine-understandable machine code using a compiler or an interpreter. Java, Python are some examples of high-level programming languages.
 2. Low-level programming languages work more closely to the hardware and have more control over it. They directly interact with the hardware. Two common examples of low-level languages are machine language and assembly language.
-
 
 Some Languages Include:
 - Python
@@ -148,7 +149,7 @@ There are two main types of statements in any programming language that is neces
 1. [Conditional-Statements](Statements%20and%20Functions/readme.md#conditional-statements)
 
 There are two types of conditional statements mainly:
-- if else
+- if-else
 - switch case
 
 
@@ -229,15 +230,13 @@ Branch and bound is a general technique for solving combinatorial optimization p
 
 
 ### [Time Complexity and Space Complexity of Different Searching and Sorting Algorithms](Not-Added)
-Time Complexity: It is defined as the number of times a particular instruction set is expected to be executed rather than the total time is taken. Since time is a dependent phenomenon, time complexity may vary on some external factors like processor speed, the compiler used, etc.
+**Time Complexity**: It is defined as the number of times a particular instruction set is expected to be executed rather than the total time is taken. Since time is a dependent phenomenon, time complexity may vary on some external factors like processor speed, the compiler used, etc.
 
-Space Complexity: It is the total memory space consumed by the program for its execution.
+**Space Complexity**: It is the total memory space consumed by the program for its execution.
 
 Both are calculated as the function of input size(n). The time complexity of an algorithm is expressed in big O notation.
 
-The efficiency of an algorithm depends on two parameters:
-1. Time Complexity
-2. Space Complexity
+The efficiency of an algorithm depends on these two parameters.
 
 Types Of Time Complexity :
 

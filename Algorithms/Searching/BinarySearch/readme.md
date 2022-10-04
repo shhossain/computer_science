@@ -17,7 +17,7 @@ The following is the method to use binary search.
 
 ## Method  (Standard Binary Search) 
 
-```JAVA
+```c
 //Binary search in Ascending order array
 int binarySearch(int[] arr, int target){
     
@@ -67,7 +67,7 @@ start =6            mid=8  |                    end = 10
 
 ## Method 2 (Rotated Binary Search) 
 
-```JAVA
+```c
 //Binary search in Rotated Array
 
 //Finding peak element in an array

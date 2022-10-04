@@ -377,7 +377,6 @@ var n = coins.length;
 var sum = 4;
 console.log(countWays(coins, n, sum));
 
-</script>
 
 ```
 

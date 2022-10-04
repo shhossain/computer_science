@@ -39,6 +39,18 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 |    &&    | AND  | Returns true if both operands are true. |
 |   \|\|   |  OR  | Returns true if either operand is true. |
 
+### Nice to know Boolean Operators
+| Operator | Name |               Description               |
+| :------: | :--: | :-------------------------------------: |
+|    ()     | Parentheses   |   Allows you to group together keywords and control the order in which the terms will be searched.    |
+|    “”    | Quotation marks  | Provides results with the exact phrase. |
+|   *   |  Asterisk   | Provides results that contain a variation of the keyword. |
+|   ⊕   |  XOR    | Returns true if the operand are diffrent. |
+|   ⊽   |  NOR     | Returns true if neither operand are true. |
+|   ⊼   |  NAND     | Returns false value only if both values of its two inputs are true. |
+
+
+
 ## [Number Systems](Number%20System/readme.md#number-systems)
 Number systems are mathematical systems for expressing numbers. A number system consists of a set of symbols that are used to represent numbers and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals.
 
@@ -203,8 +215,10 @@ Graph search is the process of searching through a graph to find a particular no
 Dynamic programming is both a mathematical optimization method and a computer programming method. The method was developed by Richard Bellman in the 1950s and has found applications in numerous fields, from aerospace engineering to economics. In both contexts, it refers to simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner. While some decision problems cannot be taken apart this way, decisions that span several points in time do often break apart recursively. Likewise, in computer science, if a problem can be solved optimally by breaking it into sub-problems and then recursively finding the optimal solutions to the sub-problems, then it is said to have an optimal substructure. Dynamic programming is one way to solve problems with these properties. The process of breaking a complicated problem down into simpler sub-problems is called "divide and conquer".
 
 
+
 ### [Greedy Algorithms](Algorithms/Greedy%20Algorithms/README.md)
 Greedy algorithms are a simple, intuitive class of algorithms that can be used to find the optimal solution to some optimization problems. They are called greedy because at each step they make the choice that seems best at that moment. This means that greedy algorithms do not guarantee to return the globally optimal solution, but instead make locally optimal choices in the hope of finding a global optimum. Greedy algorithms are used for optimization problems. An optimization problem can be solved using Greedy if the problem has the following property: at every step, we can make a choice that looks best at the moment, and we get the optimal solution to the complete problem.
+
 
 ### [Backtracking](Algorithms/Backtracking/README.md)
 Backtracking is an algorithmic technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point in time (by time, here, is referred to the time elapsed till reaching any level of the search tree).

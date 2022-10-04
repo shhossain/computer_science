@@ -21,6 +21,13 @@ Dynamic Programming algorithm is designed using the following four steps −
 - Travelling Salesman Problem
 
 
-## Popular Algorithms
-
+### Popular Dynamic Programming Algorithms
 * [Fibonacci Sequence](Fibonacci%20Sequence/README.md)
+* [Longest Common Subsequence](Not-Added)
+* [Longest Increasing Subsequence](Not-Added)
+* [Knapsack Problem](Not-Added)
+* [Edit Distance](Not-Added)
+* [Coin Change](CoinChange/readme.md)
+* [Matrix Chain Multiplication](Not-Added)
+
+

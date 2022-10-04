@@ -28,24 +28,24 @@ Graph search is the process of searching through a graph to find a particular no
 Dynamic programming is both a mathematical optimization method and a computer programming method. The method was developed by Richard Bellman in the 1950s and has found applications in numerous fields, from aerospace engineering to economics. In both contexts it refers to simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner. While some decision problems cannot be taken apart this way, decisions that span several points in time do often break apart recursively. Likewise, in computer science, if a problem can be solved optimally by breaking it into sub-problems and then recursively finding the optimal solutions to the sub-problems, then it is said to have optimal substructure. Dynamic programming is one way to solve problems with these properties. The process of breaking a complicated problem down into simpler sub-problems is called "divide and conquer".
 ### Popular Dynamic Programming Algorithms
 * [Fibonacci Sequence](Dynamic%20Programming/Fibonacci%20Sequence/README.md)
-* [Longest Common Subsequence](DynamicProgramming/LongestCommonSubsequence/readme.md)
-* [Longest Increasing Subsequence](DynamicProgramming/LongestIncreasingSubsequence/readme.md)
-* [Knapsack Problem](DynamicProgramming/KnapsackProblem/readme.md)
-* [Edit Distance](DynamicProgramming/EditDistance/readme.md)
+* [Longest Common Subsequence](Not-Added)
+* [Longest Increasing Subsequence](Not-Added)
+* [Knapsack Problem](Not-Added)
+* [Edit Distance](Not-Added)
 * [Coin Change](DynamicProgramming/CoinChange/readme.md)
-* [Matrix Chain Multiplication](DynamicProgramming/MatrixChainMultiplication/readme.md)
+* [Matrix Chain Multiplication](Not-Added)
 
-## Greedy Algorithms
+## [Greedy Algorithms](Greedy%20Algorithm)
 Greedy algorithms are a simple, intuitive class of algorithms that can be used to find the optimal solution to some optimization problems. They are called greedy because at each step they make the choice that seems best at that moment. This means that greedy algorithms do not guarantee to return the globally optimal solution, but instead make locally optimal choices in the hope of finding a global optimum. Greedy algorithms are used for optimization problems. An optimization problem can be solved using Greedy if the problem has the following property: at every step, we can make a choice that looks best at the moment, and we get the optimal solution of the complete problem.
 ### Popular Greedy Algorithms
-* [Activity Selection](GreedyActivitySelection/readme.md)
-* [Huffman Coding](GreedyHuffmanCoding/readme.md)
-* [Prim's Algorithm](GreedyPrimsAlgorithm/readme.md)
-* [Kruskal's Algorithm](GreedyKruskalsAlgorithm/readme.md)
-* [Dijkstra's Algorithm](GreedyDijkstrasAlgorithm/readme.md)
-* [Job Sequencing](GreedyJobSequencing/readme.md)
-* [Fractional Knapsack](GreedyFractionalKnapsack/readme.md)
-* [Huffman Decoding](GreedyHuffmanDecoding/readme.md)
+* [Activity Selection](notadded)
+* [Huffman Coding](notadded)
+* [Prim's Algorithm](notadded)
+* [Kruskal's Algorithm](Greedy%20Algorithm/Kruskal%20Algorithm/readme.md)
+* [Dijkstra's Algorithm](notadded)
+* [Job Sequencing](notadded)
+* [Fractional Knapsack](notadded)
+* [Huffman Decoding](notadded)
 
 ## Backtracking
 Backtracking is an algorithmic-technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the time elapsed till reaching any level of the search tree).

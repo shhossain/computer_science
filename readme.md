@@ -87,7 +87,9 @@ The CPU itself is made of three main components. They are:
 3. [Arithmetic and Logic unit (ALU)](CPU/readme.md#arithmetic-and-logic-unit-alu)
 
 
-## [Registers, Cache and RAM](Not-Added)
+## [Registers, Cache and RAM](/Registers%20Cache%20and%20RAM)
+
+### [Register](/Registers%20Cache%20and%20RAM#register)
 Registers are small amounts of high-speed memory contained within the CPU. Registers are basically a collection of flip-flops (a circuit used to store 1 bit of memory). They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Register also helps in arithmetic and logic operations.Larger amounts of data may be stored in Cache (pronounced like cash).  This is a very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuits not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
 
 ## [Instruction and Program](Not-Added)
@@ -99,7 +101,6 @@ A programming language is any set of rules that convert strings, or graphical pr
 Programming languages are mainly of two types : 
 1. High-level language uses a syntax similar to the English language. The source code is converted into machine-understandable machine code using a compiler or an interpreter. Java, Python are some examples of high-level programming languages.
 2. Low-level programming languages work more closely to the hardware and have more control over it. They directly interact with the hardware. Two common examples of low-level languages are machine language and assembly language.
-
 
 Some Languages Include:
 - Python

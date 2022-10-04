@@ -12,6 +12,7 @@ The general idea of Branch and Bound algorithm is a BFS-like search for the opti
 - Job Assignment Problem
 - Travelling Salesman Problem
 - Nearest Neighbour search
+- N-Queens Problem
 
 
 ## Popular Dynamic Programming Algorithms
@@ -19,3 +20,4 @@ The general idea of Branch and Bound algorithm is a BFS-like search for the opti
 * [Job Assignment Problem](Not-Added)
 * [Travelling Salesman Problem](Not-Added)
 * [Nearest Neighbour search](Not-Added)
+* [N-Queens](Not-Added)

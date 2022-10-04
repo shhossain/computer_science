@@ -6,10 +6,11 @@ In computer science, a data structure is a data organization, management, and st
 - [Linked List](#linkedlist)
 - [Stack](#stack)
 - [Queue](#queue)
-- [Hash Table](#hashtable)
+- [Hash Table](#hash-table)
 - [Heap](#heap)
 - [Tree](#tree)
 - [Graph](#graph)
+- [Trie](Trie.md)
 
 ## Array
 An array is a data structure that stores a collection of data values in contiguous memory locations.
@@ -39,6 +40,18 @@ array[4] // 0 (index 4 is the fifth element) (1004)
 array[5] // 14 (index 5 is the sixth element) (1005)
 array[6] // 6 (index 6 is the seventh element) (1006)
 ```
+
+#### Time complexities of some basic array operations
+
+| Operation | Time Complexity |
+|-----------------|-------|
+| Accessing an element             | O(1)     |
+| Searching an element           | O(N)     |
+| Inserting an element             | O(N)     |
+| Deleting an element             | O(N)     |
+
+[More on Array](Array.md)
+
 
 ## LinkedList
 A linked list is a data structure that consists of a group of nodes where each node contains a data value and a reference (or link) to the next node in the list.
@@ -73,28 +86,89 @@ index 4 value is 14 with memory location 1006 and pointer to next node 1010
 index 5 value is 6 with memory location 1010 and pointer to first node 1000
 ```
 
+#### Time complexities of some basic Linked List operations
+
+| Operation | Time Complexity |
+|-----------------|-------|
+| Accesing an element             | O(N)     |
+| Searching an element           | O(N)     |
+| Inserting an element             | O(1)     |
+| Deleting an element             | O(1)     |
+
+
+[More on Linked List](LinkedList.md)
+
+
 ## Stack
-A stack is a data structure that stores a collection of data values in a LIFO (last in, first out) order.
+A stack is a data structure that stores a collection of data values in a LIFO (last in, first out) order.\
+A stack operations can only occur through one of its end, referred as the _top_ of the stack.\
+The implementation could be an array-like (static and contiguous) or a linked-list-like (dynamic and dis-contiguous).
+
+[More on Stack](Stack.md)
 
 ## Queue
 A queue stores a collection of data values in a FIFO (First In, First Out) order. The first element added to the queue will be the first to be processed (removed).\
-The implementation could use be an array-like (static and contiguous) or a linked-list-like (dynamic and dis-contiguous).
-### Queue's Common Operations
-#### Enqueue
-Add item to the rear of the queue
-##### Example
-```
-let queue = [4, 1, 0, 2];
-queue.enqueue(5);
-// queue is now [4, 1, 0, 2, 5]
-```
-#### Dequeue
-Remove the item from the front of the queue
-##### Example
+A queue can only be accessed through its ends, referred as _head_ for its rear and _tail_ for its back.\
+The implementation could be an array-like (static and contiguous) or a linked-list-like (dynamic and dis-contiguous).
+
+[More on Queue](Queue.md)
+
+## Hash Table
+
+Hash Table is a data structure which stores data in an associative manner. In a hash table, data is stored in an array format, where each data value has its own unique index value. Access of data becomes very fast if we know the index of the desired data.
+
+### Example 
 
 ```
-let queue = [4, 1, 0, 2];
-let head = queue.dequeue();
-// head is 4
-// queue is now [1, 0, 2]
+Let hash function H(x) = [11,12,13,14,15]
+// it will be stored at positions {1,2,3,4,5}
+// in the array or Hash table respectively.
 ```
+[More on Hash Table](HashTable.md)
+
+## Heap
+
+A heap is a specialized tree-based data structure which is an almost complete tree that satisfies the heap property. The heap property means that the element with the greatest key is always in the root node such a heap is sometimes called a max-heap.
+
+### Example
+
+```
+Let array of numbers be [100, 7, 2, 17, 3, 25, 1, 36, 19]
+// It will be in a tree-like form where the largest number will point to a smaller number and the smaller number points to an even smaller number and so on
+
+A heap representation of the array would look like this:
+                    100
+                  /     \
+                 19      36
+                /  \    /  \
+               17   3  25   1
+              /  \    
+             2    7
+```
+[More on Heap](Heap.md)
+
+## Tree
+
+A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value and a list of references to other nodes (the “children”).
+
+### Example
+
+```
+Let array of numbers be [100, 7, 2, 17, 3, 25, 1, 36, 19]
+// The tree is a specialized method to organize and store data in the computer to be used more effectively
+A tree representation of the array would look like this:
+                    100
+                  /     \
+                 19      36
+                /  \    /  \
+               17   3  25   1
+              /  \    
+             2    7
+```
+[More on Trees](Tree.md)
+
+## Graph
+A Graph is a non-linear data structure consisting of vertices and edges. The vertices are sometimes also referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph. More formally a Graph is composed of a set of vertices( V ) and a set of edges( E ). The graph is denoted by G(E, V).
+
+[More on Graph](Graph.md)
+

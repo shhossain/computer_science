@@ -113,7 +113,70 @@ The implementation could be an array-like (static and contiguous) or a linked-li
 
 [More on Queue](Queue.md)
 
-## Hash Table
+
+## Graph
+
+Graph is a data structure which consist of vertices (to store the data) and edges (to connect the vertices) to create a network like structure. In graph every relationship is an edge from one vertex to another. 
+
+#### Types of Graph
+
+**1. Directed Graph** : Those graph in which the direction of edge from one vertex to another is given is called directed graph.\
+**2. Undirected Graph** : Those graph in which the direction of edge from one vertex to another is not given is called undirected graph. It has bidirectional relation.\
+**3. Cyclic Graph** : Those graph in which the cycle is present (able to traverse back the same vertex) is called cyclic graph.\
+**4. Acyclic Graph** : Those graph in which the cycle is not present (unable to travese back the same vertex) is called acyclic graph.\
+**5. Weighted Graph** : If there is weight present on the edge of graph then we call such graph as weighted graph.\
+
+### Basic Terminologies Regarding Graph
+
+**Degree** : In Undirected Graph, the number of edges connected to a vertex is called degree of vertex.\
+**Indegree** : In Directed Graph, the number of edges entering into the vertex is called Indegree of vertex.\
+**Outdegree** : In Directed Graph, the number of edges emerging from the vertex is called Outdegree of vertex.\
+
+### Representation of Graph
+
+We can represent the graph using two ways: 
+                            
+**1. Adjacency Matrix** : In this representation, if there is an edge between ith and jth vertices then we assign INT_MAX value at that place and otherwise Zero.
+      
+|  | 0 | 1 | 2 | 3 |
+|--|---|---------|---|---------|
+| **0** | 0 | INT_MAX | 0 | INT_MAX |
+| **1** | INT_MAX | 0 | 0 | INT_MAX |
+| **2** | 0 | INT_MAX | 0 | INT_MAX |
+| **3** | 0 | INT_MAX | 0 | 0 |
+      
+**2. Adjacency List** : In this representation, we create a list of neighbours with the vertex.
+      
+| vertex | neighbours |
+|--------|------------|
+0 -> | 1 , 3 |
+1 -> | 0 , 3 |
+2 -> | 1 , 3 |
+3 -> | 1 |
+
+## Heap
+
+Heap is a data structure which is a complete binary tree in which the parent node is either greater than both child nodes or less than child nodes.
+
+### Implementation of Heap 
+  ```
+    priority_queue<int, vector<int>,greater<int>> (heap_name); //min heap
+    priority_queue<int, vector<int>> (heap_name);  //max heap
+    
+  ```
+
+### Types of Heap
+
+**1. Max Heap :** In Max Heap, the root node contains the greatest value among all it's child nodes value.
+**2. Min Heap :** In Max Heap, the root node contains the smallest value among all it's child nodes value.
+
+### Advantages of Heap 
+
+**1.** Using heap we can access the greates or smallest data in the constant time.\
+**2.** The traversing time of a heap using graph's Algorithm( BFS, DFS) is reduces to polynomial order.\
+**3.** As the heap is a complete binary tree, for N nodes the maximum height of a heap is log(N) so time complexity for accessing the maximun and minimum number is reduced to constant time and for Kth element it is reduced to linear complexity.\
+
+#### Hash Table
 
 Hash Table is a data structure which stores data in an associative manner. In a hash table, data is stored in an array format, where each data value has its own unique index value. Access of data becomes very fast if we know the index of the desired data.
 

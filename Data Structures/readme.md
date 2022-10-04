@@ -154,6 +154,9 @@ We can represent the graph using two ways:
 2 -> | 1 , 3 |
 3 -> | 1 |
 
+[More on Graph](graph.md)
+
+
 ## Heap
 
 Heap is a data structure which is a complete binary tree in which the parent node is either greater than both child nodes or less than child nodes.
@@ -175,6 +178,9 @@ Heap is a data structure which is a complete binary tree in which the parent nod
 **1.** Using heap we can access the greates or smallest data in the constant time.\
 **2.** The traversing time of a heap using graph's Algorithm( BFS, DFS) is reduces to polynomial order.\
 **3.** As the heap is a complete binary tree, for N nodes the maximum height of a heap is log(N) so time complexity for accessing the maximun and minimum number is reduced to constant time and for Kth element it is reduced to linear complexity.\
+
+[More on Heap](Heap.md)
+
 
 #### Hash Table
 

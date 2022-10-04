@@ -1,4 +1,4 @@
-## Register: 
+# Register
 
 A register is a collection of flip flop (A flip flop is basicaaly a storage device capable of storing 1 bit of information). Hence a register is able to store
 multiple bits of information. It is a very cruicial and important part of a computer. Even a very basic computer has atleast eight major reigsters.

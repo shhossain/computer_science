@@ -89,13 +89,13 @@ The CPU itself is made of three main components. They are:
 
 ## [Registers, Cache and RAM](/Registers%20Cache%20and%20RAM)
 
-### [Register](/Registers%20Cache%20and%20RAM#register)
+### [Register](/Registers%20Cache%20and%20RAM/readme.md#register)
 Registers are small amounts of high-speed memory contained within the CPU. Registers are basically a collection of flip-flops (a circuit used to store 1 bit of memory). They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Register also helps in arithmetic and logic operations.Larger amounts of data may be stored in Cache (pronounced like cash).  This is a very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuits not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
 
-### [Cache](/Registers%20Cache%20and%20RAM#cache)
+### [Cache](/Registers%20Cache%20and%20RAM/readme.md#cache)
 A cache -- pronounced CASH -- is hardware or software that is used to store something, usually data, temporarily in a computing environment.
 
-### [RAM](/Registers%20Cache%20and%20RAM#ram)
+### [RAM](/Registers%20Cache%20and%20RAM/readme.md#ram)
 RAM (Random Access Memory) is the hardware in a computing device where the operating system (OS), application programs and data in current use are kept so they can be quickly reached by the device's processor. RAM is the main memory in a computer. It is much faster to read from and write to than other kinds of storage, such as a hard disk drive (HDD), solid-state drive (SSD) or optical drive.
 
 ## [Instruction and Program](Not-Added)

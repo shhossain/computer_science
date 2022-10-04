@@ -95,9 +95,9 @@ queue.DeleteEnd();
 
 There are 2 types of Deque:
 
-##### Input restricted
+* Input restricted:  
 In this Input is restricted to one end only whereas deletion is possible from both ends.
 
-##### Output restricted
+* Output restricted:  
 In this Input is deletion from one end only whereas insertion(input) is possible to both ends.
 

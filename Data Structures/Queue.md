@@ -2,7 +2,7 @@
 A queue stores a collection of data values in a FIFO (First In, First Out) order. The first element added to the queue will be the first to be processed (removed).\
 A queue can only be accessed through its ends, referred as _head_ for its rear and _tail_ for its back.\
 The implementation could be an array-like (static and contiguous) or a linked-list-like (dynamic and dis-contiguous).
-### Queue's Common Operations
+### Common operations on Queue
 #### Enqueue
 Add item to the rear of the queue
 ##### Example

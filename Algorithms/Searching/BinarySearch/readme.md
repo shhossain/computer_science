@@ -17,11 +17,9 @@ The following is the method to use binary search.
 
 ## Method  (Standard Binary Search) 
 
-```java
+```JAVA
 //Binary search in Ascending order array
-int binarySearch(int arr, int target){
-
-
+int binarySearch(int[] arr, int target){
     
     //int arr[] = {1,2,3,4,5,6,7,8,9,10}, target ==9
     
@@ -69,12 +67,12 @@ start =6            mid=8  |                    end = 10
 
 ## Method 2 (Rotated Binary Search) 
 
-
-```java
+```JAVA
 //Binary search in Rotated Array
-//Finding peak element in an array
-int binarySearch(int arr){
 
+//Finding peak element in an array
+
+int binarySearch(int[] arr){
 
     //int arr[] = {5,6,7,8,9,10,1,2,3,4}, peak == 10
 
@@ -117,5 +115,4 @@ start =0             mid=5 |                    end = 10
                 is(arr[mid]>arr[mid+1])
 
             peak index found at index 5
-
 ```

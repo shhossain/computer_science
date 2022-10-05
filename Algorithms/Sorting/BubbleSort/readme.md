@@ -47,6 +47,7 @@ end procedure
 * [JavaScript](#javascript)
 * [Go](#go)
 * [Ruby](#ruby)
+* [PHP](#php)
 
 ### Python
 ```python
@@ -329,3 +330,40 @@ p bubble_sort(arr)
 p bubble_sort_desc(arr)
 ```
 
+
+### PHP
+```php
+
+function bubbleSort($arr){
+	$len = count($arr);
+	for($i = $len-1; $i>=0; $i--){
+		for($j = 1; $j<=$i; $j++){
+			if($arr[$j-1]>$arr[$j]){
+				$temp = $arr[$j-1];
+				$arr[$j-1] = $arr[$j];
+				$arr[$j] = $temp;
+			}
+		}
+	}
+	return $arr;
+}
+
+function bubbleSortDesc($arr){
+	$len = count($arr);
+	for($i = $len-1; $i>=0; $i--){
+		for($j = 1; $j<=$i; $j++){
+			if($arr[$j-1]<$arr[$j]){
+				$temp = $arr[$j-1];
+				$arr[$j-1] = $arr[$j];
+				$arr[$j] = $temp;
+			}
+		}
+	}
+	return $arr;
+}
+
+
+$arr = [64, 34, 25, 12, 22, 11, 90];
+var_dump(bubbleSort($arr));
+var_dump(bubbleSortDesc($arr));
+```

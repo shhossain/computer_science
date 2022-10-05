@@ -247,3 +247,32 @@ function countingSort(arr) {
 
 console.log(countingSort([6,4,5,1,2,3,9,8,7])); // [1,2,3,4,5,6,7,8,9]
 ```
+
+
+### PHP
+```php
+// Counting sort in Javascript programming
+function countingSort($arr) {
+  
+  $count = array();
+  foreach ($arr as $v) {
+    $count[$v] = isset($count[$v]) ? $count[$v] + 1 : 1;
+  }
+  $sorted = array();
+  $min = min($arr);
+  $max = max($arr);
+  for ($i=$min; $i<=$max; $i++) {
+    if (isset($count[$i])) {
+      for ($j=0; $j<$count[$i]; $j++) {
+        $sorted[] = $i;
+      }
+	}
+  }
+  return $sorted;
+}
+$arr = array(6,4,5,1,2,3,9,8,7);
+var_dump(countingSort($arr));
+```
+
+
+

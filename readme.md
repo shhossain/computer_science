@@ -22,6 +22,7 @@
 - [Memory and Storage](#memory-and-storage)
 - [File System](#file-system)
 - [Cloud Computing](#cloud-computing)
+- [Machine Learning](#machine-learning)
 
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
@@ -174,19 +175,6 @@ Different functional languages use different syntax to write a function.
 
 Read more about functions [here](Statements%20and%20Functions/readme.md#functions)
 
-## [Object Oriented Programming](Object%20Oriented%20Programming/readme.md)
-Object Oriented Programming is a fundamental programming paradigm which is based on the concepts of objects and data.
-
-It is the standard way of code that every programmer has to abide by for better readability and reusability of the code. 
-
-### * There are four basic concepts of Object Oriented Programming:
-- Abstraction
-- Encapsulation
-- Inheritance
-- Polymorphism 
-
-Read more about these concepts of OOP [here](Object%20Oriented%20Programming/readme.md)
-
 
 ## [Data Structures](Data%20Structures/readme.md)
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
@@ -293,6 +281,7 @@ Following a public campaign in 2009, the British Prime Minister Gordon Brown mad
 
 Turing has an extensive legacy with statues of him and many things named after him, including an annual award for computer science innovations. He appears on the current Bank of England £50 note, which was released on 23 June 2021, to coincide with his birthday. A 2019 BBC series, as voted by the audience, named him the greatest person of the 20th century.
 
+
 ## [Software Engineering](Software%20Engineering/readme.md)
 Software engineering is the branch of computer science that deals with the design, development, testing, and maintenance of software applications. Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users.
 
@@ -314,12 +303,14 @@ In this role, your day-to-day tasks might include:
 - Consulting with clients, engineers, security specialists, and other stakeholders
 - Presenting new features to stakeholders and internal customers
 
+
 ### Why Software Engineering is Popular?
 
 - Computer Science: Gives the scientific foundation for the software as electrical engineering mainly depends on physics.
 - Management Science: Software engineering is labor-intensive work which demands both technical and managerial control. Therefore, it is widely used in management science.
 - Economics: In this sector, software engineering helps you in resource estimation and cost control. Computing system must be developed, and data should be maintained regularly within a given budget.
 - System Engineering: Most software is a component of a much larger system. For example, the software in an Industry monitoring system or the flight software on an airplane. Software engineering methods should be applied to the study of this type of systems.
+- 
 
 ## [Integrated Circuits](Integrated%20Circuits/readme.md)
 An integrated circuit or monolithic integrated circuit (also referred to as an IC, a chip, or a microchip) is a set of electronic circuits on one small flat piece (or "chip") of semiconductor material, usually silicon. Large numbers of tiny MOSFETs (metal–oxide–semiconductor field-effect transistors) integrate into a small chip. This results in circuits that are orders of magnitude smaller, faster, and less expensive than those constructed of discrete electronic components. The IC's mass production capability, reliability, and building-block approach to integrated circuit design has ensured the rapid adoption of standardized ICs in place of designs using discrete transistors. ICs are now used in virtually all electronic equipment and have revolutionized the world of electronics. Computers, mobile phones and other home appliances are now inextricable parts of the structure of modern societies, made possible by the small size and low cost of ICs such as modern computer processors and microcontrollers.
@@ -335,6 +326,21 @@ Modern electronic component distributors often further sub-categorize integrated
 - Analog ICs are categorized as linear integrated circuits and RF circuits (radio frequency circuits).
 - Mixed-signal integrated circuits are categorized as data acquisition ICs (including A/D converters, D/A converters, digital potentiometers), clock/timing ICs, switched capacitor (SC) circuits, and RF CMOS circuits.
 - Three-dimensional integrated circuits (3D ICs) are categorized into through-silicon via (TSV) ICs and Cu-Cu connection ICs.
+
+
+## [Object Oriented Programming](Object%20Oriented%20Programming/readme.md)
+Object Oriented Programming is a fundamental programming paradigm which is based on the concepts of objects and data.
+
+It is the standard way of code that every programmer has to abide by for better readability and reusability of the code. 
+
+### * There are four basic concepts of Object Oriented Programming:
+- Abstraction
+- Encapsulation
+- Inheritance
+- Polymorphism 
+
+Read more about these concepts of OOP [here](Object%20Oriented%20Programming/readme.md)
+
 
 ## [Operating Systems](Operating%20Systems/readme.md)
 An operating system (or OS for short) acts as an intermediary between the user of a computer and computer hardware. The purpose of an operating system is to provide an environment in which an user can execute programs conveniently and efficiently.
@@ -429,3 +435,34 @@ It is a model for enabling ubiquitous, convenient, on-demand network access to a
 - [Infrastructure as a Service (IaaS)](Cloud%20Computing/Readme.md#infrastructure-as-a-service-iaas)
 - [Platform as a Service (PaaS)](Cloud%20Computing/Readme.md#platform-as-a-service-paas)
 - [Software as a Service (SaaS)](Cloud%20Computing/Readme.md#software-as-a-service-saas)
+
+
+## [Machine Learning]()
+Machine learning is the practice of teaching a computer to learn. The concept uses pattern recognition, as well as other forms of predictive algorithms, to make judgments on incoming data. This field is closely related to artificial intelligence and computational statistics.
+
+### There are three subcategories of machine learning:
+
+### -Supervised machine learning 
+In this machine learning models are trained with labeled data sets, which allow the models to learn and grow more accurate over time. For example, an algorithm would be trained with pictures of dogs and other things, all labeled by humans, and the machine would learn ways to identify pictures of dogs on its own. Supervised machine learning is the most common type used today.
+
+### -Unsupervised machine learning
+In Unsupervised machine learning a program looks for patterns in unlabeled data. Unsupervised machine learning can find patterns or trends that people aren’t explicitly looking for. For example, an unsupervised machine learning program could look through online sales data and identify different types of clients making purchases.
+
+### -Reinforcement machine learning
+This trains machines through trial and error to take the best action by establishing a reward system. Reinforcement learning can train models to play games or train autonomous vehicles to drive by telling the machine when it made the right decisions, which helps it learn over time what actions it should take.
+
+### Machine learning is also associated with several other artificial intelligence subfields:
+
+### Natural language processing
+
+Natural language processing is a field of machine learning in which machines learn to understand natural language as spoken and written by humans, instead of the data and numbers normally used to program computers. This allows machines to recognize language, understand it, and respond to it, as well as create new text and translate between languages. Natural language processing enables familiar technology like chatbots and digital assistants like Siri or Alexa.
+
+### Neural networks
+
+Neural networks are a commonly used, specific class of machine learning algorithms. Artificial neural networks are modeled on the human brain, in which thousands or millions of processing nodes are interconnected and organized into layers.
+
+In an artificial neural network, cells, or nodes, are connected, with each cell processing inputs and producing an output that is sent to other neurons. Labeled data moves through the nodes, or cells, with each cell performing a different function. In a neural network trained to identify whether a picture contains a cat or not, the different nodes would assess the information and arrive at an output that indicates whether a picture features a cat.
+
+### Deep learning
+
+Deep learning networks are neural networks with many layers. The layered network can process extensive amounts of data and determine the “weight” of each link in the network — for example, in an image recognition system, some layers of the neural network might detect individual features of a face, like eyes, nose, or mouth, while another layer would be able to tell whether those features appear in a way that indicates a face.  

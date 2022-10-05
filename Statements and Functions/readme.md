@@ -248,7 +248,7 @@ A lambda function is a small *anonymus* or also known as *unknown* function mean
 lambda arguments: expression
 ```
 
-##### Characteristic of lambda function:
+**Characteristic of lambda function:**
 
 * Lambda function takes an unlimited number of arguments however has only one expression. This expression return the result when the lambda function is called
 * Since it contain only one expression which return the result by default, it does not require the *return* statement.
@@ -263,11 +263,11 @@ print(result(5))
 15**
 
 **Here**,
-*lambda* is the keyword,
-x is an argument, and
-x + 10 is lambda expression.
+* *lambda* is the keyword,
+* x is an argument, and
+* x + 10 is lambda expression.
 
-##### Difference between lambda functions and user-defined functions
+**Difference between lambda functions and user-defined functions**
 
 Lambda functions are anonymous functions which mean a function is defined using a *lambda* keyword and without a name, whereas a user-defined function is defined using a *def* keyword and has a function name.
 

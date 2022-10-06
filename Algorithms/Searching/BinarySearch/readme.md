@@ -119,3 +119,50 @@ start =0             mid=5 |                    end = 10
             peak index found at index 5
 
 ```
+
+
+# Binary Search in 2-D Matrix
+
+when the given two dimensional matrix have numbers sortedin every row and first value
+of every row is less/greater than first value next row
+
+Example:
+-               -
+| 1 3 5 7 9     |
+| 2 4 8 10 12   |
+| 6 14 16 18 20 |
+-               -
+
+*** Time Complexity : O(log(n)) ***
+*** Space Complexity : O(1) ***
+
+
+## Method 
+
+``` java 
+
+// Binary Search in a sorted 2-D Array
+
+int binarySearch2D(int arr,int k){
+
+    //int arr[][] = {{1, 3, 5, 7},{2, 4, 6, 8}, {6, 14, 16, 18}};
+    int n = arr.length, m = arr[0].length;
+    int l = 0, h = ( n * m ) - 1;
+    
+    while (l<=h){
+        int mi = l + (l + h ) / 2; // calculating the mid Value
+        
+        if (arr[mi / m] [mi % m]==k){
+            return k
+        }
+
+        else if ( arr[mi / m][mi % m]<k){
+            l= mi + 1;
+        }
+        else{
+            h = mi - 1;
+        }
+
+    }
+    return -1;
+}

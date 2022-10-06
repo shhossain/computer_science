@@ -3,7 +3,14 @@
 The time complexity of an algorithm estimates how much time the algorithm will use for some input. The idea is to represent the efficiency as a function whose parameter is the size of the input. By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it.
 
 ## Analysis of Algorithm
-There are 2 types of analysis:-
+* Algorithm is a combination or sequence of finite-state to solve a given problem. If the problem is having more than one solution or algorithm then the best one is decided by the analysis based on two factors. 
+
+* CPU Time (Time Complexity)
+* Main memory space (Space Complexity)
+Time complexity of an algorithm can be calculated by using two methods: 
+* Posteriori Analysis
+* Priori Analysis
+
 ### Aposteriori Analysis / Posteriori Analysis
 **Advantages of Aposteriori Analysis**
 * It will give exact values of time and space in actual units.

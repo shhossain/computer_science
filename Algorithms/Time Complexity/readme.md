@@ -30,6 +30,8 @@ In view of these difficulties , carryout analysis in Aposteriori mode is not des
 * This is a theoretical analysis of an algorithm.
 * Time Complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of Input Size. **{f(n)}**
 * There various methods to determine time complexity. One of the general Method is Input Size. As Input Size increases time complexity also increases. Therefore time taken by an Algorithm is directly proportional to size of Input.
+* In an industry, we cannot perform Apostiari analysis as the software is generally made for an anonymous user, which runs it on a system different from those present in the industry.
+* In Apriori, it is the reason that we use **asymptotic notations** to determine time and space complexity as they change from computer to computer; however, asymptotically they are the same.
 
 ## Best Case, Worst Case, and Average Case in Time Complexity Analysis
 **Best Case**: It is defined as the condition that allows an algorithm to complete statement execution in the shortest amount of time. In this case, the execution time serves as a lower bound on the algorithm's time complexity.

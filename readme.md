@@ -23,6 +23,7 @@
 - [File System](#file-system)
 - [Cloud Computing](#cloud-computing)
 - [Machine Learning](#machine-learning)
+- [Web Technology](#web-tecnology)
 
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
@@ -466,3 +467,23 @@ In an artificial neural network, cells, or nodes, are connected, with each cell 
 ### Deep learning
 
 Deep learning networks are neural networks with many layers. The layered network can process extensive amounts of data and determine the “weight” of each link in the network — for example, in an image recognition system, some layers of the neural network might detect individual features of a face, like eyes, nose, or mouth, while another layer would be able to tell whether those features appear in a way that indicates a face.  
+
+## [Web Technology](Web%20Technology/WebTechnology.md#web-tecnology)
+Web Technology refers to the various tools and techniques that are utilized in the process of communication between different types of devices over the internet. A web browser is used to access web pages. Web browsers can be defined as programs that display text, data, pictures, animation, and video on the Internet. Hyperlinked resources on the World Wide Web can be accessed using software interfaces provided by Web browsers.
+### Web Technology can be classified into the following sections:
+- World Wide Web (WWW)
+The World Wide Web is based on several different technologies : Web browsers, Hypertext Markup Language (HTML) and Hypertext Transfer Protocol (HTTP).
+- Web Browser
+The web browser is an application software to explore www (World Wide Web). It provides an interface between the server and the client and requests to the server for web documents and services.
+- Web Server
+Web server is a program which processes the network requests of the users and serves them with files that create web pages. This exchange takes place using Hypertext Transfer Protocol (HTTP).
+- Web Pages
+A webpage is a digital document that is linked to the World Wide Web and viewable by anyone connected to the internet has a web browser.
+- Web Development
+Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.
+### Web Development can be classified into two ways:
+### Frontend Development
+The part of a website that the user interacts directly is termed as front end. It is also referred to as the ‘client side’ of the application.
+### Backened Development
+Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
+

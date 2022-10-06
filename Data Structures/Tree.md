@@ -72,3 +72,12 @@ T[0100] + 10 = 13 + 10 = 23
 T[1000] + 10 = 41 + 10 = 51
 T[10000] is out of bounds as 10000 would be 16 and the maximum index of T is 10
 ```
+# Some Real life Applications of Tree data structure
+```
+1. Store hierarchical data, like folder structure, organization structure, XML/HTML data.
+2. B-Tree and B+ Tree : They are used to implement indexing in databases.
+3. In Computer Graphics.
+4. In java virtual machine.
+5. Machine learning algorithm.
+    and this count will go on...
+```

@@ -195,7 +195,7 @@ int y = (int)x; // y is an integer
 x = 10.5 # x is a float
 y = int(x) # y is an integer
 ```
-# Note
+## Note
 We should be careful in explicitvtype coversion like,
 - Converting a floating type value to integer type value, because this would result in loss od decimal point values.
 - A larger data type if converted to smaller data type will result in loss of data as the number will be truncated.

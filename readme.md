@@ -467,3 +467,57 @@ In an artificial neural network, cells, or nodes, are connected, with each cell 
 ### Deep learning
 
 Deep learning networks are neural networks with many layers. The layered network can process extensive amounts of data and determine the “weight” of each link in the network — for example, in an image recognition system, some layers of the neural network might detect individual features of a face, like eyes, nose, or mouth, while another layer would be able to tell whether those features appear in a way that indicates a face.  
+
+## [Web Technology](Web%20Technology/WebTechnology.md#web-tecnology)
+Web Technology refers to the various tools and techniques that are utilized in the process of communication between different types of devices over the internet. A web browser is used to access web pages. Web browsers can be defined as programs that display text, data, pictures, animation, and video on the Internet. Hyperlinked resources on the World Wide Web can be accessed using software interfaces provided by Web browsers.
+### Web Technology can be classified into the following sections:
+- World Wide Web (WWW)
+The World Wide Web is based on several different technologies : Web browsers, Hypertext Markup Language (HTML) and Hypertext Transfer Protocol (HTTP).
+- Web Browser
+The web browser is an application software to explore www (World Wide Web). It provides an interface between the server and the client and requests to the server for web documents and services.
+- Web Server
+Web server is a program which processes the network requests of the users and serves them with files that create web pages. This exchange takes place using Hypertext Transfer Protocol (HTTP).
+- Web Pages
+A webpage is a digital document that is linked to the World Wide Web and viewable by anyone connected to the internet has a web browser.
+- Web Development
+Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.
+### Web Development can be classified into two ways:
+### Frontend Development
+The part of a website that the user interacts directly is termed as front end. It is also referred to as the ‘client side’ of the application.
+### Backened Development
+Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
+### Frontend Languages
+The front end portion is built by using some languages which are discussed below:
+
+<h3>HTML</h3>
+  HTML stands for Hypertext Markup Language. It is used to design the front-end portion of web pages using a markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. The markup language is used to define the text documentation within the tag which defines the structure of web pages.
+<h3>CSS</h3>
+  Cascading Style Sheets fondly referred to as CSS is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independent of the HTML that makes up each web page.
+<h3>JavaScript</h3>
+  JavaScript is a famous scripting language used to create magic on the sites to make the site interactive for the user. It is used to enhancing the functionality of a website to running cool games and web-based software.
+<h3>AJAX</h3>
+  Ajax is an acronym for Asynchronous Javascript and XML. It is used to communicate with the server without refreshing the web page and thus increasing the user experience and better performance.
+ ### Backend Languages
+The back end portion is built by using some languages which are discussed below: 
+ 
+
+<h3>PHP</h3>
+PHP is a server-side scripting language designed specifically for web development. Since PHP code executed on the server-side, so it is called a server-side scripting language.
+<h3>Node.js</h3>
+Node.js is an open-source and cross-platform runtime environment for executing JavaScript code outside a browser. You need to remember that NodeJS is not a framework, and it’s not a programming language. Most people are confused and understand it’s a framework or a programming language. We often use Node.js for building back-end services like APIs like Web App or Mobile App. It’s used in production by large companies such as Paypal, Uber, Netflix, Wallmart, and so on.
+<h3>Python</h3>
+Python is a programming language that lets you work quickly and integrate systems more efficiently.
+<h3>Ruby</h3>
+Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. Ruby is a pure Object-Oriented language developed by Yukihiro Matsumoto. Everything in Ruby is an object except the blocks but there are replacements too for it i.e procs and lambda. The objective of Ruby’s development was to make it act as a sensible buffer between human programmers and the underlying computing machinery.
+<h3>Java</h3>
+Java is one of the most popular and widely used programming languages and platforms. It is highly scalable. Java components are easily available.
+<h3>JavaScript</h3>
+JavaScript can be used as both (front end and back end) programming.
+<h3>Golang</h3>
+Golang is a procedural and statically typed programming language having the syntax similar to C programming language. Sometimes it is termed as Go Programming Language.
+<h3>C# </h3>
+C# is a general-purpose, modern and object-oriented programming language pronounced as “C sharp”.
+<h3>DBMS</h3>
+The software which is used to manage database is called Database Management System (DBMS).
+
+#### For more information please visit  :  <a href="https://github.com/its-red-eagle/computer_science/blob/main/Web%20Technology/WebTechnology.md" target="_blank">Web Technology</a> 

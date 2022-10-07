@@ -489,3 +489,15 @@ Backend is the server side of a website. It is the part of the website that user
 
 ## [Networking](networking/networking.md#Networking)
   It also known as computer networking, is the practice of transporting and exchanging data between nodes over a shared medium in an information system. Networking comprises not only the design, construction and use of a network, but also the management, maintenance and operation of the network infrastructure, software and policies.
+
+### Types of networking
+There are two primary types of computer networking:
+
+
+- Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fiber is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
+
+- Wireless networking: Wireless networking uses radio waves to transport data over the air, enabling devices to be connected to a network without any cabling. Wireless LANs are the most well-known and widely deployed form of wireless networking. Alternatives include microwave, satellite, cellular and Bluetooth, among others.
+
+As a general rule, wired networking offers greater speed, reliability and security compared to wireless networks; wireless networking tends to provide more flexibility, mobility and scalability.
+
+Networking can also be classified according to how it's built and designed, encompassing approaches that include software-defined networking (SDN) or overlay networks.It is discussed in detail.

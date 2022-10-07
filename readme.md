@@ -24,6 +24,7 @@
 - [Cloud Computing](#cloud-computing)
 - [Machine Learning](#machine-learning)
 - [Web Technology](#web-technology)
+- [Networking and Network Protocols](#networking-and-network-protocols)
 
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
@@ -487,3 +488,10 @@ The part of a website that the user interacts directly is termed as front end. I
 ### Backened Development
 Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
 
+## [Networking and Network Protocols](Networking/Networking%20and%20Network%20protocols.md)
+
+A computer network is a set of computers sharing resources located on or provided by network nodes. The computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies, based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
+
+The nodes of a computer network can include personal computers, servers, networking hardware, or other specialised or general-purpose hosts. They are identified by network addresses, and may have hostnames. Hostnames serve as memorable labels for the nodes, rarely changed after initial assignment. Network addresses serve for locating and identifying the nodes by communication protocols such as the Internet Protocol.
+
+Computer networks may be classified by many criteria, including the transmission medium used to carry signals, bandwidth, communications protocols to organize network traffic, the network size, the topology, traffic control mechanism, and organizational intent.

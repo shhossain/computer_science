@@ -1,8 +1,8 @@
-# Hashing Technique to search an item in an array
+# Hashing 
 
 Hashing is a technique or process of mapping keys, and values into the hash table by using a hash function. It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function used.<br>
 
-<h2>Hashing:</h2> Hashing is a popular technique for storing and retrieving data as fast as possible. The main reason behind using hashing is that it gives optimal results as it performs optimal searches.<br>
+Hashing is a popular technique for storing and retrieving data as fast as possible. The main reason behind using hashing is that it gives optimal results as it performs optimal searches.<br>
 
 <h2>Why to use Hashing? </h2>
 <br>

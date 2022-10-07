@@ -188,6 +188,9 @@ Algorithms are the sets of steps necessary to complete computation - they are at
 ### [Time Complexity](Algorithms/Time%20Complexity/readme.md)
 The time complexity of an algorithm estimates how much time the algorithm will use for some input. The idea is to represent the efficiency as a function whose parameter is the size of the input. By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it.
 
+### [Space Complexity](Algorithms/Space%20Complexity/readme.md)
+Space complexity refers to the total amount of memory space used by an algorithm/program, including the space of input values for execution. Calculate the space occupied by variables in an algorithm/program to determine space complexity.
+
 ### [Sorting](Algorithms/Sorting/readme.md)
 Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Or if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
 

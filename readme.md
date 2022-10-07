@@ -487,7 +487,7 @@ The part of a website that the user interacts directly is termed as front end. I
 ### Backened Development
 Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
 
-## [Networking](networking/networking.md)
+## [Networking](Networking/Readme.md)
   It also known as computer networking, is the practice of transporting and exchanging data between nodes over a shared medium in an information system. Networking comprises not only the design, construction and use of a network, but also the management, maintenance and operation of the network infrastructure, software and policies.
 
 ### Types of networking

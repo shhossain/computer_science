@@ -28,6 +28,8 @@ end procedure
 * [Python](#python)
 * [C++](#cpp)
 * [C](#c)
+* [Javascript](#javascript)
+* [PHP](#php)
 
 
 ### Python
@@ -201,3 +203,77 @@ int main() {
   printArray(array, n);
 }
 ```
+
+### Javascript
+```js
+// Counting sort in Javascript programming
+function countingSort(arr) {
+    let max = -Infinity;
+
+    //   max <- find largest element in array
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+
+    //   initialize count array with all zeros
+    let count = new Array(max + 1).fill(0);
+
+    //   for j <- 0 to size
+    //     find the total count of each unique element and
+    //     store the count at jth index in count array
+    for (let j = 0; j < arr.length; j++) {
+        count[arr[j]]++;
+    }
+
+    //   for i <- 1 to max
+    //     find the cumulative sum and store it in count array itself
+    for (let i = 1; i < count.length; i++) {
+        count[i] += count[i - 1];
+    }
+
+    let output = new Array(arr.length);
+
+    //   for j <- size down to 1
+    //     restore the elements to array
+    //     decrease count of each element restored by 1
+    for (let j = arr.length - 1; j >= 0; j--) {
+        output[count[arr[j]] - 1] = arr[j];
+        count[arr[j]]--;
+    }
+
+    return output;
+}
+
+console.log(countingSort([6,4,5,1,2,3,9,8,7])); // [1,2,3,4,5,6,7,8,9]
+```
+
+
+### PHP
+```php
+// Counting sort in Javascript programming
+function countingSort($arr) {
+  
+  $count = array();
+  foreach ($arr as $v) {
+    $count[$v] = isset($count[$v]) ? $count[$v] + 1 : 1;
+  }
+  $sorted = array();
+  $min = min($arr);
+  $max = max($arr);
+  for ($i=$min; $i<=$max; $i++) {
+    if (isset($count[$i])) {
+      for ($j=0; $j<$count[$i]; $j++) {
+        $sorted[] = $i;
+      }
+	}
+  }
+  return $sorted;
+}
+$arr = array(6,4,5,1,2,3,9,8,7);
+var_dump(countingSort($arr));
+```
+
+
+

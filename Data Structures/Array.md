@@ -1,5 +1,7 @@
 ## Array
-An array is a data structure that stores a collection of data values in contiguous memory locations.
+An array is a collection of items of same data type stored at contiguous memory locations. 
+
+This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array). The base value is index 0 and the difference between the two indexes is the offset.
 
 ### Example
 ```
@@ -27,6 +29,27 @@ array[5] // 14 (index 5 is the sixth element) (1005)
 array[6] // 6 (index 6 is the seventh element) (1006)
 ```
 
+<p align="center">
+  <img src="images/Array.png?raw=true" alt="Array Image"/>
+</p>
+
+
+#### Initiation of Array
+
+for initiation of Arrays it is necessary to specify size of an Array
+
+if C++:
+for example if you wish to initate an array of 5 elements 
+you have to write code as:
+
+ ```
+<datatype> arr_name[size]
+int arr[5];
+```
+
+
+this will initialise array with 0 elements.
+  
 #### Time complexities of some basic array operations
 
 | Operation | Time Complexity |
@@ -36,3 +59,56 @@ array[6] // 6 (index 6 is the seventh element) (1006)
 | Inserting an element             | O(N)     |
 | Deleting an element             | O(N)     |
 
+
+## Algorithms on Array
+
+### Searching :
+ 
+### 1. Linear Search :
+
+Algorithm :
+
+
+1. Iterate the array using the loop.
+
+2. Check whether the given key present in the array i.e. arr[i] == key.
+
+3. If yes,
+
+     print "Element Found".
+
+4. Else
+
+     print "Element Not Found".
+     
+
+### 2. Binary Search
+
+Algorithm :
+
+Binary_Search(a, lower_bound, upper_bound, val) 
+
+// 'a' is the given array, 'lower_bound' is the index of the first array element, 'upper_bound' is the index of the last array element, 'val' is the value to search  
+
+Step 1: set beg = lower_bound, end = upper_bound, pos = - 1  
+
+Step 2: repeat steps 3 and 4 while beg <=end  
+
+Step 3: set mid = (beg + end)/2  
+
+Step 4: if a[mid] = val  
+set pos = mid  
+print pos  
+go to step 6  
+else if a[mid] > val  
+set end = mid - 1  
+else  
+set beg = mid + 1  
+[end of if]  
+[end of loop]  
+
+Step 5: if pos = -1  
+
+print "value is not present in the array"  
+[end of if]  
+Step 6: exit  

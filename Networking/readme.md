@@ -1,4 +1,3 @@
-
 ## NETWORKING
 
 A computer network is a set of computers sharing resources located on or provided by network nodes. The computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies, based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
@@ -212,6 +211,56 @@ Problems with this topology :
 - It is very difficult to design the architecture of the Hybrid Network.
 - Hubs used in this topology are very expensive.
 - The infrastructure cost is very high as hybrid network requires a lot of cabling, network devices.
+
+## Features Of Computer network
+- Communication speed
+- File sharing
+- Back up and Roll back is easy
+- Software and Hardware sharing
+- Security
+- Scalability
+- Reliability
+
+## Computer Network Architecture
+
+The physical and logical layout of the software, hardware, protocols, and data transmission media is referred to as computer network architecture. That is, how tasks are assigned to computers and how computers are organised.
+
+### The two types of network architectures are used:
+
+Computer Network Architecture
+- Peer-To-Peer network
+- Client/Server network
+
+### Peer-to-Peer Networks
+Workgroup or peer-to-peer networks are networks without an authentication server. When low security is necessary when there are only a few computers on a network, this paradigm works well. They are typical of networks in small offices or homes. All machines in a workgroup are capable of offering both client and server services.
+
+#### Advantages Of Peer-To-Peer Network:
+- It is less costly as it does not contain any dedicated server.
+- If one computer stops working but, other computers will not stop working.
+- It is easy to set up and maintain as each computer manages itself.
+
+#### Disadvantages Of Peer-To-Peer Network:
+
+- In the case of Peer-To-Peer network, it does not contain the centralized system . Therefore, it cannot back up the data as the data is different in different locations.
+- It has a security issue as the device is managed itself.
+
+### Client/Server network
+The client-server paradigm, often known as the client-server architecture, is a distributed application framework that assigns duties to servers and clients that either share a system or connect via a computer network or the Internet. In order to use a service provided by a server, the client must make a request to another software. One or more applications are run on the server to share resources and divide work across clients.
+
+A standard communications protocol that clearly defines the rules, vocabulary, and dialogue patterns to be utilised must be followed when communicating in a client-server connection using a request-response message pattern. The TCP/IP protocol suite is commonly used for client-server communication.
+
+#### Advantages Of Client/Server Network:
+
+- The centralised system is housed within a client/server network. As a result, we can effortlessly backup the data. 
+- A dedicated server in a client/server network boosts the system's overall performance. 
+- Because a single server manages the shared resources, security is greater in client/server networks. 
+- Additionally, it speeds up the process of exchanging resources.
+
+#### Disadvantages Of Client/Server Network: 
+
+- Due to the need for a server with a lot of memory, client/server networks are expensive. 
+- A server uses a Network Operating System (NOS) to provide clients access to resources, however NOS is quite expensive. 
+- To oversee all the resources, a dedicated network administrator is needed.
 
 
 ## Network Protocols

@@ -2,6 +2,37 @@
 
 The time complexity of an algorithm estimates how much time the algorithm will use for some input. The idea is to represent the efficiency as a function whose parameter is the size of the input. By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it.
 
+## Analysis of Algorithm
+* Algorithm is a combination or sequence of finite-state to solve a given problem. If the problem is having more than one solution or algorithm then the best one is decided by the analysis based on two factors. 
+
+* CPU Time (Time Complexity)
+* Main memory space (Space Complexity)
+Time complexity of an algorithm can be calculated by using two methods: 
+* Posteriori Analysis
+* Priori Analysis
+
+### Aposteriori Analysis / Posteriori Analysis
+**Advantages of Aposteriori Analysis**
+* It will give exact values of time and space in actual units.
+
+**Drawbacks of Aposteriori Analysis**
+* Not easy to carry out.
+* It is not uniform i.e It changes system to system as it is machine dependent; Non-uniformity of the platform makes it difficult to carry out performance comparision due to different values reported.
+* Experiments can be done on a limited set of Test Input's.
+* It is difficult to compare the efficiency of two algorithms unless they are executed on the same platform (Hardware and Software) experiments, inorder to determine running time.
+
+<br>
+
+In view of these difficulties , carryout analysis in Aposteriori mode is not desirable. Therefore to overcome these limitations we are going for another method of analysis called as **Apriori Analysis**. 
+
+### Apriori Analysis
+* The objective of apriori analysis is to represent the running time of algorithm by a mathematical function with respect to I/P size.
+* This is a theoretical analysis of an algorithm.
+* Time Complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of Input Size. **{f(n)}**
+* There various methods to determine time complexity. One of the general Method is Input Size. As Input Size increases time complexity also increases. Therefore time taken by an Algorithm is directly proportional to size of Input.
+* In an industry, we cannot perform Apostiari analysis as the software is generally made for an anonymous user, which runs it on a system different from those present in the industry.
+* In Apriori, it is the reason that we use **asymptotic notations** to determine time and space complexity as they change from computer to computer; however, asymptotically they are the same.
+
 ## Best Case, Worst Case, and Average Case in Time Complexity Analysis
 **Best Case**: It is defined as the condition that allows an algorithm to complete statement execution in the shortest amount of time. In this case, the execution time serves as a lower bound on the algorithm's time complexity.
 Example: In the linear search when search data is present at the first location of large data then the best case occurs.

@@ -111,6 +111,6 @@ Pic Will be added
         - [DFS](notadded)
         - [BFS](notadded)
 3. [Shortest Path](#shortest-path)
-    - [Dijkstra's Algorithm](notadded)
+    - [Dijkstra's Algorithm](Traversal%20Algorithms/Dijkstra'sAlgorithm/readme.md)
     - [Bellman Ford Algorithm](notadded)
     - [Floyd Warshall Algorithm](notadded)

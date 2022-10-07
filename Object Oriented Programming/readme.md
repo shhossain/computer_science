@@ -24,7 +24,7 @@ It does not store any data unlike the objects but it tells us what the object of
 
 
 ## Concepts of OOP:
-**There are four basic concepts of Object Oriented Programming:**
+**There are four basic concepts of Object-Oriented Programming:**
 
 #### **1. Abstraction**
 It refers to providing only necessary details for running a method to the user without providing any sensitive background information to the user.
@@ -45,7 +45,7 @@ Inheritance is the ability to create a new class from an existing class.
 
 Using inheritance, we can inherit a few or all members and functions from a Parent class to a Child class. The Child class may also have additional members and functions of its own.
 
-For example, let us assume we have a class School which has attributes like Unique ID, Class Routine, etc and functions like Biometric Attendance System. 
+For example, let us assume we have a class school which has attributes like Unique ID, Class Routine, etc and functions like Biometric Attendance System. 
 
 There are two more classes called Student and Teacher. Now, both these classes can access the methods and function from the School class as well as have functions of their own like Assignment Submission or Assignment Grading respectively. 
 
@@ -56,7 +56,7 @@ Using Polymorphism, we can call the same member function but make it work differ
 
 For example, let us consider a class called Addition. 
 
-In case an object which has String data type members in it calls this class, the two strings are concatenated. But when the object has numeric data type members it it, the same class simply adds the two numbers.
+In case an object which has String data type members in it calls this class, the two strings are concatenated. But when the object has numeric data type members it, the same class simply adds the two numbers.
 
 Polymorphism eliminates the possibilities of rewriting almost the same code many times over differently for different objects.
 
@@ -78,9 +78,9 @@ Operator overloading
 
 #### Implementing Operator Overloading in C++
 Operator function must be either non-static (member function) or friend function to get overloaded. Operator overloading function can be applied on a member function if the left operand is an object of that class, but if the Left operand is different, then the Operator overloading function must be defined as a non-member function.
-Operator overloading function can be made friend function if it requires access to the private and protected members of the class. For example, the operator op is an operator function where op is the operator being overloaded, and the operator is the keyword. Operator overloading can be achieved by implementing a function that can be either member function,non- member function or friend function.
+Operator overloading function can be made friend function if it requires access to the private and protected members of the class. For example, the operator op is an operator function where op is the operator being overloaded, and the operator is the keyword. Operator overloading can be achieved by implementing a function that can be either member function, non- member function or friend function.
 
 
 
 
-**Hence, these four concepts of OOP helps in writing better modular and efficient codes.** 
+**Hence, these four concepts of OOP help in writing better modular and efficient codes.** 

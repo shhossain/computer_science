@@ -24,7 +24,8 @@
 - [Cloud Computing](#cloud-computing)
 - [Machine Learning](#machine-learning)
 - [Web Technology](#web-technology)
-- [Networking](#networking)
+- [Networking and Network Protocols](#networking-and-network-protocols)
+
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
 
@@ -487,17 +488,14 @@ The part of a website that the user interacts directly is termed as front end. I
 ### Backened Development
 Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
 
-## [Networking](Networking/readme.md)
-  It also known as computer networking, is the practice of transporting and exchanging data between nodes over a shared medium in an information system. Networking comprises not only the design, construction and use of a network, but also the management, maintenance and operation of the network infrastructure, software and policies.
+
+## [Networking and Network Protocols](Networking/readme.md)
+A computer network is a set of computers sharing resources located on or provided by network nodes. The computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies, based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
+The nodes of a computer network can include personal computers, servers, networking hardware, or other specialised or general-purpose hosts. They are identified by network addresses, and may have hostnames. Hostnames serve as memorable labels for the nodes, rarely changed after initial assignment. Network addresses serve for locating and identifying the nodes by communication protocols such as the Internet Protocol.
+Computer networks may be classified by many criteria, including the transmission medium used to carry signals, bandwidth, communications protocols to organize network traffic, the network size, the topology, traffic control mechanism, and organizational intent.
 
 ### Types of networking
 There are two primary types of computer networking:
-
-
 - Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fiber is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
-
 - Wireless networking: Wireless networking uses radio waves to transport data over the air, enabling devices to be connected to a network without any cabling. Wireless LANs are the most well-known and widely deployed form of wireless networking. Alternatives include microwave, satellite, cellular and Bluetooth, among others.
 
-As a general rule, wired networking offers greater speed, reliability and security compared to wireless networks; wireless networking tends to provide more flexibility, mobility and scalability.
-
-Networking can also be classified according to how it's built and designed, encompassing approaches that include software-defined networking (SDN) or overlay networks.It is discussed in detail.

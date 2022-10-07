@@ -237,3 +237,37 @@ for i in range(1, 101):
 * This not only just increases the readability of the main program but the isPrime function can be used by other programs too.
 
 ------------
+
+# Lambda Function
+
+A lambda function is a small *anonymus* or also known as *unknown* function meaning that the function does not have a name. They reduce down the code size and makes it for the programmer to do faster software development.
+
+* Syntax:
+```python
+lambda arguments: expression
+```
+
+**Characteristic of lambda function:**
+
+* Lambda function takes an unlimited number of arguments however has only one expression. This expression return the result when the lambda function is called
+* Since it contain only one expression which return the result by default, it does not require the *return* statement.
+
+* An example of lambda function:
+```python
+result = lambda x: x + 10
+print(result(5))
+```
+
+**Output:
+15**
+
+**Here**,
+* *lambda* is the keyword,
+* x is an argument, and
+* x + 10 is lambda expression.
+
+**Difference between lambda functions and user-defined functions**
+
+Lambda functions are anonymous functions which mean a function is defined using a *lambda* keyword and without a name, whereas a user-defined function is defined using a *def* keyword and has a function name.
+
+---------

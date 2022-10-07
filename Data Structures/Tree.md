@@ -53,6 +53,9 @@ If balance factor of any node is 1, it means that the left sub-tree is one level
 If balance factor of any node is 0, it means that the left sub-tree and right sub-tree contain equal height.
 If balance factor of any node is -1, it means that the left sub-tree is one level lower than the right sub-tree.
 
+### Example
+
+```
 Let array of numbers be [8, 3, 10, 1, 6, 5, 14, 4, 7, 13]
 Tree representation
                         8
@@ -74,6 +77,7 @@ Balance Factor (3) = -1
 Balance Factor (10) = 0
 Balance Factor (8) = 1
 
+```
 
 ## Fenwick Tree
 

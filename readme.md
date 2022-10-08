@@ -518,8 +518,6 @@ An Entity may be an object with a physical existence – a particular person, ca
 
 An Entity is an object of Entity Type and set of all entities is called as entity set. e.g.; E1 is an entity having Entity Type Student and set of all students is called Entity Set. In ER diagram, Entity Type is represented as: 
 
-![](./Database-Management-System-ER-Model.png)
-
 **Attribute(s):**   
 Attributes are the **properties which define the entity type**. For example, Roll\_No, Name, DOB, Age, Address, Mobile\_No are the attributes which defines entity type Student. In ER diagram, attribute is represented by an oval. 
 
@@ -547,13 +545,10 @@ A set of relationships of same type is known as relationship set. The following 
 =======
 > Prerequisite: [Basics of Computer Networking](https://www.geeksforgeeks.org/basics-computer-networking/) 
 
-![](./computer-network-osi-model-layers.png)
 
 ### **1\. Physical Layer (Layer 1) :**
 
 The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
-
-![](./computer-network-osi-model-layers-bits.png)
 
 The functions of the physical layer are as follows:  
 
@@ -573,8 +568,6 @@ Data Link Layer is divided into two sublayers:  
 The packet received from the Network layer is further divided into frames depending on the frame size of NIC(Network Interface Card). DLL also encapsulates Sender and Receiver’s MAC address in the header. 
 
 The Receiver’s MAC address is obtained by placing an ARP(Address Resolution Protocol) request onto the wire asking “Who has that IP address?” and the destination host will reply with its MAC address.  
-
-![](./computer-network-osi-model-layers-framing.png)
 
 The functions of the Data Link layer are :  
 

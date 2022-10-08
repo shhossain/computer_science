@@ -5,4 +5,4 @@ Graph search is the process of searching through a graph to find a particular no
 * [Breadth First Search](BreadthFirstSearch/readme.md)
 * [Depth First Search](DepthFirstSearch/readme.md)
 * [Dijkstra's Algorithm](Dijkstra'sAlgorithm/readme.md)
-* [A* Search](notadded)
+* [A* Search](AstarSearch/readme.md)

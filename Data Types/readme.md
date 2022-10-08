@@ -195,16 +195,19 @@ int y = (int)x; // y is an integer
 x = 10.5 # x is a float
 y = int(x) # y is an integer
 ```
+## Note
+We should be careful in explicitvtype coversion like,
+- Converting a floating type value to integer type value, because this would result in loss od decimal point values.
+- A larger data type if converted to smaller data type will result in loss of data as the number will be truncated.
 
 ## Data Type Size
 Data type size is the amount of memory required to store a value of a particular data type. The size of a data type depends on the compiler and the computer architecture. The size of a data type may vary from one computer to another. The size of a data type may also vary from one compiler to another. The size of a data type may also vary from one operating system to another.
 
 ### Data Type Size Comparison (Smallest to Largest)
-- Integer
-- Float
-- Double
-- Long Double
-- Character
-- Boolean
-
+- Character (1 byte)
+- Boolean (2 byte)
+- Integer (2 byte)
+- Float  (4 byte)
+- Double (8 byte)
+- Long Double (16 byte)
 

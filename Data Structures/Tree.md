@@ -40,6 +40,45 @@ A BST representation of these numbers would look like this:
                     4   7    13
 ```
 
+## AVL Tree
+
+AVL Tree is invented by GM Adelson - Velsky and EM Landis in 1962. The tree is named AVL in honour of its inventors.
+
+AVL Tree can be defined as height balanced binary search tree in which each node is associated with a balance factor which is calculated by subtracting the height of its right sub-tree from that of its left sub-tree.
+
+Tree is said to be balanced if balance factor of each node is in between -1 to 1, otherwise, the tree will be unbalanced and need to be balanced.
+Balance Factor (k) = height (left(k)) - height (right(k))
+
+If balance factor of any node is 1, it means that the left sub-tree is one level higher than the right sub-tree. 
+If balance factor of any node is 0, it means that the left sub-tree and right sub-tree contain equal height.
+If balance factor of any node is -1, it means that the left sub-tree is one level lower than the right sub-tree.
+
+### Example
+
+```
+Let array of numbers be [8, 3, 10, 1, 6, 5, 14, 4, 7, 13]
+Tree representation
+                        8
+                      /   \
+                    3       10
+                   / \     /  \
+                  1   6   5    14
+                     / \      /
+                    4   7    13
+                    
+Balance Factor (4) = 0
+Balance Factor (7) = 0
+Balance Factor (13) = 0
+Balance Factor (1) = 0
+Balance Factor (6) = 0
+Balance Factor (5) = 0
+Balance Factor (14) = 0
+Balance Factor (3) = -1
+Balance Factor (10) = 0
+Balance Factor (8) = 1
+
+```
+
 ## Fenwick Tree
 
 Fenwick tree, also known as binary indexed tree is a data structure that can efficiently update elements and calculate prefix sums in a table of numbers
@@ -71,4 +110,13 @@ The operations would look something like this:
 T[0100] + 10 = 13 + 10 = 23
 T[1000] + 10 = 41 + 10 = 51
 T[10000] is out of bounds as 10000 would be 16 and the maximum index of T is 10
+```
+# Some Real life Applications of Tree data structure
+```
+1. Store hierarchical data, like folder structure, organization structure, XML/HTML data.
+2. B-Tree and B+ Tree : They are used to implement indexing in databases.
+3. In Computer Graphics.
+4. In java virtual machine.
+5. Machine learning algorithm.
+    and this count will go on...
 ```

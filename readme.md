@@ -200,9 +200,6 @@ The time complexity of an algorithm estimates how much time the algorithm will u
 ### [Space Complexity](Algorithms/Space%20Complexity/readme.md)
 Space complexity refers to the total amount of memory space used by an algorithm/program, including the space of input values for execution. Calculate the space occupied by variables in an algorithm/program to determine space complexity.
 
-### [Space Complexity](Algorithms/Space%20Complexity/readme.md)
-Space complexity refers to the total amount of memory space used by an algorithm/program, including the space of input values for execution. Calculate the space occupied by variables in an algorithm/program to determine space complexity.
-
 ### [Sorting](Algorithms/Sorting/readme.md)
 Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Or if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
 

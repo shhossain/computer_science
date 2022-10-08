@@ -25,6 +25,7 @@
 - [Machine Learning](#machine-learning)
 - [Web Technology](#web-technology)
 - [Networking and Network Protocols](#networking-and-network-protocols)
+- [OSI Model](#osi-model)
 - [ER Model](#er-model)
 
 ## Introduction
@@ -504,6 +505,9 @@ Computer networks may be classified by many criteria, including the transmission
 There are two primary types of computer networking:
 - Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fiber is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
 - Wireless networking: Wireless networking uses radio waves to transport data over the air, enabling devices to be connected to a network without any cabling. Wireless LANs are the most well-known and widely deployed form of wireless networking. Alternatives include microwave, satellite, cellular and Bluetooth, among others.
+## [OSI Model](OSI%20Model/OSI.md#osi-model)
+OSI stands for **Open Systems Interconnection**. It has been developed by ISO – ‘**International Organization for Standardization**‘, in the year 1984. It is a 7 layer architecture with each layer having specific functionality to perform. All these 7 layers work collaboratively to transmit the data from one person to another across the globe. 
+
 
 # [ER Model](Entity%20Relationship%20(ER%20Model)/ermodel.md#er-model)
 ER Model is used to model the logical view of the system from data perspective which consists of these components: 
@@ -540,3 +544,51 @@ The complete entity type **Student** with its attributes can be represented as:�
 A relationship type represents the **association between entity types**. For example,‘Enrolled in’ is a relationship type that exists between entity type Student and Course. In ER diagram, relationship type is represented by a diamond and connecting the entities with lines. 
 
 A set of relationships of same type is known as relationship set. The following relationship set depicts S1 is enrolled in C2, S2 is enrolled in C1 and S3 is enrolled in C3. 
+=======
+> Prerequisite: [Basics of Computer Networking](https://www.geeksforgeeks.org/basics-computer-networking/) 
+
+![](./computer-network-osi-model-layers.png)
+
+### **1\. Physical Layer (Layer 1) :**
+
+The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
+
+![](./computer-network-osi-model-layers-bits.png)
+
+The functions of the physical layer are as follows:  
+
+1.  **Bit synchronization:** The physical layer provides the synchronization of the bits by providing a clock. This clock controls both sender and receiver thus providing synchronization at bit level.
+2.  **Bit rate control:** The Physical layer also defines the transmission rate i.e. the number of bits sent per second.
+3.  **Physical topologies:** Physical layer specifies the way in which the different, devices/nodes are arranged in a network i.e. bus, star, or mesh topology.
+4.  **Transmission mode:** Physical layer also defines the way in which the data flows between the two connected devices. The various transmission modes possible are Simplex, half-duplex and full-duplex.
+
+### **2\. Data Link Layer (DLL) (Layer 2) :**
+
+The data link layer is responsible for the node-to-node delivery of the message. The main function of this layer is to make sure data transfer is error-free from one node to another, over the physical layer. When a packet arrives in a network, it is the responsibility of DLL to transmit it to the Host using its MAC address.   
+Data Link Layer is divided into two sublayers:  
+
+1.  Logical Link Control (LLC)
+2.  Media Access Control (MAC)
+
+The packet received from the Network layer is further divided into frames depending on the frame size of NIC(Network Interface Card). DLL also encapsulates Sender and Receiver’s MAC address in the header. 
+
+The Receiver’s MAC address is obtained by placing an ARP(Address Resolution Protocol) request onto the wire asking “Who has that IP address?” and the destination host will reply with its MAC address.  
+
+![](./computer-network-osi-model-layers-framing.png)
+
+The functions of the Data Link layer are :  
+
+1.  **Framing:** Framing is a function of the data link layer. It provides a way for a sender to transmit a set of bits that are meaningful to the receiver. This can be accomplished by attaching special bit patterns to the beginning and end of the frame.
+2.  **Physical addressing:** After creating frames, the Data link layer adds physical addresses (MAC address) of the sender and/or receiver in the header of each frame.
+3.  **Error control:** Data link layer provides the mechanism of error control in which it detects and retransmits damaged or lost frames.
+4.  **Flow Control:** The data rate must be constant on both sides else the data may get corrupted thus, flow control coordinates the amount of data that can be sent before receiving acknowledgement.
+5.  **Access control:** When a single communication channel is shared by multiple devices, the MAC sub-layer of the data link layer helps to determine which device has control over the channel at a given time.
+
+### **3\. Network Layer (Layer 3) :**
+
+The network layer works for the transmission of data from one host to the other located in different networks. It also takes care of packet routing i.e. selection of the shortest path to transmit the packet, from the number of routes available. The sender & receiver’s IP addresses are placed in the header by the network layer. 
+
+The functions of the Network layer are :  
+
+1.  **Routing:** The network layer protocols determine which route is suitable from source to destination. This function of the network layer is known as routing.
+2.  **Logical Addressing:** In order to identify each device on internetwork uniquely, the network layer defines an addressing scheme. The sender & receiver’s IP addresses are placed in the header by the network layer. Such an address distinguishes each device uniquely and universally.

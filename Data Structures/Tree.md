@@ -79,6 +79,43 @@ Balance Factor (8) = 1
 
 ```
 
+## Red Black Tree
+
+A Red Black Tree is a category of the self-balancing binary search tree. It was created in 1972 by Rudolf Bayer who termed them "symmetric binary B-trees."
+
+A red-black tree is a Binary tree where a particular node has color as an extra attribute, either red or black. By check the node colors on any simple path from the root to a leaf, red-black trees secure that no such path is higher than twice as long as any other so that the tree is generally balanced.
+
+Properties of Red-Black Trees
+A red-black tree must satisfy these properties:
+
+1. The root is always black.
+2. A nil is recognized to be black. This factor that every non-NIL node has two children.
+3. Black Children Rule: The children of any red node are black.
+4. Black Height Rule: For particular node v, there exists an integer bh (v) such that specific downward path from v to a nil has correctly bh (v) black real (i.e. non-nil) nodes. Call this portion the black height of v. We determine the black height of an RB tree to be the black height of its root.
+
+A tree T is an almost red-black tree (ARB tree) if the root is red, but other conditions above hold.
+
+Let array of numbers be [8, 3, 10, 1, 6, 5, 14, 13, 12]
+Tree representation
+                        8
+                      /   \
+                    3       10
+                   / \     /  \
+                  1   6   5    14
+                              /  \
+                             13  12
+                
+Color(8) = B
+Color(3) = R
+Color(10) = R
+Color(1) = B
+Color(6) = B
+Color(5) = B
+Color(14) = B
+Color(13) = R
+Color(12) = R
+Here R denotes red color and B denotes black color.
+
 ## Fenwick Tree
 
 Fenwick tree, also known as binary indexed tree is a data structure that can efficiently update elements and calculate prefix sums in a table of numbers

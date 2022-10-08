@@ -115,6 +115,7 @@ Color(14) = B
 Color(13) = R
 Color(12) = R
 Here R denotes red color and B denotes black color.
+Each leaf node is having two child nodes with black color and are considered as nil.
 
 ## Fenwick Tree
 

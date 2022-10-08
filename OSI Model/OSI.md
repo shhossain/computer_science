@@ -141,6 +141,7 @@ The functions of the Application layer are :  
 **OSI model** acts as a reference model and is not implemented on the Internet because of its late invention. The current model being used is the TCP/IP model. 
 
 **OSI model in a nutshell**
+
 ![](./OSImodelakhilabhilash01.png)
 
 <h1>Copyright @its-red-eagle, 2022

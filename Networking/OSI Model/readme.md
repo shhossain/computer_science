@@ -5,7 +5,7 @@ OSI stands for **Open Systems Interconnection**. It has been developed by ISO �
 
 ![](img/computer-network-osi-model-layers.png)
 
-### **1\. Physical Layer (Layer 1) :**
+### **1. Physical Layer (Layer 1) :**
 
 The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
 

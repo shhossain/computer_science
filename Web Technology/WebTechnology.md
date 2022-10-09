@@ -102,6 +102,7 @@ Considered the most mature of all databases, these databases lead in the product
 5. NoSQL Databases : 
 A NoSQL originally referring to non SQL or non-relational is a database that provides a mechanism for storage and retrieval of data. This data is modeled in means other than the tabular relations used in relational databases. 
 </p>
+</h6>
 
 <h2>Data Format</h2>
 Format of data is used by web applications to communicate with each other. It is light weight text based data interchange format which means, it is simpler to read and write.

@@ -24,11 +24,9 @@
 - [Cloud Computing](#cloud-computing)
 - [Machine Learning](#machine-learning)
 - [Web Technology](#web-technology)
-- [Networking and Network Protocols](#networking-and-network-protocols)
-- [OSI Model](#osi-model)
-- [Cyber Crimes](#cyber-crimes)
-    - [Classification of Cyber Crime](#classification-of-cyber-crime)
-    - [Prevention of Cyber Crime](#prevention-of-cyber-crime)
+- [Networking](#networking)
+- [Internet](#internet)
+
 
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
@@ -496,7 +494,7 @@ The part of a website that the user interacts directly is termed as front end. I
 Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
 
 
-## [Networking and Network Protocols](Networking/readme.md)
+## [Networking](Networking/readme.md#networking)
 A computer network is a set of computers sharing resources located on or provided by network nodes. The computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies, based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
 
 The nodes of a computer network can include personal computers, servers, networking hardware, or other specialised or general-purpose hosts. They are identified by network addresses, and may have hostnames. Hostnames serve as memorable labels for the nodes, rarely changed after initial assignment. Network addresses serve for locating and identifying the nodes by communication protocols such as the Internet Protocol.
@@ -507,70 +505,13 @@ Computer networks may be classified by many criteria, including the transmission
 There are two primary types of computer networking:
 - Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fiber is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
 - Wireless networking: Wireless networking uses radio waves to transport data over the air, enabling devices to be connected to a network without any cabling. Wireless LANs are the most well-known and widely deployed form of wireless networking. Alternatives include microwave, satellite, cellular and Bluetooth, among others.
-## [OSI Model](OSI%20Model/OSI.md#osi-model)
-OSI stands for **Open Systems Interconnection**. It has been developed by ISO – ‘**International Organization for Standardization**‘, in the year 1984. It is a 7 layer architecture with each layer having specific functionality to perform. All these 7 layers work collaboratively to transmit the data from one person to another across the globe. 
-# [Cyber Crimes]()
-## Introduction
-Crime is a word used for wrong deed or offence, but when it comes to cybercrime then, it can be defined as a crime done by internet to cause an immeasurable loss to the individual, organization, or the government. Cyber crime is a punishable offence committed by cyber criminals.
 
-
-
-## Cyber Crimes
-**Cybercrime** or a computer-oriented crime is a crime that includes a computer and a network. The computer may have been used in the execution of a crime or it may be the target. Cybercrime is the use of a computer as a weapon for committing crimes such as committing fraud, identity theft, or breaching privacy. Cybercrime, especially through the Internet, has grown in importance as the computer has become central to every field like commerce, entertainment, and government. Cybercrime may endanger a person or a nation’s security and financial health. Cybercrime encloses a wide range of activities, but these can generally be divided into two categories: 
-
-1.  Crimes that aim at computer networks or devices. These types of crimes involve different threats (like virus, bugs etc.) and denial-of-service (DoS) attacks. 
-2.  Crimes that use computer networks to commit other criminal activities. These types of crimes include cyber stalking, financial fraud or identity theft.
-
-### **Classification of Cyber Crime:** 
-
-1.  **Cyber Terrorism –**   
-    Cyber terrorism is the use of the computer and internet to perform violent acts that result in loss of life. This may include different type of activities either by software or hardware for threatening life of citizens.   
-    In general, Cyber terrorism can be defined as an act of terrorism committed through the use of cyberspace or computer resources.   
-     
-2.  **Cyber Extortion –**   
-    Cyber extortion occurs when a website, e-mail server or computer system is subjected to or threatened with repeated denial of service or other attacks by malicious hackers. These hackers demand huge money in return for assurance to stop the attacks and to offer protection.   
-     
-3.  **Cyber Warfare –**   
-    Cyber warfare is the use or targeting in a battle space or warfare context of computers, online control systems and networks. It involves both offensive and defensive operations concerning to the threat of cyber attacks, espionage and sabotage.   
-     
-4.  **Internet Fraud –**  
-    Internet fraud is a type of fraud or deceit which makes use of the Internet and could include hiding of information or providing incorrect information for the purpose of deceiving victims for money or property. Internet fraud is not considered a single, distinctive crime but covers a range of illegal and illicit actions that are committed in cyberspace.   
-     
-5.  **Cyber Stalking –**   
-    This is a kind of online harassment wherein the victim is subjected to a barrage of online messages and emails. In this case, these stalkers know their victims and instead of offline stalking, they use the Internet to stalk. However, if they notice that cyber stalking is not having the desired effect, they begin offline stalking along with cyber stalking to make the victims’ lives more miserable.
-
-### **Prevention of Cyber Crime:** 
-
-Below are some points by means of which we can prevent cyber crime: 
-
-1.  **Use strong password –**   
-    Maintain different password and username combinations for each account and resist the temptation to write them down. Weak passwords can be easily cracked using certain attacking methods like Brute force attack, Rainbow table attack etc, So make them complex. That means combination of letters, numbers and special characters.  
-     
-2.  **Use trusted antivirus in devices –**  
-    Always use trustworthy and highly advanced antivirus software in mobile and personal computers. This leads to the prevention of different virus attack on devices.   
-     
-3.  **Keep social media private –**  
-    Always keep your social media accounts data privacy only to your friends. Also make sure only to make friend who are known to you.   
-     
-4.  **Keep your device software updated –**  
-    Whenever your get the updates of the system software update it at the same time because sometimes the previous version can be easily attacked.   
-     
-5.  **Use secure network –**  
-    Public Wi-Fi are vulnerable. Avoid conducting financial or corporate transactions on these networks.  
-     
-6.  **Never open attachments in spam emails –**  
-    A computer get infected by malware attacks and other forms of cybercrime is via email attachments in spam emails. Never open an attachment from a sender you do not know.
-7.  **Software should be updated –** Operating system should be updated regularly when it comes to internet security. This can become a potential threat when cybercriminals exploit flaws in the system.
-=======
-> Prerequisite: [Basics of Computer Networking](https://www.geeksforgeeks.org/basics-computer-networking/) 
-
-![](./computer-network-osi-model-layers.png)
 
 ### **1\. Physical Layer (Layer 1) :**
 
 The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
 
-![](./computer-network-osi-model-layers-bits.png)
+![](Networking/OSI%20Model/img/computer-network-osi-model-layers-bits.png)
 
 The functions of the physical layer are as follows:  
 
@@ -591,7 +532,7 @@ The packet received from the Network layer is further divided into frames depend
 
 The Receiver’s MAC address is obtained by placing an ARP(Address Resolution Protocol) request onto the wire asking “Who has that IP address?” and the destination host will reply with its MAC address.  
 
-![](./computer-network-osi-model-layers-framing.png)
+![](Networking/OSI%20Model/img/computer-network-osi-model-layers-framing.png)
 
 The functions of the Data Link layer are :  
 
@@ -609,3 +550,13 @@ The functions of the Network layer are :  
 
 1.  **Routing:** The network layer protocols determine which route is suitable from source to destination. This function of the network layer is known as routing.
 2.  **Logical Addressing:** In order to identify each device on internetwork uniquely, the network layer defines an addressing scheme. The sender & receiver’s IP addresses are placed in the header by the network layer. Such an address distinguishes each device uniquely and universally.
+
+
+# [Internet](Internet/readme.md#internet)
+The Internet is a global system of interconnected computer networks that use the standard Internet protocol suite ([TCP/IP](Networking/readme.md#tcptransmission-control-protocol)) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks, of local to global scope, that are linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries an extensive range of information resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web ([WWW](Internet/readme.md#world-wide-web-www)) and the infrastructure to support email.
+
+## [World Wide Web (WWW)](Internet/readme.md#world-wide-web-www)
+The World Wide Web (WWW) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet. English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while employed at CERN in Switzerland. The browser was released outside CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
+
+## [Internet Protocol (IP)](Internet/readme.md#internet-protocol-ip)
+The Internet Protocol (IP) is a protocol, or set of rules, for routing and addressing packets of data so that they can travel across networks and arrive at the correct destination. Data traversing the Internet is divided into smaller pieces, called packets.

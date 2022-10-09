@@ -1,15 +1,15 @@
-<u><h1>OSI MODEL</h1></u>
+# OSI MODEL
 OSI stands for **Open Systems Interconnection**. It has been developed by ISO – ‘**International Organization for Standardization**‘, in the year 1984. It is a 7 layer architecture with each layer having specific functionality to perform. All these 7 layers work collaboratively to transmit the data from one person to another across the globe. 
 
-> Prerequisite: [Basics of Computer Networking](https://www.geeksforgeeks.org/basics-computer-networking/) 
+> Prerequisite: [Basics of Computer Networking](https://www.geeksforgeeks.org/basics-computer-networking/)
 
-![](./computer-network-osi-model-layers.png)
+![](img/computer-network-osi-model-layers.png)
 
-### **1\. Physical Layer (Layer 1) :**
+### **1. Physical Layer (Layer 1) :**
 
 The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
 
-![](./computer-network-osi-model-layers-bits.png)
+![](img/computer-network-osi-model-layers-bits.png)
 
 The functions of the physical layer are as follows:  
 
@@ -32,7 +32,7 @@ The packet received from the Network layer is further divided into frames depend
 
 The Receiver’s MAC address is obtained by placing an ARP(Address Resolution Protocol) request onto the wire asking “Who has that IP address?” and the destination host will reply with its MAC address.  
 
-![](./computer-network-osi-model-layers-framing.png)
+![](img/computer-network-osi-model-layers-framing.png)
 
 The functions of the Data Link layer are :  
 
@@ -57,7 +57,7 @@ The functions of the Network layer are :  
 
 Segment in Network layer is referred to as **Packet**. 
 
-![](./computer-network-osi-model-layers-packet.png)
+![](img/computer-network-osi-model-layers-packet.png)
 
 Network layer is implemented by networking devices such as routers.  
 
@@ -110,7 +110,7 @@ _\*\*Implementation of these 3 layers is done by the network application itself.
 
 Let us consider a scenario where a user wants to send a message through some Messenger application running in his browser. The “Messenger” here acts as the application layer which provides the user with an interface to create the data. This message or so-called Data is compressed, encrypted (if any secure data), and converted into bits (0’s and 1’s) so that it can be transmitted.  
 
-![](./computer-network-osi-model-layers-session.png)
+![](img/computer-network-osi-model-layers-session.png)
 
 ### **6\. Presentation Layer (Layer 6):**
 
@@ -129,7 +129,7 @@ Example: Application – Browsers, Skype Messenger, etc. 
 
 _\*\*Application Layer is also called Desktop Layer._  
 
-![](./computer-network-osi-model-layers-application.png)
+![](img/computer-network-osi-model-layers-application.png)
 
 The functions of the Application layer are :  
 
@@ -142,6 +142,5 @@ The functions of the Application layer are :  
 
 **OSI model in a nutshell**
 
-![](./OSImodelakhilabhilash01.png)
+![](img/OSImodelakhilabhilash01.png)
 
-<h1>Copyright @its-red-eagle, 2022

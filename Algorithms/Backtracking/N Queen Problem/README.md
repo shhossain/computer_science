@@ -60,7 +60,7 @@ The idea is to place queens one by one in different columns, starting from the l
    ```
    **Implementation**
    
-   * [C++]#(cpp)
+   * [C++](#cpp)
    * [C#](#csharp)
    * [Java](#java)
    * [Python](#python)

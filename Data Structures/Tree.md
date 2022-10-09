@@ -172,29 +172,29 @@ The major drawback of the splay tree would be that trees are not strictly balanc
 
 Splay(T, N)  
 while(n->parent !=Null)  
-if(n->parent==T->root)  
-if(n==n->parent->left)  
-right_rotation(T, n->parent)  
-else  
-left_rotation(T, n->parent)  
-else  
-p= n->parent  
-g = p->parent  
+  if(n->parent==T->root)  
+    if(n==n->parent->left)  
+      right_rotation(T, n->parent)  
+    else  
+      left_rotation(T, n->parent)  
+  else  
+    p= n->parent  
+    g = p->parent  
 if(n=n->parent->left && p=p->parent->left)  
-right.rotation(T, g), right.rotation(T, p)  
+  right.rotation(T, g), right.rotation(T, p)  
 else if(n=n->parent->right && p=p->parent->right)  
-left.rotation(T, g), left.rotation(T, p)  
+  left.rotation(T, g), left.rotation(T, p)  
 else if(n=n->parent->left && p=p->parent->right)  
-right.rotation(T, p), left.rotation(T, g)  
+  right.rotation(T, p), left.rotation(T, g)  
 else  
-left.rotation(T, p), right.rotation(T, g)  
+  left.rotation(T, p), right.rotation(T, g)  
   
 Implementation of right.rotation(T, x)  
-right.rotation(T, x)  
-y= x->left  
-x->left=y->right  
-y->right=x  
-return y  
+  right.rotation(T, x)  
+  y= x->left  
+  x->left=y->right  
+  y->right=x  
+  return y  
 ```
 ### Example
 ```

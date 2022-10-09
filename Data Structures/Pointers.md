@@ -3,6 +3,48 @@
 A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location.
 The general form of a pointer variable declaration is −
 
+### example
+To use pointers in C, we must understand below two operators. 
+To access address of a variable to a pointer, we use the unary operator & (ampersand) that returns the address of that variable. For example &x gives us address of variable x.
+
+```
+#include <stdio.h>
+ 
+int main()
+{
+    int x;
+ 
+    // Prints address of x
+    printf("%p", &x);
+ 
+    return 0;
+}
+```
+
+One more operator is unary * (Asterisk) which is used for two things : 
+To declare a pointer variable: When a pointer variable is declared in C/C++, there must be a * before its name. 
+
+```
+#include <stdio.h>
+int main()
+{
+    int x = 10;
+ 
+    // 1) Since there is * in declaration, ptr
+    // becomes a pointer variable (a variable
+    // that stores address of another variable)
+    // 2) Since there is int before *, ptr is
+    // pointer to an integer type variable
+    int *ptr;
+ 
+    // & operator before x is used to get address
+    // of x. The address of x is assigned to ptr.
+    ptr = &x;
+ 
+    return 0;
+}
+```
+
 type *var-name;
 
 The actual data type of the value of all pointers, whether integer, float, character, or otherwise, is the same, a long hexadecimal number that represents a memory address. The only difference between pointers of different data types is the data type of the variable or constant that the pointer points to.

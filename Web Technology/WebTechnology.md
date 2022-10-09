@@ -69,7 +69,41 @@ C# is a general-purpose, modern and object-oriented programming language pronoun
 The software which is used to manage database is called Database Management System (DBMS).
 
 <h2>Back End Frameworks and Technology</h2>
-<h6><div style="width:100%;float:left;text-align:left;border:1px solid #000;padding-top:20px;padding-left:20px"><div><div style="width:50%;float:left"><strong><a href="https://www.geeksforgeeks.org/php-tutorials/">PHP:</a></strong><p></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/laravel/">Laravel</a></li><li>CMS: <a href="https://www.geeksforgeeks.org/introduction-wordpress/">WordPress</a></li></ul><p><strong><a href="https://www.geeksforgeeks.org/nodejs/">NodeJS:</a></strong></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/introduction-to-express/">Express</a></li></ul><p><strong><a href="https://www.geeksforgeeks.org/python-programming-language/">Python:</a></strong></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/django-tutorial/">Django</a></li><li>Package Manager: <a href="https://www.geeksforgeeks.org/python-pip/">Python PIP</a></li></ul><p><strong><a href="https://www.geeksforgeeks.org/ruby-programming-language-introduction/">Ruby:</a></strong></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/ruby-on-rails-introduction/">Ruby on Rails</a></li></ul></div><div style="width:50%;float:right"><strong><a href="https://www.geeksforgeeks.org/java/">Java:</a></strong><p></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/introduction-to-spring-framework/">Spring,</a> <a href="https://www.geeksforgeeks.org/introduction-to-hibernate-framework/">Hibernate</a></li></ul><p><strong><a href="https://www.geeksforgeeks.org/c-sharp-tutorial/">C#:</a></strong></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/introduction-to-net-framework/">.NET</a></li></ul><p><strong>Database:</strong></p><ul><li><strong>Relation Database:</strong><p></p><ul><li><a href="https://www.geeksforgeeks.org/postgresql-tutorial/">Postgre SQL</a></li><li><a href="https://www.geeksforgeeks.org/introduction-of-mariadb/">MariaDB</a></li><li><a href="https://www.geeksforgeeks.org/php-mysql-database-introduction/">MySQL</a></li></ul></li><li><strong>NoSql Database:</strong><p></p><div style="min-height:90px;text-align:center;margin:20px 0" id="GFG_AD_Desktop_MTF_Postcontent_728x90"></div><ul><li><a href="https://www.geeksforgeeks.org/mongodb-an-introduction/">MongoDB</a></li></ul></li></ul></div><p></p></div></div></h6>
+<h6><div style="width:100%;float:left;text-align:left;border:1px solid #000;padding-top:20px;padding-left:20px"><div><div style="width:50%;float:left"><strong><a href="https://www.geeksforgeeks.org/php-tutorials/">PHP:</a></strong><p></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/laravel/">Laravel</a></li><li>CMS: <a href="https://www.geeksforgeeks.org/introduction-wordpress/">WordPress</a></li></ul><p><strong><a href="https://www.geeksforgeeks.org/nodejs/">NodeJS:</a></strong></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/introduction-to-express/">Express</a></li></ul><p><strong><a href="https://www.geeksforgeeks.org/python-programming-language/">Python:</a></strong></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/django-tutorial/">Django</a></li><li>Package Manager: <a href="https://www.geeksforgeeks.org/python-pip/">Python PIP</a></li></ul><p><strong><a href="https://www.geeksforgeeks.org/ruby-programming-language-introduction/">Ruby:</a></strong></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/ruby-on-rails-introduction/">Ruby on Rails</a></li></ul></div><div style="width:50%;float:right"><strong><a href="https://www.geeksforgeeks.org/java/">Java:</a></strong><p></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/introduction-to-spring-framework/">Spring,</a> <a href="https://www.geeksforgeeks.org/introduction-to-hibernate-framework/">Hibernate</a></li></ul><p><strong><a href="https://www.geeksforgeeks.org/c-sharp-tutorial/">C#:</a></strong></p><ul><li>Framework: <a href="https://www.geeksforgeeks.org/introduction-to-net-framework/">.NET</a></li></ul><p><strong>Database:
+
+<p>There are many types of databases</p>
+<p><ul>
+<li>Hierarchical databases</li>
+<li>Network databases</li>
+<li>Object-oriented databases</li>
+<li>Relational databases</li>
+<li>NoSQL databases</li>
+</ul>
+</p>
+<p>
+1. Hierarchical Databases : 
+Just as in any hierarchy, this database follows the progression of data being categorized in ranks or levels, wherein data is categorized based on a common point of linkage. As a result, two entities of data will be lower in rank and the commonality would assume a higher rank. Refer to the diagram below: 
+</p>
+<p>
+2. Network Databases : 
+In Layman’s terms, a network database is a hierarchical database, but with a major tweak. The child records are given the freedom to associate with multiple parent records. As a result, a network or net of database files linked with multiple threads is observed. Notice how the Student, Faculty, and Resources elements each have two-parent records, which are Departments and Clubs. 
+</p>
+<p>
+3. Object-Oriented Databases : 
+Those familiar with the Object-Oriented Programming Paradigm would be able to relate to this model of databases easily. Information stored in a database is capable of being represented as an object which response as an instance of the database model. Therefore, the object can be referenced and called without any difficulty. As a result, the workload on the database is substantially reduced. 
+</p>
+
+<p>
+4. Relational Databases : 
+Considered the most mature of all databases, these databases lead in the production line along with their management systems. In this database, every piece of information has a relationship with every other piece of information. This is on account of every data value in the database having a unique identity in the form of a record. 
+</p>
+
+<p>
+5. NoSQL Databases : 
+A NoSQL originally referring to non SQL or non-relational is a database that provides a mechanism for storage and retrieval of data. This data is modeled in means other than the tabular relations used in relational databases. 
+</p>
+</h6>
+
 <h2>Data Format</h2>
 Format of data is used by web applications to communicate with each other. It is light weight text based data interchange format which means, it is simpler to read and write.
 

@@ -378,6 +378,67 @@ An even more common definition is that the operating system is the one program r
 - **Memory Management**: Refers to the management of primary memory. The operating system has to keep track, of how much memory has been used and by whom. It has to decide which process needs memory space and how much. OS also has to allocate and deallocate the memory space.
 - **Security/Privacy Management**: Privacy is also provided by the Operating system by means of passwords so that unauthorized applications can’t access programs or data. For example, Windows uses **_Kerberos_** authentication to prevent unauthorized access to data.
 
+### Types of Operating system
+- **Mainframe OS**:
+At the high end are the operating systems for mainframes, those room-sized
+computers still found in major corporate data centers. These computers differ from
+personal computers in terms of their I/O capacity. A mainframe with 1000 disks
+and millions of gigabytes of data is not unusual; a personal computer with these
+specifications would be the envy of its friends. Mainframes are also making some-
+thing of a comeback as high-end Web servers, servers for large-scale electronic
+commerce sites, and servers for business-to-business transactions.
+The operating systems for mainframes are heavily oriented toward processing
+many jobs at once, most of which need prodigious amounts of I/O. They typically
+offer three kinds of services: batch, transaction processing, and timesharing
+
+- **Server OS**:
+One level down are the server operating systems. They run on servers, which
+are either very large personal computers, workstations, or even mainframes. They
+serve multiple users at once over a network and allow the users to share hardware
+and software resources. Servers can provide print service, file service, or Web service. 
+Internet providers run many server machines to support their customers
+and Websites use servers to store the Web pages and handle the incoming requests.
+Typical server operating systems are Solaris, FreeBSD, Linux and Windows Server
+201x.
+
+- **Multiprocessor OS**:
+An increasingly common way to get major-league computing power is to connect multiple CPUs into a single system. 
+Depending on precisely how they are connected and what is shared, these systems are called parallel computers, multi-computers, or multiprocessors. 
+They need special operating systems, but often these are variations on the server operating systems, 
+with special features for communication, connectivity, and consistency.
+
+- **Personal Computer OS**:
+The next category is the personal computer operating system. Modern ones all
+support multiprogramming, often with dozens of programs started up at boot time.
+Their job is to provide good support to a single user. They are widely used for
+word processing, spreadsheets, games, and Internet access. Common examples are
+Linux, FreeBSD, Windows 7, Windows 8, and Apple’s OS X. Personal computer
+operating systems are so widely known that probably little introduction is needed.
+In fact, many people are not even aware that other kinds exist.
+
+- **Embedded OS**:
+Embedded systems run on the computers that control devices that are not generally thought of as computers and which do not accept user-installed software.
+Typical examples are microwave ovens, TV sets, cars, DVD recorders, traditional
+phones, and MP3 players. The main property which distinguishes embedded systems from handhelds is the certainty that no untrusted software will ever run on it.
+You cannot download new applications to your microwave oven—all the software
+is in ROM. This means that there is no need for protection between applications,
+leading to design simplification. Systems such as Embedded Linux, QNX and
+VxWorks are popular in this domain.
+
+- **Smart Card OS**:
+The smallest operating systems run on smart cards, which are credit-card-sized
+devices containing a CPU chip. They hav e very severe processing power and memory constraints. 
+Some are powered by contacts in the reader into which they are
+inserted, but contactless smart cards are inductively powered, which greatly limits
+what they can do. Some of them can handle only a single function, such as electronic payments, but others can handle multiple functions. 
+Often these are proprietary systems.
+Some smart cards are Java oriented. This means that the ROM on the smart
+card holds an interpreter for the Java Virtual Machine (JVM). Java applets (small
+programs) are downloaded to the card and are interpreted by the JVM interpreter.
+Some of these cards can handle multiple Java applets at the same time, leading to
+multiprogramming and the need to schedule them. Resource management and protection also become an issue when two or more applets are present at the same
+time. These issues must be handled by the (usually extremely primitive) operating system present on the card.
+
 ## [Memory and Storage](Memory%20and%20Storage/readme.md)
 If you are unsure about the difference between memory and storage in computers, this article covers the differences between the two.
 

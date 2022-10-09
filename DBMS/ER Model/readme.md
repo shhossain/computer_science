@@ -7,7 +7,7 @@ An Entity may be an object with a physical existence – a particular person, ca
 
 An Entity is an object of Entity Type and set of all entities is called as entity set. e.g.; E1 is an entity having Entity Type Student and set of all students is called Entity Set. In ER diagram, Entity Type is represented as: 
 
-![](Database-Management-System-ER-Model.png)
+![er1](Database-Management-System-ER-Model.png)
 
 **Attribute(s):**   
 Attributes are the **properties which define the entity type**. For example, Roll\_No, Name, DOB, Age, Address, Mobile\_No are the attributes which defines entity type Student. In ER diagram, attribute is represented by an oval. 
@@ -119,4 +119,4 @@ For example, A company may store the information of dependents (Parents, Childre
 
 A weak entity type is represented by a double rectangle. The participation of weak entity type is always total. The relationship between weak entity type and its identifying strong entity type is called identifying relationship and it is represented by double diamond. 
 
-![](12310.png)
+![12310](12310.png)

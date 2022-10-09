@@ -150,28 +150,23 @@ T[1000] + 10 = 41 + 10 = 51
 T[10000] is out of bounds as 10000 would be 16 and the maximum index of T is 10
 ```
 ## Splay Tree
-```
 Splay trees are the self-balancing or self-adjusted binary search trees. In other words, we can say that the splay trees are the variants of the binary search trees
 
 A splay tree contains the same operations as a Binary search tree, i.e., Insertion, deletion and searching, but it also contains one more operation, i.e., splaying. So. all the operations in the splay tree are followed by splaying.
-```
-## Properties
-```
+
+### Properties
 1.	Follow properties of binary search trees.
 2.	Self-balancing.
 3.	Recently accessed elements are quick to access again.
-```
-## Advantages of Splay Tree
-```
-1] In the splay tree, we do not need to store the extra information. In contrast, in AVL trees, we need to store the balance factor of each node that requires extra space, and Red-Black trees also require to store one extra bit of information that denotes the color of the node, either Red or Black.
 
-2] It is the fastest type of Binary Search tree for various practical applications. It is used in Windows NT and GCC compilers.
-```
-## Drawbacks of Splay Tree
-```
+### Advantages of Splay Tree
+1. In the splay tree, we do not need to store the extra information. In contrast, in AVL trees, we need to store the balance factor of each node that requires extra space, and Red-Black trees also require to store one extra bit of information that denotes the color of the node, either Red or Black.
+2. It is the fastest type of Binary Search tree for various practical applications. It is used in Windows NT and GCC compilers.
+
+### Drawbacks of Splay Tree
 The major drawback of the splay tree would be that trees are not strictly balanced, i.e., they are roughly balanced. Sometimes the splay trees are linear, so it will take O(n) time complexity.
-```
-## Algorithm For Splaying Operation
+
+### Algorithm For Splaying Operation
 ```
 *Splaying an element, is the process of bringing it to the root position by performing suitable rotation operations.
 
@@ -201,7 +196,7 @@ x->left=y->right
 y->right=x  
 return y  
 ```
-## Example
+### Example
 ```
                       10
                     /    \
@@ -242,12 +237,10 @@ Step 2: Once the element is found, we will perform splaying. The right rotation 
                              30
                              
 ```
-# Some Real life Applications of Tree data structure
-```
+### Some Real life Applications of Tree data structure
 1. Store hierarchical data, like folder structure, organization structure, XML/HTML data.
 2. B-Tree and B+ Tree : They are used to implement indexing in databases.
 3. In Computer Graphics.
 4. In java virtual machine.
 5. Machine learning algorithm.
     and this count will go on...
-```

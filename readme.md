@@ -354,6 +354,21 @@ An operating system (or OS for short) acts as an intermediary between the user o
 An operating system is a software that manages computer hardware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent user programs from interfering with the proper operation of the system.
 An even more common definition is that the operating system is the one program running at all times on the computer (usually called the kernel), with all else being application programs.
 
+Operating systems can be viewed from two viewpoints: resource managers and
+extended machines. In the resource-manager view, the operating system’s job is to
+manage the different parts of the system efficiently. In the extended-machine view,
+the job of the system is to provide the users with abstractions that are more con-
+venient to use than the actual machine. These include processes, address spaces,
+and files.
+Operating systems have a long history, starting from the days when they replaced the operator, to modern multiprogramming systems. 
+Highlights include early batch systems, multiprogramming systems, and personal computer systems.
+Since operating systems interact closely with the hardware, some knowledge
+of computer hardware is useful to understanding them. Computers are built up of
+processors, memories, and I/O devices. These parts are connected by buses.
+The basic concepts on which all operating systems are built are processes,
+memory management, I/O management, the file system, and security.The heart of any operating system is the set of system calls that it can handle.
+These tell what the operating system really does
+
 ### History of Operating Systems
 - **First Generation (1945-55)**: Little progress was achieved in building digital computers after Babbage's disastrous efforts until the World War II era. At Iowa State University, Professor John Atanasoff and his graduate student Clifford Berry created what is today recognised as the first operational digital computer. Konrad Zuse in Berlin constructed the Z3 computer using electromechanical relays around the same time. The Mark I was created by Howard Aiken at Harvard, the Colossus by a team of scientists at Bletchley Park in England, and the ENIAC by William Mauchley and his doctoral student J. Presper Eckert at the University of Pennsylvania in 1944.
 

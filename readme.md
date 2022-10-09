@@ -369,6 +369,46 @@ The basic concepts on which all operating systems are built are processes,
 memory management, I/O management, the file system, and security.The heart of any operating system is the set of system calls that it can handle.
 These tell what the operating system really does
 
+### Operating system as a resource manager
+the operating system is there to manage all the pieces of a complex system. Modern computers consist of processors, memories, timers, disks, mice, 
+network interfaces, printers, and a wide variety of other devices. 
+In the bottom-up view, the job of the operating system is to provide for an orderly and controlled allocation of the
+processors, memories, and I/O devices among the various programs wanting them.
+Modern operating systems allow multiple programs to be in memory and run
+at the same time. Imagine what would happen if three programs running on some
+computer all tried to print their output simultaneously on the same printer.
+The result would be utter chaos. The operating system can bring order to the potential chaos 
+by buffering all the output destined for the printer on the disk. 
+When one program is finished, the operating system can
+then copy its output from the disk file where it has been stored for the printer,
+while at the same time the other program can continue generating more output,
+oblivious to the fact that the output is not really going to the printer (yet).
+When a computer (or network) has more than one user, the need for managing
+and protecting the memory, I/O devices, and other resources is even more since the
+users might otherwise interfere with one another. In addition, users often need to
+share not only hardware, but information (files, databases, etc.) as well. In short,
+this view of the operating system holds that its primary task is to keep track of
+which programs are using which resource, to grant resource requests, to account
+for usage, and to mediate conflicting requests from different programs and users
+
+### Operating system as an extended machine
+The architecture of most computers at the machine-language level is primitive and awkward to
+program, especially for input/output. To make this point more concrete, consider
+modern SATA (Serial ATA) hard disks used on most computers. What a programmer would have to know to use the disk. 
+Since then, the interface has been revised multiple times and is more complicated than it was in
+2007. Clearly, no sane programmer would want to deal with this disk at the hardware level. 
+Instead, a piece of software, called a disk driver, deals with the hardware and provides an interface to read and write disk blocks, 
+without getting into the details. 
+Operating systems contain many drivers for controlling I/O devices.
+But even this level is much too low for most applications. For this reason, all
+operating systems provide yet another layer of abstraction for using disks: files.
+Using this abstraction, programs can create, write, and read files, without having to
+deal with the messy details of how the hardware actually works.
+This abstraction is the key to managing all this complexity. Good abstractions
+turn a nearly impossible task into two manageable ones. The first is defining and
+implementing the abstractions. The second is using these abstractions to solve the
+problem at hand.
+
 ### History of Operating Systems
 - **First Generation (1945-55)**: Little progress was achieved in building digital computers after Babbage's disastrous efforts until the World War II era. At Iowa State University, Professor John Atanasoff and his graduate student Clifford Berry created what is today recognised as the first operational digital computer. Konrad Zuse in Berlin constructed the Z3 computer using electromechanical relays around the same time. The Mark I was created by Howard Aiken at Harvard, the Colossus by a team of scientists at Bletchley Park in England, and the ENIAC by William Mauchley and his doctoral student J. Presper Eckert at the University of Pennsylvania in 1944.
 

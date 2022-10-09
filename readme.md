@@ -24,8 +24,7 @@
 - [Cloud Computing](#cloud-computing)
 - [Machine Learning](#machine-learning)
 - [Web Technology](#web-technology)
-- [Networking and Network Protocols](#networking-and-network-protocols)
-- [OSI Model](#osi-model)
+- [Networking](#networking)
 
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
@@ -493,7 +492,7 @@ The part of a website that the user interacts directly is termed as front end. I
 Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
 
 
-## [Networking and Network Protocols](Networking/readme.md)
+## [Networking](Networking/readme.md#networking)
 A computer network is a set of computers sharing resources located on or provided by network nodes. The computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies, based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
 
 The nodes of a computer network can include personal computers, servers, networking hardware, or other specialised or general-purpose hosts. They are identified by network addresses, and may have hostnames. Hostnames serve as memorable labels for the nodes, rarely changed after initial assignment. Network addresses serve for locating and identifying the nodes by communication protocols such as the Internet Protocol.
@@ -504,18 +503,18 @@ Computer networks may be classified by many criteria, including the transmission
 There are two primary types of computer networking:
 - Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fiber is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
 - Wireless networking: Wireless networking uses radio waves to transport data over the air, enabling devices to be connected to a network without any cabling. Wireless LANs are the most well-known and widely deployed form of wireless networking. Alternatives include microwave, satellite, cellular and Bluetooth, among others.
-## [OSI Model](OSI%20Model/OSI.md#osi-model)
+## [OSI Model](Networking/OSI%20Model/readme.md#osi-model)
 OSI stands for **Open Systems Interconnection**. It has been developed by ISO – ‘**International Organization for Standardization**‘, in the year 1984. It is a 7 layer architecture with each layer having specific functionality to perform. All these 7 layers work collaboratively to transmit the data from one person to another across the globe. 
 
 > Prerequisite: [Basics of Computer Networking](https://www.geeksforgeeks.org/basics-computer-networking/) 
 
-![](./computer-network-osi-model-layers.png)
+![](Networking/OSI%20Model/img/computer-network-osi-model-layers.png)
 
 ### **1\. Physical Layer (Layer 1) :**
 
 The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
 
-![](./computer-network-osi-model-layers-bits.png)
+![](Networking/OSI%20Model/img/computer-network-osi-model-layers-bits.png)
 
 The functions of the physical layer are as follows:  
 
@@ -536,7 +535,7 @@ The packet received from the Network layer is further divided into frames depend
 
 The Receiver’s MAC address is obtained by placing an ARP(Address Resolution Protocol) request onto the wire asking “Who has that IP address?” and the destination host will reply with its MAC address.  
 
-![](./computer-network-osi-model-layers-framing.png)
+![](Networking/OSI%20Model/img/computer-network-osi-model-layers-framing.png)
 
 The functions of the Data Link layer are :  
 

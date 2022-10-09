@@ -1,4 +1,4 @@
-## Maximum and minimum element of an array using dividee and conquer approach
+## Maximum and minimum element of an array using divide and conquer approach
 
 # Approach: 
 

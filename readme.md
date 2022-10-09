@@ -24,6 +24,9 @@
 - [Cloud Computing](#cloud-computing)
 - [Machine Learning](#machine-learning)
 - [Web Technology](#web-technology)
+- [Networking](#networking)
+- [Internet](#internet)
+
 
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
@@ -47,7 +50,7 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 |    ()     | Parentheses   |   Allows you to group together keywords and control the order in which the terms will be searched.    |
 |    “”    | Quotation marks  | Provides results with the exact phrase. |
 |   *   |  Asterisk   | Provides results that contain a variation of the keyword. |
-|   ⊕   |  XOR    | Returns true if the operand are diffrent. |
+|   ⊕   |  XOR    | Returns true if the operand are different |
 |   ⊽   |  NOR     | Returns true if neither operand are true. |
 |   ⊼   |  NAND     | Returns false value only if both values of its two inputs are true. |
 
@@ -195,6 +198,9 @@ Algorithms are the sets of steps necessary to complete computation - they are at
 
 ### [Time Complexity](Algorithms/Time%20Complexity/readme.md)
 The time complexity of an algorithm estimates how much time the algorithm will use for some input. The idea is to represent efficiency as a function whose parameter is the size of the input. By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it.
+
+### [Space Complexity](Algorithms/Space%20Complexity/readme.md)
+Space complexity refers to the total amount of memory space used by an algorithm/program, including the space of input values for execution. Calculate the space occupied by variables in an algorithm/program to determine space complexity.
 
 ### [Sorting](Algorithms/Sorting/readme.md)
 Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Or if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
@@ -348,6 +354,21 @@ An operating system (or OS for short) acts as an intermediary between the user o
 An operating system is a software that manages computer hardware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent user programs from interfering with the proper operation of the system.
 An even more common definition is that the operating system is the one program running at all times on the computer (usually called the kernel), with all else being application programs.
 
+Operating systems can be viewed from two viewpoints: resource managers and
+extended machines. In the resource-manager view, the operating system’s job is to
+manage the different parts of the system efficiently. In the extended-machine view,
+the job of the system is to provide the users with abstractions that are more con-
+venient to use than the actual machine. These include processes, address spaces,
+and files.
+Operating systems have a long history, starting from the days when they replaced the operator, to modern multiprogramming systems. 
+Highlights include early batch systems, multiprogramming systems, and personal computer systems.
+Since operating systems interact closely with the hardware, some knowledge
+of computer hardware is useful to understanding them. Computers are built up of
+processors, memories, and I/O devices. These parts are connected by buses.
+The basic concepts on which all operating systems are built are processes,
+memory management, I/O management, the file system, and security.The heart of any operating system is the set of system calls that it can handle.
+These tell what the operating system really does
+
 ### History of Operating Systems
 - **First Generation (1945-55)**: Little progress was achieved in building digital computers after Babbage's disastrous efforts until the World War II era. At Iowa State University, Professor John Atanasoff and his graduate student Clifford Berry created what is today recognised as the first operational digital computer. Konrad Zuse in Berlin constructed the Z3 computer using electromechanical relays around the same time. The Mark I was created by Howard Aiken at Harvard, the Colossus by a team of scientists at Bletchley Park in England, and the ENIAC by William Mauchley and his doctoral student J. Presper Eckert at the University of Pennsylvania in 1944.
 
@@ -371,6 +392,67 @@ An even more common definition is that the operating system is the one program r
 - **Storage Management**: The file system mechanism used for the management of the storage. NIFS, CFS, CIFS, NFS, etc. are some file systems. All the data is stored in various tracks of Hard disks that are all managed by the storage manager. It included Hard Disk.
 - **Memory Management**: Refers to the management of primary memory. The operating system has to keep track, of how much memory has been used and by whom. It has to decide which process needs memory space and how much. OS also has to allocate and deallocate the memory space.
 - **Security/Privacy Management**: Privacy is also provided by the Operating system by means of passwords so that unauthorized applications can’t access programs or data. For example, Windows uses **_Kerberos_** authentication to prevent unauthorized access to data.
+
+### Types of Operating system
+- **Mainframe OS**:
+At the high end are the operating systems for mainframes, those room-sized
+computers still found in major corporate data centers. These computers differ from
+personal computers in terms of their I/O capacity. A mainframe with 1000 disks
+and millions of gigabytes of data is not unusual; a personal computer with these
+specifications would be the envy of its friends. Mainframes are also making some-
+thing of a comeback as high-end Web servers, servers for large-scale electronic
+commerce sites, and servers for business-to-business transactions.
+The operating systems for mainframes are heavily oriented toward processing
+many jobs at once, most of which need prodigious amounts of I/O. They typically
+offer three kinds of services: batch, transaction processing, and timesharing
+
+- **Server OS**:
+One level down are the server operating systems. They run on servers, which
+are either very large personal computers, workstations, or even mainframes. They
+serve multiple users at once over a network and allow the users to share hardware
+and software resources. Servers can provide print service, file service, or Web service. 
+Internet providers run many server machines to support their customers
+and Websites use servers to store the Web pages and handle the incoming requests.
+Typical server operating systems are Solaris, FreeBSD, Linux and Windows Server
+201x.
+
+- **Multiprocessor OS**:
+An increasingly common way to get major-league computing power is to connect multiple CPUs into a single system. 
+Depending on precisely how they are connected and what is shared, these systems are called parallel computers, multi-computers, or multiprocessors. 
+They need special operating systems, but often these are variations on the server operating systems, 
+with special features for communication, connectivity, and consistency.
+
+- **Personal Computer OS**:
+The next category is the personal computer operating system. Modern ones all
+support multiprogramming, often with dozens of programs started up at boot time.
+Their job is to provide good support to a single user. They are widely used for
+word processing, spreadsheets, games, and Internet access. Common examples are
+Linux, FreeBSD, Windows 7, Windows 8, and Apple’s OS X. Personal computer
+operating systems are so widely known that probably little introduction is needed.
+In fact, many people are not even aware that other kinds exist.
+
+- **Embedded OS**:
+Embedded systems run on the computers that control devices that are not generally thought of as computers and which do not accept user-installed software.
+Typical examples are microwave ovens, TV sets, cars, DVD recorders, traditional
+phones, and MP3 players. The main property which distinguishes embedded systems from handhelds is the certainty that no untrusted software will ever run on it.
+You cannot download new applications to your microwave oven—all the software
+is in ROM. This means that there is no need for protection between applications,
+leading to design simplification. Systems such as Embedded Linux, QNX and
+VxWorks are popular in this domain.
+
+- **Smart Card OS**:
+The smallest operating systems run on smart cards, which are credit-card-sized
+devices containing a CPU chip. They hav e very severe processing power and memory constraints. 
+Some are powered by contacts in the reader into which they are
+inserted, but contactless smart cards are inductively powered, which greatly limits
+what they can do. Some of them can handle only a single function, such as electronic payments, but others can handle multiple functions. 
+Often these are proprietary systems.
+Some smart cards are Java oriented. This means that the ROM on the smart
+card holds an interpreter for the Java Virtual Machine (JVM). Java applets (small
+programs) are downloaded to the card and are interpreted by the JVM interpreter.
+Some of these cards can handle multiple Java applets at the same time, leading to
+multiprogramming and the need to schedule them. Resource management and protection also become an issue when two or more applets are present at the same
+time. These issues must be handled by the (usually extremely primitive) operating system present on the card.
 
 ## [Memory and Storage](Memory%20and%20Storage/readme.md)
 If you are unsure about the difference between memory and storage in computers, this article covers the differences between the two.
@@ -487,3 +569,71 @@ The part of a website that the user interacts directly is termed as front end. I
 ### Backened Development
 Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
 
+
+# [Networking](Networking/readme.md#networking)
+A computer network is a set of computers sharing resources located on or provided by network nodes. The computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies, based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
+
+The nodes of a computer network can include personal computers, servers, networking hardware, or other specialised or general-purpose hosts. They are identified by network addresses, and may have hostnames. Hostnames serve as memorable labels for the nodes, rarely changed after initial assignment. Network addresses serve for locating and identifying the nodes by communication protocols such as the Internet Protocol.
+
+Computer networks may be classified by many criteria, including the transmission medium used to carry signals, bandwidth, communications protocols to organize network traffic, the network size, the topology, traffic control mechanism, and organizational intent.
+
+## Types of networking
+There are two primary types of computer networking:
+- Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fiber is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
+- Wireless networking: Wireless networking uses radio waves to transport data over the air, enabling devices to be connected to a network without any cabling. Wireless LANs are the most well-known and widely deployed form of wireless networking. Alternatives include microwave, satellite, cellular and Bluetooth, among others.
+## OSI MODEL
+OSI stands for **Open Systems Interconnection**. It has been developed by ISO – ‘**International Organization for Standardization**‘, in the year 1984. It is a 7 layer architecture with each layer having specific functionality to perform. All these 7 layers work collaboratively to transmit the data from one person to another across the globe. 
+
+### **1\. Physical Layer (Layer 1) :**
+
+The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
+
+![](Networking/OSI%20Model/img/computer-network-osi-model-layers-bits.png)
+
+The functions of the physical layer are as follows:  
+
+1.  **Bit synchronization:** The physical layer provides the synchronization of the bits by providing a clock. This clock controls both sender and receiver thus providing synchronization at bit level.
+2.  **Bit rate control:** The Physical layer also defines the transmission rate i.e. the number of bits sent per second.
+3.  **Physical topologies:** Physical layer specifies the way in which the different, devices/nodes are arranged in a network i.e. bus, star, or mesh topology.
+4.  **Transmission mode:** Physical layer also defines the way in which the data flows between the two connected devices. The various transmission modes possible are Simplex, half-duplex and full-duplex.
+
+### **2\. Data Link Layer (DLL) (Layer 2) :**
+
+The data link layer is responsible for the node-to-node delivery of the message. The main function of this layer is to make sure data transfer is error-free from one node to another, over the physical layer. When a packet arrives in a network, it is the responsibility of DLL to transmit it to the Host using its MAC address.   
+Data Link Layer is divided into two sublayers:  
+
+1.  Logical Link Control (LLC)
+2.  Media Access Control (MAC)
+
+The packet received from the Network layer is further divided into frames depending on the frame size of NIC(Network Interface Card). DLL also encapsulates Sender and Receiver’s MAC address in the header. 
+
+The Receiver’s MAC address is obtained by placing an ARP(Address Resolution Protocol) request onto the wire asking “Who has that IP address?” and the destination host will reply with its MAC address.  
+
+![](Networking/OSI%20Model/img/computer-network-osi-model-layers-framing.png)
+
+The functions of the Data Link layer are :  
+
+1.  **Framing:** Framing is a function of the data link layer. It provides a way for a sender to transmit a set of bits that are meaningful to the receiver. This can be accomplished by attaching special bit patterns to the beginning and end of the frame.
+2.  **Physical addressing:** After creating frames, the Data link layer adds physical addresses (MAC address) of the sender and/or receiver in the header of each frame.
+3.  **Error control:** Data link layer provides the mechanism of error control in which it detects and retransmits damaged or lost frames.
+4.  **Flow Control:** The data rate must be constant on both sides else the data may get corrupted thus, flow control coordinates the amount of data that can be sent before receiving acknowledgement.
+5.  **Access control:** When a single communication channel is shared by multiple devices, the MAC sub-layer of the data link layer helps to determine which device has control over the channel at a given time.
+
+### **3\. Network Layer (Layer 3) :**
+
+The network layer works for the transmission of data from one host to the other located in different networks. It also takes care of packet routing i.e. selection of the shortest path to transmit the packet, from the number of routes available. The sender & receiver’s IP addresses are placed in the header by the network layer. 
+
+The functions of the Network layer are :  
+
+1.  **Routing:** The network layer protocols determine which route is suitable from source to destination. This function of the network layer is known as routing.
+2.  **Logical Addressing:** In order to identify each device on internetwork uniquely, the network layer defines an addressing scheme. The sender & receiver’s IP addresses are placed in the header by the network layer. Such an address distinguishes each device uniquely and universally.
+
+
+# [Internet](Internet/readme.md#internet)
+The Internet is a global system of interconnected computer networks that use the standard Internet protocol suite ([TCP/IP](Networking/readme.md#tcptransmission-control-protocol)) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks, of local to global scope, that are linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries an extensive range of information resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web ([WWW](Internet/readme.md#world-wide-web-www)) and the infrastructure to support email.
+
+## [World Wide Web (WWW)](Internet/readme.md#world-wide-web-www)
+The World Wide Web (WWW) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet. English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while employed at CERN in Switzerland. The browser was released outside CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
+
+## [Internet Protocol (IP)](Internet/readme.md#internet-protocol-ip)
+The Internet Protocol (IP) is a protocol, or set of rules, for routing and addressing packets of data so that they can travel across networks and arrive at the correct destination. Data traversing the Internet is divided into smaller pieces, called packets.

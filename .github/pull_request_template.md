@@ -7,18 +7,18 @@ Describe the big picture of your changes here to communicate to the maintainers 
 What types of changes does your code introduce to this project?
 _Put an `x` in the boxes that apply_
 
-- [ ] Bugfix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] Proofreading (fix spelling, grammer, punctuation, accuracy) [More about Proofreading](https://www.scribbr.com/language-rules/what-is-proofreading/)
+- [ ] New Files/Folder (adding folder without removing existing)
+- [ ] Add/Remove Files (adding/removing existing files/folder)
 
 ## Checklist
 
 _Put an `x` in the boxes that apply. You can also fill these out after creating the PR. If you're unsure about any of them, don't hesitate to ask. We're here to help! This is simply a reminder of what we are going to look for before merging your code._
 
 - [ ] Tested any code against its gcc/clang or the official binaries and it passes locally with my changes
-- [ ] I have added tests/reference that prove my fix is effective/accurate or that my feature works
-- [ ] I have added necessary documentation
-- [ ] Any dependent changes have been merged and published in downstream modules
+- [ ] I have added necessary explanation
+- [ ] I have added necessary links in working section
+- [ ] Added external links
 
 ## Further comments
 

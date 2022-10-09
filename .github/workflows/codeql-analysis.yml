@@ -72,3 +72,44 @@ jobs:
       uses: github/codeql-action/analyze@v2
       with:
         category: "/language:${{matrix.language}}"
+    - name: cppcheck-action
+      # You may pin to the exact commit or the version.
+      # uses: deep5050/cppcheck-action@b4d7c69b911c24817691b4b210586568a858b4c5
+      uses: deep5050/cppcheck-action@v3.0
+      with:
+        # GITHUB_TOKEN secret < automatically provided by Github , you don't need to set up >
+        github_token: 
+        # Show information messages when library files have info.
+        check_library: # optional, default is disable
+        # Print preprocessor output on stdout and don't do any further processing.
+        skip_preprocessor: # optional, default is disable
+        # Enable additional checks
+        enable: # optional, default is all
+        # Give a source file or source file directory to exclude from the check
+        exclude_check: # optional, default is disable
+        #  Allow that Cppcheck reports even though the analysis is inconclusive.
+        inconclusive: # optional, default is enable
+        # Enable inline suppressions
+        inline_suppression: # optional, default is disable
+        # Forces cppcheck to check all files as the given language
+        force_language: # optional, default is disable
+        # Force checking of all configurations in files
+        force: # optional, default is disable
+        # Max depth in whole program analysis
+        max_ctu_depth: # optional, default is disable
+        # Specifies platform specific types and sizes
+        platform: # optional, default is disable
+        # Set the C/C++ standard
+        std: # optional, default is c++20
+        # file where the result to be dumped
+        output_file: # optional, default is cppcheck_report.txt
+        # Branch that the badge will target. Defaults to the current branch.
+        target_branch: # optional, default is 
+        # Any other options you want to add, separate with a space, wrong options will cause a failure
+        other_options: # optional, default is disable
+        # Branch that the action will target on pull_request. Defaults to GITHUB_BASE_REF.
+        pull_request_branch: # optional, default is 
+        # Repository that the report will be pushed on. Defaults to the current repository.
+        target_repository: # optional, default is 
+        # Repository that the action will target on pull_request. Defaults to TARGET_REPOSITORY
+        pull_request_repository: # optional, default is 

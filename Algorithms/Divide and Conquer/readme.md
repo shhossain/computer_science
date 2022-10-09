@@ -1,5 +1,4 @@
 # Divide and Conquer
-
 Divide and Conquer is an algorithmic paradigm in which the problem is solved using the Divide, Conquer, and Combine strategy.
 
 A typical Divide and Conquer algorithm solves a problem using following three steps:
@@ -19,7 +18,7 @@ A typical Divide and Conquer algorithm solves a problem using following three st
 5. Cooley–Tukey Fast Fourier Transform (FFT) algorithm
 6. Karatsuba algorithm for fast multiplication 
 7. Maximum sub array sum
-8. MAximum and minimum element of an array
+8. [Maximum and minimum element of an array](Maximum%20and%20minium%20of%20an%20array/readme.md)
 9. Convex Hull PRoblem
 
 ## Time Complexity of Divide and Conquer Algorithm:

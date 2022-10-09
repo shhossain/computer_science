@@ -22,33 +22,32 @@ A typical Divide and Conquer algorithm solves a problem using following three st
 9. Convex Hull PRoblem
 
 ## Time Complexity of Divide and Conquer Algorithm:
-
- T(n) = aT(n/b) + f(n),
+```
+ T(n) = aT(n/b) + f(n)
     
     where,
         n = size of input
         a = number of subproblems in the recursion
         n/b = size of each subproblem. All subproblems are assumed to have the same size.
         f(n) = cost of the work done outside the recursive call, which includes the cost of dividing the problem and cost of merging the solutions
-
+```
 
 ## Advantages of Divide and Conquer
 
+- Divide and Conquer tend to successfully solve one of the biggest problems, such as the Tower of Hanoi, a mathematical puzzle. It is challenging to solve complicated problems for which you have no basic idea, but with the help of the divide and conquer approach, it has lessened the effort as it works on dividing the main problem into two halves and then solve them recursively. 
 
--Divide and Conquer tend to successfully solve one of the biggest problems, such as the Tower of Hanoi, a mathematical puzzle. It is challenging to solve complicated problems for which you have no basic idea, but with the help of the divide and conquer approach, it has lessened the effort as it works on dividing the main problem into two halves and then solve them recursively. 
+- This algorithm is much faster than other algorithms.
 
--This algorithm is much faster than other algorithms.
+- It efficiently uses cache memory without occupying much space because it solves simple subproblems within the cache memory instead of accessing the slower main memory.
 
--It efficiently uses cache memory without occupying much space because it solves simple subproblems within the cache memory instead of accessing the slower main memory.
+- It is more proficient than that of its counterpart Brute Force technique.
 
--It is more proficient than that of its counterpart Brute Force technique.
-
--Since these algorithms inhibit parallelism, it does not involve any modification and is handled by systems incorporating parallel processing.
+- Since these algorithms inhibit parallelism, it does not involve any modification and is handled by systems incorporating parallel processing.
 
 ## Disadvantages of Divide and Conquer
 
--Since most of its algorithms are designed by incorporating recursion, so it necessitates high memory management.
+- Since most of its algorithms are designed by incorporating recursion, so it necessitates high memory management.
 
--An explicit stack may overuse the space.
+- An explicit stack may overuse the space.
 
--It may even crash the system if the recursion is performed rigorously greater than the stack present in the CPU.
+- It may even crash the system if the recursion is performed rigorously greater than the stack present in the CPU.

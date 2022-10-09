@@ -123,3 +123,19 @@ LinearSearch( A : Array of items, Target : item to be searched)
     }
 
 ```
+
+## Ruby
+```r
+
+    def linear_search(array, element)
+  i = 0
+  while i < array.length
+      if array[i] == element
+        return "#{element} at index #{array.index(element)}"
+      end
+      i+=1
+    end
+    return -1
+end
+
+```

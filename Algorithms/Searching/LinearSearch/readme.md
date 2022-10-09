@@ -27,7 +27,7 @@ LinearSearch( A : Array of items, Target : item to be searched)
 * [Java](#java)
 * [Javascript](#js)
 * [Go](#go)
-* [Ruby](#r)
+* [Ruby](#ruby)
 
 ## C++
 ```cpp

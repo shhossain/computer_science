@@ -32,6 +32,11 @@ index 4 value is 14 with memory location 1006 and pointer to next node 1010
 index 5 value is 6 with memory location 1010 and pointer to first node 1000
 ```
 
+<p align="center">
+  <img src="images/LinkedList.png?raw=true" alt="Linked List Image"/>
+</p>
+
+
 #### Time complexities of some basic Linked List operations
 
 | Operation | Time Complexity |

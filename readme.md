@@ -26,6 +26,7 @@
 - [Web Technology](#web-technology)
 - [Networking](#networking)
 - [Internet](#internet)
+- [DBMS](#dbms)
 
 
 ## Introduction
@@ -680,3 +681,80 @@ The World Wide Web (WWW) is an information space where documents and other web r
 
 ## [Internet Protocol (IP)](Internet/readme.md#internet-protocol-ip)
 The Internet Protocol (IP) is a protocol, or set of rules, for routing and addressing packets of data so that they can travel across networks and arrive at the correct destination. Data traversing the Internet is divided into smaller pieces, called packets.
+
+## [DBMS]()
+
+What is a Database?
+-------------------
+
+A database is a collection of related data which represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task.
+
+What is DBMS?
+-------------
+
+**Database Management System (DBMS)** is a software for storing and retrieving users’ data while considering appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software to store and retrieve data.
+
+DBMS allows users to create their own databases as per their requirement. The term “DBMS” includes the user of the database and other application programs. It provides an interface between the data and the software application.
+
+Example of a DBMS
+-----------------
+
+Let us see a simple example of a university database. This database is maintaining information concerning students, courses, and grades in a university environment. The database is organized as five files:
+
+*   The STUDENT file stores data of each student
+*   The COURSE file stores contain data on each course.
+*   The SECTION stores the information about sections in a particular course.
+*   The GRADE file stores the grades which students receive in the various sections
+*   The TUTOR file contains information about each professor.
+
+To define DBMS:
+
+*   We need to specify the structure of the records of each file by defining the different types of data elements to be stored in each record.
+*   We can also use a coding scheme to represent the values of a data item.
+*   Basically, your Database will have 5 tables with a foreign key defined amongst the various tables.
+
+History of DBMS
+---------------
+
+Here, are the important landmarks from the history:
+
+*   1960 – Charles Bachman designed first DBMS system
+*   1970 – Codd introduced IBM’S Information Management System (IMS)
+*   1976- Peter Chen coined and defined the Entity-relationship model also know as the ER model
+*   1980 – Relational Model becomes a widely accepted database component
+*   1985- Object-oriented DBMS develops.
+*   1990s- Incorporation of object-orientation in relational DBMS.
+*   1991- Microsoft ships MS access, a personal DBMS and that displaces all other personal DBMS products.
+*   1995: First Internet database applications
+*   1997: XML applied to database processing. Many vendors begin to integrate XML into DBMS products.
+
+Characteristics of DBMS
+-----------------------
+
+Here are the characteristics and properties of Database Management System:
+
+*   Provides security and removes redundancy
+*   Self-describing nature of a database system
+*   Insulation between programs and data abstraction
+*   Support of multiple views of the data
+*   Sharing of data and multiuser transaction processing
+*   Database Management Software allows entities and relations among them to form tables.
+*   It follows the ACID concept ( Atomicity, Consistency, Isolation, and Durability).
+*   DBMS supports multi-user environment that allows users to access and manipulate data in parallel.
+
+Popular DBMS Software
+---------------------
+
+Here, is the list of some popular DBMS system:
+
+*   MySQL
+*   Microsoft Access
+*   Oracle
+*   PostgreSQL
+*   dBASE
+*   FoxPro
+*   SQLite
+*   IBM DB2
+*   LibreOffice Base
+*   MariaDB
+*   Microsoft SQL Server etc.

@@ -256,6 +256,8 @@ c. O(n): This denotes linear time. O(n) means that the performance is directly p
 
 d. O(n*n): This denotes quadratic time. O(n2) means that the performance is directly proportional to the square of the input taken. In simple, the time taken for execution will take square times the input size. Nested loops are perfect examples of quadratic time complexity.
 
+e. O(n log n): This denotes polynomial time complexity. O(n log n) means that the performance is n times that of O(log n), that is worst case complexity.
+
 | Algorithm	     |             |  Time Complexity|	       | Space Complexity |
 |   :---:        |  :---:      |  :---: 	 |   :---: 	   |   :---:          |
 |  	             | Best	       | Average	 |  Worst	   |  Worst           |

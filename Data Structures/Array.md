@@ -248,5 +248,5 @@ void main()
 }
 ~~~
 
-**Output**
+**Output** <br>
 <img src="https://quescol.com/wp-content/uploads/2021/11/image-35.png?ezimgfmt=ng:webp/ngcb1" alt="output">

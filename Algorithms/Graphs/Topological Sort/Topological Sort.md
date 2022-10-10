@@ -18,8 +18,8 @@ The graph shown above has many valid topological sorts, including:
 
 
 **There are two ways / methods to obtain the Topological Ordering of a Directed Acyclic Graph (DAG).**
-1. [Breadth First Search / Khan's Algorithm](https://github.com/rahulmangla28/computer_science/blob/Add-Topological-Sort/Algorithms/Graphs/Topological%20Sort/Topological%20Sort.md#breadth-first-search--khans-algorithm)
-2. [Depth First Search](https://github.com/rahulmangla28/computer_science/blob/Add-Topological-Sort/Algorithms/Graphs/Topological%20Sort/Topological%20Sort.md#depth-first-search)
+1. [Breadth First Search / Khan's Algorithm](#breadth-first-search--khans-algorithm)
+2. [Depth First Search](#depth-first-search)
 
 
 ## ***Breadth First Search / Khan's Algorithm*** 

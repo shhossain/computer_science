@@ -17,6 +17,56 @@ Platform as a service is a cloud computing model in which a third-party provider
 ### Software as a Service (SaaS)
 Software as a service is a cloud computing model in which a third-party provider delivers software over the Internet. Customers are able to access and use the provider’s software, typically through a web browser, while the provider manages the infrastructure and security.
 
+# Essential Cloud Characteristics 
+
+1. On-demand self-service
+2. Broad network access
+3. Resource pooling
+4. Rapid elasticity
+5. Measured service
+
+### On-demand self-service
+
+Allows provisioning of resources using self-service interface. Automatically provisioning handles without requiring human interaction with service provider. Facilitates consumer to leverage “ready to use” services or, enables to service catalog.
+
+### Broad network access
+
+Resources are available over the network and accessed through standard mechanisms that
+promote use by heterogeneous thin or thick client platforms.
+
+### Resource pooling
+
+The provider's computing resources are pooled to serve multiple consumers using a multi-pace model. Different physical and virtual resources dynamically assign and reassign according to consumer demand.
+
+### Rapid elasticity (Scalability)
+
+Services can be elastically provisioned and distributed based on the demand. Automatically to scale rapidly outward and inward proportionate with customer demand.The resources available for provisioning unlimited and can be appropriated in any quantity at any time.
+
+### Measured Service
+
+Cloud systems automatically control and optimize resource use by leveraging a metering capability.
+
+# Cloud Deployment Models
+
+### Private Cloud
+
+In a private cloud model, the cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple consumers . It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises.
+
+### Public Cloud
+
+In a public cloud model, the cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and
+operated by a business, academic, or government organization, or some combination of them. It exists on the premises of the cloud
+provider.
+
+### Community Cloud
+
+In a community cloud model, the cloud infrastructure is provisioned for exclusive use by a specific community of consumers from
+organizations that have shared concerns.
+
+### Hybrid Cloud
+
+In a hybrid cloud model, the cloud infrastructure is a composition of two or more distinct cloud infrastructures (private, community, or public) that remain unique entities, but are bound together by standardized or proprietary technology that enables data and application portability.
+
 # Advantages of Cloud Computing
 There are many advantages to using cloud computing services, including:
 

@@ -66,6 +66,45 @@ Hexadecimal Numbers have sixteen characters, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B,
 | 14      | 1110   | 16    | E           |
 | 15      | 1111   | 17    | F           |
 
+## [Binary to Decimal Conversion](#binary-decimal-conversion)
+To convert Binary to decimal, first we write the given binary number and count the powers of 2 from right to left (powers starting from 0). Now, write each binary digit (right to left) with the corresponding powers of 2 from (right to left), such that first binary digit will be multiplied with the greatest power of 2. Add all the products and the final answer will be the required deciaml number
+
+### [Example of Binary to Decimal Conversion](#example-binary/decimal)
+Given binary number (1101) into a decimal number.
+Now, multiplying each digit from MSB to LSB with reducing the power of the base number 2.
+
+1 × 2^3 + 1 × 2^2 + 0 × 2^1 + 1 × 2^0
+
+= 8 + 4 + 0 + 1
+
+= 13
+
+Thus, the equivalent decimal number for the given binary number (1101) is **(13)**
+
+## [Binary to Hexadecimal Conversion](#binary-hexadecimal-conversion)
+First, you need to convert a binary into other base system (e.g., into decimal, or into octal). Then you need to convert it hexadecimal number.Since number numbers are type of positional number system. That means weight of the positions from right to left are as 160^, 16^1, 16^2, 16^3 and so on. for the integer part and weight of the positions from left to right are as 16^-1, 16^-2, 16^-3 and so on. for the fractional part.
+
+### [Example of Binary to Hexadecimal Conversion](#example-binary/hexadecimal)
+Converting binary number 1101010 into hexadecimal number.
+First convert this into decimal number:
+
+= (1101010)
+
+= 1x2^6 + 1x2^5 + 0x2^4 + 1x2^3 + 0x2^2 + 1x2^1 + 0x2^0
+
+= 64+32+0+8+0+2+0
+
+= (106)
+
+Then, convert it into hexadecimal number
+
+= (106)
+
+= 6x16^1 + 10x16^0
+
+= **(6A)16** which is answer.
+
+
 ## [Base/Radix Conversion](#baseradix-conversion)
 
 Base/Radix conversion is the process to convert the number from one base to another base. For example, converting a decimal number to binary number. These are some example videos on the common types.

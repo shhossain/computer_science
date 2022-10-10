@@ -412,7 +412,7 @@ _Auxiliary Space Complexity is O(N)_ due to Recursion call of DFS.
 
 ## ***Topological Ordering for graphs other than DAG :***
 
-Topological Sort / Ordering is not possible in graphs other than DAG because :
+Topological Sort / Ordering is ***not possible*** in graphs other than DAG because :
 
 
 1. In an undirected graph we can’t decide which node will come first because there will be no direction.

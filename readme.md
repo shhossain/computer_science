@@ -119,6 +119,7 @@ Some Languages Include:
 - C++
 - C
 - C#
+- Go
 
 ### Scripting Languages
 A scripting language is a computer language that doesn't have to be compiled. One advantage of Scripting languages is that the code can be quickly edited and can be re-executed. They can be used on the server side of web applications and the client side of web applications.

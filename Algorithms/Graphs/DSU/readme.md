@@ -95,7 +95,7 @@ int find_set(int v) {
 
 **Optimized code for union_set :**
 
-- *Unioin by size*
+- *Union by size*
 
 ```cpp
 

@@ -66,6 +66,114 @@ Hexadecimal Numbers have sixteen characters, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B,
 | 14      | 1110   | 16    | E           |
 | 15      | 1111   | 17    | F           |
 
+## [Binary Addition and Subtraction](#binary-addition-subtraction)
+Arithmetic operation like addition, subtraction, division and multiplications can be done using binary numbers. The rules for binary addition and subtraction are a bit different than that of decimal number system.
+
+### [Binary Addition](#binary-addition)
+Binary addition is done by adding the digits starting from the right side of the numbers, in the same way as we add two or more base 10 numbers. In binary addition, the place values are given as ones, twos, fours, eights, sixteens, etc. We first add the digits in one's column, then we move towards the left, i.e., add the digits in the twos column, then the digits in the fours column, and so on.
+The four rules that apply when two binary digits are added are given below:
+
+|  A  |  B  | Carry |  Sum  |
+|:---:|:---:|:-----:|:-----:|
+| 0   | 0   | 0     | 0     |
+| 0   | 1   | 0     | 1     |
+| 1   | 0   | 0     | 1     |
+| 1   | 1   | 1     | 0     |
+
+Steps for Binary Addition:
+
+Step 1: Write all the digits of both the numbers in separate columns as per their place values.
+
+1 0 1
+
+  1 0
+____________
+
+____________
+
+Step 2: Start from the right-most column digits, 1 and 0. Apply one of the rules of binary addition which says 1 + 0 = 1.
+
+1 0 1
+
+  1 0
+____________
+    1
+____________
+
+Step 3: Move to the next column to the left. Here, we have two digits 0 and 1. Look at the rules given above and find out which rule will be applied here. Apply one of the binary addition rules which says 0 + 1 = 1.
+
+1 0 1
+
+  1 0  
+___________
+   1 1
+___________
+
+Step 4: Now, in the last column, we have only 1 left, so we can apply the rule, 1 + 0 = 1.
+
+1 0 1
+
+  1 0
+__________
+ 1 1 1
+__________
+
+Therefore, by adding **(101)** with **(10)**, we get **(111)** as the final answer.
+
+### [Binary Subtraction](#binary-subtraction)
+This operation is similar to the basic arithmetic subtraction performed on decimal numbers in Maths. Hence, when we subtract 1 from 0, we need to borrow 1 from the next higher order digit, to reduce the digit by 1 and the remainder left here is also 1
+
+The four rules that apply when two binary digits are subtracted are given below:
+
+|  A  |  B  | Borrow|Difference |
+|:---:|:---:|:-----:|:---------:|
+| 0   | 0   | 0     | 0         |
+| 0   | 1   | 1     | 1         |
+| 1   | 0   | 0     | 1         |
+| 1   | 1   | 0     | 0         |
+
+Steps for binary subtraction:
+
+Step 1: First consider the 1’s column, and subtract the one’s column,( 0 – 1 ) and it gives the result 1 as per the condition of binary subtraction with a borrow of 1 from the 10’s place.
+
+1 0 1 0
+
+  1 0 1
+____________
+
+____________
+
+Step 2: After borrowing 1 from the 10’s column, the value 1 in the 10’s column is changed into the value 0
+
+1 Borrow
+
+1 0 1 0
+
+  1 0 1
+____________
+      1
+____________
+
+Step 3: So, subtract the value in the 10’s place, ( 0 – 0 ) = 0.
+
+1 0 1 0
+
+  1 0 1
+___________
+    0 1
+___________
+
+Step 4: Now subtract the values in 100’s place. Borrow 1 from the 1000’s place ( 0 – 1 ) = 1.
+
+1 0 1 1
+
+  1 0 1
+__________
+ 0 1 0 1
+__________
+
+Therefore, by subtracting **(1010)** with **(101)**, we get **(0101)** as the final answer.
+
 ## [Binary to Decimal Conversion](#binary-decimal-conversion)
 To convert Binary to decimal, first we write the given binary number and count the powers of 2 from right to left (powers starting from 0). Now, write each binary digit (right to left) with the corresponding powers of 2 from (right to left), such that first binary digit will be multiplied with the greatest power of 2. Add all the products and the final answer will be the required deciaml number
 

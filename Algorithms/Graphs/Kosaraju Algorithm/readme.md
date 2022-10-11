@@ -224,7 +224,7 @@ Overall Time complexity is O(V+E), DFS+TopoSort.
   
 Overall Space Complexity is O(V+E), Transposing the graph.  
   
-***Applications***
+### ***Applications***
   
 - Vehicle routing applications
 - Maps

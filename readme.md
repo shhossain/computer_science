@@ -26,7 +26,7 @@
 - [Web Technology](#web-technology)
 - [Networking](#networking)
 - [Internet](#internet)
-- [Cyber Security](#cyber-security)
+- [DBMS](#dbms)
 
 
 ## Introduction
@@ -120,6 +120,7 @@ Some Languages Include:
 - C++
 - C
 - C#
+- Go
 
 ### Scripting Languages
 A scripting language is a computer language that doesn't have to be compiled. One advantage of Scripting languages is that the code can be quickly edited and can be re-executed. They can be used on the server side of web applications and the client side of web applications.
@@ -255,6 +256,8 @@ b. O(log n): This denotes logarithmic time. O(log n) means to decrease with each
 c. O(n): This denotes linear time. O(n) means that the performance is directly proportional to the input size. In simple terms, the number of inputs and the time taken to execute those inputs will be proportional or the same. Linear search in arrays is the best example of linear time complexity.
 
 d. O(n*n): This denotes quadratic time. O(n2) means that the performance is directly proportional to the square of the input taken. In simple, the time taken for execution will take square times the input size. Nested loops are perfect examples of quadratic time complexity.
+
+e. O(n log n): This denotes polynomial time complexity. O(n log n) means that the performance is n times that of O(log n), that is worst case complexity.
 
 | Algorithm	     |             |  Time Complexity|	       | Space Complexity |
 |   :---:        |  :---:      |  :---: 	 |   :---: 	   |   :---:          |
@@ -679,108 +682,79 @@ The World Wide Web (WWW) is an information space where documents and other web r
 ## [Internet Protocol (IP)](Internet/readme.md#internet-protocol-ip)
 The Internet Protocol (IP) is a protocol, or set of rules, for routing and addressing packets of data so that they can travel across networks and arrive at the correct destination. Data traversing the Internet is divided into smaller pieces, called packets.
 
-# [Cyber Security](Cyber-Security/readme.md#Cyber-Security)
-Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. Also known as information technology (IT) security, cybersecurity measures are designed to combat threats against networked systems and applications, whether those threats originate from inside or outside of an organization.
+## [DBMS]()
 
-In 2020, the average cost of a data breach was USD 3.86 million globally, and USD 8.64 million in the United States. These costs include the expenses of discovering and responding to the breach, the cost of downtime and lost revenue, and the long-term reputational damage to a business and its brand. Cybercriminals target customers’ personally identifiable information (PII) — names, addresses, national identification numbers (e.g., Social Security number in the US, fiscal codes in Italy), and credit card information — and then sell these records in underground digital marketplaces. Compromised PII often leads to a loss of customer trust, the imposition of regulatory fines, and even legal action.
+What is a Database?
+-------------------
 
-Security system complexity, created by disparate technologies and a lack of in-house expertise, can amplify these costs. But organizations with a comprehensive cybersecurity strategy, governed by best practices and automated using advanced analytics, artificial intelligence (AI) and machine learning, can fight cyberthreats more effectively and reduce the lifecycle and impact of breaches when they occur.
+A database is a collection of related data which represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task.
 
-## [Cybersecurity Domains ]()
-These eight domains, which have been widely accepted within the cybersecurity community, are:
+What is DBMS?
+-------------
 
-1. **Security & Risk Management**
-2. **Asset Security**
-3. **Security Engineering**
-4. **Communications & Network Security**
-5. **Identity & Access Management**
-6. **Security Assessment & Testing**
-7. **Security Operations**
-8. **Software Development Security**
+**Database Management System (DBMS)** is a software for storing and retrieving users’ data while considering appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software to store and retrieve data.
 
-Let’s examine each of these domains in greater detail:
+DBMS allows users to create their own databases as per their requirement. The term “DBMS” includes the user of the database and other application programs. It provides an interface between the data and the software application.
 
-## Security and Risk Management
+Example of a DBMS
+-----------------
 
-Security and risk management is the largest domain in CISSP, accounting for 15 percent of the certification examination. This domain provides an overview of information systems security management, and covers:
+Let us see a simple example of a university database. This database is maintaining information concerning students, courses, and grades in a university environment. The database is organized as five files:
 
-1. The availability, integrity, and confidentiality of information
-2. Principles of security governance
-3. Compliance requirements
-4. Legal and regulatory issues in information security
-5. Information technology procedures and policies
-6. Risk-based management concepts
+*   The STUDENT file stores data of each student
+*   The COURSE file stores contain data on each course.
+*   The SECTION stores the information about sections in a particular course.
+*   The GRADE file stores the grades which students receive in the various sections
+*   The TUTOR file contains information about each professor.
 
-## Asset Security
+To define DBMS:
 
-Accounting for ten percent of the CISSP exam, the domain of asset security includes the physical requirements of information security. Involved within this is:
+*   We need to specify the structure of the records of each file by defining the different types of data elements to be stored in each record.
+*   We can also use a coding scheme to represent the values of a data item.
+*   Basically, your Database will have 5 tables with a foreign key defined amongst the various tables.
 
-1. Handling requirements
-2. Data security controls
-3. Retention periods
-4. Privacy
-5. Classification/ownership of information and assets
+History of DBMS
+---------------
 
-## Security Engineering
+Here, are the important landmarks from the history:
 
-Making up 13 percent of the CISSP exam, the domain of security engineering covers the following concepts:
+*   1960 – Charles Bachman designed first DBMS system
+*   1970 – Codd introduced IBM’S Information Management System (IMS)
+*   1976- Peter Chen coined and defined the Entity-relationship model also know as the ER model
+*   1980 – Relational Model becomes a widely accepted database component
+*   1985- Object-oriented DBMS develops.
+*   1990s- Incorporation of object-orientation in relational DBMS.
+*   1991- Microsoft ships MS access, a personal DBMS and that displaces all other personal DBMS products.
+*   1995: First Internet database applications
+*   1997: XML applied to database processing. Many vendors begin to integrate XML into DBMS products.
 
-1. Designing and implementing physical security
-2. Cryptography
-3. Assessing and mitigating system vulnerabilities
-4. Security capabilities within information systems
-5. Fundamental concepts of security models
-6. Engineering processes using secure design principles
+Characteristics of DBMS
+-----------------------
 
-## Communications & Network Security
+Here are the characteristics and properties of Database Management System:
 
-Accounting for 14 percent of the CISSP exam, the domain of communications and network security covers how an organization’s networks are designed and protected. It includes:
+*   Provides security and removes redundancy
+*   Self-describing nature of a database system
+*   Insulation between programs and data abstraction
+*   Support of multiple views of the data
+*   Sharing of data and multiuser transaction processing
+*   Database Management Software allows entities and relations among them to form tables.
+*   It follows the ACID concept ( Atomicity, Consistency, Isolation, and Durability).
+*   DBMS supports multi-user environment that allows users to access and manipulate data in parallel.
 
-1. Secure communication channels
-2. Secure network components
-3. Secure design principles for network architecture
+Popular DBMS Software
+---------------------
 
-## Identity & Access Management
+Here, is the list of some popular DBMS system:
 
-Comprising 13 percent of the CISSP exam, the domain of identity and access management involves controlling the way users can access data. Included within this domain are the following concepts:
-
-1. Identity and access provisioning lifecycle
-2. Authorization mechanisms
-3. Integrating identity as a service
-4. Third-party identity services
-5. Identification and authentication
-6. Physical and logical access to assets
-
-## Security Assessment & Testing
-
-Making up 12 percent of the CISSP exam, the domain of security assessment and testing focuses on the performance, design and analysis of security testing, and includes:
-
-1. Internal and third-party security audits
-2. Test outputs
-3. Collecting security process data
-4. Security control testing
-5. Designing and validating assessment and test strategies
-
-## Security Operations
-
-This domain accounts for 13 percent of the CISSP exam, and addresses how plans are put into action. Concepts covered here include:
-
-1. Business continuity
-2. Managing physical security
-3. Disaster recovery
-4. Incident management
-5. Applying resource protection techniques
-6. Foundational security operations concepts
-7. Securing the provision of resources
-8. Logging and monitoring activities
-9. Requirements for investigation types
-10. Understanding and supporting investigations
-
-## Software Development Security
-
-This final domain comprises 10 percent of the CISSP exam, and helps cybersecurity professionals understand, apply and enforce software security. Included within this domain are these concepts:
-
-1. Secure coding guidelines and standards
-2. Effectiveness of software security
-3. Security controls in development environments
-4. Security in the software development life cycle
+*   MySQL
+*   Microsoft Access
+*   Oracle
+*   PostgreSQL
+*   dBASE
+*   FoxPro
+*   SQLite
+*   IBM DB2
+*   LibreOffice Base
+*   MariaDB
+*   Microsoft SQL Server etc.

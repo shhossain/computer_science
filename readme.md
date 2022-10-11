@@ -26,6 +26,8 @@
 - [Web Technology](#web-technology)
 - [Networking](#networking)
 - [Internet](#internet)
+- [DBMS](#dbms)
+
 
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
@@ -118,6 +120,7 @@ Some Languages Include:
 - C++
 - C
 - C#
+- Go
 
 ### Scripting Languages
 A scripting language is a computer language that doesn't have to be compiled. One advantage of Scripting languages is that the code can be quickly edited and can be re-executed. They can be used on the server side of web applications and the client side of web applications.
@@ -254,6 +257,8 @@ c. O(n): This denotes linear time. O(n) means that the performance is directly p
 
 d. O(n*n): This denotes quadratic time. O(n2) means that the performance is directly proportional to the square of the input taken. In simple, the time taken for execution will take square times the input size. Nested loops are perfect examples of quadratic time complexity.
 
+e. O(n log n): This denotes polynomial time complexity. O(n log n) means that the performance is n times that of O(log n), that is worst case complexity.
+
 | Algorithm	     |             |  Time Complexity|	       | Space Complexity |
 |   :---:        |  :---:      |  :---: 	 |   :---: 	   |   :---:          |
 |  	             | Best	       | Average	 |  Worst	   |  Worst           |
@@ -353,6 +358,61 @@ An operating system (or OS for short) acts as an intermediary between the user o
 An operating system is a software that manages computer hardware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent user programs from interfering with the proper operation of the system.
 An even more common definition is that the operating system is the one program running at all times on the computer (usually called the kernel), with all else being application programs.
 
+Operating systems can be viewed from two viewpoints: resource managers and
+extended machines. In the resource-manager view, the operating system’s job is to
+manage the different parts of the system efficiently. In the extended-machine view,
+the job of the system is to provide the users with abstractions that are more con-
+venient to use than the actual machine. These include processes, address spaces,
+and files.
+Operating systems have a long history, starting from the days when they replaced the operator, to modern multiprogramming systems. 
+Highlights include early batch systems, multiprogramming systems, and personal computer systems.
+Since operating systems interact closely with the hardware, some knowledge
+of computer hardware is useful to understanding them. Computers are built up of
+processors, memories, and I/O devices. These parts are connected by buses.
+The basic concepts on which all operating systems are built are processes,
+memory management, I/O management, the file system, and security.The heart of any operating system is the set of system calls that it can handle.
+These tell what the operating system really does
+
+### Operating system as a resource manager
+the operating system is there to manage all the pieces of a complex system. Modern computers consist of processors, memories, timers, disks, mice, 
+network interfaces, printers, and a wide variety of other devices. 
+In the bottom-up view, the job of the operating system is to provide for an orderly and controlled allocation of the
+processors, memories, and I/O devices among the various programs wanting them.
+Modern operating systems allow multiple programs to be in memory and run
+at the same time. Imagine what would happen if three programs running on some
+computer all tried to print their output simultaneously on the same printer.
+The result would be utter chaos. The operating system can bring order to the potential chaos 
+by buffering all the output destined for the printer on the disk. 
+When one program is finished, the operating system can
+then copy its output from the disk file where it has been stored for the printer,
+while at the same time the other program can continue generating more output,
+oblivious to the fact that the output is not really going to the printer (yet).
+When a computer (or network) has more than one user, the need for managing
+and protecting the memory, I/O devices, and other resources is even more since the
+users might otherwise interfere with one another. In addition, users often need to
+share not only hardware, but information (files, databases, etc.) as well. In short,
+this view of the operating system holds that its primary task is to keep track of
+which programs are using which resource, to grant resource requests, to account
+for usage, and to mediate conflicting requests from different programs and users
+
+### Operating system as an extended machine
+The architecture of most computers at the machine-language level is primitive and awkward to
+program, especially for input/output. To make this point more concrete, consider
+modern SATA (Serial ATA) hard disks used on most computers. What a programmer would have to know to use the disk. 
+Since then, the interface has been revised multiple times and is more complicated than it was in
+2007. Clearly, no sane programmer would want to deal with this disk at the hardware level. 
+Instead, a piece of software, called a disk driver, deals with the hardware and provides an interface to read and write disk blocks, 
+without getting into the details. 
+Operating systems contain many drivers for controlling I/O devices.
+But even this level is much too low for most applications. For this reason, all
+operating systems provide yet another layer of abstraction for using disks: files.
+Using this abstraction, programs can create, write, and read files, without having to
+deal with the messy details of how the hardware actually works.
+This abstraction is the key to managing all this complexity. Good abstractions
+turn a nearly impossible task into two manageable ones. The first is defining and
+implementing the abstractions. The second is using these abstractions to solve the
+problem at hand.
+
 ### History of Operating Systems
 - **First Generation (1945-55)**: Little progress was achieved in building digital computers after Babbage's disastrous efforts until the World War II era. At Iowa State University, Professor John Atanasoff and his graduate student Clifford Berry created what is today recognised as the first operational digital computer. Konrad Zuse in Berlin constructed the Z3 computer using electromechanical relays around the same time. The Mark I was created by Howard Aiken at Harvard, the Colossus by a team of scientists at Bletchley Park in England, and the ENIAC by William Mauchley and his doctoral student J. Presper Eckert at the University of Pennsylvania in 1944.
 
@@ -376,6 +436,67 @@ An even more common definition is that the operating system is the one program r
 - **Storage Management**: The file system mechanism used for the management of the storage. NIFS, CFS, CIFS, NFS, etc. are some file systems. All the data is stored in various tracks of Hard disks that are all managed by the storage manager. It included Hard Disk.
 - **Memory Management**: Refers to the management of primary memory. The operating system has to keep track, of how much memory has been used and by whom. It has to decide which process needs memory space and how much. OS also has to allocate and deallocate the memory space.
 - **Security/Privacy Management**: Privacy is also provided by the Operating system by means of passwords so that unauthorized applications can’t access programs or data. For example, Windows uses **_Kerberos_** authentication to prevent unauthorized access to data.
+
+### Types of Operating system
+- **Mainframe OS**:
+At the high end are the operating systems for mainframes, those room-sized
+computers still found in major corporate data centers. These computers differ from
+personal computers in terms of their I/O capacity. A mainframe with 1000 disks
+and millions of gigabytes of data is not unusual; a personal computer with these
+specifications would be the envy of its friends. Mainframes are also making some-
+thing of a comeback as high-end Web servers, servers for large-scale electronic
+commerce sites, and servers for business-to-business transactions.
+The operating systems for mainframes are heavily oriented toward processing
+many jobs at once, most of which need prodigious amounts of I/O. They typically
+offer three kinds of services: batch, transaction processing, and timesharing
+
+- **Server OS**:
+One level down are the server operating systems. They run on servers, which
+are either very large personal computers, workstations, or even mainframes. They
+serve multiple users at once over a network and allow the users to share hardware
+and software resources. Servers can provide print service, file service, or Web service. 
+Internet providers run many server machines to support their customers
+and Websites use servers to store the Web pages and handle the incoming requests.
+Typical server operating systems are Solaris, FreeBSD, Linux and Windows Server
+201x.
+
+- **Multiprocessor OS**:
+An increasingly common way to get major-league computing power is to connect multiple CPUs into a single system. 
+Depending on precisely how they are connected and what is shared, these systems are called parallel computers, multi-computers, or multiprocessors. 
+They need special operating systems, but often these are variations on the server operating systems, 
+with special features for communication, connectivity, and consistency.
+
+- **Personal Computer OS**:
+The next category is the personal computer operating system. Modern ones all
+support multiprogramming, often with dozens of programs started up at boot time.
+Their job is to provide good support to a single user. They are widely used for
+word processing, spreadsheets, games, and Internet access. Common examples are
+Linux, FreeBSD, Windows 7, Windows 8, and Apple’s OS X. Personal computer
+operating systems are so widely known that probably little introduction is needed.
+In fact, many people are not even aware that other kinds exist.
+
+- **Embedded OS**:
+Embedded systems run on the computers that control devices that are not generally thought of as computers and which do not accept user-installed software.
+Typical examples are microwave ovens, TV sets, cars, DVD recorders, traditional
+phones, and MP3 players. The main property which distinguishes embedded systems from handhelds is the certainty that no untrusted software will ever run on it.
+You cannot download new applications to your microwave oven—all the software
+is in ROM. This means that there is no need for protection between applications,
+leading to design simplification. Systems such as Embedded Linux, QNX and
+VxWorks are popular in this domain.
+
+- **Smart Card OS**:
+The smallest operating systems run on smart cards, which are credit-card-sized
+devices containing a CPU chip. They hav e very severe processing power and memory constraints. 
+Some are powered by contacts in the reader into which they are
+inserted, but contactless smart cards are inductively powered, which greatly limits
+what they can do. Some of them can handle only a single function, such as electronic payments, but others can handle multiple functions. 
+Often these are proprietary systems.
+Some smart cards are Java oriented. This means that the ROM on the smart
+card holds an interpreter for the Java Virtual Machine (JVM). Java applets (small
+programs) are downloaded to the card and are interpreted by the JVM interpreter.
+Some of these cards can handle multiple Java applets at the same time, leading to
+multiprogramming and the need to schedule them. Resource management and protection also become an issue when two or more applets are present at the same
+time. These issues must be handled by the (usually extremely primitive) operating system present on the card.
 
 ## [Memory and Storage](Memory%20and%20Storage/readme.md)
 If you are unsure about the difference between memory and storage in computers, this article covers the differences between the two.
@@ -493,21 +614,19 @@ The part of a website that the user interacts directly is termed as front end. I
 Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
 
 
-## [Networking](Networking/readme.md#networking)
+# [Networking](Networking/readme.md#networking)
 A computer network is a set of computers sharing resources located on or provided by network nodes. The computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies, based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
 
 The nodes of a computer network can include personal computers, servers, networking hardware, or other specialised or general-purpose hosts. They are identified by network addresses, and may have hostnames. Hostnames serve as memorable labels for the nodes, rarely changed after initial assignment. Network addresses serve for locating and identifying the nodes by communication protocols such as the Internet Protocol.
 
 Computer networks may be classified by many criteria, including the transmission medium used to carry signals, bandwidth, communications protocols to organize network traffic, the network size, the topology, traffic control mechanism, and organizational intent.
 
-### Types of networking
+## Types of networking
 There are two primary types of computer networking:
 - Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fiber is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
 - Wireless networking: Wireless networking uses radio waves to transport data over the air, enabling devices to be connected to a network without any cabling. Wireless LANs are the most well-known and widely deployed form of wireless networking. Alternatives include microwave, satellite, cellular and Bluetooth, among others.
-## [OSI Model](Networking/OSI%20Model/readme.md#osi-model)
-OSI stands for **Open Systems Interconnection**. It has been developed by ISO – ‘**International Organization for Standardization**‘, in the year 1984. It is a 7 layer architecture with each layer having specific functionality to perform. All these 7 layers work collaboratively to transmit the data from one person to another across the globe.
-
-![](Networking/OSI%20Model/img/computer-network-osi-model-layers.png)
+## OSI MODEL
+OSI stands for **Open Systems Interconnection**. It has been developed by ISO – ‘**International Organization for Standardization**‘, in the year 1984. It is a 7 layer architecture with each layer having specific functionality to perform. All these 7 layers work collaboratively to transmit the data from one person to another across the globe. 
 
 ### **1\. Physical Layer (Layer 1) :**
 
@@ -562,3 +681,80 @@ The World Wide Web (WWW) is an information space where documents and other web r
 
 ## [Internet Protocol (IP)](Internet/readme.md#internet-protocol-ip)
 The Internet Protocol (IP) is a protocol, or set of rules, for routing and addressing packets of data so that they can travel across networks and arrive at the correct destination. Data traversing the Internet is divided into smaller pieces, called packets.
+
+## [DBMS]()
+
+What is a Database?
+-------------------
+
+A database is a collection of related data which represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task.
+
+What is DBMS?
+-------------
+
+**Database Management System (DBMS)** is a software for storing and retrieving users’ data while considering appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software to store and retrieve data.
+
+DBMS allows users to create their own databases as per their requirement. The term “DBMS” includes the user of the database and other application programs. It provides an interface between the data and the software application.
+
+Example of a DBMS
+-----------------
+
+Let us see a simple example of a university database. This database is maintaining information concerning students, courses, and grades in a university environment. The database is organized as five files:
+
+*   The STUDENT file stores data of each student
+*   The COURSE file stores contain data on each course.
+*   The SECTION stores the information about sections in a particular course.
+*   The GRADE file stores the grades which students receive in the various sections
+*   The TUTOR file contains information about each professor.
+
+To define DBMS:
+
+*   We need to specify the structure of the records of each file by defining the different types of data elements to be stored in each record.
+*   We can also use a coding scheme to represent the values of a data item.
+*   Basically, your Database will have 5 tables with a foreign key defined amongst the various tables.
+
+History of DBMS
+---------------
+
+Here, are the important landmarks from the history:
+
+*   1960 – Charles Bachman designed first DBMS system
+*   1970 – Codd introduced IBM’S Information Management System (IMS)
+*   1976- Peter Chen coined and defined the Entity-relationship model also know as the ER model
+*   1980 – Relational Model becomes a widely accepted database component
+*   1985- Object-oriented DBMS develops.
+*   1990s- Incorporation of object-orientation in relational DBMS.
+*   1991- Microsoft ships MS access, a personal DBMS and that displaces all other personal DBMS products.
+*   1995: First Internet database applications
+*   1997: XML applied to database processing. Many vendors begin to integrate XML into DBMS products.
+
+Characteristics of DBMS
+-----------------------
+
+Here are the characteristics and properties of Database Management System:
+
+*   Provides security and removes redundancy
+*   Self-describing nature of a database system
+*   Insulation between programs and data abstraction
+*   Support of multiple views of the data
+*   Sharing of data and multiuser transaction processing
+*   Database Management Software allows entities and relations among them to form tables.
+*   It follows the ACID concept ( Atomicity, Consistency, Isolation, and Durability).
+*   DBMS supports multi-user environment that allows users to access and manipulate data in parallel.
+
+Popular DBMS Software
+---------------------
+
+Here, is the list of some popular DBMS system:
+
+*   MySQL
+*   Microsoft Access
+*   Oracle
+*   PostgreSQL
+*   dBASE
+*   FoxPro
+*   SQLite
+*   IBM DB2
+*   LibreOffice Base
+*   MariaDB
+*   Microsoft SQL Server etc.

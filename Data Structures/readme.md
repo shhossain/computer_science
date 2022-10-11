@@ -11,6 +11,7 @@ In computer science, a data structure is a data organization, management, and st
 - [Tree](#tree)
 - [Graph](#graph)
 - [Trie](Trie.md)
+- [Pointers](Pointers.md)
 
 ## Array
 An array is a data structure that stores a collection of data values in contiguous memory locations.
@@ -96,6 +97,19 @@ index 5 value is 6 with memory location 1010 and pointer to first node 1000
 | Deleting an element             | O(1)     |
 
 
+#### There can be differeent types of Linked list:
+
+### Singly Linked List
+A singly linked list is a type of linked list that is unidirectional, that is, it can be traversed in only one direction from head to the last node (tail).
+
+### Circular Linked List
+Here, the last node of the list contains a pointer to the first node of the list. We traverse the circular singly linked list until we reach the same node where we started. It has no beginning or end. All node cannot be null.
+
+### Doubly Linked List
+In a doubly linked list, a node consists of three parts: node data, pointer to the next node in sequence (next pointer) , pointer to the previous node (previous pointer). We can traverse in any direction.
+
+
+
 [More on Linked List](LinkedList.md)
 
 
@@ -154,6 +168,9 @@ We can represent the graph using two ways:
 2 -> | 1 , 3 |
 3 -> | 1 |
 
+[More on Graph](graph.md)
+
+
 ## Heap
 
 Heap is a data structure which is a complete binary tree in which the parent node is either greater than both child nodes or less than child nodes.
@@ -175,6 +192,9 @@ Heap is a data structure which is a complete binary tree in which the parent nod
 **1.** Using heap we can access the greates or smallest data in the constant time.\
 **2.** The traversing time of a heap using graph's Algorithm( BFS, DFS) is reduces to polynomial order.\
 **3.** As the heap is a complete binary tree, for N nodes the maximum height of a heap is log(N) so time complexity for accessing the maximun and minimum number is reduced to constant time and for Kth element it is reduced to linear complexity.\
+
+[More on Heap](Heap.md)
+
 
 #### Hash Table
 

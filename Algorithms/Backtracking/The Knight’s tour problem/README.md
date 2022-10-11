@@ -50,7 +50,7 @@ Else
 * [C++](#cpp)
 * [C#](#csharp)
 * [Java](#java)
-* [Pyhon](#python)
+* [Python](#python)
 * [JavaScript](#javascript)
 
 

@@ -94,7 +94,7 @@ We can avoid the repeated work done in method 1 by storing the Fibonacci numbers
 * [C++](#cpp)
 * [C#](#csharp)
 * [Java](#java)
-* [Pyhon](#python)
+* [Python](#python)
 * [JavaScript](#javascript)
 
 

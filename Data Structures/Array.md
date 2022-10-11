@@ -1,5 +1,7 @@
 ## Array
-An array is a data structure that stores a collection of data values in contiguous memory locations.
+An array is a collection of items of same data type stored at contiguous memory locations. 
+
+This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array). The base value is index 0 and the difference between the two indexes is the offset.
 
 ### Example
 ```
@@ -27,6 +29,27 @@ array[5] // 14 (index 5 is the sixth element) (1005)
 array[6] // 6 (index 6 is the seventh element) (1006)
 ```
 
+<p align="center">
+  <img src="images/Array.png?raw=true" alt="Array Image"/>
+</p>
+
+
+#### Initiation of Array
+
+for initiation of Arrays it is necessary to specify size of an Array
+
+if C++:
+for example if you wish to initate an array of 5 elements 
+you have to write code as:
+
+ ```
+<datatype> arr_name[size]
+int arr[5];
+```
+
+
+this will initialise array with 0 elements.
+  
 #### Time complexities of some basic array operations
 
 | Operation | Time Complexity |
@@ -36,3 +59,194 @@ array[6] // 6 (index 6 is the seventh element) (1006)
 | Inserting an element             | O(N)     |
 | Deleting an element             | O(N)     |
 
+
+## Algorithms on Array
+
+### Searching :
+ 
+### 1. Linear Search :
+
+Algorithm :
+
+
+1. Iterate the array using the loop.
+
+2. Check whether the given key present in the array i.e. arr[i] == key.
+
+3. If yes,
+
+     print "Element Found".
+
+4. Else
+
+     print "Element Not Found".
+     
+
+### 2. Binary Search
+
+Algorithm :
+
+Binary_Search(a, lower_bound, upper_bound, val) 
+
+// 'a' is the given array, 'lower_bound' is the index of the first array element, 'upper_bound' is the index of the last array element, 'val' is the value to search  
+
+Step 1: set beg = lower_bound, end = upper_bound, pos = - 1  
+
+Step 2: repeat steps 3 and 4 while beg <=end  
+
+Step 3: set mid = (beg + end)/2  
+
+Step 4: if a[mid] = val  
+set pos = mid  
+print pos  
+go to step 6  
+else if a[mid] > val  
+set end = mid - 1  
+else  
+set beg = mid + 1  
+[end of if]  
+[end of loop]  
+
+Step 5: if pos = -1  
+
+print "value is not present in the array"  
+[end of if]  
+Step 6: exit  
+
+## Insertion
+It basically means inserting an element inside an array.
+There are following types of Insertions in Arrays
+* Insertion at the beginning of an array
+* Insertion at the given index of an array
+* Insertion at the end of the Array
+
+
+### Insertion at the beginning of an Array
+```
+#include <stdio.h>
+
+void main() {
+   int MAX=5;
+   int array[MAX] = {2, 3, 4, 5};
+   int N = 4;        // number of elements in array
+   int i = 0;        // loop variable
+   int value = 1;    // new data element to be stored in array
+
+   // print array before insertion
+   printf("Printing array before insertion −\n");
+   
+   for(i = 0; i < N; i++) {
+      printf("array[%d] = %d \n", i, array[i]);
+   }
+
+   // now shift rest of the elements downwards   
+   for(i = N; i >= 0; i--) {
+      array[i+1] = array[i];
+   }
+
+   // add new element at first position
+   array[0] = value;
+
+   // increase N to reflect number of elements
+   N++;
+
+   // print to confirm
+   printf("Printing array after insertion −\n");
+   
+   for(i = 0; i < N; i++) {
+      printf("array[%d] = %d\n", i, array[i]);
+   }
+}
+```
+
+**Output**
+~~~
+Printing array before insertion −
+array[0] = 2
+array[1] = 3
+array[2] = 4
+array[3] = 5
+Printing array after insertion −
+array[0] = 0
+array[1] = 2
+array[2] = 3
+array[3] = 4
+array[4] = 5
+~~~
+
+### Insertion at the Given Index of an Array
+~~~
+#include<stdio.h>
+
+int main()
+{
+     int size=5;
+    int arr[size] = {1, 20, 5, 78, 30};
+    int element, pos, i;
+
+    printf("Enter position and element\n");
+    scanf("%d%d",&pos,&element);
+
+    if(pos <= size && pos >= 0)
+    {
+        //shift all the elements from the last index to pos by 1 position to right
+        for(i = size; i > pos; i--)
+            arr[i] = arr[i-1];
+
+        //insert element at the given position
+        arr[pos] = element;
+
+        /*
+         * print the new array
+         * the new array size will be size+1(actual size+new element)
+         * so, use i <= size in for loop
+         */
+        for(i = 0; i <= size; i++)
+            printf("%d ", arr[i]);
+    }
+    else
+        printf("Invalid Position\n");
+
+    return 0;
+  }
+
+  ~~~
+
+  **Output**
+  ```
+Enter position and element
+5 
+5
+1 20 5 78 30 5
+```
+  ### Insertion at the end of the Array
+  ~~~
+  #include <stdio.h>
+void main()
+{
+    int position, i, n, value,ch, arr[100];
+    printf("C Program to insert element at end of Array\n");
+    printf("First enter number of elements you want in Array\n");
+    scanf("%d", &n);
+    arr[n];
+   for(i = 0; i < n; i++)
+    {
+        printf("Please give value for index %d : ",i);
+        scanf("%d",&arr[i]);
+    }
+    printf("Let's Insert Element at end \n ");
+    printf("Please give a number to insert at end \n");
+    scanf("%d", &value);
+    arr[n] = value;
+    printf("Element %d is inserted at %d index \n",value,n);
+    printf("New Array is \n ");
+    
+    for(i = 0; i < n+1; i++)
+    {
+       printf("%d \t",arr[i]);
+    }
+}
+~~~
+
+**Output** <br>
+<img src="https://quescol.com/wp-content/uploads/2021/11/image-35.png?ezimgfmt=ng:webp/ngcb1" alt="output">

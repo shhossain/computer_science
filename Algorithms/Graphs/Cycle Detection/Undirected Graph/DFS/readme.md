@@ -1,22 +1,19 @@
 # Cycle Detection in Un-directed Graph
-
 There is a cycle in a graph only if there is a back edge present in the graph. A back edge is an edge that is indirectly joining a node to itself (self-loop) or one of its ancestors in the tree produced by DFS. 
 
 To find the back edge to any of its ancestors keep a visited array and if there is a back edge to any visited node then there is a loop and return true.
 
-Time Complexity: 
 
-O(V+E) - The program does a simple DFS Traversal of the graph which is represented using an adjacency list. So the time complexity is O(V+E).
-
-Auxiliary Space: O(V), To store the visited array O(V) space is required.
-
+## Complexity:
+| Time Complexity | Auxiliary Space |
+| --------------- | --------------- |
+| O(V+E)          | O(V)            |
 
 ## Implementations
 * [Python](#python)
 
 
 ### Python
-
 ```python
 
 class Graph:
@@ -79,5 +76,4 @@ graph.print_graph()
 
 # check cycle with dfs algo
 print("check cycle with dfs algo =>",graph.is_cyclic(False))
-
 ```

@@ -60,6 +60,27 @@ In case an object which has String data type members in it calls this class, the
 
 Polymorphism eliminates the possibilities of rewriting almost the same code many times over differently for different objects.
 
-<br>
+
+#### **5. Overloading**
+
+C++ has the ability to provide the operators with a special meaning for a data type, this ability is known as operator overloading. We can overload an operator ‘+’ in a class like String so that we can concatenate two strings by just using +.
+
+In C++, we can overload:
+
+1. Methods
+2. Constructors
+3. Indexed properties
+
+#### **Types of overloading in C++**
+
+Function overloading
+Operator overloading
+
+#### Implementing Operator Overloading in C++
+Operator function must be either non-static (member function) or friend function to get overloaded. Operator overloading function can be applied on a member function if the left operand is an object of that class, but if the Left operand is different, then the Operator overloading function must be defined as a non-member function.
+Operator overloading function can be made friend function if it requires access to the private and protected members of the class. For example, the operator op is an operator function where op is the operator being overloaded, and the operator is the keyword. Operator overloading can be achieved by implementing a function that can be either member function,non- member function or friend function.
+
+
+
 
 **Hence, these four concepts of OOP helps in writing better modular and efficient codes.** 

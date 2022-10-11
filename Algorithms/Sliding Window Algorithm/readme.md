@@ -10,11 +10,11 @@ Brute Force approach of solving this problem takes O(N^2) time complexity while 
 
 # Types of Sliding Window
 Sliding window can be used on fixed-length windows or variable-length windows. 
-1) Fixed-length Window:
+1) [Fixed-length Window](Fixed%20Length/readme.md):
     For fixed-length windows, the algorithm can be designed without knowing the value of the window for each element of the source array.
     Eg. Find the largest sum of any subarray of size K for a given array.
 
-2) Variable-length Window:
+2) [Variable-length Window](Variable%20Length/readme.md):
     For variable-length windows, the algorithm must be able to predict the value of the window at each step of the algorithm, i.e., before evaluating each element of the source array. Let’s look at how to identify the pattern for each case.
     Eg. Find the largest subarray in a given array with sum equal to k.
 

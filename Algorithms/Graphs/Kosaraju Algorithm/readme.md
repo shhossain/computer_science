@@ -11,7 +11,7 @@ graph is a maximal strongly connected subgraph.
 
 *Example :*
 
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/scc-strongly-connected-components.png">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/scc-strongly-connected-components.png" width="500" height="300">
 
 You can observe that in the first strongly connected component, every vertex can reach the other vertex through the directed path.
 Similar for the other two components also.
@@ -22,7 +22,7 @@ Kosaraju's Algorithm is DFS based. It does DFS two times. DFS of a graph produce
 Otherwise DFS produces a forest. So DFS of a graph with only one SCC always produces a tree. The important point to note is DFS may produce a tree or a forest 
 when there are more than one SCCs depending upon the chosen starting point.
 
-<img src="https://miro.medium.com/max/1290/1*Y4FpyIsijYC7z_jtkDvbyw.png">
+<img src="https://miro.medium.com/max/1290/1*Y4FpyIsijYC7z_jtkDvbyw.png" width="500" height="300">
 
 - In the above diagram, if we start DFS from vertices 0 or 1 or 2, we get a tree as output. And if we start from 3 or 4, we get a forest. 
   To find and print all SCCs, we would want to start DFS from vertex 4 (which is a sink vertex), then move to 3 which is sink in the remaining set 
@@ -43,7 +43,7 @@ when there are more than one SCCs depending upon the chosen starting point.
 - In stack, we always have 0 before 3 and 4. So if we do a DFS of the reversed graph using sequence of vertices in stack, we process vertices 
   from sink to source (in reversed graph). That is what we wanted to achieve and that is all needed to print SCCs one by one.   
   
-<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCCGraph2.png">
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCCGraph2.png" width="500" height="300">
 
 
 ## ***Approach***

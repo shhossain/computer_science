@@ -55,6 +55,16 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 |   ⊽      |  NOR            | Returns **true** if all operands are false. |
 |   ⊼      |  NAND           | Returns **false** only if both values of its two inputs are true. |
 
+### De Morgan's Laws
+In propositional logic and Boolean algebra, De Morgan's laws are a pair of transformation rules that are both valid rules of inference. The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.
+
+The rules can be expressed in English as:
+- not (A or B) = (not A) and (not B)
+- not (A and B) = (not A) or (not B)
+
+In set theory and Boolean algebra, these are written formally as:
+- !(A || B) = (!A) && (!B)
+- !(A && B) = (!A) || (!B)
 
 
 ## [Number Systems](Number%20System/readme.md#number-systems)

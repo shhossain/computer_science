@@ -19,7 +19,7 @@ A typical Divide and Conquer algorithm solves a problem using following three st
 6. Karatsuba algorithm for fast multiplication 
 7. Maximum sub array sum
 8. [Maximum and minimum element of an array](Maximum%20and%20minium%20of%20an%20array/readme.md)
-9. [Convex Hull Problem](Convex%20Hull%20Problem/Readme.md)
+9. [Convex Hull Problem](Convex%20Hull%20PRoblem#readme)
 
 ## Time Complexity of Divide and Conquer Algorithm:
 ```

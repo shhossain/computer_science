@@ -53,8 +53,7 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 |   *      |  Asterisk       | Provides results that contain a variation of the keyword. |
 |   ⊕     |  XOR            | Returns **true** if the operands are different |
 |   ⊽      |  NOR            | Returns **true** if all operands are false. |
-|   ⊼      |  NAND           | Returns **false** only if both values of its two inputs are true. |
-
+|   ⊼      |  NAND           | Returns **false** only if both values of its two inputs are true.
 
 
 ## [Number Systems](Number%20System/readme.md#number-systems)

@@ -92,7 +92,7 @@ switch (alphabet) {
 
 ------------
 
-#Terniary operators
+# Terniary operators
 
 There's also an another way get the functionality of if-else with more compact
 and concise syntax. 
@@ -109,7 +109,9 @@ Traditional way::
 		print("it is odd number")
 
 Now using terniary operators:
-	(num%2==0) ? print("even number") : print( " odd number")
+```
+(num%2==0) ? print("even number") : print( " odd number")
+```
 
 The way it works is, first there's a condition we want to check which is in
 braces followed by a question mark, the print which comes after the question 

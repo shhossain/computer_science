@@ -92,6 +92,31 @@ switch (alphabet) {
 
 ------------
 
+#Terniary operators
+
+There's also an another way get the functionality of if-else with more compact
+and concise syntax. 
+Yes, we're talking about terniary operators.
+
+Let's consider an example of a typical example of an if-else to check whether
+a number is even or odd. 
+
+Traditional way:: 
+	
+	if(num%2==0):
+		print("it is even number")
+	else:
+		print("it is odd number")
+
+Now using terniary operators:
+	(num%2==0) ? print("even number") : print( " odd number")
+
+The way it works is, first there's a condition we want to check which is in
+braces followed by a question mark, the print which comes after the question 
+is the instruction which will get executed if the check condition has been 
+satiesfied i.e, if it is true, otherwise it'll execute the statement which 
+is after the colon.  
+
 
 # Loops
 

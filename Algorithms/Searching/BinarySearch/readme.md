@@ -6,7 +6,7 @@ It is called binary because it splits the array into two halves as part of the a
 ## Complexity
 | Best | Average | Worst | Worst-case space complexity |
 |------|---------|-------|-----------------------------|
-| O(1) |  O(n)   | O(n)  |      O(1) iterative         |
+| O(1) |  O(log n)    | O(log n)  |      O(1) iterative         |
 
 
 # Pseudo Code

@@ -30,7 +30,7 @@
 
 
 ## Introduction
-Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions, including algorithm formulation, software and hardware development, and artificial intelligence.
+Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions. Those include algorithm formulation, software/hardware development, and artificial intelligence.
 
 ## [Electronic Computing](Not-Added)
 A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or that assembles, stores, correlates, or otherwise processes information.
@@ -42,19 +42,18 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 | Operator | Name |               Description               |
 | :------: | :--: | :-------------------------------------: |
 |    !     | NOT  |    Negates the value of the operand.    |
-|    &&    | AND  | Returns true if both operands are true. |
-|   \|\|   |  OR  | Returns true if either operand is true. |
+|    &&    | AND  | Returns **true** if both operands are true. |
+|   \|\|   |  OR  | Returns **true** if one or all operands are true. |
 
 ### Nice to know Boolean Operators
 | Operator | Name |               Description               |
 | :------: | :--: | :-------------------------------------: |
-|    ()     | Parentheses   |   Allows you to group together keywords and control the order in which the terms will be searched.    |
-|    “”    | Quotation marks  | Provides results with the exact phrase. |
-|   *   |  Asterisk   | Provides results that contain a variation of the keyword. |
-|   ⊕   |  XOR    | Returns true if the operand are different |
-|   ⊽   |  NOR     | Returns true if neither operand are true. |
-|   ⊼   |  NAND     | Returns false value only if both values of its two inputs are true. |
-
+|    ()    | Parentheses     |   Allows you to group together keywords and control the order in which the terms will be searched.    |
+|    “”    | Quotation marks | Provides results with the exact phrase. |
+|   *      |  Asterisk       | Provides results that contain a variation of the keyword. |
+|   ⊕     |  XOR            | Returns **true** if the operands are different |
+|   ⊽      |  NOR            | Returns **true** if all operands are false. |
+|   ⊼      |  NAND           | Returns **false** only if both values of its two inputs are true.
 
 
 ## [Number Systems](Number%20System/readme.md#number-systems)
@@ -84,9 +83,9 @@ Binary is still the primary language for computers and is used with electronics 
 
 
 
-## [Central Processing Unit(CPU)](CPU/readme.md#central-processing-unitcpu)
-A central processing unit (CPU) is an important part of every computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.
-The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program. A CPU can process more than one instruction at a time on sections called Cores. A CPU with four cores may process four programs at once.
+## [Central Processing Unit (CPU)](CPU/readme.md#central-processing-unitcpu)
+A Central Processing Unit (CPU) is the most important part of any computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.
+The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program. A CPU can process more than one instruction at a time on sections called "cores". A CPU with four cores may process four programs at once.
 The CPU itself is made of three main components. They are:
 1. [Memory or storage Unit](CPU/readme.md#memory-or-storage-unit)
 2. [Control Unit](CPU/readme.md#control-unit)
@@ -96,40 +95,42 @@ The CPU itself is made of three main components. They are:
 ## [Registers, Cache and RAM](/Registers%20Cache%20and%20RAM)
 
 ### [Register](/Registers%20Cache%20and%20RAM/readme.md#register)
-Registers are small amounts of high-speed memory contained within the CPU. Registers are basically a collection of flip-flops (a circuit used to store 1 bit of memory). They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called Cores. Register also helps in arithmetic and logic operations.Larger amounts of data may be stored in Cache (pronounced like cash).  This is a very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuits not part of the CPU. RAM stands for random-access memory.  It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
+Registers are small amounts of high-speed memory contained within the CPU. Registers are basically a collection of "flip-flops" (a circuit used to store 1 bit of memory). They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called "cores". Register also helps in arithmetic and logic operations. Larger amounts of data may be stored in Cache (pronounced as "cash").  This is a very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuits not part of the CPU. RAM stands for Random Access Memory. It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
 
 ### [Cache](/Registers%20Cache%20and%20RAM/readme.md#cache)
-A cache -- pronounced CASH -- is hardware or software that is used to store something, usually data, temporarily in a computing environment.
+A cache is hardware or software that is used to store something, typically data, temporarily in a computing environment.
 
 ### [RAM](/Registers%20Cache%20and%20RAM/readme.md#ram)
-RAM (Random Access Memory) is the hardware in a computing device where the operating system (OS), application programs and data in current use are kept so they can be quickly reached by the device's processor. RAM is the main memory in a computer. It is much faster to read from and write to than other kinds of storage, such as a hard disk drive (HDD), solid-state drive (SSD) or optical drive.
+RAM is the hardware in a computing device where the operating system (OS), application programs and data in current use are kept so they can be quickly reached by the device's processor. RAM is the main memory in a computer. It is much faster to read from and write to than other types of storage, such as a Hard Disk Drive (HDD), a Solid State Drive (SSD), or an optical drive.
 
 ## [Instruction and Program](Not-Added)
-In computer science, an instruction is a single operation of a processor defined by the processor instruction set. And a computer program is a list of instructions that tell a computer what to do. Everything a computer does is done by using a computer program. Programs stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
+In computer science, an instruction is a single operation of a processor defined by the processor instruction set, a computer program is a list of instructions that tell a computer what to do. Everything a computer does is accomplished by using a computer program. Programs that are stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
 
 ## [Programming Language](Not-Added)
 A programming language is any set of rules that convert strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output.[citation needed] Programming languages are one kind of computer language and are used in computer programming to implement algorithms.
 
 Programming languages are mainly of two types : 
-1. High-level language uses a syntax similar to the English language. The source code is converted into machine-understandable machine code using a compiler or an interpreter. Java, Python are some examples of high-level programming languages.
-2. Low-level programming languages work more closely to the hardware and have more control over it. They directly interact with the hardware. Two common examples of low-level languages are machine language and assembly language.
+1. High-level language uses a syntax similar to the English language. The source code is converted into machine-understandable machine code using a compiler or an interpreter. Java, Python are some examples of high-level programming languages. These are usually slower than Low-level, but it comes with being easier.
+2. Low-level programming languages work more closely to the hardware and have more control over it. They directly interact with the hardware. Two common examples of low-level languages are machine language and assembly language. These are usually faster than High-level, but is comes at the cost of a very high difficulty.
 
 Some Languages Include:
-- Python
-- Java
-- C++
-- C
-- C#
-- Go
+- [Python](https://www.python.org)
+- [Java](https://www.java.com/)
+- [JavaScript](https://www.javascript.com/)
+- [C++](https://www.cplusplus.com/)
+- [C](No-Website)
+- [C#](No-Website)
+- [Go](https://www.go.dev/)
+- [Swift](https://developer.apple.com/swift/)
 
 ### Scripting Languages
 A scripting language is a computer language that doesn't have to be compiled. One advantage of Scripting languages is that the code can be quickly edited and can be re-executed. They can be used on the server side of web applications and the client side of web applications.
 
 Some Scripting Languages include:
-- Javascript
-- PHP
-- Python
-- Perl
+- [JavaScript](https://www.javascript.com/)
+- [PHP](https://www.php.net/)
+- [Python](https://www.python.org)
+- [Perl](https://www.perl.org)
 
 ## [Data Types](Data%20Types/readme.md#data-types)
 A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational or logical operations can be applied to it without causing an error.
@@ -162,6 +163,7 @@ There are two main types of statements in any programming language that is neces
 1. [Conditional-Statements](Statements%20and%20Functions/readme.md#conditional-statements)
 
 There are two types of conditional statements mainly:
+- if
 - if-else
 - switch case
 
@@ -172,10 +174,11 @@ There are three types of conditional statements mainly:
 - for loop
 - while loop
 - do - while loop (a variation of while loop)
+- do - Until loop
 
 ------------
 
-A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily, without having to write the same code again and again.
+A function is a block of statements that performs a specific task. Functions accept data, process it, and return a result or execute it. Functions are written primarily to support the concept of reusability. Once a function is written, it can be called easily, without having to write the same code again and again.
 
 Different functional languages use different syntax to write a function.
 
@@ -196,7 +199,7 @@ In computer science, a data structure is a data organization, management, and st
 - [Graph](Data%20Structures/readme.md#graph)
 
 ## [Algorithms](Algorithms/readme.md)
-Algorithms are the sets of steps necessary to complete computation - they are at the heart of what our devices do. And this isn’t a new concept. Since the development of math itself algorithms have been needed to help us complete tasks more efficiently, but today we’re going to take a look at a couple of modern computing problems like sorting and graph search, and show how we’ve made them more efficient so you can more easily find cheap airfare or map directions to Winterfell... or like a restaurant or something.
+Algorithms are the sets of steps necessary to complete computation. They are at the heart of what our devices do, and this isn’t a new concept. Since the development of math itself algorithms have been needed to help us complete tasks more efficiently, but today we’re going to take a look at a couple of modern computing problems like sorting and graph search, and show how we’ve made them more efficient so you can more easily find cheap airfare or map directions to Winterfell... or like a restaurant or something.
 
 ### [Time Complexity](Algorithms/Time%20Complexity/readme.md)
 The time complexity of an algorithm estimates how much time the algorithm will use for some input. The idea is to represent efficiency as a function whose parameter is the size of the input. By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it.
@@ -205,7 +208,7 @@ The time complexity of an algorithm estimates how much time the algorithm will u
 Space complexity refers to the total amount of memory space used by an algorithm/program, including the space of input values for execution. Calculate the space occupied by variables in an algorithm/program to determine space complexity.
 
 ### [Sorting](Algorithms/Sorting/readme.md)
-Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Or if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
+Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Alternatively, if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
 
 ### [Searching](Algorithms/Searching/readme.md)
 Searching is algorithm for finding a certain target element inside a container. Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
@@ -260,27 +263,27 @@ d. O(n*n): This denotes quadratic time. O(n2) means that the performance is dire
 e. O(n log n): This denotes polynomial time complexity. O(n log n) means that the performance is n times that of O(log n), that is worst case complexity.
 
 | Algorithm	     |             |  Time Complexity|	       | Space Complexity |
-|   :---:        |  :---:      |  :---: 	 |   :---: 	   |   :---:          |
-|  	             | Best	       | Average	 |  Worst	   |  Worst           |
-| Selection Sort | Ω(n^2)	   | θ(n^2)	     | O(n^2)	   | O(1)             |
-| Bubble Sort	 | Ω(n)	       | θ(n^2)	     | O(n^2)	   | O(1)             |
-| Insertion Sort | Ω(n)	       | θ(n^2)	     | O(n^2)	   | O(1)             |
+|   :---:        |  :---:      |  :---: 	   |   :---: 	   |   :---:          |
+|  	             | Best	       | Average	   |  Worst	     |  Worst           |
+| Selection Sort | Ω(n^2)	     | θ(n^2)	     | O(n^2)	     | O(1)             |
+| Bubble Sort	 | Ω(n)	         | θ(n^2)	     | O(n^2)	     | O(1)             |
+| Insertion Sort | Ω(n)	       | θ(n^2)	     | O(n^2)	     | O(1)             |
 | Heap Sort	     | Ω(n log(n)) | θ(n log(n)) | O(n log(n)) | O(1)             |
-| Quick Sort	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	   | O(n)             |
-| Merge Sort	 | Ω(n log(n)) | θ(n log(n)) | O(n log(n)) | O(n)             |
-| Bucket Sort    | Ω(n +k)	   | θ(n +k)	 | O(n^2)	   | O(n)             |
-| Radix Sort  	 | Ω(nk)	   | θ(nk)	     | O(nk)	   | O(n + k)         |
-| Count Sort  	 | Ω(n +k)	   | θ(n +k)	 | O(n +k)	   | O(k)             |
-| Shell Sort  	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	   | O(1)             |
+| Quick Sort	   | Ω(n log(n)) | θ(n log(n)) | O(n^2)	     | O(n)             |
+| Merge Sort	   | Ω(n log(n)) | θ(n log(n)) | O(n log(n)) | O(n)             |
+| Bucket Sort    | Ω(n +k)	   | θ(n +k)	   | O(n^2)	     | O(n)             |
+| Radix Sort  	 | Ω(nk)	     | θ(nk)	     | O(nk)	     | O(n + k)         |
+| Count Sort  	 | Ω(n +k)	   | θ(n +k)	   | O(n +k)	   | O(k)             |
+| Shell Sort  	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	     | O(1)             |
 | Tim Sort	     | Ω(n)	       | θ(n log(n)) | O(n log(n)) | O(n)             |
-| Tree Sort   	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	   | O(n)             |
+| Tree Sort   	 | Ω(n log(n)) | θ(n log(n)) | O(n^2)	     | O(n)             |
 | Cube Sort	     | Ω(n)	       | θ(n log(n)) | O(n log(n)) | O(n)             |
 
-| Algorithm	     |             |  Time Complexity|	       |
+| Algorithm	     |             |  Time Complexity|	     |
 |   :---:        |  :---:      |  :---: 	 |   :---: 	   |  
-|  	             | Best	       | Average	 |  Worst	   |
-| Linear Search | O(1)	   | O(N)	     | O(N)	   | O(1)  |
-| Binary Search	 | O(1)	       | O(logN)     | O(logN)	   |
+|  	             | Best	       | Average	 |  Worst	     |
+| Linear Search  | O(1)	       | O(N)	     | O(N)	       | O(1)  |
+| Binary Search	 | O(1)	       | O(logN)   | O(logN)	   |
 
 
 

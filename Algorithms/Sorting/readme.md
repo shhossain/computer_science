@@ -30,7 +30,6 @@ software environment. Many of these issues are best dealt with at the algorith-
 mic level, rather than by “tweaking” the code.
 
 ### Popular Sorting Algorithms
-
 - [Bubble Sort](BubbleSort/readme.md)
 - [Insertion Sort](InsertionSort/readme.md)
 - [Selection Sort](SelectionSort/readme.md)
@@ -42,3 +41,4 @@ mic level, rather than by “tweaking” the code.
 - [Shell Sort](ShellSort/readme.md)
 - [Count Sort](CountSort/readme.md)
 - [Tim Sort](TimSort/readme.md)
+

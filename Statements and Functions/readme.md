@@ -18,7 +18,7 @@ Now, if the entered number is 5, the if statement will check if the remainder of
 ------------
 
 
-**There are two types of conditional statements**:
+**Types of conditional statements**:
 ## 1. if - else if - else
  **Here is a code that prints the grade based on the marks.**
 
@@ -89,6 +89,37 @@ switch (alphabet) {
     }
 ```
 * *Note: Python does not have switch case statements.*
+
+
+
+## 3. Nested if-else statements:
+
+The nested if...else statement is used when a program requires more than one test expression. It is also called a multi-way selection statement. When a series of the decision are involved in a statement, we use the if-else statement in nested form. Nested if-else statements can be useful when we can have multiple sources of expression and based on the specific value, we need to check nested conditions.
+
+It is recommended for best coding practice to avoid using nested if-else statement as it may turn into a conditional bubbling situation, better to use the switch case for the better conditional handling.
+
+* Syntax of nested if-else in C++:
+
+```cpp
+if(condition_1){
+	if(condition_2){
+		if(condition_3){
+			statement_1;
+		}
+		else{
+			statement_2;
+		}
+	}
+	else{
+		statement_3;
+	}
+}
+else{
+	statement_4;
+}
+```
+
+* It is considered a better coding practice to use `if...elif...elif...else` in Python
 
 ------------
 
@@ -186,3 +217,115 @@ do	{
 
 * *Note: In Python, we do not have do-while loops.*
 ------------
+
+# Functions
+
+In programming, we often have a block of code which performs a specific task and many times within the program, we may need to use the exact same piece of code. In this case, to eliminate repeatedly writing the same code over and over again and also to maintain readability of the code, we define functions for the same.
+
+* A function can be reused multiple times.
+* You can send data to a function which it uses to perform a task.
+* A function generally returns a value to the main function which is then used to perform other operations.
+* Every programming language has some built-in functions which you can use.
+* You  can also write functions on your own.
+* When you call a function, the flow of control shifts from the main function to the function which is **always executed from top to bottom**.
+* A function can call another function or even call itself (known as recursive functions).
+* A return function takes the flow of control out of the function and goes back to the main function.
+* Functions make code modular. A big file having many lines of code becomes simple to read if the code is divided into functions.
+* Functions provide abstraction. We can use library functions without worrying about their internal work.
+
+------------
+
+Let us consider a situation where I want to print all the prime numbers between 1 to 100:
+
+So, we can write a function to check if a number is prime or not. It returns a boolean data type value based on which we decide whether the number should be printed or not.
+
+Code Snippet for the `isPrime` function:
+
+```python
+def isPrime (number: int) -> bool:
+	factors = 0
+	for i in range (2, (number // 2) + 1):
+		if number % i == 0:
+			factors += 1
+	if factors == 0:
+		return True
+	return False
+```
+**<li> The topmost line of a function is called a function header. </li>**
+
+In, `def isPrime (number: int) -> bool:` ,
+the parameters within the bracket tells the program how many parameters this function will accept and what are they called.
+
+In this case, the function header tells the program that it has to pass one parameter to the `isPrime` function and that parameter/ variable will be refered to as `number` inside the function.
+<br>
+
+Now let us use this function to print prime numbers upto 100:
+```python
+for i in range(1, 101):
+	if isPrime(i):
+		print (i)
+```
+
+* This code uses the `isPrime ` function to determine if the number is prime or not for every value of i from 1 to 100 and prints the prime numbers only.
+* This not only just increases the readability of the main program but the isPrime function can be used by other programs too.
+
+------------
+
+## Types of functions
+
+* User Defined Function:
+User defined functions are user/customer-defined blocks of code specially customized to reduce the complexity of big programs. They are also commonly known as "tailor-made functions" which are built only to cater to the specific problem in which the user is facing issues. Once you define a function, you can call it in the same way as the built-in functions.
+
+* Library Function:
+Library functions are also called "builtin Functions" that are grouped together and placed in a common location called library. Each function here performs a specific operation. We can use this library functions to get the pre-defined output. These functions are a part of a compiler package that is already defined. Builtin function gives us an advantage as we can use them directly without worrying about defining them. Whereas in the user-defined function we have to declare and define a function prior to using them.
+
+------------
+
+## Passing parameters to functions
+
+### 1. Pass by Value
+In this parameter passing method, values of actual parameters are copied to the function’s formal parameters and the two types of parameters are stored in different memory locations. So any changes made inside functions are not reflected in the actual parameters of the caller. 
+
+### 2. Pass by Reference
+Actual and formal parameters both refer to the same locations. Hence, any changes made inside the function are actually reflected in the actual parameters of the caller.
+
+------------
+
+## Function Overloading
+Certain programming languages allow function overloading which is the ability to create multiple functions with the same name with different implementations. For example, C++ lets you specify more than one function of the same name in the same scope. The determination of which function to use for a particular call is resolved at compile time and is based on the number of parameters the function takes or the datatype of the parameters. 
+
+------------
+
+# Lambda Function
+
+A lambda function is a small *anonymus* or also known as *unknown* function meaning that the function does not have a name. They reduce down the code size and makes it for the programmer to do faster software development.
+
+* Syntax:
+```python
+lambda arguments: expression
+```
+
+**Characteristic of lambda function:**
+
+* Lambda function takes an unlimited number of arguments however has only one expression. This expression return the result when the lambda function is called
+* Since it contain only one expression which return the result by default, it does not require the *return* statement.
+
+* An example of lambda function:
+```python
+result = lambda x: x + 10
+print(result(5))
+```
+
+**Output:
+15**
+
+**Here**,
+* *lambda* is the keyword,
+* x is an argument, and
+* x + 10 is lambda expression.
+
+**Difference between lambda functions and user-defined functions**
+
+Lambda functions are anonymous functions which mean a function is defined using a *lambda* keyword and without a name, whereas a user-defined function is defined using a *def* keyword and has a function name.
+
+---------

@@ -112,3 +112,210 @@ Step 5: if pos = -1
 print "value is not present in the array"  
 [end of if]  
 Step 6: exit  
+
+## Insertion
+It basically means inserting an element inside an array.
+There are following types of Insertions in Arrays
+* Insertion at the beginning of an array
+* Insertion at the given index of an array
+* Insertion at the end of the Array
+
+
+### Insertion at the beginning of an Array
+```
+#include <stdio.h>
+
+void main() {
+   int MAX=5;
+   int array[MAX] = {2, 3, 4, 5};
+   int N = 4;        // number of elements in array
+   int i = 0;        // loop variable
+   int value = 1;    // new data element to be stored in array
+
+   // print array before insertion
+   printf("Printing array before insertion −\n");
+   
+   for(i = 0; i < N; i++) {
+      printf("array[%d] = %d \n", i, array[i]);
+   }
+
+   // now shift rest of the elements downwards   
+   for(i = N; i >= 0; i--) {
+      array[i+1] = array[i];
+   }
+
+   // add new element at first position
+   array[0] = value;
+
+   // increase N to reflect number of elements
+   N++;
+
+   // print to confirm
+   printf("Printing array after insertion −\n");
+   
+   for(i = 0; i < N; i++) {
+      printf("array[%d] = %d\n", i, array[i]);
+   }
+}
+```
+
+**Output**
+~~~
+Printing array before insertion −
+array[0] = 2
+array[1] = 3
+array[2] = 4
+array[3] = 5
+Printing array after insertion −
+array[0] = 0
+array[1] = 2
+array[2] = 3
+array[3] = 4
+array[4] = 5
+~~~
+
+### Insertion at the Given Index of an Array
+~~~
+#include<stdio.h>
+
+int main()
+{
+     int size=5;
+    int arr[size] = {1, 20, 5, 78, 30};
+    int element, pos, i;
+
+    printf("Enter position and element\n");
+    scanf("%d%d",&pos,&element);
+
+    if(pos <= size && pos >= 0)
+    {
+        //shift all the elements from the last index to pos by 1 position to right
+        for(i = size; i > pos; i--)
+            arr[i] = arr[i-1];
+
+        //insert element at the given position
+        arr[pos] = element;
+
+        /*
+         * print the new array
+         * the new array size will be size+1(actual size+new element)
+         * so, use i <= size in for loop
+         */
+        for(i = 0; i <= size; i++)
+            printf("%d ", arr[i]);
+    }
+    else
+        printf("Invalid Position\n");
+
+    return 0;
+  }
+
+  ~~~
+
+  **Output**
+  ```
+Enter position and element
+5 
+5
+1 20 5 78 30 5
+```
+  ### Insertion at the end of the Array
+  ~~~
+  #include <stdio.h>
+void main()
+{
+    int position, i, n, value,ch, arr[100];
+    printf("C Program to insert element at end of Array\n");
+    printf("First enter number of elements you want in Array\n");
+    scanf("%d", &n);
+    arr[n];
+   for(i = 0; i < n; i++)
+    {
+        printf("Please give value for index %d : ",i);
+        scanf("%d",&arr[i]);
+    }
+    printf("Let's Insert Element at end \n ");
+    printf("Please give a number to insert at end \n");
+    scanf("%d", &value);
+    arr[n] = value;
+    printf("Element %d is inserted at %d index \n",value,n);
+    printf("New Array is \n ");
+    
+    for(i = 0; i < n+1; i++)
+    {
+       printf("%d \t",arr[i]);
+    }
+}
+~~~
+
+**Output** <br>
+<img src="https://quescol.com/wp-content/uploads/2021/11/image-35.png?ezimgfmt=ng:webp/ngcb1" alt="output">
+<br>
+
+## Deletion
+* Deletion refers to removing an existing/given element from the array using indexes and re-organizing all elements of an array.
+
+* In the delete operation, the element to be deleted is searched using the **linear search**, and then the delete operation is performed followed by shifting the elements. 
+
+### Code Implementation of Delete Operation in an Unsorted Array
+~~~
+
+#include <iostream>
+using namespace std;
+ 
+// To search a key to be deleted
+int findElement(int arr[], int n, int key);
+ 
+// Function to delete an element
+int deleteElement(int arr[], int n, int key)
+{
+    // Find position of element to be deleted
+    int pos = findElement(arr, n, key);
+ 
+    if (pos == -1) {
+        cout << "Element not found";
+        return n;
+    }
+ 
+    // Deleting element
+    int i;
+    for (i = pos; i < n - 1; i++)
+        arr[i] = arr[i + 1];
+ 
+    return n - 1;
+}
+ 
+// Function to implement search operation
+int findElement(int arr[], int n, int key)
+{
+    int i;
+    for (i = 0; i < n; i++)
+        if (arr[i] == key)
+            return i;
+ 
+    return -1;
+}
+ 
+
+int main()
+{
+    int i;
+    int arr[] = { 10, 50, 30, 40, 20 };
+ 
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int key = 30;
+ 
+    cout << "Array before deletion\n";
+    for (i = 0; i < n; i++)
+        cout << arr[i] << " ";
+     
+    n = deleteElement(arr, n, key);
+ 
+    cout << "Array after deletion"<<endl;
+    for (i = 0; i < n; i++)
+        cout << arr[i] << " ";
+ 
+    return 0;
+}
+ 
+~~~

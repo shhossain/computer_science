@@ -205,7 +205,7 @@ It is the memory required by an algorithm until it executes completely.
   
   where V and E are numbers of vertices and edges respectively.
   
-### ***Why Djikstra’s Algorithm doesn’t work?***
+### ***Why Dijkstra’s Algorithm doesn’t work?***
 
 The presence of negative edge weights makes the situation dicey. Djikstra’s algorithm might work in some cases and fail in some.
 Recall that in Dijkstra’s algorithm, we update the distance array every time we find a better solution which was a lesser distance.

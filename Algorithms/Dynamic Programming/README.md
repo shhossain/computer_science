@@ -28,3 +28,6 @@ Dynamic Programming algorithm is designed using the following four steps −
 * [Edit Distance](Edit%20Distance/README.md)
 * [Coin Change](Coin%20Change/README.md)
 * [Matrix Chain Multiplication](Matrix%20Chain%20Multiplication/README.md)
+* [Floyd Warshall Algorithm](Floyd%20Warshall%20Algorithm/readme.md)
+* [Subset Sum Problem](Subset%20Sum%20Problem/readme.md)
+* [Painting Fence Algorithm](Painting%20Fence%20Algorithm/readme.md)

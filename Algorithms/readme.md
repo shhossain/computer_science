@@ -43,7 +43,7 @@ Dynamic programming is both a mathematical optimization method and a computer pr
 Greedy algorithms are a simple, intuitive class of algorithms that can be used to find the optimal solution to some optimization problems. They are called greedy because at each step they make the choice that seems best at that moment. This means that greedy algorithms do not guarantee to return the globally optimal solution, but instead make locally optimal choices in the hope of finding a global optimum. Greedy algorithms are used for optimization problems. An optimization problem can be solved using Greedy if the problem has the following property: at every step, we can make a choice that looks best at the moment, and we get the optimal solution of the complete problem.
 ### Popular Greedy Algorithms
 * [Activity Selection](notadded)
-* [Huffman Coding](notadded)
+* [Huffman Coding](Greedy%20Algorithm/Huffman%20Coding%20Algorithm/readme.md)
 * [Prim's Algorithm](Greedy%20Algorithm/Prim%27s%20Algorithm/readme.md)
 * [Kruskal's Algorithm](Greedy%20Algorithm/Krushkal%27s%20Algorithm/readme.md)
 * [Dijkstra's Algorithm](notadded)

@@ -5,17 +5,27 @@ The conditional statements are a very fundamental part of any program as it help
 Let us consider an example where we print whether a given number is Odd or Even.
 
 Code snippet:
+* [Python](#python)
+* [C++](#cpp)
+
+## Python
 ```python
 if number % 2 == 0:
 	print ("Number is even")
 else:
 	print ("Number is odd")
 ```
+## CPP
+```cpp
+if (number % 2 == 0)
+	cout << "Number is even";
+else
+	cout << "Number is odd";
+```
+
 
 Now, if the entered number is 5, the if statement will check if the remainder of 5 divided by 2 is 0 or not. As it is not 0, it skips the lines of code within the if statement and the flow of control is shifted to the else part and the lines of code written under it is executed.
-<br>
 
-------------
 
 
 **Types of conditional statements**:
@@ -122,6 +132,43 @@ else{
 * It is considered a better coding practice to use `if...elif...elif...else` in Python
 
 ------------
+
+# Terniary operators
+
+There's also an another way get the functionality of if-else with more compact
+and concise syntax. 
+Yes, we're talking about terniary operators.
+
+Let's consider an example of a typical example of an if-else to check whether
+a number is even or odd. 
+
+Traditional way:: 
+	
+	if(num%2==0):
+		print("it is even number")
+	else:
+		print("it is odd number")
+
+Now using terniary operators:
+* [Python Example](#python-example)
+* [C++ Example](#cpp-example)
+
+## Python Example
+```python
+print("it is even number") if num%2==0 else print("it is odd number")
+```
+__Note__: In python it's called short hand if-else statement.
+
+## CPP Example
+```cpp
+(num%2==0)?cout<<"it is even number":cout<<"it is odd number";
+```
+
+The way it works is, first there's a condition we want to check which is in
+braces followed by a question mark, the print which comes after the question 
+is the instruction which will get executed if the check condition has been 
+satiesfied i.e, if it is true, otherwise it'll execute the statement which 
+is after the colon.  
 
 
 # Loops

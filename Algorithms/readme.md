@@ -63,7 +63,7 @@ Backtracking is an algorithmic-technique for solving problems recursively by try
 * [N Queen Problem](Backtracking/NQueenProblem/readme.md)
 * [Sum of Subset](Backtracking/SumofSubset/readme.md)
 * [Solve Sudoku](Backtracking/SolveSudoku/readme.md)
-* [Knight's Tour](Backtracking/KnightsTour/readme.md)
+* [Knight's Tour](Backtracking/The%20Knight’s%20tour%20problem/README.md)
 
 ## Branch and Bound
 Branch and bound is a general technique for solving combinatorial optimization problems. It is a systematic enumeration technique that reduces the number of candidate solutions by using the problem's structure to eliminate candidate solutions that cannot possibly be optimal. It is a divide and conquer algorithm that is used to solve optimization problems. It is a systematic enumeration technique that reduces the number of candidate solutions by using the problem's structure to eliminate candidate solutions that cannot possibly be optimal. It is a divide and conquer algorithm that is used to solve optimization problems. It is a systematic enumeration technique that reduces the number of candidate solutions by using the problem's structure to eliminate candidate solutions that cannot possibly be optimal. It is a divide and conquer algorithm that is used to solve optimization problems.

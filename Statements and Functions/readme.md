@@ -199,6 +199,8 @@ In programming, we often have a block of code which performs a specific task and
 * When you call a function, the flow of control shifts from the main function to the function which is **always executed from top to bottom**.
 * A function can call another function or even call itself (known as recursive functions).
 * A return function takes the flow of control out of the function and goes back to the main function.
+* Functions make code modular. A big file having many lines of code becomes simple to read if the code is divided into functions.
+* Functions provide abstraction. We can use library functions without worrying about their internal work.
 
 ------------
 
@@ -235,6 +237,31 @@ for i in range(1, 101):
 
 * This code uses the `isPrime ` function to determine if the number is prime or not for every value of i from 1 to 100 and prints the prime numbers only.
 * This not only just increases the readability of the main program but the isPrime function can be used by other programs too.
+
+------------
+
+## Types of functions
+
+* User Defined Function:
+User defined functions are user/customer-defined blocks of code specially customized to reduce the complexity of big programs. They are also commonly known as "tailor-made functions" which are built only to cater to the specific problem in which the user is facing issues. Once you define a function, you can call it in the same way as the built-in functions.
+
+* Library Function:
+Library functions are also called "builtin Functions" that are grouped together and placed in a common location called library. Each function here performs a specific operation. We can use this library functions to get the pre-defined output. These functions are a part of a compiler package that is already defined. Builtin function gives us an advantage as we can use them directly without worrying about defining them. Whereas in the user-defined function we have to declare and define a function prior to using them.
+
+------------
+
+## Passing parameters to functions
+
+### 1. Pass by Value
+In this parameter passing method, values of actual parameters are copied to the function’s formal parameters and the two types of parameters are stored in different memory locations. So any changes made inside functions are not reflected in the actual parameters of the caller. 
+
+### 2. Pass by Reference
+Actual and formal parameters both refer to the same locations. Hence, any changes made inside the function are actually reflected in the actual parameters of the caller.
+
+------------
+
+## Function Overloading
+Certain programming languages allow function overloading which is the ability to create multiple functions with the same name with different implementations. For example, C++ lets you specify more than one function of the same name in the same scope. The determination of which function to use for a particular call is resolved at compile time and is based on the number of parameters the function takes or the datatype of the parameters. 
 
 ------------
 

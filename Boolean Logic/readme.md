@@ -24,7 +24,17 @@ Boolean algebra has the following laws:
 - Identity law: a ∧ 1 = a and a ∨ 0 = a
 - Domination law: a ∧ 0 = 0 and a ∨ 1 = 1
 - Double negation law: ¬¬a = a
-- De Morgan's law: ¬(a ∧ b) = ¬a ∨ ¬b and ¬(a ∨ b) = ¬a ∧ ¬b
+
+### De Morgan's Laws
+In propositional logic and Boolean algebra, De Morgan's laws are a pair of transformation rules that are both valid rules of inference. The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.
+
+The rules can be expressed in English as:
+- not (a or b) = (not a) and (not b)
+- not (a and b) = (not a) or (not b)
+
+In set theory and Boolean algebra, these are written formally as:
+- ¬(a ∨ b) = (¬a) ∧ (¬b)
+- ¬(a ∧ b) = (¬a) ∨ (¬b)
 
 ### De Morgan's Laws
 In propositional logic and Boolean algebra, De Morgan's laws are a pair of transformation rules that are both valid rules of inference. The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.

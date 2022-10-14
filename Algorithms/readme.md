@@ -33,7 +33,7 @@ Dynamic programming is both a mathematical optimization method and a computer pr
 ### Popular Dynamic Programming Algorithms
 * [Fibonacci Sequence](Dynamic%20Programming/Fibonacci%20Sequence/README.md)
 * [Longest Common Subsequence](Dynamic%20Programming/Longest%20Common%20Subsequence/README.md)
-* [Longest Increasing Subsequence](Not-Added)
+* [Longest Increasing Subsequence](Dynamic%20Programming/Longest%20Increasing%20Subsequence/README.md)
 * [Knapsack Problem](Not-Added)
 * [Edit Distance](Not-Added)
 * [Coin Change](DynamicProgramming/CoinChange/readme.md)

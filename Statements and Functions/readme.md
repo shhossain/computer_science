@@ -18,7 +18,7 @@ Now, if the entered number is 5, the if statement will check if the remainder of
 ------------
 
 
-**There are two types of conditional statements**:
+**Types of conditional statements**:
 ## 1. if - else if - else
  **Here is a code that prints the grade based on the marks.**
 
@@ -89,6 +89,37 @@ switch (alphabet) {
     }
 ```
 * *Note: Python does not have switch case statements.*
+
+
+
+## 3. Nested if-else statements:
+
+The nested if...else statement is used when a program requires more than one test expression. It is also called a multi-way selection statement. When a series of the decision are involved in a statement, we use the if-else statement in nested form. Nested if-else statements can be useful when we can have multiple sources of expression and based on the specific value, we need to check nested conditions.
+
+It is recommended for best coding practice to avoid using nested if-else statement as it may turn into a conditional bubbling situation, better to use the switch case for the better conditional handling.
+
+* Syntax of nested if-else in C++:
+
+```cpp
+if(condition_1){
+	if(condition_2){
+		if(condition_3){
+			statement_1;
+		}
+		else{
+			statement_2;
+		}
+	}
+	else{
+		statement_3;
+	}
+}
+else{
+	statement_4;
+}
+```
+
+* It is considered a better coding practice to use `if...elif...elif...else` in Python
 
 ------------
 

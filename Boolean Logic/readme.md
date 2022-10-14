@@ -36,6 +36,17 @@ In set theory and Boolean algebra, these are written formally as:
 - ¬(a ∨ b) = (¬a) ∧ (¬b)
 - ¬(a ∧ b) = (¬a) ∨ (¬b)
 
+### De Morgan's Laws
+In propositional logic and Boolean algebra, De Morgan's laws are a pair of transformation rules that are both valid rules of inference. The rules allow the expression of conjunctions and disjunctions purely in terms of each other via negation.
+
+The rules can be expressed in English as:
+- not (a or b) = (not a) and (not b)
+- not (a and b) = (not a) or (not b)
+
+In set theory and Boolean algebra, these are written formally as:
+- ¬(a ∨ b) = (¬a) ∧ (¬b)
+- ¬(a ∧ b) = (¬a) ∨ (¬b)
+
 Note : Here '^' is used to denote the logical AND operation and 'v' is used to denote the logical OR operation.
 
 ## Boolean Operators

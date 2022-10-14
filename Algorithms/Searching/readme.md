@@ -1,8 +1,7 @@
-# Searching
+# [Serching](Algorithms/Searching/readme.md)
+A search algorithm is the step-by-step procedure used to locate specific data among a collection of data. It is considered a fundamental procedure in computing. In computer science, when searching for data, the difference between a fast application and a slower one often lies in the use of the proper search algorithms.
 
-Searching is algorithm for finding a certain target element inside a container.
-Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
 
-## Searching Algorithms
-* [Linear Search](LinearSearch/readme.md)
-* [Binary Search](BinarySearch/readme.md)
+* [Sequential/Linear Search](Searching/SequentialSearch/readme.md)
+* [Binary Search](Searching/BinarySearch/readme.md)
+

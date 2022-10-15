@@ -6,7 +6,7 @@
 - [Electronic Computing](#electronic-computing)
 - [Boolean Logic](#boolean-logic)
 - [Number Systems](#number-systems)
-- [Central Processing Unit(CPU)](#central-processing-unitcpu)
+- [Central Processing Unit(CPU)](#central-processing-unit-cpu)
 - [Registers, Cache and RAM](#registers-cache-and-ram)
 - [Instruction and Program](#instruction-and-program)
 - [Programming Language](#programming-language)

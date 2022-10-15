@@ -26,7 +26,8 @@
 - [Web Technology](#web-technology)
 - [Networking](#networking)
 - [Internet](#internet)
-- [DBMS](#dbms)
+- [DBMS(Database Management System)](#dbms)
+- [Cryptography](#cryptography)
 
 
 ## Introduction
@@ -762,3 +763,21 @@ Here, is the list of some popular DBMS system:
 *   LibreOffice Base
 *   MariaDB
 *   Microsoft SQL Server etc.
+
+## [Cryptography](Cryptography/readme.md#cryptography)
+Cryptography is a technique to secure data and communication. It is a method of protecting information and communications through the use of codes, so that only those for whom the information is intended can read and process it. Cryptography is used to protect data in transit, at rest, and in use. The prefix _crypt_ means "hidden" or "secret", and the suffix _graphy_ means "writing".
+
+### Types of Cryptography
+There are two types of cryptography:
+1. [Symmetric Cryptography](Cryptography/readme.md#symmetric-cryptography)
+2. [Asymmetric Cryptography](Cryptography/readme.md#asymmetric-cryptography)
+
+### [Crypto Currency](Cryptography/CryptoCurrency/readme.md#crypto-currency)
+Crypto currency is a digital currency in which encryption techniques are used to regulate the generation of units of currency and verify the transfer of funds, operating independently of a central bank. Cryptocurrencies use decentralized control as opposed to centralized digital currency and central banking systems. The decentralized control of each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database. A defining feature of a cryptocurrency, and arguably its most endearing allure, is its organic nature; it is not issued by any central authority, rendering it theoretically immune to government interference or manipulation.
+
+### _Most Popular Crypto Currency are as follows:_
+1. [Bitcoin](Cryptography/CryptoCurrency/ProofOfWork/Bitcoin/readme.md#bitcoin)
+2. [Ethereum](Cryptography/CryptoCurrency/ProofOfStake/Ethereum/readme.md#ethereum)
+3. [Litecoin](Cryptography/CryptoCurrency/ProofOfWork/Litecoin/readme.md#litecoin)
+4. [Cardano](Cryptography/CryptoCurrency/ProofOfStake/Cardano/readme.md#cardano)
+5. [Dogecoin](Cryptography/CryptoCurrency/ProofOfWork/Dogecoin/readme.md#dogecoin)

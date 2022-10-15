@@ -33,13 +33,11 @@ If augmented with sensors and actuators, the technology becomes an instance of a
  The IoT/IIoT digital transformation in Manufacturing is providing robust communication, understanding and opportunities for innovation involving orchestration of Things, People, and Systems in end-to-end automated value streams.
 
 ### 8. IoT Protcols
- There are various protocols for IOT, one protocol which comes from the industry has established itself in the smarthome area. MQTT is a client broker system, which gets along with narrow bandwidth and has a feature in the baggage, like last will and 3 levels for message transmission.
- It is an open OASIS standard and an ISO recommendation (ISO/IEC 20922).
+ There are various protocols for IOT, one protocol that comes from the industry has established itself in the smarthome field. MQTT is a client-broker system that uses narrow bandwidth and has many features in it, such as last will and 3 levels for message transmission.
 
- AQMP is the next level and is also an OASIS standard and an ISO recommendation (ISO/IEC 19464:2014). This is currently found more in professional Internet applications. 
+ AQMP is the next level and is also an OASIS standard and an ISO recommendation (ISO/IEC 19464:2014). This is currently more commonly found in professional Internet applications. 
 
-
- In the smarthome sector, Google Matter has recently been introduced. This standard should be able to address all devices regardless of manufacturer and thus soften the manufacturer boundaries.  So far, there are partly own standards and other protocols such as ZigBee, Bluetooth other 433Mhz radio protocols as well as Wlan, MQTT and REST.
+ In the smarthome area, Google Matter was recently introduced. This standard is intended to be able to address all devices regardless of manufacturer and thus soften manufacturer boundaries.  So far there are partly own standards and other protocols like ZigBee, Bluetooth other 433Mhz radio protocols as well as Wlan. Which then exchange the data via TCP/UDP, MQTT and REST.
 
 # Why IoT Is Important
 All things connected to the internet can be divided into three categories:

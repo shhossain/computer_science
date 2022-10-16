@@ -1,0 +1,54 @@
+#https://codeforces.com/contest/1735/problem/B
+
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+#define all(x) x.begin(), x.end()
+#define forn(i,a,b) for(int i = a; i < b; i++)
+#define vi vector <int>
+#define vll vector <long long>
+#define pi pair <int,int>
+
+int steps(int v,int m){
+    int tem=0;
+    if(v>=(2*m)){
+        tem++;
+        int b=v-(2*m-1);
+        tem+=steps(b,m);     
+    }
+    return tem;
+}
+
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        cin>>n;
+        int ar[n];
+        for(int i=0;i<n;i++){
+            cin>>ar[i];
+        }
+        ll ans=0;
+        sort(ar,ar+n);
+        int m=ar[0];
+        if(m==1){
+            ans=0;
+            forn(i,1,n){
+                ans+=(ar[i]-1);
+            }
+        }
+        else{
+        forn(i,1,n){
+            int v=ar[i];
+            int tem=steps(v,m);
+            ans+=(tem);
+        }
+        }
+        cout<<ans<<endl;
+    }
+
+    return 0;
+}

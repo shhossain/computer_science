@@ -1,0 +1,45 @@
+#include <bits/stdc++.h>
+using namespace std;
+//Create a Struct
+struct Node  
+{ 
+  int data; 
+ Node *left; //left child
+ Node *right; //Right child
+  Node(int k){
+      data=k;
+      left=NULL;
+      right=NULL;
+  }
+};
+
+void printLeftView(Node *root){
+    if(root==NULL)
+        return;
+        queue<Node *> que;//queue for temporarilily storing nodes
+        que.push(root);
+    while(que.empty()==false){
+        int count=que.size();
+        for(int i=0;i<count;i++){
+            Node *curr=que.front();
+            que.pop();
+            if(i==0)
+                cout<<curr->data<<" ";
+            if(curr->left!=NULL)
+                que.push(curr->left);
+            if(curr->right!=NULL)
+                que.push(curr->right);
+        }
+    }
+}
+
+int main() {
+    
+    Node *root=new Node(10);
+    root->left=new Node(20);
+    root->right=new Node(30);
+    root->right->left=new Node(40);
+    root->right->right=new Node(50);
+    
+    printLeftView(root);
+}

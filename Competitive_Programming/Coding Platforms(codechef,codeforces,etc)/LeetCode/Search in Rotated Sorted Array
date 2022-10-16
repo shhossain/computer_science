@@ -1,0 +1,19 @@
+class Solution {
+public:
+    int search(vector<int>& nums, int t) {
+        vector<pair<int,int>> v;
+        for(int i=0;i<nums.size();i++){
+            v.push_back({nums[i],i});
+        }
+        sort(v.begin(),v.end());
+        int i=0,j=nums.size()-1,mid=(i+j)/2;
+        while(i<=j){
+            if(t==v[mid].first) return v[mid].second;
+            else if(t>v[mid].first) i=mid+1;
+            else if(t<v[mid].first) j=mid-1;
+            mid=(i+j)/2;
+        }
+        
+        return -1;
+    }
+};

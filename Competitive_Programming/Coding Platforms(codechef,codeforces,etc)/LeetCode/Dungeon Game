@@ -1,0 +1,24 @@
+//DP Approach
+
+int calculateMinimumHP(vector<vector<int>>& dungeon) {
+
+        int r=dungeon.size();                                  // row size
+        int c=dungeon[0].size();                               // column size
+        vector<vector<int>> dp(r,vector<int>(c));              // making a dp matrix
+        
+        for(int i=r-1;i>=0;--i)
+        {
+            for(int j=c-1;j>=0;--j)
+            {
+                if(i==r-1 && j==c-1)                            //Bottom-Right cell (Princess Cell)
+                    dp[i][j] = min(0,dungeon[i][j]);
+                else if(i==r-1)                                 //last row
+                    dp[i][j] = min(0,dungeon[i][j]+dp[i][j+1]);
+                else if(j==c-1)                                 //last col       
+                    dp[i][j] = min(0,dungeon[i][j]+dp[i+1][j]);
+                else
+                    dp[i][j] = min(0,dungeon[i][j]+max(dp[i][j+1],dp[i+1][j]));
+            }
+        }
+        return abs(dp[0][0])+1;
+    }

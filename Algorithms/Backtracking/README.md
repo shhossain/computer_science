@@ -11,3 +11,4 @@ Backtracking is an algorithmic-technique for solving problems recursively by try
 * [N Queen Problem](N%20Queen%20Problem/README.md)
 * [M Coloring Problem](m%20colouring/README.md)
 * [Sudoku](Sudoku/Readme.md)
+* [Cryptarithmetic Puzzles](Cryptarithmetic%20Puzzles/README.md)

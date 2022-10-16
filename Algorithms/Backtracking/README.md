@@ -10,6 +10,6 @@ Backtracking is an algorithmic-technique for solving problems recursively by try
 * [The Knight’s tour problem](The%20Knight’s%20tour%20problem/README.md)
 * [N Queen Problem](N%20Queen%20Problem/README.md)
 * [M Coloring Problem](m%20colouring/README.md)
-* [Sudoku](Sudoku/Readme.md)
+* [Sudoku](Sudoku/readme.md)
 * [Cryptarithmetic Puzzles](Cryptarithmetic%20Puzzles/README.md)
 * [Subset Sum Algorithm](Subset%20Sum/README.md)

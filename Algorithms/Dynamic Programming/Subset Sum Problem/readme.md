@@ -247,7 +247,6 @@ int main()
 ## IMPLEMENTATION IN JavaScript
 
 ```
-<script>
     
     function isSubsetSum(set, n, sum)
     {
@@ -277,7 +276,6 @@ int main()
     else
       document.write("No subset with given sum");
       
-</script>
 
 
 

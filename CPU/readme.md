@@ -20,5 +20,6 @@ d) responsible for the communication with peripheral devices such as input and o
 The ALU, as can be seen, is made of two sections. They are:
 1. The Arithmetic Unit: It is responsible for the arithmetic operations such as addition, subtraction, multiplication and division. Any complicated actions are done by repeating the same steps over and over to achieve the final result
 2. The Logic Unit: As the name gives it away, it performs all the logical operations such as selecting, comparing, matching and merging of data
+
 An arithmetic logic unit (ALU) is a key component of a computer's central processor unit. The ALU performs all arithmetic and logic operations that must be performed on instruction words. The ALU is split into two parts in some microprocessor architectures: the AU and the LU.
 

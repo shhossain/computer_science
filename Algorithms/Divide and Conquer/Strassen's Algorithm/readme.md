@@ -1,7 +1,51 @@
 ## Strassen's Matrix Multiplication
 
-## Strassen's Algorithm will do one less multiplication when braking down the matrix, which results in improving the run time (can be proven with recurrence relation).
+## Strassen's Algorithm will do one less multiplication when breaking down the matrix, which results in improving the run time (can be proven with recurrence relation).
 
+Strassen’s Matrix multiplication can be performed only on square matrices where n is a power of 2. Order of both of the matrices are n × n.
+
+**Explanation**
+
+Divide X, Y and Z into four (n/2)×(n/2) matrices as represented below −
+
+Z = {I J    X = {A B    and  Y = {E F
+     K L}        C D}            G H}
+
+Using Strassen’s Algorithm we compute the following −
+
+M1  =   (A+C)×(E+F)
+M2  =   (B+D)×(G+H)
+M3  =   (A−D)×(E+H)
+M4  =   A×(F−H)
+M5  =   (C+D)×(E)
+M6  =   (A+B)×(H)
+M7  =   D×(G−E)
+
+Then,
+
+I   =   M2+M3−M6−M7
+J   =   M4+M6
+K   =   M5+M7
+L   =   M1−M3−M4−M5
+
+At last
+ we merge all results
+ //merging results to final array
+
+    Final Array is productResult
+
+	Merge(I,productResult,0,0);
+    Merge(J,productResult,0,half);
+	Merge(K,productResult,half,0);
+    Merge(L,productResult,half,half);
+
+
+**Analysis:**
+
+    complexity of Strassen’s matrix multiplication algorithm is  O(nlog7)
+    
+
+**JAVA CODE**
 ```java
 public class Strassens_Algorithm
 {
@@ -62,8 +106,10 @@ public class Strassens_Algorithm
 			int[][] C21=straussAdd(Q,S);
 			int[][] C22=straussAdd(straussSubtract(straussAdd(P,R),Q),U);
 			//merging results to final array
-			straussMerge(C11,productResult,0,0);straussMerge(C12,productResult,0,half);
-			straussMerge(C21,productResult,half,0);straussMerge(C22,productResult,half,half);
+			straussMerge(C11,productResult,0,0);
+            straussMerge(C12,productResult,0,half);
+			straussMerge(C21,productResult,half,0);
+            straussMerge(C22,productResult,half,half);
 		}
 			return productResult;
 	}

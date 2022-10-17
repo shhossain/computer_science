@@ -55,7 +55,7 @@ sum=9
 ```
 ## Implementation in C++
 
-```
+```cpp
 // A recursive solution for subset sum problem
 #include <iostream>
 using namespace std;
@@ -100,7 +100,7 @@ int main()
 
 ## IMPLEMENTATION IN JAVA
 
-```
+```java
 // A Dynamic Programming solution for subset
 // sum problem
 class Solution {
@@ -165,7 +165,7 @@ class Solution {
 
 ## IMPLEMENTATION USING PYTHON
 
-```
+```python
 def isSubsetSum(set, n, sum) :
     
     # Base Cases
@@ -201,7 +201,7 @@ else :
 
 ## IMPLEMENTATION IN C
 
-```
+```c
 
 #include <stdio.h>
   
@@ -246,7 +246,7 @@ int main()
 
 ## IMPLEMENTATION IN JavaScript
 
-```
+```javascript
     
     function isSubsetSum(set, n, sum)
     {
@@ -281,7 +281,7 @@ int main()
 
 ## IMPLEMENTATION IN PHP
 
-```
+```php
 
 <?php
 // A recursive solution for subset sum problem
@@ -328,7 +328,7 @@ else
 
 ## IMPLEMENTATION IN C#
 
-```
+```c#
 
 using System;
   

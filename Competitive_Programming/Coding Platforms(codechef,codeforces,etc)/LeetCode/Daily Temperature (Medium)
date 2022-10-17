@@ -1,0 +1,25 @@
+//The key step is to traverse right to left and pop from the stack until all the smaller or equal elements than the ith element are removed, then the top most element of the stack is the next greater element for that ith element.
+
+class Solution {
+public:
+    vector<int> dailyTemperatures(vector<int>& temperatures) {
+        stack<pair<int,int>> st;
+        vector<int> res(temperatures.size(),0);
+        for(int i=temperatures.size()-1; i>=0 ;i--){
+            
+            
+            while(!st.empty()&&st.top().first<=temperatures[i]){
+                st.pop();
+            }
+            if(!st.empty()){
+                res[i]=st.top().second-i;
+            }
+            st.push(make_pair(temperatures[i],i)); // pushing the ith element into the stack
+            
+            
+        }
+        return res;
+    }
+};
+
+author:@_harshdubey(leetcode)

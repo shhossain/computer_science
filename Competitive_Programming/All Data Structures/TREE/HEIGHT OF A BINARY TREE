@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+//create a struct//
+struct Node  
+{ 
+  int data;
+  //Node for the left and right subtree// 
+ Node *left; 
+ Node *right; 
+  Node(int k){
+      data=k;
+      left=NULL;
+      right=NULL;
+  }
+};
+
+int height(Node *root){
+    if(root==NULL)
+        return 0;
+    else
+        return (1+max(height(root->left),height(root->right)));//adds 1 to height whenever either both or single child is present//
+}  
+
+int main() {
+	
+	Node *root=new Node(10);
+	root->left=new Node(20);
+	root->right=new Node(30);
+	root->right->left=new Node(40);
+	root->right->right=new Node(50);
+	
+	cout<<height(root);
+}

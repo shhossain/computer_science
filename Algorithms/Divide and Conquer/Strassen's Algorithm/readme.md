@@ -1,6 +1,5 @@
 ## Strassen's Matrix Multiplication
-
-## Strassen's Algorithm will do one less multiplication when breaking down the matrix, which results in improving the run time (can be proven with recurrence relation).
+Strassen's Algorithm will do one less multiplication when breaking down the matrix, which results in improving the run time (can be proven with recurrence relation).
 
 Strassen’s Matrix multiplication can be performed only on square matrices where n is a power of 2. Order of both of the matrices are n × n.
 

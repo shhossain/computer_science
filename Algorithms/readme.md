@@ -1,7 +1,7 @@
 # Algorithms
 Algorithms are the sets of steps necessary to complete computation - they are at the heart of what our devices actually do. And this isn’t a new concept. Since the development of math itself algorithms have been needed to help us complete tasks more efficiently, but today we’re going to take a look a couple modern computing problems like sorting and graph search, and show how we’ve made them more efficient so you can more easily find cheap airfare or map directions to Winterfell... or like a restaurant or something.  
 
-In simple terms, Algorithm is a step-by-step procedure, which defines a set of instructions to be executed in a certain order to get the desired output.
+Put simply, Algorithm is a step-by-step procedure, which defines a set of instructions to be executed in a certain order to get the desired output.
 
 ## [Sorting](Sorting/readme.md)
 Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Or if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.

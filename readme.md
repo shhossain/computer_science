@@ -6,7 +6,7 @@
 - [Electronic Computing](#electronic-computing)
 - [Boolean Logic](#boolean-logic)
 - [Number Systems](#number-systems)
-- [Central Processing Unit(CPU)](#central-processing-unitcpu)
+- [Central Processing Unit(CPU)](#central-processing-unit-cpu)
 - [Registers, Cache and RAM](#registers-cache-and-ram)
 - [Instruction and Program](#instruction-and-program)
 - [Programming Language](#programming-language)
@@ -26,7 +26,8 @@
 - [Web Technology](#web-technology)
 - [Networking](#networking)
 - [Internet](#internet)
-- [DBMS](#dbms)
+- [DBMS(Database Management System)](#dbms)
+- [Cryptography](#cryptography)
 
 
 ## Introduction
@@ -216,6 +217,7 @@ Searching is algorithm for finding a certain target element inside a container. 
 
 ### [Graph Search](Algorithms/Graph/readme.md)
 Graph search is the process of searching through a graph to find a particular node. A graph is a data structure that consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for an undirected graph and as arrows, directed edges, directed arcs, or directed lines for a directed graph. The vertices may be part of the graph structure or may be external entities represented by integer indices or references. Graphs are one of the most useful data structures for many real-world applications. Graphs are used to model pairwise relations between objects. For example, the airline route network is a graph in which the cities are the vertices and the flight routes are the edges. Graphs are also used to represent networks. The Internet can be modelled as a graph in which the computers are the vertices and the links between computers are the edges. Graphs are also used on social networks like LinkedIn and Facebook. Graphs are used to represent many real-world applications: computer networks, circuit design, and aeronautical scheduling to name just a few.
+
 
 
 ### [Dynamic Programming](Algorithms/Dynamic%20Programming/README.md)
@@ -761,3 +763,26 @@ Here, is the list of some popular DBMS system:
 *   LibreOffice Base
 *   MariaDB
 *   Microsoft SQL Server etc.
+
+## [Cryptography](Cryptography/readme.md#cryptography)
+Cryptography is a technique to secure data and communication. It is a method of protecting information and communications through the use of codes, so that only those for whom the information is intended can read and process it. Cryptography is used to protect data in transit, at rest, and in use. The prefix _crypt_ means "hidden" or "secret", and the suffix _graphy_ means "writing".
+
+### Types of Cryptography
+There are two types of cryptography:
+1. [Symmetric Cryptography](Cryptography/readme.md#symmetric-cryptography)
+2. [Asymmetric Cryptography](Cryptography/readme.md#asymmetric-cryptography)
+
+### [Crypto Currency](Cryptography/CryptoCurrency/readme.md#crypto-currency)
+Crypto currency is a digital currency in which encryption techniques are used to regulate the generation of units of currency and verify the transfer of funds, operating independently of a central bank. Cryptocurrencies use decentralized control as opposed to centralized digital currency and central banking systems. The decentralized control of each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database. A defining feature of a cryptocurrency, and arguably its most endearing allure, is its organic nature; it is not issued by any central authority, rendering it theoretically immune to government interference or manipulation.
+
+## Types of Crypto Currency are as follows:
+1. [Proof of Work](Cryptography/CryptoCurrency/ProofOfWork/readme.md#proof-of-work)
+2. [Proof of Stake](Cryptography/CryptoCurrency/ProofOfStake/readme.md#proof-of-stake)
+
+
+### _Most Popular Crypto Currency are as follows:_
+1. [Bitcoin](Cryptography/CryptoCurrency/ProofOfWork/Bitcoin/readme.md#bitcoin)
+2. [Ethereum](Cryptography/CryptoCurrency/ProofOfStake/Ethereum/readme.md#ethereum)
+3. [Litecoin](Cryptography/CryptoCurrency/ProofOfWork/Litecoin/readme.md#litecoin)
+4. [Cardano](Cryptography/CryptoCurrency/ProofOfStake/Cardano/readme.md#cardano)
+5. [Dogecoin](Cryptography/CryptoCurrency/ProofOfWork/Dogecoin/readme.md#dogecoin)

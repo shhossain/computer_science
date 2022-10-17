@@ -5,20 +5,30 @@ The conditional statements are a very fundamental part of any program as it help
 Let us consider an example where we print whether a given number is Odd or Even.
 
 Code snippet:
+* [Python](#python)
+* [C++](#cpp)
+
+## Python
 ```python
 if number % 2 == 0:
 	print ("Number is even")
 else:
 	print ("Number is odd")
 ```
+## CPP
+```cpp
+if (number % 2 == 0)
+	cout << "Number is even";
+else
+	cout << "Number is odd";
+```
+
 
 Now, if the entered number is 5, the if statement will check if the remainder of 5 divided by 2 is 0 or not. As it is not 0, it skips the lines of code within the if statement and the flow of control is shifted to the else part and the lines of code written under it is executed.
-<br>
-
-------------
 
 
-**There are two types of conditional statements**:
+
+**Types of conditional statements**:
 ## 1. if - else if - else
  **Here is a code that prints the grade based on the marks.**
 
@@ -90,7 +100,75 @@ switch (alphabet) {
 ```
 * *Note: Python does not have switch case statements.*
 
+
+
+## 3. Nested if-else statements:
+
+The nested if...else statement is used when a program requires more than one test expression. It is also called a multi-way selection statement. When a series of the decision are involved in a statement, we use the if-else statement in nested form. Nested if-else statements can be useful when we can have multiple sources of expression and based on the specific value, we need to check nested conditions.
+
+It is recommended for best coding practice to avoid using nested if-else statement as it may turn into a conditional bubbling situation, better to use the switch case for the better conditional handling.
+
+* Syntax of nested if-else in C++:
+
+```cpp
+if(condition_1){
+	if(condition_2){
+		if(condition_3){
+			statement_1;
+		}
+		else{
+			statement_2;
+		}
+	}
+	else{
+		statement_3;
+	}
+}
+else{
+	statement_4;
+}
+```
+
+* It is considered a better coding practice to use `if...elif...elif...else` in Python
+
 ------------
+
+# Terniary operators
+
+There's also an another way get the functionality of if-else with more compact
+and concise syntax. 
+Yes, we're talking about terniary operators.
+
+Let's consider an example of a typical example of an if-else to check whether
+a number is even or odd. 
+
+Traditional way:: 
+	
+	if(num%2==0):
+		print("it is even number")
+	else:
+		print("it is odd number")
+
+Now using terniary operators:
+* [Python Example](#python-example)
+* [C++ Example](#cpp-example)
+
+## Python Example
+```python
+print("it is even number") if num%2==0 else print("it is odd number")
+```
+__Note__: In python it's called short hand if-else statement.
+
+## CPP Example
+```cpp
+(num%2==0)?cout<<"it is even number":cout<<"it is odd number";
+```
+
+The way it works is, first there's a condition we want to check which is in
+braces followed by a question mark, the print which comes after the question 
+is the instruction which will get executed if the check condition has been 
+satiesfied i.e, if it is true, otherwise it'll execute the statement which 
+is after the colon.  
 
 
 # Loops
@@ -199,6 +277,8 @@ In programming, we often have a block of code which performs a specific task and
 * When you call a function, the flow of control shifts from the main function to the function which is **always executed from top to bottom**.
 * A function can call another function or even call itself (known as recursive functions).
 * A return function takes the flow of control out of the function and goes back to the main function.
+* Functions make code modular. A big file having many lines of code becomes simple to read if the code is divided into functions.
+* Functions provide abstraction. We can use library functions without worrying about their internal work.
 
 ------------
 
@@ -235,6 +315,31 @@ for i in range(1, 101):
 
 * This code uses the `isPrime ` function to determine if the number is prime or not for every value of i from 1 to 100 and prints the prime numbers only.
 * This not only just increases the readability of the main program but the isPrime function can be used by other programs too.
+
+------------
+
+## Types of functions
+
+* User Defined Function:
+User defined functions are user/customer-defined blocks of code specially customized to reduce the complexity of big programs. They are also commonly known as "tailor-made functions" which are built only to cater to the specific problem in which the user is facing issues. Once you define a function, you can call it in the same way as the built-in functions.
+
+* Library Function:
+Library functions are also called "builtin Functions" that are grouped together and placed in a common location called library. Each function here performs a specific operation. We can use this library functions to get the pre-defined output. These functions are a part of a compiler package that is already defined. Builtin function gives us an advantage as we can use them directly without worrying about defining them. Whereas in the user-defined function we have to declare and define a function prior to using them.
+
+------------
+
+## Passing parameters to functions
+
+### 1. Pass by Value
+In this parameter passing method, values of actual parameters are copied to the function’s formal parameters and the two types of parameters are stored in different memory locations. So any changes made inside functions are not reflected in the actual parameters of the caller. 
+
+### 2. Pass by Reference
+Actual and formal parameters both refer to the same locations. Hence, any changes made inside the function are actually reflected in the actual parameters of the caller.
+
+------------
+
+## Function Overloading
+Certain programming languages allow function overloading which is the ability to create multiple functions with the same name with different implementations. For example, C++ lets you specify more than one function of the same name in the same scope. The determination of which function to use for a particular call is resolved at compile time and is based on the number of parameters the function takes or the datatype of the parameters. 
 
 ------------
 

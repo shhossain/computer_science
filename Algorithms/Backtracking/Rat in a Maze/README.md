@@ -159,7 +159,7 @@ int main() {
 ```
 <br>
 <h3> Complexity Analysis </h3>
-<p><h> Time Complexity: </h>
+<p><h3> Time Complexity: </h3>
 <br>
 O(9^k) where k is the number of unfilled elements. <br>
 <h>Space Complexity: </h>
@@ -295,8 +295,7 @@ class GFG {
 
 
 	
-	
-	```
+```
 	
 	
 	

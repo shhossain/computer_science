@@ -9,11 +9,21 @@ Let us consider another example where n is odd. Let given set be {23, 45, -34, 1
 1. The following solution tries every possible subset of half size. If one subset of half size is formed, the remaining elements form the other subset. We initialize current set as empty and one by one build it. 
 2. There are two possibilities for every element, either it is part of current set, or it is part of the remaining elements (other subset). We consider both possibilities for every element. When the size of current set becomes n/2, we check whether this solutions is better than the best solution available so far. If it is, then we update the best solution.
 
-Following is the implementation for Tug of War problem. It prints the required arrays. 
+Following is the implementation for Tug of War problem. It prints the required arrays.
+## Impimentations
+- [C++](#cpp)
+- [C#](#csharp)
+- [Java](#java)
 
-### c++ code
+## Complexity Analysis
+| Algorithm | Time Complexity | Space Complexity |
+|:---:|:---:|:---:|
+| Tug of War | O(2^n) | O(n) |
 
-```
+
+### CPP
+
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -110,7 +120,7 @@ int main()
 
 ## CSHARP
 
-```
+```c#
 // C# program for Tug of war
 using System;
 
@@ -236,9 +246,9 @@ class GFG
 
 ```
 
-## JAVA CODE
+## JAVA 
 
-```
+```java
 // Java program for Tug of war
 import java.util.*;
 import java.lang.*;
@@ -369,11 +379,8 @@ class TugOfWar
 
 ## Output
 
-```
+```bash
 The first subset is: 45 -34 12 98 -1
 The second subset is: 23 0 -99 4 189 4
-
 ```
 
-## Time Complexity: 
-O(2^n)

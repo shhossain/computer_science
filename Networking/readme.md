@@ -88,6 +88,7 @@ The physical or geographic locations of network nodes and links generally have r
 The common Network Toplogies are :
 
 - Bus Topology
+- P2P Topology
 - Ring Topology
 - Star Topology
 - Mesh Topology
@@ -114,6 +115,14 @@ Bus topology is a network type in which every computer and network device is con
  -If the network traffic is heavy, it increases collisions in the network. To avoid this, various protocols are used in the MAC layer known as Pure Aloha, Slotted Aloha, CSMA/CD, etc.
 - Adding new devices to network would slow down networks.
 - Security is very low.
+
+## P2P Topology
+
+Point-to-point topology is the easiest of all the network topologies. In this method, the network
+consists of a direct link between two computers.
+
+![image](https://user-images.githubusercontent.com/72157334/196505845-b071a26d-65fa-41af-8dbd-153344d0227b.png)
+
 
 ## Ring Topology:
 

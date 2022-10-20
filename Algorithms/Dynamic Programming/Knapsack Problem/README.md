@@ -21,7 +21,7 @@ The ***0/1 Knapsack Problem*** is solved using the **Dynamic Problem Approach**.
 
 The algorithm for Knapsack Problem using Dynamic Programming is as follows:
 
-**Input:** Set of items X, set of weight W, profit of items V and knapsack capacity M 
+**Input:** Set of items X, set of weight W, profit of items V and knapsack capacity M <br>
 **Output:** Array V, which holds the solution of problem
 
 ```
@@ -48,8 +48,10 @@ end
 ## Implementation:
 
 * [C](#c)
-* [C++](#cpp)
+* [CPP](#cpp)
+* [Java](#java)
 * [Python](#python)
+* [Javascript](#javascript)
 
 ## C
 
@@ -101,11 +103,10 @@ int main()
 }
 
 ```
-
-## C++ 
-
+## CPP
 ```cpp
 // C++ solution for 0-1 Knapsack problem
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -152,6 +153,57 @@ int main()
 }
 ```
 
+## Java
+
+```java
+
+//Java solution for 0-1 Knapsack problem
+class Knapsack {
+ 
+    // A function that returns maximum of two integers
+    static int max(int a, int b)
+    {
+          return (a > b) ? a : b;
+    }
+ 
+    // Returns the maximum value that can be put in a knapsack of capacity W
+    static int knapSack(int W, int wt[],
+                        int val[], int n)
+    {
+        int i, w;
+        int K[][] = new int[n + 1][W + 1];
+ 
+        for (i = 0; i <= n; i++)
+        {
+            for (w = 0; w <= W; w++)
+            {
+                if (i == 0 || w == 0)
+                    K[i][w] = 0;
+                else if (wt[i - 1] <= w)
+                    K[i][w]
+                        = max(val[i - 1]
+                         + K[i - 1][w - wt[i - 1]],
+                         K[i - 1][w]);
+                else
+                    K[i][w] = K[i - 1][w];
+            }
+        }
+ 
+        return K[n][W];
+    }
+ 
+    // Driver code
+    public static void main(String args[])
+    {
+        int val[] = new int[] { 80, 120, 60 };
+        int wt[] = new int[] { 20, 30, 40 };
+        int W = 80;
+        int n = val.length;
+        System.out.println(knapSack(W, wt, val, n));
+    }
+}
+```
+
 ## Python 
 
 ```python
@@ -185,6 +237,54 @@ n = len(val)
 print(knapSack(W, wt, val, n))
 
 ```
+## JavaScript
+
+```javascript
+<script>
+	
+    //Javascript Solution to 0-1 Knapsack Problem
+	
+	// A function that returns maximum of two integers
+	function max(a, b)
+	{
+		return (a > b) ? a : b;
+	}
+
+	// Returns the maximum value that can be put in a knapsack of capacity W
+	function knapSack(W, wt, val, n)
+	{
+		let i, w;
+		let K = new Array(n + 1);
+
+		for (i = 0; i <= n; i++)
+		{
+			K[i] = new Array(W + 1);
+			for (w = 0; w <= W; w++)
+			{
+				if (i == 0 || w == 0)
+					K[i][w] = 0;
+				else if (wt[i - 1] <= w)
+					K[i][w]
+						= max(val[i - 1]
+						+ K[i - 1][w - wt[i - 1]],
+						K[i - 1][w]);
+				else
+					K[i][w] = K[i - 1][w];
+			}
+		}
+
+		return K[n][W];
+	}
+	
+	let val = [ 80, 120, 60 ];
+	let wt = [ 20, 30, 40 ];
+	let W = 80;
+	let n = val.length;
+	document.write(knapSack(W, wt, val, n));
+</script>
+
+```
+
 
 **Output:**
 
@@ -203,6 +303,7 @@ print(knapSack(W, wt, val, n))
 2. Inventory Management System
 3. Space Allocation
 4. Asset Optimization
+
 
 
 

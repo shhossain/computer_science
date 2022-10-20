@@ -107,7 +107,7 @@ Pic Will be added
     - [Undirected Graph](Cycle%20Detection/Undirected%20Graph/readme.md)
         - [DFS](Cycle%20Detection/Undirected%20Graph/DFS/readme.md)
         - [BFS](Cycle%20Detection/Undirected%20Graph/BFS/readme.md)
-    - [Directed Graph](notadded)
+    - [Directed Graph](Cycle%20Detection/Directed%20Graph/readme.md)
         - [DFS](notadded)
         - [BFS](notadded)
 3. [Shortest Path](Shortest%20Path/readme.md)

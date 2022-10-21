@@ -28,6 +28,7 @@ LinearSearch( A : Array of items, Target : item to be searched)
 * [Javascript](#js)
 * [Go](#go)
 * [Ruby](#ruby)
+* [C#](#csherp)
 
 ## C++
 ```cpp
@@ -123,19 +124,54 @@ LinearSearch( A : Array of items, Target : item to be searched)
     }
 
 ```
+# C# CODE
+```csharp
+// C# Recursive Code For Linear Search
+using System;
 
-## Ruby
-```r
+static class Test {
+	static int[] arr = { 5, 15, 6, 9, 4 };
 
-    def linear_search(array, element)
-  i = 0
-  while i < array.length
-      if array[i] == element
-        return "#{element} at index #{array.index(element)}"
-      end
-      i+=1
-    end
-    return -1
-end
+	// Recursive Method to search key in the array
+	static int linearsearch(int[] arr, int size, int key)
+	{
+		if (size == 0) {
+			return -1;
+		}
+		else if (arr[size - 1] == key) {
+			// Return the index of found key.
+			return size - 1;
+		}
+		else {
+			return linearsearch(arr, size - 1, key);
+		}
+	}
+
+	// Driver method
+	public static void Main(String[] args)
+	{
+		int key = 4;
+
+		// Method call to find key
+		int index = linearsearch(arr, arr.Length, key);
+
+		if (index != -1)
+			Console.Write("The element " + key
+						+ " is found at " + index
+						+ " index of the given array.");
+		else
+			Console.Write("The element " + key
+						+ " is not found.");
+	}
+}
+
 
 ```
+   **Output:**```
+   ```
+The element 4 is found at 4 index of the given array.```
+```
+```
+The e Complexity: O(N)##
+```
+```Auxiliary Space: O(N), for using recursive stack space.##```

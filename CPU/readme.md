@@ -31,3 +31,10 @@ The CPU never directly accesses RAM. Modern CPUs have one or more layers of cach
 Cache memory is faster than the system RAM, and it is closer to the CPU because it is on the processor chip. The cache provides data storage and instructions to prevent the CPU from waiting for data to be retrieved from RAM. When the CPU needs data—and program instructions are also considered to be data—the cache determines whether the data is already in residence and provides it to the CPU.
 
 If the requested data is not in the cache, it's retrieved from RAM and uses predictive algorithms to move more data from RAM into the cache. The cache controller analyzes the requested data and tries to predict what additional data will be needed from RAM. It loads the anticipated data into the cache. By keeping some data closer to the CPU in a cache that is faster than RAM, the CPU can remain busy and not waste cycles waiting for data.
+
+
+## Memory management unit
+The memory management unit (MMU) manages the data flow between the main memory (RAM) and the CPU. It also provides memory protection required in multitasking environments and conversion between virtual memory addresses and physical addresses.
+
+## CPU clock and control unit
+All of the CPU components must be synchronized to work together smoothly. The control unit performs this function at a rate determined by the clock speed and is responsible for directing the operations of the other units by using timing signals that extend throughout the CPU.

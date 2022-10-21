@@ -29,6 +29,8 @@ LinearSearch( A : Array of items, Target : item to be searched)
 * [Go](#go)
 * [Ruby](#ruby)
 * [C#](#csherp)
+* [PHP](#PHP)
+
 
 ## C++
 ```cpp
@@ -165,7 +167,6 @@ static class Test {
 	}
 }
 
-
 ```
    **Output:**```
    ```
@@ -175,3 +176,39 @@ The element 4 is found at 4 index of the given array.```
 The e Complexity: O(N)##
 ```
 ```Auxiliary Space: O(N), for using recursive stack space.##```
+=======
+## Ruby
+```r
+
+    def linear_search(array, element)
+  i = 0
+  while i < array.length
+      if array[i] == element
+        return "#{element} at index #{array.index(element)}"
+      end
+      i+=1
+    end
+    return -1
+end
+
+```
+## PHP
+```php
+
+
+<?php
+// PHP Recursive Code For Linear Search
+ 
+// Recursive function to search key in the array
+function linearsearch($arr, int $size, int $x)
+{
+    if ($size == 0)
+        return -1;
+    else if ($arr[$size - 1] == $x)
+        return $size - 1; // return index
+    return linearsearch($arr, $size - 1, $x);
+}
+ 
+}
+```
+

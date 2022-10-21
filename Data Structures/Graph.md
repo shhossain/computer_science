@@ -11,10 +11,54 @@ Edges: Edges are drawn or used to connect two nodes of the graph. It can be orde
 ### Example 
 ![](https://cdn.programiz.com/sites/tutorial2program/files/graph-vertices-edges_0.png)
 ```
-
 In the graph,
 
 V = {0, 1, 2, 3}
 E = {(0,1), (0,2), (0,3), (1,2)}
 G = {V, E}
+
+
+```
+
+Representations of Graph : 
+
+1. Adjacency List
+2. Adjaency matrix 
+
+> Code for adjacency list :
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n, m;
+
+    cin >> n >> m;
+
+    vector<int> adj[n + 1];
+    // for weighted graph  us the following line of code ;
+    // vector<pair<int, int>> adj[n+1] ;
+    for (int i = 0; i < m; i++)
+    {
+        int u, v; // wt
+        cin >> u >> v;
+
+        //   for weighted graph
+        // cin>>u>>v>>wt ;
+        // adj[u].push_back({v,wt});
+        // adj[u].push_back({u,wt});
+
+        adj[u].push_back(v);
+        adj[v].push_back(u); // for directed graph omit this line
+    }
+
+    for (int i = 0; i < n + 1; i++)
+    {
+        for (auto x : adj[i])
+            cout << x << " ";
+        cout << endl;
+    }
+    return 0;
+}
 ```

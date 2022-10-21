@@ -1,6 +1,8 @@
 # [Data Types](#data-types)
 A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational or logical operations can be applied to it without causing an error.
 
+In computer science and computer programming, a data type is a set of possible values and a set of allowed operations on it. A data type tells the compiler or interpreter how the programmer intends to use the data.
+
 ## Main Data Types
 - [Primitive Data Types](#primitive-data-types)
 - [Non-Primitive Data Types](#non-primitive-data-types)

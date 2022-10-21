@@ -72,6 +72,7 @@ Here, is the list of some popular DBMS system:
 *   LibreOffice Base
 *   MariaDB
 *   Microsoft SQL Server etc.
+*   firebase
 
 Application of DBMS
 -------------------
@@ -101,6 +102,22 @@ It is used for the management of supply chain and for tracking production of ite
 
 *   HR Management: 
 For information about employees, salaries, payroll, deduction, generation of paychecks, etc.
+
+*  Railway Reservation System –
+In the rail route reservation framework, the information base is needed to store the record or information of ticket 
+appointments, status about train’s appearance, and flight. Additionally, if trains get late, individuals become acquainted 
+with it through the information base update.  
+
+Library Management System – ...
+
+Education Sector –
+
+Credit card exchanges –
+
+Social Media Sites –
+
+Broadcast communications –
+
 
 Types of DBMS
 -------------

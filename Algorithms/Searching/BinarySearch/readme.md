@@ -10,7 +10,7 @@ It is called binary because it splits the array into two halves as part of the a
 
 
 # Pseudo Code
-'''OUTPUT "
+```OUTPUT "
 Which customer do you want to find?"
 
 INPUT user inputs John Smith
@@ -44,7 +44,7 @@ while match == false AND lowerBoundry != upperBoundry
     upperBoundry = midPoint – 1
   endif
 endwhile
-'''
+```
 
 ## Implementations
 * [Python](#python)
@@ -56,7 +56,7 @@ endwhile
 * [Ruby](#ruby)
 
 ### Python
-'''python 
+```python 
 # Python3 Program for recursive binary search.
 
 # Returns index of x in arr if present, else -1
@@ -100,10 +100,10 @@ if result != -1:
 else:
 	print("Element is not present in array")
 
-'''
+```
 
 ### CPP
-'''cpp// C++ program to implement recursive Binary Search
+```cpp// C++ program to implement recursive Binary Search
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -147,10 +147,11 @@ int main(void)
 	return 0;
 }
 
-}'''
+}
+```
 
 ### C
-'''c
+```c
 // C program to implement recursive Binary Search
 #include <stdio.h>
 
@@ -193,10 +194,10 @@ int main(void)
 		: printf("Element is present at index %d", result);
 	return 0;
 }
-'''
+```
 
 ### Java
-'''Java
+```Java
 // Java implementation of recursive Binary Search
 class BinarySearch {
 	// Returns index of x if it is present in arr[l..
@@ -242,10 +243,10 @@ class BinarySearch {
 	}
 }
 
-'''
+```
 
 ### JavaScript
-'''Java Script
+```Java Script
 <script>
 // JavaScript program to implement recursive Binary Search
 
@@ -280,14 +281,14 @@ let arr = [ 2, 3, 4, 10, 40 ];
 let x = 10;
 let n = arr.length
 let result = binarySearch(arr, 0, n - 1, x);
-(result == -1) ? document.write( "Element is not present in array")
-				: document.write("Element is present at index " +result);
+(result == -1) ? document.write( "Element is not present in array") : document.write("Element is present at index " +result);
 </script>
 
-'''
+```
 
 ### GO
-'''GOpackage main
+```GO
+package main
 import "fmt"
 
 func binarySearch(needle int, haystack []int) bool {
@@ -317,13 +318,13 @@ func main(){
 	items := []int{1,2, 9, 20, 31, 45, 63, 70, 100}
 	fmt.Println(binarySearch(63, items))
 }
-'''
+```
 
 
 ### Ruby
-'''Ruby
+```Ruby
 # Ruby program to search an item into the array 
-# using Binaty search
+# using Binary search
 def binary_search(n, arr)
   middle = arr[arr.length / 2]
   i = 0
@@ -345,9 +346,7 @@ def binary_search(n, arr)
   end
   false
 end 
-'''
-=======
-
+```
 Binary Search is used when we have sorted Array or numbers in Ascending or descending order
 1 2 3 4 5 6 7... 
 or 
@@ -471,8 +470,8 @@ start =0             mid=5 |                    end = 10
 
 # Binary Search in 2-D Matrix
 
-when the given two dimensional matrix have numbers sorted in every row and first value
-of every row is lesser/greater than first value next row
+When the given two dimensional matrix have numbers sorted in every row and first value
+of every row is lesser/greater than first value next row.
 
 Example:
 

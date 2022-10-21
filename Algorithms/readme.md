@@ -58,7 +58,7 @@ Backtracking is an algorithmic-technique for solving problems recursively by try
 ### Popular Backtracking Algorithms
 * [N-Queens](Backtracking/N-Queens/readme.md)
 * [Sudoku](Backtracking/Sudoku/readme.md)
-* [M Coloring](Backtracking/MColoring/readme.md)
+* [M Coloring](Backtracking/M%20Colouring%20Problem/readme.md)
 * [Hamiltonian Cycle](Backtracking/HamiltonianCycle/readme.md)
 * [Word Break](Backtracking/WordBreak/readme.md)
 * [Rat in a Maze](Backtracking/RatinMaze/readme.md)

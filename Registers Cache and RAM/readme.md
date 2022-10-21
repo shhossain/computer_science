@@ -80,6 +80,12 @@ In SRAM, instead of a capacitor holding the charge, the transistor acts as a swi
 
 However, SRAM is significantly faster and uses less power than DRAM. The price and speed differences mean static RAM is mainly used in small amounts as cache memory inside a computer's processor.
 
+
+## Computer Storage
+Computers need some form of non-volatile storage—a place where data can stay even when the computer is turned off, so you don’t have to reload and re-enter everything each time you use the computer. That’s the point of having storage in addition to RAM.
+
+Storage for the vast majority of computers in use today consists of a drive, either an HDD or an SSD. Drives can provide a lot of space that can be used to store applications, documents, data, and all the other stuff you need to get your work done (and your computer needs to operate)
+
 ## History of RAM: RAM vs. SDRAM
 RAM was originally asynchronous because the RAM microchips had a different clock speed than the computer's processor. This was a problem as processors became more powerful and RAM couldn't keep up with the processor's requests for data.
 

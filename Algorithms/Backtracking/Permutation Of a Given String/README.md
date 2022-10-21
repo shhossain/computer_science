@@ -64,7 +64,6 @@ BCA
 CBA
 CAB
 ```
-
 **Java Code**
 ```
 // Java program to print all permutations of a
@@ -130,7 +129,6 @@ BCA
 CBA
 CAB
 ```
-
 **Algorithm Paradigm:** Backtracking
 
 **Time Complexity:** O(n\*n!) Note that there are n! permutations and it requires O(n) time to print a permutation.

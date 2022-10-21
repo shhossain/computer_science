@@ -83,4 +83,16 @@ Searching is algorithm for finding a certain target element inside a container. 
 * [Interpolation Search](Not-Added)
 * [Exponential Search](Not-Added)
 
+## [Spanning Tree](Algorithms/Spanning%20Tree%20Algorithm/readme.md)
 
+A spanning tree is a sub-graph of an undirected connected graph, which includes all the vertices of the graph with a minimum possible number of edges. If a vertex is missed, then it is not a spanning tree.
+
+The edges may or may not have weights assigned to them.
+
+The total number of spanning trees with n vertices that can be created from a complete graph is equal to n(n-2).
+
+If we have n = 4, the maximum number of possible spanning trees is equal to 44-2 = 16. Thus, 16 spanning trees can be formed from a complete graph with 4 vertices.
+
+### Popular Minimum Spanning tree Algorithms
+* [KruskalsAlgorithm](Algorithms/Spanning%20Tree%20Algorithm\KruskalsAlgorithm/readme.md)
+* [PrimsAlgorithm](Algorithms/Spanning%20Tree%20Algorithm\PrimsAlgorithm/readme.md)]    

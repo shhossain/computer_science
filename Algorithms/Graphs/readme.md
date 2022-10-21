@@ -114,3 +114,6 @@ Pic Will be added
     - [Dijkstra's Algorithm](Traversal%20Algorithms/Dijkstra'sAlgorithm/readme.md)
     - [Bellman Ford Algorithm](Shortest%20Path/BellmanFordAlgorithm/readme.md)
     - [Floyd Warshall Algorithm](Shortest%20Path/FloydWarshallAlgorithm/readme.md)
+4. [Spanning Tree Algorithm](Spanning%20Tree%20Algorithm/readme.md)
+    - [KruskalsAlgorithm](Spanning%20Tree%20Algorithm\KruskalsAlgorithm/readme.md)
+    - [PrimsAlgorithm](Spanning%20Tree%20Algorithm\PrimsAlgorithm/readme.md)]    

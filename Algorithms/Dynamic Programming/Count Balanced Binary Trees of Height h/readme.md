@@ -73,3 +73,10 @@ int main()
 		<< countBT(h) << endl;
 }
 ```
+**Output:**
+```
+No. of balanced binary trees of height h is: 15
+```
+
+Time Complexity : O(n)
+Space Complexity : O(n), since n extra space has been taken.

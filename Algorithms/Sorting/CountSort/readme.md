@@ -30,7 +30,7 @@ end procedure
 * [C](#c)
 * [Javascript](#javascript)
 * [PHP](#php)
-
+* [Java](#java)
 
 ### Python
 ```python
@@ -275,5 +275,55 @@ $arr = array(6,4,5,1,2,3,9,8,7);
 var_dump(countingSort($arr));
 ```
 
+### Java
 
+```java
+import java.util.Arrays; 
+class CountingSort {
+    int[] countingSort(int a[]){
+      // Find the largest element of the array
+        int max = a[0];
+        for(int i =0 ; i<a.length ; i++){
+            if(a[i]>max){
+                max = a[i];
+            }
+        }
+
+        //   initialize count array with all zeros
+        int countArray[] = new int[max + 1];
+        Arrays.fill(countArray,0);
+        
+        // Store the count of each element
+         for (int i = 0; i < a.length; i++)
+        {  
+             countArray[a[i]]++;  
+        }  
+        
+        // Store the cummulative count of each array
+         for(int i = 1; i<countArray.length; i++)   
+            countArray[i] += countArray[i-1];
+
+        int outputArray[] = new int[a.length];
+
+        // Find the index of each element of the original array in count array, and
+        // place the elements in output array
+        for(int j = a.length -1 ; j>=0;j--){
+            outputArray[countArray[a[j]] - 1] = a[j];
+            countArray[a[j]]--;
+        }
+        
+        // returining output array
+        return outputArray;
+    }
+   
+    public static void main(String[] args) {
+        CountingSort obj = new CountingSort(); 
+        int a[] = { 3,4,6,2,7,8,9,1,1,1,0 ,10 }; 
+        
+        //priniting sorted array
+        System.out.println("Sorted array:" + Arrays.toString(obj.countingSort(a)) );
+    
+    }
+}
+```
 

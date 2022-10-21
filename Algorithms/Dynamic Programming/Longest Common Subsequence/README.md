@@ -326,10 +326,7 @@ class let
 		lcs(X, Y, m, n);
 	}
 }
-
-// This code is contributed by Sam007
-
-} ```
+```
 ```
 **Output**
 ADBC

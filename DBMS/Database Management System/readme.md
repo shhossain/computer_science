@@ -42,6 +42,13 @@ Here, are the important landmarks from the history:
 *   1995: First Internet database applications
 *   1997: XML applied to database processing. Many vendors begin to integrate XML into DBMS products.
 
+
+## DATABASE ARCHITETURE:
+The Database Architecture is a set of rules and processes to how to data will be stored in the database. This architecture describes organisation of all the database objects. It effects on integrity, performance and reliability. The architecture defines the nature of the data, structure of the data and the data flow
+
+
+
+
 Characteristics of DBMS
 -----------------------
 

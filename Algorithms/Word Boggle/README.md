@@ -39,7 +39,9 @@ Words we got is denoted using same color.
 ## Solution
 
 ```cpp
-//Back-end complete function Template for C++
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
   public:
     bool search(vector<vector<char> >& board, const string& word, int index, int x,

@@ -178,7 +178,7 @@ class GFG {
 		int m = X.length();
 		int n = Y.length();
 
-		System.out.println(LCSubStr(X.toCharArray(),
+		System.out.println("Length of Longest Common Substring is "+LCSubStr(X.toCharArray(),
 									Y.toCharArray(), m,
 					n));
 	}

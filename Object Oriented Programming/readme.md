@@ -61,6 +61,46 @@ In case an object which has String data type members in it calls this class, the
 Polymorphism eliminates the possibilities of rewriting almost the same code many times over differently for different objects.
 
 
+### **Java program to Demonstrate Polymorphism** ###
+
+
+```
+public class Sum {
+    // Overloaded sum().
+    // This sum takes two int parameters
+    public int sum(int x, int y)
+    {
+        return (x + y);
+    }
+    
+    // Overloaded sum().
+    // This sum takes three int parameters
+    public int sum(int x, int y, int z)
+    {
+        return (x + y + z);
+    }
+    
+    // Overloaded sum().
+    // This sum takes two double parameters
+    public double sum(double x, double y)
+    {
+        return (x + y);
+    }
+  
+    // Driver code
+    public static void main(String args[])
+    {
+        Sum s = new Sum();
+        System.out.println(s.sum(10, 20));
+        System.out.println(s.sum(10, 20, 30));
+        System.out.println(s.sum(10.5, 20.5));
+    }
+}
+```
+
+
+
+
 #### **5. Overloading**
 
 C++ has the ability to provide the operators with a special meaning for a data type, this ability is known as operator overloading. We can overload an operator ‘+’ in a class like String so that we can concatenate two strings by just using +.
@@ -70,6 +110,7 @@ In C++, we can overload:
 1. Methods
 2. Constructors
 3. Indexed properties
+
 
 #### **Types of overloading in C++**
 

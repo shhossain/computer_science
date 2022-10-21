@@ -63,7 +63,7 @@ Backtracking is an algorithmic-technique for solving problems recursively by try
 * [Word Break](Backtracking/WordBreak/readme.md)
 * [Rat in a Maze](Backtracking/RatinMaze/readme.md)
 * [N Queen Problem](Backtracking/NQueenProblem/readme.md)
-* [Sum of Subset](Backtracking/SumofSubset/readme.md)
+* [Sum of Subset](Backtracking/Subset%20Sum/README.md)
 * [Solve Sudoku](Backtracking/SolveSudoku/readme.md)
 * [Knight's Tour](Backtracking/The%20Knight’s%20tour%20problem/README.md)
 

@@ -134,7 +134,4 @@ def countBT(h) :
 #Driver program
 h = 3
 print("No. of balanced binary trees of height "+str(h)+" is: "+str(countBT(h)))
-
-# This code is contributed by
-# Brij Raj Kishore
 ```

@@ -28,6 +28,7 @@ LinearSearch( A : Array of items, Target : item to be searched)
 * [Javascript](#js)
 * [Go](#go)
 * [Ruby](#ruby)
+* [PHP](#PHP)
 
 ## C++
 ```cpp
@@ -139,3 +140,21 @@ LinearSearch( A : Array of items, Target : item to be searched)
 end
 
 ```
+## PHP
+```php
+
+
+<?php
+// PHP Recursive Code For Linear Search
+ 
+// Recursive function to search key in the array
+function linearsearch($arr, int $size, int $x)
+{
+    if ($size == 0)
+        return -1;
+    else if ($arr[$size - 1] == $x)
+        return $size - 1; // return index
+    return linearsearch($arr, $size - 1, $x);
+}
+ 
+}```

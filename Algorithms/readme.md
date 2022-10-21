@@ -38,7 +38,7 @@ Dynamic programming is both a mathematical optimization method and a computer pr
 * [Longest Increasing Subsequence](Dynamic%20Programming/Longest%20Increasing%20Subsequence/README.md)
 * [Knapsack Problem](Dynamic%20Programming/Knapsack%20Problem/README.md)
 * [Edit Distance](Not-Added)
-* [Coin Change](DynamicProgramming/CoinChange/readme.md)
+* [Coin Change](Dynamic%20Programming/Coin%20Change/README.md)
 * [Matrix Chain Multiplication](Not-Added)
 
 ## [Greedy Algorithms](Greedy%20Algorithm)
@@ -58,12 +58,12 @@ Backtracking is an algorithmic-technique for solving problems recursively by try
 ### Popular Backtracking Algorithms
 * [N-Queens](Backtracking/N-Queens/readme.md)
 * [Sudoku](Backtracking/Sudoku/readme.md)
-* [M Coloring](Backtracking/MColoring/readme.md)
+* [M Coloring](Backtracking/M%20Colouring%20Problem/readme.md)
 * [Hamiltonian Cycle](Backtracking/HamiltonianCycle/readme.md)
 * [Word Break](Backtracking/WordBreak/readme.md)
 * [Rat in a Maze](Backtracking/RatinMaze/readme.md)
 * [N Queen Problem](Backtracking/NQueenProblem/readme.md)
-* [Sum of Subset](Backtracking/SumofSubset/readme.md)
+* [Sum of Subset](Backtracking/Subset%20Sum/README.md)
 * [Solve Sudoku](Backtracking/SolveSudoku/readme.md)
 * [Knight's Tour](Backtracking/The%20Knight’s%20tour%20problem/README.md)
 

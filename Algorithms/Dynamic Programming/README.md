@@ -32,3 +32,4 @@ Dynamic Programming algorithm is designed using the following four steps −
 * [Subset Sum Problem](Subset%20Sum%20Problem/readme.md)
 * [Painting Fence Algorithm](Painting%20Fence%20Algorithm/readme.md)
 * [Coin Change](Coin%20Change/readme.md)
+* [Longest Common Substring](Longest%20Common%20Substring/readme.md)

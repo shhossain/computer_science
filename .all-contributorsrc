@@ -71,6 +71,17 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "rahulmangla28",
+      "name": "genius_koder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93324315?v=4",
+      "profile": "https://github.com/rahulmangla28",
+      "contributions": [
+        "content",
+        "doc",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

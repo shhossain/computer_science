@@ -80,6 +80,20 @@ In SRAM, instead of a capacitor holding the charge, the transistor acts as a swi
 
 However, SRAM is significantly faster and uses less power than DRAM. The price and speed differences mean static RAM is mainly used in small amounts as cache memory inside a computer's processor.
 
+
+## Computer Storage
+Computers need some form of non-volatile storage—a place where data can stay even when the computer is turned off, so you don’t have to reload and re-enter everything each time you use the computer. That’s the point of having storage in addition to RAM.
+
+Storage for the vast majority of computers in use today consists of a drive, either an HDD or an SSD. Drives can provide a lot of space that can be used to store applications, documents, data, and all the other stuff you need to get your work done (and your computer needs to operate)
+
+
+## Difference Between Memory and Storage
+Your computer’s main memory is called RAM (i.e., random access memory). You can think of it as a workspace the computer uses to get work done—a desk, if you will. When you double-click on an app, open a document, or do much of anything, part of your “desk” is covered and can’t be used by anything else. As you open more files, it is like covering your desk with more and more items. Using a desk with a handful of files is easy, but a desk that is covered with a bunch of stuff gets difficult to use.
+
+In addition to RAM, your computer probably also has storage like a hard disk drive (HDD) or solid-state drive (SSD) where data is recorded for the long term. You could use it to store old company records like a tax return from five years ago, your music collection, and apps that you use. Computer storage is like a filing cabinet—a place next to your workspace where you can retrieve information as needed.
+
+RAM is volatile, meaning the information that’s put in there disappears when the power is turned off or when the computer is reset. Storage is different—it’s persistent. Data stays written on the disk until it’s erased or until the storage medium fails (more on that later).
+
 ## History of RAM: RAM vs. SDRAM
 RAM was originally asynchronous because the RAM microchips had a different clock speed than the computer's processor. This was a problem as processors became more powerful and RAM couldn't keep up with the processor's requests for data.
 

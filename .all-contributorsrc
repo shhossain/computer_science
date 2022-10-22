@@ -2,7 +2,7 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
+  "imageSize": 50,
   "commit": false,
   "commitConvention": "angular",
   "contributors": [
@@ -12,6 +12,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/80335059?v=4",
       "profile": "http://safayat.me",
       "contributions": [
+        "code",
         "content"
       ]
     },

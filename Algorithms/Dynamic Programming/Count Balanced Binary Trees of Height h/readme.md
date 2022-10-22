@@ -80,3 +80,58 @@ No. of balanced binary trees of height h is: 15
 
 Time Complexity : O(n)
 Space Complexity : O(n), since n extra space has been taken.
+
+## Implementation in JAVA
+
+```
+// Java program to count number of balanced
+// binary trees of height h.
+class GFG {
+	
+	static final int MOD = 1000000007;
+	
+	public static long countBT(int h) {
+		long[] dp = new long[h + 1];
+		
+		// base cases
+		dp[0] = 1;
+		dp[1] = 1;
+		
+		for(int i = 2; i <= h; ++i)
+			dp[i] = (dp[i - 1] * ((2 * dp [i - 2])% MOD + dp[i - 1]) % MOD) % MOD;
+			
+			return dp[h];
+	}
+	
+	// Driver program
+	public static void main (String[] args) {
+		int h = 3;
+		System.out.println("No. of balanced binary trees of height "+h+" is: "+countBT(h));
+	}
+}
+
+```
+## Implementation in Python
+
+```
+# Python3 program to count number of balanced
+# binary trees of height h.
+
+def countBT(h) :
+	MOD = 1000000007
+	#initialize list
+	dp = [0 for i in range(h + 1)]
+	
+	#base cases
+	dp[0] = 1
+	dp[1] = 1
+	
+	for i in range(2, h + 1) :
+		dp[i] = (dp[i - 1] * ((2 * dp [i - 2])%MOD + dp[i - 1])%MOD) % MOD
+	
+	return dp[h]
+
+#Driver program
+h = 3
+print("No. of balanced binary trees of height "+str(h)+" is: "+str(countBT(h)))
+```

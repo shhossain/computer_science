@@ -120,3 +120,15 @@ For example, A company may store the information of dependents (Parents, Childre
 A weak entity type is represented by a double rectangle. The participation of weak entity type is always total. The relationship between weak entity type and its identifying strong entity type is called identifying relationship and it is represented by double diamond. 
 
 ![12310](12310.png)
+
+**Examples of ER model**
+Some of the examples of ER Models are :-
+
+![Enrollment_System](Enrollment%20System.png)
+
+![Hospital Management System](Hospital%20Management%20system.png)
+
+![Library Management System](Library%20Management%20system.png)
+
+![POS](POS.png)
+

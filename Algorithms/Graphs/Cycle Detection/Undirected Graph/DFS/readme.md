@@ -443,6 +443,4 @@ class Graph {
 	}
 }
 
-// This code is contributed by Sir Rajesh Kumar Halder 
-
 ```

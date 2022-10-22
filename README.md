@@ -802,6 +802,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
       <td align="center"><a href="http://safayat.me"><img src="https://avatars.githubusercontent.com/u/80335059?v=4?s=100" width="100px;" alt="Sifat"/><br /><sub><b>Sifat</b></sub></a><br /><a href="#content-shhossain" title="Content">🖋</a></td>
       <td align="center"><a href="https://github.com/Sabine91"><img src="https://avatars.githubusercontent.com/u/96158726?v=4?s=100" width="100px;" alt="Yuvraj Chauhan"/><br /><sub><b>Yuvraj Chauhan</b></sub></a><br /><a href="#content-Sabine91" title="Content">🖋</a></td>
       <td align="center"><a href="http://ishanmondal.me"><img src="https://avatars.githubusercontent.com/u/76674591?v=4?s=100" width="100px;" alt="Ishan Mondal"/><br /><sub><b>Ishan Mondal</b></sub></a><br /><a href="#content-ishan-im" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/Rajesh144142"><img src="https://avatars.githubusercontent.com/u/82487522?v=4?s=100" width="100px;" alt="Rajesh kumar halder"/><br /><sub><b>Rajesh kumar halder</b></sub></a><br /><a href="#content-Rajesh144142" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

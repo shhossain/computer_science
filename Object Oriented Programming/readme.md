@@ -49,6 +49,42 @@ For example, let us assume we have a class School which has attributes like Uniq
 
 There are two more classes called Student and Teacher. Now, both these classes can access the methods and function from the School class as well as have functions of their own like Assignment Submission or Assignment Grading respectively. 
 
+
+### **Java program to Demonstrate Inheritance** ###
+
+
+```
+class Calculation {
+    int k;
+
+    public void addition(int x, int y) {
+        k = x + y;
+        System.out.println("The sum of the given numbers = "+k);
+    }
+
+    public void Subtraction(int x, int y) {
+        k = x - y;
+        System.out.println("The difference between the given numbers = "+k);
+    }
+}
+// Inheriting the features of Calculation class in My_Calculation
+public class My_Calculation extends Calculation {
+    public void multiplication(int x, int y) {
+        k = x * y;
+        System.out.println("The product of the given numbers = "+k);
+    }
+
+    public static void main(String args[]) {
+        int a = 50, b = 25;
+        My_Calculation cal1 = new My_Calculation();
+        cal1.addition(a, b);
+        cal1.Subtraction(a, b);
+        cal1.multiplication(a, b);
+    }
+}
+```
+
+
 #### **4. Polymorphism**
 The word Polymorphism means having many forms. Using Polymorphism, a class can exhibit different functionalities even when they have a common interface.
 
@@ -61,6 +97,46 @@ In case an object which has String data type members in it calls this class, the
 Polymorphism eliminates the possibilities of rewriting almost the same code many times over differently for different objects.
 
 
+### **Java program to Demonstrate Polymorphism** ###
+
+
+```
+public class Sum {
+    // Overloaded sum().
+    // This sum takes two int parameters
+    public int sum(int x, int y)
+    {
+        return (x + y);
+    }
+    
+    // Overloaded sum().
+    // This sum takes three int parameters
+    public int sum(int x, int y, int z)
+    {
+        return (x + y + z);
+    }
+    
+    // Overloaded sum().
+    // This sum takes two double parameters
+    public double sum(double x, double y)
+    {
+        return (x + y);
+    }
+  
+    // Driver code
+    public static void main(String args[])
+    {
+        Sum s = new Sum();
+        System.out.println(s.sum(10, 20));
+        System.out.println(s.sum(10, 20, 30));
+        System.out.println(s.sum(10.5, 20.5));
+    }
+}
+```
+
+
+
+
 #### **5. Overloading**
 
 C++ has the ability to provide the operators with a special meaning for a data type, this ability is known as operator overloading. We can overload an operator ‘+’ in a class like String so that we can concatenate two strings by just using +.
@@ -70,6 +146,7 @@ In C++, we can overload:
 1. Methods
 2. Constructors
 3. Indexed properties
+
 
 #### **Types of overloading in C++**
 

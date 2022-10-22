@@ -11,6 +11,8 @@ To find the back edge to any of its ancestors keep a visited array and if there 
 
 ## Implementations
 * [Python](#python)
+* [C++](#cpp)
+* [JAVA](#java)
 
 
 ### Python

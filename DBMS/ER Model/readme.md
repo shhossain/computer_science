@@ -121,6 +121,17 @@ A weak entity type is represented by a double rectangle. The participation of we
 
 ![12310](12310.png)
 
+**Examples of ER model**
+Some of the examples of ER Models are :-
+
+![Enrollment_System](Enrollment%20System.png)
+
+![Hospital Management System](Hospital%20Management%20system.png)
+
+![Library Management System](Library%20Management%20system.png)
+
+![POS](POS.png)
+
 ### Advantages of ER model
 The data requirements are easily understandable using an E - R model as it utilises clear diagrams.
 The E-R model can be easily converted into a relational database.

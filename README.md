@@ -1,4 +1,7 @@
 # Computer Science
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
 
@@ -791,6 +794,20 @@ Crypto currency is a digital currency in which encryption techniques are used to
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/Sahilrao09"><img src="https://avatars.githubusercontent.com/u/88286056?v=4?s=100" width="100px;" alt="Sahil Rao"/><br /><sub><b>Sahil Rao</b></sub></a><br /><a href="#content-Sahilrao09" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 

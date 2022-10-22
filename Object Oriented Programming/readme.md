@@ -49,6 +49,42 @@ For example, let us assume we have a class School which has attributes like Uniq
 
 There are two more classes called Student and Teacher. Now, both these classes can access the methods and function from the School class as well as have functions of their own like Assignment Submission or Assignment Grading respectively. 
 
+
+### **Java program to Demonstrate Inheritance** ###
+
+
+```
+class Calculation {
+    int k;
+
+    public void addition(int x, int y) {
+        k = x + y;
+        System.out.println("The sum of the given numbers = "+k);
+    }
+
+    public void Subtraction(int x, int y) {
+        k = x - y;
+        System.out.println("The difference between the given numbers = "+k);
+    }
+}
+// Inheriting the features of Calculation class in My_Calculation
+public class My_Calculation extends Calculation {
+    public void multiplication(int x, int y) {
+        k = x * y;
+        System.out.println("The product of the given numbers = "+k);
+    }
+
+    public static void main(String args[]) {
+        int a = 50, b = 25;
+        My_Calculation cal1 = new My_Calculation();
+        cal1.addition(a, b);
+        cal1.Subtraction(a, b);
+        cal1.multiplication(a, b);
+    }
+}
+```
+
+
 #### **4. Polymorphism**
 The word Polymorphism means having many forms. Using Polymorphism, a class can exhibit different functionalities even when they have a common interface.
 

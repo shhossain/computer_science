@@ -123,8 +123,12 @@ A weak entity type is represented by a double rectangle. The participation of we
 
 **Examples of ER model**
 Some of the examples of ER Models are :-
+
 ![Enrollment_System](Enrollment%20System.png)
+
 ![Hospital Management System](Hospital%20Management%20system.png)
+
 ![Library Management System](Library%20Management%20system.png)
+
 ![POS](POS.png)
 

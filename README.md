@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -804,6 +804,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
       <td align="center"><a href="https://github.com/Rajesh144142"><img src="https://avatars.githubusercontent.com/u/82487522?v=4?s=50" width="50px;" alt="Rajesh kumar halder"/><br /><sub><b>Rajesh kumar halder</b></sub></a><br /><a href="#content-Rajesh144142" title="Content">🖋</a></td>
       <td align="center"><a href="http://ishanmondal.me"><img src="https://avatars.githubusercontent.com/u/76674591?v=4?s=50" width="50px;" alt="Ishan Mondal"/><br /><sub><b>Ishan Mondal</b></sub></a><br /><a href="#content-ishan-im" title="Content">🖋</a></td>
       <td align="center"><a href="https://github.com/Apoorva08102000"><img src="https://avatars.githubusercontent.com/u/91753868?v=4?s=50" width="50px;" alt="Apoorva08102000"/><br /><sub><b>Apoorva08102000</b></sub></a><br /><a href="#content-Apoorva08102000" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/apoorva1823000"><img src="https://avatars.githubusercontent.com/u/71769587?v=4?s=50" width="50px;" alt="Apoorva .S. Mehta"/><br /><sub><b>Apoorva .S. Mehta</b></sub></a><br /><a href="#content-apoorva1823000" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

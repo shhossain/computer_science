@@ -28,6 +28,9 @@ LinearSearch( A : Array of items, Target : item to be searched)
 * [Javascript](#js)
 * [Go](#go)
 * [Ruby](#ruby)
+* [C#](#csherp)
+* [PHP](#PHP)
+
 
 ## C++
 ```cpp
@@ -123,7 +126,57 @@ LinearSearch( A : Array of items, Target : item to be searched)
     }
 
 ```
+# C# CODE
+```csharp
+// C# Recursive Code For Linear Search
+using System;
 
+static class Test {
+	static int[] arr = { 5, 15, 6, 9, 4 };
+
+	// Recursive Method to search key in the array
+	static int linearsearch(int[] arr, int size, int key)
+	{
+		if (size == 0) {
+			return -1;
+		}
+		else if (arr[size - 1] == key) {
+			// Return the index of found key.
+			return size - 1;
+		}
+		else {
+			return linearsearch(arr, size - 1, key);
+		}
+	}
+
+	// Driver method
+	public static void Main(String[] args)
+	{
+		int key = 4;
+
+		// Method call to find key
+		int index = linearsearch(arr, arr.Length, key);
+
+		if (index != -1)
+			Console.Write("The element " + key
+						+ " is found at " + index
+						+ " index of the given array.");
+		else
+			Console.Write("The element " + key
+						+ " is not found.");
+	}
+}
+
+```
+   **Output:**```
+   ```
+The element 4 is found at 4 index of the given array.```
+```
+```
+The e Complexity: O(N)##
+```
+```Auxiliary Space: O(N), for using recursive stack space.##```
+=======
 ## Ruby
 ```r
 
@@ -139,3 +192,23 @@ LinearSearch( A : Array of items, Target : item to be searched)
 end
 
 ```
+## PHP
+```php
+
+
+<?php
+// PHP Recursive Code For Linear Search
+ 
+// Recursive function to search key in the array
+function linearsearch($arr, int $size, int $x)
+{
+    if ($size == 0)
+        return -1;
+    else if ($arr[$size - 1] == $x)
+        return $size - 1; // return index
+    return linearsearch($arr, $size - 1, $x);
+}
+ 
+}
+```
+

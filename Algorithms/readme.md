@@ -39,7 +39,7 @@ Dynamic programming is both a mathematical optimization method and a computer pr
 * [Knapsack Problem](Dynamic%20Programming/Knapsack%20Problem/README.md)
 * [Edit Distance](Not-Added)
 * [Coin Change](Dynamic%20Programming/Coin%20Change/README.md)
-* [Matrix Chain Multiplication](Not-Added)
+* [Matrix Chain Multiplication](Dynamic%20Programming/Matrix%20Chain%20Multiplication/README.md)
 
 ## [Greedy Algorithms](Greedy%20Algorithm)
 Greedy algorithms are a simple, intuitive class of algorithms that can be used to find the optimal solution to some optimization problems. They are called greedy because at each step they make the choice that seems best at that moment. This means that greedy algorithms do not guarantee to return the globally optimal solution, but instead make locally optimal choices in the hope of finding a global optimum. Greedy algorithms are used for optimization problems. An optimization problem can be solved using Greedy if the problem has the following property: at every step, we can make a choice that looks best at the moment, and we get the optimal solution of the complete problem.
@@ -58,12 +58,12 @@ Backtracking is an algorithmic-technique for solving problems recursively by try
 ### Popular Backtracking Algorithms
 * [N-Queens](Backtracking/N-Queens/readme.md)
 * [Sudoku](Backtracking/Sudoku/readme.md)
-* [M Coloring](Backtracking/MColoring/readme.md)
+* [M Coloring](Backtracking/M%20Colouring%20Problem/readme.md)
 * [Hamiltonian Cycle](Backtracking/HamiltonianCycle/readme.md)
 * [Word Break](Backtracking/WordBreak/readme.md)
 * [Rat in a Maze](Backtracking/RatinMaze/readme.md)
 * [N Queen Problem](Backtracking/NQueenProblem/readme.md)
-* [Sum of Subset](Backtracking/SumofSubset/readme.md)
+* [Sum of Subset](Backtracking/Subset%20Sum/README.md)
 * [Solve Sudoku](Backtracking/SolveSudoku/readme.md)
 * [Knight's Tour](Backtracking/The%20Knight’s%20tour%20problem/README.md)
 
@@ -83,4 +83,16 @@ Searching is algorithm for finding a certain target element inside a container. 
 * [Interpolation Search](Not-Added)
 * [Exponential Search](Not-Added)
 
+## [Spanning Tree](Algorithms/Spanning%20Tree%20Algorithm/readme.md)
 
+A spanning tree is a sub-graph of an undirected connected graph, which includes all the vertices of the graph with a minimum possible number of edges. If a vertex is missed, then it is not a spanning tree.
+
+The edges may or may not have weights assigned to them.
+
+The total number of spanning trees with n vertices that can be created from a complete graph is equal to n(n-2).
+
+If we have n = 4, the maximum number of possible spanning trees is equal to 44-2 = 16. Thus, 16 spanning trees can be formed from a complete graph with 4 vertices.
+
+### Popular Minimum Spanning tree Algorithms
+* [KruskalsAlgorithm](Algorithms/Spanning%20Tree%20Algorithm\KruskalsAlgorithm/readme.md)
+* [PrimsAlgorithm](Algorithms/Spanning%20Tree%20Algorithm\PrimsAlgorithm/readme.md)]    

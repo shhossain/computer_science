@@ -43,11 +43,11 @@ Here, are the important landmarks from the history:
 *   1997: XML applied to database processing. Many vendors begin to integrate XML into DBMS products.
 
 
-## DATABASE ARCHITETURE(Schema):
+## Database Architecture (Schema):
 The Database Architecture is a set of rules and processes to how to data will be stored in the database. This architecture describes organisation of all the database objects. It effects on integrity, performance and reliability. The architecture defines the nature of the data, structure of the data and the data flow
 
 
-## RELATIONAL DATABASE MANAGEMENT SYSTEMS:
+## Relational Database Management System:
 The Current Trend in the DBMS is Relational Database Management Systems (RDBMS).In RDBMS the data should be stored in the form of tables. This technology is used in various software applications e-commerce, medical records and all online transactions. The important feature in RDBMS is that it is a single data base, it can spread into several tables and each database contains the single table. The whole database is divided into number of tables and all they have relation between them. Now a days RDBMS replaces DBMS because in the DBMS model the data should be in single large table they any changes made in the table the database will change but in the RDBMS the small amount portion database should be modified because the database should be divided into small pieces so this will not affect entire database. This model is very popular because of its capability to solve many problems created by other data models. Lets take an example the student details in the university the key role for the student details database is roll no and using this roll no it access the data of the student.
 
 

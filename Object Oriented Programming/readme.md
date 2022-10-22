@@ -39,6 +39,58 @@ It can be referred to as a protective wrapper that stops random access of code d
 
 For example, if everyone is allowed to access the internal parts of the car, anyone who is inexperienced may mishandle the parts and cause an accident.
 
+### **Java program to Demonstrate Encapsulation** ###
+
+
+```
+// Achieve Encapsulation
+
+public class EncapTest {
+    private String name;
+    private String id;
+    private int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getIdNum() {
+        return id;
+    }
+
+    public void setAge( int newAge) {
+        age = newAge;
+    }
+
+    public void setName(String newName) {
+        name = newName;
+    }
+
+    public void setIdNum( String newId) {
+        id = newId;
+    }
+}
+```
+```
+// Test and Run achieved Encapsulation
+
+public class RunEncap {
+
+    public static void main(String args[]) {
+        EncapTest encap1 = new EncapTest();
+        encap1.setName("ABCD");
+        encap1.setAge(21);
+        encap1.setIdNum("123456789");
+
+        System.out.print("Name : " + encap1.getName() + "\nAge : " + encap1.getAge());
+    }
+}
+```
+
 
 #### **3. Inheritance**
 Inheritance is the ability to create a new class from an existing class.

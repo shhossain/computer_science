@@ -168,3 +168,8 @@ class GFG {
 	
 }
 ```
+
+**Output:**
+```
+No. of balanced binary trees of height h is: 15
+```

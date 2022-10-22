@@ -135,3 +135,41 @@ def countBT(h) :
 h = 3
 print("No. of balanced binary trees of height "+str(h)+" is: "+str(countBT(h)))
 ```
+
+## Implementation in C#
+
+```
+// C# program to count number of balanced
+// binary trees of height h.
+
+using System;
+class GFG {
+	
+	static int MOD = 1000000007;
+	
+	public static long countBT(int h) {
+		long[] dp = new long[h + 1];
+		
+		// base cases
+		dp[0] = 1;
+		dp[1] = 1;
+		
+		for(int i = 2; i <= h; ++i)
+			dp[i] = (dp[i - 1] * ((2 * dp [i - 2])% MOD + dp[i - 1]) % MOD) % MOD;
+			
+			return dp[h];
+	}
+	
+	// Driver program
+	static void Main () {
+		int h = 3;
+		Console.WriteLine("No. of balanced binary trees of height "+h+" is: "+countBT(h));
+	}
+	
+}
+```
+
+**Output:**
+```
+No. of balanced binary trees of height h is: 15
+```

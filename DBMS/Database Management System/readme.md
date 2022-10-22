@@ -188,6 +188,15 @@ Although, DBMS system is useful. It is still not suited for specific task mentio
 
 Not recommended when you do not have the budget or the expertise to operate a DBMS. In such cases, Excel/CSV/Flat Files could do just fine.
 
+The Future of Databases & Database Management : 
+-----------------------------------------------
+Data is the lifeblood of so many of the applications and processes that drive our world. How to collect, store, and sort a continuously growing mountain 
+of data will be a critical question to answer for database management platforms and their developers.
+Just like the beginning of the history of databases and database management, the future will be closely tied to overall developments in processing and 
+computing. Machine learning and artificial intelligence will continue to improve and become integral parts of databases and their management. Faster and 
+more efficient database management tools will come to market while industry standards continue to iterate based on latest developments. In the end, the 
+future looks incredibly bright for the database industry.
+
 Summary
 -------
 

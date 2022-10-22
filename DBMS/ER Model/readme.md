@@ -132,3 +132,11 @@ Some of the examples of ER Models are :-
 
 ![POS](POS.png)
 
+### Advantages of ER model
+The data requirements are easily understandable using an E - R model as it utilises clear diagrams.
+The E-R model can be easily converted into a relational database.
+The E-R diagram is very easy to understand as it has clearly defined entities and the relations between them.
+
+### Disadvantages of ER model
+There is no data manipulation language available for an E- R model as it is a largely abstract concept.
+There are no standard notations for an E - R model. It depends on each individual designer how they design it.

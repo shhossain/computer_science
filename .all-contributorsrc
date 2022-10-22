@@ -23,6 +23,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "manas6699",
+      "name": "Manas Baroi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78929050?v=4",
+      "profile": "https://manas6699.github.io/portfolio-website3.0/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

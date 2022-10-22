@@ -107,15 +107,15 @@ There are also some disadvantages to using cloud computing services, including:
  ## Where Can I Access Cloud Computing?
 There are many cloud computing services available to individual users, but the "big three" are:-
 
-Amazon Web Services (AWS)
-Google Cloud Platform (GCP)
-Microsoft Azure
+- Amazon Web Services (AWS)
+- Google Cloud Platform (GCP)
+- Microsoft Azure
 
 The service you choose will depend on:-
 
-The scale of your business
-Your business structure
-How much of the work you want to outsource
+- The scale of your business
+- Your business structure
+- How much of the work you want to outsource
  
  
 

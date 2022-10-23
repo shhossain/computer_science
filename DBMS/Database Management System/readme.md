@@ -38,7 +38,12 @@ Here, are the important landmarks from the history:
 - 1995: First Internet database applications
 - 1997: XML applied to database processing. Many vendors begin to integrate XML into DBMS products.
 
-## Characteristics of DBMS
+
+
+
+Characteristics of DBMS
+-----------------------
+
 
 Here are the characteristics and properties of Database Management System:
 
@@ -201,15 +206,27 @@ Although, DBMS system is useful. It is still not suited for specific task mentio
 
 Not recommended when you do not have the budget or the expertise to operate a DBMS. In such cases, Excel/CSV/Flat Files could do just fine.
 
-## Summary
 
-- DBMS definition: A database is a collection of related data which represents some aspect of the real world
-- The full form of DBMS is Database Management System. DBMS stands for Database Management System is a software for storing and retrieving users’ data by considering appropriate security measures.
-- DBMS Provides security and removes redundancy
-- DBMS has many advantages over tradition Flat File management system
-- Some Characteristics of DBMS are Security, Self-describing nature, Insulation between programs and data abstraction, Support of multiple views of the data, etc.
-- End-Users, Application Programmers, and Database Administrators are they type of users who access a DBMS
-- DBMS is widely used in Banking, Airlines, Telecommunication, Finance and other industries
-- The main Four DBMS types are 1) Hierarchical 2) Network 3) Relational 4) Object-Oriented DBMS
-- DBMS serves as an efficient handler to balance the needs of multiple applications using the same data
-- Cost of Hardware and Software of a DBMS is quite high which increases the budget of your organization
+The Future of Databases & Database Management : 
+-----------------------------------------------
+Data is the lifeblood of so many of the applications and processes that drive our world. How to collect, store, and sort a continuously growing mountain 
+of data will be a critical question to answer for database management platforms and their developers.
+Just like the beginning of the history of databases and database management, the future will be closely tied to overall developments in processing and 
+computing. Machine learning and artificial intelligence will continue to improve and become integral parts of databases and their management. Faster and 
+more efficient database management tools will come to market while industry standards continue to iterate based on latest developments. In the end, the 
+future looks incredibly bright for the database industry.
+
+Summary
+-------
+
+*   DBMS definition: A database is a collection of related data which represents some aspect of the real world
+*   The full form of DBMS is Database Management System. DBMS stands for Database Management System is a software for storing and retrieving users’ data by considering appropriate security measures.
+*   DBMS Provides security and removes redundancy
+*   DBMS has many advantages over tradition Flat File management system
+*   Some Characteristics of DBMS are Security, Self-describing nature, Insulation between programs and data abstraction, Support of multiple views of the data, etc.
+*   End-Users, Application Programmers, and Database Administrators are they type of users who access a DBMS
+*   DBMS is widely used in Banking, Airlines, Telecommunication, Finance and other industries
+*   The main Four DBMS types are 1) Hierarchical 2) Network 3) Relational 4) Object-Oriented DBMS
+*   DBMS serves as an efficient handler to balance the needs of multiple applications using the same data
+*   Cost of Hardware and Software of a DBMS is quite high which increases the budget of your organization
+

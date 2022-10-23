@@ -39,6 +39,58 @@ It can be referred to as a protective wrapper that stops random access of code d
 
 For example, if everyone is allowed to access the internal parts of the car, anyone who is inexperienced may mishandle the parts and cause an accident.
 
+### **Java program to Demonstrate Encapsulation** ###
+
+
+```
+// Achieve Encapsulation
+
+public class EncapTest {
+    private String name;
+    private String id;
+    private int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getIdNum() {
+        return id;
+    }
+
+    public void setAge( int newAge) {
+        age = newAge;
+    }
+
+    public void setName(String newName) {
+        name = newName;
+    }
+
+    public void setIdNum( String newId) {
+        id = newId;
+    }
+}
+```
+```
+// Test and Run achieved Encapsulation
+
+public class RunEncap {
+
+    public static void main(String args[]) {
+        EncapTest encap1 = new EncapTest();
+        encap1.setName("ABCD");
+        encap1.setAge(21);
+        encap1.setIdNum("123456789");
+
+        System.out.print("Name : " + encap1.getName() + "\nAge : " + encap1.getAge());
+    }
+}
+```
+
 
 #### **3. Inheritance**
 Inheritance is the ability to create a new class from an existing class.
@@ -48,6 +100,42 @@ Using inheritance, we can inherit a few or all members and functions from a Pare
 For example, let us assume we have a class School which has attributes like Unique ID, Class Routine, etc and functions like Biometric Attendance System. 
 
 There are two more classes called Student and Teacher. Now, both these classes can access the methods and function from the School class as well as have functions of their own like Assignment Submission or Assignment Grading respectively. 
+
+
+### **Java program to Demonstrate Inheritance** ###
+
+
+```
+class Calculation {
+    int k;
+
+    public void addition(int x, int y) {
+        k = x + y;
+        System.out.println("The sum of the given numbers = "+k);
+    }
+
+    public void Subtraction(int x, int y) {
+        k = x - y;
+        System.out.println("The difference between the given numbers = "+k);
+    }
+}
+// Inheriting the features of Calculation class in My_Calculation
+public class My_Calculation extends Calculation {
+    public void multiplication(int x, int y) {
+        k = x * y;
+        System.out.println("The product of the given numbers = "+k);
+    }
+
+    public static void main(String args[]) {
+        int a = 50, b = 25;
+        My_Calculation cal1 = new My_Calculation();
+        cal1.addition(a, b);
+        cal1.Subtraction(a, b);
+        cal1.multiplication(a, b);
+    }
+}
+```
+
 
 #### **4. Polymorphism**
 The word Polymorphism means having many forms. Using Polymorphism, a class can exhibit different functionalities even when they have a common interface.

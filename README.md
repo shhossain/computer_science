@@ -1,4 +1,7 @@
 # Computer Science
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
 
@@ -780,6 +783,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
 2. [Proof of Stake](Cryptography/CryptoCurrency/ProofOfStake/readme.md#proof-of-stake)
 
 
+
 ### _Most Popular Crypto Currency are as follows:_
 1. [Bitcoin](Cryptography/CryptoCurrency/ProofOfWork/Bitcoin/readme.md#bitcoin)
 2. [Ethereum](Cryptography/CryptoCurrency/ProofOfStake/Ethereum/readme.md#ethereum)
@@ -787,3 +791,41 @@ Crypto currency is a digital currency in which encryption techniques are used to
 4. [Cardano](Cryptography/CryptoCurrency/ProofOfStake/Cardano/readme.md#cardano)
 5. [Dogecoin](Cryptography/CryptoCurrency/ProofOfWork/Dogecoin/readme.md#dogecoin)
  
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="http://safayat.me"><img src="https://avatars.githubusercontent.com/u/80335059?v=4?s=50" width="50px;" alt="Sifat"/><br /><sub><b>Sifat</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=shhossain" title="Code">💻</a> <a href="#content-shhossain" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/Sabine91"><img src="https://avatars.githubusercontent.com/u/96158726?v=4?s=50" width="50px;" alt="Yuvraj Chauhan"/><br /><sub><b>Yuvraj Chauhan</b></sub></a><br /><a href="#content-Sabine91" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/Rajesh144142"><img src="https://avatars.githubusercontent.com/u/82487522?v=4?s=50" width="50px;" alt="Rajesh kumar halder"/><br /><sub><b>Rajesh kumar halder</b></sub></a><br /><a href="#content-Rajesh144142" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=Rajesh144142" title="Code">💻</a></td>
+      <td align="center"><a href="http://ishanmondal.me"><img src="https://avatars.githubusercontent.com/u/76674591?v=4?s=50" width="50px;" alt="Ishan Mondal"/><br /><sub><b>Ishan Mondal</b></sub></a><br /><a href="#content-ishan-im" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/Apoorva08102000"><img src="https://avatars.githubusercontent.com/u/91753868?v=4?s=50" width="50px;" alt="Apoorva08102000"/><br /><sub><b>Apoorva08102000</b></sub></a><br /><a href="#content-Apoorva08102000" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/apoorva1823000"><img src="https://avatars.githubusercontent.com/u/71769587?v=4?s=50" width="50px;" alt="Apoorva .S. Mehta"/><br /><sub><b>Apoorva .S. Mehta</b></sub></a><br /><a href="#content-apoorva1823000" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/utopian-coder"><img src="https://avatars.githubusercontent.com/u/66299782?v=4?s=50" width="50px;" alt="Imran Biswas"/><br /><sub><b>Imran Biswas</b></sub></a><br /><a href="#content-utopian-coder" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=utopian-coder" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=utopian-coder" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/subrata-9999"><img src="https://avatars.githubusercontent.com/u/109057053?v=4?s=50" width="50px;" alt="Subrata Pramanik"/><br /><sub><b>Subrata Pramanik</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=subrata-9999" title="Code">💻</a></td>
+      <td align="center"><a href="https://br.linkedin.com/in/samuelbratifavarin"><img src="https://avatars.githubusercontent.com/u/17628602?v=4?s=50" width="50px;" alt="Samuel Favarin"/><br /><sub><b>Samuel Favarin</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=SamuelBFavarin" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/commits?author=SamuelBFavarin" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-104-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->

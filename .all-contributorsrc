@@ -185,6 +185,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "SohamDey80",
+      "name": "JC Shankar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93932583?v=4",
+      "profile": "https://github.com/SohamDey80",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

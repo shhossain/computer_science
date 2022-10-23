@@ -810,7 +810,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
     <tr>
       <td align="center"><a href="https://github.com/subrata-9999"><img src="https://avatars.githubusercontent.com/u/109057053?v=4?s=50" width="50px;" alt="Subrata Pramanik"/><br /><sub><b>Subrata Pramanik</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=subrata-9999" title="Code">💻</a></td>
       <td align="center"><a href="https://br.linkedin.com/in/samuelbratifavarin"><img src="https://avatars.githubusercontent.com/u/17628602?v=4?s=50" width="50px;" alt="Samuel Favarin"/><br /><sub><b>Samuel Favarin</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=SamuelBFavarin" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/commits?author=SamuelBFavarin" title="Code">💻</a></td>
-      <td align="center"><a href="https://github.com/sahooabhipsa10"><img src="https://avatars.githubusercontent.com/u/99355886?v=4?s=50" width="50px;" alt="sahooabhipsa10"/><br /><sub><b>sahooabhipsa10</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=sahooabhipsa10" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/sahooabhipsa10"><img src="https://avatars.githubusercontent.com/u/99355886?v=4?s=50" width="50px;" alt="sahooabhipsa10"/><br /><sub><b>sahooabhipsa10</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=sahooabhipsa10" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/commits?author=sahooabhipsa10" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

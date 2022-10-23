@@ -127,6 +127,16 @@
       "contributions": [
         "example"
       ]
+    },
+    {
+      "login": "kanaujiyaaditi",
+      "name": "Aditi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94130073?v=4",
+      "profile": "https://github.com/kanaujiyaaditi",
+      "contributions": [
+        "doc",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,

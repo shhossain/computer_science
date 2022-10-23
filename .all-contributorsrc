@@ -81,6 +81,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "SamuelBFavarin",
+      "name": "Samuel Favarin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17628602?v=4",
+      "profile": "https://br.linkedin.com/in/samuelbratifavarin",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

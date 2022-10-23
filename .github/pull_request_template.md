@@ -33,6 +33,10 @@ _Note: If you submit code make sure to test it_
 
 If this is a relatively large or complex change, kick off the discussion by explaining why you chose the solution you did and what alternatives you considered, etc...
 
+## Adding your name in the contributors list
+Comment "@all-contributors please add @your_username for content" to add your name in the contributors list.
+_You can change the "content" with any of [this](https://allcontributors.org/docs/en/emoji-key)_
+
 ### Reviewers: 
 - [ ] @username
 

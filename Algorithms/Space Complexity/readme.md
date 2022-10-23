@@ -21,3 +21,20 @@ Because the array is used in the algorithm to allocate n cases of integers, the 
 The term Space Complexity is misused for Auxiliary Space at many places. Following are the correct definitions of Auxiliary Space and Space Complexity. 
 Auxiliary Space is the extra space or temporary space used by an algorithm.
 The space Complexity of an algorithm is the total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and space used by input. 
+## What is the significance of space complexity?
+
+A good algorithm executes quickly and saves space in the process. You should find a happy medium of space and time (space and time complexity), but you can do with the average. Now, take a look at a simple algorithm for calculating the "mul" of two numbers.
+
+Step 1: Start.
+
+Step 2: Create two variables (a & b).
+
+Step 3: Store integer values in ‘a’ and ‘b.’ -> Input
+
+Step 4: Create a variable named 'mul'
+
+Step 5: Store the mul of 'a' and 'b' in a variable named 'mul" -> Output
+
+Step 6: End.
+
+You will now see how significant space and time complexity is after understanding what they are.

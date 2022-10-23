@@ -120,3 +120,23 @@ For example, A company may store the information of dependents (Parents, Childre
 A weak entity type is represented by a double rectangle. The participation of weak entity type is always total. The relationship between weak entity type and its identifying strong entity type is called identifying relationship and it is represented by double diamond. 
 
 ![12310](12310.png)
+
+**Examples of ER model**
+Some of the examples of ER Models are :-
+
+![Enrollment_System](Enrollment-System.png)
+
+![Hospital Management System](Hospital-management-system.png)
+
+![Library Management System](Library-management-system.jpg)
+
+![POS](POS.png)
+
+### Advantages of ER model
+The data requirements are easily understandable using an E - R model as it utilises clear diagrams.
+The E-R model can be easily converted into a relational database.
+The E-R diagram is very easy to understand as it has clearly defined entities and the relations between them.
+
+### Disadvantages of ER model
+There is no data manipulation language available for an E- R model as it is a largely abstract concept.
+There are no standard notations for an E - R model. It depends on each individual designer how they design it.

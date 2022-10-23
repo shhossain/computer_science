@@ -682,9 +682,13 @@ p merge_sort(arr)
 ```
 
 
+### Merge Sort Time and Space Complexity
 
+1. Space Complexity
+Auxiliary Space: O(n) Sorting In Place: No Algorithm : Divide and Conquer
 
-
+2. Time Complexity
+Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation. T(n) = 2T(n/2) + O(n) The solution of the above recurrence is O(nLogn). The list of size N is divided into a max of Logn parts, and the merging of all sublists into a single list takes O(N) time, the worst-case run time of this algorithm is O(nLogn) Best Case Time Complexity: O(n*log n) Worst Case Time Complexity: O(n*log n) Average Time Complexity: O(n*log n) The time complexity of MergeSort is O(n*Log n) in all the 3 cases (worst, average and best) as the mergesort always divides the array into two halves and takes linear time to merge two halves.
 
 
 

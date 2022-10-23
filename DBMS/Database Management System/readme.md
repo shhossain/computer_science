@@ -42,6 +42,16 @@ Here, are the important landmarks from the history:
 *   1995: First Internet database applications
 *   1997: XML applied to database processing. Many vendors begin to integrate XML into DBMS products.
 
+
+## Database Architecture (Schema):
+The Database Architecture is a set of rules and processes to how to data will be stored in the database. This architecture describes organisation of all the database objects. It effects on integrity, performance and reliability. The architecture defines the nature of the data, structure of the data and the data flow
+
+
+## Relational Database Management System:
+The Current Trend in the DBMS is Relational Database Management Systems (RDBMS).In RDBMS the data should be stored in the form of tables. This technology is used in various software applications e-commerce, medical records and all online transactions. The important feature in RDBMS is that it is a single data base, it can spread into several tables and each database contains the single table. The whole database is divided into number of tables and all they have relation between them. Now a days RDBMS replaces DBMS because in the DBMS model the data should be in single large table they any changes made in the table the database will change but in the RDBMS the small amount portion database should be modified because the database should be divided into small pieces so this will not affect entire database. This model is very popular because of its capability to solve many problems created by other data models. Lets take an example the student details in the university the key role for the student details database is roll no and using this roll no it access the data of the student.
+
+
+
 Characteristics of DBMS
 -----------------------
 
@@ -72,6 +82,7 @@ Here, is the list of some popular DBMS system:
 *   LibreOffice Base
 *   MariaDB
 *   Microsoft SQL Server etc.
+*   firebase
 
 Application of DBMS
 -------------------
@@ -101,6 +112,22 @@ It is used for the management of supply chain and for tracking production of ite
 
 *   HR Management: 
 For information about employees, salaries, payroll, deduction, generation of paychecks, etc.
+
+*  Railway Reservation System –
+In the rail route reservation framework, the information base is needed to store the record or information of ticket 
+appointments, status about train’s appearance, and flight. Additionally, if trains get late, individuals become acquainted 
+with it through the information base update.  
+
+Library Management System – ...
+
+Education Sector –
+
+Credit card exchanges –
+
+Social Media Sites –
+
+Broadcast communications –
+
 
 Types of DBMS
 -------------
@@ -160,6 +187,15 @@ When not to use a DBMS system?
 Although, DBMS system is useful. It is still not suited for specific task mentioned below:
 
 Not recommended when you do not have the budget or the expertise to operate a DBMS. In such cases, Excel/CSV/Flat Files could do just fine.
+
+The Future of Databases & Database Management : 
+-----------------------------------------------
+Data is the lifeblood of so many of the applications and processes that drive our world. How to collect, store, and sort a continuously growing mountain 
+of data will be a critical question to answer for database management platforms and their developers.
+Just like the beginning of the history of databases and database management, the future will be closely tied to overall developments in processing and 
+computing. Machine learning and artificial intelligence will continue to improve and become integral parts of databases and their management. Faster and 
+more efficient database management tools will come to market while industry standards continue to iterate based on latest developments. In the end, the 
+future looks incredibly bright for the database industry.
 
 Summary
 -------

@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -818,6 +818,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
     </tr>
     <tr>
       <td align="center"><a href="https://github.com/Talib-Hossain"><img src="https://avatars.githubusercontent.com/u/83373885?v=4?s=50" width="50px;" alt="Syed Talib Hossain"/><br /><sub><b>Syed Talib Hossain</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Talib-Hossain" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/JaiMehrotra02"><img src="https://avatars.githubusercontent.com/u/94130223?v=4?s=50" width="50px;" alt="Jai Mehrotra"/><br /><sub><b>Jai Mehrotra</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=JaiMehrotra02" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/commits?author=JaiMehrotra02" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

@@ -156,6 +156,16 @@
         "doc",
         "code"
       ]
+    },
+    {
+      "login": "ShuvamBag",
+      "name": "Shuvam Bag",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82321197?v=4",
+      "profile": "https://github.com/ShuvamBag",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

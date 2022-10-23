@@ -1,0 +1,1 @@
+requiredTitleRegex: '^docs: add ([a-zA-Z0-9-]+) as a contributor for [a-zA-Z0-9, ]+$'

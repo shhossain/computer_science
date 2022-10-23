@@ -126,7 +126,7 @@ LinearSearch( A : Array of items, Target : item to be searched)
     }
 
 ```
-# C# CODE
+## C# (C SHARP)
 ```csharp
 // C# Recursive Code For Linear Search
 using System;
@@ -168,19 +168,17 @@ static class Test {
 }
 
 ```
-   **Output:**```
-   ```
-The element 4 is found at 4 index of the given array.```
+   **Output:**
 ```
+The element 4 is found at 4 index of the given array.
 ```
-The e Complexity: O(N)##
-```
-```Auxiliary Space: O(N), for using recursive stack space.##```
-=======
+> The time Complexity: **O(N)**
+
+> Auxiliary Space: **O(N)**, for using recursive stack space.
 ## Ruby
 ```r
 
-    def linear_search(array, element)
+def linear_search(array, element)
   i = 0
   while i < array.length
       if array[i] == element

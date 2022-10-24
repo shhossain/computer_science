@@ -1,4 +1,7 @@
 # Central Processing Unit(CPU)
+
+A control unit, or CU, is circuitry within a computer's processor that directs operations. It instructs the memory, logic unit, and both output and input devices of the computer on how to respond to the program's instructions. CPUs and GPUs are examples of devices that use control units.
+
 A central processing unit (CPU) is an important part of every computer. The CPU sends signals to control the other parts of the computer, almost like how a brain controls a body.
 The CPU is an electronic machine that works on a list of computer things to do, called instructions. It reads the list of instructions and runs (executes) each one in order. A list of instructions that a CPU can run is a computer program. A CPU can process more than one instruction at a time on sections called Cores. A CPU with four cores may process four programs at once.
 The CPU itself is made of three main components. They are:

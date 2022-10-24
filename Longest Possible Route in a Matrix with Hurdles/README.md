@@ -150,9 +150,9 @@ int main()
 	return 0;
 }
 
-~~~
-## JAVA Code Explanation
-~~~
+```
+### JAVA Code Explanation
+```
 
 import java.io.*;
  

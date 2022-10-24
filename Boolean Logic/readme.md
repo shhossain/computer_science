@@ -2,6 +2,8 @@
 
 Boolean logic is a branch of mathematics that deals with the values of truth and falsehood. It is a system of logic that uses only two values, 0 and 1, to represent false and true, respectively. It is also known as Boolean algebra, named after George Boole, who first described it in 1854.
 
+Programs use simple comparisons to help make decisions. Boolean logic is a form of algebra where all values are either True or False. These values of true and false are used to test the conditions that selection and iteration are based around.
+
 ## Common Boolean Operators
 
 | Operator | Name |               Description               |

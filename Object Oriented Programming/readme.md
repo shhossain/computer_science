@@ -3,6 +3,8 @@
 Object Oriented Programming is a fundamental programming paradigm which is based on the concepts of objects and data. 
 It is the standard way of code that every programmer has to abide by for better readability and reusability of the code. 
 
+Object-oriented programming is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields, and code, in the form of procedures. A common feature of objects is that procedures are attached to them and can access and modify the object's data fields.
+
 ### Objects
 * An object can contain two types of data:
 	1. Attributes.

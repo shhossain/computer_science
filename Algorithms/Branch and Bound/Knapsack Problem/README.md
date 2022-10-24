@@ -27,8 +27,11 @@ The best first approach arrives at an optimal solition faster than breadth first
 ## Implementation:
 
 * [C](#c)
-<!-- * [C++](#cpp) -->
 * [Python](#python)
+* [JAVA](#JAVA)
+* [C#](#C#)
+* [CPP](#cpp)
+
 
 
 ## C
@@ -171,6 +174,281 @@ while pq.length != 0:
 print("\nEND maxprofit = ", maxprofit, "nodes generated = ", nodes_generated)
 print("bestitems = ", bestitems)
 ```
+
+## JAVA
+```JAVA
+
+
+
+/* A Naive recursive implementation of 0-1 Knapsack problem */
+
+class Knapsack { 
+
+  
+
+    // A utility function that returns maximum of two integers 
+
+    static int max(int a, int b) { return (a > b) ? a : b; } 
+
+  
+
+    // Returns the maximum value that can  
+
+    // be put in a knapsack of capacity W 
+
+    static int knapSack(int W, int wt[], int val[], int n) 
+
+    { 
+
+        // Base Case 
+
+        if (n == 0 || W == 0) 
+
+            return 0; 
+
+  
+
+        // If weight of the nth item is more  
+
+        // than Knapsack capacity W, then 
+
+        // this item cannot be included in the optimal solution 
+
+        if (wt[n - 1] > W) 
+
+            return knapSack(W, wt, val, n - 1); 
+
+  
+
+        // Return the maximum of two cases: 
+
+        // (1) nth item included 
+
+        // (2) not included 
+
+        else
+
+            return max(val[n - 1] + knapSack(W - wt[n - 1], wt, val, n - 1), 
+
+                       knapSack(W, wt, val, n - 1)); 
+
+    } 
+
+  
+
+    // Driver program to test above function 
+
+    public static void main(String args[]) 
+
+    { 
+
+        int val[] = new int[] { 60, 100, 120 }; 
+
+        int wt[] = new int[] { 10, 20, 30 }; 
+
+        int W = 50; 
+
+        int n = val.length; 
+
+        System.out.println(knapSack(W, wt, val, n)); 
+
+    } 
+} 
+
+
+~~~
+## C#
+```C#
+~~~
+using System;
+class solution {
+ 
+
+    // A utility function that returns
+
+    // maximum of two integers
+
+    static int max(int a, int b) 
+
+    { 
+
+         return (a > b) ? a : b; 
+
+    }
+ 
+
+    // Returns the maximum value that can
+
+    // be put in a knapsack of capacity W
+
+    static int knapSack(int W, int[] wt, 
+
+                        int[] val, int n)
+
+    {
+ 
+
+        // Base Case
+
+        if (n == 0 || W == 0)
+
+            return 0;
+ 
+
+        // If weight of the nth item is
+
+        // more than Knapsack capacity W,
+
+        // then this item cannot be
+
+        // included in the optimal solution
+
+        if (wt[n - 1] > W)
+
+            return knapSack(W, wt, 
+
+                            val, n - 1);
+ 
+
+        // Return the maximum of two cases:
+
+        // (1) nth item included
+
+        // (2) not included
+
+        else
+
+            return max(val[n - 1]
+
+                       + knapSack(W - wt[n - 1], wt,
+
+                                  val, n - 1),
+
+                       knapSack(W, wt, val, n - 1));
+
+    }
+ 
+
+    // Driver code
+
+    public static void Main()
+
+    {
+
+        int[] val = new int[] { 60, 100, 120 };
+
+        int[] wt = new int[] { 10, 20, 30 };
+
+        int W = 50;
+
+        int n = val.Length;
+ 
+
+        Console.WriteLine(knapSack(W, wt, val, n));
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+## CPP
+```cpp
+
+// C++ program to solve fractional
+// Knapsack Problem
+#include <bits/stdc++.h>
+  
+using namespace std;
+  
+// Structure for an item which stores
+// weight & corresponding value of Item
+struct Item {
+    int value, weight;
+  
+    // Constructor
+    Item(int value, int weight)
+        : value(value), weight(weight)
+    {
+    }
+};
+  
+// Comparison function to sort Item
+// according to val/weight ratio
+bool cmp(struct Item a, struct Item b)
+{
+    double r1 = (double)a.value / a.weight;
+    double r2 = (double)b.value / b.weight;
+    return r1 > r2;
+}
+  
+// Main greedy function to solve problem
+double fractionalKnapsack(struct Item arr[],
+                          int N, int size)
+{
+    // Sort Item on basis of ratio
+    sort(arr, arr + size, cmp);
+  
+    // Current weight in knapsack
+    int curWeight = 0;
+  
+    // Result (value in Knapsack)
+    double finalvalue = 0.0;
+  
+    // Looping through all Items
+    for (int i = 0; i < size; i++) {
+  
+        // If adding Item won't overflow,
+        // add it completely
+        if (curWeight + arr[i].weight <= N) {
+            curWeight += arr[i].weight;
+            finalvalue += arr[i].value;
+        }
+  
+        // If we can't add current Item,
+        // add fractional part of it
+        else {
+            int remain = N - curWeight;
+            finalvalue += arr[i].value
+                          * ((double)remain
+                             / arr[i].weight);
+  
+            break;
+        }
+    }
+  
+    // Returning final value
+    return finalvalue;
+}
+  
+// Driver Code
+int main()
+{
+    // Weight of knapsack
+    int N = 60;
+  
+    // Given weights and values as a pairs
+    Item arr[] = { { 100, 10 },
+                   { 280, 40 },
+                   { 120, 20 },
+                   { 120, 24 } };
+  
+    int size = sizeof(arr) / sizeof(arr[0]);
+  
+    // Function Call
+    cout << "Maximum profit earned = "
+         << fractionalKnapsack(arr, N, size);
+    return 0;
+}
+
+```
+
 
 
 **Time complexity:** O(2*n)

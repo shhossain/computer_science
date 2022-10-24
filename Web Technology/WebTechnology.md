@@ -1,5 +1,8 @@
 <h1>Web Technology</h1>
 Web Technology refers to the various tools and techniques that are utilized in the process of communication between different types of devices over the internet. A web browser is used to access web pages. Web browsers can be defined as programs that display text, data, pictures, animation, and video on the Internet. Hyperlinked resources on the World Wide Web can be accessed using software interfaces provided by Web browsers.
+
+Web technologies refers to the way computers/devices communicate. with each other using mark up languages. It invo It is communication. across the web, and create, deliver or manage web content using hypertext markup language (HTML).
+
 <h2>Web Technology can be classified into the following sections:</h2>
 
 <h3></ul><li>World Wide Web (WWW)</li></h3>

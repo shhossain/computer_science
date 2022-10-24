@@ -6,31 +6,31 @@ The implementation could be an array-like (static and contiguous) or a linked-li
 #### Enqueue
 Add item to the rear of the queue
 ##### Example
-```
+``
 let queue = [4, 1, 0, 2];
 queue.enqueue(5);
 // queue is now [4, 1, 0, 2, 5]
-```
+``
 #### Dequeue
 Remove the item from the front of the queue
 ##### Example
 
-```
+``
 let queue = [4, 1, 0, 2];
 let head = queue.dequeue();
 // head is 4
 // queue is now [1, 0, 2]
-```
+``
 #### Peek
 Some programming languages provides `peek` method to allow checking the value of the current head without removing the value from the queue.
 ##### Example
 
-```
+``
 let queue = [4, 1, 0, 2];
 let currentHead = queue.peek();
 // currentHead is 4
 // queue remains [4, 1, 0, 2]
-```
+``
 
 The above shows the implementation of a simple Queue.
 
@@ -45,7 +45,7 @@ If the last position is full and the first position is empty, we can not insert 
 #### Example to show the Implementaion of Circular Queue
 
 ##### Dequeue and then enqueue
-```
+``
 let size = 4
 let queue = [4, 1, 0, 2];
 let head = queue.dequeue();
@@ -55,7 +55,7 @@ let head = queue.dequeue();
 enqueue(8);
 /* queue is now [8, 1, 0, 2]. This operation could not be done in a simple queue since the last position of the queue is still occupied. According to simple Queue the queue is full. */
 
-```
+``
 
 ### Double Ended Queue
 
@@ -65,32 +65,32 @@ Double Ended Queue or Deque is a type of queue where insertion and deletions can
 
 ##### Insert from front
 
-```
+``
 let queue = [4, 1, 0, 2];
 queue.InsertFront(9);
 //The queue is now [9, 4, 1, 0, 2]
-```
+``
 ##### Insert from end
 
-```
+``
 let queue = [4, 1, 0, 2];
 queue.InsertEnd(9);
 //The queue is now [4, 1, 0, 2, 9]
-```
+``
 ##### Delete from front
 
-```
+``
 let queue = [4, 1, 0, 2];
 queue.DeleteFront();
 //The queue is now [1, 0, 2]. 4 has been deleted
-```
+``
 ##### Delete from end
 
-```
+``
 let queue = [4, 1, 0, 2];
 queue.DeleteEnd();
 //The queue is now [4, 1, 0]. 2 has been deleted
-```
+``
 
 
 There are 2 types of Deque:

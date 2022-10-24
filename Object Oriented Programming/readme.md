@@ -1,7 +1,11 @@
 # Object Oriented Programming (OOP)
 
 Object Oriented Programming is a fundamental programming paradigm which is based on the concepts of objects and data. 
-It is the standard way of code that every programmer has to abide by for better readability and reusability of the code. 
+It is the standard way of code that every programmer has to abide by for better readability and reusability of the code.
+
+Object-oriented programming (OOP) is a style of programming characterized by the identification of classes of objects closely linked with the methods (functions) with which they are associated. It also includes ideas of inheritance of attributes and methods.
+
+
 
 ### Objects
 * An object can contain two types of data:

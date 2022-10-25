@@ -481,6 +481,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "yash-ch",
+      "name": "Yash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66888087?v=4",
+      "profile": "https://github.com/yash-ch",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

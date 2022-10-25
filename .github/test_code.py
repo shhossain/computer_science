@@ -390,25 +390,25 @@ if __name__ == "__main__":
     # .github/workflows/test_code.yml |   9 +
     # test.md                         | 586 ++++++++++++++++++++++++++++++++++++++++
     # 3 files changed, 605 insertions(+), 7 deletions(-)
-    if len(sys.argv) < 2:
-        Log.error("Nothing is given")
-        sys.exit(1)
+    # if len(sys.argv) < 2:
+    #     Log.error("Nothing is given")
+    #     sys.exit(1)
 
     # git config --global user.email hossain0338@gmail.com
     # git config --global user.name shhossain
     # git remote set-url origin https://{TOKEN}@github.com/shhossain/computer_science.git
     # text=$(git log -1 --stat)
 
-    token = sys.argv[1]
+    # token = sys.argv[1]
 
-    cmd1 = f"git config --global user.email hossain0338@gmail.com"
-    cmd2 = f"git config --global user.name shhossain"
-    cmd3 = f"git remote set-url origin https://{token}@github.com/shhossain/computer_science.git"
+    # cmd1 = f"git config --global user.email hossain0338@gmail.com"
+    # cmd2 = f"git config --global user.name shhossain"
+    # cmd3 = f"git remote set-url origin https://{token}@github.com/shhossain/computer_science.git"
     cmd4 = f"git log -1 --stat"
 
-    os.system(cmd1)
-    os.system(cmd2)
-    os.system(cmd3)
+    # os.system(cmd1)
+    # os.system(cmd2)
+    # os.system(cmd3)
     p = subprocess.Popen(cmd4, stdout=subprocess.PIPE, shell=True)
     text = p.stdout.read().decode('utf-8')
 

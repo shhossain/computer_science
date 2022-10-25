@@ -274,7 +274,7 @@ class Test:
                         codes[language] = []
                     codes[language].append((code, n+1))
 
-        Log.debug(f"{self.normal_test} | Codes: {len(codes)}")
+        Log.debug(f"{self.readme_path} | Codes: {len(codes)}")
         return codes
 
     # def test(self):
@@ -405,7 +405,7 @@ if __name__ == "__main__":
     # cmd2 = f"git config --global user.name shhossain"
     # cmd3 = f"git remote set-url origin https://{token}@github.com/shhossain/computer_science.git"
     cmd3 = "git fetch"
-    cmd4 = f"git diff test origin/test"
+    cmd4 = f"git diff test origin/main"
 
     # os.system(cmd1)
     # os.system(cmd2)
@@ -419,7 +419,7 @@ if __name__ == "__main__":
         f.write(text)
 
     print("=================================")
-    # print(text)
+    print(text)
     print("=================================")
 
     # text = os.environ["text"]

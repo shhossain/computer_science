@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-37-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -846,6 +846,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
     <tr>
       <td align="center"><a href="https://github.com/PriyanshiDavid"><img src="https://avatars.githubusercontent.com/u/71930453?v=4?s=50" width="50px;" alt="Priyanshi David"/><br /><sub><b>Priyanshi David</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=PriyanshiDavid" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/ishancode-dev"><img src="https://avatars.githubusercontent.com/u/115942220?v=4?s=50" width="50px;" alt="Ishan Mondal"/><br /><sub><b>Ishan Mondal</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ishancode-dev" title="Documentation">📖</a></td>
+      <td align="center"><a href="http://expy.bio/NikhilShrivastava"><img src="https://avatars.githubusercontent.com/u/20610444?v=4?s=50" width="50px;" alt="Nikhil Shrivastava"/><br /><sub><b>Nikhil Shrivastava</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=NikhilShrivastava" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

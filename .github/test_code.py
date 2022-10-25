@@ -154,9 +154,9 @@ class Code:
     def __init__(self, code, language, file_path=None) -> None:
         self.code = code
         Log.debug("Language: " + language)
+        self.file_path = file_path
         self.language = self.get_language(language)
         self.extension = SUPPORTED_LANGUAGE[self.language]['extension']
-        self.file_path = file_path
         self.analyze_code()
         self.command = self.get_command()
 
@@ -280,7 +280,7 @@ class Test:
                         codes[language] = []
                     codes[language].append((code, n+1))
 
-        Log.debug(f"Codes: {len(codes)}")
+        Log.debug(f"{self.normal_test} | Codes: {len(codes)}")
         return codes
 
     # def test(self):
@@ -385,4 +385,26 @@ def test_all():
 
 
 if __name__ == "__main__":
-    test_all()
+    # test_all()
+    # commit f477817115cd3584a640613f70d5ef0bf1c96573 (HEAD -> test, origin/test)
+    # Author: Sifat <hossain0338@gmail.com>
+    # Date:   Tue Oct 25 21:41:46 2022 +0600
+
+    # language fix
+
+    # M       .github/test_code.py
+    # M       .github/workflows/test_code.yml
+
+    text = os.environ["text"]
+
+    files = []
+    lines = text.splitlines()
+
+    for line in lines:
+        if line.startswith("M"):
+            files.append(line.split("M")[1].strip())
+        
+        elif line.startswith("A"):
+            files.append(line.split("A")[1].strip())
+        
+        

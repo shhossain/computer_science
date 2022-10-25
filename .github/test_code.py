@@ -405,7 +405,7 @@ if __name__ == "__main__":
     # cmd2 = f"git config --global user.name shhossain"
     # cmd3 = f"git remote set-url origin https://{token}@github.com/shhossain/computer_science.git"
     cmd3 = "git fetch"
-    cmd4 = f"git diff test origin/main"
+    cmd4 = f"git diff test origin/test"
 
     # os.system(cmd1)
     # os.system(cmd2)
@@ -415,21 +415,12 @@ if __name__ == "__main__":
     text = p.stdout.read().decode('utf-8')
 
     print("=================================")
-    print(text)
+    # print(text)
     print("=================================")
 
     # text = os.environ["text"]
 
-    files = []
-    lines = text.splitlines()
-
-    file_pat = re.compile(r"\s*(\S+\.md)\s*\|\s*\d+\s*\+")
-    for line in lines:
-        if file_pat.match(line):
-            files.append(file_pat.match(line).group(1))
-
-    
-    test_all(files)
+    test_all([text])
     
     
         

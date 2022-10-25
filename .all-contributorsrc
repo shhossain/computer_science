@@ -355,6 +355,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "NikhilShrivastava",
+      "name": "Nikhil Shrivastava",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20610444?v=4",
+      "profile": "http://expy.bio/NikhilShrivastava",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

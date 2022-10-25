@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-42-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -851,6 +851,9 @@ Crypto currency is a digital currency in which encryption techniques are used to
       <td align="center"><a href="https://github.com/rishiwardhan"><img src="https://avatars.githubusercontent.com/u/88772100?v=4?s=50" width="50px;" alt="L.RISHIWARDHAN"/><br /><sub><b>L.RISHIWARDHAN</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=rishiwardhan" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/DevTMK"><img src="https://avatars.githubusercontent.com/u/47377566?v=4?s=50" width="50px;" alt="Rahul RK"/><br /><sub><b>Rahul RK</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=DevTMK" title="Documentation">📖</a></td>
       <td align="center"><a href="https://www.linkedin.com/company/nscc-ggv/"><img src="https://avatars.githubusercontent.com/u/82573863?v=4?s=50" width="50px;" alt="Nishant Wankhade"/><br /><sub><b>Nishant Wankhade</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=NishantWankhade" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/pritika163"><img src="https://avatars.githubusercontent.com/u/102177744?v=4?s=50" width="50px;" alt="pritika163"/><br /><sub><b>pritika163</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=pritika163" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

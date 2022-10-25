@@ -88,6 +88,10 @@ def get_random_file_name(extension):
     return rs + extension
 
 
+def java_file_name(code):
+    return code.split("public class")[1].split("{")[0].strip()
+
+
 ERRORS = []
 
 
@@ -159,7 +163,10 @@ class Code:
         raise LANGUAGE_NOT_SUPPORTED(f"Language {language} is not supported")
 
     def run(self):
-        file_name = get_random_file_name(self.extension)
+        if self.extension == ".java":
+            file_name = java_file_name(self.code)
+        else:
+            file_name = get_random_file_name(self.extension)
         if self.extension == ".cs":
             return self.run_dotnet(file_name)
 

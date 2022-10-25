@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-46-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-47-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -857,6 +857,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
       <td align="center"><a href="https://github.com/AnjumanHasan"><img src="https://avatars.githubusercontent.com/u/82674743?v=4?s=50" width="50px;" alt="Anjuman Hasan"/><br /><sub><b>Anjuman Hasan</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=AnjumanHasan" title="Documentation">📖</a></td>
       <td align="center"><a href="https://linktr.ee/asthavarshney"><img src="https://avatars.githubusercontent.com/u/97240696?v=4?s=50" width="50px;" alt="Astha Varshney "/><br /><sub><b>Astha Varshney </b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Asthavarshneyy" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/Gcettbdeveloper"><img src="https://avatars.githubusercontent.com/u/114204175?v=4?s=50" width="50px;" alt="Gcettbdeveloper"/><br /><sub><b>Gcettbdeveloper</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Gcettbdeveloper" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://elston-website.web.app"><img src="https://avatars.githubusercontent.com/u/66341506?v=4?s=50" width="50px;" alt="Elston Tan"/><br /><sub><b>Elston Tan</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Elstuhn" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

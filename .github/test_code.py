@@ -405,7 +405,7 @@ if __name__ == "__main__":
     # cmd2 = f"git config --global user.name shhossain"
     # cmd3 = f"git remote set-url origin https://{token}@github.com/shhossain/computer_science.git"
     cmd3 = "git fetch"
-    cmd4 = f"git diff test origin/main"
+    cmd4 = f"git diff test origin/test"
 
     # os.system(cmd1)
     # os.system(cmd2)
@@ -414,12 +414,16 @@ if __name__ == "__main__":
     p = subprocess.Popen(cmd4, stdout=subprocess.PIPE, shell=True)
     text = p.stdout.read().decode('utf-8')
 
+    new_text = ""
+    for line in text.splitlines():
+        new_text += line[1:] + "\n"
+
     file_name = get_random_file_name("md")
     with open(file_name, "w") as f:
-        f.write(text)
+        f.write(new_text)
 
     print("=================================")
-    print(text)
+    print(new_text)
     print("=================================")
 
     # text = os.environ["text"]

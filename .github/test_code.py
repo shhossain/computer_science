@@ -419,7 +419,7 @@ if __name__ == "__main__":
         f.write(new_text)
 
     print("=================================")
-    # print(new_text)
+    print(new_text)
     print("=================================")
 
     # text = os.environ["text"]

@@ -245,6 +245,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "its-red-eagle",
+      "name": "Vikash Patel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77643994?v=4",
+      "profile": "https://github.com/its-red-eagle",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

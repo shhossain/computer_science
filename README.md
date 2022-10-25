@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-78-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-79-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -899,6 +899,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
     </tr>
     <tr>
       <td align="center"><a href="https://github.com/FercueNat"><img src="https://avatars.githubusercontent.com/u/113535859?v=4?s=50" width="50px;" alt="FercueNat"/><br /><sub><b>FercueNat</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=FercueNat" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://khareyash05.github.io/home/"><img src="https://avatars.githubusercontent.com/u/60147732?v=4?s=50" width="50px;" alt="Yash Khare"/><br /><sub><b>Yash Khare</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=khareyash05" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

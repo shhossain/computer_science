@@ -436,6 +436,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Elstuhn",
+      "name": "Elston Tan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66341506?v=4",
+      "profile": "https://elston-website.web.app",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

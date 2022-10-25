@@ -64,7 +64,7 @@ SUPPORTED_LANGUAGE = {
     },
     "c#": {
         "extension": ".cs",
-        "alias": ["cs", "c#"],
+        "alias": ["cs", "c#", "csharp"],
         "win_cmd": "dotnet new console -o {file_name_without_extension} && move {file_name} {file_name_without_extension} && dotnet run --project{file_name_without_extension}",
         "linux_cmd": "dotnet new console -o {file_name_without_extension} && mv {file_name} {file_name_without_extension} && dotnet run --project{file_name_without_extension}",
     },
@@ -241,7 +241,7 @@ class Test:
                         codes[language] = []
                     codes[language].append((code, n+1))
 
-        Log.debug(f"Codes: {len(codes)}")
+        Log.debug(f"{self.readme_path}| Codes: {len(codes)}")
         return codes
 
     # def test(self):
@@ -262,7 +262,8 @@ class Test:
         threads = []
         for language in self.codes:
             for code, line_number in self.codes[language]:
-                Log.info(f"Testing code in line {line_number}")
+                Log.info(
+                    f"{self.readme_path}| Testing code in line {line_number}")
                 t = threading.Thread(target=self.test_code, args=(
                     code, language, line_number))
                 threads.append(t)
@@ -281,18 +282,19 @@ class Test:
         error = False
         try:
             output = Code(code, language).run()
-            Log.debug(f"{language} : {line_number} => ", output)
+            Log.debug(
+                f"{self.readme_path}| {language} : {line_number} => ", output)
         except LANGUAGE_NOT_SUPPORTED as e:
             Log.error(e)
             error = True
         except CODE_EXECUTION_ERROR as e:
-            Log.error(f"{language} code execution error in " +
+            Log.error(f"{self.readme_path}| {language} code execution error in " +
                       self.readme_path + " line " + str(line_number))
             Log.error(e)
             error = True
         if not error:
             Log.info(
-                f"{language} code in line {line_number} executed successfully")
+                f"{self.readme_path}| {language} code in line {line_number} executed successfully")
 
     def test(self):
         self.threaded_test()

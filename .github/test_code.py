@@ -81,7 +81,7 @@ SUPPORTED_LANGUAGE = {
         "win_cmd": "echo 'bash not supported on windows' {file_name}",
         "linux_cmd": "echo {file_name}",
     }
-    
+
 }
 
 
@@ -166,10 +166,6 @@ class Code:
             self.code = re.sub(r'#include\s+<\w+>',
                                '#include <bits/stdc++.h>', self.code)
             # change all header to <bits/stdc++.h>
-
-
-
-
 
     def get_command(self):
         if sys.platform == 'win32':
@@ -352,7 +348,7 @@ class Test:
 #         sys.exit(1)
 
 
-def test_all(files:list):
+def test_all(files: list):
     # files = []
     # for root, dirs, file in os.walk('.'):
     #     for f in file:
@@ -400,17 +396,17 @@ if __name__ == "__main__":
     # text=$(git log -1 --stat)
 
     # token = sys.argv[1]
-
-    # cmd1 = f"git config --global user.email hossain0338@gmail.com"
-    # cmd2 = f"git config --global user.name shhossain"
-    # cmd3 = f"git remote set-url origin https://{token}@github.com/shhossain/computer_science.git"
     cmd3 = "git fetch"
-    cmd4 = f"git diff test origin/main"
+    cmd5 = "git rev-parse --abbrev-ref HEAD"
 
-    # os.system(cmd1)
-    # os.system(cmd2)
-    # os.system(cmd3)
     os.system(cmd3)
+    p = subprocess.Popen(cmd5, stdout=subprocess.PIPE, shell=True)
+    (output, err) = p.communicate()
+    p_status = p.wait()
+    branch_name = output.decode("utf-8").strip()
+    Log.info(f"Branch name: {branch_name}")
+    cmd4 = f"git diff {branch_name} origin/main"
+
     p = subprocess.Popen(cmd4, stdout=subprocess.PIPE, shell=True)
     text = p.stdout.read().decode('utf-8')
 
@@ -423,12 +419,9 @@ if __name__ == "__main__":
         f.write(new_text)
 
     print("=================================")
-    print(new_text)
+    # print(new_text)
     print("=================================")
 
     # text = os.environ["text"]
 
     test_all([file_name])
-    
-    
-        

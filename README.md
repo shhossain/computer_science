@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-98-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-99-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -923,6 +923,9 @@ Crypto currency is a digital currency in which encryption techniques are used to
       <td align="center"><a href="https://github.com/SourabhJoshi209"><img src="https://avatars.githubusercontent.com/u/69594540?v=4?s=50" width="50px;" alt="SourabhJoshi209"/><br /><sub><b>SourabhJoshi209</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=SourabhJoshi209" title="Documentation">📖</a></td>
       <td align="center"><a href="https://bio.link/stefantaitano"><img src="https://avatars.githubusercontent.com/u/85418632?v=4?s=50" width="50px;" alt="Stefan Taitano"/><br /><sub><b>Stefan Taitano</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=codewithfan" title="Documentation">📖</a></td>
       <td align="center"><a href="http://linkedin.com/in/anmspro"><img src="https://avatars.githubusercontent.com/u/33668152?v=4?s=50" width="50px;" alt="Abu Noman Md. Sakib"/><br /><sub><b>Abu Noman Md. Sakib</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=anmspro" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="http://skyrunner360.pythonanywhere.com"><img src="https://avatars.githubusercontent.com/u/44318840?v=4?s=50" width="50px;" alt="Rishi Mathur"/><br /><sub><b>Rishi Mathur</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=skyrunner360" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

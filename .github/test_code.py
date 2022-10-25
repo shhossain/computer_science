@@ -386,14 +386,16 @@ def test_all(files:list):
 
 if __name__ == "__main__":
     # test_all()
-    # commit f477817115cd3584a640613f70d5ef0bf1c96573 (HEAD -> test, origin/test)
+    # commit 1328959757b8c268b37c3277ec29da2f1161d5b2 (HEAD -> test, origin/test)
     # Author: Sifat <hossain0338@gmail.com>
-    # Date:   Tue Oct 25 21:41:46 2022 +0600
+    # Date:   Tue Oct 25 22:14:00 2022 +0600
 
-    # language fix
+    #     test code
 
-    # M       .github/test_code.py
-    # M       .github/workflows/test_code.yml
+    # .github/test_code.py            |  17 +-
+    # .github/workflows/test_code.yml |   9 +
+    # test.md                         | 586 ++++++++++++++++++++++++++++++++++++++++
+    # 3 files changed, 605 insertions(+), 7 deletions(-)
 
     text = os.environ["text"]
 
@@ -401,11 +403,10 @@ if __name__ == "__main__":
     lines = text.splitlines()
 
     for line in lines:
-        if line.startswith("M"):
-            files.append(line.split("M")[1].strip())
-        
-        elif line.startswith("A"):
-            files.append(line.split("A")[1].strip())
+        if "|" in line:
+            line = line.split("|")[1].strip()
+            if line.endswith(".md"):
+                files.append(line)
     
     test_all(files)
     

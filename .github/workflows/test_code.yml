@@ -81,7 +81,7 @@ jobs:
           git config --global user.email hossain0338@gmail.com
           git config --global user.name shhossain
           git remote set-url origin https://${{secrets.TOKEN}}@github.com/shhossain/computer_science.git
-          text = $(git log --name-status HEAD^..HEAD)
+          text = $(git log -1 --stat)
           echo "export text=$text" >> ~/.bashrc
       
       - name: Run test_code.py

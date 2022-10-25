@@ -414,13 +414,17 @@ if __name__ == "__main__":
     p = subprocess.Popen(cmd4, stdout=subprocess.PIPE, shell=True)
     text = p.stdout.read().decode('utf-8')
 
+    file_name = get_random_file_name("md")
+    with open(file_name, "w") as f:
+        f.write(text)
+
     print("=================================")
     # print(text)
     print("=================================")
 
     # text = os.environ["text"]
 
-    test_all([text])
+    test_all([file_name])
     
     
         

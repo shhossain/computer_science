@@ -67,11 +67,6 @@ jobs:
         run: |
           pip install termcolor
       
-      - name: Set Env
-        run: |
-          git config --global user.email hossain0338@gmail.com
-          git config --global user.name shhossain
-          git remote set-url origin https://${{secrets.TOKEN}}@github.com/shhossain/computer_science.git
       
       - name: Run test_code.py
         run: |

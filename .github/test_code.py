@@ -414,7 +414,7 @@ if __name__ == "__main__":
     for line in text.splitlines():
         new_text += line[1:] + "\n"
 
-    file_name = get_random_file_name("md")
+    file_name = get_random_file_name(".md")
     with open(file_name, "w") as f:
         f.write(new_text)
 

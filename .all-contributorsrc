@@ -905,6 +905,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "skyrunner360",
+      "name": "Rishi Mathur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44318840?v=4",
+      "profile": "http://skyrunner360.pythonanywhere.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

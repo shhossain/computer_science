@@ -358,12 +358,12 @@ class Test:
 #         sys.exit(1)
 
 
-def test_all():
-    files = []
-    for root, dirs, file in os.walk('.'):
-        for f in file:
-            if f.endswith('.md'):
-                files.append(os.path.join(root, f))
+def test_all(files:list):
+    # files = []
+    # for root, dirs, file in os.walk('.'):
+    #     for f in file:
+    #         if f.endswith('.md'):
+    #             files.append(os.path.join(root, f))
 
     Log.info(f"Testing {len(files)} files")
     threads = []
@@ -406,5 +406,8 @@ if __name__ == "__main__":
         
         elif line.startswith("A"):
             files.append(line.split("A")[1].strip())
-        
+    
+    test_all(files)
+    
+    
         

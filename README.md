@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-56-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-57-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -869,6 +869,9 @@ Crypto currency is a digital currency in which encryption techniques are used to
       <td align="center"><a href="https://github.com/jeremiaaxel"><img src="https://avatars.githubusercontent.com/u/57858415?v=4?s=50" width="50px;" alt="Jeremia Axel"/><br /><sub><b>Jeremia Axel</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=jeremiaaxel" title="Documentation">📖</a></td>
       <td align="center"><a href="https://in.linkedin.com/in/akhil-soni-9827181a1"><img src="https://avatars.githubusercontent.com/u/58397226?v=4?s=50" width="50px;" alt="Akhil Soni"/><br /><sub><b>Akhil Soni</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=akhil-maker" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/DevZahraShahid"><img src="https://avatars.githubusercontent.com/u/111266434?v=4?s=50" width="50px;" alt="Zahra Shahid"/><br /><sub><b>Zahra Shahid</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=DevZahraShahid" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/Mihir20K"><img src="https://avatars.githubusercontent.com/u/112269999?v=4?s=50" width="50px;" alt="Mihir20K"/><br /><sub><b>Mihir20K</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Mihir20K" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

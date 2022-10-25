@@ -61,15 +61,6 @@ jobs:
         with:
           ruby-version: '3.0'
       
-      # Setup R
-      - uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: '4.1.0'
-      
-      
-      
-      
-      
         
       # install dependencies
       - name: Install dependencies
@@ -81,7 +72,7 @@ jobs:
           git config --global user.email hossain0338@gmail.com
           git config --global user.name shhossain
           git remote set-url origin https://${{secrets.TOKEN}}@github.com/shhossain/computer_science.git
-          text = $(git log -1 --stat)
+          text=$(git log -1 --stat)
           echo "export text=$text" >> ~/.bashrc
       
       - name: Run test_code.py

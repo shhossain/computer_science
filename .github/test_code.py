@@ -75,12 +75,6 @@ SUPPORTED_LANGUAGE = {
         "win_cmd": "ruby {file_name}",
         "linux_cmd": "ruby {file_name}",
     },
-    "r" : {
-        "extension": ".r",
-        "alias": ["r"],
-        "win_cmd": "Rscript {file_name}",
-        "linux_cmd": "Rscript {file_name}",
-    },
     "bash": {
         "extension": ".sh",
         "alias": ["sh", "bash"],

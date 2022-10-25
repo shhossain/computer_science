@@ -244,7 +244,6 @@ class GFG
 }
 
 
-
 ```
 
 ## JAVA 
@@ -471,11 +470,10 @@ if __name__ == '__main__':
 	n = len(arr)
 	tugOfWar(arr, n)
 
-
 ```
+
 ### JavaScript
 ```js
-<script>
 // javascript program for Tug of war
      var min_diff;
  

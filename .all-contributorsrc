@@ -310,6 +310,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "SreeHaran",
+      "name": "Sree Haran",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62993067?v=4",
+      "profile": "https://sreeharan.github.io",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

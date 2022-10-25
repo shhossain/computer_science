@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-77-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-78-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -896,6 +896,9 @@ Crypto currency is a digital currency in which encryption techniques are used to
       <td align="center"><a href="https://github.com/Vovka1759"><img src="https://avatars.githubusercontent.com/u/75867274?v=4?s=50" width="50px;" alt="Vovka1759"/><br /><sub><b>Vovka1759</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Vovka1759" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/Nijin-P-S"><img src="https://avatars.githubusercontent.com/u/101330853?v=4?s=50" width="50px;" alt="Nijin"/><br /><sub><b>Nijin</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Nijin-P-S" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/avinilcode"><img src="https://avatars.githubusercontent.com/u/111761529?v=4?s=50" width="50px;" alt="Avinil Bedarkar"/><br /><sub><b>Avinil Bedarkar</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=avinilcode" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/FercueNat"><img src="https://avatars.githubusercontent.com/u/113535859?v=4?s=50" width="50px;" alt="FercueNat"/><br /><sub><b>FercueNat</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=FercueNat" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

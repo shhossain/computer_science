@@ -5,6 +5,7 @@
   "imageSize": 50,
   "commit": false,
   "commitConvention": "angular",
+  "contributorsSortAlphabetically": false,
   "contributors": [
     {
       "login": "shhossain",
@@ -934,7 +935,7 @@
       ]
     }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 6,
   "skipCi": true,
   "repoType": "github",
   "repoHost": "https://github.com",

@@ -2,6 +2,8 @@
 
 An instruction set, used in the Instruction Set Architecture, is code that the CPU can understand. The language is 1s and 0s, i.e. machine language. It contains instructions or tasks that control the movement of bits within the processor. Systems programmers use assembly language, which is a type of programming language to communicate with the processor. The statements are assembled into machine language. Assembly language is a lot like machine language with labels because it would be hard to keep track of a series of binary digit code.
 
+In computer science, an instruction set architecture, also called computer architecture, is an abstract model of a computer. A device that executes instructions described by that ISA, such as a central processing unit, is called an implementation.
+
 The instruction set consists of a limited set of unique codes that let the processor know what to do next, along with some basic rules of how to express them. It consists of:
 
 * Instruction length (varies depending on architecture)

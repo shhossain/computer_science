@@ -1,6 +1,8 @@
 # OSI MODEL
 OSI stands for **Open Systems Interconnection**. It has been developed by ISO – ‘**International Organization for Standardization**‘, in the year 1984. It is a 7 layer architecture with each layer having specific functionality to perform. All these 7 layers work collaboratively to transmit the data from one person to another across the globe. 
 
+The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network. It was the first standard model for network communications, adopted by all major computer and telecommunication companies in the early 1980s.
+
 > Prerequisite: [Basics of Computer Networking](https://www.geeksforgeeks.org/basics-computer-networking/)
 
 ![](img/computer-network-osi-model-layers.png)

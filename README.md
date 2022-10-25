@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-33-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -840,6 +840,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
       <td align="center"><a href="https://github.com/harshkulkarni17"><img src="https://avatars.githubusercontent.com/u/72391096?v=4?s=50" width="50px;" alt="Harsh Kulkarni"/><br /><sub><b>Harsh Kulkarni</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=harshkulkarni17" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/ATREAY"><img src="https://avatars.githubusercontent.com/u/66585295?v=4?s=50" width="50px;" alt="Atreay  Kukanur"/><br /><sub><b>Atreay  Kukanur</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ATREAY" title="Documentation">📖</a></td>
       <td align="center"><a href="https://sreeharan.github.io"><img src="https://avatars.githubusercontent.com/u/62993067?v=4?s=50" width="50px;" alt="Sree Haran"/><br /><sub><b>Sree Haran</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=SreeHaran" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://www.linkedin.com/in/auro-saswat-raj-d05m07y2003/"><img src="https://avatars.githubusercontent.com/u/83534307?v=4?s=50" width="50px;" alt="Auro Saswat Raj"/><br /><sub><b>Auro Saswat Raj</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=geeky-auro" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

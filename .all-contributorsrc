@@ -952,6 +952,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Aiyan-Faras",
+      "name": "Aiyan Faras",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55203889?v=4",
+      "profile": "https://github.com/Aiyan-Faras",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 6,

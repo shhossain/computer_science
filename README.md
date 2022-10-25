@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-65-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-66-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -882,6 +882,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
     <tr>
       <td align="center"><a href="https://www.linkedin.com/in/ojash-kushwaha-791770185"><img src="https://avatars.githubusercontent.com/u/96474959?v=4?s=50" width="50px;" alt="Ojash Kushwaha"/><br /><sub><b>Ojash Kushwaha</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=OjashKush" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/Sleep-lover"><img src="https://avatars.githubusercontent.com/u/82304155?v=4?s=50" width="50px;" alt="Laleet Borse"/><br /><sub><b>Laleet Borse</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Sleep-lover" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/Wahaj-Raza"><img src="https://avatars.githubusercontent.com/u/103155321?v=4?s=50" width="50px;" alt="Wahaj Raza"/><br /><sub><b>Wahaj Raza</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Wahaj-Raza" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

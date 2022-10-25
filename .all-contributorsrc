@@ -454,6 +454,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Tetricz",
+      "name": "David Daniels",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49681400?v=4",
+      "profile": "https://www.tetricz.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

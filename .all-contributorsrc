@@ -227,6 +227,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "altafshaikh",
+      "name": "Altaf Shaikh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26015187?v=4",
+      "profile": "https://www.altafshaikh.ml",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

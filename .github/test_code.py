@@ -404,11 +404,13 @@ if __name__ == "__main__":
     # cmd1 = f"git config --global user.email hossain0338@gmail.com"
     # cmd2 = f"git config --global user.name shhossain"
     # cmd3 = f"git remote set-url origin https://{token}@github.com/shhossain/computer_science.git"
+    cmd3 = "git fetch"
     cmd4 = f"git log -1 --stat"
 
     # os.system(cmd1)
     # os.system(cmd2)
     # os.system(cmd3)
+    os.system(cmd3)
     p = subprocess.Popen(cmd4, stdout=subprocess.PIPE, shell=True)
     text = p.stdout.read().decode('utf-8')
 
@@ -421,11 +423,11 @@ if __name__ == "__main__":
     files = []
     lines = text.splitlines()
 
+    file_pat = re.compile(r"\s*(\S+\.md)\s*\|\s*\d+\s*\+")
     for line in lines:
-        if "|" in line:
-            line = line.split("|")[1].strip()
-            if line.endswith(".md"):
-                files.append(line)
+        if file_pat.match(line):
+            files.append(file_pat.match(line).group(1))
+
     
     test_all(files)
     

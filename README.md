@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-86-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-87-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -909,6 +909,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
     <tr>
       <td align="center"><a href="https://github.com/denschiro"><img src="https://avatars.githubusercontent.com/u/6161324?v=4?s=50" width="50px;" alt="denschiro"/><br /><sub><b>denschiro</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=denschiro" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/nishat48"><img src="https://avatars.githubusercontent.com/u/109063023?v=4?s=50" width="50px;" alt="Nishat"/><br /><sub><b>Nishat</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=nishat48" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/mdfaizanahmed786"><img src="https://avatars.githubusercontent.com/u/85175130?v=4?s=50" width="50px;" alt="Mohammed Faizan Ahmed"/><br /><sub><b>Mohammed Faizan Ahmed</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=mdfaizanahmed786" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

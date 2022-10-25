@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-81-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-82-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -902,6 +902,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
       <td align="center"><a href="https://khareyash05.github.io/home/"><img src="https://avatars.githubusercontent.com/u/60147732?v=4?s=50" width="50px;" alt="Yash Khare"/><br /><sub><b>Yash Khare</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=khareyash05" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/ayushanand16"><img src="https://avatars.githubusercontent.com/u/96689639?v=4?s=50" width="50px;" alt="Ayush Anand"/><br /><sub><b>Ayush Anand</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ayushanand16" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/DharmaWarrior"><img src="https://avatars.githubusercontent.com/u/97218268?v=4?s=50" width="50px;" alt="DharmaWarrior"/><br /><sub><b>DharmaWarrior</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=DharmaWarrior" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://linktr.ee/hitarthraval"><img src="https://avatars.githubusercontent.com/u/62943532?v=4?s=50" width="50px;" alt="Hitarth Raval"/><br /><sub><b>Hitarth Raval</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=hitarthraval" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

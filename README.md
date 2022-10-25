@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-96-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-97-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -921,6 +921,7 @@ Crypto currency is a digital currency in which encryption techniques are used to
       <td align="center"><a href="https://github.com/P-Dhruva-Teja"><img src="https://avatars.githubusercontent.com/u/81409709?v=4?s=50" width="50px;" alt="Paidipelly Dhruvateja"/><br /><sub><b>Paidipelly Dhruvateja</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=P-Dhruva-Teja" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/helloausrine"><img src="https://avatars.githubusercontent.com/u/30316810?v=4?s=50" width="50px;" alt="helloausrine"/><br /><sub><b>helloausrine</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=helloausrine" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/SourabhJoshi209"><img src="https://avatars.githubusercontent.com/u/69594540?v=4?s=50" width="50px;" alt="SourabhJoshi209"/><br /><sub><b>SourabhJoshi209</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=SourabhJoshi209" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://bio.link/stefantaitano"><img src="https://avatars.githubusercontent.com/u/85418632?v=4?s=50" width="50px;" alt="Stefan Taitano"/><br /><sub><b>Stefan Taitano</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=codewithfan" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

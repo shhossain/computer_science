@@ -205,6 +205,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "imams12",
+      "name": "Imam Suyuti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59444865?v=4",
+      "profile": "https://github.com/imams12",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

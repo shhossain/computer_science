@@ -401,6 +401,8 @@ class CompareGitRepo:
         for root, dirs, file in os.walk(self.local_repo_path):
             dirs[:] = [d for d in dirs if d not in self.ignore_files]
             for f in file:
+                if not f.endswith('.md'):
+                    continue
                 files.append(os.path.join(root, f))
 
         return files
@@ -411,15 +413,9 @@ class CompareGitRepo:
         for root, dirs, file in os.walk("temp"):
             dirs[:] = [d for d in dirs if d not in self.ignore_files]
             for f in file:
+                if not f.endswith('.md'):
+                    continue
                 files.append(os.path.join(root, f))
-
-        tfile = []
-        for file in files:
-            for ignore in self.ignore_files:
-                if not ignore in file:
-                    tfile.append(file)
-        files = tfile
-
         return files
 
     def compare(self):
@@ -475,7 +471,7 @@ class CompareGitRepo:
         return modified_files + new_files
 
     def get_file_name(self, name):
-        return name.split(self.repo_name)[-1].replace('\\', '/').replace('/', '')
+        return name.split(self.repo_name)[-1]
 
     def get_hash(self, file, repo):
         with open(file, "rb") as f:

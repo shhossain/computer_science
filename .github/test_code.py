@@ -64,12 +64,6 @@ SUPPORTED_LANGUAGE = {
         "win_cmd": "php {file_name}",
         "linux_cmd": "php {file_name}",
     },
-    "c#": {
-        "extension": ".cs",
-        "alias": ["cs", "c#", "csharp"],
-        "win_cmd": "dotnet new console -o {file_name_without_extension} && move {file_name} {file_name_without_extension} && dotnet run --project{file_name_without_extension}",
-        "linux_cmd": "dotnet new console -o {file_name_without_extension} && mv {file_name} {file_name_without_extension} && dotnet run --project{file_name_without_extension}",
-    },
     "ruby": {
         "extension": ".rb",
         "alias": ["rb", "ruby"],
@@ -98,7 +92,7 @@ def java_file_name(code):
     return re.search(r'class\s+(\w+)', code).group(1) + ".java"
 
 
-ERRORS = []
+ERRORS = {}
 
 
 class Log:
@@ -122,7 +116,8 @@ class Log:
     def error(*msg, **kwargs):
         s = " ".join([str(x) for x in msg])
         if not "threaded" in kwargs:
-            ERRORS.append(s)
+            level = kwargs["level"] if "level" in kwargs else 0
+            ERRORS[s] = level
         else:
             kwargs.pop("threaded", None)
             print(termcolor.colored(s, 'red'), **kwargs)
@@ -323,12 +318,12 @@ class Test:
             Log.debug(
                 f"{self.readme_path} => \n==<START>==OUTPUT==={language}=\n{output}\n={line_number}===OUTPUT==<END>==")
         except LANGUAGE_NOT_SUPPORTED as e:
-            Log.error(e)
+            Log.error(e,level=LANGUAGE_NOT_SUPPORTED.error_level)
             error = True
         except CODE_EXECUTION_ERROR as e:
             Log.error(
-                f"{self.readme_path} | {language} code execution error in ", line_number)
-            Log.error(e)
+                f"{self.readme_path} | {language} code execution error in ", line_number, level=CODE_EXECUTION_ERROR.error_level)
+            Log.error(e,level=CODE_EXECUTION_ERROR.error_level)
             error = True
         if not error:
             Log.info(
@@ -373,13 +368,12 @@ def test_all(files: list):
     for t in threads:
         t.join()
 
-    if not Log.error_occured():
-        Log.info("All code executed successfully")
-    else:
-        Log.error("Some error occured while executing code")
-        for error in ERRORS:
-            Log.error(error, threaded=False)
+    max_error_level = max([val for val in ERRORS.values()])
+    if max_error_level >= 5:
+        Log.error("There are errors in the code",threaded=False)
         sys.exit(1)
+    else:
+        Log.info("All code executed successfully")
 
 
 # compare files with hash

@@ -41,10 +41,10 @@ jobs:
         with:
           node-version: '16'
       
-      # - name: Setup C#
-      - uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '5.0.x'
+      # # - name: Setup C#
+      # - uses: actions/setup-dotnet@v3
+      #   with:
+      #     dotnet-version: '5.0.x'
         
       # - name: Setup Go
       - uses: actions/setup-go@v2

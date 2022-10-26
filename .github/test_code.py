@@ -371,6 +371,8 @@ def test_all(files: list):
     max_error_level = max([val for val in ERRORS.values()])
     if max_error_level >= 5:
         Log.error("There are errors in the code",threaded=False)
+        for error in ERRORS:
+            Log.error(error,threaded=False)
         sys.exit(1)
     elif len(ERRORS) > 0:
         Log.error("There are warnings in the code", threaded=False)

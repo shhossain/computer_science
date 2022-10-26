@@ -8,6 +8,7 @@ import sys
 import threading
 import shutil
 import re
+import hashlib
 
 
 # this file is in .github\test_code.py
@@ -374,54 +375,121 @@ def test_all(files: list):
         sys.exit(1)
 
 
+# compare files with hash
+
+class CompareGitRepo:
+    def __init__(self, local_repo_path, remote_repo_url) -> None:
+        self.local_repo_path = local_repo_path
+        self.remote_repo_url = remote_repo_url
+        self.repo_name = remote_repo_url.split('/')[-1]
+        self.local_files_hash = {}
+        self.remote_files_hash = {}
+        self.ignore_files = [".gitignore", ".git", ".github", "temp"]
+        self.clone_repo()
+
+    def clone_repo(self):
+        if not os.path.exists("temp"):
+            Log.info("Cloning remote repo")
+            os.mkdir("temp")
+            os.chdir("temp")
+            os.system(f"git clone {self.remote_repo_url}")
+            os.chdir("..")
+
+    def get_local_files(self) -> list:
+        files = []
+        # all files in local repo except .git, .github, .gitignore, temp
+        for root, dirs, file in os.walk(self.local_repo_path):
+            dirs[:] = [d for d in dirs if d not in self.ignore_files]
+            for f in file:
+                files.append(os.path.join(root, f))
+
+        return files
+
+    def get_remote_files(self) -> list:
+        files = []
+        # all files in local repo except .git, .github, .gitignore, temp
+        for root, dirs, file in os.walk("temp"):
+            dirs[:] = [d for d in dirs if d not in self.ignore_files]
+            for f in file:
+                files.append(os.path.join(root, f))
+
+        tfile = []
+        for file in files:
+            for ignore in self.ignore_files:
+                if not ignore in file:
+                    tfile.append(file)
+        files = tfile
+
+        return files
+
+    def compare(self):
+        local_files = self.get_local_files()
+        remote_files = self.get_remote_files()
+
+        # print("Local files", local_files)
+        # print("Remote files", remote_files)
+
+        threads = []
+        for file in local_files:
+            t = threading.Thread(target=self.get_hash, args=(file, "local"))
+            t.start()
+            threads.append(t)
+
+        for file in remote_files:
+            t = threading.Thread(target=self.get_hash, args=(file, "remote"))
+            t.start()
+            threads.append(t)
+
+        for t in threads:
+            t.join()
+
+        # print("local", self.local_files_hash.keys())
+        # print("remote", self.remote_files_hash.keys())
+
+        modified_files = []
+        new_files = []
+
+        # get common files using set intersection
+        common_files = set(self.local_files_hash.keys()).intersection(
+            set(self.remote_files_hash.keys()))
+
+        # print("common files", common_files)
+
+        # get modified files
+        for file in common_files:
+            if self.local_files_hash[file] != self.remote_files_hash[file]:
+                modified_files.append(file)
+
+        # get new files that are in local but not in remote
+        for file in self.local_files_hash.keys():
+            if not file in common_files:
+                new_files.append(file)
+
+        Log.info("Files modified")
+        for mf in modified_files:
+            Log.warn("Modified file", mf)
+
+        for nf in new_files:
+            Log.debug("New file", nf)
+
+        return modified_files + new_files
+
+    def get_file_name(self, name):
+        return name.split(self.repo_name)[-1].replace('\\', '/').replace('/', '')
+
+    def get_hash(self, file, repo):
+        with open(file, "rb") as f:
+            file_hash = hashlib.sha256(f.read()).hexdigest()
+            if repo == "local":
+                f = self.get_file_name(file)
+                self.local_files_hash[f] = file_hash
+            else:
+                f = self.get_file_name(file)
+                self.remote_files_hash[f] = file_hash
+
+
 if __name__ == "__main__":
-    # test_all()
-    # commit 1328959757b8c268b37c3277ec29da2f1161d5b2 (HEAD -> test, origin/test)
-    # Author: Sifat <hossain0338@gmail.com>
-    # Date:   Tue Oct 25 22:14:00 2022 +0600
-
-    #     test code
-
-    # .github/test_code.py            |  17 +-
-    # .github/workflows/test_code.yml |   9 +
-    # test.md                         | 586 ++++++++++++++++++++++++++++++++++++++++
-    # 3 files changed, 605 insertions(+), 7 deletions(-)
-    # if len(sys.argv) < 2:
-    #     Log.error("Nothing is given")
-    #     sys.exit(1)
-
-    # git config --global user.email hossain0338@gmail.com
-    # git config --global user.name shhossain
-    # git remote set-url origin https://{TOKEN}@github.com/shhossain/computer_science.git
-    # text=$(git log -1 --stat)
-
-    # token = sys.argv[1]
-    cmd3 = "git fetch"
-    cmd5 = "git rev-parse --abbrev-ref HEAD"
-
-    os.system(cmd3)
-    p = subprocess.Popen(cmd5, stdout=subprocess.PIPE, shell=True)
-    (output, err) = p.communicate()
-    p_status = p.wait()
-    branch_name = output.decode("utf-8").strip()
-    Log.info(f"Branch name: {branch_name}")
-    cmd4 = f"git diff {branch_name} origin/main"
-
-    p = subprocess.Popen(cmd4, stdout=subprocess.PIPE, shell=True)
-    text = p.stdout.read().decode('utf-8')
-
-    new_text = ""
-    for line in text.splitlines():
-        new_text += line[1:] + "\n"
-
-    file_name = get_random_file_name(".md")
-    with open(file_name, "w") as f:
-        f.write(new_text)
-
-    print("=================================")
-    # print(new_text)
-    print("=================================")
-
-    # text = os.environ["text"]
-
-    test_all([file_name])
+    curent_dir = os.getcwd()
+    cm = CompareGitRepo(curent_dir, "https://github.com/shhossain/computer_science")
+    modified_files = cm.compare()
+    test_all(modified_files)

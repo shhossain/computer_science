@@ -248,9 +248,15 @@ class Code:
                 shutil.rmtree(file) if os.path.isdir(file) else os.remove(file)
 
 
+def fix_path(path):
+    # if linux and starts with / remove it
+    if sys.platform != 'win32' and path.startswith('/'):
+        path = path[1:]
+    return path
+
 class Test:
     def __init__(self, readme_path) -> None:
-        self.readme_path = readme_path
+        self.readme_path = fix_path(readme_path)
         self.codes = self.get_codes()
         Log.debug("Testing code in ", readme_path)
 

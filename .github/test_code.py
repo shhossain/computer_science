@@ -425,6 +425,9 @@ class CompareGitRepo:
         # print("Local files", local_files)
         # print("Remote files", remote_files)
 
+        print("Listdir")
+        print(os.listdir())
+
         threads = []
         for file in local_files:
             t = threading.Thread(target=self.get_hash, args=(file, "local"))

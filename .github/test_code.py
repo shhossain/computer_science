@@ -254,6 +254,7 @@ def fix_path(path):
         path = path[1:]
     return path
 
+
 class Test:
     def __init__(self, readme_path) -> None:
         self.readme_path = fix_path(readme_path)
@@ -431,9 +432,6 @@ class CompareGitRepo:
         # print("Local files", local_files)
         # print("Remote files", remote_files)
 
-        print("Listdir")
-        print(os.listdir())
-
         threads = []
         for file in local_files:
             t = threading.Thread(target=self.get_hash, args=(file, "local"))
@@ -495,6 +493,7 @@ class CompareGitRepo:
 
 if __name__ == "__main__":
     curent_dir = os.getcwd()
-    cm = CompareGitRepo(curent_dir, "https://github.com/shhossain/computer_science")
+    cm = CompareGitRepo(
+        curent_dir, "https://github.com/shhossain/computer_science")
     modified_files = cm.compare()
     test_all(modified_files)

@@ -375,7 +375,7 @@ def test_all(files: list):
     elif len(ERRORS) > 0:
         Log.error("There are warnings in the code", threaded=False)
         for error in ERRORS:
-            Log.warning(error)
+            Log.warn(error)
     else:
         Log.info("No errors found")
 

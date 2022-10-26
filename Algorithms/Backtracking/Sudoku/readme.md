@@ -195,7 +195,7 @@ int main()
   
 ### Java	
 ```java
-  // Java program for above approach
+// Java program for above approach
 public class Sudoku {
 
 	// N is the size of the 2D matrix N*N
@@ -324,7 +324,7 @@ public class Sudoku {
 	
 }
 
-  ```
+```
   
 ### Python
   

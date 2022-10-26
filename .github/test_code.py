@@ -66,7 +66,7 @@ SUPPORTED_LANGUAGE = {
     },
     "c#": {
         "extension": ".cs",
-        "alias": ["cs", "c#"],
+        "alias": ["cs", "c#", "csharp"],
         "win_cmd": "dotnet new console -o {file_name_without_extension} && move {file_name} {file_name_without_extension} && dotnet run --project{file_name_without_extension}",
         "linux_cmd": "dotnet new console -o {file_name_without_extension} && mv {file_name} {file_name_without_extension} && dotnet run --project{file_name_without_extension}",
     },
@@ -138,11 +138,11 @@ class Log:
 
 
 class LANGUAGE_NOT_SUPPORTED(Exception):
-    pass
+    error_level: int = 1
 
 
 class CODE_EXECUTION_ERROR(Exception):
-    pass
+    error_level: int = 5
 
 
 class Code:
@@ -470,10 +470,10 @@ class CompareGitRepo:
 
         Log.info("Files modified")
         for mf in modified_files:
-            Log.warn("Modified file", mf)
+            Log.warn("Modified file ", mf)
 
         for nf in new_files:
-            Log.debug("New file", nf)
+            Log.warn("New file      ", nf)
 
         return modified_files + new_files
 

@@ -193,9 +193,9 @@ int main()
   7 4 5 2 8 6 3 1 9
   ```
   
- ### Java	
-  ```
-  // Java program for above approach
+### Java	
+```java
+// Java program for above approach
 public class Sudoku {
 
 	// N is the size of the 2D matrix N*N
@@ -324,11 +324,11 @@ public class Sudoku {
 	
 }
 
-  ```
+```
   
 ### Python
   
-```
+```python
   # N is the size of the 2D matrix N*N
 N = 9
 
@@ -469,7 +469,7 @@ else:
 ```
 
   
-  ### C CODE
+### C
   
 ```c
  #include <stdio.h>
@@ -621,9 +621,8 @@ int main()
 6 9 2 3 5 1 8 7 4 
 7 4 5 2 8 6 3 1 9
 ```
- ### Java Script Code	
-  ```javascript
-  <script>
+ ### Javascript	
+```javascript
 
 // Javascript program for above approach
 
@@ -753,11 +752,11 @@ if (solveSudoku(grid, 0, 0))
 else
 	document.write("no solution exists ")
 
+```
 
-</script>
 
 ### Csharp Code	
-  ```csharp
+```csharp
   // C# program for above approach
 using System;
 class tikitaka {
@@ -886,10 +885,9 @@ static void Main() {
 }
 }
 
+```
 
 
-
-	```
   
 
 

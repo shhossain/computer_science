@@ -372,8 +372,12 @@ def test_all(files: list):
     if max_error_level >= 5:
         Log.error("There are errors in the code",threaded=False)
         sys.exit(1)
+    elif len(ERRORS) > 0:
+        Log.error("There are warnings in the code", threaded=False)
+        for error in ERRORS:
+            Log.warning(error)
     else:
-        Log.info("All code executed successfully")
+        Log.info("No errors found")
 
 
 # compare files with hash

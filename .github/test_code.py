@@ -92,7 +92,8 @@ def java_file_name(code):
     return re.search(r'class\s+(\w+)', code).group(1) + ".java"
 
 
-ERRORS = {}
+errors = []
+error_level = [0]
 
 
 class Log:
@@ -117,7 +118,8 @@ class Log:
         s = " ".join([str(x) for x in msg])
         if not "threaded" in kwargs:
             level = kwargs["level"] if "level" in kwargs else 0
-            ERRORS[s] = level
+            errors.append((level, s))
+            error_level[0] = max(error_level[0], level)
         else:
             kwargs.pop("threaded", None)
             print(termcolor.colored(s, 'red'), **kwargs)
@@ -129,7 +131,7 @@ class Log:
 
     @staticmethod
     def error_occured():
-        return len(ERRORS) > 0
+        return error_level[0] > 0
 
 
 class LANGUAGE_NOT_SUPPORTED(Exception):
@@ -368,15 +370,15 @@ def test_all(files: list):
     for t in threads:
         t.join()
 
-    max_error_level = max([val for val in ERRORS.values()])
+    max_error_level = error_level[0]
     if max_error_level >= 5:
         Log.error("There are errors in the code",threaded=False)
-        for error in ERRORS:
+        for error in errors:
             Log.error(error,threaded=False)
         sys.exit(1)
-    elif len(ERRORS) > 0:
+    elif max_error_level > 0:
         Log.error("There are warnings in the code", threaded=False)
-        for error in ERRORS:
+        for error in errors:
             Log.warn(error)
     else:
         Log.info("No errors found")

@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-103-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-105-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -620,20 +620,58 @@ Machine learning is the practice of teaching a computer to learn. The concept us
 
 ### There are three subcategories of machine learning:
 
-### -Supervised machine learning 
+### Supervised machine learning 
 In this machine learning models are trained with labeled data sets, which allow the models to learn and grow more accurate over time. For example, an algorithm would be trained with pictures of dogs and other things, all labeled by humans, and the machine would learn ways to identify pictures of dogs on its own. Supervised machine learning is the most common type used today.
 
-### -Unsupervised machine learning
+Practical applications of Supervised Learning – 
+1. **Bioinformatics:** Bioinformatics is the study of how individuals retain biological knowledge such as fingerprints, eye texture, earlobes, and so on. Mobile phones are now clever enough to comprehend our biological data and then verify us in order to increase system security.
+2. **Speech recognition:** It’s the type of program where you may convey your voice to the program, and it will identify you. The most well-known real-world gadgets are digital assistants such as Google Assistant or Siri, which respond to the term only with your voice.
+3. **Spam detection:** This tool is used to prevent fictitious or machine-based communications from being sent. Gmail includes an algorithm that learns numerous wrong terms. The Oneplus Messages App asks the user to specify which terms should be prohibited, and the keyword will prevent such texts from the app.
+4. **Object recognition for the vision:** This type of software is utilized when you have to define anything. You have a big dataset that you utilize to train the algorithm, and it can recognize a new object using this.
+
+### Unsupervised machine learning
 In Unsupervised machine learning a program looks for patterns in unlabeled data. Unsupervised machine learning can find patterns or trends that people aren’t explicitly looking for. For example, an unsupervised machine learning program could look through online sales data and identify different types of clients making purchases.
 
-### -Reinforcement machine learning
+Practical applications of unsupervised Learning
+1. **Clustering:** Clustering is the process of categorizing data into separate groups.  When we don’t know all of the details about the clusters, we can utilize unsupervised Learning to cluster them. Unsupervised Learning is used to analyze and organize data that doesn’t have pre-labeled classes or class properties. Clustering can help firms handle their data more effectively.
+Suppose you have a YouTube channel. You may have a lot of information on your subscribers. If you want to find similar subscribers, you would need to use a clustering technique.
+2. **Visualization:** The process of making diagrams, photos, graphs, charts, and so on to present information is known as visualization. Unsupervised machine learning can be used to implement this strategy.
+Suppose you are a cricket coach with information regarding your team’s performance in a tournament. You might wish to quickly locate all of the match statistics. You can pass the unlabeled and complicated data to a visualization algorithm.
+3. **Anomaly detection:** Anomaly detection is the discovery of unusual things, occurrences, or observations that raise suspicions by deviating greatly from regular data. In this situation, the system is programmed with a large number of typical cases. As a result, when it detects an unexpected occurrence, it can determine if it is an anomaly or not.
+Credit card fraud detection is a good illustration of this.This issue is now being addressed utilizing unsupervised machine learning anomaly detection approaches. To avoid fraud, the system identifies unexpected credit card transactions.
+
+### Semi-supervised machine learning
+The disadvantage of supervised learning is that it requires hand-labeling by ML specialists or data scientists, and requires a high cost to process. Unsupervised learning also has a limited spectrum for its applications. To overcome these drawbacks of supervised learning and unsupervised learning algorithms, the concept of Semi-supervised learning is introduced. Typically, this combination contains a very small amount of labeled data and a large amount of unlabelled data. The basic procedure involved is that first, the programmer will cluster similar data using an unsupervised learning algorithm and then use the existing labeled data to label the rest of the unlabelled data.
+
+Practical applications of Semi-Supervised Learning – 
+1. **Speech Analysis:** Since labeling of audio files is a very intensive task, Semi-Supervised learning is a very natural approach to solve this problem.
+2. **Internet Content:** Classification: Labeling each webpage is an impractical and unfeasible process and thus uses Semi-Supervised learning algorithms. Even the Google search algorithm uses a variant of Semi-Supervised learning to rank the relevance of a webpage for a given query.
+3. **Protein Sequence Classification:** Since DNA strands are typically very large in size, the rise of Semi-Supervised learning has been imminent in this field.
+
+### Reinforcement machine learning
 This trains machines through trial and error to take the best action by establishing a reward system. Reinforcement learning can train models to play games or train autonomous vehicles to drive by telling the machine when it made the right decisions, which helps it learn over time what actions it should take.
 
+Practical applications of Reinforcement Learning - 
+1. **Production Systems** 
+   eg. Google Cloud AutoML, Facebook Horizon, Recommendation, advertisement, search 
+2. **Autonomous Driving**
+3. **Business Management** 
+   eg. solving the vehicle routing problem, fraudulent behaviour in e-commerce, Concurrent reinforcement learning from customer interactions
+4. **Recommender systems**
+   eg. for search, recommendation, and online advertising
+   
 ### Machine learning is also associated with several other artificial intelligence subfields:
 
 ### Natural language processing
 
 Natural language processing is a field of machine learning in which machines learn to understand natural language as spoken and written by humans, instead of the data and numbers normally used to program computers. This allows machines to recognize language, understand it, and respond to it, as well as create new text and translate between languages. Natural language processing enables familiar technology like chatbots and digital assistants like Siri or Alexa.
+
+Practical applications of NLP:
+1. **Question Answering:** Question Answering focuses on building systems that automatically answer the questions asked by humans in a natural language. 
+2. **Spam Detection:** Spam detection is used to detect unwanted e-mails getting to a user's inbox.
+3. **Sentiment Analysis:** Sentiment Analysis is also known as opinion mining. It is used on the web to analyse the attitude, behaviour, and emotional state of the sender. This application is implemented through a combination of NLP (Natural Language Processing) and statistics by assigning the values to the text (positive, negative, or natural), identify the mood of the context (happy, sad, angry, etc.)
+4. **Machine Translation:** Machine translation is used to translate text or speech from one natural language to another natural language. eg. Google Translate
+5. **Spelling correction:** Microsoft Corporation provides word processor software like MS-word, PowerPoint for the spelling correction.
 
 ### Neural networks
 
@@ -641,9 +679,21 @@ Neural networks are a commonly used, specific class of machine learning algorith
 
 In an artificial neural network, cells, or nodes, are connected, with each cell processing inputs and producing an output that is sent to other neurons. Labeled data moves through the nodes, or cells, with each cell performing a different function. In a neural network trained to identify whether a picture contains a cat or not, the different nodes would assess the information and arrive at an output that indicates whether a picture features a cat.
 
+Practical applications of Neural Networks:
+1. **Stock Market Prediction:** To make a successful stock prediction in real time a Multilayer Perceptron MLP (class of feedforward artificial intelligence algorithm) is employed.  MLP comprises multiple layers of nodes, each of these layers is fully connected to the succeeding nodes. Stock’s past performances, annual returns, and non profit ratios are considered for building the MLP model.
+2. **Social Media:** Multi-layered Perceptrons forecast social media trends. It uses different training methods like Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Mean Squared Error (MSE). MLP takes into consideration several factors like user’s favourite instagram pages, bookmarked choices etc. Post analysis of individuals' behaviours via social media networks, the data can be linked to people’s spending habits. MLP ANN is used to mine data from social media applications.  
+3. **Aerospace:** Aerospace Engineering is an expansive term that covers developments in spacecraft and aircraft. Fault diagnosis, high performance auto piloting, securing the aircraft control systems, and modeling key dynamic simulations are some of the key areas that neural networks have taken over. Time delay Neural networks can be employed for modelling non linear time dynamic systems.
+
 ### Deep learning
 
 Deep learning networks are neural networks with many layers. The layered network can process extensive amounts of data and determine the “weight” of each link in the network — for example, in an image recognition system, some layers of the neural network might detect individual features of a face, like eyes, nose, or mouth, while another layer would be able to tell whether those features appear in a way that indicates a face.  
+
+Practical applications of Deep Learning:
+1. **Automatic Text Generation –** Corpus of text is learned and from this model new text is generated, word-by-word or character-by-character.Then this model is capable of learning how to spell, punctuate, form sentences, or it may even capture the style.
+2. **Healthcare –** Helps in diagnosing various diseases and treating it.
+3. **Automatic Machine Translation –** Certain words, sentences or phrases in one language is transformed into another language (Deep Learning is achieving top results in the areas of text, images).
+4. **Image Recognition –** Recognizes and identifies peoples and objects in images as well as to understand content and context. This area is already being used in Gaming, Retail, Tourism, etc.
+5. **Predicting Earthquakes –** Teaches a computer to perform viscoelastic computations which are used in predicting earthquakes.
 
 ## [Web Technology](Web%20Technology/WebTechnology.md#web-tecnology)
 Web Technology refers to the various tools and techniques that are utilized in the process of communication between different types of devices over the internet. A web browser is used to access web pages. Web browsers can be defined as programs that display text, data, pictures, animation, and video on the Internet. Hyperlinked resources on the World Wide Web can be accessed using software interfaces provided by Web browsers.
@@ -979,6 +1029,8 @@ Crypto currency is a digital currency in which encryption techniques are used to
     </tr>
     <tr>
       <td align="center"><a href="https://github.com/Yash1107"><img src="https://avatars.githubusercontent.com/u/76468153?v=4?s=50" width="50px;" alt="Yashvi Patel"/><br /><sub><b>Yashvi Patel</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Yash1107" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/ArshadAriff"><img src="https://avatars.githubusercontent.com/u/113685884?v=4?s=50" width="50px;" alt="ArshadAriff"/><br /><sub><b>ArshadAriff</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ArshadAriff" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/ishashukla183"><img src="https://avatars.githubusercontent.com/u/93022787?v=4?s=50" width="50px;" alt="ishashukla183"/><br /><sub><b>ishashukla183</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ishashukla183" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

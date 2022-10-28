@@ -113,7 +113,7 @@ A public network operates on an incentivizing scheme that encourages new partici
 
 Public blockchains are extraordinarily valuable because they can serve as a backbone for nearly any decentralized solution. Additionally, the vast number of network participants joining a secured public blockchain keeps it safe from data breaches, hacking attempts, or other cybersecurity issues. The more participants, the safer a blockchain is.
 
-Public blockchains can be secured with automatic validation methods and encryption that keep single entities from changing information in the chain (like cryptocurrency blockchains), or they can allow anyone to make changes.
+Public blockchains can be secured with automatic validation methods and encryption that keep single entities from changing information in the chain (like cryptocurrency blockchains), or they can allow anyone to make changes..
 
 ## Disadvantages
 The primary disadvantage to secured public blockchains is the heavy energy consumption required to maintain them. The concern is a consensus mechanism that requires participants to compete to validate the information and receive a reward for letting the network use their processing power. Not all blockchain networks use an energy-intensive validation process, so not all use enormous amounts of electricity.

@@ -424,3 +424,42 @@ The functions of the Network layer are :  
 
 1.  **Routing:** The network layer protocols determine which route is suitable from source to destination. This function of the network layer is known as routing.
 2.  **Logical Addressing:** In order to identify each device on internetwork uniquely, the network layer defines an addressing scheme. The sender & receiver’s IP addresses are placed in the header by the network layer. Such an address distinguishes each device uniquely and universally.
+
+### **4\. Transport Layer (Layer 4) :**
+
+The transport layer provides services to the application layer and takes services from the network layer. The data in the transport layer is referred to as Segments. It is responsible for the End to End Delivery of the complete message. The transport layer also provides the acknowledgement of the successful data transmission and re-transmits the data if an error is found.
+
+The functions of Transport layer are : 
+1. **Service-point addressing:**  The transport layer adds the header that contains the address known as a service-point address or port address. The responsibility of the network layer is to transmit the data from one computer to another computer and the responsibility of the transport layer is to transmit the message to the correct process.
+2. **Segmentation and reassembly:** Tt divides the message into multiple segments, and each segment is assigned with a sequence number that uniquely identifies each segment. When the message has arrived at the destination, it reassembles the message based on their sequence numbers.
+3. **Connection control:** Transport layer provides two services Connection-oriented service and connectionless service. A connectionless service treats each segment as an individual packet, and they all travel in different routes to reach the destination. A connection-oriented service makes a connection with the transport layer at the destination machine before delivering the packets.
+4. **Flow control:** The transport layer also responsible for flow control but it is performed end-to-end rather than across a single link.
+5. **Error control:** Error control is performed end-to-end rather than across the single link. The sender transport layer ensures that message reach at the destination without any error.
+
+### **5\. Session Layer (Layer 4) :**
+
+The Session layer is used to establish, maintain and synchronizes the interaction between communicating devices.
+The functions of session layer are:
+1. **Dialog control:** Session layer acts as a dialog controller that creates a dialog between two processes or we can say that it allows the communication between two processes which can be either half-duplex or full-duplex.
+2. **Synchronization:** Session layer adds some checkpoints when transmitting the data in a sequence. If some error occurs in the middle of the transmission of data, then the transmission will take place again from the checkpoint. This process is known as Synchronization and recovery.
+
+### **6\. Presentation Layer (Layer 5) :**
+
+The presentation layer is also called the Translation layer. The data from the application layer is extracted here and manipulated as per the required format to transmit over the network. 
+The functions of the presentation layer are : 
+1. **Translation:** For example, ASCII to EBCDIC.
+2. **Encryption/ Decryption:** Data encryption translates the data into another form or code. The encrypted data is known as the ciphertext and the decrypted data is known as plain text. A key value is used for encrypting as well as decrypting data.
+3. **Compression:** Reduces the number of bits that need to be transmitted on the network.
+
+### **7\. Application Layer (Layer 7) :**
+
+At the very top of the OSI Reference Model stack of layers, we find the Application layer, also called as Desktop Layer, which is implemented by the network applications. These applications produce the data, which has to be transferred over the network. This layer also serves as a window for the application services to access the network and for displaying the received information to the user. 
+
+Example: Application – Browsers, Skype Messenger, etc. 
+
+The functions of the Application layer are :  
+
+1. Network Virtual Terminal
+2. FTAM-File transfer access and management
+3. Mail Services
+4. Directory Services

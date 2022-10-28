@@ -620,7 +620,7 @@ Machine learning is the practice of teaching a computer to learn. The concept us
 
 ### There are three subcategories of machine learning:
 
-### -Supervised machine learning 
+### Supervised machine learning 
 In this machine learning models are trained with labeled data sets, which allow the models to learn and grow more accurate over time. For example, an algorithm would be trained with pictures of dogs and other things, all labeled by humans, and the machine would learn ways to identify pictures of dogs on its own. Supervised machine learning is the most common type used today.
 
 Practical applications of Supervised Learning – 
@@ -629,7 +629,7 @@ Practical applications of Supervised Learning –
 3. **Spam detection:** This tool is used to prevent fictitious or machine-based communications from being sent. Gmail includes an algorithm that learns numerous wrong terms. The Oneplus Messages App asks the user to specify which terms should be prohibited, and the keyword will prevent such texts from the app.
 4. **Object recognition for the vision:** This type of software is utilized when you have to define anything. You have a big dataset that you utilize to train the algorithm, and it can recognize a new object using this.
 
-### -Unsupervised machine learning
+### Unsupervised machine learning
 In Unsupervised machine learning a program looks for patterns in unlabeled data. Unsupervised machine learning can find patterns or trends that people aren’t explicitly looking for. For example, an unsupervised machine learning program could look through online sales data and identify different types of clients making purchases.
 
 Practical applications of unsupervised Learning
@@ -640,7 +640,7 @@ Suppose you are a cricket coach with information regarding your team’s perform
 3. **Anomaly detection:** Anomaly detection is the discovery of unusual things, occurrences, or observations that raise suspicions by deviating greatly from regular data. In this situation, the system is programmed with a large number of typical cases. As a result, when it detects an unexpected occurrence, it can determine if it is an anomaly or not.
 Credit card fraud detection is a good illustration of this.This issue is now being addressed utilizing unsupervised machine learning anomaly detection approaches. To avoid fraud, the system identifies unexpected credit card transactions.
 
-### -Semi-supervised machine learning
+### Semi-supervised machine learning
 The disadvantage of supervised learning is that it requires hand-labeling by ML specialists or data scientists, and requires a high cost to process. Unsupervised learning also has a limited spectrum for its applications. To overcome these drawbacks of supervised learning and unsupervised learning algorithms, the concept of Semi-supervised learning is introduced. Typically, this combination contains a very small amount of labeled data and a large amount of unlabelled data. The basic procedure involved is that first, the programmer will cluster similar data using an unsupervised learning algorithm and then use the existing labeled data to label the rest of the unlabelled data.
 
 Practical applications of Semi-Supervised Learning – 
@@ -648,7 +648,7 @@ Practical applications of Semi-Supervised Learning –
 2. **Internet Content:** Classification: Labeling each webpage is an impractical and unfeasible process and thus uses Semi-Supervised learning algorithms. Even the Google search algorithm uses a variant of Semi-Supervised learning to rank the relevance of a webpage for a given query.
 3. **Protein Sequence Classification:** Since DNA strands are typically very large in size, the rise of Semi-Supervised learning has been imminent in this field.
 
-### -Reinforcement machine learning
+### Reinforcement machine learning
 This trains machines through trial and error to take the best action by establishing a reward system. Reinforcement learning can train models to play games or train autonomous vehicles to drive by telling the machine when it made the right decisions, which helps it learn over time what actions it should take.
 
 Practical applications of Reinforcement Learning - 

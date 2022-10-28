@@ -120,7 +120,7 @@ The primary disadvantage to secured public blockchains is the heavy energy consu
 
 Other issues include the lack of complete privacy and anonymity. Public blockchains allow anyone to view transaction amounts and the addresses involved. If the address owners become known, the user loses their anonymity.
 
-Public blockchains also attract participants who may not be honest in their intentions. Most public blockchains are designed for cryptocurrencies, which by nature of their value are a prime target for hackers and thieves.
+Public blockchains also attract participants who may not be honest in their intentions. Most public blockchains are designed for cryptocurrencies, which by nature of their value are a prime target for hackers and thieves which is very useful.
 
 ### [Private Blockchain](Blockchain/PrivateBlockchain/readme.md)
 A private blockchain is a blockchain that is only accessible to a select group of people. Private blockchains are not open to the public. This means that only a select group of people can view the blockchain and its transactions, and only a select group of people can participate in the network by mining and validating transactions. Private blockchains are also known as permissioned blockchains.

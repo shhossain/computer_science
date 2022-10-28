@@ -107,6 +107,21 @@ Blockchain is a distributed database that maintains a continuously growing list 
 ### [Public Blockchain](Blockchain/PublicBlockchain/readme.md)
 A public blockchain is a blockchain that is accessible to anyone. Public blockchains are open to anyone who wants to participate in the network. This means that anyone can view the blockchain and its transactions, and anyone can participate in the network by mining and validating transactions. Public blockchains are also known as permissionless blockchains.
 
+## Advantages
+A public network operates on an incentivizing scheme that encourages new participants to join and keep the network agile. Public blockchains offer a particularly valuable solution from the point of view of a truly decentralized, democratized, and authority-free operation.
+
+
+Public blockchains are extraordinarily valuable because they can serve as a backbone for nearly any decentralized solution. Additionally, the vast number of network participants joining a secured public blockchain keeps it safe from data breaches, hacking attempts, or other cybersecurity issues. The more participants, the safer a blockchain is.
+
+Public blockchains can be secured with automatic validation methods and encryption that keep single entities from changing information in the chain (like cryptocurrency blockchains), or they can allow anyone to make changes..
+
+## Disadvantages
+The primary disadvantage to secured public blockchains is the heavy energy consumption required to maintain them. The concern is a consensus mechanism that requires participants to compete to validate the information and receive a reward for letting the network use their processing power. Not all blockchain networks use an energy-intensive validation process, so not all use enormous amounts of electricity.
+
+Other issues include the lack of complete privacy and anonymity. Public blockchains allow anyone to view transaction amounts and the addresses involved. If the address owners become known, the user loses their anonymity.
+
+Public blockchains also attract participants who may not be honest in their intentions. Most public blockchains are designed for cryptocurrencies, which by nature of their value are a prime target for hackers and thieves which is very useful.
+
 ### [Private Blockchain](Blockchain/PrivateBlockchain/readme.md)
 A private blockchain is a blockchain that is only accessible to a select group of people. Private blockchains are not open to the public. This means that only a select group of people can view the blockchain and its transactions, and only a select group of people can participate in the network by mining and validating transactions. Private blockchains are also known as permissioned blockchains.
 

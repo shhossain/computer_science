@@ -971,6 +971,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jhuynh06",
+      "name": "jhuynh06",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111946833?v=4",
+      "profile": "https://github.com/jhuynh06",
+      "contributions": [
+        "bug",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 6,

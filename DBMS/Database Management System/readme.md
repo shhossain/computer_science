@@ -56,6 +56,43 @@ Here are the characteristics and properties of Database Management System:
 - It follows the ACID concept ( Atomicity, Consistency, Isolation, and Durability).
 - DBMS supports multi-user environment that allows users to access and manipulate data in parallel.
 
+More about ACID compliance in DBMS
+-----------------------
+It has all to do with performing smooth DB transactions with reliability, an overview of each is below:
+
+- **Atomicity**: Commits each transaction operation, at any point of failure entire transaction gets rolled back.
+Take an example of an ordering system, it requires multiple updates to various tables, from 
+"Order Table" to "Customer table" and finally payment table.
+An order is successful only after the payment for it is done, so whole transaction to all these 
+tables should go in single commit, if anything fails in between then the transaction will
+be rolled back nullify all the updates. Without atomicity there might be case when user payment 
+fails but order gets placed successfully.
+Another one is in case of crashes or service outages during a transaction, 
+without atomicity, it would be impossible to know how far the transaction went.
+- **Consistency**: Maintains data integrity with every transaction, or it rolls back. 
+It ensures which state the database could assume, in case of any illegal state the transaction 
+will roll back. Example of consistency is a negative bank balance of user should stop him from 
+spending any further. This is achieved by putting certain constraints on the Data, the transactions
+either follows those constraints or rolls back to previous state.
+- **Isolation**: Reads and writes of one transaction should not be impactful to each other and should 
+work in isolation. If multiple transactions are happening to the same DB then it must be ensured 
+that they get performed in an order to avoid data corruption. Suppose if a DB column is being 
+written/update, data inside it should prevent any reads/writes until this one completed. 
+This is achieved by adding a global queue to perform transactions in order for those who are on the same DB.
+Every DB has its own degree of isolation, a DB which provide less isolation could handle more concurrency.
+- **Durability**: Once a commit is successful it persists permanently. The DB maintains a changelog of each commit, 
+An example is in case of DB restarted, then it resumes itself to the last state.
+
+**_Some popular DB and their status on following ACID compliance_**:
+- **MongoDB**: ACID compliant since version 4 and onward
+- **MYSQL**: ACID compliant
+- **PostgreSQL**: ACID compliant
+- **Redis**: This NoSQL DB is partially ACID compliant, because it cannot ensure consistency and 
+durability for each transaction.
+
+
+
+
 ## Popular DBMS Software
 
 Here, is the list of some popular DBMS system:

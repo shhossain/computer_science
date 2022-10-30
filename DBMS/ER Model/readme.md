@@ -120,3 +120,6 @@ For example, A company may store the information of dependents (Parents, Childre
 A weak entity type is represented by a double rectangle. The participation of weak entity type is always total. The relationship between weak entity type and its identifying strong entity type is called identifying relationship and it is represented by double diamond. 
 
 ![12310](12310.png)
+
+**Examples of Databases**
+MySQL, Oracle, PostgreSQL, MongoDB, Aerospike

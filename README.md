@@ -263,21 +263,21 @@ The efficiency of an algorithm depends on these two parameters.
 
 Types Of Time Complexity :
 
-a. Best Time Complexity: The input for which algorithm takes less time or minimum time. In the best case calculate the lower bound of an algorithm. Example: The search data is present at the first location of large data in the linear search then the best case occurs.
-b. Average Time Complexity: We take all random inputs and calculate the computation time for all inputs. And then we divide it by the total number of inputs.
-c. Worst Time Complexity: Define the input for which algorithm takes a long time or maximum time. In the worst calculate the upper bound of an algorithm. Example: The search data is present at the last location of large data in the linear search then the worst case occurs.
+- *Best Time Complexity*: The input for which algorithm takes less time or minimum time. In the best case, we calculate the lower bound time complexity of an algorithm. Example: if the data to be searched is present at the first location of large data array in a linear search, then the best case occurs.
+- *Average Time Complexity*: We take all random inputs and calculate the computation time for all inputs. And then we divide it by the total number of inputs.
+- *Worst Time Complexity*: Define the input for which algorithm takes a long time or maximum time. In the worst case, we calculate the upper bound of an algorithm. Example: If the data to be searched is present at the last location of large data array in a linear search algorithm, then the worst case occurs.
 
-Some time complexities are :
+Some common time complexities are :
 
-a. O(1): This denotes the constant time. 0(1) usually means that an algorithm will have constant time regardless of the input size. Hash Maps are perfect examples of constant time.
+- **O(1)**: This denotes the constant time. O(1) usually means that an algorithm will have a constant time regardless of the input size. Hash Maps are perfect examples of constant time.
 
-b. O(log n): This denotes logarithmic time. O(log n) means to decrease with each instance for the operations. Binary search trees are the best examples of logarithmic time.
+- **O(log n)**: This denotes logarithmic time. O(log n) means to decrease with each instance for the operations. Searching for elements in Binary Search Trees (BSTs) is a good example of logarithmic time.
 
-c. O(n): This denotes linear time. O(n) means that the performance is directly proportional to the input size. In simple terms, the number of inputs and the time taken to execute those inputs will be proportional or the same. Linear search in arrays is the best example of linear time complexity.
+- **O(n)**: This denotes linear time. O(n) means that the performance is directly proportional to the size of the input. In simple terms, the number of inputs and the time taken to execute those inputs will be proportional. Linear search in arrays is a great example of linear time complexity.
 
-d. O(n*n): This denotes quadratic time. O(n2) means that the performance is directly proportional to the square of the input taken. In simple, the time taken for execution will take square times the input size. Nested loops are perfect examples of quadratic time complexity.
+- **O(n*n)**: This denotes quadratic time. O(n^2) means that the performance is directly proportional to the square of the input taken. In simple, the time taken for execution will roughly take square times the input size. Nested loops are perfect examples of quadratic time complexity.
 
-e. O(n log n): This denotes polynomial time complexity. O(n log n) means that the performance is n times that of O(log n), that is worst case complexity.
+- **O(n log n)**: This denotes polynomial time complexity. O(n log n) means that the performance is n times that of O(log n), (which is a worst case complexity). A good example would be divide and conquer algorithms such as merge sort. This algorithm first divides the set, which takes O(log n) time, then conquers and sorts through the set, which takes O(n) time- therefore, Merge sort takes O(n log n) time.
 
 | Algorithm	     |             |  Time Complexity|	       | Space Complexity |
 |   :---:        |  :---:      |  :---: 	   |   :---: 	   |   :---:          |

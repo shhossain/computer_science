@@ -990,6 +990,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "nateonmission",
+      "name": "J. Nathan Allen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37854313?v=4",
+      "profile": "http://nateonmission.github.io",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 6,

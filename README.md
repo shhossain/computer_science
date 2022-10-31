@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-108-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-109-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1063,6 +1063,9 @@ Closely related fields in theoretical computer science are analysis of algorithm
       <td align="center"><a href="https://github.com/jhuynh06"><img src="https://avatars.githubusercontent.com/u/111946833?v=4?s=50" width="50px;" alt="jhuynh06"/><br /><sub><b>jhuynh06</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3Ajhuynh06" title="Bug reports">🐛</a> <a href="https://github.com/shhossain/computer_science/commits?author=jhuynh06" title="Tests">⚠️</a></td>
       <td align="center"><a href="http://asche.tech"><img src="https://avatars.githubusercontent.com/u/2975712?v=4?s=50" width="50px;" alt="Andrew Asche"/><br /><sub><b>Andrew Asche</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=andrewasche" title="Documentation">📖</a></td>
       <td align="center"><a href="http://nateonmission.github.io"><img src="https://avatars.githubusercontent.com/u/37854313?v=4?s=50" width="50px;" alt="J. Nathan Allen"/><br /><sub><b>J. Nathan Allen</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3Anateonmission" title="Bug reports">🐛</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/Sayed-Afnan-Khazi"><img src="https://avatars.githubusercontent.com/u/83779299?v=4?s=50" width="50px;" alt="Sayed Afnan Khazi"/><br /><sub><b>Sayed Afnan Khazi</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Sayed-Afnan-Khazi" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

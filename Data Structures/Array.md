@@ -1,10 +1,12 @@
-## Array
-An array is a collection of items of same data type stored at contiguous memory locations. 
+# Array
 
-This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array). The base value is index 0 and the difference between the two indexes is the offset.
+* An array is a collection of items of same data type stored at contiguous memory locations.
 
-### Example
-```
+* This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array). The base value is index 0 and the difference between the two indexes is the offset.
+
+## Example
+
+```javascript
 let array = [4,3,8,1,0,14,6];
 ```
 
@@ -19,7 +21,8 @@ let array = [4,3,8,1,0,14,6];
 | 1006             | 6     |
 
 Accessing an element in an array is done by indexing into it.
-```
+
+```javascript
 array[0] // 4 (index 0 is the first element) (1000)
 array[1] // 3 (index 1 is the second element) (1001)
 array[2] // 8 (index 2 is the third element) (1002)
@@ -33,24 +36,21 @@ array[6] // 6 (index 6 is the seventh element) (1006)
   <img src="images/Array.png?raw=true" alt="Array Image"/>
 </p>
 
+## Initiation of Array
 
-#### Initiation of Array
+* To initiate of Arrays it is necessary to specify size of an Array:
 
-for initiation of Arrays it is necessary to specify size of an Array
+In C++:
+for example to initate an array of 5 elements:
 
-if C++:
-for example if you wish to initate an array of 5 elements 
-you have to write code as:
-
- ```
+ ```c++
 <datatype> arr_name[size]
 int arr[5];
 ```
 
-
-this will initialise array with 0 elements.
+this will initialise an array with 0 elements.
   
-#### Time complexities of some basic array operations
+## Time complexities of some basic array operations
 
 | Operation | Time Complexity |
 |-----------------|-------|
@@ -59,15 +59,15 @@ this will initialise array with 0 elements.
 | Inserting an element             | O(N)     |
 | Deleting an element             | O(N)     |
 
+* Inserting an deleting elements take O(n) time complexities because we need to shift the remaining data points either right or left after inserting or deleting them, in order to preserve the memory indexing.
 
-## Algorithms on Array
+## Algorithms on Arrays
 
-### Searching :
- 
-### 1. Linear Search :
+### Searching
+
+### 1. Linear Search
 
 Algorithm :
-
 
 1. Iterate the array using the loop.
 
@@ -80,13 +80,12 @@ Algorithm :
 4. Else
 
      print "Element Not Found".
-     
 
 ### 2. Binary Search
 
 Algorithm :
 
-Binary_Search(a, lower_bound, upper_bound, val) 
+Binary_Search(a, lower_bound, upper_bound, val)
 
 // 'a' is the given array, 'lower_bound' is the index of the first array element, 'upper_bound' is the index of the last array element, 'val' is the value to search  
 
@@ -114,15 +113,18 @@ print "value is not present in the array"
 Step 6: exit  
 
 ## Insertion
+
 It basically means inserting an element inside an array.
-There are following types of Insertions in Arrays
+There are following types of Insertions in Arrays:
+
 * Insertion at the beginning of an array
 * Insertion at the given index of an array
 * Insertion at the end of the Array
 
 
 ### Insertion at the beginning of an Array
-```
+
+```C
 #include <stdio.h>
 
 void main() {
@@ -160,7 +162,8 @@ void main() {
 ```
 
 **Output**
-~~~
+
+```C
 Printing array before insertion −
 array[0] = 2
 array[1] = 3
@@ -172,10 +175,11 @@ array[1] = 2
 array[2] = 3
 array[3] = 4
 array[4] = 5
-~~~
+```
 
 ### Insertion at the Given Index of an Array
-~~~
+
+```C
 #include<stdio.h>
 
 int main()
@@ -210,18 +214,21 @@ int main()
     return 0;
   }
 
-  ~~~
+```
 
-  **Output**
-  ```
+**Output**
+
+```C
 Enter position and element
 5 
 5
 1 20 5 78 30 5
 ```
-  ### Insertion at the end of the Array
-  ~~~
-  #include <stdio.h>
+
+### Insertion at the end of the Array
+
+```C
+#include <stdio.h>
 void main()
 {
     int position, i, n, value,ch, arr[100];
@@ -246,19 +253,22 @@ void main()
        printf("%d \t",arr[i]);
     }
 }
-~~~
+```
 
 **Output** <br>
+
 <img src="https://quescol.com/wp-content/uploads/2021/11/image-35.png?ezimgfmt=ng:webp/ngcb1" alt="output">
 <br>
 
 ## Deletion
+
 * Deletion refers to removing an existing/given element from the array using indexes and re-organizing all elements of an array.
 
-* In the delete operation, the element to be deleted is searched using the **linear search**, and then the delete operation is performed followed by shifting the elements. 
+* In the delete operation, the element to be deleted is searched using the **linear search**, and then the delete operation is performed followed by shifting the elements.
 
-### Code Implementation of Delete Operation in an Unsorted Array
-~~~
+### Delete Operation in an Unsorted Array
+
+```C++
 
 #include <iostream>
 using namespace std;
@@ -317,5 +327,4 @@ int main()
  
     return 0;
 }
- 
-~~~
+```

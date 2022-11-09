@@ -14,7 +14,7 @@ Input:  graph = {0, 1, 1, 1},
                          {1, 0, 1, 0}
 Output: Solution Exists: Following are the assigned colors: 1  2  3  2
 ```
-##Explanation: By coloring the vertices with following colors, adjacent vertices does not have same colors
+Explanation: By coloring the vertices with following colors, adjacent vertices does not have same colors
 ```
 Input: graph = {1, 1, 1, 1},
                          {1, 1, 1, 1},
@@ -22,7 +22,7 @@ Input: graph = {1, 1, 1, 1},
                          {1, 1, 1, 1}
 Output: Solution does not exist
 ```
-##Explanation: No solution exits
+Explanation: No solution exits
 
 Follow the given steps to solve the problem:
 
@@ -143,4 +143,4 @@ Output :
 ```
 Solution Exists: Following are the assigned colors 
   1  2  3  2
-  ```
+```

@@ -24,8 +24,10 @@ Output:
 1 3 8 9 4 7 2 5 6
 6 9 2 3 5 1 8 7 4
 7 4 5 2 8 6 3 1 9
-Explanation: Each row, column and 3*3 box of the output matrix contains unique numbers.
-
+```
+## Explanation: 
+Each row, column and 3*3 box of the output matrix contains unique numbers.
+```
 Input: grid
 { { 3, 1, 6, 5, 7, 8, 4, 9, 2 },
 { 5, 2, 9, 1, 3, 4, 7, 6, 8 },
@@ -46,8 +48,9 @@ Output:
 1 3 8 9 4 7 2 5 6
 6 9 2 3 5 1 8 7 4
 7 4 5 2 8 6 3 1 9 
-Explanation: Each row, column and 3*3 box of the output matrix contains unique numbers.
 ```
+## Explanation: 
+Each row, column and 3*3 box of the output matrix contains unique numbers.
 
 Follow the steps below to solve the problem:
 

@@ -74,6 +74,14 @@ int main() {
 
 ## Python
 ```python
+#example
+# items are ordered by price per weight
+n = 4
+W = 16
+p = [40, 30, 50, 10]
+w = [2, 5, 10, 5]
+p_per_weight = [20, 6, 5, 2]
+
 class Priority_Queue:
     def __init__(self):
         self.pqueue = []

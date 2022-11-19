@@ -2,13 +2,15 @@
 
 # Approach: 
 
-To find the maximum and minimum element from a given array is an application for divide and conquer. In this problem, we will find the maximum and minimum elements in a given array. In this problem, we are using a divide and conquer approach(DAC) which has three steps divide, conquer and combine.
+To find the maximum and minimum element from a given array is an application for divide and conquer. In this problem, we will find the maximum and minimum elements in a given array. In this problem, we are using a divide and conquer approach (DAC) which has three steps divide, conquer and combine.
 
 Step 1: Find the mid of the array.
 Step 2: Find the maximum and minimum of the left subarray recursively.
 Step 3: Find the maximum and minimum of the right subarray recursively.
 Step 4: Compare the result of step 3 and step 4
 Step 5: Return the minimum and maximum.
+
+## CPP
 
 ```cpp
 # include<iostream>

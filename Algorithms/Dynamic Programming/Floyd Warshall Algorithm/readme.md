@@ -441,14 +441,14 @@ between every pair of vertices")
 			if(dist[i][j] == INF):
 				print("%7s" % ("INF"), end=" ")
 			else:
-				print("%7d\t" % (dist[i][j]), end=' ')
+				print("%7d" % (dist[i][j]), end=' ')
 			if j == V-1:
 				print()
 
 
 # Driver's code
 if __name__ == "__main__":
-"""
+    """
 			10
 		(0)------->(3)
 		|		 /|\
@@ -457,13 +457,13 @@ if __name__ == "__main__":
 		\|/		 |
 		(1)------->(2)
 			3		 """
-graph = [[0, 5, INF, 10],
+    graph = [[0, 5, INF, 10],
 		[INF, 0, 3, INF],
 		[INF, INF, 0, 1],
 		[INF, INF, INF, 0]
 		]
 # Function call
-floydWarshall(graph)
+    floydWarshall(graph)
 ```
 
 **OUTPUT:**

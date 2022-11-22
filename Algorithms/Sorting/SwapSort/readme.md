@@ -22,8 +22,33 @@ end procedure
 ```
 
 ## Implementations
+* [Python](#python)
 * [CPP](#cpp)
 * [C](#c)
+
+### Python 
+```python
+
+import sys
+
+def swapSort(arr):
+    n = len(arr)
+    i = 0
+    while i < n:
+        if arr[i] != arr[arr[i] - 1]:
+            tmp = arr[i]
+            arr[i], arr[tmp - 1] = arr[arr[i] - 1], tmp
+        else:
+            i += 1
+
+def main():
+    arr = [5,2,3,1,4]
+    swapSort(arr)
+    print(arr)
+
+if __name__ == "__main__":
+    main()
+```
 
 ### CPP
 ```cpp
@@ -91,5 +116,6 @@ int main()
     for(int i=0; i<n; i++)
         printf("%d ", arr[i]);
 }
+
 ```
 

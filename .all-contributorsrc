@@ -1017,6 +1017,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "snowflake1201",
+      "name": "Pin Yuan Wang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56119216?v=4",
+      "profile": "https://github.com/snowflake1201",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,

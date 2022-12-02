@@ -41,38 +41,5 @@ them into the queue.
 Time Complexity: O(n+e)
 Space Complexity: O(n) for queue +  O(n) for storing the indegrees 
 ```cpp
-
-vector<int> toptSort(int n , vector<int> &adj){
-		queue<int> q;
-		vector<int> indegree(n,0) ;
-
-		for(int i = 0 ; i< n ; i++){
-			for(auto it : adj[i] ){
-				indegree[it]++ ;
-			}
-		}
-
-		for(int i = 0 ; i< n ;i++){
-			if(indegree[i] == 0){
-				q.push(i);
-			}
-		}
-
-		vector<int> topo ;
-		//kahns algo 
-		while(!q.empty()){
-			int top = q.front() ;
-			q.pop() ;
-			topo.push_back(top) ;
-			for(auto it: adj[top]){
-				indegree[it]-- ;
-				if(indegree[it] ==0 ){
-					q.push(it) ;
-				}
-			}
-
-		}
-		return topo ;
-	}
-int main(){}
+// Not added
 ```

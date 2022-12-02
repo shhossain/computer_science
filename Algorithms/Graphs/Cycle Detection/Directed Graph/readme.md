@@ -41,11 +41,9 @@ them into the queue.
 Time Complexity: O(n+e)
 Space Complexity: O(n) for queue +  O(n) for storing the indegrees 
 ```cpp
-#include <bits/stdc++.h>
 
-
-vector<int> toptSort(int n , vector<int> adj[]){
-		queue<int> q ;
+vector<int> toptSort(int n , vector<int> &adj){
+		queue<int> q;
 		vector<int> indegree(n,0) ;
 
 		for(int i = 0 ; i< n ; i++){

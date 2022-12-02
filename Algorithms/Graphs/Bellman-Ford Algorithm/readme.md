@@ -114,22 +114,6 @@ int main(){
 
 import java.util.*; 
 
-class Node 
-{
-	private int u;
-    private int v;
-    private int weight;
-    
-    Node(int _u, int _v, int _w) { u = _u; v = _v; weight = _w; }
-    
-    Node() {}
-    
-    int getV() { return v; }
-    int getU() { return u; }
-    int getWeight() { return weight; }
-
-}
- 
 
 class Main
 {
@@ -182,6 +166,22 @@ class Main
 		obj.bellmanFord(adj, n, 0);
 		
     }
+}
+
+class Node 
+{
+	private int u;
+    private int v;
+    private int weight;
+    
+    Node(int _u, int _v, int _w) { u = _u; v = _v; weight = _w; }
+    
+    Node() {}
+    
+    int getV() { return v; }
+    int getU() { return u; }
+    int getWeight() { return weight; }
+
 }
 
 ```

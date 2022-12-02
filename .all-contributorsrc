@@ -1026,6 +1026,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "BogdanOtava",
+      "name": "Bogdan Otava",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103674688?v=4",
+      "profile": "https://github.com/BogdanOtava",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

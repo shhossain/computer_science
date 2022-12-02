@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Given a string, we have to find the longest palindromic substring(substring is a sequence of characters that is contiguous within a string. For example, the string “Competitive”, "ive" , “Comp”, “pet”,... etc are substrings, but not “tv” as both these characters are not continuous. Whereas palindrome is a word that reads the same backward as forwards. Examples include abba, zzzz, xyyx.
+Given a string, we have to find the longest palindromic substring. Substring is a sequence of characters that is contiguous within a string. For example, the string “Competitive”, "ive" , “Comp”, “pet”,... etc. are substrings, but not “tv” as both these characters are not continuous. Whereas palindrome is a word that reads the same backward as forwards. Examples include abba, zzzz, xyyx.
 
 _Approach_
 

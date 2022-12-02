@@ -1,9 +1,9 @@
 # ***Bellman-Ford Algorithm***
 
-Bellman ford algorithm is used to calculate the shortest paths from a single source vertex to all vertices in the graph. 
+Bellman-Ford algorithm is used to calculate the shortest paths from a single source vertex to all vertices in the graph. 
 This algorithm also works on graphs with a negative edge weight cycle (It is a cycle of edges with weights that sums to a negative number), 
 unlike Dijkstra which gives wrong answers for the shortest path between two vertices.
-Bellman Ford algorithm is easier to implement when compared to dijkstra algorithm and optimal for distributed systems.
+Bellman-Ford algorithm is easier to implement when compared to Dijkstra algorithm and optimal for distributed systems.
 
 - _The Bellman-Ford algorithm is an example of Dynamic Programming. It starts with a starting vertex and calculates the distances of other 
   vertices which can be reached by one edge. It then continues to find a path with two edges and so on. The Bellman-Ford algorithm follows the bottom-up approach._
@@ -114,22 +114,6 @@ int main(){
 
 import java.util.*; 
 
-class Node 
-{
-	private int u;
-    private int v;
-    private int weight;
-    
-    Node(int _u, int _v, int _w) { u = _u; v = _v; weight = _w; }
-    
-    Node() {}
-    
-    int getV() { return v; }
-    int getU() { return u; }
-    int getWeight() { return weight; }
-
-}
- 
 
 class Main
 {
@@ -182,6 +166,22 @@ class Main
 		obj.bellmanFord(adj, n, 0);
 		
     }
+}
+
+class Node 
+{
+	private int u;
+    private int v;
+    private int weight;
+    
+    Node(int _u, int _v, int _w) { u = _u; v = _v; weight = _w; }
+    
+    Node() {}
+    
+    int getV() { return v; }
+    int getU() { return u; }
+    int getWeight() { return weight; }
+
 }
 
 ```

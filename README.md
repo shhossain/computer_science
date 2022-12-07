@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-112-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-113-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1069,6 +1069,7 @@ Closely related fields in theoretical computer science are analysis of algorithm
       <td align="center"><a href="https://github.com/Technic143"><img src="https://avatars.githubusercontent.com/u/117275755?v=4?s=50" width="50px;" alt="Technic143"/><br /><sub><b>Technic143</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Technic143" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/issues?q=author%3ATechnic143" title="Bug reports">🐛</a></td>
       <td align="center"><a href="https://github.com/snowflake1201"><img src="https://avatars.githubusercontent.com/u/56119216?v=4?s=50" width="50px;" alt="Pin Yuan Wang"/><br /><sub><b>Pin Yuan Wang</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=snowflake1201" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/BogdanOtava"><img src="https://avatars.githubusercontent.com/u/103674688?v=4?s=50" width="50px;" alt="Bogdan Otava"/><br /><sub><b>Bogdan Otava</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=BogdanOtava" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=BogdanOtava" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/Vedeesh6"><img src="https://avatars.githubusercontent.com/u/88491153?v=4?s=50" width="50px;" alt="Vedeesh Dwivedi"/><br /><sub><b>Vedeesh Dwivedi</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3AVedeesh6" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>

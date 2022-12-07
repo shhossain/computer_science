@@ -1037,6 +1037,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "Vedeesh6",
+      "name": "Vedeesh Dwivedi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88491153?v=4",
+      "profile": "https://github.com/Vedeesh6",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 6,

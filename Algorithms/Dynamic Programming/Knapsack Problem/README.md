@@ -158,48 +158,68 @@ int main()
 ```java
 
 //Java solution for 0-1 Knapsack problem
+import java.util.*;
 class Knapsack {
- 
-    // A function that returns maximum of two integers
-    static int max(int a, int b)
-    {
-          return (a > b) ? a : b;
-    }
- 
-    // Returns the maximum value that can be put in a knapsack of capacity W
-    static int knapSack(int W, int wt[],
-                        int val[], int n)
-    {
-        int i, w;
-        int K[][] = new int[n + 1][W + 1];
- 
-        for (i = 0; i <= n; i++)
-        {
-            for (w = 0; w <= W; w++)
-            {
-                if (i == 0 || w == 0)
-                    K[i][w] = 0;
-                else if (wt[i - 1] <= w)
-                    K[i][w]
-                        = max(val[i - 1]
-                         + K[i - 1][w - wt[i - 1]],
-                         K[i - 1][w]);
-                else
-                    K[i][w] = K[i - 1][w];
+    public static void Knapsack01DP(int no_items,float max_weight,Float arr1[],Float arr2[]) {
+        float answer= 0;float weight=0;float totalp=0;
+        String finalstring="";
+        for(int i=0;i<Math.pow(2, no_items);i++){
+            weight=0;totalp=0;
+            String computation = Integer.toBinaryString(i);
+            String computation_basis = ("0".repeat(no_items-computation.length()))+Integer.toBinaryString(i);
+            //System.out.println(computation_basis);
+            for(int j=0;j<computation_basis.length();j++){
+                weight=weight+(arr1[j]*(Integer.valueOf(Character.toString(computation_basis.charAt(j)))));
+                totalp=totalp+(arr2[j]*(Integer.valueOf(Character.toString(computation_basis.charAt(j)))));
+            }//System.out.println(weight+" "+totalp);
+            if(weight<=max_weight && totalp>=answer){
+                //System.out.println("values change");
+                answer=totalp;
+                finalstring=computation_basis;
             }
         }
- 
-        return K[n][W];
+        for(int k=0;k<no_items;k++){
+            if(finalstring.charAt(k)=='1'){
+                System.out.println("Item "+(k+1)+" of weight "+arr1[k]+" Kgs.");
+            }
+        }
+        System.out.println("Total profit gain -> "+answer+" Rs.");
+    }
+
+    /**
+     * @param arr1
+     * @param arr2
+     * @param arr3
+     * prints out table of inputs and there ratio
+     */
+    public static void Printtable(Float arr1[],Float arr2[],Float arr3[]) {   
+        System.out.println("Item No.       Weight         Profit         P/W Ratio\n");
+        for(int j=0;j<arr1.length;j++){
+            System.out.println("\n"+(j+1)+" ".repeat(15-Integer.toString(j).length())+arr1[j]+" ".repeat(15-String.valueOf(arr1[j]).length())+arr2[j]+" ".repeat(15-String.valueOf(arr2[j]).length())+arr3[j]);
+        }
     }
  
     // Driver code
-    public static void main(String args[])
-    {
-        int val[] = new int[] { 80, 120, 60 };
-        int wt[] = new int[] { 20, 30, 40 };
-        int W = 80;
-        int n = val.length;
-        System.out.println(knapSack(W, wt, val, n));
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter max possible weight-> ");
+        float max=sc.nextFloat();
+        System.out.print("Enter number of items-> ");
+        int n=sc.nextInt();
+        Float wgarr[] = new Float[n];
+        Float parr[]= new Float[n];
+        Float ratio[] = new Float[n];
+        for(int i=0;i<n;i++){
+            System.out.print("\nFor item "+(i+1)+"->\nWeight (in kg)-> ");
+            wgarr[i]=sc.nextFloat();
+            System.out.print("Profit (in Rs.)-> ");
+            parr[i]=sc.nextFloat();
+            ratio[i]=parr[i]/wgarr[i];
+        }sc.close();
+        System.out.println("\nHence, we have -> \n");
+        Printtable(wgarr, parr, ratio);
+        System.out.println("\nThus, Required Composition is -> \n");
+        Knapsack01DP(n, max, wgarr, parr);
     }
 }
 ```

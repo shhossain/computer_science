@@ -6,39 +6,38 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Electronic Computing](#electronic-computing)
-- [Boolean Logic](#boolean-logic)
-- [Number Systems](#number-systems)
-- [Central Processing Unit(CPU)](#central-processing-unit-cpu)
-- [Registers, Cache and RAM](#registers-cache-and-ram)
-- [Instruction and Program](#instruction-and-program)
-- [Programming Language](#programming-language)
-- [Data Types](#data-types)
-- [Statements and Functions](#statements-and-functions)
-- [Data Structures](#data-structures)
-- [Algorithms](#algorithms)
 - [Alan Turing](#alan-turing)
 - [Software Engineering](#software-engineering)
 - [Integrated Circuits](#integrated-circuits)
+- [Number Systems](#number-systems)
+- [Theory of Computation](#theory-of-computation)
+
+- [Programming Language](#programming-language)
+- [Boolean Logic](#boolean-logic)
+- [Algorithms](#algorithms)
+- [Data Types](#data-types)
+- [Statements and Functions](#statements-and-functions)
+- [Data Structures](#data-structures)
 - [Object Oriented Programming](#object-oriented-programming)
+
+- [Central Processing Unit(CPU)](#central-processing-unit-cpu)
+- [Registers, Cache and RAM](#registers-cache-and-ram)
+- [Instruction and Program](#instruction-and-program)
 - [Operating Systems](#operating-systems)
 - [Memory and Storage](#memory-and-storage)
 - [File System](#file-system)
+- [Networking](#networking)
+
 - [Cloud Computing](#cloud-computing)
 - [Machine Learning](#machine-learning)
 - [Web Technology](#web-technology)
-- [Networking](#networking)
 - [Internet](#internet)
 - [DBMS(Database Management System)](#dbms)
 - [Cryptography](#cryptography)
-- [Theory of Computation](#theory-of-computation)
 
 
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions. Those include algorithm formulation, software/hardware development, and artificial intelligence.
-
-## [Electronic Computing](Not-Added)
-A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or that assembles, stores, correlates, or otherwise processes information.
 
 ## [Boolean Logic](Boolean%20Logic/readme.md)
 Boolean logic is a branch of mathematics that deals with the values of truth and falsehood. It is a system of logic that uses only two values, 0 and 1, to represent false and true, respectively. It is also known as Boolean algebra, named after George Boole, who first described it in 1854.

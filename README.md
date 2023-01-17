@@ -6,11 +6,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Alan Turing](#alan-turing)
-- [Software Engineering](#software-engineering)
-- [Integrated Circuits](#integrated-circuits)
 - [Number Systems](#number-systems)
-- [Theory of Computation](#theory-of-computation)
 
 - [Programming Language](#programming-language)
 - [Boolean Logic](#boolean-logic)
@@ -96,12 +92,12 @@ The CPU itself is made of three main components. They are:
 3. [Arithmetic and Logic unit (ALU)](CPU/readme.md#arithmetic-and-logic-unit-alu)
 
 
-## [Registers, Cache and RAM](/Registers%20Cache%20and%20RAM)
+## [Registers, Cache and RAM](Registers%20Cache%20and%20RAM)
 
-### [Register](/Registers%20Cache%20and%20RAM/readme.md#register)
+### [Register](Registers%20Cache%20and%20RAM/readme.md#register)
 Registers are small amounts of high-speed memory contained within the CPU. Registers are basically a collection of "flip-flops" (a circuit used to store 1 bit of memory). They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called "cores". Register also helps in arithmetic and logic operations. Larger amounts of data may be stored in Cache (pronounced as "cash").  This is a very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still larger amounts of data may be stored in RAM. These are integrated circuits not part of the CPU. RAM stands for Random-Access Memory. It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
 
-### [Cache](/Registers%20Cache%20and%20RAM/readme.md#cache)
+### [Cache](Registers%20Cache%20and%20RAM/readme.md#cache)
 Cache memory is a chip-based computer component that makes retrieving data from the computer's memory more efficient. It acts as a temporary storage area that the computer's processor can retrieve data from easily. This temporary storage area, known as a cache, is more readily available to the processor than the computer's main memory source, typically some form of DRAM.
 
 Cache memory is sometimes called CPU (central processing unit) memory because it is typically integrated directly into the CPU chip or placed on a separate chip that has a separate bus interconnect with the CPU. Therefore, it is more accessible to the processor, and able to increase efficiency, because it's physically close to the processor.
@@ -115,7 +111,7 @@ The name of the actual hardware that is used for cache memory is high-speed stat
 Cache memory is not to be confused with the broader term cache. Caches are temporary stores of data that can exist in both hardware and software. Cache memory refers to the specific hardware component that allows computers to create caches at various levels of the network. A cache is hardware or software that is used to store something, typically data, temporarily in a computing environment.
 
 
-### [RAM](/Registers%20Cache%20and%20RAM/readme.md#ram)
+### [RAM](Registers%20Cache%20and%20RAM/readme.md#ram)
 RAM is the hardware in a computing device where the operating system (OS), application programs and data in current use are kept so they can be quickly reached by the device's processor. RAM is the main memory in a computer. It is much faster to read from and write to than other types of storage, such as a Hard Disk Drive (HDD), a Solid State Drive (SSD), or an optical drive.
 
 ## [Instruction and Program](Not-Added)
@@ -302,62 +298,6 @@ Some common time complexities are :
 | Binary Search	 | O(1)	       | O(logN)   | O(logN)	   |
 
 
-
-## [Alan Turing](Not-Added)
-Alan Turing, (born June 23, 1912, London, Eng.—died June 7, 1954, Wilmslow, Cheshire), English mathematician and logician. He studied at the University of Cambridge and Princeton’s Institute for Advanced Study. In his seminal 1936 paper “On Computable Numbers,” he proved that there cannot exist any universal algorithmic method of determining truth in mathematics and that mathematics will always contain undecidable (as opposed to unknown) propositions. That paper also introduced the Turing machine. He believed that computers eventually would be capable of thought indistinguishable from that of a human and proposed a simple test (see Turing test) to assess this capability. His papers on the subject are widely acknowledged as the foundation of research in artificial intelligence. He did valuable work in cryptography during World War II, playing an important role in breaking the Enigma code used by Germany for radio communications. After the war he taught at the University of Manchester and began work on what is now known as artificial intelligence. In the midst of this groundbreaking work, Turing was found dead in his bed, poisoned by cyanide. His death followed his arrest for a homosexual act (then a crime) and sentence of 12 months of hormone therapy.
-
-
-Following a public campaign in 2009, the British Prime Minister Gordon Brown made an official public apology on behalf of the British government for the appalling way Turing was treated. Queen Elizabeth II granted a posthumous pardon in 2013. The term "Alan Turing law" is now used informally to refer to a 2017 law in the United Kingdom that retroactively pardoned men cautioned or convicted under historical legislation that outlawed homosexual acts.
-
-Turing has an extensive legacy with statues of him and many things named after him, including an annual award for computer science innovations. He appears on the current Bank of England £50 note, which was released on 23 June 2021, to coincide with his birthday. A 2019 BBC series, as voted by the audience, named him the greatest person of the 20th century.
-
-
-## [Software Engineering](Software%20Engineering/readme.md)
-Software engineering is the branch of computer science that deals with the design, development, testing, and maintenance of software applications. Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users.
-
-Let’s look at the various definitions of software engineering:
-
-- IEEE, in its standard 610.12-1990, defines software engineering as the application of a systematic, disciplined, which is a computable approach for the development, operation, and maintenance of software.
-- Fritz Bauer defined it as ‘the establishment and used standard engineering principles. It helps you to obtain, economically, software which is reliable and works efficiently on the real machines’.
-- Boehm defines software engineering, which involves, ‘the practical application of scientific knowledge to the creative design and building of computer programs. It also includes associated documentation needed for developing, operating, and maintaining them.’
-
-### Software engineer tasks and responsibilities
-Successful engineers know how to use the right programming languages, platforms, and architectures to develop everything from computer games to network control systems. In addition to building their own systems, software engineers also test, improve, and maintain software built by other engineers.
-
-In this role, your day-to-day tasks might include:
-
-- Designing and maintaining software systems
-- Evaluating and testing new software programs
-- Optimizing software for speed and scalability
-- Writing and testing code
-- Consulting with clients, engineers, security specialists, and other stakeholders
-- Presenting new features to stakeholders and internal customers
-
-
-### Why Software Engineering is Popular?
-
-- Computer Science: Gives the scientific foundation for the software as electrical engineering mainly depends on physics.
-- Management Science: Software engineering is labor-intensive work which demands both technical and managerial control. Therefore, it is widely used in management science.
-- Economics: In this sector, software engineering helps you in resource estimation and cost control. Computing system must be developed, and data should be maintained regularly within a given budget.
-- System Engineering: Most software is a component of a much larger system. For example, the software in an Industry monitoring system or the flight software on an airplane. Software engineering methods should be applied to the study of this type of systems.
-- 
-
-## [Integrated Circuits](Integrated%20Circuits/readme.md)
-An integrated circuit or monolithic integrated circuit (also referred to as an IC, a chip, or a microchip) is a set of electronic circuits on one small flat piece (or "chip") of semiconductor material, usually silicon. Large numbers of tiny MOSFETs (metal–oxide–semiconductor field-effect transistors) integrate into a small chip. This results in circuits that are orders of magnitude smaller, faster, and less expensive than those constructed of discrete electronic components. The IC's mass production capability, reliability, and building-block approach to integrated circuit design has ensured the rapid adoption of standardized ICs in place of designs using discrete transistors. ICs are now used in virtually all electronic equipment and have revolutionized the world of electronics. Computers, mobile phones and other home appliances are now inextricable parts of the structure of modern societies, made possible by the small size and low cost of ICs such as modern computer processors and microcontrollers.
-
-Very-large-scale integration was made practical by technological advancements in metal–oxide–silicon (MOS) semiconductor device fabrication. Since their origins in the 1960s, the size, speed, and capacity of chips have progressed enormously, driven by technical advances that fit more and more MOS transistors on chips of the same size – a modern chip may have many billions of MOS transistors in an area the size of a human fingernail. These advances, roughly following Moore's law, make the computer chips of today possess millions of times the capacity and thousands of times the speed of the computer chips of the early 1970s.
-
-ICs have two main advantages over discrete circuits: cost and performance. The cost is low because the chips, with all their components, are printed as a unit by photolithography rather than being constructed one transistor at a time. Furthermore, packaged ICs use much less material than discrete circuits. Performance is high because the IC's components switch quickly and consume comparatively little power because of their small size and proximity. The main disadvantage of ICs is the high cost of designing them and fabricating the required photomasks. This high initial cost means ICs are only commercially viable when high production volumes are anticipated.
-
-### Types
-Modern electronic component distributors often further sub-categorize integrated circuits:
-
-- Digital ICs are categorized as logic ICs (such as microprocessors and microcontrollers), memory chips (such as MOS memory and floating-gate memory), interface ICs (level shifters, serializer/deserializer, etc.), power management ICs, and programmable devices.
-- Analog ICs are categorized as linear integrated circuits and RF circuits (radio frequency circuits).
-- Mixed-signal integrated circuits are categorized as data acquisition ICs (including A/D converters, D/A converters, digital potentiometers), clock/timing ICs, switched capacitor (SC) circuits, and RF CMOS circuits.
-- Three-dimensional integrated circuits (3D ICs) are categorized into through-silicon via (TSV) ICs and Cu-Cu connection ICs.
-
-
 ## [Object Oriented Programming](Object%20Oriented%20Programming/readme.md)
 Object Oriented Programming is a fundamental programming paradigm which is based on the concepts of objects and data.
 
@@ -372,7 +312,7 @@ It is the standard way of code that every programmer has to abide by for better 
 Read more about these concepts of OOP [here](Object%20Oriented%20Programming/readme.md)
 
 
-## [Operating Systems](Operating%20Systems/readme.md)
+## Operating Systems
 An operating system (or OS for short) acts as an intermediary between the user of a computer and computer hardware. The purpose of an operating system is to provide an environment in which an user can execute programs conveniently and efficiently.
 An operating system is a software that manages computer hardware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent user programs from interfering with the proper operation of the system.
 An even more common definition is that the operating system is the one program running at all times on the computer (usually called the kernel), with all else being application programs.
@@ -393,7 +333,7 @@ memory management, I/O management, the file system, and security.The heart of an
 These tell what the operating system really does
 
 ### Operating system as a resource manager
-the operating system is there to manage all the pieces of a complex system. Modern computers consist of processors, memories, timers, disks, mice, 
+The operating system is there to manage all the pieces of a complex system. Modern computers consist of processors, memories, timers, disks, mice, 
 network interfaces, printers, and a wide variety of other devices. 
 In the bottom-up view, the job of the operating system is to provide for an orderly and controlled allocation of the
 processors, memories, and I/O devices among the various programs wanting them.
@@ -885,33 +825,6 @@ Crypto currency is a digital currency in which encryption techniques are used to
 5. [Dogecoin](Cryptography/CryptoCurrency/ProofOfWork/Dogecoin/readme.md#dogecoin)
 
 
-
-## [Theory of Computation]
-In theoretical computer science and mathematics, the theory of computation is the branch that deals with what problems can be solved on a model of computation, using an algorithm, how efficiently they can be solved or to what degree (e.g., approximate solutions versus precise ones). The field is divided into three major branches: automata theory and formal languages, computability theory, and computational complexity theory, which are linked by the question: "What are the fundamental capabilities and limitations of computers?".
-
-### Automata Theory
-Automata theory is the study of abstract machines and automata, as well as the computational problems that can be solved using them. It is a theory in theoretical computer science. The word automata comes from the Greek word αὐτόματος, which means "self-acting, self-willed, self-moving". An automaton (automata in plural) is an abstract self-propelled computing device which follows a predetermined sequence of operations automatically. An automaton with a finite number of states is called a Finite Automaton (FA) or Finite-State Machine (FSM). The figure on the right illustrates a finite-state machine, which is a well-known type of automaton. This automaton consists of states (represented in the figure by circles) and transitions (represented by arrows). As the automaton sees a symbol of input, it makes a transition (or jump) to another state, according to its transition function, which takes the previous state and current input symbol as its arguments. 
-
-
-### Formal Languages
-In logic, mathematics, computer science, and linguistics, a formal language consists of words whose letters are taken from an alphabet and are well-formed according to a specific set of rules.
-
-The alphabet of a formal language consists of symbols, letters, or tokens that concatenate into strings of the language.[1] Each string concatenated from symbols of this alphabet is called a word, and the words that belong to a particular formal language are sometimes called well-formed words or well-formed formulas. A formal language is often defined by means of a formal grammar such as a regular grammar or context-free grammar, which consists of its formation rules.
-
-In computer science, formal languages are used among others as the basis for defining the grammar of programming languages and formalized versions of subsets of natural languages in which the words of the language represent concepts that are associated with particular meanings or semantics. In computational complexity theory, decision problems are typically defined as formal languages, and complexity classes are defined as the sets of the formal languages that can be parsed by machines with limited computational power. In logic and the foundations of mathematics, formal languages are used to represent the syntax of axiomatic systems, and mathematical formalism is the philosophy that all of mathematics can be reduced to the syntactic manipulation of formal languages in this way. 
-
-### Computability Theory
-Computability theory, also known as recursion theory, is a branch of mathematical logic, computer science, and the theory of computation that originated in the 1930s with the study of computable functions and Turing degrees. The field has since expanded to include the study of generalized computability and definability. In these areas, computability theory overlaps with proof theory and effective descriptive set theory. 
-
-### Computational complexity theory
-In theoretical computer science and mathematics, computational complexity theory focuses on classifying computational problems according to their resource usage, and relating these classes to each other. A computational problem is a task solved by a computer. A computation problem is solvable by mechanical application of mathematical steps, such as an algorithm.
-
-A problem is regarded as inherently difficult if its solution requires significant resources, whatever the algorithm used. The theory formalizes this intuition, by introducing mathematical models of computation to study these problems and quantifying their computational complexity, i.e., the amount of resources needed to solve them, such as time and storage. Other measures of complexity are also used, such as the amount of communication (used in communication complexity), the number of gates in a circuit (used in circuit complexity) and the number of processors (used in parallel computing). One of the roles of computational complexity theory is to determine the practical limits on what computers can and cannot do. The P versus NP problem, one of the seven Millennium Prize Problems, is dedicated to the field of computational complexity.[1]
-
-Closely related fields in theoretical computer science are analysis of algorithms and computability theory. A key distinction between analysis of algorithms and computational complexity theory is that the former is devoted to analyzing the amount of resources needed by a particular algorithm to solve a problem, whereas the latter asks a more general question about all possible algorithms that could be used to solve the same problem. More precisely, computational complexity theory tries to classify problems that can or cannot be solved with appropriately restricted resources. In turn, imposing restrictions on the available resources is what distinguishes computational complexity from computability theory: the latter theory asks what kinds of problems can, in principle, be solved algorithmically. 
-
-
- 
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->

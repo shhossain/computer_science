@@ -7,7 +7,6 @@
 
 - [Introduction](#introduction)
 - [Number Systems](#number-systems)
-
 - [Programming Language](#programming-language)
 - [Boolean Logic](#boolean-logic)
 - [Algorithms](#algorithms)
@@ -15,7 +14,6 @@
 - [Statements and Functions](#statements-and-functions)
 - [Data Structures](#data-structures)
 - [Object Oriented Programming](#object-oriented-programming)
-
 - [Central Processing Unit(CPU)](#central-processing-unit-cpu)
 - [Registers, Cache and RAM](#registers-cache-and-ram)
 - [Instruction and Program](#instruction-and-program)
@@ -23,7 +21,6 @@
 - [Memory and Storage](#memory-and-storage)
 - [File System](#file-system)
 - [Networking](#networking)
-
 - [Cloud Computing](#cloud-computing)
 - [Machine Learning](#machine-learning)
 - [Web Technology](#web-technology)

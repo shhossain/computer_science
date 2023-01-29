@@ -189,56 +189,57 @@ int main()
 ## JAVA
 
 ```java
-// Java program using memoization
-import java.io.*;
 import java.util.*;
-class GFG
-{
 
-static int[][] dp = new int[100][100];
+public class MatrixChainMultiplication {
+    static int count=0;
+    public static Integer MatChainMult( Integer arr[], Integer arr2[][], Integer[][] k_array, Integer i, Integer j) {
+        if(i==j){return 0;}
+        else if(arr2[i][j] != null){return arr2[i][j];}
+        else{
+            Integer min=1000000000;int pos=0;
+            for(int k=i;k<j;k++){
+                Integer answer=MatChainMult( arr, arr2, k_array, i, k)+MatChainMult( arr, arr2, k_array, k+1, j)+(arr[i-1]*arr[k]*arr[j]);
+                if(answer<min){min=answer;pos=k;}
+            }
+            k_array[i][j]=pos;
+            arr2[i][j]=min;
+            return arr2[i][j];
+        }
+    }
 
-// Function for matrix chain multiplication
-static int matrixChainMemoised(int[] p, int i, int j)
-{
-	if (i == j)
-	{
-	return 0;
-	}
-	if (dp[i][j] != -1)
-	{
-	return dp[i][j];
-	}
-	dp[i][j] = Integer.MAX_VALUE;
-	for (int k = i; k < j; k++)
-	{
-	dp[i][j] = Math.min(
-		dp[i][j], matrixChainMemoised(p, i, k)
-		+ matrixChainMemoised(p, k + 1, j)
-		+ p[i - 1] * p[k] * p[j]);
-	}
-	return dp[i][j];
+    public static void Printtable(Integer arr[]) {   
+        System.out.println("\nMatrix No.       Dimensions");
+        for(int l=0;l<arr.length-1;l++){
+            System.out.println("\nM"+(l+1)+" ".repeat(15-Integer.toString(l).length())+arr[l]+"X"+arr[l+1]);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of matrices-> ");
+        int n=sc.nextInt();
+        Integer[] arr1= new Integer[n+1];StringBuilder matrix= new StringBuilder();matrix.append("(".repeat(n-1));
+        System.out.print("Now, please enter your array values ->");
+        for(int l=0;l<arr1.length;l++){
+            arr1[l]=sc.nextInt();
+            if(l>0){matrix.append(" M"+l+" ");}
+        }sc.close();
+        Integer[][] Solution_array = new Integer[n+1][n+1];
+        Integer[][] K_array = new Integer[n+1][n+1];
+        System.out.println("\nHence, we have ->");
+        Printtable(arr1);
+        System.out.println("\nResult -> "+MatChainMult(arr1, Solution_array,K_array, 1, n));
+        for(int l=n;l>0;l--){
+            int m=1;
+            if(K_array[m][l] != null){
+                matrix.insert(matrix.indexOf(Integer.toString(K_array[m][l]))+1, ")");
+            }
+            //System.out.println(matrix);
+        }
+        System.out.println("Hence, Required arrangement is -> \n"+matrix);
+    }
 }
-
-static int MatrixChainOrder(int[] p, int n)
-{
-	int i = 1, j = n - 1;
-	return matrixChainMemoised(p, i, j);
-}
-
-// Driver Code
-public static void main (String[] args)
-{
-
-	int arr[] = { 1, 2, 3, 4 };
-	int n= arr.length;
-
-	for (int[] row : dp)
-	Arrays.fill(row, -1);
-
-	System.out.println("Minimum number of multiplications is " + MatrixChainOrder(arr, n));
-}
-}
-
 ```
 ## PYTHON
 

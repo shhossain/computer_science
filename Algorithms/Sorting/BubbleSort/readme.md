@@ -48,7 +48,7 @@ end procedure
 * [Go](#go)
 * [Ruby](#ruby)
 * [PHP](#php)
-* [c#](#c#)
+* [c#](#CSharp)
 
 ### Python
 ```python
@@ -369,7 +369,7 @@ var_dump(bubbleSort($arr));
 var_dump(bubbleSortDesc($arr));
 ```
 
-### c#
+### CSharp
 ```c#
 using System;
 class Program {

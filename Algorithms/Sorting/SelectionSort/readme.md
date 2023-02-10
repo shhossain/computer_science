@@ -45,7 +45,7 @@ end procedure
 * [JavaScript](#javascript)
 * [Go](#go)
 * [Ruby](#ruby)
-* * [c#](#CSharp)
+* [c#](#CSharp)
 
 ### Python
 ```python
@@ -372,7 +372,7 @@ private static void Swap<T>(T[] array, int first, int second)
   public static void print(int[] arr, int n)
 	{
 		for (int i = 0; i < n; i++)
-			Console.Write(arr[i] + ", ");
+			Console.Write(arr[i] + " ");
 	}
   
   //main program

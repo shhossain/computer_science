@@ -45,6 +45,7 @@ end procedure
 * [JavaScript](#javascript)
 * [Go](#go)
 * [Ruby](#ruby)
+* * [c#](#CSharp)
 
 ### Python
 ```python
@@ -329,5 +330,65 @@ end
 arr = [64, 25, 12, 22, 11]
 p selection_sort(arr) # [11, 12, 22, 25, 64]
 p selection_sort_desc(arr) # [64, 25, 22, 12, 11]
+```
+### CSharp
+```c#
+using System;
+
+
+
+
+
+class Program {
+
+//sorting algorithm
+   public static void Sort<T>(T[] array) where T : IComparable 
+{
+    for (int i = 0; i < array.Length - 1; i++) 
+    {
+        int minin = i; 
+        T minval = array[i];
+        for (int z = i + 1; z < array.Length; z++) 
+        {
+            if (array[z].CompareTo(minval) < 0)
+            {
+             	 minin = z; 
+                 minval = array[z]; 
+            } 
+        } 
+        Swap(array, i, minin); 
+    }
+}
+
+//swaping algorithm
+private static void Swap<T>(T[] array, int first, int second)
+{
+	T tnum = array[first]; 
+  	array[first] = array[second]; 
+  	array[second] = tnum;
+}
+
+  //code to print arrays
+  public static void print(int[] arr, int n)
+	{
+		for (int i = 0; i < n; i++)
+			Console.Write(arr[i] + ", ");
+	}
+  
+  //main program
+ public static void Main (string[] args) {
+    int[] arr = { 170, 45, 75, 90, 802, 24, 2, 66 };
+		int n = arr.Length;
+    Console.WriteLine("Starting array");
+    print(arr,n);
+   
+
+		// Function Call
+		Sort(arr);
+   Console.WriteLine();
+    Console.WriteLine("Sorted array");
+		print(arr, n);
+  }
+}
 ```
 

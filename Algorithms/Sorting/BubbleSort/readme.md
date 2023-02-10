@@ -48,6 +48,7 @@ end procedure
 * [Go](#go)
 * [Ruby](#ruby)
 * [PHP](#php)
+* [c#](#CSharp)
 
 ### Python
 ```python
@@ -366,4 +367,57 @@ function bubbleSortDesc($arr){
 $arr = [64, 34, 25, 12, 22, 11, 90];
 var_dump(bubbleSort($arr));
 var_dump(bubbleSortDesc($arr));
+```
+
+### CSharp
+```c#
+using System;
+class Program {
+  public static void Main (string[] args) {
+         int[] arr = { 64, 34, 25, 12, 22, 11, 90};
+          Console.WriteLine("Starting array");
+          foreach (int num in arr)
+            Console.Write(num + " ");
+          Console.WriteLine();
+
+    //sorting code 
+         int anum;
+         for (int j = 0; j <= arr.Length - 2; j++) {
+            for (int i = 0; i <= arr.Length - 2; i++) {
+               if (arr[i] > arr[i + 1]) {
+                  anum= arr[i + 1];
+                  arr[i + 1] = arr[i];
+                  arr[i] = anum;
+               }
+            }
+         }
+    //end of sorting
+    
+         Console.WriteLine("Sorted array");
+         foreach (int p in arr)
+            Console.Write(p + " ");
+        Console.WriteLine();
+
+
+    //sorting code desc
+          int dnum;
+         for (int j = 0; j <= arr.Length - 2; j++) {
+            for (int i = 0; i <= arr.Length - 2; i++) {
+               if (arr[i] < arr[i + 1]) {
+                  dnum= arr[i + 1];
+                  arr[i + 1] = arr[i];
+                  arr[i] = dnum;
+               }
+            }
+         }
+    //end of sorting
+    
+         Console.WriteLine("Sorted array desc");
+         foreach (int num in arr)
+            Console.Write(num + " ");
+         
+    
+    
+  }
+}
 ```

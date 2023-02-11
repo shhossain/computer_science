@@ -200,27 +200,25 @@ void selectionSortDesc(int arr[], int n)
     }
 }
 
-void swap(int *xp, int *yp)
-{
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
-}
-
 void printArray(int arr[], int size)
 {
     int i;
     for (i=0; i < size; i++)
         printf("%d ", arr[i]);
-    printf("n");
+    printf("\n");
 }
 
 int main()
 {
-    int arr[] = {64, 25, 12, 22, 11};
+    int arr[] = {64, 100, 2, 0, -1, 10};
     int n = sizeof(arr)/sizeof(arr[0]);
+    printf("Before Sorting: ");
+    printArray(arr, n);
     selectionSort(arr, n);
-    printf("Sorted array: n");
+    printf("Sorted array Ascending: ");
+    printArray(arr, n);
+    selectionSortDesc(arr, n);
+    printf("Sorted array Decending: ");
     printArray(arr, n);
     return 0;
 }
@@ -345,10 +343,6 @@ p selection_sort_desc(arr) # [64, 25, 22, 12, 11]
 ### CSharp
 ```c#
 using System;
-
-
-
-
 
 class Program {
 

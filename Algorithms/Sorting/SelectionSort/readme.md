@@ -365,6 +365,26 @@ class Program {
     }
 }
 
+//sorting desc
+  public static void SortD<T>(T[] array) where T : IComparable 
+{
+    for (int i = 0; i < array.Length - 1; i++) 
+    {
+        int maxin = i; 
+        T maxval = array[i];
+        for (int z = i + 1; z < array.Length; z++) 
+        {
+            if (array[z].CompareTo(maxval) > 0)
+            {
+             	 maxin = z; 
+                 maxval = array[z]; 
+            } 
+        } 
+        Swap(array, i, maxin); 
+    }
+}
+
+
 //swaping algorithm
 private static void Swap<T>(T[] array, int first, int second)
 {
@@ -392,6 +412,12 @@ private static void Swap<T>(T[] array, int first, int second)
 		Sort(arr);
    Console.WriteLine();
     Console.WriteLine("Sorted array");
+		print(arr, n);
+		
+		
+		SortD(arr);
+   Console.WriteLine();
+    Console.WriteLine("Sorted array desc");
 		print(arr, n);
   }
 }

@@ -163,6 +163,17 @@ public class SelectionSort {
 ```c
 #include <stdio.h>
 
+void swap(int *p,int *q)
+{
+	//p=&n1 so p store the address of n1, so *p store the value of n1
+	//q=&n2 so q store the address of n2, so *q store the value of n2
+
+    int tmp;
+    tmp = *p; // tmp store the value of n1
+    *p=*q;    // *p store the value of *q that is value of n2
+    *q=tmp;   // *q store the value of tmp that is the value of n1
+}
+
 void selectionSort(int arr[], int n)
 {
     int i, j, min_idx;

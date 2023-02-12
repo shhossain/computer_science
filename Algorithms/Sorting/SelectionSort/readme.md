@@ -45,6 +45,7 @@ end procedure
 * [JavaScript](#javascript)
 * [Go](#go)
 * [Ruby](#ruby)
+* [c#](#CSharp)
 
 ### Python
 ```python
@@ -162,6 +163,17 @@ public class SelectionSort {
 ```c
 #include <stdio.h>
 
+void swap(int *p,int *q)
+{
+	//p=&n1 so p store the address of n1, so *p store the value of n1
+	//q=&n2 so q store the address of n2, so *q store the value of n2
+
+    int tmp;
+    tmp = *p; // tmp store the value of n1
+    *p=*q;    // *p store the value of *q that is value of n2
+    *q=tmp;   // *q store the value of tmp that is the value of n1
+}
+
 void selectionSort(int arr[], int n)
 {
     int i, j, min_idx;
@@ -188,27 +200,25 @@ void selectionSortDesc(int arr[], int n)
     }
 }
 
-void swap(int *xp, int *yp)
-{
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
-}
-
 void printArray(int arr[], int size)
 {
     int i;
     for (i=0; i < size; i++)
         printf("%d ", arr[i]);
-    printf("n");
+    printf("\n");
 }
 
 int main()
 {
-    int arr[] = {64, 25, 12, 22, 11};
+    int arr[] = {64, 100, 2, 0, -1, 10};
     int n = sizeof(arr)/sizeof(arr[0]);
+    printf("Before Sorting: ");
+    printArray(arr, n);
     selectionSort(arr, n);
-    printf("Sorted array: n");
+    printf("Sorted array Ascending: ");
+    printArray(arr, n);
+    selectionSortDesc(arr, n);
+    printf("Sorted array Decending: ");
     printArray(arr, n);
     return 0;
 }
@@ -329,5 +339,87 @@ end
 arr = [64, 25, 12, 22, 11]
 p selection_sort(arr) # [11, 12, 22, 25, 64]
 p selection_sort_desc(arr) # [64, 25, 22, 12, 11]
+```
+### CSharp
+```c#
+using System;
+
+class Program {
+
+//sorting algorithm
+   public static void Sort<T>(T[] array) where T : IComparable 
+{
+    for (int i = 0; i < array.Length - 1; i++) 
+    {
+        int minin = i; 
+        T minval = array[i];
+        for (int z = i + 1; z < array.Length; z++) 
+        {
+            if (array[z].CompareTo(minval) < 0)
+            {
+             	 minin = z; 
+                 minval = array[z]; 
+            } 
+        } 
+        Swap(array, i, minin); 
+    }
+}
+
+//sorting desc
+  public static void SortD<T>(T[] array) where T : IComparable 
+{
+    for (int i = 0; i < array.Length - 1; i++) 
+    {
+        int maxin = i; 
+        T maxval = array[i];
+        for (int z = i + 1; z < array.Length; z++) 
+        {
+            if (array[z].CompareTo(maxval) > 0)
+            {
+             	 maxin = z; 
+                 maxval = array[z]; 
+            } 
+        } 
+        Swap(array, i, maxin); 
+    }
+}
+
+
+//swaping algorithm
+private static void Swap<T>(T[] array, int first, int second)
+{
+	T tnum = array[first]; 
+  	array[first] = array[second]; 
+  	array[second] = tnum;
+}
+
+  //code to print arrays
+  public static void print(int[] arr, int n)
+	{
+		for (int i = 0; i < n; i++)
+			Console.Write(arr[i] + " ");
+	}
+  
+  //main program
+ public static void Main (string[] args) {
+    int[] arr = { 170, 45, 75, 90, 802, 24, 2, 66 };
+		int n = arr.Length;
+    Console.WriteLine("Starting array");
+    print(arr,n);
+   
+
+		// Function Call
+		Sort(arr);
+   Console.WriteLine();
+    Console.WriteLine("Sorted array");
+		print(arr, n);
+		
+		
+		SortD(arr);
+   Console.WriteLine();
+    Console.WriteLine("Sorted array desc");
+		print(arr, n);
+  }
+}
 ```
 

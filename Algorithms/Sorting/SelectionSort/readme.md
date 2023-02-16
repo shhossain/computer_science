@@ -147,7 +147,7 @@ public class SelectionSort {
         for(int i=1;i<=len;i++){System.out.print("Enter element "+i+": ");array.add(scan.nextInt());}
         scan.close();
         System.out.print("\nHence, we have the input array as -> ");System.out.println(array);
-        obj.SelecSort(array);
+        obj.SelectSort(array);
         System.out.print("\nHence, Sorted array using selection sort is -> ");System.out.println(array);
     }
 }

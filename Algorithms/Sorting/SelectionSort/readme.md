@@ -125,36 +125,30 @@ int main()
 
 ### Java
 ```java
+import java.util.*;
 
 public class SelectionSort {
+    public void SelectSort(Vector<Integer> array){               //Function to sort array
+        Vector<Integer> array1= new Vector<Integer>(array);
+
+        for(int l=0;l<array.size();l++){
+            //System.out.print("\nPass "+(l+1)+" gives us -> \n\n Min element = "+Collections.min(array1)+"\n Position of min element = "+array.indexOf(Collections.min(array1))+"\n Pointer element = "+array.elementAt(l)+"\n");
+            Collections.swap(array, l, array.indexOf(Collections.min(array1)));
+            array1.remove(Collections.min(array1));
+            //System.out.println(" "+array);
+        }
+    }
+    
     public static void main(String[] args) {
-        int[] arr = {64, 25, 12, 22, 11};
-        selectionSort(arr);
-        System.out.println("Sorted array");
-        printArray(arr);
-    }
-
-    public static void selectionSort(int[] arr) {
-        int n = arr.length;
-        for (int i = 0; i < n-1; i++) {
-            int min_idx = i;
-            for (int j = i+1; j < n; j++) {
-                if (arr[j] < arr[min_idx]) {
-                    min_idx = j;
-                }
-            }
-            int temp = arr[min_idx];
-            arr[min_idx] = arr[i];
-            arr[i] = temp;
-        }
-    }
-
-    public static void printArray(int[] arr) {
-        int n = arr.length;
-        for (int i = 0; i < n; ++i) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
+        SelectionSortModified obj = new SelectionSortModified();
+        Scanner scan = new Scanner(System.in);
+        System.out.print("No. of elements in array -> ");int len = scan.nextInt();
+        Vector<Integer> array = new Vector<Integer>();
+        for(int i=1;i<=len;i++){System.out.print("Enter element "+i+": ");array.add(scan.nextInt());}
+        scan.close();
+        System.out.print("\nHence, we have the input array as -> ");System.out.println(array);
+        obj.SelecSort(array);
+        System.out.print("\nHence, Sorted array using selection sort is -> ");System.out.println(array);
     }
 }
 ```

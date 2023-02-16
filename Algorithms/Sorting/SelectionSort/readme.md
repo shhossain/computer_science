@@ -140,7 +140,7 @@ public class SelectionSort {
     }
     
     public static void main(String[] args) {
-        SelectionSortModified obj = new SelectionSortModified();
+        SelectionSort obj = new SelectionSort();
         Scanner scan = new Scanner(System.in);
         System.out.print("No. of elements in array -> ");int len = scan.nextInt();
         Vector<Integer> array = new Vector<Integer>();

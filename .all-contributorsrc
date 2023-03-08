@@ -1055,6 +1055,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Brandonawan",
+      "name": "Brandon Awan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74030681?v=4",
+      "profile": "https://brandonawan.github.io/Resume/",
+      "contributions": [
+        "doc",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 6,

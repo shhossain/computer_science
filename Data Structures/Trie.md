@@ -7,7 +7,7 @@ Trie follows some property that If two strings have a common prefix then they wi
 ## Need for Trie Data Structure?
 
 A Trie data structure is used for storing and retrieval of data and the same operations could be done using another data structure which is Hash Table but Trie can perform these operations more efficiently than a Hash Table.  
-Moreover, Trie has its own advantage over the Hash table. A Trie data structure can be used for prefix-based searching whereas a Hash table can’t be used in the same way.
+Moreover, Trie has its advantage over the Hash table. A Trie data structure can be used for prefix-based searching whereas a Hash table can’t be used in the same way.
 
 ## Advantages of Trie Data Structure over a Hash Table:
 
@@ -20,13 +20,13 @@ The A trie data structure has the following advantages over a hash table:
 
 ## Properties of a Trie Data Structure
 
-Now we already know that Trie has a tree-like structure. So, it is very important to know its properties.
+Now we know that Trie has a tree-like structure. So, it is very important to know its properties.
 Below are some important properties of the Trie data structure:
 
 - There is one root node in each Trie.
 - Each node of a Trie represents a string and each edge represents a character.
 - Every node consists of hashmaps or an array of pointers, with each index representing a character and a flag to indicate if any string ends at the current node.
-- Trie data structure can contain any number of characters including alphabets, numbers, and special characters. But for this article, we will discuss strings with characters a-z. Therefore, only 26 pointers need for every node, where the 0th index represents ‘a’ and the 25th index represents ‘z’ characters.
+- Trie data structure can contain any number of characters including alphabets, numbers, and special characters. But for this article, we will discuss strings with character a-z. Therefore, only 26 pointers need for every node, where the 0th index represents ‘a and the 25th index represents ‘z’ characters.
 - Each path from the root to any node represents a word or string.
 
 ## Example
@@ -37,8 +37,8 @@ Below is a simple example of Trie data structure.
 
 ## How does Trie Data Structure work?
 
-We already know that the Trie data structure can contain any number of characters including alphabets, numbers, and special characters. But for this article, we will discuss strings with characters a-z.  
-Therefore, only 26 pointers need for every node, where the 0th index represents ‘a’ and the 25th index represents ‘z’ characters.
+We already know that the Trie data structure can contain any number of characters including alphabets, numbers, and special characters. But for this article, we will discuss strings with character a-z.  
+Therefore, only 26 pointers need for every node, where the 0th index represents ‘a and the 25th index represents ‘z’ characters.
 
 Any lowercase English word can start with a-z, then the next letter of the word could be a-z, the third letter of the word again could be a-z, and so on. So for storing a word,  
 we need to take an array (container) of size 26 and initially, all the characters are empty as there are no words and it will look as shown below.
@@ -60,7 +60,7 @@ After “n“, the 3rd character is “d“, So mark the position “d” as use
 
 The word “any” starts with “a” and the position of “a” in the root node has already been filled. So, no need to fill it again, just move to the node ‘a‘ in Trie.  
 For the second character ‘n‘ we can observe that the position of ‘n’ in the ‘a’ node has already been filled. So, no need to fill it again, just move to node ‘n’ in Trie.  
-For the last character ‘t‘ of the word, The position for ‘t‘ in the ‘n‘ node is not filled. So, filled the position of ‘t‘ in ‘n‘ node and move to ‘t‘ node. After storing the word “and” and “any” the Trie will look like this:
+For the last character ‘t‘ of the word, The position for ‘t‘ in the ‘n‘ node is not filled. So, filled the position of ‘t‘ in the ‘n‘ node and move to the ‘t‘ node. After storing the word “and” and “any” the Trie will look like this:
 
 - After storing the word “and” and “any” the Trie will look like this:
 

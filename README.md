@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-114-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-115-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1069,6 +1069,9 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/BogdanOtava"><img src="https://avatars.githubusercontent.com/u/103674688?v=4?s=50" width="50px;" alt="Bogdan Otava"/><br /><sub><b>Bogdan Otava</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=BogdanOtava" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=BogdanOtava" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Vedeesh6"><img src="https://avatars.githubusercontent.com/u/88491153?v=4?s=50" width="50px;" alt="Vedeesh Dwivedi"/><br /><sub><b>Vedeesh Dwivedi</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3AVedeesh6" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/TsiG-404"><img src="https://avatars.githubusercontent.com/u/74056836?v=4?s=50" width="50px;" alt="Tsig"/><br /><sub><b>Tsig</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=TsiG-404" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://brandonawan.github.io/Resume/"><img src="https://avatars.githubusercontent.com/u/74030681?v=4?s=50" width="50px;" alt="Brandon Awan"/><br /><sub><b>Brandon Awan</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Brandonawan" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/issues?q=author%3ABrandonawan" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>

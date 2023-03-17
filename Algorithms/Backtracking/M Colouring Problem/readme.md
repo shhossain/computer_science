@@ -14,23 +14,23 @@ Input:  graph = {0, 1, 1, 1},
                          {1, 0, 1, 0}
 Output: Solution Exists: Following are the assigned colors: 1  2  3  2
 ```
-Explanation: By coloring the vertices with following colors, adjacent vertices does not have same colors
+Explanation: By coloring the vertices with the following colors, adjacent vertices do not have the same colors
 ```
 Input: graph = {1, 1, 1, 1},
                          {1, 1, 1, 1},
                          {1, 1, 1, 1},
                          {1, 1, 1, 1}
-Output: Solution does not exist
+Output: The solution does not exist
 ```
 Explanation: No solution exits
 
 Follow the given steps to solve the problem:
 
-Create a recursive function that takes the current index, number of vertices and output color array
-If the current index is equal to number of vertices. Check if the output color configuration is safe, i.e check if the adjacent vertices do not have same color. If the conditions are met, print the configuration and break
+Create a recursive function that takes the current index, number of vertices, and output color array
+If the current index is equal to the number of vertices. Check if the output color configuration is safe, i.e check if the adjacent vertices do not have the same color. If the conditions are met, print the configuration and break
 Assign a color to a vertex (1 to m)
-For every assigned color recursively call the function with next index and number of vertices
-If any recursive function returns true break the loop and returns true.
+For every assigned color recursively call the function with the next index and number of vertices
+If any recursive function returns true break the loop and return true.
 Below is the implementation of the above approach:
 
 ```c
@@ -48,91 +48,91 @@ void printSolution(int color[]);
 // graph is safe or not
 bool isSafe(bool graph[V][V], int color[])
 {
-	// check for every edge
-	for (int i = 0; i < V; i++)
-		for (int j = i + 1; j < V; j++)
-			if (graph[i][j] && color[j] == color[i])
-				return false;
-	return true;
+    // check for every edge
+    for (int i = 0; i < V; i++)
+        for (int j = i + 1; j < V; j++)
+            if (graph[i][j] && color[j] == color[i])
+                return false;
+    return true;
 }
 
 /* This function solves the m Coloring
 problem using recursion. It returns
-false if the m colours cannot be assigned,
+false if the m colors cannot be assigned,
 otherwise, return true and prints
-assignments of colours to all vertices.
+assignments of colors to all vertices.
 Please note that there may be more than
-one solutions, this function prints one
+one solution, this function prints one
 of the feasible solutions.*/
 bool graphColoring(bool graph[V][V], int m, int i,
-				int color[V])
+                int color[V])
 {
-	// if current index reached end
-	if (i == V) {
-		// if coloring is safe
-		if (isSafe(graph, color)) {
-			// Print the solution
-			printSolution(color);
-			return true;
-		}
-		return false;
-	}
+    // if current index reached end
+    if (i == V) {
+        // if coloring is safe
+        if (isSafe(graph, color)) {
+            // Print the solution
+            printSolution(color);
+            return true;
+        }
+        return false;
+    }
 
-	// Assign each color from 1 to m
-	for (int j = 1; j <= m; j++) {
-		color[i] = j;
+    // Assign each color from 1 to m
+    for (int j = 1; j <= m; j++) {
+        color[i] = j;
 
-		// Recur of the rest vertices
-		if (graphColoring(graph, m, i + 1, color))
-			return true;
+        // Recur of the rest vertices
+        if (graphColoring(graph, m, i + 1, color))
+            return true;
 
-		color[i] = 0;
-	}
+        color[i] = 0;
+    }
 
-	return false;
+    return false;
 }
 
 /* A utility function to print solution */
 void printSolution(int color[])
 {
-	printf("Solution Exists:"
-		" Following are the assigned colors \n");
-	for (int i = 0; i < V; i++)
-		printf(" %d ", color[i]);
-	printf("\n");
+    printf("Solution Exists:"
+        " Following are the assigned colors \n");
+    for (int i = 0; i < V; i++)
+        printf(" %d ", color[i]);
+    printf("\n");
 }
 
 // Driver code
 int main()
 {
-	/* Create following graph and
-	test whether it is 3 colorable
-	(3)---(2)
-	| / |
-	| / |
-	| / |
-	(0)---(1)
-	*/
-	bool graph[V][V] = {
-		{ 0, 1, 1, 1 },
-		{ 1, 0, 1, 0 },
-		{ 1, 1, 0, 1 },
-		{ 1, 0, 1, 0 },
-	};
-	int m = 3; // Number of colors
+    /* Create the following graph and
+    test whether it is 3 colorable
+    (3)---(2)
+    | / |
+    | / |
+    | / |
+    (0)---(1)
+    */
+    bool graph[V][V] = {
+        { 0, 1, 1, 1 },
+        { 1, 0, 1, 0 },
+        { 1, 1, 0, 1 },
+        { 1, 0, 1, 0 },
+    };
+    int m = 3; // Number of colors
 
-	// Initialize all color values as 0.
-	// This initialization is needed
-	// correct functioning of isSafe()
-	int color[V];
-	for (int i = 0; i < V; i++)
-		color[i] = 0;
+    // Initialize all color values as 0.
+    // This initialization is needed
+    // correct functioning of isSafe()
+    int color[V];
+    for (int i = 0; i < V; i++)
+        color[i] = 0;
 
-	// Function call
-	if (!graphColoring(graph, m, 0, color))
-		printf("Solution does not exist");
+    // Function call
+    if (!graphColoring(graph, m, 0, color))
+        printf("Solution does not exist");
 
-	return 0;
+    return 0;
 }
 
 ```

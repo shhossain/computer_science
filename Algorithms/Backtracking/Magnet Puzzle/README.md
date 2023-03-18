@@ -3,7 +3,7 @@
 
 We are given a set of bipolar magnets, each domino-shaped. The objective is to place magnets on an M × N board, which satisfies a set of conditions where both M and N are not odd.
 
-For instance, the following problem has the solution on its right:
+For instance, the following problem has a solution on its right:
 
 ![Magnet-Puzzle](https://user-images.githubusercontent.com/93932583/197451535-f30d4cb2-0684-4e00-a397-fa758df1c8d5.png)
 
@@ -181,7 +181,7 @@ bool solveMagnetPuzzle(char board[N][N], int row, int col, int top[],
         }
     }
  
-    // if horizontal slot contains `L` and `R`
+    // if the horizontal slot contains `L` and `R`
     if (rules[row][col] == 'L' && rules[row][col + 1] == 'R')
     {
         // put (`+`, `-`) pair and recur

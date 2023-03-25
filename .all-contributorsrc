@@ -1065,6 +1065,15 @@
         "doc",
         "bug"
       ]
+    },
+    {
+      "login": "Evy04",
+      "name": "Sanya Madre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84919650?v=4",
+      "profile": "https://github.com/Evy04",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

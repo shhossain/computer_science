@@ -98,7 +98,14 @@ A Central Processing Unit (CPU) is the most important part of any computer. The 
 ## [Registers, Cache and RAM](/Registers%20Cache%20and%20RAM)
 
 ### [Register](/Registers%20Cache%20and%20RAM/readme.md#register)
-Registers are small amounts of high-speed memory contained within the CPU. Registers are a collection of "flip-flops" (a circuit used to store 1 bit of memory). They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called "cores". Register also helps in arithmetic and logic operations. Larger amounts of data may be stored in Cache (pronounced as "cash"). This is a very fast memory that is located on the same integrated circuit as the registers. It is used for data frequently needed as the program runs. Still, larger amounts of data may be stored in RAM. These are integrated circuits, not part of the CPU. RAM stands for random-access memory. It is essentially data and instructions that have been moved from disk storage and held until the processor needs it.
+Registers are small amounts of high-speed memory contained within the CPU. Registers are a collection of "flip-flops" (a circuit used to store 1 bit of memory). They are used by the processor to store small amounts of data that are needed during processing. A CPU may have several sets of registers that are called "cores". Register also helps in arithmetic and logic operations. 
+
+Arithmetic operations are mathematical calculations performed by the CPU on numerical data stored in registers. These operations include addition, subtraction, multiplication, and division. Logic operations are Boolean calculations performed by the CPU on binary data stored in registers. These operations include comparisons (e.g. testing if two values are equal) and logical operations (e.g. AND, OR, NOT).
+
+Registers are essential for performing these operations because they allow the CPU to quickly access and manipulate small amounts of data. By storing frequently accessed data in registers, the CPU can avoid the slower process of retrieving data from memory.
+
+Larger amounts of data may be stored in Cache (pronounced as "cash"), a very fast memory located on the same integrated circuit as the registers. Cache is used for data frequently accessed as the program runs. Even larger amounts of data may be stored in RAM. RAM stands for random-access memory, which is a type of memory that holds data and instructions that have been moved from disk storage until the processor needs it.
+
 
 ### [Cache](/Registers%20Cache%20and%20RAM/readme.md#cache)
 Cache memory is a chip-based computer component that makes retrieving data from the computer's memory more efficient. It acts as a temporary storage area so the computer's processor can retrieve data easily. This temporary storage area, known as a cache, is more readily available to the processor than the computer's main memory source, typically some form of DRAM.

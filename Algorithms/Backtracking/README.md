@@ -17,3 +17,4 @@ Backtracking is an algorithmic-technique for solving problems recursively by try
 * [Permutation of a Given String](Permutation%20Of%20a%20Given%20String/README.md)
 * [Generating IP address](Generate%20IP%20Adresses/README.md)
 * [Remove Invalid Parentheses](Remove%20Invalid%20Parentheses/README.md)
+* [Longest Possible Route in a Matrix with Hurdles](Longest%20Possible%20Route%20in%20a%20Matrix%20with%20Hurdles/README.md)

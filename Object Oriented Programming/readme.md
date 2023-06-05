@@ -100,6 +100,50 @@ public class RunEncap {
 }
 ```
 
+### **Python program to Demonstrate Encapsulation**
+
+```python
+class EncapTest:
+    def __init__(self):
+        self._name = None
+        self._id = None
+        self._age = 0
+
+    def get_age(self):
+        return self._age
+
+    def get_name(self):
+        return self._name
+
+    def get_id_num(self):
+        return self._id
+
+    def set_age(self, new_age):
+        self._age = new_age
+
+    def set_name(self, new_name):
+        self._name = new_name
+
+    def set_id_num(self, new_id):
+        self._id = new_id
+
+
+# Test and run achieved encapsulation
+
+def main():
+    encap1 = EncapTest()
+    encap1.set_name("ABCD")
+    encap1.set_age(21)
+    encap1.set_id_num("123456789")
+
+    print("Name:", encap1.get_name())
+    print("Age:", encap1.get_age())
+
+
+if __name__ == "__main__":
+    main()
+```
+
 #### **3. Inheritance**
 
 * Inheritance is the ability to create a new class from an existing class.
@@ -141,6 +185,40 @@ public class My_Calculation extends Calculation {
         cal1.multiplication(a, b);
     }
 }
+```
+
+### **Python program to Demonstrate Inheritance** ###
+
+```python
+class Calculation:
+    def __init__(self):
+        self.k = 0
+
+    def addition(self, x, y):
+        self.k = x + y
+        print("The sum of the given numbers =", self.k)
+
+    def subtraction(self, x, y):
+        self.k = x - y
+        print("The difference between the given numbers =", self.k)
+
+
+class MyCalculation(Calculation):
+    def multiplication(self, x, y):
+        self.k = x * y
+        print("The product of the given numbers =", self.k)
+
+
+def main():
+    a, b = 50, 25
+    cal1 = MyCalculation()
+    cal1.addition(a, b)
+    cal1.subtraction(a, b)
+    cal1.multiplication(a, b)
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 #### **4. Polymorphism**
@@ -189,6 +267,25 @@ public class Sum {
         System.out.println(s.sum(10.5, 20.5));
     }
 }
+```
+### **Python program to Demonstrate Polymorphism** ###
+
+```python
+class Sum:
+    def sum(self, x, y):      # will not be used
+        return x + y
+
+    def sum(self, x, y, z=0): # 0 is used as a default argument for z
+        return x + y + z
+
+# Driver code
+def main():
+    s = Sum()
+    print(s.sum(10, 20))      # calls sum using 0 as argument for z
+    print(s.sum(10, 20, 30))
+
+if __name__ == "__main__":
+    main()
 ```
 
 #### **5. Overloading**

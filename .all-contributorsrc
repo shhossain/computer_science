@@ -1083,6 +1083,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "crowleyg",
+      "name": "Garrett Crowley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86014840?v=4",
+      "profile": "https://www.linkedin.com/in/garrett-crowley-a0b931126/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,
@@ -1090,5 +1099,6 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "projectName": "computer_science",
-  "projectOwner": "shhossain"
+  "projectOwner": "shhossain",
+  "commitType": "docs"
 }

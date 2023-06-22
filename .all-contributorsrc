@@ -1092,6 +1092,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Francesco601",
+      "name": "Francesco Franco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130352141?v=4",
+      "profile": "https://github.com/Francesco601",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 6,

@@ -1,12 +1,12 @@
 # Merge Sort
-Merge sort is a sorting technique based on divide and conquer technique. With worst-case time complexity being Ο(n log n), it is one of the most respected algorithms.
+Merge sort is a sorting technique based on divide and conquer technique. With worst-case time complexity being Ο(n log n), it is one of the most important and commonly used algorithms.
 
 ## Complexity
 | Best | Average | Worst | Memory | Stable |
 |------|---------|-------|--------|--------|
 | n log(n)  | n log(n)     | n log(n)   | n      | Yes     |
 
-## Sudo Code
+## Pseudo Code
 ```
 procedure merge( var a as array, var b as array )
    var c as array

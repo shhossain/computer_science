@@ -40,14 +40,14 @@ array[6] // 6 (index 6 is the seventh element) (1006)
 
 * To initilaize an array it is necessary to specify its size:
 
-In C++, for example, here is how we initatalize an array of 5 elements:
+In C++, for example, here is how we initialize an array of 5 elements:
 
  ```c++
 <datatype> arr_name[size]
 int arr[5];
 ```
 
-this will initialise an array of 5 elements with the value 0.
+this will initialize an array of 5 elements with the value 0.
   
 ## Time complexities of some basic array operations
 

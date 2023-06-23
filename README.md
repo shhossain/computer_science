@@ -37,7 +37,7 @@
 ## Introduction
 Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions. Those include algorithm formulation, software/hardware development, and artificial intelligence.
 
-## [Electronic Computing](Not-Added)
+## [Electronic Computer](Not-Added)
 A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or that assembles, stores, correlates, or otherwise processes information.
 
 ## [Boolean Logic](Boolean%20Logic/readme.md)
@@ -115,9 +115,12 @@ Cache memory is not to be confused with the broader term cache. Caches are tempo
 
 
 ### [RAM](/Registers%20Cache%20and%20RAM/readme.md#ram)
-RAM is the hardware in a computing device where the operating system (OS), application programs, and data in current use are kept so they can be quickly reached by the device's processor. RAM is the main memory in a computer. It is much faster to read from and write to than other types of storage, such as a Hard Disk Drive (HDD), a Solid State Drive (SSD), or an optical drive.
+RAM (Random Access Memory) is a form of computer memmory that can be read and changed in any order, typically used to store working data and machine code. A random access memory device allows data items
+to be read or writtem in almost the same amoung of time regardless of the physical location of data inside the memory, in contrast with other direct-access data storage memdia (such as hard-disks, CD-RWS,
+DVD-RWs and the older magnetic tapes and drum memory), where the time required to read and write data items varies significantly depending on their physical locations on the recording medium, due to mechanical limitations such as media rotation speeds and arm movement.
 
-## [Instruction and Program](Not-Added)
+
+## [Instructions and Program](Not-Added)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. A computer program is a list of instructions that tell a computer what to do. Everything a computer does is accomplished by using a computer program. Programs that are stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
 
 ## [Programming Language](Not-Added)

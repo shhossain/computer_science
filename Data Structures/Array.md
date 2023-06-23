@@ -36,19 +36,18 @@ array[6] // 6 (index 6 is the seventh element) (1006)
   <img src="images/Array.png?raw=true" alt="Array Image"/>
 </p>
 
-## Initiation of Array
+## Initalization of Array
 
-* To initiate of Arrays it is necessary to specify size of an Array:
+* To initilaize an array it is necessary to specify its size:
 
-In C++:
-for example to initate an array of 5 elements:
+In C++, for example, here is how we initatalize an array of 5 elements:
 
  ```c++
 <datatype> arr_name[size]
 int arr[5];
 ```
 
-this will initialise an array with 0 elements.
+this will initialise an array of 5 elements with the value 0.
   
 ## Time complexities of some basic array operations
 
@@ -59,7 +58,7 @@ this will initialise an array with 0 elements.
 | Inserting an element             | O(N)     |
 | Deleting an element             | O(N)     |
 
-* Inserting an deleting elements take O(n) time complexities because we need to shift the remaining data points either right or left after inserting or deleting them, in order to preserve the memory indexing.
+* Inserting and deleting elements take O(n) time because we need to shift the remaining data points either right or left after inserting or deleting them, in order to preserve the memory indexing.
 
 ## Algorithms on Arrays
 
@@ -69,9 +68,9 @@ this will initialise an array with 0 elements.
 
 Algorithm :
 
-1. Iterate the array using the loop.
+1. Iterate through the array using a loop.
 
-2. Check whether the given key present in the array i.e. arr[i] == key.
+2. Check whether the given key is present in the array, i.e. arr[i] == key.
 
 3. If yes,
 
@@ -135,7 +134,7 @@ void main() {
    int value = 1;    // new data element to be stored in array
 
    // print array before insertion
-   printf("Printing array before insertion −\n");
+   printf("Printing array before insertion -\n");
    
    for(i = 0; i < N; i++) {
       printf("array[%d] = %d \n", i, array[i]);

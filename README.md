@@ -6,12 +6,12 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Electronic Computing](#electronic-computing)
+- [Electronic Computer](#electronic-computer)
 - [Boolean Logic](#boolean-logic)
 - [Number Systems](#number-systems)
 - [Central Processing Unit(CPU)](#central-processing-unit-cpu)
 - [Registers, Cache and RAM](#registers-cache-and-ram)
-- [Instruction and Program](#instruction-and-program)
+- [Instructions and Program](#instructions-and-program)
 - [Programming Language](#programming-language)
 - [Data Types](#data-types)
 - [Statements and Functions](#statements-and-functions)
@@ -21,6 +21,7 @@
 - [Software Engineering](#software-engineering)
 - [Integrated Circuits](#integrated-circuits)
 - [Object Oriented Programming](#object-oriented-programming)
+- [Functional Programming](#functional-programming)
 - [Operating Systems](#operating-systems)
 - [Memory and Storage](#memory-and-storage)
 - [File System](#file-system)

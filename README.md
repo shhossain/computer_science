@@ -387,7 +387,7 @@ It is the standard way of code that every programmer has to abide by for better 
 
 Read more about these concepts of OOP [here](Object%20Oriented%20Programming/readme.md)
 
-## [Functional Programming].(Functional%20Programming/readme.md)
+##[Functional Programming](Functional%20Programming/readme.md)
 
 In computer science, functional programming is a programming paradigm where programs are constructed by applying and composing functions. It is a declarative programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of imperative statements which update the running state of the program.
 

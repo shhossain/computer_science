@@ -406,14 +406,50 @@ Some example of functional programming languages are:
 - <a href="https://fsharp.org/"> F# </a>
 - <a href="https://cs.lmu.edu/~ray/notes/introml/"> ML </a> 
 
-Functional programming is derived historically from the *lambda calculus*. Lambda calculus is a frameworkeveloped by Alonzo Church to study computations with functions. It is often called "the smallest programming language in the world." It provides a defintion of what is computable and what is not. It is equivalaent to a Turing machine in its computational ability and anything computable by the lambda calculus, just like anything computable by a Turing machine, is computable. It provides a theoretical frammework for describing functions and their evaluations.
+Functional programming is derived historically from the *lambda calculus*. Lambda calculus is a framework developed by Alonzo Church to study computations with functions. It is often called "the smallest programming language in the world." It provides a defintion of what is computable and what is not. It is equivalaent to a Turing machine in its computational ability and anything computable by the lambda calculus, just like anything computable by a Turing machine, is computable. It provides a theoretical frammework for describing functions and their evaluations.
 
 Some essential concepts of functional programming are:
-- Pure functions
+- Pure functions 
 - Recursion
 - Referential transparancy
 - Functions as first class and higher order functions
 - Variable are immutable.
+
+**Pure functions**: These functions have two main properties. First, they always produce the same output for the same arguments irrespective of anything else. Secondly, they have no side-effects. i.e. they do not modify any arguments or local/global variable
+or input/output streams. The latter property is called *immutability*. The pure function's only result is the value it returns. They are deterministic. Programs done using functional programming are easy to debug because they have no side-effects or hidden I/O. Pure functions alsoì make it easier to write parralel/concurrent applications. When code is written in this style, a smart compiler can do many things- it can parallelize the instructions, wait to evaluate results until needed and memorize the results since the results never change as long as the input doesn't change. Here is a simple example of a pure funtion in Python:
+
+```Python
+def sum(x ,y): # sum is a function taking x and y as arguments
+    return x + y  # returns x + y without changing the value
+ ```
+
+**Recursion**: There are no "for" or  "while" loops in pure functional programming languages. Iteration is implemented through recursion. Recursive functions repeatedly call themselves until a base case is reached. Here is a simple example of a recursice
+function in C:
+
+```C
+int fib(n) {
+  if(n <= 1)
+    return 1;
+   else
+     return (fib(n-1) + fib(n-2));
+}
+ ```
+**Referential transparency**: In functional programs, variables once defined do not change their value throughout the program.
+Functional programs do not have assignment statements. If we have to store some value, we define a new variable instead. This elimimates any chance of side-effects because any variable can be replaced with its actual value at any point of the execution. The state of any varaible is constant at any instant. Example:
+ 
+```python
+x= x + 1 # this changed the value assigned to the varable x
+         # therefore, the expression is NOT referentially transparent
+```
+
+**Functions are first-class and can be higher order**: First class functions are treated as first-class variables. The first class variables can be passed to functions as parameters, can be returned from functions or stored in data structures.
+         
+
+
+
+
+
+
 
 
 ## [Operating Systems](Operating%20Systems/readme.md)

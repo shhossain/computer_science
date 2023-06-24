@@ -386,6 +386,34 @@ It is the standard way of code that every programmer has to abide by for better 
 
 Read more about these concepts of OOP [here](Object%20Oriented%20Programming/readme.md)
 
+## [Functional Programming].(Functional%20Programming/readme.md)
+
+In computer science, functional programming is a programming paradigm where programs are constructed by applying and composing functions. It is a declarative programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of imperative statements which update the running state of the program.
+
+In functional programming, functions are treated as first-class citizens, meaning that they can be bound to names (including local identifiers), passed as arguments, and returned from other functions, just as any other data type can. This allows programs to be written in a declarative and composable style, where small functions are combined in a modular manner.
+
+Functional programming is sometimes treated as synonymous with purely functional programming, a subset of functional programming which treats all functions as deterministic mathematical functions, or pure functions. When a pure function is called with some given arguments, it will always return the same result, and cannot be affected by any mutable state or other side effects. This is in contrast with impure procedures, common in imperative programming, which can have side effects (such as modifying the program's state or taking input from a user). Proponents of purely functional programming claim that by restricting side effects, programs can have fewer bugs, be easier to debug and test, and be more suited to formal verification procedures.
+
+Functional programming has its roots in academia, evolving from the lambda calculus, a formal system of computation based only on functions. Functional programming has historically been less popular than imperative programming, but many functional languages are seeing use today in industry and education. 
+
+Some example of functional programming languages are:
+- <a href="https://lisp-lang.org/"> Common Lisp </a>
+- <a href="https://www.scheme.org/"> Scheme </a>
+- <a href="https://racket-lang.org/"> Racket </a>
+- <a href="https://www.erlang.org/"> Erlang </a>
+- <a href="https://www.haskell.org/"> Haskell </a>
+- <a href="https://fsharp.org/"> F# </a>
+- <a href="https://cs.lmu.edu/~ray/notes/introml/"> ML </a> 
+
+Functional programming is derived historically from the *lambda calculus*. Lambda calculus is a frameworkeveloped by Alonzo Church to study computations with functions. It is often called "the smallest programming language in the world." It provides a defintion of what is computable and what is not. It is equivalaent to a Turing machine in its computational ability and anything computable by the lambda calculus, just like anything computable by a Turing machine, is computable. It provides a theoretical frammework for describing functions and their evaluations.
+
+Some essential concepts of functional programming are:
+- Pure functions
+- Recursion
+- Referential transparancy
+- Functions as first class and higher order functions
+- Variable are immutable.
+
 
 ## [Operating Systems](Operating%20Systems/readme.md)
 An operating system (or OS for short) acts as an intermediary between a computer user and computer hardware. The purpose of an operating system is to provide an environment in which a user can execute programs conveniently and efficiently.

@@ -1,17 +1,17 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-119-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-118-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Electronic Computing](#electronic-computing)
+- [Electronic Computer](#electronic-computer)
 - [Boolean Logic](#boolean-logic)
 - [Number Systems](#number-systems)
 - [Central Processing Unit(CPU)](#central-processing-unit-cpu)
-- [Registers, Cache and RAM](#registers-cache-and-ram)
-- [Instruction and Program](#instruction-and-program)
+- [Registers, Cache, and RAM](#registers-cache-and-ram)
+- [Instructions and Program](#instructions-and-program)
 - [Programming Language](#programming-language)
 - [Data Types](#data-types)
 - [Statements and Functions](#statements-and-functions)
@@ -21,6 +21,7 @@
 - [Software Engineering](#software-engineering)
 - [Integrated Circuits](#integrated-circuits)
 - [Object Oriented Programming](#object-oriented-programming)
+- [Functional Programming](#functional-programming)
 - [Operating Systems](#operating-systems)
 - [Memory and Storage](#memory-and-storage)
 - [File System](#file-system)
@@ -35,10 +36,10 @@
 
 
 ## Introduction
-Computer science is the study of computers and computing as well as their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions. Those include algorithm formulation, software/hardware development, and artificial intelligence.
+Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions. Those include algorithm formulation, software/hardware development, and artificial intelligence.
 
 ## [Electronic Computer](Not-Added)
-A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or that assembles, stores, correlates, or otherwise processes information.
+A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.
 
 ## [Boolean Logic](Boolean%20Logic/readme.md)
 Boolean logic is a branch of mathematics that deals with the values of truth and falsehood. It is a system of logic that uses only two values, 0 and 1, to represent false and true, respectively. It is also known as Boolean algebra, named after George Boole, who first described it in 1854.
@@ -55,7 +56,7 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 | :------: | :--: | :-------------------------------------: |
 |    ()    | Parentheses     |   Allows you to group keywords and control the order in which the terms will be searched.    |
 |    “”    | Quotation marks | Provides results with the exact phrase. |
-|   *      |  Asterisk       | Provides results that contain a variation of the keyword. |
+|   *      |  Asterisk       | Provides results containing a keyword variation. |
 |   ⊕     |  XOR            | Returns **true** if the operands are different |
 |   ⊽      |  NOR            | Returns **true** if all operands are false. |
 |   ⊼      |  NAND           | Returns **false** only if both values of its two inputs are true.
@@ -78,7 +79,7 @@ Number systems are mathematical systems for expressing numbers. A number system 
 ### Importance Of Binary
 The binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day. The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and a "1" represents electricity is allowed to flow. In this way, numbers are represented physically inside the computing device, permitting calculations.
 
-Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons.
+The binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons.
 
 - It is a simple and elegant design.
 - Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
@@ -111,12 +112,12 @@ What it sacrifices in size and price, it makes up for in speed. Cache memory ope
 
 The name of the actual hardware that is used for cache memory is high-speed static random access memory (SRAM). The name of the hardware that is used in a computer's main memory is dynamic random-access memory (DRAM).
 
-Cache memory is not to be confused with the broader term cache. Caches are temporary data stores that can exist in both hardware and software. Cache memory refers to the specific hardware component that allows computers to create caches at various levels of the network. A cache is hardware or software that is used to store something, typically data, temporarily in a computing environment.
+Cache memory is not to be confused with the broader term cache. Caches are temporary data stores that can exist in both hardware and software. Cache memory refers to the specific hardware component that allows computers to create caches at various levels of the network. A cache is a hardware or software that is used to store something, typically data, temporarily in a computing environment.
 
 
 ### [RAM](/Registers%20Cache%20and%20RAM/readme.md#ram)
-RAM (Random Access Memory) is a form of computer memmory that can be read and changed in any order, typically used to store working data and machine code. A random access memory device allows data items
-to be read or writtem in almost the same amoung of time regardless of the physical location of data inside the memory, in contrast with other direct-access data storage memdia (such as hard-disks, CD-RWS,
+RAM (Random Access Memory) is a form of computer memory that can be read and changed in any order, typically used to store working data and machine code. A random access memory device allows data items
+to be read or written in almost the same amount of time regardless of the physical location of data inside the memory, in contrast with other direct-access data storage media (such as hard disks, CD-RWS,
 DVD-RWs and the older magnetic tapes and drum memory), where the time required to read and write data items varies significantly depending on their physical locations on the recording medium, due to mechanical limitations such as media rotation speeds and arm movement.
 
 
@@ -385,6 +386,70 @@ It is the standard way of code that every programmer has to abide by for better 
 - Polymorphism 
 
 Read more about these concepts of OOP [here](Object%20Oriented%20Programming/readme.md)
+
+## [Functional Programming](Functional%20Programming/readme.md)
+
+In computer science, functional programming is a programming paradigm where programs are constructed by applying and composing functions. It is a declarative programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of imperative statements which update the running state of the program.
+
+In functional programming, functions are treated as first-class citizens, meaning that they can be bound to names (including local identifiers), passed as arguments, and returned from other functions, just as any other data type can. This allows programs to be written in a declarative and composable style, where small functions are combined in a modular manner.
+
+Functional programming is sometimes treated as synonymous with purely functional programming, a subset of functional programming which treats all functions as deterministic mathematical functions, or pure functions. When a pure function is called with some given arguments, it will always return the same result, and cannot be affected by any mutable state or other side effects. This is in contrast with impure procedures, common in imperative programming, which can have side effects (such as modifying the program's state or taking input from a user). Proponents of purely functional programming claim that by restricting side effects, programs can have fewer bugs, be easier to debug and test, and be more suited to formal verification procedures.
+
+Functional programming has its roots in academia, evolving from the lambda calculus, a formal system of computation based only on functions. Functional programming has historically been less popular than imperative programming, but many functional languages are seeing use today in industry and education. 
+
+Some example of functional programming languages are:
+- <a href="https://lisp-lang.org/"> Common Lisp </a>
+- <a href="https://www.scheme.org/"> Scheme </a>
+- <a href="https://racket-lang.org/"> Racket </a>
+- <a href="https://www.erlang.org/"> Erlang </a>
+- <a href="https://www.haskell.org/"> Haskell </a>
+- <a href="https://fsharp.org/"> F# </a>
+- <a href="https://cs.lmu.edu/~ray/notes/introml/"> ML </a> 
+
+Functional programming is derived historically from the *lambda calculus*. Lambda calculus is a framework developed by Alonzo Church to study computations with functions. It is often called "the smallest programming language in the world." It provides a defintion of what is computable and what is not. It is equivalaent to a Turing machine in its computational ability and anything computable by the lambda calculus, just like anything computable by a Turing machine, is computable. It provides a theoretical frammework for describing functions and their evaluations.
+
+Some essential concepts of functional programming are:
+- Pure functions 
+- Recursion
+- Referential transparancy
+- Functions as first class and higher order functions
+- Variable are immutable.
+
+**Pure functions**: These functions have two main properties. First, they always produce the same output for the same arguments irrespective of anything else. Secondly, they have no side-effects. i.e. they do not modify any arguments or local/global variable
+or input/output streams. The latter property is called *immutability*. The pure function's only result is the value it returns. They are deterministic. Programs done using functional programming are easy to debug because they have no side-effects or hidden I/O. Pure functions alsoì make it easier to write parralel/concurrent applications. When code is written in this style, a smart compiler can do many things- it can parallelize the instructions, wait to evaluate results until needed and memorize the results since the results never change as long as the input doesn't change. Here is a simple example of a pure funtion in Python:
+
+```python
+def sum(x ,y): # sum is a function taking x and y as arguments
+    return x + y  # returns x + y without changing the value
+ ```
+
+**Recursion**: There are no "for" or  "while" loops in pure functional programming languages. Iteration is implemented through recursion. Recursive functions repeatedly call themselves until a base case is reached. Here is a simple example of a recursice
+function in C:
+
+```c
+int fib(n) {
+  if(n <= 1)
+    return 1;
+   else
+     return (fib(n-1) + fib(n-2));
+}
+ ```
+**Referential transparency**: In functional programs, variables once defined do not change their value throughout the program.
+Functional programs do not have assignment statements. If we have to store some value, we define a new variable instead. This elimimates any chance of side-effects because any variable can be replaced with its actual value at any point of the execution. The state of any varaible is constant at any instant. Example:
+ 
+```bash
+x = x + 1 # this changed the value assigned to the varable x
+         # therefore, the expression is NOT referentially transparent
+```
+
+**Functions are first-class and can be higher order**: First class functions are treated as first-class variables. The first class variables can be passed to functions as parameters, can be returned from functions or stored in data structures.
+         
+
+
+
+
+
+
 
 
 ## [Operating Systems](Operating%20Systems/readme.md)
@@ -1090,7 +1155,6 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Evy04"><img src="https://avatars.githubusercontent.com/u/84919650?v=4?s=50" width="50px;" alt="Sanya Madre"/><br /><sub><b>Sanya Madre</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Evy04" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/steventohme"><img src="https://avatars.githubusercontent.com/u/56594084?v=4?s=50" width="50px;" alt="Steven"/><br /><sub><b>Steven</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=steventohme" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://www.linkedin.com/in/garrett-crowley-a0b931126/"><img src="https://avatars.githubusercontent.com/u/86014840?v=4?s=50" width="50px;" alt="Garrett Crowley"/><br /><sub><b>Garrett Crowley</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=crowleyg" title="Code">💻</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Francesco601"><img src="https://avatars.githubusercontent.com/u/130352141?v=4?s=50" width="50px;" alt="Francesco Franco"/><br /><sub><b>Francesco Franco</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3AFrancesco601" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>

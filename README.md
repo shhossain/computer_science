@@ -444,13 +444,36 @@ x = x + 1 # this changed the value assigned to the varable x
 
 **Functions are first-class and can be higher order**: First class functions are treated as first-class variables. The first class variables can be passed to functions as parameters, can be returned from functions or stored in data structures.
          
+A combination of function applications may be defined using a LISP form called **funcall**, which takes as arguments a function and a series  of arguments and applies that function to those arguments:
 
+```Lisp
+(defun filter (list-of-elements test)
+    (cond ((null list-of-elements) nil)
+          ((funcall test (car list-of-elements))
+            (cond (car list-of-elements)
+                (filter (cdr list-of-elements)
+                      test)))
+           (t (filter (cdr list-of-elements)
+                       test))))
+   ```
+  The function **filter** applies the test to the first element of the list. If the test returns non-nil, it conses the element onto the resul of filter applied to the cdr of the list; otherwise, it just returns the filtered cdr. This function may be used with different predicates passed in as parameters to perform a variety of filtering tasks:
 
+```Lisp
+    > (filter '(1 3 -9 5 -2 -7 6) #'plusp)   ; filter out all negative numbers 
+```    
+    output: (1 3 5 6)
 
+```Lisp
+   > (filter '(1 2 3 4 5 6 7 8 9) #'evenp)   ; filter out all odd numbers
+```   
+   output: (2 4 6 8)
 
+   and so on.
 
+**Variables are immutable**: In functional programming, we can't modify a variable after it's beem initialized.
+We can create new variables- but we can't modify existing variable, and this really helps to maintain state throughout the runtime of a program. Once we create a variable ans set its value, we can have full confidence knowing that the value of that variable will never change.
 
-
+ 
 
 ## [Operating Systems](Operating%20Systems/readme.md)
 An operating system (or OS for short) acts as an intermediary between a computer user and computer hardware. The purpose of an operating system is to provide an environment in which a user can execute programs conveniently and efficiently.

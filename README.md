@@ -450,7 +450,7 @@ A combination of function applications may be defined using a LISP form called *
 (defun filter (list-of-elements test)
     (cond ((null list-of-elements) nil)
           ((funcall test (car list-of-elements))
-            (cond (car list-of-elements)
+            (cons (car list-of-elements)
                 (filter (cdr list-of-elements)
                       test)))
            (t (filter (cdr list-of-elements)

@@ -36,7 +36,7 @@
 
 
 ## Introduction
-Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions. Those include algorithm formulation, software/hardware development, and artificial intelligence.
+Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of problems. These include algorithm formulation, software/hardware development, and artificial intelligence.
 
 ## [Electronic Computer](Not-Added)
 A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.
@@ -77,9 +77,9 @@ Number systems are mathematical systems for expressing numbers. A number system 
 
 
 ### Importance Of Binary
-The binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day. The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and a "1" represents electricity is allowed to flow. In this way, numbers are represented physically inside the computing device, permitting calculations.
+Binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day. The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and a "1" represents electricity is allowed to flow. In this way, numbers are represented physically inside the computing device, permitting calculations.
 
-The binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons.
+ Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons:
 
 - It is a simple and elegant design.
 - Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
@@ -125,7 +125,7 @@ DVD-RWs and the older magnetic tapes and drum memory), where the time required t
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. A computer program is a list of instructions that tell a computer what to do. Everything a computer does is accomplished by using a computer program. Programs that are stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
 
 ## [Programming Language](Not-Added)
-A programming language is any set of rules that convert strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output.[citation needed] Programming languages are one kind of computer language used in computer programming to implement algorithms.
+A programming language is any set of rules that convert strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output. Programming languages are one kind of computer language used in computer programming to implement algorithms.
 
 Programming languages are mainly of two types : 
 1. High-level language uses a syntax similar to the English language. The source code is converted into machine-understandable machine code using a compiler or an interpreter. Java and Python are some examples of high-level programming languages. These are usually slower than Low-level, but it comes with being easier.
@@ -149,6 +149,105 @@ Some Scripting Languages include:
 - [PHP](https://www.php.net/)
 - [Python](https://www.python.org)
 - [Perl](https://www.perl.org)
+
+### Programming Language Paradigms
+
+There ara also several different *programming paradigms*. Programming paradigms are different ways or styles in which a given program or programming language can be organized. Each paradigm consists of certain structures, features, and opinions about how common programming problems should be addressed. 
+
+Programming languages are *not* languages or tools. You can't "build" anything with a paradigm. They are more
+like a set of ideals and guidelines that many people have agreed om, followed, and expanded upon. Programming languages aren't always tied to a particular paradigm. There *are* languages tha have been built with a certain paradigm in mind and have features that facilitate that kind of porgramming more than others (Haskell and functional programming is a good example). But there are also "multi-paradigm" languages in which you can adapt your code to fit a certain paradigm or other (JavaScript and Python are good examples).
+
+Some popular programming paradigms include:
+- imperative programmming
+- procedural programming
+- functional programming
+- object oriented programming
+- declarative programming
+
+**Imperative programming**: Imperative programming consists of sets of detailed instructions that are given to the computer to execute in a given order. It's called "impeerative" because as programmers we dictate exactly what the computer has to do, in a very specific way, step by step. An example of imperative programming might look like this:
+
+```javascript
+const nums = [1,4,3,6,7,8,9,2]
+const result = []
+
+for (let i=0; i < nums.length;i++) {
+    if (nums[i] > 5) result.push(nums[i])
+}
+console.log(result)  // Output: [6,7,8,9]
+
+```
+We are telling the program to iterate through each element in the array, compare the item value with 5, push it into an array. We're being detailed and specific in our instructions, which is what imperative programming stands for.
+
+**Procedural programming**: Prodecural programming is a derivation of imperative programming, adding to it the features of functions (also known as "prodecures or "subroutines"). In procedural programming, the user is encouragd to subdivide the program execution into proecudures, as a way of improving modularity and organization.
+
+**Functional programming**: Functional programming takes the concept of functions a little bit further. Functions are treated as **first-class citizens**, meaning they can be assigned to variable, passed as arguments, and returned from other functions. Functional programming defends the idea that code modularity and the absence of side-effects make it easier to idenify and separate responsibilities within the codebase. This therefore improves code maintainability. Going back to the array filtering example, we can see that with the imperative paradigm we might use an extrenal variable to store the function's result, which can be considered a side effect.
+
+```javascript
+const nums = [1,4,3,6,7,8,9,2]
+const result = []   // External variable
+
+for (let i=0;i < nums.length; i++) {
+    if( nums[i] > 5) result.push(nums[i])
+}
+console.log(result) //Output: [ 6,7,8,9 ]
+```
+
+To tranform this into a functional idion, we could do it like this:
+
+```javascript
+const nums = [1,2,3,6,7,8,9,2]
+
+function filterNums() {
+    const result = []    // Internal variable
+
+    for (let i=0;i < nums.length;i++) {
+        if(nums[i] > 5) result.push(nums[i])
+    }
+    return result
+}
+
+console.log(filterNums())  // Output: [ 6,7,8,9 ]
+```
+
+It is almost the same code, but we wrap our iteration within a function, in which we also store the result array. In this way, we can assure the function doesn't modify anything outside its scope. It only creates a variable to process its own information, and once the execution is finished, the variable is gone too.
+
+**Declarative Programming**:  Declarative programming is all about hiding awat complexity and bringing programming languages closer to human language and thinking. It's the direct opposite of imperative programming in the sense that the programmer doesn't give instructions about *how* the computer should execute its task,, but rather *what* result is needed.
+
+This will be much clearer with an example. Following the same array filtering story, a declarative approach might be:
+
+```javascript
+const nums = [1,4,3,6,7,8,9,2]
+
+comsole.log(nums.filter(num => num > 5))  // 
+```
+See that with the filter function, we're not explicity telling the computer to iterate over the arrat or store the values in a separate array. we just say what we want ("filter") and the condition to meet ("num > 5).
+
+**Object Oriented Programming**: One of the most popular programming paradigms is object-oriented programming (OOP). The core conncept of OOP is to separate concerns into entities which are coded
+as objects, Each entity will group a given set of information (properties) and actions (methods) that can be performed by the entity. 
+
+OOP makes heavy use of classes, which are a way of creating new objects starting out from a blueprint or boilerplate that the programmer sets.Objects that are created from a class are called instances.
+
+
+
+
+ 
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## [Data Types](Data%20Types/readme.md#data-types)
 A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational, or logical operations can be applied to it without causing an error.

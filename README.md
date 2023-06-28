@@ -36,11 +36,9 @@
 
 
 ## Introduction
-main
+
 Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of problems. These include algorithm formulation, software/hardware development, and artificial intelligence.
-=======
-Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of problems. These include algorithm formulation, software/hardware development, and artificial intelligence.
-main
+
 
 ## [Electronic Computer](Not-Added)
 A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.

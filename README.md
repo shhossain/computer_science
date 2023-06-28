@@ -81,11 +81,8 @@ Number systems are mathematical systems for expressing numbers. A number system 
 ### Importance Of Binary
 Binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day. The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and a "1" represents electricity is allowed to flow. In this way, numbers are represented physically inside the computing device, permitting calculations.
 
- main 
- Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons:
-=======
- Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons:
- main
+ 
+Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons:
 
 - It is a simple and elegant design.
 - Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.

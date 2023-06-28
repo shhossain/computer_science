@@ -12,7 +12,7 @@
 - [Central Processing Unit(CPU)](#central-processing-unit-cpu)
 - [Registers, Cache, and RAM](#registers-cache-and-ram)
 - [Instructions and Program](#instructions-and-program)
-- [Programming Language](#programming-language)
+- [Programming Languages](#programming-language)
 - [Data Types](#data-types)
 - [Statements and Functions](#statements-and-functions)
 - [Data Structures](#data-structures)

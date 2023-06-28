@@ -1,7 +1,6 @@
 
-A programming language is any set of rules that convert strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output. Programming languages are one kind of computer language used in computer programming to implement algorithms.
 
-Programming languages are mainly of two types : 
+Programming languages are mainly of two types as mentioned before: 
 1. High-level language uses a syntax similar to the English language. The source code is converted into machine-understandable machine code using a compiler or an interpreter. Java and Python are some examples of high-level programming languages. These are usually slower than Low-level, but it comes with being easier.
 2. Low-level programming languages work more closely with the hardware and have more control over it. They directly interact with the hardware. Two common examples of low-level languages are machine language and assembly language. These are usually faster than High-level, but it comes at the cost of very great difficulty.
 
@@ -28,21 +27,9 @@ Some Scripting Languages include:
 - [Go](https://www.go.dev/)
 - [Swift](https://developer.apple.com/swift/)
 
-### Scripting Languages
-A scripting language is a computer language that doesn't have to be compiled. One advantage of Scripting languages is that the code can be quickly edited and can be re-executed. They can be used on the server side of web applications and the client side of web applications.
-
-Some Scripting Languages include:
-- [JavaScript](https://www.javascript.com/)
-- [PHP](https://www.php.net/)
-- [Python](https://www.python.org)
-- [Perl](https://www.perl.org)
-
 ### Programming Language Paradigms
 
-There ara also several different *programming paradigms*. Programming paradigms are different ways or styles in which a given program or programming language can be organized. Each paradigm consists of certain structures, features, and opinions about how common programming problems should be addressed. 
-
-Programming languages are *not* languages or tools. You can't "build" anything with a paradigm. They are more
-like a set of ideals and guidelines that many people have agreed om, followed, and expanded upon. Programming languages aren't always tied to a particular paradigm. There *are* languages tha have been built with a certain paradigm in mind and have features that facilitate that kind of porgramming more than others (Haskell and functional programming is a good example). But there are also "multi-paradigm" languages in which you can adapt your code to fit a certain paradigm or other (JavaScript and Python are good examples).
+Programming languages are also often classified into several different *programming paradigms*. Programming paradigms are different ways or styles in which a given program or programming language can be organized. Each paradigm consists of certain structures, features, and opinions about how common programming problems should be addressed. 
 
 Some popular programming paradigms include:
 - imperative programmming

@@ -1,4 +1,4 @@
-
+# Programming Languages
 
 Programming languages are mainly of two types as mentioned before: 
 1. High-level language uses a syntax similar to the English language. The source code is converted into machine-understandable machine code using a compiler or an interpreter. Java and Python are some examples of high-level programming languages. These are usually slower than Low-level, but it comes with being easier.
@@ -54,7 +54,7 @@ We are telling the program to iterate through each element in the array, compare
 
 **Procedural programming**: Prodecural programming is a derivation of imperative programming, adding to it the features of functions (also known as "prodecures or "subroutines"). In procedural programming, the user is encouragd to subdivide the program execution into proecudures, as a way of improving modularity and organization.
 
-**Functional programming**: Functional programming takes the concept of functions a little bit further. Functions are treated as **first-class citizens**, meaning they can be assigned to variable, passed as arguments, and returned from other functions. Functional programming defends the idea that code modularity and the absence of side-effects make it easier to idenify and separate responsibilities within the codebase. This therefore improves code maintainability. Going back to the array filtering example, we can see that with the imperative paradigm we might use an extrenal variable to store the function's result, which can be considered a side effect.
+**Functional programming**: Functional programming takes the concept of functions a little bit further. Functions are treated as **first-class citizens**, meaning they can be assigned to variables, passed as arguments, and returned from other functions. Functional programming defends the idea that code modularity and the absence of side effects make it easier to identify and separate responsibilities within the codebase. This, therefore, improves code maintainability. Going back to the array filtering example, we can see that with the imperative paradigm, we might use an external variable to store the function's result, which can be considered a side effect.
 
 ```javascript
 const nums = [1,4,3,6,7,8,9,2]
@@ -66,7 +66,7 @@ for (let i=0;i < nums.length; i++) {
 console.log(result) //Output: [ 6,7,8,9 ]
 ```
 
-To tranform this into a functional idion, we could do it like this:
+To transform this into a functional idiom, we could do it like this:
 
 ```javascript
 const nums = [1,2,3,6,7,8,9,2]
@@ -85,7 +85,7 @@ console.log(filterNums())  // Output: [ 6,7,8,9 ]
 
 It is almost the same code, but we wrap our iteration within a function, in which we also store the result array. In this way, we can assure the function doesn't modify anything outside its scope. It only creates a variable to process its own information, and once the execution is finished, the variable is gone too.
 
-**Declarative Programming**:  Declarative programming is all about hiding awat complexity and bringing programming languages closer to human language and thinking. It's the direct opposite of imperative programming in the sense that the programmer doesn't give instructions about *how* the computer should execute its task,, but rather *what* result is needed.
+**Declarative Programming**:  Declarative programming is all about hiding away complexity and bringing programming languages closer to human language and thinking. It's the direct opposite of imperative programming in the sense that the programmer doesn't give instructions about *how* the computer should execute its task,, but rather *what* result is needed.
 
 This will be much clearer with an example. Following the same array filtering story, a declarative approach might be:
 
@@ -94,11 +94,11 @@ const nums = [1,4,3,6,7,8,9,2]
 
 comsole.log(nums.filter(num => num > 5))  // 
 ```
-See that with the filter function, we're not explicity telling the computer to iterate over the arrat or store the values in a separate array. we just say what we want ("filter") and the condition to meet ("num > 5).
+See that with the filter function, we're not explicitly telling the computer to iterate over the array or store the values in a separate array. we just say what we want ("filter") and the condition to meet ("num > 5).
 
-**Object Oriented Programming**: One of the most popular programming paradigms is object-oriented programming (OOP). The core conncept of OOP is to separate concerns into entities which are coded
+**Object Oriented Programming**: One of the most popular programming paradigms is object-oriented programming (OOP). The core concept of OOP is to separate concerns into entities which are coded
 as objects, Each entity will group a given set of information (properties) and actions (methods) that can be performed by the entity. 
 
-OOP makes heavy use of classes, which are a way of creating new objects starting out from a blueprint or boilerplate that the programmer sets.Objects that are created from a class are called instances.
+OOP makes heavy use of classes, which are a way of creating new objects starting out from a blueprint or boilerplate that the programmer sets. Objects that are created from a class are called instances.
 
 

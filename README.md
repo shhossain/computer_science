@@ -36,7 +36,11 @@
 
 
 ## Introduction
+main
 Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of problems. These include algorithm formulation, software/hardware development, and artificial intelligence.
+=======
+Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of problems. These include algorithm formulation, software/hardware development, and artificial intelligence.
+main
 
 ## [Electronic Computer](Not-Added)
 A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.
@@ -79,7 +83,11 @@ Number systems are mathematical systems for expressing numbers. A number system 
 ### Importance Of Binary
 Binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day. The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and a "1" represents electricity is allowed to flow. In this way, numbers are represented physically inside the computing device, permitting calculations.
 
+ main 
  Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons:
+=======
+ Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons:
+ main
 
 - It is a simple and elegant design.
 - Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
@@ -226,26 +234,6 @@ See that with the filter function, we're not explicity telling the computer to i
 as objects, Each entity will group a given set of information (properties) and actions (methods) that can be performed by the entity. 
 
 OOP makes heavy use of classes, which are a way of creating new objects starting out from a blueprint or boilerplate that the programmer sets.Objects that are created from a class are called instances.
-
-
-
-
- 
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -543,6 +531,7 @@ x = x + 1 # this changed the value assigned to the varable x
 
 **Functions are first-class and can be higher order**: First class functions are treated as first-class variables. The first class variables can be passed to functions as parameters, can be returned from functions or stored in data structures.
          
+ main
 A combination of function applications may be defined using a LISP form called **funcall**, which takes as arguments a function and a series  of arguments and applies that function to those arguments:
 
 ```Lisp
@@ -573,6 +562,8 @@ A combination of function applications may be defined using a LISP form called *
 We can create new variables- but we can't modify existing variable, and this really helps to maintain state throughout the runtime of a program. Once we create a variable ans set its value, we can have full confidence knowing that the value of that variable will never change.
 
  
+=======
+main
 
 ## [Operating Systems](Operating%20Systems/readme.md)
 An operating system (or OS for short) acts as an intermediary between a computer user and computer hardware. The purpose of an operating system is to provide an environment in which a user can execute programs conveniently and efficiently.
@@ -1277,6 +1268,7 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Evy04"><img src="https://avatars.githubusercontent.com/u/84919650?v=4?s=50" width="50px;" alt="Sanya Madre"/><br /><sub><b>Sanya Madre</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Evy04" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/steventohme"><img src="https://avatars.githubusercontent.com/u/56594084?v=4?s=50" width="50px;" alt="Steven"/><br /><sub><b>Steven</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=steventohme" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://www.linkedin.com/in/garrett-crowley-a0b931126/"><img src="https://avatars.githubusercontent.com/u/86014840?v=4?s=50" width="50px;" alt="Garrett Crowley"/><br /><sub><b>Garrett Crowley</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=crowleyg" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Francesco601"><img src="https://avatars.githubusercontent.com/u/130352141?v=4?s=50" width="50px;" alt="Francesco Franco"/><br /><sub><b>Francesco Franco</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3AFrancesco601" title="Bug reports">🐛</a> <a href="https://github.com/shhossain/computer_science/commits?author=Francesco601" title="Code">💻</a></td> main
     </tr>
   </tbody>
 </table>

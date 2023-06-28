@@ -1,6 +1,6 @@
 # Computer Science
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-119-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-118-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -12,7 +12,7 @@
 - [Central Processing Unit(CPU)](#central-processing-unit-cpu)
 - [Registers, Cache, and RAM](#registers-cache-and-ram)
 - [Instructions and Program](#instructions-and-program)
-- [Programming Language](#programming-language)
+- [Programming Languages](#programming-languages)
 - [Data Types](#data-types)
 - [Statements and Functions](#statements-and-functions)
 - [Data Structures](#data-structures)
@@ -36,7 +36,9 @@
 
 
 ## Introduction
-Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of functions. Those include algorithm formulation, software/hardware development, and artificial intelligence.
+
+Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of problems. These include algorithm formulation, software/hardware development, and artificial intelligence.
+
 
 ## [Electronic Computer](Not-Added)
 A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.
@@ -77,9 +79,10 @@ Number systems are mathematical systems for expressing numbers. A number system 
 
 
 ### Importance Of Binary
-The binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day. The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and a "1" represents electricity is allowed to flow. In this way, numbers are represented physically inside the computing device, permitting calculations.
+Binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day. The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and a "1" represents electricity is allowed to flow. In this way, numbers are represented physically inside the computing device, permitting calculations.
 
-The binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons.
+ 
+Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons:
 
 - It is a simple and elegant design.
 - Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
@@ -124,31 +127,18 @@ DVD-RWs and the older magnetic tapes and drum memory), where the time required t
 ## [Instructions and Program](Not-Added)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. A computer program is a list of instructions that tell a computer what to do. Everything a computer does is accomplished by using a computer program. Programs that are stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
 
-## [Programming Language](Not-Added)
-A programming language is any set of rules that convert strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output.[citation needed] Programming languages are one kind of computer language used in computer programming to implement algorithms.
+## [Programming Languages](/Programming_Languages/readme.md)
+A programming language is any set of rules that convert strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output. Programming languages are one kind of computer language used in computer programming to implement algorithms.
 
-Programming languages are mainly of two types : 
+Programming languages are often divided into two broad categories: 
 1. High-level language uses a syntax similar to the English language. The source code is converted into machine-understandable machine code using a compiler or an interpreter. Java and Python are some examples of high-level programming languages. These are usually slower than Low-level, but it comes with being easier.
-2. Low-level programming languages work more closely with the hardware and have more control over it. They directly interact with the hardware. Two common examples of low-level languages are machine language and assembly language. These are usually faster than High-level, but it comes at the cost of very great difficulty.
+2. Low-level programming languages work more closely with the hardware and have more control over it. They directly interact with the hardware. Two common examples of low-level languages are machine language and assembly language. These are usually faster than High-level, but it comes at the cost of very great difficulty and lack of readability.
 
-Some Languages Include:
-- [Python](https://www.python.org)
-- [Java](https://www.java.com/)
-- [JavaScript](https://www.javascript.com/)
-- [C++](https://www.cplusplus.com/)
-- [C](No-Website)
-- [C#](No-Website)
-- [Go](https://www.go.dev/)
-- [Swift](https://developer.apple.com/swift/)
+### [Programming Paradigms](/Programming_Languages/readme.md#Programming+Paradigms)
+There are also several different *programming paradigms*. Programming paradigms are different ways or styles in which a given program or programming language can be organized. Each paradigm consists of certain structures, features, and opinions about how common programming problems should be addressed. 
 
-### Scripting Languages
-A scripting language is a computer language that doesn't have to be compiled. One advantage of Scripting languages is that the code can be quickly edited and can be re-executed. They can be used on the server side of web applications and the client side of web applications.
+Programming paradigms are *not* languages or tools. You can't "build" anything with a paradigm. They are more like a set of ideals and guidelines that many people have agreed on, followed, and expanded upon. Programming languages aren't always tied to a particular paradigm. There *are* languages that have been built with a certain paradigm in mind and have features that facilitate that kind of programming more than others (Haskell and functional programming is a good example). But there are also "multi-paradigm" languages in which you can adapt your code to fit a certain paradigm or other (JavaScript and Python are good examples).
 
-Some Scripting Languages include:
-- [JavaScript](https://www.javascript.com/)
-- [PHP](https://www.php.net/)
-- [Python](https://www.python.org)
-- [Perl](https://www.perl.org)
 
 ## [Data Types](Data%20Types/readme.md#data-types)
 A data type, in programming, is a classification that specifies which type of value a variable has and what type of mathematical, relational, or logical operations can be applied to it without causing an error.
@@ -444,13 +434,34 @@ x = x + 1 # this changed the value assigned to the varable x
 
 **Functions are first-class and can be higher order**: First class functions are treated as first-class variables. The first class variables can be passed to functions as parameters, can be returned from functions or stored in data structures.
          
+A combination of function applications may be defined using a LISP form called **funcall**, which takes as arguments a function and a series  of arguments and applies that function to those arguments:
 
+```Lisp
+(defun filter (list-of-elements test)
+    (cond ((null list-of-elements) nil)
+          ((funcall test (car list-of-elements))
+            (cons (car list-of-elements)
+                (filter (cdr list-of-elements)
+                      test)))
+           (t (filter (cdr list-of-elements)
+                       test))))
+   ```
+  The function **filter** applies the test to the first element of the list. If the test returns non-nil, it conses the element onto the resul of filter applied to the cdr of the list; otherwise, it just returns the filtered cdr. This function may be used with different predicates passed in as parameters to perform a variety of filtering tasks:
 
+```Lisp
+    > (filter '(1 3 -9 5 -2 -7 6) #'plusp)   ; filter out all negative numbers 
+```    
+    output: (1 3 5 6)
 
+```Lisp
+   > (filter '(1 2 3 4 5 6 7 8 9) #'evenp)   ; filter out all odd numbers
+```   
+   output: (2 4 6 8)
 
+   and so on.
 
-
-
+**Variables are immutable**: In functional programming, we can't modify a variable after it's beem initialized.
+We can create new variables- but we can't modify existing variable, and this really helps to maintain state throughout the runtime of a program. Once we create a variable ans set its value, we can have full confidence knowing that the value of that variable will never change.
 
 ## [Operating Systems](Operating%20Systems/readme.md)
 An operating system (or OS for short) acts as an intermediary between a computer user and computer hardware. The purpose of an operating system is to provide an environment in which a user can execute programs conveniently and efficiently.
@@ -965,7 +976,7 @@ Cryptocurrency is a digital currency in which encryption techniques are used to 
 
 
 
-## [Theory of Computation]
+## Theory of Computation
 In theoretical computer science and mathematics, the theory of computation is the branch that deals with what problems can be solved on a model of computation using an algorithm, how efficiently they can be solved, or to what degree (e.g., approximate solutions versus precise ones). The field is divided into three major branches: automata theory and formal languages, computability theory, and computational complexity theory, which are linked by the question: "What are the fundamental capabilities and limitations of computers?".
 
 ### Automata Theory

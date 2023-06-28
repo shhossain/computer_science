@@ -556,10 +556,6 @@ A combination of function applications may be defined using a LISP form called *
 **Variables are immutable**: In functional programming, we can't modify a variable after it's beem initialized.
 We can create new variables- but we can't modify existing variable, and this really helps to maintain state throughout the runtime of a program. Once we create a variable ans set its value, we can have full confidence knowing that the value of that variable will never change.
 
- 
-=======
-main
-
 ## [Operating Systems](Operating%20Systems/readme.md)
 An operating system (or OS for short) acts as an intermediary between a computer user and computer hardware. The purpose of an operating system is to provide an environment in which a user can execute programs conveniently and efficiently.
 An operating system is software that manages computer hardware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent user programs from interfering with the proper operation of the system.

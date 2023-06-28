@@ -127,7 +127,7 @@ DVD-RWs and the older magnetic tapes and drum memory), where the time required t
 ## [Instructions and Program](Not-Added)
 In computer science, an instruction is a single operation of a processor defined by the processor instruction set. A computer program is a list of instructions that tell a computer what to do. Everything a computer does is accomplished by using a computer program. Programs that are stored in the memory of a computer ("internal programming") let the computer do one thing after another, even with breaks in between.
 
-## [Programming Language](/Programming_Languages/readme.md)
+## [Programming Languages](/Programming_Languages/readme.md)
 A programming language is any set of rules that convert strings, or graphical program elements in the case of visual programming languages, to various kinds of machine code output. Programming languages are one kind of computer language used in computer programming to implement algorithms.
 
 Programming languages are often divided into two broad categories: 

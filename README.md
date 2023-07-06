@@ -503,7 +503,10 @@ users might otherwise interfere with one another. In addition, users often need 
 share not only hardware but also information (files, databases, etc.). In short,
 this view of the operating system holds that its primary task is to keep track of
 which programs are using which resource, to grant resource requests, to account
-for usage and to mediate conflicting requests from different programs and users
+for usage and to mediate conflicting requests from different programs and users.
+For more on this see <a href="https://github.com/Francesco601/computer_science/tree/main/Operating%20Systems> here </a>
+
+
 
 ### Operating system as an extended machine
 The architecture of most computers at the machine-language level is primitive and awkward to

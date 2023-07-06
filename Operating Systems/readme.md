@@ -1,4 +1,4 @@
-# Resource Mangament in Operating Systems
+# Resource Management in Operating Systems
 
 One of the crucial roles of any operating system is resource management and, among the resources that the OS must manage, an important one is access to the CPU on the part of processes (programs in execution) that need access sometimes at the same time and with different priorities, burst times, turnaround times, etc..
 

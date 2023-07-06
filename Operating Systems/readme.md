@@ -3,12 +3,9 @@ An operating system (or OS for short) acts as an intermediary between a computer
 An operating system is software that manages computer hardware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent user programs from interfering with the proper operation of the system.
 An even more common definition is that the operating system is the one program running at all times on the computer (usually called the kernel), with all else being application programs.
 
-Operating systems can be viewed from two viewpoints: resource managers and
-extended machines. In the resource-manager view, the operating system's job is to
-manage the different parts of the system efficiently. In the extended-machine view,
-the job of the system is to provide the users with abstractions that are more con-
-convenient to use than the actual machine. These include processes, address spaces,
-and files.
+Operating systems can be viewed from two viewpoints: resource managers and extended machines. In the resource-manager view, the operating system's job is to
+manage the different parts of the system efficiently. In the extended-machine view,the job of the system is to provide the users with abstractions that are more convenient to use than the actual machine. These include processes, address spaces,and files.
+
 Operating systems have a long history, from when they replaced the operator to modern multiprogramming systems. 
 Highlights include early batch systems, multiprogramming systems, and personal computer systems.
 Since operating systems interact closely with the hardware, some knowledge

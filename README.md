@@ -483,24 +483,6 @@ The basic concepts on which all operating systems are built are processes,
 memory management, I/O management, the file system, and security. The heart of any operating system is the set of system calls that it can handle.
 These tell what the operating system does.
 
-### Operating system as an extended machine
-The architecture of most computers at the machine-language level is primitive and awkward to
-program, especially for input/output. To make this point more concrete, consider
-modern SATA (Serial ATA) hard disks used on most computers. What a programmer would have to know to use the disk. 
-Since then, the interface has been revised multiple times and is more complicated than it was in
-2007. No sane programmer would want to deal with this disk at the hardware level. 
-Instead, a piece of software called a disk driver deals with the hardware and provides an interface to read and write disk blocks, 
-without getting into the details. 
-Operating systems contain many drivers for controlling I/O devices.
-But even this level is much too low for most applications. For this reason, all
-operating systems provide yet another layer of abstraction for using disks: files.
-Using this abstraction, programs can create, write, and read files without dealing with the messy details of how the hardware works.
-This abstraction is the key to managing all this complexity. Good abstractions
-turn a nearly impossible task into two manageable ones. The first is defining and
-implementing the abstractions. The second is using these abstractions to solve the
-problem at hand.
-
-
 ### History of Operating Systems
 - **First Generation (1945-55)**: Little progress was achieved in building digital computers after Babbage's disastrous efforts until the World War II era. At Iowa State University, Professor John Atanasoff and his graduate student Clifford Berry created what is today recognized as the first operational digital computer. Konrad Zuse in Berlin constructed the Z3 computer using electromechanical relays around the same time. The Mark I was created by Howard Aiken at Harvard, the Colossus by a team of scientists at Bletchley Park in England, and the ENIAC by William Mauchley and his doctoral student J. Presper Eckert at the University of Pennsylvania in 1944.
 

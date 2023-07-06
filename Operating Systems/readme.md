@@ -1,4 +1,6 @@
-#  Scheduling Algorithms in Real-Time Operating Systems
+# Resource Mangament in Operating Systems
+
+One of the crucial roles of any operating system is resource management and, among the resources that the OS must manage, an important one is access to the CPU on the part of processes (programs in execution) that need access sometimes at the same time and with different priorities, burst times, turnaround times, etc..
 
 CPU schedling for real-time Operating Systems involves certain special considerations. In general, there is a distinction to be made between soft real-time systems and hard real time systems. **Soft real-time systems** provide no guarantee as to when a critical real time process will  be scheduled.  They guarantee only that the process will be given priority over non-critical processes. **Hard real-time systems** have stricter requirements. A task must be serviced by its deadline. Service after a deadling has expired is the same as no service at all.
 

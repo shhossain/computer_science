@@ -1,4 +1,4 @@
-# Operating System as a Resource Manager
+## Operating System as a Resource Manager
 
 The operating system manages all the pieces of a complex system. Modern computers consist of processors, memories, timers, disks, mice, network interfaces, printers, and a wide variety of other devices. In the bottom-up view, the job of the operating system is to provide for an orderly and controlled allocation of the processors, memories, and I/O devices among the various programs wanting them. Modern operating systems allow multiple programs to be in memory and run
 simultaneously. Imagine what would happen if three programs running on some computer all tried to print their output simultaneously on the same printer.

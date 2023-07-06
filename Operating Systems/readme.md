@@ -38,13 +38,23 @@ Earliest deadline first scheduing  assigns priorities dynamically  according to 
 
 Unlike rate-monotonic scheduling, EDF scheduling does not require that processes be periodic, nor must a process  require a constant amount of CPU time per burst. The only requirement  is that a process  announce its deadline to the scheduler whenever it becomes runnable. The appeal of EDF schedling is that it is theoretically optimal--theoretically it can schedule processes so that each process meets its deadline requirements and CPU utilization is at 100 percent. In practice, however,  it is impossible to achieve this level of CPU utilization due to the cost of context switching between processes and interruopt handling.
 
-## References and related Resources
+## Operating System as an Extended Machine
 
-<a href="https://github.com/Francesco601/BEST-Operating-System-Resources"> Operating System collection  </a>
-
-
-
-
+The architecture of most computers at the machine-language level is primitive and awkward to
+program, especially for input/output. To make this point more concrete, consider
+modern SATA (Serial ATA) hard disks used on most computers. What a programmer would have to know to use the disk. 
+Since then, the interface has been revised multiple times and is more complicated than it was in
+2007. No sane programmer would want to deal with this disk at the hardware level. 
+Instead, a piece of software called a disk driver deals with the hardware and provides an interface to read and write disk blocks, 
+without getting into the details. 
+Operating systems contain many drivers for controlling I/O devices.
+But even this level is much too low for most applications. For this reason, all
+operating systems provide yet another layer of abstraction for using disks: files.
+Using this abstraction, programs can create, write, and read files without dealing with the messy details of how the hardware works.
+This abstraction is the key to managing all this complexity. Good abstractions
+turn a nearly impossible task into two manageable ones. The first is defining and
+implementing the abstractions. The second is using these abstractions to solve the
+problem at hand.
 
 
 

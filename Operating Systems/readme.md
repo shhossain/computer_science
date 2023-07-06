@@ -20,41 +20,6 @@ Before discussing the algorithms,  we must define certain characteristics  of th
 
 The rate-monotonic scheduling algorithm schedules period tasks using a static priority-driven policy with preemption. If a lower-priority process is running and a higher-priority process becomes available to run, it will preempt the lower-priority process. Upon entering the system, each periodic task is assigned an priority inversely proportional to its period. The shorter the period, the higher the priority and viceversa. A set of processes can be scheduled only if they meet the following equation:
 
-the system efficiently. In the extended-machine view,
-the job of the system is to provide the users with abstractions that are more con-
-convenient to use than the actual machine. These include processes, address spaces,
-and files.
-Operating systems have a long history, from when they replaced the operator to modern multiprogramming systems. 
-Highlights include early batch systems, multiprogramming systems, and personal computer systems.
-Since operating systems interact closely with the hardware, some knowledge
-of computer hardware is helpful in understanding them. Computers are built up of
-processors, memories, and I/O devices. These parts are connected by buses.
-The basic concepts on which all operating systems are built are processes,
-memory management, I/O management, the file system, and security. The heart of any operating system is the set of system calls that it can handle.
-These tell what the operating system does.
-
-## Operating system as a resource manager
-The operating system manages all the pieces of a complex system. Modern computers consist of processors, memories, timers, disks, mice, 
-network interfaces, printers, and a wide variety of other devices. 
-In the bottom-up view, the job of the operating system is to provide for an orderly and controlled allocation of the
-processors, memories, and I/O devices among the various programs wanting them.
-Modern operating systems allow multiple programs to be in memory and run
-simultaneously. Imagine what would happen if three programs running on some
-computer all tried to print their output simultaneously on the same printer.
-The result would be utter chaos. The operating system can bring order to the potential chaos 
-by buffering all the output destined for the printer on the disk. 
-When one program is finished, the operating system can
-then copy its output from the disk file where it has been stored for the printer,
-while at the same time, the other program can continue generating more output,
-oblivious to the fact that the output is not going to the printer (yet).
-When a computer (or network) has more than one user, the need to manage
-and protect the memory, I/O devices, and other resources even more since the
-users might otherwise interfere with one another. In addition, users often need to
-share not only hardware but also information (files, databases, etc.). In short,
-this view of the operating system holds that its primary task is to keep track of
-which programs are using which resource, to grant resource requests, to account
-for usage and to mediate conflicting requests from different programs and users.
-
 ## Operating system as an extended machine
 The architecture of most computers at the machine-language level is primitive and awkward to
 program, especially for input/output. To make this point more concrete, consider

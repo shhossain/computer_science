@@ -498,15 +498,12 @@ then copy its output from the disk file where it has been stored for the printer
 while at the same time, the other program can continue generating more output,
 oblivious to the fact that the output is not going to the printer (yet).
 When a computer (or network) has more than one user, the need to manage
-and protect the memory, I/O devices, and other resources is even more since the
+and protect the memory, I/O devices, and other resources even more since the
 users might otherwise interfere with one another. In addition, users often need to
 share not only hardware but also information (files, databases, etc.). In short,
 this view of the operating system holds that its primary task is to keep track of
 which programs are using which resource, to grant resource requests, to account
 for usage and to mediate conflicting requests from different programs and users.
-For more on this see <a href="https://github.com/Francesco601/computer_science/tree/main/Operating%20Systems> here </a>
-
-
 
 ### Operating system as an extended machine
 The architecture of most computers at the machine-language level is primitive and awkward to
@@ -530,7 +527,7 @@ problem at hand.
 
 - **Second Generation (1955-65)**: The transistor's invention in the middle of the 1950s drastically altered the situation. Computers became dependable enough that they could be manufactured and sold to paying customers with the assumption that they would keep working long enough to conduct some meaningful job. Mainframes, as these machines are now known, were kept locked up in huge, particularly air-conditioned computer rooms, with teams of qualified operators to manage them. Only huge businesses, significant government entities, or institutions could afford the price tag of several million dollars.
 
-- **Third Generation (1965-80)**: In comparison to second-generation computers, which were constructed from individual transistors, the IBM 360 was the first major computer line to employ (small-scale) ICs (Integrated Circuits). As a result, it offered a significant price/performance benefit. It was an instant hit, and all the other big manufacturers quickly embraced the concept of a family of interoperable computers. All software, including the OS/360 operating system, was supposed to be compatible with all models in the original design. It had to run on extremely big systems, which frequently replaced 7094s for heavy computation and weather forecasting, and tiny systems, which frequently merely replaced 1401s for transferring cards to tape. Both systems with few peripherals and systems with many peripherals needed to function well with it. It had to function both in professional and academic settings. Above all, it had to be effective for each of these many applications.
+- **Third Generation (1965-80)**: In comparison to second-generation computers, which were constructed from individual transistors, the IBM 360 was the first major computer line to employ (small-scale) ICs (Integrated Circuits). As a result, it offered a significant price/performance benefit. It was an instant hit, and all the other big manufacturers quickly embraced the concept of a family of interoperable computers. All software, including the OS/360 operating system, was supposed to be compatible with all models in the original design. It had to run on massive systems, which frequently replaced 7094s for heavy computation and weather forecasting, and tiny systems, which frequently merely replaced 1401s for transferring cards to tape. Both systems with few peripherals and systems with many peripherals needed to function well with it. It had to function both in professional and academic settings. Above all, it had to be effective for each of these many applications.
 
 - **Fourth Generation (1980-Present)**: The personal computer era began with the creation of LSI (Large Scale Integration) circuits, processors with thousands of transistors on a square centimeter of silicon. Although personal computers, originally known as microcomputers, did not change significantly in architecture from minicomputers of the PDP-11 class, they did differ significantly in price.
 

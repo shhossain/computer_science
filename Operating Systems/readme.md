@@ -1,4 +1,9 @@
-# Resource Management in Operating Systems
+# Operating System as a Resource Manager
+
+The operating system manages all the pieces of a complex system. Modern computers consist of processors, memories, timers, disks, mice, network interfaces, printers, and a wide variety of other devices. In the bottom-up view, the job of the operating system is to provide for an orderly and controlled allocation of the processors, memories, and I/O devices among the various programs wanting them. Modern operating systems allow multiple programs to be in memory and run
+simultaneously. Imagine what would happen if three programs running on some computer all tried to print their output simultaneously on the same printer.
+The result would be utter chaos. The operating system can bring order to the potential chaos by buffering all the output destined for the printer on the disk. When one program is finished, the operating system can then copy its output from the disk file where it has been stored for the printer, while at the same time, the other program can continue generating more output,oblivious to the fact that the output is not going to the printer (yet). When a computer (or network) has more than one user, the need to manage and protect the memory, I/O devices, and other resources even more since the users might otherwise interfere with one another. In addition, users often need to share not only hardware but also information (files, databases, etc.). In short,
+this view of the operating system holds that its primary task is to keep track of which programs are using which resource, to grant resource requests, to account for usage and to mediate conflicting requests from different programs and users.
 
 One of the crucial roles of any operating system is resource management and, among the resources that the OS must manage, an important one is access to the CPU on the part of processes (programs in execution) that need access sometimes at the same time and with different priorities, burst times, turnaround times, etc..
 

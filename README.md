@@ -629,6 +629,25 @@ While the desk represents the computer's memory, the filing cabinet represents y
 
 **An important distinction** between memory and storage is that memory clears when the computer is turned off. On the other hand, storage remains intact no matter how often you shut off your computer. Therefore, in the desk and filing cabinet analogy, any files left on your desk will be thrown away when you leave the office. Everything in your filing cabinet will remain.
 
+### Virtual Memory
+At the heart of computer systems lies memory, the space where programs run and data is stored. But what happens when the programs you're running and the data you're working with exceed the physical capacity of your computer's memory? This is where virtual memory steps in, acting as a smart extension to your computer's memory and enhancing its capabilities.
+
+**Definition and Purpose of Virtual Memory:**
+
+Virtual memory is a memory management technique employed by operating systems to overcome the limitations of physical memory (RAM). It creates an illusion for software applications that they have access to a larger amount of memory than what is physically installed on the computer. In essence, it enables programs to utilize memory space beyond the confines of the computer's physical RAM.
+
+The primary purpose of virtual memory is to enable efficient multitasking and the execution of larger programs, all while maintaining the responsiveness of the system. It achieves this by creating a seamless interaction between the physical RAM and secondary storage devices, like the hard drive or SSD.
+
+**How Virtual Memory Extends Available Physical Memory:**
+
+Think of virtual memory as a bridge that connects your computer's RAM and its secondary storage (disk drives). When you run a program, parts of it are loaded into the faster physical memory (RAM). However, not all parts of the program may be used immediately.
+
+Virtual memory exploits this situation by moving sections of the program that aren't actively being used from RAM to the secondary storage, creating more room in RAM for the parts that are actively in use. This process is transparent to the user and the running programs. When the moved parts are needed again, they are swapped back into RAM, while other less active parts may be moved to the secondary storage.
+
+This dynamic swapping of data in and out of physical memory is managed by the operating system. It allows programs to run even if they're larger than the available RAM, as the operating system intelligently decides what data needs to be in RAM for optimal performance.
+
+In summary, virtual memory acts as a virtualization layer that extends the available physical memory by temporarily transferring parts of programs and data between the RAM and secondary storage. This process ensures that the computer can handle larger tasks and numerous programs simultaneously, all while maintaining efficient performance and responsiveness.
+
 ## [File System](File%20System/readme.md)
 In computing, a file system or filesystem (often abbreviated to fs) is a method and data structure the operating system uses to control how data is stored and retrieved. Without a file system, data placed in a storage medium would be one large body of data with no way to tell where one piece of data stopped and the next began or where any piece of data was located when it was time to retrieve it. By separating the data into pieces and giving each piece a name, the data is easily isolated and identified. Taking its name from how a paper-based data management system is named, each data group is called a "file". The structure and logic rules used to manage the groups of data and their names are called a "file system."
 

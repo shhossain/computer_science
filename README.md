@@ -615,7 +615,6 @@ multiprogramming and the need to schedule them. Resource management and protecti
 These issues must be handled by the (usually extremely primitive) operating system present on the card.
 
 ## [Memory and Storage](Memory%20and%20Storage/readme.md)
-If you are unsure about the difference between computer memory and storage, this article covers the differences.
 
 ### Memory
 The term _memory_ refers to the component within your computer allowing short-term data access. You may recognize this component as DRAM or dynamic random-access memory. Your computer performs many operations by accessing data stored in its short-term memory. Some examples of such operations include editing a document, loading applications, and browsing the Internet. The speed and performance of your system depend on the amount of memory that is installed on your computer.

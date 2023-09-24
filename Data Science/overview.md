@@ -46,8 +46,8 @@ Statistical analysis is fundamental in Data Science and includes:
 
 ## Popular Data Science Libraries
 
-1. **Pandas**
+1. [Pandas](https://github.com/pandas-dev/pandas)
    - Pandas is a Python library for data manipulation and analysis. It provides data structures like DataFrames and Series, making it easy to clean, explore, and transform data.
 
-2. **Matplotlib**
+2. [Matplotlib](https://github.com/matplotlib/matplotlib)
    - Matplotlib is a Python library for creating static, animated, and interactive plots and visualizations. It offers a wide range of customizable plot types and styles for data visualization.

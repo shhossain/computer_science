@@ -14,11 +14,11 @@ There are many ways to contribute to the repo, including:
 
 **Find an issue**
 
-If you are interested in contributing a new resource or updating an existing resource, please first search for an open issue that matches your contribution. If there is no open issue, please create a new one.
+If you want to contribute a new resource or update an existing one, please first search for an open issue that matches your contribution. If there is no open issue, please create a new one.
 
 **Ask for help**
 
-If you need help with contributing, please feel free to ask for help in issue comment.
+If you need help with contributing, please feel free to ask for help in the issue comment.
 
 **Pull request lifecycle**
 
@@ -43,4 +43,4 @@ To contribute to the repo, you will need to set up your development environment.
 
 Thank you for your contributions!
 
-We appreciate your contributions to the `shhossain/computer_science` repo. Your contributions help to make the repo a valuable resource for everyone who is interested in learning computer science.
+We appreciate your contributions to the `shhossain/computer_science` repo. Your contributions help to make the repo a valuable resource for everyone interested in learning computer science.

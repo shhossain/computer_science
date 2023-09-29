@@ -1,8 +1,8 @@
-# Computer Science (কম্পিউটার বিজ্ঞান)
+# কম্পিউটার বিজ্ঞান
 
-## Table of Contents (সূচীপত্র)
+## সূচীপত্র
 
-- [Introduction](#introduction-পরিচিতি)
+- [পরিচিতি](#পরিচিতি)
 - [Electronic Computer](#electronic-computer)
 - [Boolean Logic](#boolean-logic)
 - [Number Systems](#number-systems)
@@ -32,13 +32,13 @@
 - [Theory of Computation](#theory-of-computation)
 
 
-## Introduction (পরিচিতি)
+## পরিচিতি
 
-কম্পিউটার বিজ্ঞান (Computer Science) জ্ঞানের একটি শাখা যেখানে তথ্য ও পরিগণনার তাত্ত্বিক ভিত্তির গবেষণা করা হয় এবং পরিগণক যন্ত্র তথা কম্পিউটার নামক যন্ত্রে এসব পরিগণনা সম্পাদনের ব্যবহারিক পদ্ধতির প্রয়োগ ও বাস্তবায়ন সম্পর্কে আলোচনা করা হয়। [১][২][৩][৪] কম্পিউটার বিজ্ঞান ক্ষেত্রে গবেষণাকারী বিজ্ঞানীদেরকে কম্পিউটার বিজ্ঞানী বলা হয়। একজন কম্পিউটার বিজ্ঞানী পরিগণনার তত্ত্ব ও সফটওয়্যার পদ্ধতির নকশার ব্যবহার সম্পর্কে অধ্যয়ন করেন।
+কম্পিউটার বিজ্ঞান (Computer Science) জ্ঞানের একটি শাখা যেখানে তথ্য ও পরিগণনার তাত্ত্বিক ভিত্তির গবেষণা করা হয় এবং পরিগণক যন্ত্র তথা কম্পিউটার নামক যন্ত্রে এসব পরিগণনা সম্পাদনের ব্যবহারিক পদ্ধতির প্রয়োগ ও বাস্তবায়ন সম্পর্কে আলোচনা করা হয়। কম্পিউটার বিজ্ঞান ক্ষেত্রে গবেষণাকারী বিজ্ঞানীদেরকে কম্পিউটার বিজ্ঞানী বলা হয়। একজন কম্পিউটার বিজ্ঞানী পরিগণনার তত্ত্ব ও সফটওয়্যার পদ্ধতির নকশার ব্যবহার সম্পর্কে অধ্যয়ন করেন।
 
 
 ## [Electronic Computer](Electronic%20Computer/readme.md)
-A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.
+A device that computes, especially a programmable electronic machine performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.
 
 ## [Boolean Logic](Boolean%20Logic/readme.md)
 Boolean logic is a branch of mathematics that deals with the values of truth and falsehood. It is a system of logic that uses only two values, 0 and 1, to represent false and true, respectively. It is also known as Boolean algebra, named after George Boole, who first described it in 1854.

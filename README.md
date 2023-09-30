@@ -2,8 +2,8 @@
 <h4 align="center">
     <p>
         <b>English</b> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a>
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">español</a>
     </p>
 </h4>
 

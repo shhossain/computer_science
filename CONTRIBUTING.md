@@ -1,6 +1,6 @@
 # Contributing Guide
 
-Thank you for your interest in contributing to the `shhossain/computer_science` repo! We are always looking for new and improved resources to help people learn computer science.
+I appreciate your interest in contributing to the `shhossain/computer_science` repo! We are always looking for new and improved resources to help people learn computer science.
 
 **Ways to contribute**
 
@@ -12,7 +12,7 @@ There are many ways to contribute to the repo, including:
 4. Providing feedback on new PR.
 5. Translating sections into other languages.
 
-**Find an issue**
+[**Find an issue**](https://github.com/shhossain/computer_science/issues)
 
 If you want to contribute a new resource or update an existing one, please first search for an open issue that matches your contribution. If there is no open issue, please create a new one.
 

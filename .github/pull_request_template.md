@@ -1,6 +1,6 @@
 ## Proposed changes
 
-Describe the big picture of your changes here to communicate to the maintainers why we should accept this pull request. Your PR title can be also used in here.
+Describe the big picture of your changes here to communicate to the maintainers why we should accept this pull request. Your PR title can be also used here.
 
 ## Types of changes
 
@@ -9,8 +9,8 @@ _Put an `x` in the boxes that apply (without "`")_
 
 
 - [ ] Proofreading (fix spelling, grammar, punctuation, accuracy) [Proofreading](https://www.scribbr.com/language-rules/what-is-proofreading/)
-- [ ] New content (new section, new readme, etc)
-- [ ] Modifications (modifying existing content, adding new content)
+- [ ] New content (new section, new readme, etc.)
+- [ ] Modifications (modifying existing content)
 - [ ] Other (please describe)
 
 ## Checklist
@@ -20,8 +20,6 @@ _Note: If you submit code make sure to test it_
 
 
 - [ ] Tested any code that was added/modified in this PR
-- [ ] Added the necessary explanation
-- [ ] I have added the necessary links in the working section
 - [ ] Added external links
 - [ ] Added internal links
 - [ ] Added images
@@ -41,4 +39,4 @@ _You can change the "content" with any of [this](https://allcontributors.org/doc
 - [ ] @username
 
 
-_If you add code, please ensure that you are not adding any sensitive information like API keys, secrets, passwords, tokens, usernames, or other credentials. Refrain from adding your name, email, or other personal information to the code._
+_Please ensure that you are not adding any sensitive information like API keys, secrets, passwords, tokens, usernames, or other credentials. Refrain from adding your name, email, or other personal information._

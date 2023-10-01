@@ -576,6 +576,7 @@ For example, a signed 8-bit integer can represent values in the range of -128 to
 
 ##### **C**
 
+
 ```c
 signed int a = -10;
 ```

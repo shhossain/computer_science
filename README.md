@@ -11,7 +11,7 @@
 If you're interested in contributing to this project, please take a moment to review our [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-120-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-121-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -1207,6 +1207,9 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://www.linkedin.com/in/garrett-crowley-a0b931126/"><img src="https://avatars.githubusercontent.com/u/86014840?v=4?s=50" width="50px;" alt="Garrett Crowley"/><br /><sub><b>Garrett Crowley</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=crowleyg" title="Code">💻</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Francesco601"><img src="https://avatars.githubusercontent.com/u/130352141?v=4?s=50" width="50px;" alt="Francesco Franco"/><br /><sub><b>Francesco Franco</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3AFrancesco601" title="Bug reports">🐛</a> <a href="https://github.com/shhossain/computer_science/commits?author=Francesco601" title="Code">💻</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/aclittle096"><img src="https://avatars.githubusercontent.com/u/43685369?v=4?s=50" width="50px;" alt="Alexander Little"/><br /><sub><b>Alexander Little</b></sub></a><br /><a href="#content-aclittle096" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Wandererr01"><img src="https://avatars.githubusercontent.com/u/129178279?v=4?s=50" width="50px;" alt="Subham Maji"/><br /><sub><b>Subham Maji</b></sub></a><br /><a href="#content-Wandererr01" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

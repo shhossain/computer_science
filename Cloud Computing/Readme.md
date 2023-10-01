@@ -69,6 +69,10 @@ organizations that have shared concerns.
 
 In a hybrid cloud model, the cloud infrastructure is a composition of two or more distinct cloud infrastructures (private, community, or public) that remain unique entities, but are bound together by standardized or proprietary technology that enables data and application portability.
 
+### Multi Cloud
+
+Multi-cloud is an extension of the hybrid cloud model, where an organization uses services from multiple cloud providers simultaneously. In a multi-cloud deployment, an organization may use different cloud providers for various purposes, such as running different workloads, reducing vendor lock-in, or taking advantage of specific services offered by different providers.
+
 # Advantages of Cloud Computing
 There are many advantages to using cloud computing services, including:
 

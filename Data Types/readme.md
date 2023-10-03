@@ -555,16 +555,79 @@ We should be careful in explicit type coversion like,
 - A larger data type if converted to smaller data type will result in loss of data as the number will be truncated.
 
 ---
+## Concept of Signed and Unsigned (Signedness)
+
+In C and many other programming languages, including C++, Java, and others, the concepts of "signed" and "unsigned" are used to specify how data of integer types (such as 'int', 'short', 'long', etc.) should be interpreted in terms of their value representation. These concepts determine whether the data can represent both positive and negative values (signed) or only non-negative values (unsigned).
+
+### Common Types Of Signedness
+
+- [Signed Type](#signed-type)
+- [Unsigned Type](#unsigned-type)
+
+### [Signed Type](#signed-type)
+
+A signed integer type can represent both positive and negative values.
+The most significant bit (the leftmost bit) is typically used to indicate the sign of the number: 0 for positive and 1 for negative (using two's complement representation).
+
+For example, a signed 8-bit integer can represent values in the range of -128 to 127, as the MSB is occupied by the sign of the number , so 7 bits are left for the number representation. Formula for finding the range in two's complement representation : 
+-(2^(n-1)) to (2^(n-1)-1) , where 'n' is the number of bits in the register.
+
+#### Example:
+
+##### **C**
+
+
+```c
+signed int a = -10;
+```
+
+### [UnSigned Type](#unsigned-type)
+
+Unsigned data types can represent only non-negative values, including zero.
+All bits in the binary representation are used to represent the magnitude of the number.
+Common unsigned data types include unsigned int, unsigned short, unsigned long, etc.
+
+For example, an unsigned 8-bit integer can represent values in the range of 0 to 255, as there is no signed bit present , thus all the bits are used for number representation, therefore, increasing the positive range. Formula for finding the range : 0 to ((2^n)-1) , where 'n' is the number of bits in the register.
+
+#### Example:
+
+##### **C**
+
+```c
+unsigned int unsignedValue = 42; 
+```
+
+### Signed V/s Unsigned
+
+### Benefits of Signed Integer Types:
+
+Representation of Negative Values: Signed integers can represent both positive and negative values, making them suitable for scenarios where you need to handle a wide range of numbers, including negative values.
+
+Arithmetic Operations: Signed integers are essential for arithmetic operations that may result in negative results. For example, subtraction or division can produce negative results, and signed integers are needed to handle these cases correctly.
+
+Compatibility: Signed integers are widely used in many programming languages and libraries, making them compatible with a broad range of software and systems.
+
+### Benefits of Unsigned Integer Types:
+
+Non-Negative Values: Unsigned integers are useful when you need to work exclusively with non-negative values. They are ideal for scenarios where negative values do not have any meaning or are not applicable, such as array indices, sizes, or bitwise operations.
+
+Maximum Value Range: Unsigned integers offer a larger positive value range than their signed counterparts with the same number of bits. This can be beneficial when you need to store large positive values.
+
+Bitwise Operations: Unsigned integers are commonly used in bitwise operations, where the sign of the value is not relevant. They are often used to manipulate individual bits or perform operations like bitmasking.
+
+Preventing Overflow Bugs: In some cases, using unsigned integers can help prevent overflow bugs that may occur when dealing with large values, as unsigned integers wrap around to zero when they exceed their maximum representable value.
 
 ## Data Type Size
 
 Data type size is the amount of memory required to store a value of a particular data type. The size of a data type depends on the compiler and the computer architecture. The size of a data type may vary from one computer to another. The size of a data type may also vary from one compiler to another. The size of a data type may also vary from one operating system to another.
 
-### Data Type Size Comparison (Smallest to Largest)
+### Data Type Size Comparison (Based on 64-bit system using the x86-64 architecture)
 
 - Character (1 byte)
-- Boolean (2 byte)
-- Integer (2 byte)
+- Boolean (1 byte)
+- Integer (4 byte)
+- Short Integer (2 byte)
+- Long Integer (8 bytes)
 - Float (4 byte)
 - Double (8 byte)
 - Long Double (16 byte)

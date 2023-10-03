@@ -13,7 +13,7 @@
 If you're interested in contributing to this project, please take a moment to review our [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-120-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-122-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -53,7 +53,7 @@ Computer science is the study of computers and computing and their theoretical a
 
 ## [Electronic Computer](Electronic%20Computer/readme.md)
 
-A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.
+A device that computes, especially a programmable electronic machine performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.
 
 ## [Boolean Logic](Boolean%20Logic/readme.md)
 

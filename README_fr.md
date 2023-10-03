@@ -1,21 +1,16 @@
 <h1 align="center">Computer Science</h1>
 <h4 align="center">
     <p>
-        <a href="https://github.com/shhossain/computer_science/blob/main/README.md">English</a>
+        <b>English</b> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a>
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a>
     </p>
 </h4>
 
 ## Guide de contribution
 
 Si vous souhaitez participez à ce projet, prenez le temps de jeter un oeil au guide contribution [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) pour obtenir plus de détail sur comment participer et comment commencer. Votre aide est grandement appréciée.
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-120-orange.svg?style=flat-square)](#contributors)
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table des matières
 

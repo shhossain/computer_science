@@ -12,7 +12,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-123-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-124-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1210,6 +1210,7 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Wandererr01"><img src="https://avatars.githubusercontent.com/u/129178279?v=4?s=50" width="50px;" alt="Subham Maji"/><br /><sub><b>Subham Maji</b></sub></a><br /><a href="#content-Wandererr01" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/ZRX-SIGMA"><img src="https://avatars.githubusercontent.com/u/100613008?v=4?s=50" width="50px;" alt="SK Jiyad"/><br /><sub><b>SK Jiyad</b></sub></a><br /><a href="#content-ZRX-SIGMA" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/exrol"><img src="https://avatars.githubusercontent.com/u/86170495?v=4?s=50" width="50px;" alt="exrol"/><br /><sub><b>exrol</b></sub></a><br /><a href="#content-exrol" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/manavmittal05"><img src="https://avatars.githubusercontent.com/u/65654441?v=4?s=50" width="50px;" alt="Manav Mittal"/><br /><sub><b>Manav Mittal</b></sub></a><br /><a href="#content-manavmittal05" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

@@ -176,6 +176,17 @@ Earliest deadline first scheduling  assigns priorities dynamically  according to
 Unlike rate-monotonic scheduling, EDF scheduling does not require that processes be periodic, nor must a process  require a constant amount of CPU time per burst. The only requirement  is that a process  announces its deadline to the scheduler whenever it becomes runnable. The appeal of EDF scheduling is that it is theoretically optimal--theoretically, it can schedule processes so that each process meets its deadline requirements and CPU utilization is at 100 percent. In practice, however,  it is impossible to achieve this level of CPU utilization due to the cost of context switching between processes and interrupt handling.
 
 ## How a system boots?
+### Following steps takes place when a computer boots up :
+Step 1. You turn on the Desktop/Laptop
+
+Step 2. POST (Power On Self Test) takes place.
+
+Step 3. BIOS (Basic Input Output Services) program is loaded.
+
+Step 4. The BIOS loads the designated boot sector of the boot drive into the RAM (Random Access Memory).
+
+To read more in details you can refer to the following.
+
 [Operating system booting process](os_boot_process.md)
 
 ## References and related Resources

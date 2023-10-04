@@ -4,7 +4,7 @@
         <b>English</b> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a>
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_tm.md">தமிழ்</a>
     </p>
 </h4>

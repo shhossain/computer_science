@@ -37,6 +37,24 @@ When a cache client attempts to access data, it first checks the cache. If the d
 Requested data that isn't found in the cache -- referred to as a cache miss -- is pulled from main memory and copied into the cache. How this is done, and what data is ejected from the cache to make room for the new data, depends on the caching algorithm, cache protocols and system policies being used.
 
 
+## Cache associated with CPU
+Data in primary memory can be accessed faster than secondary memory but still, access times of primary memory are generally in a few microseconds, whereas the CPU is capable of performing operations in nanoseconds. Due to the time lag between accessing data and acting on data performance of the system decreases as the CPU is not utilized properly, it may remain idle for some time. In order to minimize this time gap new segment of memory is Introduced known as Cache Memory.
+
+### Benefits
+1. **Faster access**: Faster than main memory. It resides closer to CPU , typically on same chip or in close proximity. Cache stores subset of data and instruction.
+2. **Reducing memory latency**: Memory access latency refers to time taken for processes to retrieve data from memory. Caches are designed to exploit principle of locality.
+3. **Lowering bus traffic**: Accessing data from main memory involves transferring it over system bus. Bus is shared resource and excessive traffic can lead to congestion and slower data transfers. By utilizing cache memory , processor can reduce frequency of accessing main memory resulting in less bus traffic and improves system efficiency.
+4. **Increasing effective CPU utilization**: Cache memory allows CPU to operate at a higher effective speed. CPU can spend more time executing instruction rather than waiting for memory access. This leads to better utilization of CPU’s processing capabilities and higher overall system performance.
+5. **Enhancing system scalability**: Cache memory helps improve system scalability by reducing impact of memory latency on overall system performance.
+
+### Types of cache
+**L1 or Level 1 Cache**: It is the first level of cache memory that is present inside the processor. It is present in a small amount inside every core of the processor separately. The size of this memory ranges from 2KB to 64 KB.
+
+**L2 or Level 2 Cache**: It is the second level of cache memory that may present inside or outside the CPU. If not present inside the core, It can be shared between two cores depending upon the architecture and is connected to a processor with the high-speed bus. The size of memory ranges from 256 KB to 512 KB.
+
+**L3 or Level 3 Cache**: It is the third level of cache memory that is present outside the CPU and is shared by all the cores of the CPU. Some high processors may have this cache. This cache is used to increase the performance of the L2 and L1 cache. The size of this memory ranges from 1 MB to 8MB.
+
+
 
 # RAM
 RAM (Random Access Memory) is the hardware in a computing device where the operating system (OS), application programs and data in current use are kept so they can be quickly reached by the device's processor. RAM is the main memory in a computer. It is much faster to read from and write to than other kinds of storage, such as a hard disk drive (HDD), solid-state drive (SSD) or optical drive.
@@ -113,6 +131,16 @@ With parallel tasks, such as 2D and 3D video rendering, tight access times aren'
 
 Similar to DDR, GDDR has gone through several generations of development, with each providing more performance and lower power consumption. GDDR6 is the latest generation of graphics memory.
 
+## Ram vs. Cache
+Although Cache and RAM both are used to increase the performance of the system there exists a lot of differences in which they operate to increase the efficiency of the system. 
+
+|Ram|Cache|
+|---|-----|
+|RAM is larger in size compared to cache. Memory ranges from 1MB to 16GB|The cache is smaller in size. Memory ranges from 2KB to a few MB generally.|
+|It stores data that is currently processed by the processor.|It holds frequently accessed data.|
+OS interacts with secondary memory to get data to be stored in Primary Memory or RAM|OS interacts with primary memory to get data to be stored in Cache.|
+It is ensured that data in RAM are loaded before access to the CPU. This eliminates RAM miss never.|CPU searches for data in Cache, if not found cache miss occur.|
+
 ## RAM vs. virtual memory
 A computer can run short on memory, especially when running multiple programs simultaneously. Operating systems can compensate for physical memory shortfalls by creating virtual memory.
 
@@ -133,6 +161,7 @@ However, NAND flash memory is less expensive than RAM, and it's also nonvolatile
 Read-only memory, or ROM, is computer memory containing data that can only be read, not written to. ROM contains boot-up programming that is used each time a computer is turned on. It generally can't be altered or reprogrammed.
 
 The data in ROM is nonvolatile and isn't lost when the computer power is turned off. As a result, read-only memory is used for permanent data storage. Random Access Memory, on the other hand, can only hold data temporarily. ROM is generally several megabytes of storage, while RAM is several gigabytes.
+
 
 
 

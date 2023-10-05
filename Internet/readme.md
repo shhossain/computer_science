@@ -49,3 +49,28 @@ The Internet Protocol (IP) is a protocol, or set of rules, for routing and addre
 - [Internet of Things (IoT)](IOT/readme.md)
 - [Cyber Crime](Cyber%20Crimes/readme.md)
 
+## Error Codes
+While browsing the internet, you may have encountered some error codes.
+Like:
+* 404 Not Found
+* 403 Forbidden
+* 500 Internal Server Error
+* 502 Bad Gateway
+* 503 Service Unavailable
+* 504 Gateway Timeout
+* 408 Request Timeout
+
+These errors might be confusing for you. But they make the life of the developer a lot easier 
+as they contain a lot of useful information about the problem.
+
+In genral the error codes means:
+* 1xx:  informational response - it means the request was received and the process is continuing 
+* 2xx:  success - the request was successfully received, understood, and accepted
+* 3xx:  redirection - further action needs to be taken in order to complete the request
+* 4xx:  client error - the request contains bad syntax or cannot be fulfilled
+* 5xx:  server error - the server failed to fulfil an apparently valid request
+
+
+### 404 Not Found
+This error means that the requested resource could not be found. This is the most common error you will encounter while browsing the internet. This error is returned when the server is unable to find the requested resource. This error can be caused by a number of things, including a broken link, a mistyped URL, or a deleted file.
+

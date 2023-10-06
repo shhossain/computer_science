@@ -1165,6 +1165,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Sarthak950",
+      "name": "Sarthak ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93645760?v=4",
+      "profile": "http://sarthak950.netlify.app",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,

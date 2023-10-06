@@ -1,11 +1,15 @@
-def calculate_lps(pattern):
+The Knuth-Morris-Pratt (KMP) algorithm is a pattern-matching algorithm that efficiently finds occurrences of a given pattern within a longer text. 
+It uses a precomputed array called the Longest Prefix Suffix (LPS) to avoid unnecessary comparisons
+
+
+
+
+    Complete Code:
+    def calculate_lps(pattern):
     """
     Calculate the Longest Prefix Suffix (LPS) array for the given pattern.
-
     Args:
         pattern (str): The pattern string.
-
-    Returns:
         list: LPS array for the pattern.
     """
     length = len(pattern)
@@ -25,15 +29,16 @@ def calculate_lps(pattern):
     return lps
 
 
-def kmp_search(text, pattern):
-    """
-    Search for occurrences of the pattern in the given text using the Knuth-Morris-Pratt algorithm.
+
 
     Args:
         text (str): The text to search in.
         pattern (str): The pattern to search for.
 
     Returns:
+    def kmp_search(text, pattern):
+    """
+    Search for occurrences of the pattern in the given text using the Knuth-Morris-Pratt algorithm.
         list: List of indices where the pattern is found in the text.
     """
     if not text or not pattern:
@@ -61,7 +66,7 @@ def kmp_search(text, pattern):
     return results
 
 
-# Example usage
+ Example usage
 text = "ABABABCABABABCABABABC"
 pattern = "ABAB"
 
@@ -69,38 +74,36 @@ print("Text:", text)
 print("Pattern:", pattern)
 print("Occurrences:", kmp_search(text, pattern))
 
-# The Knuth-Morris-Pratt (KMP) algorithm is a pattern-matching algorithm that efficiently finds occurrences of a given pattern within a longer text. 
-# It uses a precomputed array called the Longest Prefix Suffix (LPS) to avoid unnecessary comparisons
+ 
 
-# lets explain what the following code does through an example
-# assume you have to search a string assume ABAB in the text ABABABCABABABCABABABC 
-# A few assumptions M is the length of the pattern and N is the length of the pattern
+ lets explain what the following code does through an example
+ assume you have to search a string assume ABAB in the text ABABABCABABABCABABABC 
+ A few assumptions M is the length of the pattern and N is the length of the pattern
+ Step 1 Calculate LPS Array (Longest Prefix Suffix):
+For pattern "ABAB":
+LPS: [0, 0, 1, 2]
+The LPS array tells us the length of the longest proper prefix that is also a suffix for each position in the pattern.
 
-# Step 1 Calculate LPS Array (Longest Prefix Suffix):
-#For pattern "ABAB":
-#LPS: [0, 0, 1, 2]
-#The LPS array tells us the length of the longest proper prefix that is also a suffix for each position in the pattern.
+Step 2 KMP Search:
+Start comparing the pattern with the text from left to right, keeping track of a pointer j for the pattern.
 
-#Step 2 KMP Search:
-# Start comparing the pattern with the text from left to right, keeping track of a pointer j for the pattern.
+ At index 0:
 
-# At index 0:
+ Compare pattern[0] (A) with text[0] (A). Match.
+ Move to the next character in both pattern and text.
+ At index 1:
 
-# Compare pattern[0] (A) with text[0] (A). Match.
-# Move to the next character in both pattern and text.
-# At index 1:
+ Compare pattern[1] (B) with text[1] (B). Match.
+ Move to the next character in both pattern and text.
+ At index 2:
 
-# Compare pattern[1] (B) with text[1] (B). Match.
-# Move to the next character in both pattern and text.
-# At index 2:
+ Compare pattern[2] (A) with text[2] (A). Match.
+ Move to the next character in both pattern and text.
+ At index 3:
 
-# Compare pattern[2] (A) with text[2] (A). Match.
-# Move to the next character in both pattern and text.
-# At index 3:
-
-# Compare pattern[3] (B) with text[3] (B). Match.
-# Pattern fully matched at index 3. Add the starting index (3 - length of pattern + 1 = 0) to the result.
-# Continue searching for other occurrences in a similar manner.
+ Compare pattern[3] (B) with text[3] (B). Match.
+ Pattern fully matched at index 3. Add the starting index (3 - length of pattern + 1 = 0) to the result.
+ Continue searching for other occurrences in a similar manner.
 
 #Result:
 

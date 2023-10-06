@@ -1,7 +1,10 @@
-# The following code snippet implements Rabin Karp ALgorithm in Python
-# Rabin karp is kind of a string hashing implementation where there are also chances of spurious hits
+ The following code snippet implements Rabin Karp ALgorithm in Python
+ Rabin karp is kind of a string hashing implementation where there are also chances of spurious hits
+ What this algorithm does is that it calculates hash values of strings in such a fashion that the chances of collision two strings having the same hash values are zero to none
+One can understand it even clearly after learning about the concept of rolling hash
+Complete code : 
 
-class RabinKarp:
+    class RabinKarp:
     def __init__(self, text, pattern):
         self.text = text
         self.pattern = pattern
@@ -9,13 +12,13 @@ class RabinKarp:
         self.pattern_length = len(pattern)
         self.prime = 101  # A prime number to use for hashing
         self.base = 256  # Number of possible characters in the input
-
     def calculate_hash(self, string, length):
         # Calculate the hash value for a given substring of specified length
         hash_value = 0
         for i in range(length):
             hash_value = (hash_value * self.base + ord(string[i])) % self.prime
         return hash_value
+        
 
     def rabin_karp_search(self):
         if self.pattern_length > self.text_length:
@@ -40,7 +43,7 @@ class RabinKarp:
         return results
 
 
-# Example usage
+Example usage
 text = "ABABABCABABABCABABABC"
 pattern = "ABAB"
 

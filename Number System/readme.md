@@ -251,3 +251,14 @@ Thus $77_{10} = 302_{5}$.
 ## [Mixed-Base Number Systems](#mixed-base-number-systems)
 
 Mixed-base number systems are number systems that use more than one base. Such numerical representation applies when a quantity is expressed using a sequence of units that are each a multiple of the next smaller one, but not by the same factor. The easiet example of a mixed-base number system is from our timekeeping methods. 60 seconds in a minute, 60 minutes in an hour, 24 hours in a day, 7 days in a week, 4 weeks in a month, 12 months in a year, 10 years in a decade, 10 decades in a century, 10 centuries in a millennium. All of these are different bases and they are all combined to make our timekeeping system.
+
+
+## Code for Conversion
+
+In C        [Conversion_In_C.c](./Conversion_In_C.c)
+In C++      [Conversion_In_C++.cpp](./Conversion_In_c++.cpp)
+In Java     [Conversion_In_Java.java](./Conversion_In_Java.java)
+In JS       [Conversion_In_JS.js](./Conversion_In_JS.js)
+In TS       [Conversion_In_TS.ts](./Conversion_In_TS.ts)
+In Lua      [Conversion_In_Lua.lua](./Conversion_In_Lua.lua)
+<!-- In Python   [Conversion_In_Python.py](./Conversion_In_Python.py)  -->

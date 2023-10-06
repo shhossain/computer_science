@@ -193,8 +193,8 @@ Thus, the equivalent decimal number for the given binary number (1101) is **(13)
 First, you need to convert a binary into other base system (e.g., into decimal, or into octal). Then you need to convert it hexadecimal number.Since number numbers are type of positional number system. That means weight of the positions from right to left are as 160^, 16^1, 16^2, 16^3 and so on. for the integer part and weight of the positions from left to right are as 16^-1, 16^-2, 16^-3 and so on. for the fractional part.
 
 ### [Example of Binary to Hexadecimal Conversion](#example-binary/hexadecimal)
-Converting binary number 1101010 into hexadecimal number.
-First convert this into decimal number:
+Converting binary number 1101010 into hexadecimal numbers.
+First, convert this into a decimal number:
 
 = (1101010)
 
@@ -255,10 +255,9 @@ Mixed-base number systems are number systems that use more than one base. Such n
 
 ## Code for Conversion
 
-In C        [Conversion_In_C.c](./Conversion_In_C.c)
-In C++      [Conversion_In_C++.cpp](./Conversion_In_c++.cpp)
-In Java     [Conversion_In_Java.java](./Conversion_In_Java.java)
-In JS       [Conversion_In_JS.js](./Conversion_In_JS.js)
-In TS       [Conversion_In_TS.ts](./Conversion_In_TS.ts)
-In Lua      [Conversion_In_Lua.lua](./Conversion_In_Lua.lua)
-<!-- In Python   [Conversion_In_Python.py](./Conversion_In_Python.py)  -->
+- [Conversion In C](./Conversion_In_C.c)
+- [Conversion In C++](./Conversion_In_c++.cpp)
+- [Conversion In Java](./Conversion_In_Java.java)
+- [Conversion In JS](./Conversion_In_JS.js)
+- [Conversion In TS](./Conversion_In_TS.ts)
+- [Conversion In Lua](./Conversion_In_Lua.lua)

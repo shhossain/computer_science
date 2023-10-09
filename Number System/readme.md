@@ -261,3 +261,4 @@ Mixed-base number systems are number systems that use more than one base. Such n
 - [Conversion In JS](./Conversion_In_JS.js)
 - [Conversion In TS](./Conversion_In_TS.ts)
 - [Conversion In Lua](./Conversion_In_Lua.lua)
+- [Conversion in Python](./Conversion_In_Python2.py)

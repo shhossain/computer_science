@@ -346,7 +346,7 @@ Internet Layer: This Internet Layer moves packets from source to destination by 
 Network Access Layer: The Network Access Layer sees how a computer connects to a network.
 
 #### UDP(User Datagram Protocol)
-UDP is a connectionless protocol that does not guarantee reliable data transfer between two devices.
+UDP is a connectionless protocol that does not guarantee reliable data transfer between two devices. For more information about TCP you can refer [UDP Readme](udp.md).
 
 #### HTTP(HyperText Transfer Protocol)
 This protocol is used to transfer hypertexts over the internet and it is defined by the www(world wide web) for information transfer. This protocol defines how the information needs to be formatted and transmitted. And, it also defines the various actions the web browsers should take in response to the calls made to access a  particular web page. Whenever a user opens their web browser, the user will indirectly use HTTP as this is the protocol that is being used to share text, images, and other multimedia files on the World Wide Web. 

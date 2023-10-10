@@ -20,7 +20,6 @@ A webpage is a digital document that is linked to the World Wide Web and viewabl
 <h3><li>Web Development</h3>
 Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.
 
-
 <h2>Web Development can be classified into two ways:</h2>
 <h2><li> Frontend Development</h2>
   The part of a website that the user interacts directly is termed as front end. It is also referred to as the ‘client side’ of the application.
@@ -28,7 +27,7 @@ Web development refers to the building, creating, and maintaining of websites. I
 <h2><li> Backened Development</li></h2>
   Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
   <img src="https://github.com/its-red-eagle/Web-Technology/blob/main/Backend-design-roadmap.jpeg">
-<h2>Frontend Languages</h2> 
+<h2>Frontend Languages</h2>
   The front end portion is built by using some languages which are discussed below:
 
 <h3>HTML</h3>
@@ -44,13 +43,14 @@ Web development refers to the building, creating, and maintaining of websites. I
 <h4>There are many other languages through which one can do front-end development depending upon the framework for example Flutter user Dart, React uses JavaScript and Django uses Python, and much more.</h4>
 
 <h2>Front End Frameworks and Libraries </h2>
-<h6><div style="width:100%;float:left;text-align:left;border:1px solid #000;padding-top:20px;padding-left:20px"><div><div style="width:50%;float:left"><p><strong><a href="https://www.geeksforgeeks.org/html/">HTML</a></strong></p><p><strong><a href="https://www.geeksforgeeks.org/css/">CSS</a></strong></p><ul><li><strong>CSS Frameworks</strong><p></p><ul><li><a href="https://www.geeksforgeeks.org/bootstrap-tutorials/">Bootstrap</a></li><li><a href="https://www.geeksforgeeks.org/tailwind-css/">Tailwind CSS</a></li><li><a href="https://www.geeksforgeeks.org/bulma/">Bulma</a></li><li><a href="https://www.geeksforgeeks.org/foundation/">Foundation</a></li><li><a href="https://www.geeksforgeeks.org/primer-css/">Primer CSS</a></li><li><a href="https://www.geeksforgeeks.org/spectre-css/">Spectre CSS</a></li><li><a href="https://www.geeksforgeeks.org/materialize-css/">Materialize CSS</a></li><li><a href="https://www.geeksforgeeks.org/onsen-ui/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Onsen UI</font></font></a></li><li><a href="https://www.geeksforgeeks.org/semantic-ui/">Semantic UI</a></li><li><a href="https://www.geeksforgeeks.org/blaze-ui/">Blaze UI</a></li><li><a href="https://www.geeksforgeeks.org/pure-css/">Pure CSS</a></li><li><a href="https://www.geeksforgeeks.org/tachyons/">Tachyons</a></li></ul></li><li><strong>CSS Preprocessors</strong><p></p><div style="min-height:90px;text-align:center;margin:20px 0" id="GFG_AD_Desktop_MTF_Postcontent_728x90"></div><ul><li><a href="https://www.geeksforgeeks.org/sass/">SASS</a></li><li><a href="https://www.geeksforgeeks.org/less/">LESS</a></li></ul></li></ul></div><div style="width:50%;float:right"><p><strong><a href="https://www.geeksforgeeks.org/javascript/">JavaScript:</a></strong></p><ul><li><strong>JavaScript Technology</strong><p></p><ul><li><a href="https://www.geeksforgeeks.org/introduction-to-es6/">ES6</a></li><li><a href="https://www.geeksforgeeks.org/introduction-to-typescript/">TypeScript</a></li></ul></li><li><strong>JavaScript Frameworks</strong><p></p><ul><li><a href="https://www.geeksforgeeks.org/angularjs/">AngularJS</a><p></p><ul><li><a href="https://www.geeksforgeeks.org/angular-ngx-bootstrap/">Angular ngx Bootstrap</a></li><li><a href="https://www.geeksforgeeks.org/angular-primeng/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Angular PrimeNG</font></font></a></li><li><a href="https://www.geeksforgeeks.org/angular-material-ui/">Angular Material UI</a></li></ul></li><li><a href="https://www.geeksforgeeks.org/vue-js/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">VueJS</font></font></a><p></p><ul><li><a href="https://www.geeksforgeeks.org/nuxt-js/">Nuxt.js</a></li></ul></li><li><a href="https://www.geeksforgeeks.org/script-aculo-us-introduction/">script.aculo.us</a></li></ul></li><li><strong>JavaScript Libraries</strong><p></p><ul><li><a href="https://www.geeksforgeeks.org/jquery-tutorials/">jQuery</a><p></p><ul><li><a href="https://www.geeksforgeeks.org/jquery-ui/">jQuery UI</a></li><li><a href="https://www.geeksforgeeks.org/jquery-mobile/">jQuery Mobile</a></li><li><a href="https://www.geeksforgeeks.org/jqwidgets/">jQWidgets</a></li><li><a href="https://www.geeksforgeeks.org/jquery-easyui/">jQuery EasyUI</a></li></ul></li><li><a href="https://www.geeksforgeeks.org/reactjs-tutorials/">ReactJS</a><p></p><ul><li><a href="https://www.geeksforgeeks.org/next-js/">Next.js</a></li><li><a href="https://www.geeksforgeeks.org/ant-design/">Ant Design</a></li><li><a href="https://www.geeksforgeeks.org/react-desktop/">React Desktop</a></li><li><a href="https://www.geeksforgeeks.org/react-rebass/">React Rebass</a></li><li><a href="https://www.geeksforgeeks.org/react-bootstrap/">React Bootstrap</a></li><li><a href="https://www.geeksforgeeks.org/reactjs-reactstrap/">React Reactstrap</a></li><li><a href="https://www.geeksforgeeks.org/blueprint-js/">Blueprint.js</a></li><li><a href="https://www.geeksforgeeks.org/react-suite/">React Suite</a></li><li><a href="https://www.geeksforgeeks.org/reactjs-evergreen/">React.js Evergreen</a></li><li><a href="https://www.geeksforgeeks.org/react-material-ui/">React Material UI</a></li></ul></li><li><a href="https://www.geeksforgeeks.org/p5-js/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">P5.js</font></font></a></li><li><a href="https://www.geeksforgeeks.org/fabric-js/">Fabric.js</a><a></a></li><li><a href="https://www.geeksforgeeks.org/d3-js/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">D3.js</font></font></a><a></a></li><li><a href="https://www.geeksforgeeks.org/collect-js/">Collect.js</a></li><li><a href="https://www.geeksforgeeks.org/underscore-js-introduction/">Underscore.js</a></li><li><a href="https://www.geeksforgeeks.org/lodash/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lodash</font></font></a></li><li><a href="https://www.geeksforgeeks.org/script-aculo-us-introduction/">TensorFlow.js</a></li></ul></li></ul></div></div></div></h6>
+<h6><div style="width:100%;float:left;text-align:left;border:1px solid #000;padding-top:20px;padding-left:20px"><div><div style="width:50%;float:left"><p><strong><a href="https://www.geeksforgeeks.org/html/">HTML</a></strong></p><p><strong><a href="https://www.geeksforgeeks.org/css/">CSS</a></strong></p><ul><li><strong>CSS Frameworks</strong><p></p><ul><li><a href="https://www.geeksforgeeks.org/bootstrap-tutorials/">Bootstrap</a></li><li><a href="https://www.geeksforgeeks.org/tailwind-css/">Tailwind CSS</a></li><li><a href="https://www.geeksforgeeks.org/bulma/">Bulma</a></li><li><a href="https://www.geeksforgeeks.org/foundation/">Foundation</a></li><li><a href="https://www.geeksforgeeks.org/primer-css/">Primer CSS</a></li><li><a href="https://www.geeksforgeeks.org/spectre-css/">Spectre CSS</a></li><li><a href="https://www.geeksforgeeks.org/materialize-css/">Materialize CSS</a></li><li><a href="https://www.geeksforgeeks.org/onsen-ui/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Onsen UI</font></font></a></li><li><a href="https://www.geeksforgeeks.org/semantic-ui/">Semantic UI</a></li><li><a href="https://www.geeksforgeeks.org/blaze-ui/">Blaze UI</a></li><li><a href="https://www.geeksforgeeks.org/pure-css/">Pure CSS</a></li><li><a href="https://www.geeksforgeeks.org/tachyons/">Tachyons</a></li></ul></li><li><strong>CSS Preprocessors</strong><p></p><div style="min-height:90px;text-align:center;margin:20px 0" id="GFG_AD_Desktop_MTF_Postcontent_728x90"></div><ul><li><a href="https://www.geeksforgeeks.org/sass/">SASS</a></li><li><a href="https://www.geeksforgeeks.org/less/">LESS</a></li></ul></li></ul></div><div style="width:50%;float:right"><p><strong><a href="https://www.geeksforgeeks.org/javascript/">JavaScript:</a></strong></p><ul><li><strong>JavaScript Technology</strong><p></p><ul><li><a href="https://www.geeksforgeeks.org/introduction-to-es6/">ES6</a></li><li><a href="https://www.geeksforgeeks.org/introduction-to-typescript/">TypeScript</a></li></ul></li><li><strong>JavaScript Frameworks</strong><p></p><ul><li><a href="https://www.geeksforgeeks.org/angularjs/">AngularJS</a><p></p><ul><li><a href="https://www.geeksforgeeks.org/angular-ngx-bootstrap/">Angular ngx Bootstrap</a></li><li><a href="https://www.geeksforgeeks.org/angular-primeng/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Angular PrimeNG</font></font></a></li><li><a href="https://www.geeksforgeeks.org/angular-material-ui/">Angular Material UI</a></li></ul></li><li><a href="https://www.geeksforgeeks.org/vue-js/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">VueJS</font></font></a><p></p><ul><li><a href="https://www.geeksforgeeks.org/nuxt-js/">Nuxt.js</a></li></ul></li><li><a href="https://www.geeksforgeeks.org/script-aculo-us-introduction/">script.aculo.us</a></li></ul></li><li><strong>JavaScript Libraries</strong><p></p><ul><li><a href="https://www.geeksforgeeks.org/jquery-tutorials/">jQuery</a><p></p><ul><li><a href="https://www.geeksforgeeks.org/jquery-ui/">jQuery UI</a></li><li><a href="https://www.geeksforgeeks.org/jquery-mobile/">jQuery Mobile</a></li><li><a href="https://www.geeksforgeeks.org/jqwidgets/">jQWidgets</a></li><li><a href="https://www.geeksforgeeks.org/jquery-easyui/">jQuery EasyUI</a></li></ul></li><li><a href="https://www.geeksforgeeks.org/reactjs-tutorials/">ReactJS</a><p></p><ul><li><a href="https://www.geeksforgeeks.org/next-js/">Next.js</a></li><li><a href="https://www.geeksforgeeks.org/ant-design/">Ant Design</a></li><li><a href="https://www.geeksforgeeks.org/react-desktop/">React Desktop</a></li><li><a href="https://www.geeksforgeeks.org/react-rebass/">React Rebass</a></li><li><a href="https://www.geeksforgeeks.org/react-bootstrap/">React Bootstrap</a></li><li><a href="https://www.geeksforgeeks.org/reactjs-reactstrap/">React Reactstrap</a></li><li><a href="https://www.geeksforgeeks.org/blueprint-js/">Blueprint.js</a></li><li><a href="https://www.geeksforgeeks.org/react-suite/">React Suite</a></li><li><a href="https://www.geeksforgeeks.org/reactjs-evergreen/">React.js Evergreen</a></li><li><a href="https://www.geeksforgeeks.org/react-material-ui/">React Material UI</a></li></ul></li><li><a href="https://www.geeksforgeeks.org/p5-js/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">P5.js</font></font></a></li><li><a href="https://www.geeksforgeeks.org/fabric-js/">Fabric.js</a><a></a></li><li><a href="https://www.geeksforgeeks.org/d3-js/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">D3.js</font></font></a><a></a></li><li><a href="https://www.geeksforgeeks.org/collect-js/">Collect.js</a></li><li><a href="https://www.geeksforgeeks.org/underscore-js-introduction/">Underscore.js</a></li><li><a href="https://www.geeksforgeeks.org/lodash/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lodash</font></font></a></li><li><a href="https://www.geeksforgeeks.org/script-aculo-us-introduction/">TensorFlow.js</a></li>
+<li><a href="https://threejs.org/">THREE.js</a></li>
+</ul></li></ul></div></div></div></h6>
 
 <br>
 <br>
 <h2>Backend Languages</h2>
-The back end portion is built by using some languages which are discussed below: 
- 
+The back end portion is built by using some languages which are discussed below:
 
 <h3>PHP</h3>
 PHP is a server-side scripting language designed specifically for web development. Since PHP code executed on the server-side, so it is called a server-side scripting language.
@@ -84,26 +84,26 @@ The software which is used to manage database is called Database Management Syst
 </ul>
 </p>
 <p>
-1. Hierarchical Databases : 
-Just as in any hierarchy, this database follows the progression of data being categorized in ranks or levels, wherein data is categorized based on a common point of linkage. As a result, two entities of data will be lower in rank and the commonality would assume a higher rank. Refer to the diagram below: 
+1. Hierarchical Databases :
+Just as in any hierarchy, this database follows the progression of data being categorized in ranks or levels, wherein data is categorized based on a common point of linkage. As a result, two entities of data will be lower in rank and the commonality would assume a higher rank. Refer to the diagram below:
 </p>
 <p>
-2. Network Databases : 
-In Layman’s terms, a network database is a hierarchical database, but with a major tweak. The child records are given the freedom to associate with multiple parent records. As a result, a network or net of database files linked with multiple threads is observed. Notice how the Student, Faculty, and Resources elements each have two-parent records, which are Departments and Clubs. 
+2. Network Databases :
+In Layman’s terms, a network database is a hierarchical database, but with a major tweak. The child records are given the freedom to associate with multiple parent records. As a result, a network or net of database files linked with multiple threads is observed. Notice how the Student, Faculty, and Resources elements each have two-parent records, which are Departments and Clubs.
 </p>
 <p>
-3. Object-Oriented Databases : 
-Those familiar with the Object-Oriented Programming Paradigm would be able to relate to this model of databases easily. Information stored in a database is capable of being represented as an object which response as an instance of the database model. Therefore, the object can be referenced and called without any difficulty. As a result, the workload on the database is substantially reduced. 
-</p>
-
-<p>
-4. Relational Databases : 
-Considered the most mature of all databases, these databases lead in the production line along with their management systems. In this database, every piece of information has a relationship with every other piece of information. This is on account of every data value in the database having a unique identity in the form of a record. 
+3. Object-Oriented Databases :
+Those familiar with the Object-Oriented Programming Paradigm would be able to relate to this model of databases easily. Information stored in a database is capable of being represented as an object which response as an instance of the database model. Therefore, the object can be referenced and called without any difficulty. As a result, the workload on the database is substantially reduced.
 </p>
 
 <p>
-5. NoSQL Databases : 
-A NoSQL originally referring to non SQL or non-relational is a database that provides a mechanism for storage and retrieval of data. This data is modeled in means other than the tabular relations used in relational databases. 
+4. Relational Databases :
+Considered the most mature of all databases, these databases lead in the production line along with their management systems. In this database, every piece of information has a relationship with every other piece of information. This is on account of every data value in the database having a unique identity in the form of a record.
+</p>
+
+<p>
+5. NoSQL Databases :
+A NoSQL originally referring to non SQL or non-relational is a database that provides a mechanism for storage and retrieval of data. This data is modeled in means other than the tabular relations used in relational databases.
 </p>
 </h6>
 
@@ -114,9 +114,9 @@ Format of data is used by web applications to communicate with each other. It is
 
 <h3>XML</h3>
 Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
-<h3>JSON</h3> 
+<h3>JSON</h3>
 JSON or JavaScript Object Notation is a format for structuring data.
-<h3>API</h3> 
+<h3>API</h3>
 API is an abbreviation for Application Programming Interface which is a collection of communication protocols and subroutines used by various programs to communicate between them.
 
 <h2>Web Protocols</h2>
@@ -138,8 +138,9 @@ Graphical elements are one of the key feature of any webpage. They can be used t
 
 <h2>Canvas</h2>
 The HTML “canvas” element is used to draw graphics via JavaScript.
+<h6><div style="width:100%;float:left;text-align:left;border:1px solid #000;padding-top:20px;padding-left:20px"><div><div style="width:50%;float:left"><strong><a href="https://threejs.org/">THREE.Js</a></strong><p></p>
+<h6><div style="width:100%;float:left;text-align:left;border:1px solid #000;padding-top:20px;padding-left:20px"><div><div style="width:50%;float:left"><strong><a href="https://p5js.org/">P5.Js</a></strong><p></p>
+
 <h2>SVG</h2>
 SVG stands for Scalable Vector Graphics.
 It basically defines vector-based graphics in XML format.
-
-

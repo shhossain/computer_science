@@ -77,15 +77,15 @@ Examples of CAN are networks that cover schools, colleges, buildings, etc.
 ## Metropolitan Area Network (MAN) : 
 A MAN is larger than a LAN but smaller than a WAN. This is the type of computer network that connects computers over a geographical distance through a shared communication path over a city, town or metropolitan area. 
 
-Examples of MAN are networking in towns, cities, a single large city, large area within multiple buildings, etc.
+Examples of MAN are networking in towns, cities, a single large city, a large area within multiple buildings, etc.
 
  ![](https://media.geeksforgeeks.org/wp-content/uploads/20210501222057/Screenshot215.png)
 
- ## Network Toplogies
+ ## Network Topologies
 
 The physical or geographic locations of network nodes and links generally have relatively little effect on a network, but the topology of interconnections of a network can significantly affect its throughput and reliability. With many technologies, such as bus or star networks, a single failure can cause the network to fail entirely. In general, the more interconnections there are, the more robust the network is; but the more expensive it is to install. Therefore most network diagrams are arranged by their network topology which is the map of logical interconnections of network hosts.    
 
-The common Network Toplogies are :
+The common Network Topologies are :
 
 - Bus Topology
 - P2P Topology
@@ -104,16 +104,16 @@ Bus topology is a network type in which every computer and network device is con
  Advantages of this topology: 
 
 - If N devices are connected to each other in a bus topology, then the number of cables required to connect them is 1, which is known as backbone cable, and N drop lines are required.
-- Coaxial or twisted pair cables are mainly used in bus based networks that support up to 10 Mbps.
+- Coaxial or twisted pair cables are mainly used in bus-based networks that support up to 10 Mbps.
 - The cost of the cable is less compared to other topologies, but it is used to build small networks.
-- Bus topology is familiar technology as installation and troubleshooting techniques are well known.
+- Bus topology is a familiar technology as installation and troubleshooting techniques are well known.
 
  Problems with this topology: 
 
-- A bus topology is quite simpler , but still it requires a lot of cabling.
+- A bus topology is quite simpler, but still, it requires a lot of cabling.
 - If the common cable fails, then the whole system will crash down.
  -If the network traffic is heavy, it increases collisions in the network. To avoid this, various protocols are used in the MAC layer known as Pure Aloha, Slotted Aloha, CSMA/CD, etc.
-- Adding new devices to network would slow down networks.
+- Adding new devices to the network would slow down networks.
 - Security is very low.
 
 ## P2P Topology
@@ -345,11 +345,11 @@ Transport Layer: The transport layer is responsible for the smooth transmission 
 Internet Layer: This Internet Layer moves packets from source to destination by connecting independent networks.
 Network Access Layer: The Network Access Layer sees how a computer connects to a network.
 
-#### UDP(User Datagram Protocol)
-UDP is a connectionless protocol that does not guarantee reliable data transfer between two devices. For more information about TCP you can refer [UDP Readme](udp.md).
+#### [UDP(User Datagram Protocol)](UDP/udp.md)
+UDP is a connectionless protocol that does not guarantee reliable data transfer between two devices.
 
 #### HTTP(HyperText Transfer Protocol)
-This protocol is used to transfer hypertexts over the internet and it is defined by the www(world wide web) for information transfer. This protocol defines how the information needs to be formatted and transmitted. And, it also defines the various actions the web browsers should take in response to the calls made to access a  particular web page. Whenever a user opens their web browser, the user will indirectly use HTTP as this is the protocol that is being used to share text, images, and other multimedia files on the World Wide Web. 
+This protocol is used to transfer hypertexts over the internet and it is defined by the www(World Wide Web) for information transfer. This protocol defines how the information needs to be formatted and transmitted. And, it also defines the various actions the web browsers should take in response to the calls made to access a  particular web page. Whenever a user opens their web browser, the user will indirectly use HTTP as this is the protocol that is being used to share text, images, and other multimedia files on the World Wide Web. 
 
 #### HTTPS(HyperText Transfer Protocol Secure)
 HTTPS is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication over a computer network with the SSL/TLS protocol for encryption and authentication. So, generally, a  website has an HTTP protocol but if the website is such that it receives some sensitive information such as credit card details, debit card details, OTP, etc then it requires an SSL certificate installed to make the website more secure. So, before entering any sensitive information on a website, we should check if the link is HTTPS or not. If it is not HTTPS then it may not be secure enough to enter sensitive information.
@@ -367,7 +367,7 @@ Simple Mail Transfer Protocol (SMTP) is an internet standard for electronic mail
 Post Office Protocol 3 (POP3) is an internet standard for email retrieval. It is used by email clients to retrieve email messages from a mail server.
 
 #### IMAP(Internet Message Access Protocol)
-Internet Message Access Protocol (IMAP) is an internet standard protocol for accessing email on a remote mail server. It is used by email clients to retrieve email messages from a mail server.
+Internet Message Access Protocol (IMAP) is an Internet standard protocol for accessing email on a remote mail server. It is used by email clients to retrieve email messages from a mail server.
 
 #### TELNET(Terminal Network)
 TELNET is a standard TCP/IP protocol used for virtual terminal service given by ISO. This enables one local machine to connect with another. The computer which is being connected is called a remote computer and which is connecting is called the local computer. TELNET operation lets us display anything being performed on the remote computer in the local computer. This operates on the client/server principle. The local computer uses the telnet client program whereas the remote computer uses the telnet server program.
@@ -376,25 +376,25 @@ TELNET is a standard TCP/IP protocol used for virtual terminal service given by 
 It is a communication protocol that is used to create a direct connection between two communicating devices. This protocol defines the rules using which two devices will authenticate with each other and exchange information with each other. For example, A user connects his PC to the server of an Internet Service Provider also uses PPP. Similarly, for connecting two routers for direct communication it uses PPP.
 
 ## [OSI Model](OSI%20Model/readme.md#osi-model)
-OSI stands for **Open Systems Interconnection**. It has been developed by ISO – ‘**International Organization for Standardization**‘, in the year 1984. It is a 7 layer architecture with each layer having specific functionality to perform. All these 7 layers work collaboratively to transmit the data from one person to another across the globe. 
+OSI stands for **Open Systems Interconnection**. It was developed by ISO – ‘**International Organization for Standardization**‘, in the year 1984. It is a 7-layer architecture with each layer having specific functionality to perform. All these 7 layers work collaboratively to transmit the data from one person to another across the globe. 
 
 
 ![](OSI%20Model/img/computer-network-osi-model-layers.png)
 
-### **1\. Physical Layer (Layer 1) :**
+### **1\. Physical Layer (Layer 1):**
 
-The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
+The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s, and send them to the Data Link layer, which will put the frame back together.  
 
 ![](OSI%20Model/img/computer-network-osi-model-layers-bits.png)
 
 The functions of the physical layer are as follows:  
 
-1.  **Bit synchronization:** The physical layer provides the synchronization of the bits by providing a clock. This clock controls both sender and receiver thus providing synchronization at bit level.
+1.  **Bit synchronization:** The physical layer provides the synchronization of the bits by providing a clock. This clock controls both the sender and receiver thus providing synchronization at the bit level.
 2.  **Bit rate control:** The Physical layer also defines the transmission rate i.e. the number of bits sent per second.
 3.  **Physical topologies:** Physical layer specifies the way in which the different, devices/nodes are arranged in a network i.e. bus, star, or mesh topology.
-4.  **Transmission mode:** Physical layer also defines the way in which the data flows between the two connected devices. The various transmission modes possible are Simplex, half-duplex and full-duplex.
+4.  **Transmission mode:** The Physical layer also defines the way in which the data flows between the two connected devices. The various transmission modes possible are Simplex, half-duplex, and full-duplex.
 
-### **2\. Data Link Layer (DLL) (Layer 2) :**
+### **2\. Data Link Layer (DLL) (Layer 2):**
 
 The data link layer is responsible for the node-to-node delivery of the message. The main function of this layer is to make sure data transfer is error-free from one node to another, over the physical layer. When a packet arrives in a network, it is the responsibility of DLL to transmit it to the Host using its MAC address.   
 Data Link Layer is divided into two sublayers:  
@@ -402,7 +402,7 @@ Data Link Layer is divided into two sublayers:  
 1.  Logical Link Control (LLC)
 2.  Media Access Control (MAC)
 
-The packet received from the Network layer is further divided into frames depending on the frame size of NIC(Network Interface Card). DLL also encapsulates Sender and Receiver’s MAC address in the header. 
+The packet received from the Network layer is further divided into frames depending on the frame size of the NIC(Network Interface Card). DLL also encapsulates the Sender and Receiver’s MAC address in the header. 
 
 The Receiver’s MAC address is obtained by placing an ARP(Address Resolution Protocol) request onto the wire asking “Who has that IP address?” and the destination host will reply with its MAC address.  
 
@@ -412,11 +412,11 @@ The functions of the Data Link layer are :  
 
 1.  **Framing:** Framing is a function of the data link layer. It provides a way for a sender to transmit a set of bits that are meaningful to the receiver. This can be accomplished by attaching special bit patterns to the beginning and end of the frame.
 2.  **Physical addressing:** After creating frames, the Data link layer adds physical addresses (MAC address) of the sender and/or receiver in the header of each frame.
-3.  **Error control:** Data link layer provides the mechanism of error control in which it detects and retransmits damaged or lost frames.
-4.  **Flow Control:** The data rate must be constant on both sides else the data may get corrupted thus, flow control coordinates the amount of data that can be sent before receiving acknowledgement.
+3.  **Error control:** The Data link layer provides the mechanism of error control in which it detects and retransmits damaged or lost frames.
+4.  **Flow Control:** The data rate must be constant on both sides else the data may get corrupted thus, flow control coordinates the amount of data that can be sent before receiving acknowledgment.
 5.  **Access control:** When a single communication channel is shared by multiple devices, the MAC sub-layer of the data link layer helps to determine which device has control over the channel at a given time.
 
-### **3\. Network Layer (Layer 3) :**
+### **3\. Network Layer (Layer 3):**
 
 The network layer works for the transmission of data from one host to the other located in different networks. It also takes care of packet routing i.e. selection of the shortest path to transmit the packet, from the number of routes available. The sender & receiver’s IP addresses are placed in the header by the network layer. 
 
@@ -425,25 +425,25 @@ The functions of the Network layer are :  
 1.  **Routing:** The network layer protocols determine which route is suitable from source to destination. This function of the network layer is known as routing.
 2.  **Logical Addressing:** In order to identify each device on internetwork uniquely, the network layer defines an addressing scheme. The sender & receiver’s IP addresses are placed in the header by the network layer. Such an address distinguishes each device uniquely and universally.
 
-### **4\. Transport Layer (Layer 4) :**
+### **4\. Transport Layer (Layer 4):**
 
-The transport layer provides services to the application layer and takes services from the network layer. The data in the transport layer is referred to as Segments. It is responsible for the End to End Delivery of the complete message. The transport layer also provides the acknowledgement of the successful data transmission and re-transmits the data if an error is found.
+The transport layer provides services to the application layer and takes services from the network layer. The data in the transport layer is referred to as Segments. It is responsible for the end-to-end delivery of the complete message. The transport layer also provides the acknowledgement of the successful data transmission and re-transmits the data if an error is found.
 
-The functions of Transport layer are : 
+The functions of the Transport layer are : 
 1. **Service-point addressing:**  The transport layer adds the header that contains the address known as a service-point address or port address. The responsibility of the network layer is to transmit the data from one computer to another computer and the responsibility of the transport layer is to transmit the message to the correct process.
-2. **Segmentation and reassembly:** Tt divides the message into multiple segments, and each segment is assigned with a sequence number that uniquely identifies each segment. When the message has arrived at the destination, it reassembles the message based on their sequence numbers.
-3. **Connection control:** Transport layer provides two services Connection-oriented service and connectionless service. A connectionless service treats each segment as an individual packet, and they all travel in different routes to reach the destination. A connection-oriented service makes a connection with the transport layer at the destination machine before delivering the packets.
-4. **Flow control:** The transport layer also responsible for flow control but it is performed end-to-end rather than across a single link.
-5. **Error control:** Error control is performed end-to-end rather than across the single link. The sender transport layer ensures that message reach at the destination without any error.
+2. **Segmentation and reassembly:** Tt divides the message into multiple segments, and each segment is assigned a sequence number that uniquely identifies each segment. When the message has arrived at the destination, it reassembles the message based on its sequence numbers.
+3. **Connection control:** The Transport layer provides two services Connection-oriented service and connectionless service. A connectionless service treats each segment as an individual packet, and they all travel in different routes to reach the destination. A connection-oriented service makes a connection with the transport layer at the destination machine before delivering the packets.
+4. **Flow control:** The transport layer is also responsible for flow control but it is performed end-to-end rather than across a single link.
+5. **Error control:** Error control is performed end-to-end rather than across the single link. The sender transport layer ensures that the message reaches at the destination without any error.
 
-### **5\. Session Layer (Layer 4) :**
+### **5\. Session Layer (Layer 4):**
 
-The Session layer is used to establish, maintain and synchronizes the interaction between communicating devices.
-The functions of session layer are:
-1. **Dialog control:** Session layer acts as a dialog controller that creates a dialog between two processes or we can say that it allows the communication between two processes which can be either half-duplex or full-duplex.
-2. **Synchronization:** Session layer adds some checkpoints when transmitting the data in a sequence. If some error occurs in the middle of the transmission of data, then the transmission will take place again from the checkpoint. This process is known as Synchronization and recovery.
+The Session layer is used to establish, maintain and synchronize the interaction between communicating devices.
+The functions of the session layer are:
+1. **Dialog control:** The Session layer acts as a dialog controller that creates a dialog between two processes or we can say that it allows communication between two processes which can be either half-duplex or full-duplex.
+2. **Synchronization:** The Session layer adds some checkpoints when transmitting the data in a sequence. If some error occurs in the middle of the transmission of data, then the transmission will take place again from the checkpoint. This process is known as Synchronization and recovery.
 
-### **6\. Presentation Layer (Layer 5) :**
+### **6\. Presentation Layer (Layer 5):**
 
 The presentation layer is also called the Translation layer. The data from the application layer is extracted here and manipulated as per the required format to transmit over the network. 
 The functions of the presentation layer are : 
@@ -451,9 +451,9 @@ The functions of the presentation layer are :
 2. **Encryption/ Decryption:** Data encryption translates the data into another form or code. The encrypted data is known as the ciphertext and the decrypted data is known as plain text. A key value is used for encrypting as well as decrypting data.
 3. **Compression:** Reduces the number of bits that need to be transmitted on the network.
 
-### **7\. Application Layer (Layer 7) :**
+### **7\. Application Layer (Layer 7):**
 
-At the very top of the OSI Reference Model stack of layers, we find the Application layer, also called as Desktop Layer, which is implemented by the network applications. These applications produce the data, which has to be transferred over the network. This layer also serves as a window for the application services to access the network and for displaying the received information to the user. 
+At the very top of the OSI Reference Model stack of layers, we find the Application layer, also called as Desktop Layer, which is implemented by the network applications. These applications produce the data, which has to be transferred over the network. This layer also serves as a window for the application services to access the network and display the received information to the user. 
 
 Example: Application – Browsers, Skype Messenger, etc. 
 

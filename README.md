@@ -14,7 +14,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-127-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-128-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1218,6 +1218,7 @@ Closely related fields in theoretical computer science are the analysis of algor
     </tr>
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="http://sarthak950.netlify.app"><img src="https://avatars.githubusercontent.com/u/93645760?v=4?s=50" width="50px;" alt="Sarthak "/><br /><sub><b>Sarthak </b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Sarthak950" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/nik-6174"><img src="https://avatars.githubusercontent.com/u/78644716?v=4?s=50" width="50px;" alt="Nikhil Kumar Jha"/><br /><sub><b>Nikhil Kumar Jha</b></sub></a><br /><a href="#content-nik-6174" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

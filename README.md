@@ -241,7 +241,7 @@ Sorting is the process of arranging a list of items in a particular order. For e
 ### [Searching](Algorithms/Searching/readme.md)
 Searching is an algorithm for finding a certain target element inside a container. Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
 
-### [StringBasedAlgorithms](Algorithms/Stringbasedalgorithms/readme.md)
+### [String Based Algorithms](Algorithms/String%20Based%20Algorithms/readme.md)
 Strings are one of the most used and most important data structures in programming, this repository contains a few of the most used algorithms which help in faster searching time improving our code.
 
 ### [Graph Search](Algorithms/Graph/readme.md)

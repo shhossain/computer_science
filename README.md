@@ -6,7 +6,7 @@
         <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_ta.md">தமிழ்</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a>
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a>
     </p>
 </h4>

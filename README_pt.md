@@ -1,9 +1,7 @@
 ## Diretrizes de Contribuição
 Se você está interessado em contribuir para este projeto, por favor, reserve um momento para revisar [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) para obter instruções detalhadas sobre como começar. Suas contribuições são muito apreciadas!
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Não remova ou modifique esta seção -->
-[![Todos os Colaboradores](https://img.shields.io/badge/todos_os_colaboradores-127-laranja.svg?style=flat-square)](#contribuidores)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 
 ## Tabela de Conteúdo
 

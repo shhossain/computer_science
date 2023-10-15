@@ -15,7 +15,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-129-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-130-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1223,6 +1223,7 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="http://sarthak950.netlify.app"><img src="https://avatars.githubusercontent.com/u/93645760?v=4?s=50" width="50px;" alt="Sarthak "/><br /><sub><b>Sarthak </b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Sarthak950" title="Code">💻</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/architO21"><img src="https://avatars.githubusercontent.com/u/97817943?v=4?s=50" width="50px;" alt="architO21"/><br /><sub><b>architO21</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=architO21" title="Code">💻</a> <a href="#content-architO21" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/nik-6174"><img src="https://avatars.githubusercontent.com/u/78644716?v=4?s=50" width="50px;" alt="Nikhil Kumar Jha"/><br /><sub><b>Nikhil Kumar Jha</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=nik-6174" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Kundai10"><img src="https://avatars.githubusercontent.com/u/76932641?v=4?s=50" width="50px;" alt="Kundai Chasinda"/><br /><sub><b>Kundai Chasinda</b></sub></a><br /><a href="#content-Kundai10" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

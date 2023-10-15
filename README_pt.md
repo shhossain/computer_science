@@ -1123,23 +1123,3 @@ Os fundamentos da segurança de rede incluem princípios e práticas essenciais 
 6. **Testes de Penetração:** Realize testes de penetração para identificar vulnerabilidades na rede.
 
 7. **Backup de Dados:** Faça backups regulares dos dados para recuperação em caso de perda de dados.
-
-## [Referências](References.md#refer%C3%AAncias)
-Esta seção fornece uma lista de referências e recursos adicionais para aprender mais sobre redes de computadores e segurança de rede.
-
-![Referências](Images/references.png)
-
-Os recursos incluem livros, tutoriais, sites, cursos online e organizações relacionadas a redes de computadores e segurança de rede. São ótimos pontos de partida para expandir seus conhecimentos e habilidades.
-
-# [Conclusão](Conclusion.md#conclus%C3%A3o)
-Aprender sobre redes de computadores e segurança de rede é fundamental para entender como a tecnologia da informação funciona e como proteger os sistemas e dados contra ameaças. Esta visão geral fornece uma base sólida para explorar esses tópicos com mais profundidade. À medida que a tecnologia continua a evoluir, a segurança de rede permanece uma consideração crítica para indivíduos, empresas e organizações em todo o mundo.
-
-![Conclusão](Images/conclusion.png)
-
-Lembre-se de que a segurança de rede é um campo em constante evolução, e é importante manter-se atualizado com as últimas tendências, ameaças e soluções de segurança. Continuar aprendendo e aprimorando suas habilidades é essencial para proteger as redes de hoje e do futuro.
-
-Se você deseja aprofundar seus conhecimentos sobre redes de computadores e segurança de rede, considere explorar os recursos e referências fornecidos neste documento. Há uma riqueza de informações disponíveis para ajudá-lo a se tornar um especialista nesses campos emocionantes e em constante mudança. 
-
-***Fonte:*** [Guia sobre Redes de Computadores e Segurança de Rede](https://github.com/OpenAI/guides/blob/master/networking_and_network_security.md) de [OpenAI](https://github.com/OpenAI)
-
-Se você tiver alguma dúvida ou precisar de mais informações sobre tópicos específicos relacionados a redes de computadores e segurança de rede, sinta-se à vontade para perguntar. Estou aqui para ajudar!

@@ -193,8 +193,8 @@ Thus, the equivalent decimal number for the given binary number (1101) is **(13)
 First, you need to convert a binary into other base system (e.g., into decimal, or into octal). Then you need to convert it hexadecimal number.Since number numbers are type of positional number system. That means weight of the positions from right to left are as 160^, 16^1, 16^2, 16^3 and so on. for the integer part and weight of the positions from left to right are as 16^-1, 16^-2, 16^-3 and so on. for the fractional part.
 
 ### [Example of Binary to Hexadecimal Conversion](#example-binary/hexadecimal)
-Converting binary number 1101010 into hexadecimal number.
-First convert this into decimal number:
+Converting binary number 1101010 into hexadecimal numbers.
+First, convert this into a decimal number:
 
 = (1101010)
 
@@ -251,3 +251,14 @@ Thus $77_{10} = 302_{5}$.
 ## [Mixed-Base Number Systems](#mixed-base-number-systems)
 
 Mixed-base number systems are number systems that use more than one base. Such numerical representation applies when a quantity is expressed using a sequence of units that are each a multiple of the next smaller one, but not by the same factor. The easiet example of a mixed-base number system is from our timekeeping methods. 60 seconds in a minute, 60 minutes in an hour, 24 hours in a day, 7 days in a week, 4 weeks in a month, 12 months in a year, 10 years in a decade, 10 decades in a century, 10 centuries in a millennium. All of these are different bases and they are all combined to make our timekeeping system.
+
+
+## Code for Conversion
+
+- [Conversion In C](./Conversion_In_C.c)
+- [Conversion In C++](./Conversion_In_c++.cpp)
+- [Conversion In Java](./Conversion_In_Java.java)
+- [Conversion In JS](./Conversion_In_JS.js)
+- [Conversion In TS](./Conversion_In_TS.ts)
+- [Conversion In Lua](./Conversion_In_Lua.lua)
+- [Conversion in Python](./Conversion_In_Python2.py)

@@ -139,21 +139,18 @@ student_hash['Alice'] = {'age': 20, 'grade': 'A'}
 
 In Java, you can use the java.util.Hashtable class to create a hash table. Here's an example:
 
-```java
+```java```
 import java.util.Hashtable;
-
 Hashtable<String, Integer> studentHash = new Hashtable<>();
 studentHash.put("Alice", 20);
-
+```
 ### C++
 In C++, you can use the Standard Template Library (STL) to work with hash tables. Here's an example using std::unordered_map:
 
-```C++
+```C++```
 #include <unordered_map>
-
 std::unordered_map<std::string, int> studentHash;
 studentHash["Alice"] = 20;
-```
 
 ## 8. Advanced Hash Table Techniques
 

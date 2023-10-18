@@ -153,6 +153,7 @@ In C++, you can use the Standard Template Library (STL) to work with hash tables
 
 std::unordered_map<std::string, int> studentHash;
 studentHash["Alice"] = 20;
+```
 
 ## 8. Advanced Hash Table Techniques
 

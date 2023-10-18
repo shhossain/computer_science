@@ -4,24 +4,48 @@ Hash tables, also known as hash maps, are essential data structures that play a 
 
 ## Table of Contents
 
-1. Introduction to Hash Tables
-2. Key Concepts
-3. Anatomy of a Hash Table
-4. Hashing
-5. Hash Collision Resolution
-6. Performance and Time Complexity
-7. Practical Implementation
-   - Hash Tables in Python
-   - Hash Tables in Java
-   - Hash Tables in C++
-   - Hash Tables in Other Languages
-8. Advanced Hash Table Techniques
-   - Open Addressing
-   - Perfect Hashing
-   - Dynamic Hash Tables
-   - Hash Functions
-9. Use Cases and Applications
-10. Conclusion
+1. [Introduction to Hash Tables](#1-introduction-to-hash-tables)
+   - 1.1 What are Hash Tables?
+   - 1.2 Why Use Hash Tables?
+
+2. [Key Concepts](#2-key-concepts)
+   - 2.1 Data Storage
+   - 2.2 Key-Value Pairs
+   - 2.3 Hash Function
+   - 2.4 No Sorting
+   - 2.5 Handling Collisions
+
+3. [Anatomy of a Hash Table](#3-anatomy-of-a-hash-table)
+
+4. [Hashing](#4-hashing)
+   - 4.1 What is Hashing?
+   - 4.2 Hash Functions
+   - 4.3 Properties of a Good Hash Function
+   - 4.4 Example of Hashing
+
+5. [Hash Collision Resolution](#5-hash-collision-resolution)
+   - 5.1 Collision Problem
+   - 5.2 Chaining
+   - 5.3 Open Addressing
+
+6. [Performance and Time Complexity](#6-performance-and-time-complexity)
+   - 6.1 Time Complexity
+   - 6.2 Efficiency Factors
+
+7. [Practical Implementation](#7-practical-implementation)
+   - 7.1 Hash Tables in Python
+   - 7.2 Hash Tables in Java
+   - 7.3 Hash Tables in C++
+
+8. [Advanced Hash Table Techniques](#8-advanced-hash-table-techniques)
+   - 8.1 Open Addressing
+   - 8.2 Perfect Hashing
+   - 8.3 Dynamic Hash Tables
+   - 8.4 Hash Functions
+
+9. [Use Cases and Applications](#9-use-cases-and-applications)
+
+10. [Conclusion](#10-conclusion)
 
 ## 1. Introduction to Hash Tables
 
@@ -131,26 +155,33 @@ In this section, we will explore the practical implementation of hash tables in 
 
 Python provides a built-in `dict` data structure, which is essentially a hash table. Here's how to declare and use a dictionary:
 
-```python
+Python
+```
 student_hash = {}
 student_hash['Alice'] = {'age': 20, 'grade': 'A'}
+```
 
-### Java
+### 7.2 Hash Tables in Java
 
 In Java, you can use the java.util.Hashtable class to create a hash table. Here's an example:
 
-```java```
+Java
+```
 import java.util.Hashtable;
 Hashtable<String, Integer> studentHash = new Hashtable<>();
 studentHash.put("Alice", 20);
 ```
-### C++
+
+### 7.3 Hash Tables in C++
+
 In C++, you can use the Standard Template Library (STL) to work with hash tables. Here's an example using std::unordered_map:
 
-```C++```
+C++
+```
 #include <unordered_map>
 std::unordered_map<std::string, int> studentHash;
 studentHash["Alice"] = 20;
+```
 
 ## 8. Advanced Hash Table Techniques
 
@@ -191,4 +222,3 @@ Hash tables have a wide range of applications in computer science and software d
 Hash tables are a cornerstone of computer science and software development. They offer efficient data storage and retrieval, making them invaluable for a wide range of applications. Understanding how hash tables work, including their structure, hashing techniques, and collision resolution methods, is essential for building efficient software systems. Whether you are working with databases, implementing language features, or optimizing data access, hash tables are a powerful tool that can greatly improve the performance of your applications.
 
 In this comprehensive guide, we have explored the fundamental concepts of hash tables, delved into their advanced techniques, and provided practical examples in various programming languages. Armed with this knowledge, you are well-equipped to leverage hash tables effectively in your software projects.
-

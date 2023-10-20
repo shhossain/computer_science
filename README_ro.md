@@ -503,8 +503,8 @@ sau fluxuri de intrare/ieșire. Această ultimă proprietate se numește *imutab
 
 ```python
 def suma(x ,y): # suma este o funcție care ia ca argumente x și y
-    return x + y  # returnează x + y fără a modifica valoarea
- ```
+  return x + y  # returnează x + y fără a modifica valoarea
+```
 
 **Recursie**: Nu există bucle "for" sau "while" în limbajele de programare pur funcționale. Iterarea este implementată prin recursivitate. Funcțiile recursive se apelează pe ele însele în mod repetat până când se ajunge la un caz de bază. Iată un exemplu simplu de funcție recursivă în C:
 
@@ -512,10 +512,11 @@ def suma(x ,y): # suma este o funcție care ia ca argumente x și y
 int fib(n) {
   if(n <= 1)
     return 1;
-   else
-     return (fib(n-1) + fib(n-2));
+  else
+    return (fib(n-1) + fib(n-2));
 }
- ```
+```
+
 **Transparență referențială**: În programele funcționale, variabilele odată definite nu își schimbă valoarea pe parcursul programului.
 Programele funcționale nu au instrucțiuni de atribuire. Dacă trebuie să stocăm o valoare, definim o nouă variabilă. Acest lucru elimină orice șansă de efecte secundare, deoarece orice variabilă poate fi înlocuită cu valoarea sa reală în orice moment al execuției. Starea oricărei variabile este constantă în orice moment. Exemplu:
  
@@ -528,25 +529,23 @@ x = x + 1 # aceasta a schimbat valoarea atribuită variabilei x
          
 O combinație de aplicații de funcții poate fi definită folosind o formă LISP numită **funcall**, care ia ca argumente o funcție și o serie de argumente și aplică funcția respectivă la aceste argumente:
 
-```Lisp
+```cl
 (defun filter (list-of-elements test)
-    (cond ((null list-of-elements) nil)
-          ((funcall test (car list-of-elements))
-            (cons (car list-of-elements)
-                (filter (cdr list-of-elements)
-                      test)))
-          (t (filter (cdr list-of-elements)
-                      test))))
-   ```
+  (cond ((null list-of-elements) nil)
+    ((funcall test (car list-of-elements))
+    (cons (car list-of-elements)
+      (filter (cdr list-of-elements) test)))
+    (t (filter (cdr list-of-elements) test))))
+```
 
 Funcția **filter** aplică testul la primul element al listei. În cazul în care testul returnează o valoare diferită de zero, elementul este transformat în rezultatul filtrului aplicat la cdr-ul listei; în caz contrar, se returnează doar cdr-ul filtrat. Această funcție poate fi utilizată cu diferite predicte transmise ca parametri pentru a efectua o varietate de sarcini de filtrare:
 
-```Lisp
-> (filter '(1 3 -9 5 -2 -7 6) #'plusp)   ; filtrează toate numerele negative   
+```cl
+(filter '(1 3 -9 5 -2 -7 6) #'plusp)   ; filtrează toate numerele negative   
 ;;; Rezultat: (1 3 5 6)
 ```
-```Lisp
-> (filter '(1 2 3 4 5 6 7 8 9) #'evenp)   ; filtrează toate numerele impare
+```cl
+(filter '(1 2 3 4 5 6 7 8 9) #'evenp)   ; filtrează toate numerele impare
 ;;; Rezultat: (2 4 6 8)
 ```
 

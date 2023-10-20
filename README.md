@@ -435,8 +435,8 @@ or input/output streams. The latter property is called *immutability*. The pure 
 
 ```python
 def sum(x ,y): # sum is a function taking x and y as arguments
-    return x + y  # returns x + y without changing the value
- ```
+  return x + y  # returns x + y without changing the value
+```
 
 **Recursion**: There are no "for" or  "while" loops in pure functional programming languages. Iteration is implemented through recursion. Recursive functions repeatedly call themselves until a base case is reached. Here is a simple example of a recursice
 function in C:
@@ -445,10 +445,10 @@ function in C:
 int fib(n) {
   if(n <= 1)
     return 1;
-   else
-     return (fib(n-1) + fib(n-2));
+  else
+    return (fib(n-1) + fib(n-2));
 }
- ```
+```
 **Referential transparency**: In functional programs, variables once defined do not change their value throughout the program.
 Functional programs do not have assignment statements. If we have to store some value, we define a new variable instead. This elimimates any chance of side-effects because any variable can be replaced with its actual value at any point of the execution. The state of any varaible is constant at any instant. Example:
  
@@ -461,7 +461,7 @@ x = x + 1 # this changed the value assigned to the varable x
          
 A combination of function applications may be defined using a LISP form called **funcall**, which takes as arguments a function and a series  of arguments and applies that function to those arguments:
 
-```Lisp
+```cl
 (defun filter (list-of-elements test)
     (cond ((null list-of-elements) nil)
           ((funcall test (car list-of-elements))
@@ -473,12 +473,12 @@ A combination of function applications may be defined using a LISP form called *
    ```
   The function **filter** applies the test to the first element of the list. If the test returns non-nil, it conses the element onto the resul of filter applied to the cdr of the list; otherwise, it just returns the filtered cdr. This function may be used with different predicates passed in as parameters to perform a variety of filtering tasks:
 
-```Lisp
+```cl
     > (filter '(1 3 -9 5 -2 -7 6) #'plusp)   ; filter out all negative numbers 
 ```    
     output: (1 3 5 6)
 
-```Lisp
+```cl
    > (filter '(1 2 3 4 5 6 7 8 9) #'evenp)   ; filter out all odd numbers
 ```   
    output: (2 4 6 8)

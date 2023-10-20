@@ -14,17 +14,19 @@ In this implementation, a stack is represented using a linked list. Each element
 Stacks support three primary operations:
 
 1. Push
-The push operation adds an item to the top of the stack. It increments the stack size and stores the item at the newly created top position.
-```
+The push operation adds an item to the top of the stack. It increments the stack size and stores the item at 
+the newly created top position.
 Example:
+```
 let stack = [4, 1, 0, 2];
 stack.push(5);
 // stack is now [5, 4, 1, 0, 2]
 ```
 2. Pop
 The pop operation removes the item from the top of the stack. It decrements the stack size and returns the removed item.
-```
+
 Example:
+```
 let stack = [4, 1, 0, 2];
 let top = stack.pop();
 // top is 4
@@ -32,8 +34,8 @@ let top = stack.pop();
 ```
 3. Peek
 Some programming languages provide a peek method to allow checking the value of the current top without removing the value from the stack.
-```
 Example:
+```
 let stack = [4, 1, 0, 2];
 let currentHead = stack.peek();
 // current head is 4

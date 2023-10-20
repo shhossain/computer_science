@@ -60,7 +60,7 @@ HTTPS employs encryption protocols such as TLS (Transport Layer Security) to sec
 2. **Trust:** Establishes trust with users through the use of trusted certificates.
 3. **SEO Benefits:** Google rewards HTTPS websites with higher search rankings.
 
-Understanding the differences between HTTP and HTTPS and how they operate is essential for web development, cybersecurity, and ensuring a secure online experience.'
+Understanding the differences between HTTP and HTTPS and how they operate is essential for web development, cybersecurity, and ensuring a secure online experience.
 
 ## Cookies
 

@@ -20,34 +20,34 @@ Dacă sunteți interesat să contribuiți la acest proiect, vă rugăm să acord
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Cuprins
-- [Introducere](#Introducere)
-- [Calculator electronic](#Calculator-electronic)
-- [Logica booleană](#Logica-booleană)
-- [Sisteme numerice](#Sisteme-numerice)
-- [Unitatea centrală de procesare (CPU)](#Unitatea-centrală-de-procesare-CPU)
-- [Registre, Cache și RAM](#Registre-Cache-și-RAM)
-- [Instrucțiuni și program](#Instrucțiuni-și-program)
-- [Limbaje de programare](#Limbaje-de-programare)
-- [Tipuri de date](#Tipuri-de-date)
-- [Declarații și funcții](#Declarații-și-funcții)
-- [Structuri de date](#Structuri-de-date)
-- [Algoritmi](#Algoritmi)
-- [Alan Turing](#Alan-Turing)
-- [Inginerie software](#Inginerie-software)
-- [Circuite integrate](#Circuite-integrate)
-- [Programare orientată pe obiecte](#Programare-orientată-pe-obiecte)
-- [Programarea funcțională](#Programarea-funcțională)
-- [Sisteme de operare](#Sisteme-de-operare)
-- [Memorie și stocare](#Memorie-și-stocare)
-- [Sistem de fișiere](#Sistem-de-fișiere)
-- [Cloud Computing](#Cloud-Computing)
-- [Machine Learning](#Machine-Learning)
-- [Tehnologie Web](#Tehnologie-Web)
-- [Networking](#Networking)
-- [Internet](#Internet)
-- [Sistem de gestionare a bazelor de date (SGBD)](#Sistem-de-gestionare-a-bazelor-de-date-SGBD)
-- [Criptografie](#Criptografie)
-- [Teoria computației](#Teoria-computației)
+- [Introducere](#introducere)
+- [Calculator electronic](#calculator-electronic)
+- [Logica booleană](#logica-booleană)
+- [Sisteme numerice](#sisteme-numerice)
+- [Unitatea centrală de procesare (CPU)](#unitatea-centrală-de-procesare-cpu)
+- [Registre, Cache și RAM](#registre-cache-și-ram)
+- [Instrucțiuni și program](#instrucțiuni-și-program)
+- [Limbaje de programare](#limbaje-de-programare)
+- [Tipuri de date](#tipuri-de-date)
+- [Declarații și funcții](#declarații-și-funcții)
+- [Structuri de date](#structuri-de-date)
+- [Algoritmi](#algoritmi)
+- [Alan Turing](#alan-turing)
+- [Inginerie software](#inginerie-software)
+- [Circuite integrate](#circuite-integrate)
+- [Programare orientată pe obiecte](#programare-orientată-pe-obiecte)
+- [Programarea funcțională](#programarea-funcțională)
+- [Sisteme de operare](#sisteme-de-operare)
+- [Memorie și stocare](#memorie-și-stocare)
+- [Sistem de fișiere](#sistem-de-fișiere)
+- [Cloud Computing](#cloud-computing)
+- [Machine Learning](#machine-learning)
+- [Tehnologie Web](#tehnologie-web)
+- [Networking](#networking)
+- [Internet](#internet)
+- [Sistem de gestionare a bazelor de date (SGBD)](#sistem-de-gestionare-a-bazelor-de-date-sgbd)
+- [Criptografie](#criptografie)
+- [Teoria computației](#teoria-computației)
 
 ## Introducere
 Informatica este studiul calculatoarelor și al informaticii, precum și al aplicațiilor teoretice și practice ale acestora. Informatica aplică principiile matematicii, ingineriei și logicii la o multitudine de probleme. Printre acestea se numără formularea de algoritmi, dezvoltarea de software/hardware și inteligența artificială.
@@ -134,7 +134,7 @@ RAM (Random Access Memory - memorie cu acces aleatoriu) este o formă de memorie
 să fie citite sau scrise în aproape același timp, indiferent de locația fizică a datelor în interiorul memoriei, spre deosebire de alte medii de stocare a datelor cu acces direct (cum ar fi discurile dure, CD-RWS,
 DVD-RW și benzile magnetice mai vechi și memoria cu tambur), unde timpul necesar pentru citirea și scrierea elementelor de date variază semnificativ în funcție de locația fizică a acestora pe suportul de înregistrare, din cauza limitărilor mecanice, cum ar fi viteza de rotație a suportului și mișcarea brațului.
 
-## Instrucțiuni și program <!-- TODO: Add page and link it here -->
+## Instrucțiuni și program<!-- TODO: Add page and link it here -->
 În informatică, o instrucțiune este o singură operațiune a unui procesor definită prin setul de instrucțiuni al procesorului. Un program de calculator este o listă de instrucțiuni care indică unui calculator ce trebuie să facă. Tot ceea ce face un calculator se realizează prin utilizarea unui program de calculator. Programele care sunt stocate în memoria unui calculator ("programare internă") permit calculatorului să facă un lucru după altul, chiar și cu pauze între ele.
 
 ## [Limbaje de programare](/Programming_Languages/readme.md)
@@ -203,7 +203,7 @@ Citiți mai multe despre funcții [aici](Statements%20and%20Functions/readme.md#
 ## [Structuri de date](Data%20Structures/readme.md)
 În informatică, o structură de date este un format de organizare, gestionare și stocare a datelor care permite accesul și modificarea eficientă. Mai exact, o structură de date este o colecție de valori de date, relațiile dintre acestea și funcțiile sau operațiile care pot fi aplicate datelor.
 
-### Types of Data Structures
+### Tipuri de structuri de date
 - [Array](Data%20Structures/readme.md#array)
 - [Listă înlănțuită](Data%20Structures/readme.md#linkedlist)
 - [Stiva](Data%20Structures/readme.md#stack)
@@ -246,7 +246,7 @@ Backtracking este o tehnică algoritmică de rezolvare a problemelor în mod rec
 ### [Branch and Bound](Algorithms/Branch%20and%20Bound/README.md)
 Branch and bound este o tehnică generală de rezolvare a problemelor de optimizare combinatorie. Este o tehnică de enumerare sistematică care reduce numărul de soluții candidate prin utilizarea structurii problemei pentru a elimina soluțiile candidate care nu pot fi optime.
 
-### Time Complexity and Space Complexity of Different Searching and Sorting Algorithms <!-- TODO: Add page and link it here -->
+### Time Complexity and Space Complexity of Different Searching and Sorting Algorithms<!-- TODO: Add page and link it here -->
 **Complexitate temporală**: Se definește ca fiind numărul de ori de câte ori se așteaptă ca un anumit set de instrucțiuni să fie executat, mai degrabă decât timpul total necesar. Deoarece timpul este un fenomen dependent, complexitatea timpului poate varia în funcție de anumiți factori externi, cum ar fi viteza procesorului, compilatorul utilizat etc.
 
 **Complexitatea spațială**: Reprezintă spațiul total de memorie consumat de program pentru execuția sa.
@@ -396,7 +396,7 @@ Unele complexități temporale frecvent utilizate sunt :
   </tbody>
 </table>
 
-## Alan Turing <!-- TODO: Add page and link it here -->
+## Alan Turing<!-- TODO: Add page and link it here -->
 Alan Turing (născut la 23 iunie 1912, Londra, Anglia - decedat la 7 iunie 1954, Wilmslow, Cheshire) a fost un matematician și logician englez. A studiat la Universitatea din Cambridge și la Institutul pentru Studii Avansate din Princeton. În lucrarea sa de referință din 1936, "On Computable Numbers", a demonstrat că nu poate exista nicio metodă algoritmică universală de determinare a adevărului în matematică și că matematica va conține întotdeauna propoziții nehotărâte (spre deosebire de necunoscute). Această lucrare a introdus, de asemenea, mașina Turing. El credea că, în cele din urmă, computerele vor fi capabile să gândească la fel ca un om și a propus un test simplu (a se vedea testul Turing) pentru a evalua această capacitate. Lucrările sale pe această temă sunt recunoscute pe scară largă ca fiind la baza cercetării în domeniul inteligenței artificiale. În timpul celui de-al Doilea Război Mondial, a depus o muncă valoroasă în domeniul criptografiei, jucând un rol important în spargerea codului Enigma, folosit de Germania pentru comunicațiile radio. După război, a predat la Universitatea din Manchester și a început să lucreze la ceea ce astăzi este cunoscut sub numele de inteligență artificială. În mijlocul acestor lucrări revoluționare, Turing a fost găsit mort în patul său, otrăvit cu cianură. Moartea sa a survenit după ce a fost arestat pentru un act homosexual (pe atunci o infracțiune) și condamnat la 12 luni de terapie hormonală.
 
 În 2009, în urma unei campanii publice, premierul britanic Gordon Brown a prezentat scuze publice oficiale în numele guvernului britanic pentru modul îngrozitor în care a fost tratat Turing. Regina Elisabeta a II-a a acordat o grațiere postumă în 2013. Termenul "legea Alan Turing" este folosit în prezent în mod informal pentru a se referi la o lege din 2017 din Regatul Unit care a grațiat retroactiv bărbați avertizați sau condamnați în temeiul legislației istorice care interzicea actele homosexuale.
@@ -703,7 +703,7 @@ Cloud computing is a big shift from how businesses think about IT resources. Her
 - [Platforma ca serviciu (PaaS)](Cloud%20Computing/Readme.md#platform-as-a-service-paas)
 - [Software ca serviciu (SaaS)](Cloud%20Computing/Readme.md#software-as-a-service-saas)
 
-## Machine Learning <!-- TODO: Add page and link it here -->
+## Machine Learning<!-- TODO: Add page and link it here -->
 Machine Learning este practica de a învăța un calculator să învețe. Conceptul folosește recunoașterea modelelor, precum și alte forme de algoritmi predictivi, pentru a face aprecieri asupra datelor primite. Acest domeniu este strâns legat de inteligența artificială și de statistica computațională.
 
 ### Există trei subcategorii de învățare automată:
@@ -864,7 +864,7 @@ World Wide Web (WWW) este un spațiu informațional în care documentele și alt
 ## [Internet Protocol (IP)](Internet/readme.md#internet-protocol-ip)
 Protocolul Internet (IP) este un protocol, sau un set de reguli, pentru rutarea și adresarea pachetelor de date, astfel încât acestea să poată călători prin rețele și să ajungă la destinația corectă. Datele care traversează Internetul sunt împărțite în bucăți mai mici, numite pachete.
 
-## Sistem de gestionare a bazelor de date (SGBD) <!-- TODO: Add page and link it here -->
+## Sistem de gestionare a bazelor de date (SGBD)<!-- TODO: Add page and link it here -->
 
 Ce este o bază de date?
 -------------------

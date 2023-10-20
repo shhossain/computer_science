@@ -229,7 +229,7 @@ Sortarea este procesul de aranjare a unei liste de elemente într-o anumită ord
 Căutarea este un algoritm pentru găsirea unui anumit element țintă în interiorul unui container. Algoritmii de căutare sunt concepuți pentru a verifica un element sau pentru a prelua un element din orice structură de date în care este stocat.
 
 ### [Algoritmi pe bază de șiruri de caractere](Algorithms/String%20Based%20Algorithms/readme.md)
-Strings are one of the most used and most important data structures in programming, this repository contains a few of the most used algorithms which help in faster searching time improving our code.
+Șirurile de caractere sunt una dintre cele mai utilizate și cele mai importante structuri de date în programare, acest depozit conține câțiva dintre cei mai utilizați algoritmi care ajută la îmbunătățirea mai rapidă a timpului de căutare a codului nostru.
 
 ### [Căutare în grafuri](Algorithms/Graph/readme.md)
 Căutarea în graf este procesul de căutare într-un graf pentru a găsi un anumit nod. Un graf este o structură de date care constă dintr-un set finit (și eventual mutabil) de vârfuri, noduri sau puncte, împreună cu un set de perechi neordonate ale acestor vârfuri pentru un graf neorientat sau un set de perechi ordonate pentru un graf dirijat. Aceste perechi sunt cunoscute sub numele de muchii, arce sau linii pentru un graf nedirijat și sub numele de săgeți, muchii dirijate, arce dirijate sau linii dirijate pentru un graf dirijat. Vârfurile pot face parte din structura grafului sau pot fi entități externe reprezentate prin indici sau referințe de numere întregi. Grafurile reprezintă una dintre cele mai utile structuri de date pentru multe aplicații din lumea reală. Grafurile sunt utilizate pentru a modela relații de tip pereche între obiecte. De exemplu, rețeaua de rute aeriene este un graf în care orașele sunt vârfurile, iar rutele de zbor sunt marginile. Grafurile sunt, de asemenea, utilizate pentru a reprezenta rețele. Internetul poate fi modelat ca un graf în care computerele sunt vârfurile, iar legăturile dintre computere sunt marginile. Grafurile sunt, de asemenea, utilizate în rețelele sociale precum LinkedIn și Facebook. Grafurile sunt utilizate pentru a reprezenta multe aplicații din lumea reală: rețele de calculatoare, proiectarea circuitelor și programarea aeronautică, pentru a numi doar câteva dintre acestea.
@@ -246,7 +246,7 @@ Backtracking este o tehnică algoritmică de rezolvare a problemelor în mod rec
 ### [Branch and Bound](Algorithms/Branch%20and%20Bound/README.md)
 Branch and bound este o tehnică generală de rezolvare a problemelor de optimizare combinatorie. Este o tehnică de enumerare sistematică care reduce numărul de soluții candidate prin utilizarea structurii problemei pentru a elimina soluțiile candidate care nu pot fi optime.
 
-### Time Complexity and Space Complexity of Different Searching and Sorting Algorithms<!-- TODO: Add page and link it here -->
+### Complexitatea temporală și complexitatea spațială a diferiților algoritmi de căutare și sortare<!-- TODO: Add page and link it here -->
 **Complexitate temporală**: Se definește ca fiind numărul de ori de câte ori se așteaptă ca un anumit set de instrucțiuni să fie executat, mai degrabă decât timpul total necesar. Deoarece timpul este un fenomen dependent, complexitatea timpului poate varia în funcție de anumiți factori externi, cum ar fi viteza procesorului, compilatorul utilizat etc.
 
 **Complexitatea spațială**: Reprezintă spațiul total de memorie consumat de program pentru execuția sa.
@@ -269,22 +269,22 @@ Unele complexități temporale frecvent utilizate sunt :
 
 - **O(n)**: Aceasta denotă un timp liniar. O(n) înseamnă că performanța este direct proporțională cu dimensiunea datelor de intrare. În termeni simpli, numărul de intrări și timpul necesar pentru a executa aceste intrări vor fi proporționale. Căutarea liniară în matrici este un exemplu excelent de complexitate în timp liniară.
 
-- **O(n log n)**: This denotes polynomial time complexity. O(n log n) means that the performance is n times that of O(log n), (which is the worst-case complexity). A good example would be divided and conquer algorithms such as merge sort. This algorithm first divides the set, which takes O(log n) time, then conquers and sorts through the set, which takes O(n) time- therefore, Merge sort takes O(n log n) time.
+- **O(n log n)**: Aceasta denotă o complexitate în timp polinomial. O(n log n) înseamnă că performanța este de n ori mai mare decât cea a lui O(log n), (care este complexitatea în cel mai rău caz). Un bun exemplu ar fi algoritmii de împărțire și cucerire, cum ar fi sortarea combinată. Acest algoritm împarte mai întâi setul, ceea ce necesită timp O(log n), apoi îl cucerește și îl sortează, ceea ce necesită timp O(n) - prin urmare, sortarea combinată necesită timp O(n log n).
 
 - **O(n^2)**: Aceasta denotă un timp pătratic. O(n^2) înseamnă că performanța este direct proporțională cu pătratul numărului de intrări. Mai simplu, timpul de execuție va fi aproximativ de două ori mai mare decât pătratul mărimii intrării. Buclele imbricate sunt exemple perfecte de complexitate pătratică a timpului.
 
 <table>
   <thead>
     <tr>
-      <th rowspan="2">Algorithm</th>
-      <th colspan="3">Time Complexity</th>
-      <th>Spatial Complexity</th>
+      <th rowspan="2">Algoritm</th>
+      <th colspan="3">Complexitate temporală</th>
+      <th>Complexitatea spațială</th>
     </tr>
     <tr>
-      <th>Best</th>
-      <th>Average</th>
-      <th>Worst</th>
-      <th>Worst</th>
+      <th>Cel mai bun</th>
+      <th>Mediu</th>
+      <th>Cel mai rău</th>
+      <th>Cel mai rău</th>
     </tr>
   </thead>
   <tbody>
@@ -682,21 +682,21 @@ Este un model care permite accesul omniprezent, convenabil, la cerere, la un fon
  
 ## Principalele beneficii ale cloud computing
  
-Cloud computing is a big shift from how businesses think about IT resources. Here are seven common reasons organizations are turning to cloud computing services:
+Cloud computing reprezintă o schimbare majoră în ceea ce privește modul în care întreprinderile se gândesc la resursele IT. Iată șapte motive comune pentru care organizațiile apelează la serviciile de cloud computing:
 
-***Cost:*** Cloud computing eliminates the capital expense of buying hardware and software and setting up and running on-site data centers—the racks of servers, the round-the-clock electricity for power and cooling, and the IT experts for managing the infrastructure. It adds up fast.
+***Costuri:*** Cloud computing elimină cheltuielile de capital legate de achiziționarea de hardware și software, precum și de înființarea și funcționarea centrelor de date la fața locului - rafturile de servere, energia electrică non-stop pentru alimentare și răcire și experții IT pentru gestionarea infrastructurii. Toate acestea se adună rapid.
 
-***Speed:*** Most cloud computing services are provided self-service and on demand, so even vast amounts of computing resources can be provisioned in minutes, typically with just a few mouse clicks, giving businesses a lot of flexibility and taking the pressure off capacity planning.
+***Rapiditate:*** Majoritatea serviciilor de cloud computing sunt furnizate în regim de autoservire și la cerere, astfel încât chiar și cantități mari de resurse de calcul pot fi furnizate în câteva minute, de obicei cu doar câteva clicuri de mouse, ceea ce oferă întreprinderilor o mare flexibilitate și elimină presiunea de pe planificarea capacității.
 
-***Global scale:*** The benefits of cloud computing services include the ability to scale elastically. In cloud speak, that means delivering the right amount of IT resources—for example, more or less computing power, storage, and bandwidth—right when it is needed and from the right geographic location.
+***Scala globală:*** Printre avantajele serviciilor de cloud computing se numără capacitatea de a se extinde în mod elastic. În limbajul cloud, aceasta înseamnă furnizarea cantității potrivite de resurse IT - de exemplu, mai multă sau mai puțină putere de calcul, stocare și lățime de bandă - exact atunci când este nevoie și din locația geografică potrivită.
 
-***Productivity:*** On-site data centers typically require a lot of "racking and stacking"—hardware setup, software patching, and other time-consuming IT management chores. Cloud computing removes the need for many of these tasks, so IT teams can spend time on achieving more important business goals.
+***Productivitate:*** Centrele de date la fața locului necesită de obicei o mulțime de "rafturi și stivuire" - configurarea hardware-ului, modificarea software-ului și alte activități de gestionare IT care necesită mult timp. Cloud computing elimină necesitatea multora dintre aceste sarcini, astfel încât echipele de IT își pot dedica timpul realizării unor obiective de afaceri mai importante.
 
-***Performance:*** The biggest cloud computing services run on a worldwide network of secure data centers, which are regularly upgraded to the latest generation of fast and efficient computing hardware. This offers several benefits over a single corporate data center, including reduced network latency for applications and greater economies of scale.
+***Performanță:*** Cele mai mari servicii de cloud computing rulează pe o rețea mondială de centre de date sigure, care sunt actualizate periodic cu hardware de calcul rapid și eficient de ultimă generație. Acest lucru oferă mai multe avantaje față de un singur centru de date corporativ, inclusiv o latență redusă a rețelei pentru aplicații și economii de scară mai mari.
 
-***Reliability:*** Cloud computing makes data backup, disaster recovery, and business continuity easier and less expensive because data can be mirrored at multiple redundant sites on the cloud provider's network.
+***Fiabilitatea:*** Cloud computing face ca backup-ul datelor, recuperarea în caz de dezastru și continuitatea activității să fie mai ușoare și mai puțin costisitoare, deoarece datele pot fi oglindite în mai multe site-uri redundante din rețeaua furnizorului de cloud computing.
 
-***Security:*** Many cloud providers offer a broad set of policies, technologies, and controls that strengthen your security posture overall, helping protect your data, apps, and infrastructure from potential threats.
+***Securitate:*** Mulți furnizori de cloud computing oferă un set larg de politici, tehnologii și controale care vă consolidează poziția de securitate în general, contribuind la protejarea datelor, aplicațiilor și infrastructurii împotriva potențialelor amenințări.
 
 ### Tipuri de servicii de cloud computing
 - [Infrastructură ca serviciu (IaaS)](Cloud%20Computing/Readme.md#infrastructure-as-a-service-iaas)

@@ -797,7 +797,7 @@ Partea unui site web în care utilizatorul interacționează în mod direct este
 Backend-ul este partea de server a unui site web. Este o parte a site-ului web pe care utilizatorii nu o pot vedea și cu care nu pot interacționa. Este porțiunea de software care nu intră în contact direct cu utilizatorii. Este utilizată pentru a stoca și aranja datele.
 
 
-# [Networking](Networking/readme.md#networking)
+## [Networking](Networking/readme.md#networking)
 O rețea de calculatoare este un set de calculatoare care împart resurse situate pe sau furnizate de nodurile rețelei. Calculatoarele utilizează protocoale de comunicare comune prin interconexiuni digitale pentru a comunica între ele. Aceste interconexiuni sunt alcătuite din tehnologii de rețele de telecomunicații bazate pe metode de radiofrecvență cu fir fizic, optice și fără fir, care pot fi aranjate într-o varietate de topologii de rețea.
 
 Nodurile unei rețele de calculatoare pot include calculatoare personale, servere, hardware de rețea sau alte gazde specializate sau de uz general. Ele sunt identificate prin adrese de rețea și pot avea nume de gazdă. Numele de gazdă servesc ca etichete memorabile pentru noduri, rareori modificate după atribuirea inițială. Adresele de rețea servesc la localizarea și identificarea nodurilor prin protocoale de comunicare, cum ar fi protocolul Internet.
@@ -855,7 +855,7 @@ Funcțiile stratului de rețea sunt :
 1. **Routing:** Protocoalele stratului de rețea determină care este ruta potrivită de la sursă la destinație. Această funcție a stratului de rețea este cunoscută sub numele de rutare.
 2. **Direcționarea logică:** Pentru a identifica în mod unic fiecare dispozitiv de pe rețeaua de internet, stratul de rețea definește o schemă de adresare. Adresele IP ale emițătorului și receptorului sunt plasate în antet de către stratul de rețea. O astfel de adresă distinge fiecare dispozitiv în mod unic și universal.
 
-# [Internet](Internet/readme.md#internet)
+## [Internet](Internet/readme.md#internet)
 Internetul este un sistem global de rețele de calculatoare interconectate care utilizează suita standard de protocoale Internet ([TCP/IP](Networking/readme.md#tcptransmission-control-protocol)) pentru a deservi miliarde de utilizatori din întreaga lume. Este o rețea de rețele formată din milioane de rețele private, publice, academice, de afaceri și guvernamentale, de la nivel local până la global, care sunt conectate printr-o gamă largă de tehnologii de rețea electronice, fără fir și optice. Internetul transportă o gamă extinsă de resurse și servicii de informare, cum ar fi documentele și aplicațiile hipertext interconectate ale World Wide Web ([WWW](Internet/readme.md#world-wide-web-www)) și infrastructura de susținere a e-mail-ului.
 
 ## [World Wide Web (WWW)](Internet/readme.md#world-wide-web-www)

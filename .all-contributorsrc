@@ -1220,6 +1220,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "vladimir-cucu",
+      "name": "Vladimir Cucu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108150922?v=4",
+      "profile": "https://github.com/vladimir-cucu",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 6,

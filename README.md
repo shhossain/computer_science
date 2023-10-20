@@ -7,7 +7,8 @@
         <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_ta.md">தமிழ்</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a>
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a>
     </p>
 </h4>
 
@@ -1245,4 +1246,3 @@ Closely related fields in theoretical computer science are the analysis of algor
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-104-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-

@@ -1174,6 +1174,61 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "architO21",
+      "name": "architO21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97817943?v=4",
+      "profile": "https://github.com/architO21",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "nik-6174",
+      "name": "Nikhil Kumar Jha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78644716?v=4",
+      "profile": "https://github.com/nik-6174",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Kundai10",
+      "name": "Kundai Chasinda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76932641?v=4",
+      "profile": "https://github.com/Kundai10",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "rohankaushal123",
+      "name": "Rohan kaushal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76746752?v=4",
+      "profile": "https://github.com/rohankaushal123",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "AayushKumar176",
+      "name": "Aayush Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110240629?v=4",
+      "profile": "https://github.com/AayushKumar176",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vladimir-cucu",
+      "name": "Vladimir Cucu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108150922?v=4",
+      "profile": "https://github.com/vladimir-cucu",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 6,

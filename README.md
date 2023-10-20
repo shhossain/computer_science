@@ -6,7 +6,9 @@
         <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_ta.md">தமிழ்</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a>
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a>
     </p>
 </h4>
 
@@ -14,7 +16,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-127-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-133-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -242,6 +244,8 @@ Sorting is the process of arranging a list of items in a particular order. For e
 ### [Searching](Algorithms/Searching/readme.md)
 Searching is an algorithm for finding a certain target element inside a container. Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
 
+### [String Based Algorithms](Algorithms/String%20Based%20Algorithms/readme.md)
+Strings are one of the most used and most important data structures in programming, this repository contains a few of the most used algorithms which help in faster searching time improving our code.
 
 ### [Graph Search](Algorithms/Graph/readme.md)
 Graph search is the process of searching through a graph to find a particular node. A graph is a data structure that consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for an undirected graph, and as arrows, directed edges, directed arcs, or directed lines for a directed graph. The vertices may be part of the graph structure or may be external entities represented by integer indices or references. Graphs are one of the most useful data structures for many real-world applications. Graphs are used to model pairwise relations between objects. For example, the airline route network is a graph in which the cities are the vertices, and the flight routes are the edges. Graphs are also used to represent networks. The Internet can be modeled as a graph in which the computers are the vertices, and the links between computers are the edges. Graphs are also used on social networks like LinkedIn and Facebook. Graphs are used to represent many real-world applications: computer networks, circuit design, and aeronautical scheduling to name just a few.
@@ -1218,6 +1222,14 @@ Closely related fields in theoretical computer science are the analysis of algor
     </tr>
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="http://sarthak950.netlify.app"><img src="https://avatars.githubusercontent.com/u/93645760?v=4?s=50" width="50px;" alt="Sarthak "/><br /><sub><b>Sarthak </b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Sarthak950" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/architO21"><img src="https://avatars.githubusercontent.com/u/97817943?v=4?s=50" width="50px;" alt="architO21"/><br /><sub><b>architO21</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=architO21" title="Code">💻</a> <a href="#content-architO21" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/nik-6174"><img src="https://avatars.githubusercontent.com/u/78644716?v=4?s=50" width="50px;" alt="Nikhil Kumar Jha"/><br /><sub><b>Nikhil Kumar Jha</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=nik-6174" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Kundai10"><img src="https://avatars.githubusercontent.com/u/76932641?v=4?s=50" width="50px;" alt="Kundai Chasinda"/><br /><sub><b>Kundai Chasinda</b></sub></a><br /><a href="#content-Kundai10" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/rohankaushal123"><img src="https://avatars.githubusercontent.com/u/76746752?v=4?s=50" width="50px;" alt="Rohan kaushal"/><br /><sub><b>Rohan kaushal</b></sub></a><br /><a href="#content-rohankaushal123" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/AayushKumar176"><img src="https://avatars.githubusercontent.com/u/110240629?v=4?s=50" width="50px;" alt="Aayush Kumar"/><br /><sub><b>Aayush Kumar</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=AayushKumar176" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/vladimir-cucu"><img src="https://avatars.githubusercontent.com/u/108150922?v=4?s=50" width="50px;" alt="Vladimir Cucu"/><br /><sub><b>Vladimir Cucu</b></sub></a><br /><a href="#content-vladimir-cucu" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
@@ -1237,4 +1249,3 @@ Closely related fields in theoretical computer science are the analysis of algor
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-104-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-

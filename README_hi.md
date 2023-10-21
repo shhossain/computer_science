@@ -1,10 +1,10 @@
 ## विषय तालिका
 
 - [प्रस्तावना](#introduction)
-- [Electronic Computer](#electronic-computer)
-- [Boolean Logic](#boolean-logic)
-- [Number Systems](#number-systems)
-- [Central Processing Unit(CPU)](#central-processing-unit-cpu)
+- [इलेक्ट्रॉनिक कंप्यूटर](#electronic-computer)
+- [बूलियन तर्क](#boolean-logic)
+- [संख्या प्रणाली](#number-systems)
+- [सेन्ट्रल प्रॉसेसिंग यूनिट (सीपीयू)](#central-processing-unit-cpu)
 - [Registers, Cache, and RAM](#registers-cache-and-ram)
 - [Instructions and Program](#instructions-and-program)
 - [प्रोग्रामिंग भाषाऐ](#programming-languages)

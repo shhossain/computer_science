@@ -28,3 +28,7 @@
 - [DBMS(Database Management System)](#dbms)
 - [Cryptography](#cryptography)
 - [Theory of Computation](#theory-of-computation)
+
+## Introduction
+
+Computer science is the study of computers and computing and their theoretical and practical applications. Computer science applies the principles of mathematics, engineering, and logic to a plethora of problems. These include algorithm formulation, software/hardware development, and artificial intelligence.

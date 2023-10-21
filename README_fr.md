@@ -1,10 +1,14 @@
 <h1 align="center">Computer Science</h1>
 <h4 align="center">
     <p>
-        <b>English</b> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README.md">English</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a>
+        <b>Français</b> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ta.md">தமிழ்</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a>
     </p>
 </h4>
 

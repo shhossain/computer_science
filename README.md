@@ -9,7 +9,7 @@
         <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a> ।
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_hi.md">हिंदी</a>
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_hi.md">हिंदी</a> 
     </p>
 </h4>
 
@@ -78,7 +78,7 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 |   *      |  Asterisk       | Provides results containing a keyword variation. |
 |   ⊕     |  XOR            | Returns **true** if the operands are different |
 |   ⊽      |  NOR            | Returns **true** if all operands are false. |
-|   ⊼      |  NAND           | Returns **false** only if both values of its two inputs are true.
+|   ⊼      |  NAND           | Returns **false** only if both values of its two inputs are true. |
 
 
 ## [Number Systems](Number%20System/readme.md#number-systems)

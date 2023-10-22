@@ -55,21 +55,26 @@ BucketSort(arr, n):
 def bucket_sort(arr):
     # Find the minimum and maximum values in the input array
     min_val, max_val = min(arr), max(arr)
-    
-    # Create empty buckets
+
+    # Determine the range of each bucket
     bucket_range = (max_val - min_val) / len(arr)
-    buckets = [[] for _ in range(len(arr))]
-    
+
+    # Create empty buckets
+    num_buckets = len(arr)
+    buckets = [[] for _ in range(num_buckets)]
+
     # Place each element in the appropriate bucket
     for num in arr:
         index = int((num - min_val) / bucket_range)
+        if index == num_buckets:
+            index -= 1  # Adjust for values equal to max_val
         buckets[index].append(num)
-    
+
     # Sort each bucket and concatenate them to get the sorted array
     sorted_arr = []
     for bucket in buckets:
         sorted_arr.extend(sorted(bucket))
-    
+
     return sorted_arr
 
 # Example usage:
@@ -97,6 +102,9 @@ std::vector<double> bucketSort(std::vector<double> arr) {
     // Place each element in the appropriate bucket
     for (double num : arr) {
         int index = static_cast<int>((num - minVal) / bucketRange);
+        if (index == numBuckets) {
+            index--;  // Adjust for values equal to maxVal
+        }
         buckets[index].push_back(num);
     }
 
@@ -121,6 +129,7 @@ int main() {
 
     return 0;
 }
+
 ```
 
 ### C
@@ -247,9 +256,9 @@ public class BucketSort {
         double minVal = Collections.min(arr);
         double maxVal = Collections.max(arr);
 
-        // Create empty buckets
-        int numBuckets = arr.size();
-        List<List<Double>> buckets = new ArrayList<>(numBuckets);
+        // Determine the number of buckets based on the range of values
+        int numBuckets = arr.size(); // Or choose an appropriate number of buckets
+        List<List<Double> > buckets = new ArrayList<>(numBuckets);
 
         for (int i = 0; i < numBuckets; i++) {
             buckets.add(new ArrayList<>());
@@ -259,6 +268,9 @@ public class BucketSort {
         double bucketRange = (maxVal - minVal) / numBuckets;
         for (Double num : arr) {
             int index = (int) ((num - minVal) / bucketRange);
+            if (index == numBuckets) {
+                index--;  // Adjust for values equal to maxVal
+            }
             buckets.get(index).add(num);
         }
 
@@ -278,6 +290,7 @@ public class BucketSort {
         System.out.println(sortedArr);
     }
 }
+
 ```
 
 ### JavaScript
@@ -301,11 +314,19 @@ function bucketSort(arr) {
     const bucketSize = range / numBuckets;
 
     // Create an array of empty buckets
-    const buckets = new Array(numBuckets).fill().map(() => []);
+    const buckets = [];
+    for (let i = 0; i < numBuckets; i++) {
+        buckets.push([]);
+    }
 
     // Place each element in the appropriate bucket
     for (let i = 0; i < arr.length; i++) {
-        const index = Math.floor((arr[i] - minVal) / bucketSize);
+        let index = Math.floor((arr[i] - minVal) / bucketSize);
+
+        // Ensure that the index is within the valid range of bucket indices
+        if (index === numBuckets) {
+            index = numBuckets - 1;
+        }
         buckets[index].push(arr[i]);
     }
 
@@ -345,10 +366,14 @@ package main
 
 import (
 	"fmt"
-	"math"
+	"sort"
 )
 
 func bucketSort(arr []float64) []float64 {
+	if len(arr) == 0 {
+		return arr
+	}
+
 	// Find the minimum and maximum values in the array
 	minVal, maxVal := arr[0], arr[0]
 	for _, num := range arr {
@@ -361,109 +386,44 @@ func bucketSort(arr []float64) []float64 {
 	}
 
 	// Determine the range and the number of buckets
-	rng := maxVal - minVal
+	rangeVal := maxVal - minVal
 	numBuckets := len(arr)
-	bucketSize := rng / float64(numBuckets)
+	bucketSize := rangeVal / float64(numBuckets)
 
 	// Create an array of empty buckets
 	buckets := make([][]float64, numBuckets)
+	for i := range buckets {
+		buckets[i] = make([]float64, 0)
+	}
 
 	// Place each element in the appropriate bucket
 	for _, num := range arr {
 		index := int((num - minVal) / bucketSize)
+
+		// Ensure that the index remains within a valid range
+		if index == numBuckets {
+			index--
+		}
 		buckets[index] = append(buckets[index], num)
 	}
 
 	// Sort each bucket and concatenate them to get the sorted array
-	index := 0
-	sortedArr := make([]float64, len(arr))
-	for i := 0; i < numBuckets; i++ {
-		sortBucket(buckets[i])
-		copy(sortedArr[index:], buckets[i])
-		index += len(buckets[i])
+	sortedArr := make([]float64, 0, len(arr))
+	for _, bucket := range buckets {
+		sort.Float64s(bucket)
+		sortedArr = append(sortedArr, bucket...)
 	}
 
 	return sortedArr
 }
 
-func sortBucket(bucket []float64) {
-	// Use any sorting algorithm for the bucket, e.g., insertion sort
-	for i := 1; i < len(bucket); i++ {
-		key := bucket[i]
-		j := i - 1
-		for j >= 0 && bucket[j] > key {
-			bucket[j+1] = bucket[j]
-			j--
-		}
-		bucket[j+1] = key
-	}
-}
-
 func main() {
-	array := []float64{3.2, 0.4, 2.8, 4.5, 1.1, 0.9}
-	sortedArray := bucketSort(array)
-	fmt.Println(sortedArray)
+	arr := []float64{3.2, 0.4, 2.8, 4.5, 1.1, 0.9}
+	sortedArr := bucketSort(arr)
+	fmt.Println(sortedArr)
 }
+
 ```
-
-### Ruby
-```ruby
-function bucketSort(arr) {
-    // Find the minimum and maximum values in the array
-    let minVal = arr[0];
-    let maxVal = arr[0];
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] < minVal) {
-            minVal = arr[i];
-        }
-        if (arr[i] > maxVal) {
-            maxVal = arr[i];
-        }
-    }
-
-    // Determine the range and the number of buckets
-    const range = maxVal - minVal;
-    const numBuckets = arr.length;
-    const bucketSize = range / numBuckets;
-
-    // Create an array of empty buckets
-    const buckets = new Array(numBuckets).fill().map(() => []);
-
-    // Place each element in the appropriate bucket
-    for (let i = 0; i < arr.length; i++) {
-        const index = Math.floor((arr[i] - minVal) / bucketSize);
-        buckets[index].push(arr[i]);
-    }
-
-    // Sort each bucket and concatenate them to get the sorted array
-    let sortedArr = [];
-    for (let i = 0; i < numBuckets; i++) {
-        sortBucket(buckets[i]);
-        sortedArr = sortedArr.concat(buckets[i]);
-    }
-
-    return sortedArr;
-}
-
-function sortBucket(bucket) {
-    // Use any sorting algorithm for the bucket, e.g., insertion sort
-    for (let i = 1; i < bucket.length; i++) {
-        const key = bucket[i];
-        let j = i - 1;
-        while (j >= 0 && bucket[j] > key) {
-            bucket[j + 1] = bucket[j];
-            j--;
-        }
-        bucket[j + 1] = key;
-    }
-}
-
-// Example usage:
-const array = [3.2, 0.4, 2.8, 4.5, 1.1, 0.9];
-const sortedArray = bucketSort(array);
-console.log(sortedArray);
-```
-
 
 
 

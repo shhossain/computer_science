@@ -1202,6 +1202,42 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "rohankaushal123",
+      "name": "Rohan kaushal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76746752?v=4",
+      "profile": "https://github.com/rohankaushal123",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "AayushKumar176",
+      "name": "Aayush Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110240629?v=4",
+      "profile": "https://github.com/AayushKumar176",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vladimir-cucu",
+      "name": "Vladimir Cucu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108150922?v=4",
+      "profile": "https://github.com/vladimir-cucu",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Binbasri-in",
+      "name": "Mohammed Ali Alsakkaf (Binbasri)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87440507?v=4",
+      "profile": "https://www.linkedin.com/in/mohammed-ali-alsakkaf-899b44224/",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 6,

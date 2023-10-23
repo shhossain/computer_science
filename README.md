@@ -9,7 +9,8 @@
         <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a> ।
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_hi.md">हिंदी</a> 
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_hi.md">हिंदी</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ar.md">العربية</a>
     </p>
 </h4>
 

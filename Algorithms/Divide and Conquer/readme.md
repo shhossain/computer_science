@@ -11,10 +11,10 @@ A typical Divide and Conquer algorithm solves a problem using following three st
 
 ## Standard algorithms that follow Divide and Conquer algorithm
 
-1. Quicksort
-2. Merge Sort
+1. [Quicksort](../Sorting/QuickSort/readme.md)
+2. [Merge Sort](../Sorting/MergeSort/readme.md)
 3. Closest Pair of Points
-4. Strassen’s Algorithm
+4. [Strassen’s Algorithm](Strassen's%20Algorithm/readme.md)
 5. Cooley–Tukey Fast Fourier Transform (FFT) algorithm
 6. Karatsuba algorithm for fast multiplication 
 7. Maximum sub array sum
@@ -34,7 +34,7 @@ A typical Divide and Conquer algorithm solves a problem using following three st
 
 ## Advantages of Divide and Conquer
 
-- Divide and Conquer tend to successfully solve one of the biggest problems, such as the Tower of Hanoi, a mathematical puzzle. It is challenging to solve complicated problems for which you have no basic idea, but with the help of the divide and conquer approach, it has lessened the effort as it works on dividing the main problem into two halves and then solve them recursively. 
+- Divide and Conquer tend to successfully solve one of the biggest problems, such as the Tower of Hanoi, a mathematical puzzle. It is challenging to solve complicated problems for which you have no basic idea, but with the help of the divide and conquer approach, it has lessened the effort as it works on dividing the main problem into two halves and then solving them recursively.
 
 - This algorithm is much faster than other algorithms.
 
@@ -46,8 +46,49 @@ A typical Divide and Conquer algorithm solves a problem using following three st
 
 ## Disadvantages of Divide and Conquer
 
-- Since most of its algorithms are designed by incorporating recursion, so it necessitates high memory management.
+- Since most of its algorithms are designed by incorporating recursion, it necessitates high memory management.
 
 - An explicit stack may overuse the space.
 
 - It may even crash the system if the recursion is performed rigorously greater than the stack present in the CPU.
+
+## The Inversion Problem as an Example of Divide and Conquer
+The Inversion Problem is defined as counting how many swaps or inversions are needed in order to sort an array. We can calculate the number of inversions by using a modified merge sort. Counting the number of times, we have to sort one number before another. A full explanation of the Inversion problem can be found at [Inversion Problem](Inversion%20Problem/readme.md).
+
+Here we will show how the inversion problem fits into the Divide and Conquer method.
+
+### Example problem
+Given the array { 1, 20, 6, 4, 5 }, determine how many swaps it will take to sort it.
+
+1. Divide:
+Here we recursively divide both arrays into the smallest possible subproblem.
+For our example problem we recurse 4 levels down until we have lists of just one number.
+```
+Level 0)			{ 1, 20, 6, 4, 5 }
+Level 1)		{ 1, 20, 6 } 	{ 4, 5 }
+Level 2)	{ 1, 20 }	{ 6 } { 4 }  { 5 }
+Level 3) { 1 }	{ 20 }
+```
+
+2. Conquer:
+We sort each sub array and return it as we recurse back up the tree.
+```
+Level 3) { 1 }	{ 20 }
+Level 2)	{ 1, 20 }	{ 6 } { 4 }  { 5 }
+Level 1)		{ 1, 6, 20 } 	{ 4, 5 }
+Level 0)			{ 1, 4, 5, 6, 20 }
+```
+
+3. Combine:
+Combine sub arrays back together, counting the total number of inversions.
+```
+Level 3) { 1 }	{ 20 }
+Level 2)	{ 1, 20 }	{ 6 } { 4 }  { 5 } // 1 inversions
+Level 1)		{ 1, 6, 20 } 	{ 4, 5 }  // 2 inversions
+Level 0)			{ 1, 4, 5, 6, 20 }  // 4 inversions
+```
+
+Sorted array: { 1, 4, 5, 6, 20 } with 5 inversions, (6, 20), (20, 4), (6, 4), (20, 5), (6, 5)
+
+
+In this example you can see that the conquer and combine steps are very similar and happen almost at the same time. This is not always the case, in [Strassen's Matrix Multiplication algorithm](Strassen's%20Algorithm/readme.md) the combine and conquer steps are very different.

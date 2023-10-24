@@ -19,7 +19,8 @@ A typical Divide and Conquer algorithm solves a problem using following three st
 6. Karatsuba algorithm for fast multiplication 
 7. Maximum sub array sum
 8. [Maximum and minimum element of an array](Maximum%20and%20minium%20of%20an%20array/readme.md)
-9. [Convex Hull Problem](Convex%20Hull%20PRoblem#readme)
+9. [Convex Hull Problem](Convex%20Hull%20PRoblem/Readme.md)
+10. [Inversion Problem](Inversion%20Problem/readme.md)
 
 ## Time Complexity of Divide and Conquer Algorithm:
 ```
@@ -52,7 +53,7 @@ A typical Divide and Conquer algorithm solves a problem using following three st
 
 - It may even crash the system if the recursion is performed rigorously greater than the stack present in the CPU.
 
-## The Inversion Problem as an Example of Divide and Conquer
+## The Inversion Problem as an Example of a Divide and Conquer Algorithm
 The Inversion Problem is defined as counting how many swaps or inversions are needed in order to sort an array. We can calculate the number of inversions by using a modified merge sort. Counting the number of times, we have to sort one number before another. A full explanation of the Inversion problem can be found at [Inversion Problem](Inversion%20Problem/readme.md).
 
 Here we will show how the inversion problem fits into the Divide and Conquer method.

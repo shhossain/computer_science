@@ -1,10 +1,32 @@
 # Merge Sort
 Merge sort is a sorting technique based on divide and conquer technique. With worst-case time complexity being Ο(n log n), it is one of the most important and commonly used algorithms.
 
-## Complexity
+## Time and Space Complexity
+
 | Best | Average | Worst | Memory | Stable |
 |------|---------|-------|--------|--------|
 | n log(n)  | n log(n)     | n log(n)   | n      | Yes     |
+
+
+1. Space Complexity
+Auxiliary Space: O(n) Sorting In Place: No Algorithm : Divide and Conquer
+
+2. Time Complexity
+Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation for dividie and conquer algorithms. 
+``
+ T(n) = aT(n/b) + f(n)
+
+    where,
+        n = size of input
+        a = 2, we divide our array in half and solve them first, so our number of subproblems is 2
+        n/b = n/2, we divide our array in half each time we recurse
+        f(n) = n, we still have to iterate though the list to check it and then combine the two halfs together
+
+
+ T(n) = 2T(n/2) + n
+``
+The solution of the above recurrence is O(nLogn).
+The list of size N is divided into a max of Logn parts, and the merging of all sublists into a single list takes O(N) time. Making the worst, best and average-case run time of this algorithm O(nLogn).
 
 ## Pseudo Code
 ```
@@ -680,18 +702,3 @@ end
 arr = [12, 11, 13, 5, 6, 7]
 p merge_sort(arr)
 ```
-
-
-### Merge Sort Time and Space Complexity
-
-1. Space Complexity
-Auxiliary Space: O(n) Sorting In Place: No Algorithm : Divide and Conquer
-
-2. Time Complexity
-Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation. T(n) = 2T(n/2) + O(n) The solution of the above recurrence is O(nLogn). The list of size N is divided into a max of Logn parts, and the merging of all sublists into a single list takes O(N) time, the worst-case run time of this algorithm is O(nLogn) Best Case Time Complexity: O(n*log n) Worst Case Time Complexity: O(n*log n) Average Time Complexity: O(n*log n) The time complexity of MergeSort is O(n*Log n) in all the 3 cases (worst, average and best) as the mergesort always divides the array into two halves and takes linear time to merge two halves.
-
-
-
-        
-        
-        

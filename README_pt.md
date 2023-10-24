@@ -1,4 +1,17 @@
-## Diretrizes de Contribuição
+<h1 align="center">Diretrizes de Contribuição</h1>
+<h4 align="center">
+    <p>
+        <a href="https://github.com/shhossain/computer_science/blob/main/README.md">English</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ta.md">தமிழ்</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a> |
+        <b>Portuguese</b> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a>
+    </p>
+</h4>
+
 Se você está interessado em contribuir para este projeto, por favor, reserve um momento para revisar [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) para obter instruções detalhadas sobre como começar. Suas contribuições são muito apreciadas!
 
 

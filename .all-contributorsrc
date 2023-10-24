@@ -1229,6 +1229,24 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Binbasri-in",
+      "name": "Mohammed Ali Alsakkaf (Binbasri)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87440507?v=4",
+      "profile": "https://www.linkedin.com/in/mohammed-ali-alsakkaf-899b44224/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "serv-er",
+      "name": "serv-er",
+      "avatar_url": "https://avatars.githubusercontent.com/u/120189782?v=4",
+      "profile": "https://github.com/serv-er",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 6,

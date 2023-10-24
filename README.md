@@ -19,7 +19,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-135-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-136-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1235,6 +1235,7 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/vladimir-cucu"><img src="https://avatars.githubusercontent.com/u/108150922?v=4?s=50" width="50px;" alt="Vladimir Cucu"/><br /><sub><b>Vladimir Cucu</b></sub></a><br /><a href="#content-vladimir-cucu" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://www.linkedin.com/in/mohammed-ali-alsakkaf-899b44224/"><img src="https://avatars.githubusercontent.com/u/87440507?v=4?s=50" width="50px;" alt="Mohammed Ali Alsakkaf (Binbasri)"/><br /><sub><b>Mohammed Ali Alsakkaf (Binbasri)</b></sub></a><br /><a href="#content-Binbasri-in" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/serv-er"><img src="https://avatars.githubusercontent.com/u/120189782?v=4?s=50" width="50px;" alt="serv-er"/><br /><sub><b>serv-er</b></sub></a><br /><a href="#content-serv-er" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/ABarpanda"><img src="https://avatars.githubusercontent.com/u/145291762?v=4?s=50" width="50px;" alt="Amritanshu Barpanda"/><br /><sub><b>Amritanshu Barpanda</b></sub></a><br /><a href="#content-ABarpanda" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

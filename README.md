@@ -8,9 +8,10 @@
         <a href="https://github.com/shhossain/computer_science/blob/main/README_ta.md">தமிழ்</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a> |
-         <a href="https://github.com/shhossain/computer_science/blob/main/README_te.md">తెలుగు</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_hi.md">हिंदी</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_te.md">తెలుగు</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_ar.md">العربية</a>
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ar.md">العربية</a> 
     </p>
 </h4>
 
@@ -79,7 +80,7 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 |   *      |  Asterisk       | Provides results containing a keyword variation. |
 |   ⊕     |  XOR            | Returns **true** if the operands are different |
 |   ⊽      |  NOR            | Returns **true** if all operands are false. |
-|   ⊼      |  NAND           | Returns **false** only if both values of its two inputs are true.
+|   ⊼      |  NAND           | Returns **false** only if both values of its two inputs are true. |
 
 
 ## [Number Systems](Number%20System/readme.md#number-systems)
@@ -712,7 +713,7 @@ Cloud computing is a type of Internet-based computing that provides shared compu
 
 It is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.
  
- ## Top benefits of cloud computing
+ ### Top benefits of cloud computing
  
 Cloud computing is a big shift from how businesses think about IT resources. Here are seven common reasons organizations are turning to cloud computing services:
 
@@ -850,21 +851,21 @@ The part of a website where the user interacts directly is termed the front end.
 The backend is the server side of a website. It is part of the website that users cannot see and interact with. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
 
 
-# [Networking](Networking/readme.md#networking)
+## [Networking](Networking/readme.md#networking)
 A computer network is a set of computers sharing resources located on or provided by network nodes. Computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
 
 The nodes of a computer network can include personal computers, servers, networking hardware, or other specialized or general-purpose hosts. They are identified by network addresses and may have hostnames. Hostnames serve as memorable labels for the nodes, rarely changed after the initial assignment. Network addresses serve for locating and identifying the nodes by communication protocols such as the Internet Protocol.
 
 Computer networks may be classified by many criteria, including the transmission medium used to carry signals, bandwidth, communications protocols to organize network traffic, the network size, the topology, traffic control mechanism, and organizational intent.
 
-## Types of networking
+### Types of networking
 There are two primary types of computer networking:
 - Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fiber is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
 - Wireless networking: Wireless networking uses radio waves to transport data over the air, enabling devices to be connected to a network without any cabling. Wireless LANs are the most well-known and widely deployed form of wireless networking. Alternatives include microwave, satellite, cellular, and Bluetooth, among others.
 ## OSI MODEL
 OSI stands for **Open Systems Interconnection**. It was developed by ISO – ‘**International Organization for Standardization**‘in the year 1984. It is a 7-layer architecture with each layer having specific functionality to perform. All these seven layers work collaboratively to transmit the data from one person to another across the globe. 
 
-### **1\. Physical Layer (Layer 1):**
+#### **1\. Physical Layer (Layer 1):**
 
 The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
 
@@ -877,7 +878,7 @@ The functions of the physical layer are as follows:
 3.  **Physical topologies:** Physical layer specifies how the different devices/nodes are arranged in a network, i.e., bus, star, or mesh topology.
 4.  **Transmission mode:** Physical layer also defines how the data flows between the two connected devices. The various transmission modes possible are Simplex, half-duplex and full-duplex.
 
-### **2\. Data Link Layer (DLL) (Layer 2):**
+#### **2\. Data Link Layer (DLL) (Layer 2):**
 
 The data link layer is responsible for the node-to-node delivery of the message. The main function of this layer is to make sure data transfer is error-free from one node to another over the physical layer. When a packet arrives in a network, it is the responsibility of the DLL to transmit it to the host using its MAC address.   
 The Data Link Layer is divided into two sublayers:  
@@ -899,7 +900,7 @@ The functions of the Data Link layer are :
 4.  **Flow Control:** The data rate must be constant on both sides, or else the data may get corrupted; thus, flow control coordinates the amount of data that can be sent before receiving an acknowledgment.
 5.  **Access control:** When a single communication channel is shared by multiple devices, the MAC sub-layer of the data link layer helps to determine which device has control over the channel at a given time.
 
-### **3\. Network Layer (Layer 3):**
+#### **3\. Network Layer (Layer 3):**
 
 The network layer works for the transmission of data from one host to the other located in different networks. It also takes care of packet routing, i.e., the selection of the shortest path to transmit the packet from the number of routes available. The sender & receiver’s IP addresses are placed in the header by the network layer. 
 
@@ -909,13 +910,13 @@ The functions of the Network layer are :
 2.  **Logical Addressing:** To identify each device on internetwork uniquely, the network layer defines an addressing scheme. The sender & receiver’s IP addresses are placed in the header by the network layer. Such an address distinguishes each device uniquely and universally.
 
 
-# [Internet](Internet/readme.md#internet)
+## [Internet](Internet/readme.md#internet)
 The Internet is a global system of interconnected computer networks that use the standard Internet protocol suite ([TCP/IP](Networking/readme.md#tcptransmission-control-protocol)) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks of local to global scope that is linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries an extensive range of information resources and services, such as the interlinked hypertext documents and applications of the World Wide Web ([WWW](Internet/readme.md#world-wide-web-www)) and the infrastructure to support email.
 
-## [World Wide Web (WWW)](Internet/readme.md#world-wide-web-www)
+### [World Wide Web (WWW)](Internet/readme.md#world-wide-web-www)
 The World Wide Web (WWW) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet. English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while employed at CERN in Switzerland. The browser was released outside CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
 
-## [Internet Protocol (IP)](Internet/readme.md#internet-protocol-ip)
+### [Internet Protocol (IP)](Internet/readme.md#internet-protocol-ip)
 The Internet Protocol (IP) is a protocol, or set of rules, for routing and addressing packets of data so that they can travel across networks and arrive at the correct destination. Data traversing the Internet is divided into smaller pieces called packets.
 
 ## [DBMS]()
@@ -1031,7 +1032,7 @@ Automata theory is the study of abstract machines and automata, as well as the c
 ### Formal Languages
 In logic, mathematics, computer science, and linguistics, a formal language consists of words whose letters are taken from an alphabet and are well-formed according to a specific set of rules.
 
-The alphabet of a formal language consists of symbols, letters, or tokens that concatenate into strings of the language.[1] Each string concatenated from symbols of this alphabet is called a word, and the words that belong to a particular formal language are sometimes called well-formed words or well-formed formulas. A formal language is often defined using formal grammar, such as regular grammar or context-free grammar, which consists of its formation rules.
+The alphabet of a formal language consists of symbols, letters, or tokens that concatenate into strings of the language. Each string concatenated from symbols of this alphabet is called a word, and the words that belong to a particular formal language are sometimes called well-formed words or well-formed formulas. A formal language is often defined using formal grammar, such as regular grammar or context-free grammar, which consists of its formation rules.
 
 In computer science, formal languages are used, among others, as the basis for defining the grammar of programming languages and formalized versions of subsets of natural languages in which the words of the language represent concepts that are associated with particular meanings or semantics. In computational complexity theory, decision problems are typically defined as formal languages and complexity classes are defined as the sets of formal languages that can be parsed by machines with limited computational power. In logic and the foundations of mathematics, formal languages are used to represent the syntax of axiomatic systems, and mathematical formalism is the philosophy that all mathematics can be reduced to the syntactic manipulation of formal languages in this way. 
 
@@ -1041,7 +1042,7 @@ Computability theory, also known as recursion theory, is a branch of mathematica
 ### Computational complexity theory
 In theoretical computer science and mathematics, computational complexity theory focuses on classifying computational problems according to their resource usage and relating these classes to each other. A computational problem is a task solved by a computer. A computation problem is solvable by a mechanical application of mathematical steps, such as an algorithm.
 
-A problem is regarded as inherently difficult if its solution requires significant resources, whatever the algorithm used. The theory formalizes this intuition by introducing mathematical models of computation to study these problems and quantifying their computational complexity, i.e., the number of resources needed to solve them, such as time and storage. Other measures of complexity are also used, such as the amount of communication (used in communication complexity), the number of gates in a circuit (used in circuit complexity), and the number of processors (used in parallel computing). One of the roles of computational complexity theory is to determine the practical limits on what computers can and cannot do. The P versus NP problem, one of the seven Millennium Prize Problems, is dedicated to the field of computational complexity.[1]
+A problem is regarded as inherently difficult if its solution requires significant resources, whatever the algorithm used. The theory formalizes this intuition by introducing mathematical models of computation to study these problems and quantifying their computational complexity, i.e., the number of resources needed to solve them, such as time and storage. Other measures of complexity are also used, such as the amount of communication (used in communication complexity), the number of gates in a circuit (used in circuit complexity), and the number of processors (used in parallel computing). One of the roles of computational complexity theory is to determine the practical limits on what computers can and cannot do. The P versus NP problem, one of the seven Millennium Prize Problems, is dedicated to the field of computational complexity.
 
 Closely related fields in theoretical computer science are the analysis of algorithms and computability theory. A key distinction between the analysis of algorithms and computational complexity theory is that the former is devoted to analyzing the number of resources needed by a particular algorithm to solve a problem, whereas the latter asks a more general question about all possible algorithms that could be used to solve the same problem. More precisely, computational complexity theory tries to classify problems that can or cannot be solved with appropriately restricted resources. In turn, imposing restrictions on the available resources is what distinguishes computational complexity from computability theory: the latter theory asks what kinds of problems can, in principle, be solved algorithmically. 
 

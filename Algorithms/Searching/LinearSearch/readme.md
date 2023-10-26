@@ -14,7 +14,7 @@ LinearSearch( A : Array of items, Target : item to be searched)
     for each i item in the array:
         if item == target
             return index i     // Returns the index at wich the element is present
-    
+
     else return -1             // Denotes element is not present in that array.
 
 ```
@@ -36,7 +36,7 @@ LinearSearch( A : Array of items, Target : item to be searched)
 ```cpp
 
     int linearSearch(vector<int> v , int target){
-        
+
         for(int i = 0; i < v.size(); i++){
             if(v[i] == target){
                 return i;
@@ -55,7 +55,7 @@ LinearSearch( A : Array of items, Target : item to be searched)
         for i in range(0,len(Array)):
             if Array[i] == target:
                 return i
-        
+
         return -1
 
 ```
@@ -176,7 +176,7 @@ The element 4 is found at 4 index of the given array.
 
 > Auxiliary Space: **O(N)**, for using recursive stack space.
 ## Ruby
-```r
+```ruby
 
 def linear_search(array, element)
   i = 0
@@ -196,7 +196,7 @@ end
 
 <?php
 // PHP Recursive Code For Linear Search
- 
+
 // Recursive function to search key in the array
 function linearsearch($arr, int $size, int $x)
 {
@@ -206,7 +206,7 @@ function linearsearch($arr, int $size, int $x)
         return $size - 1; // return index
     return linearsearch($arr, $size - 1, $x);
 }
- 
+
 }
 ```
 

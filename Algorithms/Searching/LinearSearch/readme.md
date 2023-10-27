@@ -50,80 +50,78 @@ LinearSearch( A : Array of items, Target : item to be searched)
 
 ## Python
 ```py
-
-    def linearSearch(Array,target):
-        for i in range(0,len(Array)):
-            if Array[i] == target:
-                return i
-
-        return -1
-
+def linearSearch(Array,target):
+	for i in range(0,len(Array)):
+	    if Array[i] == target:
+		return i
+	
+	return -1
 ```
 
 ## C
 ```c
 
-    int linearSearch(int array[],int target){
+int linearSearch(int array[],int target){
 
-        int size = sizeof(array)/sizeof(int);
+int size = sizeof(array)/sizeof(int);
 
-        for(int i = 0; i < size; i++){
-            if(array[i] == target) {
-                return i;
-            }
-        }
-
-        return -1;
+for(int i = 0; i < size; i++){
+    if(array[i] == target) {
+	return i;
     }
+}
+
+return -1;
+}
 
 ```
 
 ## Java
 ```java
-
-    public static int linearSearch(int array [], int target){
-        int size = array.length;
-
-        for(int i = 0; i < size;i++){
-
-            if(array[i] == target){
-                return i;
-            }
-        }
-
-        return -1;
-    }
-
+public class Main {
+	public static int linearSearch(int array [], int target){
+	int size = array.length;
+	
+	for(int i = 0; i < size;i++){
+	
+	    if(array[i] == target){
+		return i;
+	    }
+	}
+	
+	return -1;
+	}
+}
 ```
 
 ## Javascript
 ```js
 
-    const linearSearch = (list, item) => {
-        for (const [i, element] of list.entries()) {
-            if (element === item) {
-            return i
-            }
-        }
-        return -1
+const linearSearch = (list, item) => {
+for (const [i, element] of list.entries()) {
+    if (element === item) {
+    return i
     }
+}
+return -1
+}
 
 ```
 
 ## Go
 ```go
 
-    func linearSearch(array []int, target int){
-        size := len(array)
+func linearSearch(array []int, target int){
+size := len(array)
 
-        for i := 0; i < size; i++{
-            if array[i] == target {
-                return i
-            }
-        }
-
-        return -1
+for i := 0; i < size; i++{
+    if array[i] == target {
+	return i
     }
+}
+
+return -1
+}
 
 ```
 ## C# (C SHARP)
@@ -192,11 +190,6 @@ end
 ```
 ## PHP
 ```php
-
-
-<?php
-// PHP Recursive Code For Linear Search
-
 // Recursive function to search key in the array
 function linearsearch($arr, int $size, int $x)
 {
@@ -205,8 +198,6 @@ function linearsearch($arr, int $size, int $x)
     else if ($arr[$size - 1] == $x)
         return $size - 1; // return index
     return linearsearch($arr, $size - 1, $x);
-}
-
 }
 ```
 

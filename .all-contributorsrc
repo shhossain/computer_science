@@ -1265,6 +1265,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "geeknees",
+      "name": "Masumi Kawasaki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/701242?v=4",
+      "profile": "https://github.com/geeknees",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 6,

@@ -211,8 +211,9 @@ if __name__ == "__main__":
    - Polymorphism means having many forms. Using polymorphism, a class can exhibit different functionalities even when they have a common interface.
    - Using polymorphism,
 
- we can call the same member function but make it work differently depending on the type of object that calls the function.
-   - For example, let us consider a class called "Addition." When an object with String data type members in it calls this function, the two strings are concatenated. When the object has numeric data type members, the class simply adds the two numbers. Polymorphism eliminates the need to rewrite similar code many times for different objects.
+we can call the same member function but make it work differently depending on the type of object that calls the function.
+
+- For example, let us consider a class called "Addition." When an object with String data type members in it calls this function, the two strings are concatenated. When the object has numeric data type members, the class simply adds the two numbers. Polymorphism eliminates the need to rewrite similar code many times for different objects.
 
 **Java program to Demonstrate Polymorphism**
 
@@ -224,21 +225,21 @@ public class Sum {
     {
         return (x + y);
     }
-    
+
     // Overloaded sum().
     // This sum takes three int parameters
     public int sum(int x, int y, int z)
     {
         return (x + y + z);
     }
-    
+
     // Overloaded sum().
     // This sum takes two double parameters
     public double sum(double x, double y)
     {
         return (x + y);
     }
-  
+
     // Driver code
     public static void main(String args[])
     {
@@ -289,11 +290,20 @@ Here are some examples of how Object-Oriented Programming (OOP) can be applied i
 
 **1. Word Predictor**
 
-   - Word prediction is a feature found in many modern text editors and mobile devices. It uses OOP principles to suggest and complete words or phrases as users type.
-   - It involves creating classes and objects to manage dictionaries, user input, and prediction algorithms.
-   - Here's an example of how OOP can be used to implement a word predictor (in Python):
-     - [Word Predictor Example - main.py](Word_Predictor/main.py)
+- Word prediction is a feature found in many modern text editors and mobile devices. It uses OOP principles to suggest and complete words or phrases as users type.
+- It involves creating classes and objects to manage dictionaries, user input, and prediction algorithms.
+- Here's an example of how OOP can be used to implement a word predictor (in Python):
+  - [Word Predictor Example - main.py](Word_Predictor/main.py)
 
 In this example, you can see how classes and objects are used to organize and manage the functionality of a word predictor. This demonstrates how OOP can be a powerful approach to building complex software systems while maintaining code readability and reusability.
 
 Object-Oriented Programming is a versatile and widely adopted paradigm in software development, and it helps in creating maintainable, modular, and efficient code. These concepts of abstraction, encapsulation, inheritance, polymorphism, and overloading are the building blocks of OOP, enabling developers to design and implement complex systems with ease.
+
+**2. Online Bookstore**
+
+- An online bookstore is a common example where Object-Oriented Programming can be applied. It involves managing books, customers, orders, and the shopping cart.
+- Classes can be created for Book, Customer, Order, and ShoppingCart, with methods and attributes to handle various operations.
+- Here's a simplified example of how OOP can be used to model an online bookstore (in Python):
+  - [Online Bookstore - main.py](Online_Bookstore/main.py)
+
+In this Python example, we define three classes: Book, Customer, and Order, and demonstrate how they can be used to model an online bookstore. The code creates a customer, books, and an order, adds books to the order, calculates the total amount, and displays order details using the methods defined in the classes.

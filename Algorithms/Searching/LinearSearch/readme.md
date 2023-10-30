@@ -1,15 +1,12 @@
 # Linear Search
 
 Linear search is a sequential searching algorithm where we start from one end and check every element of the list until the desired element is found. It is the simplest searching algorithm.
-[Refer](https://www.programiz.com/dsa/linear-search)for better understanding.
+[Refer](https://www.programiz.com/dsa/linear-search)for better undeerstanding.
 
 ## Complexity
 | Best | Worst | Memory |
 |------|-------|--------|
 |  1   |   n   | 1      |
-
-- Time complexity = O(n) {Big O of n}
-- Space complexity = O(1)
 
 ## Pseudo Code
 ```
@@ -45,6 +42,7 @@ LinearSearch( A : Array of items, Target : item to be searched)
                 return i;
             }
         }
+
         return -1;
     }
 
@@ -52,7 +50,6 @@ LinearSearch( A : Array of items, Target : item to be searched)
 
 ## Python
 ```py
-
 def linearSearch(Array,target):
 	for i in range(0,len(Array)):
 	    if Array[i] == target:
@@ -203,4 +200,3 @@ function linearsearch($arr, int $size, int $x)
     return linearsearch($arr, $size - 1, $x);
 }
 ```
-

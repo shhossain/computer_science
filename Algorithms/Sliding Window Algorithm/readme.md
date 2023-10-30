@@ -22,6 +22,6 @@ Sliding window can be used on fixed-length windows or variable-length windows.
 You will understand more cleary when we will solve the questions by both the methods.
 
 
-### Popular Slidng Window Algorithms
+### Popular Sliding Window Algorithms
 * [Maximum Sum Subarray of size K](Fixed%20Length/Maximum%20Sum%20Subarray%20(K)/readme.md)
 * [Longest/Largest Subarray with sum K](Variable%20Length/Largest%20Subarray%20Sum%20(K)/readme.md)

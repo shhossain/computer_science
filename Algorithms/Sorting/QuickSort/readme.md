@@ -6,7 +6,12 @@ Quick Sort is a Divide and Conquer algorithm. It picks an element as pivot and p
 |------|---------|-------|--------|--------|
 | nlog(n) | nlog(n) | n^2   | log(n) | No    |
 
-## Sudo Code
+- The worst-case time complexity of heap sort is O(n^2).
+- The best-case time complexity of heap sort is O(nlogn).
+- The average case time complexity of heap sort is O(nlogn).
+- The space complexity of heap sort is O(logn).
+
+## Pseudo Code
 ```
 procedure quickSort( A : list of sortable items )
     n = length(A)

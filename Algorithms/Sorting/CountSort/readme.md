@@ -6,8 +6,12 @@ Counting sort is a sorting algorithm that sorts the elements of an array by coun
 |--------|---------|--------|--------|--------|
 | O(n+k) | O(n+k)  | O(n+k) | O(max) | Yes    |
 
+- The worst-case time complexity of counting sort is O(n^k)
+- The best-case time complexity of counting sort is O(n).
+- The average case time complexity of counting sort is O(n+k)
+- The space complexity of counting sort is O(k).
 
-## Sudo Code
+## Pseudo Code
 ```
 procedure countingSort(array, size)
   max <- find largest element in array

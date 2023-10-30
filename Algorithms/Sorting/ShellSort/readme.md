@@ -6,7 +6,12 @@ Shell sort is mainly a variation of Insertion Sort. In insertion sort, we move e
 |-------------|----------|-------|--------|--------|
 | Ω(n log(n)) |θ(nlog(n)2)|O(n2)|1| No    |
 
-## Sudo Code
+- The worst-case time complexity of heap sort is O(n^2).
+- The best-case time complexity of heap sort is Ω(nlogn).
+- The average case time complexity of heap sort is θ(nlogn).
+- The space complexity of heap sort is O(1).
+
+## Pseudo Code
 ```Caculate gap size ($gap)
  
     WHILE $gap is greater than 0

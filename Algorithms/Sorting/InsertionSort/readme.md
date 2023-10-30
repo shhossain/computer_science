@@ -6,7 +6,7 @@ Insertion Sort is a simple sorting algorithm that works the way we sort playing 
 |------|---------|-------|--------|--------|
 | n    | n^2     | n^2   | 1      | Yes    |
 
-## Sudo Code
+## Pseudo Code
 ```
 procedure insertionSort( A : list of sortable items )
     n = length(A)

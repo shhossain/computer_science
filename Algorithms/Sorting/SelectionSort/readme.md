@@ -6,7 +6,12 @@ Selection Sort is a sorting algorithm, specifically an in-place comparison sort.
 |------|---------|-------|--------|--------|
 | n^2  | n^2     | n^2   | 1      | No     |
 
-## Sudo Code
+- The worst-case time complexity of heap sort is O(n^2).
+- The best-case time complexity of heap sort is O(n^2).
+- The average case time complexity of heap sort is O(n^2).
+- The space complexity of heap sort is O(1).
+
+## Pseudo Code
 ```
 procedure selectionSort( A : list of sortable items )
     n = length(A)

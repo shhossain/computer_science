@@ -45,7 +45,6 @@ LinearSearch( A : Array of items, Target : item to be searched)
                 return i;
             }
         }
-
         return -1;
     }
 
@@ -53,6 +52,7 @@ LinearSearch( A : Array of items, Target : item to be searched)
 
 ## Python
 ```py
+
 def linearSearch(Array,target):
 	for i in range(0,len(Array)):
 	    if Array[i] == target:

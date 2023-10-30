@@ -1247,6 +1247,42 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "ABarpanda",
+      "name": "Amritanshu Barpanda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/145291762?v=4",
+      "profile": "https://github.com/ABarpanda",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "aheaton22",
+      "name": "aheaton22",
+      "avatar_url": "https://avatars.githubusercontent.com/u/117932053?v=4",
+      "profile": "https://github.com/aheaton22",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "geeknees",
+      "name": "Masumi Kawasaki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/701242?v=4",
+      "profile": "https://github.com/geeknees",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "aslezar",
+      "name": "aslezar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97354675?v=4",
+      "profile": "https://github.com/aslezar",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,

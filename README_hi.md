@@ -1,4 +1,19 @@
 <h1 align="center">कंप्यूटर विज्ञान</h1>
+<h4 align="center">
+    <p>
+        <a href="https://github.com/shhossain/computer_science/blob/main/README.md">English</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ta.md">தமிழ்</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a> |
+        <b>हिंदी</b> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_te.md">తెలుగు</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ar.md">العربية</a> 
+    </p>
+</h4>
 
 ## विषय तालिका
 

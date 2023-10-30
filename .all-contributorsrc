@@ -1229,6 +1229,60 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Binbasri-in",
+      "name": "Mohammed Ali Alsakkaf (Binbasri)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87440507?v=4",
+      "profile": "https://www.linkedin.com/in/mohammed-ali-alsakkaf-899b44224/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "serv-er",
+      "name": "serv-er",
+      "avatar_url": "https://avatars.githubusercontent.com/u/120189782?v=4",
+      "profile": "https://github.com/serv-er",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "ABarpanda",
+      "name": "Amritanshu Barpanda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/145291762?v=4",
+      "profile": "https://github.com/ABarpanda",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "aheaton22",
+      "name": "aheaton22",
+      "avatar_url": "https://avatars.githubusercontent.com/u/117932053?v=4",
+      "profile": "https://github.com/aheaton22",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "geeknees",
+      "name": "Masumi Kawasaki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/701242?v=4",
+      "profile": "https://github.com/geeknees",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "aslezar",
+      "name": "aslezar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97354675?v=4",
+      "profile": "https://github.com/aslezar",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,

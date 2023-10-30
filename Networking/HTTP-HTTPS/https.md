@@ -61,3 +61,14 @@ HTTPS employs encryption protocols such as TLS (Transport Layer Security) to sec
 3. **SEO Benefits:** Google rewards HTTPS websites with higher search rankings.
 
 Understanding the differences between HTTP and HTTPS and how they operate is essential for web development, cybersecurity, and ensuring a secure online experience.
+
+## Cookies
+
+HTTP server is stateless. This simplifies server design and has permitted engineers to develop high-performance Web servers that can handle thousands of simultaneous TCP connections. However, it is often desirable for a Web site to identify users, either because the server wishes to restrict user access or because it wants to serve content as a function of the user identity. For these purposes, HTTP uses cookies.
+
+Cookie technology has four components:
+
+1. A cookie header line in the HTTP response message. 
+2. A cookie header line in the HTTP request message. 
+3. A cookie file kept on the user’s end system and managed by the user’s browser.
+4. A cookie file is kept on back-end database at the Web site.

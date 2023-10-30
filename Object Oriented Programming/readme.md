@@ -211,8 +211,9 @@ if __name__ == "__main__":
    - Polymorphism means having many forms. Using polymorphism, a class can exhibit different functionalities even when they have a common interface.
    - Using polymorphism,
 
- we can call the same member function but make it work differently depending on the type of object that calls the function.
-   - For example, let us consider a class called "Addition." When an object with String data type members in it calls this function, the two strings are concatenated. When the object has numeric data type members, the class simply adds the two numbers. Polymorphism eliminates the need to rewrite similar code many times for different objects.
+we can call the same member function but make it work differently depending on the type of object that calls the function.
+
+- For example, let us consider a class called "Addition." When an object with String data type members in it calls this function, the two strings are concatenated. When the object has numeric data type members, the class simply adds the two numbers. Polymorphism eliminates the need to rewrite similar code many times for different objects.
 
 **Java program to Demonstrate Polymorphism**
 
@@ -224,21 +225,21 @@ public class Sum {
     {
         return (x + y);
     }
-    
+
     // Overloaded sum().
     // This sum takes three int parameters
     public int sum(int x, int y, int z)
     {
         return (x + y + z);
     }
-    
+
     // Overloaded sum().
     // This sum takes two double parameters
     public double sum(double x, double y)
     {
         return (x + y);
     }
-  
+
     // Driver code
     public static void main(String args[])
     {
@@ -283,17 +284,80 @@ if __name__ == "__main__":
 
 Hence, these four concepts of OOP help in writing better modular and efficient code.
 
+6. Virtual Function
+
+   - A virtual function (also known as virtual methods) is a member function that is declared within a base class and is re-defined (overridden) by a derived class. When  referred to a derived class object using a pointer or a reference to the base class, we can call a virtual function for that object and execute the derived class’s version of the method..
+   ## Rules for Virtual Functions
+    The rules for the virtual functions in C++ are as follows:
+
+   1. Virtual functions cannot be static.
+   2. A virtual function can be a friend function of another class.
+   3. Virtual functions should be accessed using a pointer or reference of base class type to achieve runtime polymorphism.
+   4. The prototype of virtual functions should be the same in the base as well as the derived class.
+   They are always defined in the base class and overridden in a derived class. It is not mandatory for the derived class to override (or re-define the virtual function), in that case, the base class version of the function is used.
+
+**C++ program to Demonstrate Virtual Function**
+
+```C++
+
+#include <iostream>
+using namespace std;
+
+class base {
+public:
+	virtual void print() { cout << "print base class\n"; }
+	void show() { cout << "show base class\n"; }
+};
+
+class derived : public base {
+public:
+	void print() { cout << "print derived class\n"; }
+	void show() { cout << "show derived class\n"; }
+};
+
+int main()
+{
+	base* bptr;
+	derived d;
+	bptr = &d;
+
+	// Virtual function, binded at runtime
+	bptr->print();
+	// Non-virtual function, binded at compile time
+	bptr->show();
+	return 0;
+}
+
+```
+Output:     
+   print derived class  
+   show base class
+
+Explanation: Runtime polymorphism is achieved only through a pointer (or reference) of the base class type. Also, a base class pointer can point to the objects of the base class as well as to the objects of the derived class. In the above code, the base class pointer ‘bptr’ contains the address of object ‘d’ of the derived class.
+
+Late binding (Runtime) is done in accordance with the content of the pointer (i.e. location pointed to by pointer) and Early binding (Compile-time) is done according to the type of pointer since the print() function is declared with the virtual keyword so it will be bound at runtime (output is print derived class as the pointer is pointing to object of derived class) and show() is non-virtual so it will be bound during compile time (output is show base class as the pointer is of base type).
+
+
 ## Examples Using OOP
 
 Here are some examples of how Object-Oriented Programming (OOP) can be applied in different programming languages:
 
 **1. Word Predictor**
 
-   - Word prediction is a feature found in many modern text editors and mobile devices. It uses OOP principles to suggest and complete words or phrases as users type.
-   - It involves creating classes and objects to manage dictionaries, user input, and prediction algorithms.
-   - Here's an example of how OOP can be used to implement a word predictor (in Python):
-     - [Word Predictor Example - main.py](Word_Predictor/main.py)
+- Word prediction is a feature found in many modern text editors and mobile devices. It uses OOP principles to suggest and complete words or phrases as users type.
+- It involves creating classes and objects to manage dictionaries, user input, and prediction algorithms.
+- Here's an example of how OOP can be used to implement a word predictor (in Python):
+  - [Word Predictor Example - main.py](Word_Predictor/main.py)
 
 In this example, you can see how classes and objects are used to organize and manage the functionality of a word predictor. This demonstrates how OOP can be a powerful approach to building complex software systems while maintaining code readability and reusability.
 
 Object-Oriented Programming is a versatile and widely adopted paradigm in software development, and it helps in creating maintainable, modular, and efficient code. These concepts of abstraction, encapsulation, inheritance, polymorphism, and overloading are the building blocks of OOP, enabling developers to design and implement complex systems with ease.
+
+**2. Online Bookstore**
+
+- An online bookstore is a common example where Object-Oriented Programming can be applied. It involves managing books, customers, orders, and the shopping cart.
+- Classes can be created for Book, Customer, Order, and ShoppingCart, with methods and attributes to handle various operations.
+- Here's a simplified example of how OOP can be used to model an online bookstore (in Python):
+  - [Online Bookstore - main.py](Online_Bookstore/main.py)
+
+In this Python example, we define three classes: Book, Customer, and Order, and demonstrate how they can be used to model an online bookstore. The code creates a customer, books, and an order, adds books to the order, calculates the total amount, and displays order details using the methods defined in the classes.

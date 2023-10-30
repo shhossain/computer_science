@@ -1,4 +1,16 @@
-# কম্পিউটার বিজ্ঞান
+<h1 align="center">কম্পিউটার বিজ্ঞান</h1>
+<h4 align="center">
+    <p>
+        <a href="https://github.com/shhossain/computer_science/blob/main/README.md">English</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
+        <b>বাংলা</b> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ta.md">தமிழ்</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a>
+    </p>
+</h4>
 
 ## সূচীপত্র
 

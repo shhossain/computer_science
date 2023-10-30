@@ -1,4 +1,16 @@
-## સામગ્રીનું કોષ્ટક
+<h1 align="center">સામગ્રીનું કોષ્ટક</h1>
+<h4 align="center">
+    <p>
+        <a href="https://github.com/shhossain/computer_science/blob/main/README.md">English</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ta.md">தமிழ்</a> |
+        <b>ગુજરાતી</b> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a>
+    </p>
+</h4>
 
 - [પરિચય](#પરિચય)
 - [ઈલેક્ટ્રોનિક કોમ્પ્યુટર](#ઈલેક્ટ્રોનિક-કોમ્પ્યુટર)

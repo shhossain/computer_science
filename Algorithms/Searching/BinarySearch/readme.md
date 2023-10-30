@@ -8,6 +8,12 @@ It is called binary because it splits the array into two halves as part of the a
 |------|---------|-------|-----------------------------|
 | O(1) |  O(log n)    | O(log n)  |      O(1) iterative         |
 
+- Time Complexities
+  - Best case complexity: O(1)
+  - Average case complexity: O(log n)
+  - Worst case complexity: O(log n)
+- The space complexity of the binary search is O(1).
+
 
 # Pseudo Code
 ```OUTPUT "

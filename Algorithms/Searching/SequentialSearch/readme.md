@@ -8,6 +8,12 @@ Sequential/Linear Search is defined as a sequential search algorithm that starts
 | ---- | ------- | ----- | --------------------------- |
 | O(1) | O(n)    | O(n)  | O(1) iterative              |
 
+- Time complexity
+  - The best case complexity is O(1)
+  - The average case complexity is O(n)
+  - The worst case complexity is O(n)
+- Space complexity is O(1) 
+
 # Pseudo Code
 
 ```

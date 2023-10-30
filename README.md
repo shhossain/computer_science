@@ -415,7 +415,7 @@ Functional programming is sometimes treated as synonymous with purely functional
 
 Functional programming has its roots in academia, evolving from the lambda calculus, a formal system of computation based only on functions. Functional programming has historically been less popular than imperative programming, but many functional languages are seeing use today in industry and education. 
 
-Some example of functional programming languages are:
+Some examples of functional programming languages are:
 - <a href="https://lisp-lang.org/"> Common Lisp </a>
 - <a href="https://www.scheme.org/"> Scheme </a>
 - <a href="https://racket-lang.org/"> Racket </a>
@@ -424,24 +424,24 @@ Some example of functional programming languages are:
 - <a href="https://fsharp.org/"> F# </a>
 - <a href="https://cs.lmu.edu/~ray/notes/introml/"> ML </a> 
 
-Functional programming is derived historically from the *lambda calculus*. Lambda calculus is a framework developed by Alonzo Church to study computations with functions. It is often called "the smallest programming language in the world." It provides a defintion of what is computable and what is not. It is equivalaent to a Turing machine in its computational ability and anything computable by the lambda calculus, just like anything computable by a Turing machine, is computable. It provides a theoretical frammework for describing functions and their evaluations.
+Functional programming is derived historically from the *lambda calculus*. Lambda calculus is a framework developed by Alonzo Church to study computations with functions. It is often called "the smallest programming language in the world." It provides a definition of what is computable and what is not. It is equivalent to a Turing machine in its computational ability and anything computable by the lambda calculus, just like anything computable by a Turing machine, is computable. It provides a theoretical framework for describing functions and their evaluations.
 
 Some essential concepts of functional programming are:
 - Pure functions 
 - Recursion
-- Referential transparancy
+- Referential transparency
 - Functions as first class and higher order functions
-- Variable are immutable.
+- Variables are immutable.
 
-**Pure functions**: These functions have two main properties. First, they always produce the same output for the same arguments irrespective of anything else. Secondly, they have no side-effects. i.e. they do not modify any arguments or local/global variable
-or input/output streams. The latter property is called *immutability*. The pure function's only result is the value it returns. They are deterministic. Programs done using functional programming are easy to debug because they have no side-effects or hidden I/O. Pure functions alsoì make it easier to write parralel/concurrent applications. When code is written in this style, a smart compiler can do many things- it can parallelize the instructions, wait to evaluate results until needed and memorize the results since the results never change as long as the input doesn't change. Here is a simple example of a pure funtion in Python:
+**Pure functions**: These functions have two main properties. First, they always produce the same output for the same arguments irrespective of anything else. Secondly, they have no side effects. i.e. they do not modify any arguments or local/global variables
+or input/output streams. The latter property is called *immutability*. The pure function's only result is the value it returns. They are deterministic. Programs done using functional programming are easy to debug because they have no side effects or hidden I/O. Pure functions also make it easier to write parallel/concurrent applications. When code is written in this style, a smart compiler can do many things- it can parallelize the instructions, wait to evaluate results until needed and memorize the results since the results never change as long as the input doesn't change. Here is a simple example of a pure function in Python:
 
 ```python
 def sum(x ,y): # sum is a function taking x and y as arguments
     return x + y  # returns x + y without changing the value
  ```
 
-**Recursion**: There are no "for" or  "while" loops in pure functional programming languages. Iteration is implemented through recursion. Recursive functions repeatedly call themselves until a base case is reached. Here is a simple example of a recursice
+**Recursion**: There are no "for" or  "while" loops in pure functional programming languages. Iteration is implemented through recursion. Recursive functions repeatedly call themselves until a base case is reached. Here is a simple example of a recursion
 function in C:
 
 ```c
@@ -453,11 +453,11 @@ int fib(n) {
 }
  ```
 **Referential transparency**: In functional programs, variables once defined do not change their value throughout the program.
-Functional programs do not have assignment statements. If we have to store some value, we define a new variable instead. This elimimates any chance of side-effects because any variable can be replaced with its actual value at any point of the execution. The state of any varaible is constant at any instant. Example:
+Functional programs do not have assignment statements. If we have to store some value, we define a new variable instead. This eliminates any chance of side effects because any variable can be replaced with its actual value at any point of the execution. The state of any variable is constant at any instant. Example:
  
 ```bash
-x = x + 1 # this changed the value assigned to the varable x
-         # therefore, the expression is NOT referentially transparent
+x = x + 1 # this changed the value assigned to the variable x
+         # Therefore, the expression is NOT referentially transparent
 ```
 
 **Functions are first-class and can be higher order**: First class functions are treated as first-class variables. The first class variables can be passed to functions as parameters, can be returned from functions or stored in data structures.
@@ -474,7 +474,7 @@ A combination of function applications may be defined using a LISP form called *
            (t (filter (cdr list-of-elements)
                        test))))
    ```
-  The function **filter** applies the test to the first element of the list. If the test returns non-nil, it conses the element onto the resul of filter applied to the cdr of the list; otherwise, it just returns the filtered cdr. This function may be used with different predicates passed in as parameters to perform a variety of filtering tasks:
+  The function **filter** applies the test to the first element of the list. If the test returns non-nil, it conses the element onto the result of filter applied to the cdr of the list; otherwise, it just returns the filtered cdr. This function may be used with different predicates passed in as parameters to perform a variety of filtering tasks:
 
 ```Lisp
     > (filter '(1 3 -9 5 -2 -7 6) #'plusp)   ; filter out all negative numbers 
@@ -488,8 +488,8 @@ A combination of function applications may be defined using a LISP form called *
 
    and so on.
 
-**Variables are immutable**: In functional programming, we can't modify a variable after it's beem initialized.
-We can create new variables- but we can't modify existing variable, and this really helps to maintain state throughout the runtime of a program. Once we create a variable ans set its value, we can have full confidence knowing that the value of that variable will never change.
+**Variables are immutable**: In functional programming, we can't modify a variable after it's been initialized.
+We can create new variables- but we can't modify existing variables, and this really helps to maintain the state throughout the runtime of a program. Once we create a variable and set its value, we can have full confidence knowing that the value of that variable will never change.
 
 ## [Operating Systems](Operating%20Systems/readme.md)
 An operating system (or OS for short) acts as an intermediary between a computer user and computer hardware. The purpose of an operating system is to provide an environment in which a user can execute programs conveniently and efficiently.
@@ -569,15 +569,15 @@ problem at hand.
 
 ### Major functionalities of an OS
 - **Resource Management**: When parallel accessing happens in the OS, it means when multiple users are accessing the system, the OS works as a Resource Manager. Its responsibility is to provide hardware to the user. It decreases the load in the system.
-- **Process Management**: It includes various tasks like scheduling and termination of the process. OS manages various tasks at a time. Here CPU Scheduling happens means all the tasks would be done by the many algorithms that use for scheduling.
-- **Storage Management**: The file system mechanism used for the management of the storage. NIFS, CFS, CIFS, NFS, etc. are some file systems. All the data is stored in various tracks of Hard disks that are all managed by the storage manager. It included Hard Disk.
+- **Process Management**: It includes various tasks like scheduling and termination of the process. OS manages various tasks at a time. Here CPU Scheduling happens means all the tasks would be done by the many algorithms that are used for scheduling.
+- **Storage Management**: The file system mechanism used for the management of the storage. NIFS, CFS, CIFS, NFS, etc. are some file systems. All the data is stored in various tracks of Hard disks that are all managed by the storage manager. It included a Hard Disk.
 - **Memory Management**: Refers to the management of primary memory. The operating system has to keep track of how much memory has been used and by whom. It has to decide which process needs memory space and how much. OS also has to allocate and deallocate the memory space.
 - **Security/Privacy Management**: Privacy is also provided by the Operating system utilizing passwords so that unauthorized applications can't access programs or data. For example, Windows uses **_Kerberos_** authentication to prevent unauthorized access to data.
 
 ### Types of Operating Systems
 - **Mainframe OS**:
 At the high end are the operating systems for mainframes, those room-sized
-computers still found in major corporate data centers. These computers differ from
+computers still found in major corporate data centres. These computers differ from
 personal computers in terms of their I/O capacity. A mainframe with 1000 disks
 and millions of gigabytes of data is not unusual; a personal computer with these
 specifications would be the envy of its friends. Mainframes are also making some-
@@ -592,8 +592,7 @@ One level down is the server operating systems. They run on servers, which
 are either very large personal computers, workstations, or even mainframes. They
 serve multiple users at once over a network and allow the users to share hardware
 and software resources. Servers can provide print service, file service, or Web service. 
-Internet providers run many server machines to support their customers
-, and Websites use servers to store Web pages and handle incoming requests.
+Internet providers run many server machines to support their customers, and Websites use servers to store Web pages and handle incoming requests.
 Typical server operating systems are Solaris, FreeBSD, Linux, and Windows Server
 201x.
 
@@ -638,7 +637,7 @@ These issues must be handled by the (usually extremely primitive) operating syst
 ## [Memory and Storage](Memory%20and%20Storage/readme.md)
 
 ### Memory
-The term _memory_ refers to the component within your computer allowing short-term data access. You may recognize this component as DRAM or dynamic random-access memory. Your computer performs many operations by accessing data stored in its short-term memory. Some examples of such operations include editing a document, loading applications, and browsing the Internet. The speed and performance of your system depend on the amount of memory that is installed on your computer.
+The term _memory_ refers to the component within your computer that allows short-term data access. You may recognize this component as DRAM or dynamic random-access memory. Your computer performs many operations by accessing data stored in its short-term memory. Some examples of such operations include editing a document, loading applications, and browsing the Internet. The speed and performance of your system depend on the amount of memory that is installed on your computer.
 
 If you have a desk and a filing cabinet, the desk represents your computer's memory. Items you need to use immediately are kept on your desk for easy access. However, not much can be stored on a desk due to its size limitations.
 
@@ -757,7 +756,7 @@ Machine learning is the practice of teaching a computer to learn. The concept us
 ### There are three subcategories of machine learning:
 
 ### Supervised machine learning 
-In this, machine learning models are trained with labeled data sets, which allow the models to learn and grow more accurately over time. For example, an algorithm would be trained with pictures of dogs and other things, all labeled by humans, and the machine would learn ways to identify pictures of dogs on its own. Supervised machine learning is the most common type used today.
+In this, machine learning models are trained with labelled data sets, which allow the models to learn and grow more accurately over time. For example, an algorithm would be trained with pictures of dogs and other things, all labelled by humans, and the machine would learn ways to identify pictures of dogs on its own. Supervised machine learning is the most common type used today.
 
 Practical applications of Supervised Learning – 
 1. **Bioinformatics:** Bioinformatics is the study of how individuals retain biological knowledge such as fingerprints, eye texture, earlobes, and so on. Mobile phones are now clever enough to comprehend our biological data and then verify us to increase system security.
@@ -769,7 +768,7 @@ Practical applications of Supervised Learning –
 In Unsupervised machine learning, a program looks for patterns in unlabeled data. Unsupervised machine learning can find patterns or trends that people aren't explicitly looking for. For example, an unsupervised machine learning program could look through online sales data and identify different types of clients making purchases.
 
 Practical applications of unsupervised Learning
-1. **Clustering:** Clustering is the process of categorizing data into separate groups. When we don't know all of the details about the clusters, we can utilize unsupervised learning to cluster them. Unsupervised learning is used to analyze and organize data that doesn't have pre-labeled classes or class properties. Clustering can help firms handle their data more effectively.
+1. **Clustering:** Clustering is the process of categorizing data into separate groups. When we don't know all of the details about the clusters, we can utilize unsupervised learning to cluster them. Unsupervised learning is used to analyze and organize data that doesn't have pre-labelled classes or class properties. Clustering can help firms handle their data more effectively.
 Suppose you have a YouTube channel. You may have a lot of information on your subscribers. If you want to find similar subscribers, you would need to use a clustering technique.
 2. **Visualization:** The process of making diagrams, photos, graphs, charts, and so on to present information is known as visualization. Unsupervised machine learning can be used to implement this strategy.
 Suppose you are a cricket coach with information regarding your team's performance in a tournament. You might wish to quickly locate all of the match statistics. You can pass the unlabeled and complicated data to a visualization algorithm.
@@ -777,10 +776,10 @@ Suppose you are a cricket coach with information regarding your team's performan
 Credit card fraud detection is a good illustration of this. This issue is now being addressed utilizing unsupervised machine learning anomaly detection approaches. To avoid fraud, the system identifies unexpected credit card transactions.
 
 ### Semi-supervised machine learning
-The disadvantage of supervised learning is that it requires hand-labeling by ML specialists or data scientists and requires a high cost to process. Unsupervised learning also has a limited spectrum for its applications. To overcome these drawbacks of supervised learning and unsupervised learning algorithms, the concept of Semi-supervised learning is introduced. Typically, this combination contains a very small amount of labeled data and a large amount of unlabelled data. The basic procedure involved is that first, the programmer will cluster similar data using an unsupervised learning algorithm and then use the existing labeled data to label the rest of the unlabelled data.
+The disadvantage of supervised learning is that it requires hand-labelling by ML specialists or data scientists and requires a high cost to process. Unsupervised learning also has a limited spectrum for its applications. To overcome these drawbacks of supervised learning and unsupervised learning algorithms, the concept of Semi-supervised learning is introduced. Typically, this combination contains a very small amount of labelled data and a large amount of unlabelled data. The basic procedure involved is that first, the programmer will cluster similar data using an unsupervised learning algorithm and then use the existing labelled data to label the rest of the unlabelled data.
 
 Practical applications of Semi-Supervised Learning – 
-1. **Speech Analysis:** Since labeling audio files is a very intensive task, Semi-Supervised learning is a very natural approach to solve this problem.
+1. **Speech Analysis:** Since labelling audio files is a very intensive task, Semi-Supervised learning is a very natural approach to solve this problem.
 2. **Internet Content:** Classification: Labeling each webpage is an impractical and unfeasible process and thus uses Semi-Supervised learning algorithms. Even the Google search algorithm uses a variant of Semi-Supervised learning to rank the relevance of a webpage for a given query.
 3. **Protein Sequence Classification:** Since DNA strands are typically very large, the rise of Semi-Supervised learning has been imminent in this field.
 
@@ -792,7 +791,7 @@ Practical applications of Reinforcement Learning -
    e.g. Google Cloud AutoML, Facebook Horizon, Recommendation, advertisement, search 
 2. **Autonomous Driving**
 3. **Business Management** 
-   e.g. solving the vehicle routing problem, fraudulent behavior in e-commerce, Concurrent reinforcement learning from customer interactions
+   e.g. solving the vehicle routing problem, fraudulent behaviour in e-commerce, Concurrent reinforcement learning from customer interactions
 4. **Recommender systems**
    e.g. for search, recommendation, and online advertising
    
@@ -805,20 +804,20 @@ Natural language processing is a field of machine learning in which machines lea
 Practical applications of NLP:
 1. **Question Answering:** Question Answering focuses on building systems that automatically answer the questions asked by humans in a natural language. 
 2. **Spam Detection:** Spam detection is used to detect unwanted e-mails getting to a user's inbox.
-3. **Sentiment Analysis:** Sentiment Analysis is also known as opinion mining. It is used on the web to analyze the attitude, behavior, and emotional state of the sender. This application is implemented through a combination of NLP (Natural Language Processing) and statistics by assigning the values to the text (positive, negative, or natural) and identifying the mood of the context (happy, sad, angry, etc.)
+3. **Sentiment Analysis:** Sentiment Analysis is also known as opinion mining. It is used on the web to analyze the attitude, behaviour, and emotional state of the sender. This application is implemented through a combination of NLP (Natural Language Processing) and statistics by assigning the values to the text (positive, negative, or natural) and identifying the mood of the context (happy, sad, angry, etc.)
 4. **Machine Translation:** Machine translation is used to translate text or speech from one natural language to another natural language. e.g. Google Translate
 5. **Spelling correction:** Microsoft Corporation provides word processor software like MS-word and PowerPoint for spelling correction.
 
 ### Neural networks
 
-Neural networks are a commonly used, specific class of machine learning algorithms. Artificial neural networks are modeled on the human brain, in which thousands or millions of processing nodes are interconnected and organized into layers.
+Neural networks are a commonly used, specific class of machine learning algorithms. Artificial neural networks are modelled on the human brain, in which thousands or millions of processing nodes are interconnected and organized into layers.
 
 In an artificial neural network, cells, or nodes, are connected, with each cell processing inputs and producing an output that is sent to other neurons. Labeled data moves through the nodes or cells, with each cell performing a different function. In a neural network trained to identify whether a picture contains a cat or not, the different nodes would assess the information and arrive at an output that indicates whether a picture features a cat.
 
 Practical applications of Neural Networks:
 1. **Stock Market Prediction:** To make a successful stock prediction in real-time, a Multilayer Perceptron MLP (class of feedforward artificial intelligence algorithm) is employed. MLP comprises multiple layers of nodes, and each of these layers is fully connected to the succeeding nodes. Stock's past performances, annual returns, and non-profit ratios are considered for building the MLP model.
-2. **Social Media:** Multi-layered Perceptrons forecast social media trends. It uses different training methods like Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Mean Squared Error (MSE). MLP takes into consideration several factors like the user's favorite Instagram pages, bookmarked choices, etc. Post analysis of individuals' behaviors via social media networks, the data can be linked to people's spending habits. MLP ANN is used to mine data from social media applications.  
-3. **Aerospace:** Aerospace Engineering is an expansive term that covers developments in spacecraft and aircraft. Fault diagnosis, high-performance auto-piloting, securing aircraft control systems, and modeling key dynamic simulations are some of the key areas that neural networks have taken over. Time delay Neural networks can be employed for modeling non-linear time dynamic systems.
+2. **Social Media:** Multi-layered Perceptrons forecast social media trends. It uses different training methods like Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Mean Squared Error (MSE). MLP takes into consideration several factors like the user's favourite Instagram pages, bookmarked choices, etc. Post analysis of individuals' behaviours via social media networks, the data can be linked to people's spending habits. MLP ANN is used to mine data from social media applications.  
+3. **Aerospace:** Aerospace Engineering is an expansive term that covers developments in spacecraft and aircraft. Fault diagnosis, high-performance auto-piloting, securing aircraft control systems, and modelling key dynamic simulations are some of the key areas that neural networks have taken over. Time delay Neural networks can be employed for modelling non-linear time dynamic systems.
 
 ### Deep learning
 
@@ -827,7 +826,7 @@ Deep learning networks are neural networks with many layers. The layered network
 Practical applications of Deep Learning:
 1. **Automatic Text Generation –** Corpus of text is learned, and from this model, new text is generated, word-by-word or character-by-character. Then this model is capable of learning how to spell, punctuate, and form sentences, or it may even capture the style.
 2. **Healthcare –** Helps in diagnosing various diseases and treating them.
-3. **Automatic Machine Translation –** Certain words, sentences, or phrases in one language is transformed into another language (Deep Learning is achieving top results in the areas of text and images).
+3. **Automatic Machine Translation –** Certain words, sentences, or phrases in one language are transformed into another language (Deep Learning is achieving top results in the areas of text and images).
 4. **Image Recognition –** Recognizes and identifies peoples and objects in images as well as understands content and context. This area is already being used in Gaming, Retail, Tourism, etc.
 5. **Predicting Earthquakes –** Teaches a computer to perform viscoelastic computations, which are used in predicting earthquakes.
 
@@ -860,7 +859,7 @@ Computer networks may be classified by many criteria, including the transmission
 
 ### Types of networking
 There are two primary types of computer networking:
-- Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fiber is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
+- Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fibre is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
 - Wireless networking: Wireless networking uses radio waves to transport data over the air, enabling devices to be connected to a network without any cabling. Wireless LANs are the most well-known and widely deployed form of wireless networking. Alternatives include microwave, satellite, cellular, and Bluetooth, among others.
 ## OSI MODEL
 OSI stands for **Open Systems Interconnection**. It was developed by ISO – ‘**International Organization for Standardization**‘in the year 1984. It is a 7-layer architecture with each layer having specific functionality to perform. All these seven layers work collaboratively to transmit the data from one person to another across the globe. 
@@ -886,7 +885,7 @@ The Data Link Layer is divided into two sublayers:
 1. Logical Link Control (LLC)
 2. Media Access Control (MAC)
 
-The packet received from the Network layer is further divided into frames depending on the frame size of the NIC(Network Interface Card). DLL also encapsulates Sender and Receiver’s MAC address in the header. 
+The packet received from the Network layer is further divided into frames depending on the frame size of the NIC(Network Interface Card). DLL also encapsulates the Sender and Receiver’s MAC address in the header. 
 
 The Receiver’s MAC address is obtained by placing an ARP(Address Resolution Protocol) request onto the wire asking, “Who has that IP address?” and the destination host will reply with its MAC address.  
 
@@ -897,7 +896,7 @@ The functions of the Data Link layer are :
 1.  **Framing:** Framing is a function of the data link layer. It provides a way for a sender to transmit a set of bits that are meaningful to the receiver. This can be accomplished by attaching special bit patterns to the beginning and end of the frame.
 2.  **Physical Addressing:** After creating frames, the Data link layer adds physical addresses (MAC addresses) of the sender and/or receiver in the header of each frame.
 3.  **Error control:** Data link layer provides the mechanism of error control in which it detects and retransmits damaged or lost frames.
-4.  **Flow Control:** The data rate must be constant on both sides, or else the data may get corrupted; thus, flow control coordinates the amount of data that can be sent before receiving an acknowledgment.
+4.  **Flow Control:** The data rate must be constant on both sides or else the data may get corrupted; thus, flow control coordinates the amount of data that can be sent before receiving an acknowledgement.
 5.  **Access control:** When a single communication channel is shared by multiple devices, the MAC sub-layer of the data link layer helps to determine which device has control over the channel at a given time.
 
 #### **3\. Network Layer (Layer 3):**

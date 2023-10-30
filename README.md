@@ -19,7 +19,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-139-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-140-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1240,6 +1240,7 @@ Closely related fields in theoretical computer science are the analysis of algor
     </tr>
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/aslezar"><img src="https://avatars.githubusercontent.com/u/97354675?v=4?s=50" width="50px;" alt="aslezar"/><br /><sub><b>aslezar</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=aslezar" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://yashsajwan.netlify.app/"><img src="https://avatars.githubusercontent.com/u/52412969?v=4?s=50" width="50px;" alt="Yash Sajwan"/><br /><sub><b>Yash Sajwan</b></sub></a><br /><a href="#content-Yash-Sajwan24" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

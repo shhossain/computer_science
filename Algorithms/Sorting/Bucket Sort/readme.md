@@ -6,6 +6,7 @@ Bucket sort is a sorting algorithm that works by distributing the elements of an
 |------|---------|-------|--------|--------|
 | log(n+k)  | log(n+k)     | log(n^2)   | n      | Yes     |
 
+
 ## Pseudo Code
 ```
 BucketSort(arr, n):

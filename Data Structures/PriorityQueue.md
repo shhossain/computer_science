@@ -61,8 +61,6 @@ Below is an example of implementing a min-priority queue using C++'s Standard Te
 
 > Code for Insertion, Deletion, Peek :
 ```cpp
-Code:
-
 #include <iostream>
 #include <queue>
 

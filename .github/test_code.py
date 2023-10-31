@@ -173,7 +173,8 @@ class Code:
             # change all header to <bits/stdc++.h>
             self.code = re.sub(r'#include\s+<\w+>',
                                '#include <bits/stdc++.h>', self.code)
-            # change all header to <bits/stdc++.h>
+            if not self.code.startswith('#include <bits/stdc++.h>'):
+                self.code = '#include <bits/stdc++.h>\n' + self.code
 
     def get_command(self):
         if sys.platform == 'win32':
@@ -376,122 +377,106 @@ def test_all(files: list):
 
 # compare files with hash
 
-class CompareGitRepo:
-    def __init__(self, local_repo_path, remote_repo_url) -> None:
-        self.local_repo_path = local_repo_path
-        self.remote_repo_url = remote_repo_url
-        self.repo_name = remote_repo_url.split('/')[-1]
-        self.local_files_hash = {}
-        self.remote_files_hash = {}
-        self.ignore_files = [".gitignore", ".git", ".github", "temp"]
-        self.clone_repo()
+# class CompareGitRepo:
+#     def __init__(self, local_repo_path, remote_repo_url) -> None:
+#         self.local_repo_path = local_repo_path
+#         self.remote_repo_url = remote_repo_url
+#         self.repo_name = remote_repo_url.split('/')[-1]
+#         self.local_files_hash = {}
+#         self.remote_files_hash = {}
+#         self.ignore_files = [".gitignore", ".git", ".github", "temp"]
+#         self.clone_repo()
 
-    def clone_repo(self):
-        if not os.path.exists("temp"):
-            Log.info("Cloning remote repo")
-            os.mkdir("temp")
-            os.chdir("temp")
-            os.system(f"git clone {self.remote_repo_url}")
-            os.chdir("..")
+#     def clone_repo(self):
+#         if not os.path.exists("temp"):
+#             Log.info("Cloning remote repo")
+#             os.mkdir("temp")
+#             os.chdir("temp")
+#             os.system(f"git clone {self.remote_repo_url}")
+#             os.chdir("..")
     
-    def get_files(self, path):
-        files = []
-        for root, dirs, file in os.walk(path):
-            dirs[:] = [d for d in dirs if d not in self.ignore_files]
-            for f in file:
-                files.append(os.path.join(root, f))
-        return files
+#     def get_files(self, path):
+#         files = []
+#         for root, dirs, file in os.walk(path):
+#             dirs[:] = [d for d in dirs if d not in self.ignore_files]
+#             for f in file:
+#                 files.append(os.path.join(root, f))
+#         return files
 
-    def get_local_files(self) -> list:
-        # files = []
-        # for root, dirs, file in os.walk(self.local_repo_path):
-        #     dirs[:] = [d for d in dirs if d not in self.ignore_files]
-        #     for f in file:
-        #         if not f.endswith('.md'):
-        #             continue
-        #         files.append(os.path.join(root, f))
+#     def get_local_files(self) -> list:
+#         return self.get_files(self.local_repo_path)
 
-        return self.get_files(self.local_repo_path)
+#     def get_remote_files(self) -> list:
+#         return self.get_files("temp")
 
-    def get_remote_files(self) -> list:
-        # files = []
-        # for root, dirs, file in os.walk("temp"):
-        #     dirs[:] = [d for d in dirs if d not in self.ignore_files]
-        #     for f in file:
-        #         if not f.endswith('.md'):
-        #             continue
-        #         files.append(os.path.join(root, f))
-        return self.get_files("temp")
+#     def compare(self):
+#         local_files = self.get_local_files()
+#         remote_files = self.get_remote_files()
 
-    def compare(self):
-        local_files = self.get_local_files()
-        remote_files = self.get_remote_files()
+#         threads = []
+#         for file in local_files:
+#             t = threading.Thread(target=self.get_hash, args=(file, "local"))
+#             t.start()
+#             threads.append(t)
 
-        # print("Local files", local_files)
-        # print("Remote files", remote_files)
+#         for file in remote_files:
+#             t = threading.Thread(target=self.get_hash, args=(file, "remote"))
+#             t.start()
+#             threads.append(t)
 
-        threads = []
-        for file in local_files:
-            t = threading.Thread(target=self.get_hash, args=(file, "local"))
-            t.start()
-            threads.append(t)
+#         for t in threads:
+#             t.join()
 
-        for file in remote_files:
-            t = threading.Thread(target=self.get_hash, args=(file, "remote"))
-            t.start()
-            threads.append(t)
+#         modified_files = []
+#         new_files = []
 
-        for t in threads:
-            t.join()
+#         # get common files using set intersection
+#         common_files = set(self.local_files_hash.keys()).intersection(
+#             set(self.remote_files_hash.keys()))
 
-        # print("local", self.local_files_hash.keys())
-        # print("remote", self.remote_files_hash.keys())
+#         # get modified files
+#         for file in common_files:
+#             if self.local_files_hash[file] != self.remote_files_hash[file]:
+#                 modified_files.append(file)
 
-        modified_files = []
-        new_files = []
+#         # get new files that are in local but not in remote
+#         for file in self.local_files_hash.keys():
+#             if not file in common_files:
+#                 new_files.append(file)
 
-        # get common files using set intersection
-        common_files = set(self.local_files_hash.keys()).intersection(
-            set(self.remote_files_hash.keys()))
+#         Log.info("Files modified")
+#         for mf in modified_files:
+#             Log.warn("Modified file ", mf)
 
-        # print("common files", common_files)
+#         for nf in new_files:
+#             Log.warn("New file      ", nf)
 
-        # get modified files
-        for file in common_files:
-            if self.local_files_hash[file] != self.remote_files_hash[file]:
-                modified_files.append(file)
+#         return modified_files + new_files
 
-        # get new files that are in local but not in remote
-        for file in self.local_files_hash.keys():
-            if not file in common_files:
-                new_files.append(file)
+#     def get_file_name(self, name):
+#         return name.split(self.repo_name)[-1]
 
-        Log.info("Files modified")
-        for mf in modified_files:
-            Log.warn("Modified file ", mf)
-
-        for nf in new_files:
-            Log.warn("New file      ", nf)
-
-        return modified_files + new_files
-
-    def get_file_name(self, name):
-        return name.split(self.repo_name)[-1]
-
-    def get_hash(self, file, repo):
-        with open(file, "rb") as f:
-            file_hash = hashlib.sha256(f.read()).hexdigest()
-            if repo == "local":
-                f = self.get_file_name(file)
-                self.local_files_hash[f] = file_hash
-            else:
-                f = self.get_file_name(file)
-                self.remote_files_hash[f] = file_hash
+#     def get_hash(self, file, repo):
+#         with open(file, "rb") as f:
+#             file_hash = hashlib.sha256(f.read()).hexdigest()
+#             if repo == "local":
+#                 f = self.get_file_name(file)
+#                 self.local_files_hash[f] = file_hash
+#             else:
+#                 f = self.get_file_name(file)
+#                 self.remote_files_hash[f] = file_hash
 
 
 if __name__ == "__main__":
     curent_dir = os.getcwd()
-    cm = CompareGitRepo(
-        curent_dir, "https://github.com/shhossain/computer_science")
-    modified_files = cm.compare()
+    cmd = "git diff --name-only HEAD HEAD~1"
+    process = subprocess.Popen(
+        cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    stdout, stderr = process.communicate()
+    modified_files = stdout.decode().split('\n')
+    print("Modified files:")
+    for i in range(len(modified_files)):
+        modified_files[i] = modified_files[i].strip()
+        print(modified_files[i])
+    modified_files = [os.path.join(curent_dir, x) for x in modified_files]
     test_all(modified_files)

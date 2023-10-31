@@ -3,7 +3,7 @@ It is a data structure that stores all the prefixes of a certain string after th
 ever exists in the string or not by simply matching with the precomputed suffixes.
 
 ## Complete Code
-```
+```py
 class SuffixTrieNode:
     def __init__(self):
         self.children = [None] * 256

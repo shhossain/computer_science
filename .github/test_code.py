@@ -15,6 +15,19 @@ import hashlib
 # chdir to root of repo
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+EXTENTIONS = {
+    "py": "python",
+    "cpp": "c++",
+    "c": "c",
+    "java": "java",
+    "js": "javascript",
+    "ts": "typescript",
+    "go": "go",
+    "php": "php",
+    "rb": "ruby",
+    "sh": "bash",
+}
+
 SUPPORTED_LANGUAGE = {
     "python": {
         "extension": ".py",
@@ -84,12 +97,9 @@ def get_random_file_name(extension):
     rs = str(uuid.uuid4()).split("-")[0]
     return rs + extension
 
-# class TugOfWar
-# {
-
 
 def java_file_name(code):
-    return re.search(r'class\s+(\w+)', code).group(1) + ".java"
+    return re.search(r'class\s+(\w+)', code).group(1) + ".java" # type: ignore
 
 
 errors = []
@@ -253,10 +263,10 @@ def fix_path(path):
 
 
 class Test:
-    def __init__(self, readme_path) -> None:
-        self.readme_path = fix_path(readme_path)
-        self.codes = self.get_codes()
-        Log.debug("Testing code in ", readme_path)
+    def __init__(self, path) -> None:
+        self.readme_path = fix_path(path)
+        self.codes = self.get_codes() if path.endswith('.md') else self.get_code(path)
+        Log.debug("Testing code in ", path)
 
     def get_codes(self):
         codes = {}  # key: language, value: [(code,line_number)]
@@ -277,27 +287,27 @@ class Test:
 
         Log.debug(f"{self.readme_path} | Codes: {len(codes)}")
         return codes
-
-    # def test(self):
-    #     for language in self.codes:
-    #         for code, line_number in self.codes[language]:
-    #             Log.info(f"Testing code in line {line_number}")
-    #             try:
-    #                 Code(code, language).run()
-    #             except LANGUAGE_NOT_SUPPORTED as e:
-    #                 raise e
-    #             except CODE_EXECUTION_ERROR as e:
-    #                 Log.error("Code execution error in file " +
-    #                           self.readme_path + " line " + str(line_number))
-    #                 raise e
-    #             Log.info("Code executed successfully")
+    
+    def get_code(self, path):
+        with open(path, 'r', encoding='utf-8') as f:
+            code = f.read()
+        
+        ex = path.split('.')[-1]
+        lang = ex
+        if ex in EXTENTIONS:
+            lang = EXTENTIONS[ex]
+        
+        return {
+            lang: [(code, 1)]
+        }
+        
+        
 
     def threaded_test(self):
         threads = []
         for language in self.codes:
             for code, line_number in self.codes[language]:
-                Log.info(
-                    f"{self.readme_path} | Testing {language} code in line {line_number}")
+                Log.info(f"{self.readme_path} | Testing {language} code in line {line_number}")
                 t = threading.Thread(target=self.test_code, args=(
                     code, language, line_number))
                 threads.append(t)
@@ -336,30 +346,10 @@ class Test:
         # self.normal_test()
 
 
-# if __name__ == "__main__":
-#     if len(sys.argv) < 2:
-#         Log.error("No file path given")
-#         sys.exit(1)
 
-#     readme_path = sys.argv[1]
-#     if not os.path.exists(readme_path):
-#         Log.error("File path does not exist")
-#         sys.exit(1)
-
-#     try:
-#         Test(readme_path).test()
-#     except LANGUAGE_NOT_SUPPORTED as e:
-#         Log.error(e)
-#         sys.exit(1)
 
 
 def test_all(files: list):
-    # files = []
-    # for root, dirs, file in os.walk('.'):
-    #     for f in file:
-    #         if f.endswith('.md'):
-    #             files.append(os.path.join(root, f))
-
     Log.info(f"Testing {len(files)} files")
     threads = []
     for file in files:
@@ -403,29 +393,35 @@ class CompareGitRepo:
             os.chdir("temp")
             os.system(f"git clone {self.remote_repo_url}")
             os.chdir("..")
+    
+    def get_files(self, path):
+        files = []
+        for root, dirs, file in os.walk(path):
+            dirs[:] = [d for d in dirs if d not in self.ignore_files]
+            for f in file:
+                files.append(os.path.join(root, f))
+        return files
 
     def get_local_files(self) -> list:
-        files = []
-        # all files in local repo except .git, .github, .gitignore, temp
-        for root, dirs, file in os.walk(self.local_repo_path):
-            dirs[:] = [d for d in dirs if d not in self.ignore_files]
-            for f in file:
-                if not f.endswith('.md'):
-                    continue
-                files.append(os.path.join(root, f))
+        # files = []
+        # for root, dirs, file in os.walk(self.local_repo_path):
+        #     dirs[:] = [d for d in dirs if d not in self.ignore_files]
+        #     for f in file:
+        #         if not f.endswith('.md'):
+        #             continue
+        #         files.append(os.path.join(root, f))
 
-        return files
+        return self.get_files(self.local_repo_path)
 
     def get_remote_files(self) -> list:
-        files = []
-        # all files in local repo except .git, .github, .gitignore, temp
-        for root, dirs, file in os.walk("temp"):
-            dirs[:] = [d for d in dirs if d not in self.ignore_files]
-            for f in file:
-                if not f.endswith('.md'):
-                    continue
-                files.append(os.path.join(root, f))
-        return files
+        # files = []
+        # for root, dirs, file in os.walk("temp"):
+        #     dirs[:] = [d for d in dirs if d not in self.ignore_files]
+        #     for f in file:
+        #         if not f.endswith('.md'):
+        #             continue
+        #         files.append(os.path.join(root, f))
+        return self.get_files("temp")
 
     def compare(self):
         local_files = self.get_local_files()

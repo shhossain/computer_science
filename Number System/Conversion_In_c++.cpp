@@ -189,9 +189,6 @@ void hexToDec(string hexVal)
     cout << dec_val << endl;
 }
 
-#include <iostream>
-using namespace std;
-
 // Function to convert binary to octal
 void binToOct(int n)
 {
@@ -228,8 +225,6 @@ void binToOct(int n)
 // Function to convert binary to hexadecimal
 void binToHex(int n)
 {
-    // Convert binary to decimal
-    int decimal = 0, power = 1;
     // Initialize decimal number to 0
     int decimal = 0;
 
@@ -288,8 +283,6 @@ void binToHex(int n)
 // Function to convert octal to binary
 void octToBin(int n)
 {
-    // Initialize variables
-    int decimal = 0, power = 1;
     // Convert octal to decimal
     // The final decimal number.
     int decimal = 0;

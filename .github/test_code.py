@@ -9,6 +9,7 @@ import threading
 import shutil
 import re
 import hashlib
+from glob import glob
 
 
 # this file is in .github\test_code.py
@@ -132,7 +133,12 @@ class Log:
             error_level[0] = max(error_level[0], level)
         else:
             kwargs.pop("threaded", None)
-            print(termcolor.colored(s, 'red'), **kwargs)
+            for m in msg:
+                if isinstance(m, tuple):
+                    for mm in m:
+                        print(termcolor.colored(mm, 'red'), **kwargs)
+                else:
+                    print(termcolor.colored(m, 'red'), **kwargs)
 
     @staticmethod
     def warn(*msg, **kwargs):
@@ -384,6 +390,7 @@ class CompareGitRepo:
         self.repo_name = remote_repo_url.split('/')[-1]
         self.local_files_hash = {}
         self.remote_files_hash = {}
+        self.file_path = {}
         self.ignore_files = [".gitignore", ".git", ".github", "temp"]
         self.clone_repo()
 
@@ -400,36 +407,20 @@ class CompareGitRepo:
         for root, dirs, file in os.walk(path):
             dirs[:] = [d for d in dirs if d not in self.ignore_files]
             for f in file:
-                files.append(os.path.join(root, f))
+                files.append(os.path.abspath(os.path.join(root, f)))
         return files
 
-    def get_local_files(self) -> list:
-        # files = []
-        # for root, dirs, file in os.walk(self.local_repo_path):
-        #     dirs[:] = [d for d in dirs if d not in self.ignore_files]
-        #     for f in file:
-        #         if not f.endswith('.md'):
-        #             continue
-        #         files.append(os.path.join(root, f))
+        
 
+    def get_local_files(self) -> list:
         return self.get_files(self.local_repo_path)
 
     def get_remote_files(self) -> list:
-        # files = []
-        # for root, dirs, file in os.walk("temp"):
-        #     dirs[:] = [d for d in dirs if d not in self.ignore_files]
-        #     for f in file:
-        #         if not f.endswith('.md'):
-        #             continue
-        #         files.append(os.path.join(root, f))
         return self.get_files(os.path.join("temp", self.repo_name))
 
     def compare(self):
         local_files = self.get_local_files()
         remote_files = self.get_remote_files()
-
-        # print("Local files", local_files)
-        # print("Remote files", remote_files)
 
         threads = []
         for file in local_files:
@@ -460,12 +451,12 @@ class CompareGitRepo:
         # get modified files
         for file in common_files:
             if self.local_files_hash[file] != self.remote_files_hash[file]:
-                modified_files.append(file)
+                modified_files.append(self.file_path[file])
 
         # get new files that are in local but not in remote
         for file in self.local_files_hash.keys():
             if not file in common_files:
-                new_files.append(file)
+                new_files.append(self.file_path[file])
 
         Log.info("Files modified")
         for mf in modified_files:
@@ -485,6 +476,7 @@ class CompareGitRepo:
             if repo == "local":
                 f = self.get_file_name(file)
                 self.local_files_hash[f] = file_hash
+                self.file_path[f] = file
             else:
                 f = self.get_file_name(file)
                 self.remote_files_hash[f] = file_hash

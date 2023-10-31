@@ -1,4 +1,4 @@
-'''
+"""
 Author: SK Jiyad
 Github: https://github.com/ZRX-SIGMA
 Date: 2021-10-09
@@ -26,7 +26,8 @@ The program can also be imported as a module and the functions can be used in ot
 
 The program can be run from the command line as follows:
 python3 Conversion_In_Python1.py
-'''
+"""
+
 
 # Function to convert decimal to binary
 def decimal_to_binary(decimal):
@@ -34,36 +35,48 @@ def decimal_to_binary(decimal):
         return bin(decimal)
     except (ValueError, TypeError):
         return None
+
+
 # Function to convert decimal to octal
 def decimal_to_octal(decimal):
     try:
         return oct(decimal)
     except (ValueError, TypeError):
         return None
+
+
 # Function to convert decimal to hexadecimal
 def decimal_to_hexadecimal(decimal):
     try:
         return hex(decimal)
     except (ValueError, TypeError):
         return None
+
+
 # Function to convert binary to decimal
 def binary_to_decimal(binary):
     try:
         return int(binary, 2)
     except (ValueError, TypeError):
         return None
+
+
 # Function to convert octal to decimal
 def octal_to_decimal(octal):
     try:
         return int(octal, 8)
     except (ValueError, TypeError):
         return None
+
+
 # Function to convert hexadecimal to decimal
 def hexadecimal_to_decimal(hexadecimal):
     try:
         return int(hexadecimal, 16)
     except (ValueError, TypeError):
         return None
+
+
 # Function to convert binary to octal
 def binary_to_octal(binary):
     try:
@@ -71,6 +84,7 @@ def binary_to_octal(binary):
         return oct(decimal)
     except (ValueError, TypeError):
         return None
+
 
 # Function to convert binary to hexadecimal
 def binary_to_hexadecimal(binary):
@@ -80,6 +94,7 @@ def binary_to_hexadecimal(binary):
     except (ValueError, TypeError):
         return None
 
+
 # Function to convert octal to binary
 def octal_to_binary(octal):
     try:
@@ -87,6 +102,7 @@ def octal_to_binary(octal):
         return bin(decimal)
     except (ValueError, TypeError):
         return None
+
 
 # Function to convert octal to hexadecimal
 def octal_to_hexadecimal(octal):
@@ -96,6 +112,7 @@ def octal_to_hexadecimal(octal):
     except (ValueError, TypeError):
         return None
 
+
 # Function to convert hexadecimal to binary
 def hexadecimal_to_binary(hexadecimal):
     try:
@@ -104,6 +121,7 @@ def hexadecimal_to_binary(hexadecimal):
     except (ValueError, TypeError):
         return None
 
+
 # Function to convert hexadecimal to octal
 def hexadecimal_to_octal(hexadecimal):
     try:
@@ -111,6 +129,7 @@ def hexadecimal_to_octal(hexadecimal):
         return oct(decimal)
     except (ValueError, TypeError):
         return None
+
 
 # Main function for user interaction
 def convert_number():
@@ -177,6 +196,7 @@ def convert_number():
                 print(f"Octal: {result}")
         else:
             print("Invalid choice. Please enter a valid option (0-12).")
+
 
 if __name__ == "__main__":
     convert_number()

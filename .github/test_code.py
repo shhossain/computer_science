@@ -422,7 +422,7 @@ class CompareGitRepo:
         #         if not f.endswith('.md'):
         #             continue
         #         files.append(os.path.join(root, f))
-        return self.get_files("temp")
+        return self.get_files(os.path.join("temp", self.repo_name))
 
     def compare(self):
         local_files = self.get_local_files()

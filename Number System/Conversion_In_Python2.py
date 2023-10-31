@@ -1,4 +1,4 @@
-'''
+"""
 Author: SK Jiyad
 Github: https://github.com/ZRX-SIGMA
 Date: 2023-10-07
@@ -26,7 +26,8 @@ The program can also be imported as a module and the functions can be used in ot
 
 The program can be run from the command line as follows:
 python3 Conversion_In_Python1.py
-'''
+"""
+
 
 # Function to convert decimal to binary
 def decimal_to_binary(decimal):
@@ -41,6 +42,7 @@ def decimal_to_binary(decimal):
     except (ValueError, KeyError, TypeError):
         return None
 
+
 # Function to convert decimal to octal
 def decimal_to_octal(decimal):
     try:
@@ -54,6 +56,7 @@ def decimal_to_octal(decimal):
     except (ValueError, KeyError, TypeError):
         return None
 
+
 # Function to convert decimal to hexadecimal
 def decimal_to_hexadecimal(decimal):
     try:
@@ -65,11 +68,12 @@ def decimal_to_hexadecimal(decimal):
             if remainder < 10:
                 hexadecimal = str(remainder) + hexadecimal
             else:
-                hexadecimal = chr(ord('A') + remainder - 10) + hexadecimal
+                hexadecimal = chr(ord("A") + remainder - 10) + hexadecimal
             decimal = decimal // 16
         return "0x" + hexadecimal
     except (ValueError, KeyError, TypeError):
         return None
+
 
 # Function to convert binary to decimal
 def binary_to_decimal(binary):
@@ -78,7 +82,7 @@ def binary_to_decimal(binary):
             binary = binary[2:]  # Remove '0b' prefix
         decimal = 0
         for digit in binary:
-            if digit not in ('0', '1'):
+            if digit not in ("0", "1"):
                 raise ValueError("Invalid binary digit: {}".format(digit))
             decimal = decimal * 2 + int(digit)
         return decimal
@@ -93,12 +97,13 @@ def octal_to_decimal(octal):
             octal = octal[2:]  # Remove '0o' prefix
         decimal = 0
         for digit in octal:
-            if not '0' <= digit <= '7':
+            if not "0" <= digit <= "7":
                 raise ValueError("Invalid octal digit: {}".format(digit))
             decimal = decimal * 8 + int(digit)
         return decimal
     except ValueError:
         return None
+
 
 # Function to convert hexadecimal to decimal
 def hexadecimal_to_decimal(hexadecimal):
@@ -107,12 +112,13 @@ def hexadecimal_to_decimal(hexadecimal):
             hexadecimal = hexadecimal[2:]  # Remove '0x' prefix
         decimal = 0
         for digit in hexadecimal:
-            if not ('0' <= digit <= '9' or 'A' <= digit <= 'F' or 'a' <= digit <= 'f'):
+            if not ("0" <= digit <= "9" or "A" <= digit <= "F" or "a" <= digit <= "f"):
                 raise ValueError("Invalid hexadecimal digit: {}".format(digit))
             decimal = decimal * 16 + int(digit, 16)
         return decimal
     except ValueError:
         return None
+
 
 # Function to convert binary to octal
 def binary_to_octal(binary):
@@ -121,14 +127,17 @@ def binary_to_octal(binary):
             binary = binary[2:]  # Remove '0b' prefix
         octal = ""
         while len(binary) % 3 != 0:
-            binary = '0' + binary  # Pad with leading zeros to make it a multiple of 3
+            binary = "0" + binary  # Pad with leading zeros to make it a multiple of 3
         for i in range(0, len(binary), 3):
-            octal_digit = binary[i:i + 3]
+            octal_digit = binary[i : i + 3]
             decimal_value = int(octal_digit, 2)
-            octal += str(oct(decimal_value))[2:]  # Convert to octal without the '0o' prefix
+            octal += str(oct(decimal_value))[
+                2:
+            ]  # Convert to octal without the '0o' prefix
         return "0o" + octal
     except ValueError:
         return None
+
 
 # Function to convert binary to hexadecimal
 def binary_to_hexadecimal(binary):
@@ -137,14 +146,17 @@ def binary_to_hexadecimal(binary):
             binary = binary[2:]  # Remove '0b' prefix
         hexadecimal = ""
         while len(binary) % 4 != 0:
-            binary = '0' + binary  # Pad with leading zeros to make it a multiple of 4
+            binary = "0" + binary  # Pad with leading zeros to make it a multiple of 4
         for i in range(0, len(binary), 4):
-            hex_digit = binary[i:i + 4]
+            hex_digit = binary[i : i + 4]
             decimal_value = int(hex_digit, 2)
-            hexadecimal += format(decimal_value, 'X')  # Convert to uppercase hexadecimal
+            hexadecimal += format(
+                decimal_value, "X"
+            )  # Convert to uppercase hexadecimal
         return "0x" + hexadecimal
     except ValueError:
         return None
+
 
 # Function to convert octal to binary
 def octal_to_binary(octal):
@@ -153,12 +165,15 @@ def octal_to_binary(octal):
             octal = octal[2:]  # Remove '0o' prefix
         binary = ""
         for digit in octal:
-            if not '0' <= digit <= '7':
+            if not "0" <= digit <= "7":
                 raise ValueError("Invalid octal digit: {}".format(digit))
-            binary += format(int(digit, 8), '03b')  # Convert to 3-bit binary with leading zeros
+            binary += format(
+                int(digit, 8), "03b"
+            )  # Convert to 3-bit binary with leading zeros
         return "0b" + binary
     except ValueError:
         return None
+
 
 # Function to convert octal to hexadecimal
 def octal_to_hexadecimal(octal):
@@ -167,14 +182,17 @@ def octal_to_hexadecimal(octal):
             octal = octal[2:]  # Remove '0o' prefix
         hexadecimal = ""
         while len(octal) % 3 != 0:
-            octal = '0' + octal  # Pad with leading zeros to make it a multiple of 3
+            octal = "0" + octal  # Pad with leading zeros to make it a multiple of 3
         for i in range(0, len(octal), 3):
-            octal_group = octal[i:i + 3]
+            octal_group = octal[i : i + 3]
             decimal_value = int(octal_group, 8)
-            hexadecimal += format(decimal_value, 'X')  # Convert to uppercase hexadecimal
+            hexadecimal += format(
+                decimal_value, "X"
+            )  # Convert to uppercase hexadecimal
         return "0x" + hexadecimal
     except ValueError:
         return None
+
 
 # Function to convert hexadecimal to binary
 def hexadecimal_to_binary(hexadecimal):
@@ -183,12 +201,15 @@ def hexadecimal_to_binary(hexadecimal):
             hexadecimal = hexadecimal[2:]  # Remove '0x' prefix
         binary = ""
         for digit in hexadecimal:
-            if not ('0' <= digit <= '9' or 'A' <= digit <= 'F' or 'a' <= digit <= 'f'):
+            if not ("0" <= digit <= "9" or "A" <= digit <= "F" or "a" <= digit <= "f"):
                 raise ValueError("Invalid hexadecimal digit: {}".format(digit))
-            binary += format(int(digit, 16), '04b')  # Convert to 4-bit binary with leading zeros
+            binary += format(
+                int(digit, 16), "04b"
+            )  # Convert to 4-bit binary with leading zeros
         return "0b" + binary
     except ValueError:
         return None
+
 
 # Function to convert hexadecimal to octal
 def hexadecimal_to_octal(hexadecimal):
@@ -197,14 +218,17 @@ def hexadecimal_to_octal(hexadecimal):
             hexadecimal = hexadecimal[2:]  # Remove '0x' prefix
         octal = ""
         while len(hexadecimal) % 3 != 0:
-            hexadecimal = '0' + hexadecimal  # Pad with leading zeros to make it a multiple of 3
+            hexadecimal = (
+                "0" + hexadecimal
+            )  # Pad with leading zeros to make it a multiple of 3
         for i in range(0, len(hexadecimal), 3):
-            hexadecimal_group = hexadecimal[i:i + 3]
+            hexadecimal_group = hexadecimal[i : i + 3]
             decimal_value = int(hexadecimal_group, 16)
-            octal += format(decimal_value, 'o')  # Convert to octal
+            octal += format(decimal_value, "o")  # Convert to octal
         return "0o" + octal
     except ValueError:
         return None
+
 
 # Main function for user interaction
 def convert_number():
@@ -271,6 +295,7 @@ def convert_number():
                 print(f"Octal: {result}")
         else:
             print("Invalid choice. Please enter a valid option (0-12).")
+
 
 if __name__ == "__main__":
     convert_number()

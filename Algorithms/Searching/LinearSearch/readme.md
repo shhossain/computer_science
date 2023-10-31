@@ -200,4 +200,3 @@ function linearsearch($arr, int $size, int $x)
     return linearsearch($arr, $size - 1, $x);
 }
 ```
-

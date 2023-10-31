@@ -6,8 +6,13 @@ Swap Sort is also a sorting algorithm, which is not known by many.It has O(n) ti
 |------|---------|-------|--------|--------|
 | n    | n       | n     | 1      | No     |
 
+- The worst-case time complexity of heap sort is O(n).
+- The best-case time complexity of heap sort is O(n).
+- The average case time complexity of heap sort is O(n).
+- The space complexity of heap sort is O(1).
 
-## Sudo Code
+
+## Pseudo Code
 ```
 procedure swapSort( A: nums)
     n = len(nums)

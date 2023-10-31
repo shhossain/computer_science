@@ -6,7 +6,12 @@ Heap Sort is a comparison based sorting technique based on Binary Heap data stru
 |------|---------|-------|--------|--------|
 | nlogn | nlogn     | nlogn   | 1      | No    |
 
-## Sudo Code
+- The worst-case time complexity of heap sort is O(nlogn).
+- The best-case time complexity of heap sort is O(nlogn).
+- The average case time complexity of heap sort is O(nlogn).
+- The space complexity of heap sort is O(1).
+
+## Pseudo Code
 ```
 procedure heapSort( A : list of sortable items )
     n = length(A)

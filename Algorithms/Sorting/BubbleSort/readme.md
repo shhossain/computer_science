@@ -6,7 +6,12 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
 |------|---------|-------|--------|--------|
 | n    | n^2     | n^2   | 1      | Yes    |
 
-## Sudo Code
+- The worst-case time complexity of bubble sort is O(n x n) = O(n^2)
+- The best-case time complexity of bubble sort is O(n).
+- The average case time complexity of bubble sort is O(n/2 x n) = O (n2).
+- The space complexity of bubble sort is O(1).
+
+## Pseudo Code
 ```
 procedure bubbleSort( A : list of sortable items )
     n = length(A)

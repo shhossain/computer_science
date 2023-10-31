@@ -173,7 +173,8 @@ class Code:
             # change all header to <bits/stdc++.h>
             self.code = re.sub(r'#include\s+<\w+>',
                                '#include <bits/stdc++.h>', self.code)
-            # change all header to <bits/stdc++.h>
+            if not self.code.startswith('#include <bits/stdc++.h>'):
+                self.code = '#include <bits/stdc++.h>\n' + self.code
 
     def get_command(self):
         if sys.platform == 'win32':
@@ -263,9 +264,9 @@ def fix_path(path):
 
 
 class Test:
-    def __init__(self, path) -> None:
+    def __init__(self, path:str) -> None:
         self.readme_path = fix_path(path)
-        self.codes = self.get_codes() if path.endswith('.md') else self.get_code(path)
+        self.codes = self.get_codes() if path.lower().endswith('.md') else self.get_code(path)
         Log.debug("Testing code in ", path)
 
     def get_codes(self):
@@ -491,7 +492,6 @@ class CompareGitRepo:
 
 if __name__ == "__main__":
     curent_dir = os.getcwd()
-    cm = CompareGitRepo(
-        curent_dir, "https://github.com/shhossain/computer_science")
+    cm = CompareGitRepo(curent_dir, "https://github.com/shhossain/computer_science")
     modified_files = cm.compare()
     test_all(modified_files)

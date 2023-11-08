@@ -679,213 +679,210 @@ x = x + 1 # 这改变了变量x赋值的值
 3. **异常检测：** 异常检测是发现异常的事物、事件或观察，这些异常通过大大偏离正常数据引发怀疑。在这种情况下，系统被编程为有大量的典型案例。因此，当它检测到一个意外的事件时，它可以判断这是不是一个异常。
 信用卡欺诈检测就是一个很好的例子。这个问题现在正在使用无监督机器学习的异常检测方法来解决。为了防止欺诈，系统会识别出异常的信用卡交易。
 
-### Semi-supervised machine learning
-The disadvantage of supervised learning is that it requires hand-labelling by ML specialists or data scientists and requires a high cost to process. Unsupervised learning also has a limited spectrum for its applications. To overcome these drawbacks of supervised learning and unsupervised learning algorithms, the concept of Semi-supervised learning is introduced. Typically, this combination contains a very small amount of labelled data and a large amount of unlabelled data. The basic procedure involved is that first, the programmer will cluster similar data using an unsupervised learning algorithm and then use the existing labelled data to label the rest of the unlabelled data.
+### 半监督机器学习
+监督式学习的缺点在于，它需要机器学习专家或数据科学家手动标记，处理成本高。无监督学习的应用范围也有限。为了克服监督式学习和无监督学习算法的这些缺点，引入了半监督学习的概念。典型的半监督学习组合包含很少量的标记过的数据和大量的未标记数据。基本的程序是，首先，编程员会使用无监督学习算法将相似的数据进行聚类，然后利用现有的已标记数据对其余未标记的数据进行标记。
 
-Practical applications of Semi-Supervised Learning – 
-1. **Speech Analysis:** Since labelling audio files is a very intensive task, Semi-Supervised learning is a very natural approach to solve this problem.
-2. **Internet Content:** Classification: Labeling each webpage is an impractical and unfeasible process and thus uses Semi-Supervised learning algorithms. Even the Google search algorithm uses a variant of Semi-Supervised learning to rank the relevance of a webpage for a given query.
-3. **Protein Sequence Classification:** Since DNA strands are typically very large, the rise of Semi-Supervised learning has been imminent in this field.
+半监督学习的实际应用 – 
+1. **语音分析：**由于标签化音频文件是一项极其繁重的任务，半监督学习是解决这个问题的理想选择。
+2. **互联网内容分类：**对每个网页进行标签化是一项不切实际和不可行的过程，因此采用了半监督学习算法。甚至谷歌的搜索算法也使用了半监督学习的变种，以评估某个网页对于给定查询的相关性排名。
+3. **蛋白质序列分类：**由于DNA链通常非常长，因此在这个领域，半监督学习的应用已经成为了必然趋势。
 
-### Reinforcement machine learning
-This trains machines through trial and error to take the best action by establishing a reward system. Reinforcement learning can train models to play games or train autonomous vehicles to drive by telling the machine when it made the right decisions, which helps it learn over time what actions it should take.
+### 强化机器学习
+通过建立奖励系统，训练机器通过反复试错来采取最佳行动。强化学习可以通过告诉机器何时做出了正确的决策，训练模型玩游戏或训练自动驾驶车辆驾驶，这有助于机器随着时间的推移学习应该采取的行动。
 
-Practical applications of Reinforcement Learning - 
-1. **Production Systems** 
-   e.g. Google Cloud AutoML, Facebook Horizon, Recommendation, advertisement, search 
-2. **Autonomous Driving**
-3. **Business Management** 
-   e.g. solving the vehicle routing problem, fraudulent behaviour in e-commerce, Concurrent reinforcement learning from customer interactions
-4. **Recommender systems**
-   e.g. for search, recommendation, and online advertising
+强化学习的实际应用 - 
+1. **生产系统**
+   例如：Google Cloud AutoML，Facebook Horizon，推荐系统，广告，搜索 
+2. **自动驾驶**
+3. **商业管理**
+   例如：解决车辆路线问题，电子商务中的欺诈行为，从客户互动中进行并行强化学习
+4. **推荐系统**
+   例如：用于搜索，推荐和在线广告
    
-### Machine learning is also associated with several other artificial intelligence subfields:
+### 机器学习也与其他几个人工智能子领域有关：
 
-### Natural language processing
+### 自然语言处理
 
-Natural language processing is a field of machine learning in which machines learn to understand natural language as spoken and written by humans instead of the data and numbers normally used to program computers. This allows machines to recognize the language, understand it, and respond to it, as well as create new text and translate between languages. Natural language processing enables familiar technology like chatbots and digital assistants like Siri or Alexa.
+自然语言处理是机器学习的一个领域，其中机器学习理解人类口头和书面的自然语言，而不是通常用于编程的数据和数字。这使得机器能够识别语言，理解它，并对其进行响应，以及创建新的文本和在语言之间进行翻译。自然语言处理使像聊天机器人和数字助手（如Siri或Alexa）等熟悉的技术成为可能。
 
-Practical applications of NLP:
-1. **Question Answering:** Question Answering focuses on building systems that automatically answer the questions asked by humans in a natural language. 
-2. **Spam Detection:** Spam detection is used to detect unwanted e-mails getting to a user's inbox.
-3. **Sentiment Analysis:** Sentiment Analysis is also known as opinion mining. It is used on the web to analyze the attitude, behaviour, and emotional state of the sender. This application is implemented through a combination of NLP (Natural Language Processing) and statistics by assigning the values to the text (positive, negative, or natural) and identifying the mood of the context (happy, sad, angry, etc.)
-4. **Machine Translation:** Machine translation is used to translate text or speech from one natural language to another natural language. e.g. Google Translate
-5. **Spelling correction:** Microsoft Corporation provides word processor software like MS-word and PowerPoint for spelling correction.
+自然语言处理的实际应用：
+1. **问答系统：**问答系统专注于建立自动回答人类以自然语言提出的问题的系统。
+2. **垃圾邮件检测：**垃圾邮件检测用于检测用户收件箱中的不必要的邮件。
+3. **情感分析：**情感分析也被称为意见挖掘。它被用于网络上，分析发送者的态度、行为和情绪状态。这个应用通过结合自然语言处理（NLP）和统计，为文本分配值（正面、负面或自然），并识别上下文的情绪（快乐，悲伤，愤怒等）来实现。
+4. **机器翻译：**机器翻译用于将文本或语音从一种自然语言翻译到另一种自然语言。例如：Google翻译
+5. **拼写纠正：**微软公司提供了像MS-word和PowerPoint这样的文字处理器软件，用于拼写纠正。
 
-### Neural networks
+### 神经网络
 
-Neural networks are a commonly used, specific class of machine learning algorithms. Artificial neural networks are modelled on the human brain, in which thousands or millions of processing nodes are interconnected and organized into layers.
+神经网络是一类常用的特定机器学习算法。人工神经网络基于人脑模型，其中成千上万的处理节点相互连接，并组织成层。
 
-In an artificial neural network, cells, or nodes, are connected, with each cell processing inputs and producing an output that is sent to other neurons. Labeled data moves through the nodes or cells, with each cell performing a different function. In a neural network trained to identify whether a picture contains a cat or not, the different nodes would assess the information and arrive at an output that indicates whether a picture features a cat.
+在人工神经网络中，细胞或节点是相互连接的，每个细胞处理输入并产生输出，然后将输出发送给其他神经元。标签数据通过节点或细胞移动，每个细胞执行不同的功能。在一个训练出来的能够识别图片中是否含有猫的神经网络中，不同的节点会评估信息，然后得出一个输出，表明图片中是否有猫。
 
-Practical applications of Neural Networks:
-1. **Stock Market Prediction:** To make a successful stock prediction in real-time, a Multilayer Perceptron MLP (class of feedforward artificial intelligence algorithm) is employed. MLP comprises multiple layers of nodes, and each of these layers is fully connected to the succeeding nodes. Stock's past performances, annual returns, and non-profit ratios are considered for building the MLP model.
-2. **Social Media:** Multi-layered Perceptrons forecast social media trends. It uses different training methods like Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Mean Squared Error (MSE). MLP takes into consideration several factors like the user's favourite Instagram pages, bookmarked choices, etc. Post analysis of individuals' behaviours via social media networks, the data can be linked to people's spending habits. MLP ANN is used to mine data from social media applications.  
-3. **Aerospace:** Aerospace Engineering is an expansive term that covers developments in spacecraft and aircraft. Fault diagnosis, high-performance auto-piloting, securing aircraft control systems, and modelling key dynamic simulations are some of the key areas that neural networks have taken over. Time delay Neural networks can be employed for modelling non-linear time dynamic systems.
+神经网络的实际应用：
+1. **股市预测：**为了实时成功地预测股票行情，我们会使用一种称为多层感知机MLP（一种前馈人工智能算法）的工具。MLP由多层节点组成，每一层都与后续的节点完全连接。在构建MLP模型时，会考虑股票的过去表现、年度回报和非盈利比率等因素。
+2. **社交媒体：**多层感知机可以预测社交媒体的趋势。它使用不同的训练方法，如平均绝对误差（MAE）、均方根误差（RMSE）和均方误差（MSE）。MLP会考虑多个因素，如用户最喜欢的Instagram页面，书签选择等。在通过社交媒体网络分析个人行为后，可以将数据和人们的消费习惯关联起来。MLP人工神经网络用于从社交媒体应用中挖掘数据。
+3. **航天领域：**航天工程是一个包含了航天器和飞机开发的广泛领域。故障诊断、高性能自动驾驶、保护飞机控制系统和建模关键动态模拟是神经网络接管的一些重要领域。时延神经网络可以用于模拟非线性时间动态系统。
+### 深度学习
 
-### Deep learning
+深度学习网络是具有多层的神经网络。分层网络可以处理大量的数据并确定网络中每个链接的“权重” —— 例如，在图像识别系统中，神经网络的某些层可能会检测面部的各个独立特征，如眼睛、鼻子或嘴巴，而另一层则能判断这些特征是否以某种方式出现以表明是一张脸。
 
-Deep learning networks are neural networks with many layers. The layered network can process extensive amounts of data and determine the “weight” of each link in the network — for example, in an image recognition system, some layers of the neural network might detect individual features of a face, like eyes, nose, or mouth, while another layer would be able to tell whether those features appear in a way that indicates a face.  
+深度学习的实际应用：
+1. **自动生成文本 -** 学习文本语料库，然后从这个模型中生成新的文本，逐字或逐字符地生成。然后这个模型能学习如何拼写、标点和形成句子，甚至可能捕获到风格。
+2. **医疗保健 -** 在诊断各种疾病和治疗他们方面有所帮助。
+3. **自动机器翻译 -** 将一种语言中的某些词、句子或短语转换成另一种语言（深度学习在文本和图像领域取得了顶级的结果）。
+4. **图像识别 -** 识别并识别图像中的人和物体，同时理解内容和上下文。这个领域已经在游戏、零售、旅游等领域得到应用。
+5. **预测地震 -** 教计算机执行粘弹性计算，用于预测地震等。
 
-Practical applications of Deep Learning:
-1. **Automatic Text Generation –** Corpus of text is learned, and from this model, new text is generated, word-by-word or character-by-character. Then this model is capable of learning how to spell, punctuate, and form sentences, or it may even capture the style.
-2. **Healthcare –** Helps in diagnosing various diseases and treating them.
-3. **Automatic Machine Translation –** Certain words, sentences, or phrases in one language are transformed into another language (Deep Learning is achieving top results in the areas of text and images).
-4. **Image Recognition –** Recognizes and identifies peoples and objects in images as well as understands content and context. This area is already being used in Gaming, Retail, Tourism, etc.
-5. **Predicting Earthquakes –** Teaches a computer to perform viscoelastic computations, which are used in predicting earthquakes.
-
-## [Web Technology](Web%20Technology/WebTechnology.md#web-tecnology)
-Web Technology refers to the various tools and techniques that are utilized in the process of communication between different types of devices over the Internet. A web browser is used to access web pages. Web browsers can be defined as programs that display text, data, pictures, animation, and video on the Internet. Hyperlinked resources on the World Wide Web can be accessed using software interfaces provided by Web browsers.
-### Web Technology can be classified into the following sections:
-- World Wide Web (WWW)
-The World Wide Web is based on several different technologies: Web browsers, Hypertext Markup Language (HTML), and Hypertext Transfer Protocol (HTTP).
-- Web Browser
-The web browser is an application software to explore www (World Wide Web). It provides an interface between the server and the client and requests to the server for web documents and services.
-- Web Server
-A web server is a program that processes the network requests of the users and serves them with files that create web pages. This exchange takes place using Hypertext Transfer Protocol (HTTP).
-- Web Pages
-A webpage is a digital document that is linked to the World Wide Web and viewable by anyone connected to the Internet who has a web browser.
-- Web Development
-Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the Internet, i.e., websites.
-### Web Development can be classified into two ways:
-### Frontend Development
-The part of a website where the user interacts directly is termed the front end. It is also referred to as the ‘client side’ of the application.
-### Backend Development
-The backend is the server side of a website. It is part of the website that users cannot see and interact with. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
+## [网络技术](Web%20Technology/WebTechnology.md#web-tecnology)
+网络技术指的是在互联网上进行不同类型设备之间通信过程中使用的各种工具和技术。网络浏览器用于访问网页。网络浏览器可以定义为在互联网上显示文本、数据、图片、动画和视频的程序。可以使用网络浏览器提供的软件接口来访问万维网上的超链接资源。
+### 网络技术可以分为以下几部分：
+- 万维网（WWW）
+万维网基于几种不同的技术：网络浏览器、超文本标记语言（HTML）、和超文本传输协议（HTTP）。
+- 网络浏览器
+网络浏览器是一种应用软件，用于浏览万维网（WWW）。它提供了服务器和客户端之间的接口，并向服务器请求网页文档和服务。
+- 网络服务器
+网络服务器是一个处理用户的网络请求并为他们提供创建网页的文件的程序。这种交换使用超文本传输协议（HTTP）进行。
+- 网页
+网页是一个链接到万维网并可通过网络浏览器被任何连接到互联网的人查看的数字文档。
+- 网络开发
+网络开发指的是建造、创建和维护网站。它包括诸如网页设计、网络发布、网络编程和数据库管理等方面。它是创建在互联网上运行的应用，即网站。
+### 网络开发可以分类为两种方式：
+### 前端开发
+用户直接交互的网站部分称为前端。它也被称为应用的“客户端”。
+### 后端开发
+后端是网站的服务器端。这是网站的一部分，用户无法看到和交互。它是软件的部分，不直接接触用户。它用于存储和整理数据。
 
 
-## [Networking](Networking/readme.md#networking)
-A computer network is a set of computers sharing resources located on or provided by network nodes. Computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
+## [计算机网络](Networking/readme.md#networking)
+计算机网络是一组共享网络节点上的资源或由网络节点提供的资源的计算机集合。计算机使用通用的通信协议通过数字互连进行通信。这些互连由基于物理有线、光学和无线射频的电信网络技术组成，可以按照各种网络拓扑进行布局。
 
-The nodes of a computer network can include personal computers, servers, networking hardware, or other specialized or general-purpose hosts. They are identified by network addresses and may have hostnames. Hostnames serve as memorable labels for the nodes, rarely changed after the initial assignment. Network addresses serve for locating and identifying the nodes by communication protocols such as the Internet Protocol.
+计算机网络的节点可以包括个人电脑、服务器、网络硬件或其他专用或通用主机。它们由网络地址识别，并可能有主机名。主机名作为节点的易记标签，在初始分配后很少更改。网络地址用于通过通信协议（如Internet协议）定位和识别节点。
 
-Computer networks may be classified by many criteria, including the transmission medium used to carry signals, bandwidth, communications protocols to organize network traffic, the network size, the topology, traffic control mechanism, and organizational intent.
+计算机网络可以根据许多标准进行分类，包括用于传输信号的传输介质、带宽、组织网络流量的通信协议、网络规模、拓扑、流量控制机制和组织目标。
 
-### Types of networking
-There are two primary types of computer networking:
-- Wired networking: Wired networking requires the use of a physical medium for transport between nodes. Copper-based Ethernet cabling, popular due to its low cost and durability, is commonly used for digital communications in businesses and homes. Alternatively, optical fibre is used to transport data over greater distances and at faster speeds, but it has several tradeoffs, including higher costs and more fragile components.
-- Wireless networking: Wireless networking uses radio waves to transport data over the air, enabling devices to be connected to a network without any cabling. Wireless LANs are the most well-known and widely deployed form of wireless networking. Alternatives include microwave, satellite, cellular, and Bluetooth, among others.
-## OSI MODEL
-OSI stands for **Open Systems Interconnection**. It was developed by ISO – ‘**International Organization for Standardization**‘in the year 1984. It is a 7-layer architecture with each layer having specific functionality to perform. All these seven layers work collaboratively to transmit the data from one person to another across the globe. 
+### 网络类型
+计算机网络主要有两种类型：
+- 有线网络：有线网络需要使用物理介质在节点之间进行传输。由于其低成本和耐用性，铜基Ethernet布线常用于企业和家庭的数字通信。或者，光纤用于传输数据，距离更远，速度更快，但它有几个权衡，包括更高的成本和更脆弱的组件。
+- 无线网络：无线网络使用无线电波通过空气传输数据，使设备能够在没有任何电缆的情况下连接到网络。无线局域网是最知名和最广泛部署的无线网络形式。其他选项包括微波、卫星、蜂窝和蓝牙等。
+## OSI模型
+OSI代表**开放系统互连**。它是由ISO - '**国际标准化组织'在1984年开发的。它是一个7层架构，每层都有特定的功能要执行。所有这些七层协同工作，将数据从世界上的一个人传输到另一个人。
 
-#### **1\. Physical Layer (Layer 1):**
+#### **1\. 物理层 (第1层):**
 
-The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of **bits.** It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
+OSI参考模型的最底层是物理层。它负责设备之间的实际物理连接。物理层包含以**比特**形式的信息。它负责将单个比特从一个节点传输到下一个节点。在接收数据时，该层会获取接收到的信号并将其转换为0和1，然后将它们发送到数据链路层，数据链路层将重新组合数据帧。
 
 ![](Networking/OSI%20Model/img/computer-network-osi-model-layers-bits.png)
 
-The functions of the physical layer are as follows:  
+物理层的功能如下:
 
-1.  **Bit synchronization:** The physical layer provides the synchronization of the bits by providing a clock. This clock controls both sender and receiver thus providing synchronization at the bit level.
-2.  **Bit rate control:** The Physical layer also defines the transmission rate, i.e., the number of bits sent per second.
-3.  **Physical topologies:** Physical layer specifies how the different devices/nodes are arranged in a network, i.e., bus, star, or mesh topology.
-4.  **Transmission mode:** Physical layer also defines how the data flows between the two connected devices. The various transmission modes possible are Simplex, half-duplex and full-duplex.
+1.  **比特同步:** 通过提供时钟，物理层提供比特的同步。这个时钟控制发送者和接收者，从而在比特级别提供同步。
+2.  **比特率控制:** 物理层还定义了传输率，即每秒发送的比特数。
+3.  **物理拓扑:** 物理层指定网络中不同设备/节点的排列方式，即总线、星型或网状拓扑。
+4.  **传输模式:** 物理层也定义了数据如何在两个连接的设备之间流动。可能的传输模式有单工、半双工和全双工。
 
-#### **2\. Data Link Layer (DLL) (Layer 2):**
+#### **2\. 数据链路层 (第2层):**
 
-The data link layer is responsible for the node-to-node delivery of the message. The main function of this layer is to make sure data transfer is error-free from one node to another over the physical layer. When a packet arrives in a network, it is the responsibility of the DLL to transmit it to the host using its MAC address.   
-The Data Link Layer is divided into two sublayers:  
+数据链路层负责消息从节点到节点的传送。该层的主要功能是确保数据在物理层从一个节点无误地传输到另一个节点。当一个包到达网络时，将其传输到主机是数据链路层的责任，这通过使用其MAC地址来实现。   
+数据链路层分为两个子层:  
 
-1. Logical Link Control (LLC)
-2. Media Access Control (MAC)
+1. 逻辑链路控制 (LLC)
+2. 媒介访问控制 (MAC)
 
-The packet received from the Network layer is further divided into frames depending on the frame size of the NIC(Network Interface Card). DLL also encapsulates the Sender and Receiver’s MAC address in the header. 
+从网络层接收到的数据包根据NIC(网络接口卡)的帧大小进一步划分为帧。数据链路层还在头部封装了发送者和接收者的MAC地址。 
 
-The Receiver’s MAC address is obtained by placing an ARP(Address Resolution Protocol) request onto the wire asking, “Who has that IP address?” and the destination host will reply with its MAC address.  
-
+接收者的MAC地址是通过在网络上发送一个ARP(地址解析协议)请求获得的，询问“谁拥有这个IP地址？”，然后目标主机将回复其MAC地址。
 ![](Networking/OSI%20Model/img/computer-network-osi-model-layers-framing.png)
 
-The functions of the Data Link layer are :  
+数据链路层的功能有 :  
 
-1.  **Framing:** Framing is a function of the data link layer. It provides a way for a sender to transmit a set of bits that are meaningful to the receiver. This can be accomplished by attaching special bit patterns to the beginning and end of the frame.
-2.  **Physical Addressing:** After creating frames, the Data link layer adds physical addresses (MAC addresses) of the sender and/or receiver in the header of each frame.
-3.  **Error control:** Data link layer provides the mechanism of error control in which it detects and retransmits damaged or lost frames.
-4.  **Flow Control:** The data rate must be constant on both sides or else the data may get corrupted; thus, flow control coordinates the amount of data that can be sent before receiving an acknowledgement.
-5.  **Access control:** When a single communication channel is shared by multiple devices, the MAC sub-layer of the data link layer helps to determine which device has control over the channel at a given time.
+1.  **帧设定:** 帧设定是数据链路层的一个功能。它为发送者提供了一种方式来传输接收者可以理解的一组比特。这可以通过在帧的开始和结束处附加特殊的比特模式来实现。
+2.  **物理寻址:** 在创建帧后，数据链路层在每个帧的头部添加发送者和/或接收者的物理地址（MAC地址）。
+3.  **错误控制:** 数据链路层提供了错误控制机制，它可以检测并重新传输损坏或丢失的帧。
+4.  **流量控制:** 两边的数据率必须保持恒定，否则数据可能会被损坏；因此，流量控制协调在接收到确认之前可以发送的数据量。
+5.  **访问控制:** 当单个通信通道被多个设备共享时，数据链路层的MAC子层帮助确定在给定时间哪个设备控制着通道。
 
-#### **3\. Network Layer (Layer 3):**
+#### **3\. 网络层 (第3层):**
 
-The network layer works for the transmission of data from one host to the other located in different networks. It also takes care of packet routing, i.e., the selection of the shortest path to transmit the packet from the number of routes available. The sender & receiver’s IP addresses are placed in the header by the network layer. 
+网络层为在不同网络中的两个主机之间传输数据工作。它还负责数据包的路由，即选择从众多可用路径中传输数据包的最短路径。网络层将发送者和接收者的IP地址放在头部。 
 
-The functions of the Network layer are :  
+网络层的功能有 :  
 
-1.  **Routing:** The network layer protocols determine which route is suitable from source to destination. This function of the network layer is known as routing.
-2.  **Logical Addressing:** To identify each device on internetwork uniquely, the network layer defines an addressing scheme. The sender & receiver’s IP addresses are placed in the header by the network layer. Such an address distinguishes each device uniquely and universally.
+1.  **路由:** 网络层协议确定从源到目的地的哪条路线适合。这个网络层的功能被称为路由。
+2.  **逻辑寻址:** 为了唯一地识别互联网上的每个设备，网络层定义了一种寻址方案。网络层将发送者和接收者的IP地址放在头部。这样的地址可以区分不同的设备。
 
+## [互联网](Internet/readme.md#internet)
+互联网是一个全球性的计算机网络互连系统，它使用标准的互联网协议套件（[TCP/IP](Networking/readme.md#tcptransmission-control-protocol)）为全球数十亿用户提供服务。互联网是由数百万个私人、公共、学术、商业和政府的本地到全局范围的网络组成的网络，这些网络通过广泛的电子、无线和光网络技术连接在一起。互联网携带了大量的信息资源和服务，如相互链接的超文本文档和世界范围网（[WWW](Internet/readme.md#world-wide-web-www)）的应用程序以及支持电子邮件的基础设施。
 
-## [Internet](Internet/readme.md#internet)
-The Internet is a global system of interconnected computer networks that use the standard Internet protocol suite ([TCP/IP](Networking/readme.md#tcptransmission-control-protocol)) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks of local to global scope that is linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries an extensive range of information resources and services, such as the interlinked hypertext documents and applications of the World Wide Web ([WWW](Internet/readme.md#world-wide-web-www)) and the infrastructure to support email.
+### [世界范围网 (WWW)](Internet/readme.md#world-wide-web-www)
+世界范围网（WWW）是一个信息空间，其中的文档和其他网络资源由统一资源定位符（URLs）标识，通过超文本链接相互连接，并通过互联网可访问。英国科学家蒂姆·伯纳斯-李在1989年发明了世界范围网。他在1990年就职于瑞士的欧洲核子研究中心（CERN）时编写了第一个网络浏览器。该浏览器于1991年在CERN外部发布，首先于1991年1月发布给其他研究机构，然后在1991年8月发布给互联网的公众。
 
-### [World Wide Web (WWW)](Internet/readme.md#world-wide-web-www)
-The World Wide Web (WWW) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet. English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while employed at CERN in Switzerland. The browser was released outside CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
-
-### [Internet Protocol (IP)](Internet/readme.md#internet-protocol-ip)
-The Internet Protocol (IP) is a protocol, or set of rules, for routing and addressing packets of data so that they can travel across networks and arrive at the correct destination. Data traversing the Internet is divided into smaller pieces called packets.
+### [互联网协议 (IP)](Internet/readme.md#internet-protocol-ip)
+互联网协议（IP）是一种协议或规则集，用于路由和寻址数据包，使它们可以穿越网络并到达正确的目的地。穿越互联网的数据被划分为称为数据包的较小片段。
 
 ## [DBMS]()
 
-What is a Database?
+什么是数据库？
 -------------------
 
-A database is a collection of related data that represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task.
+数据库是一个数据的集合，这些数据来源于现实世界中的某个部分。数据库系统被设计为构建和填充某个任务的数据。
 
-What is DBMS?
+什么是DBMS？
 -------------
 
-**Database Management System (DBMS)** is software for storing and retrieving users' data while considering appropriate security measures. It consists of a group of programs that manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software store and retrieve data.
+**数据库管理系统(DBMS)** 是一种在考虑适当的安全措施的同时存储和检索用户数据的软件。它由一组操作数据库的程序组成。DBMS接受应用程序对数据的请求，并指示操作系统提供特定的数据。在大型系统中，DBMS帮助用户和其他第三方软件存储和检索数据。
 
-DBMS allows users to create their databases as per their requirements. The term "DBMS" includes the use of a database and other application programs. It provides an interface between the data and the software application.
+DBMS允许用户根据他们的需求创建自己的数据库。"DBMS"一词包括了数据库和其他应用程序的使用。它提供了数据和软件应用之间的接口。
 
-Example of a DBMS
+DBMS的例子
 -----------------
 
-Let us see a simple example of a university database. This database maintains information concerning students, courses, and grades in a university environment. The database is organized into five files:
+让我们看一个大学数据库的简单例子。这个数据库维护了大学环境中关于学生、课程和成绩的信息。数据库被组织成五个文件：
 
-*   The STUDENT file stores the data of each student
-*   The COURSE file stores contain data on each course.
-*   The SECTION stores the information about sections in a particular course.
-*   The GRADE file stores the grades which students receive in the various sections
-*   The TUTOR file contains information about each professor.
+*   学生文件存储每个学生的数据
+*   课程文件存储每门课程的数据。
+*   部分存储关于特定课程中部分的信息。
+*   成绩文件存储学生在各个部分获得的成绩
+*   指导文件包含每位教授的信息。
 
-To define DBMS:
+定义DBMS：
 
-*   We need to specify the structure of the records of each file by defining the different types of data elements to be stored in each record.
-*   We can also use a coding scheme to represent the values of a data item.
-*   Basically, your database will have five tables with a foreign key defined amongst the various tables.
+*   我们需要通过定义每个记录中要存储的不同类型的数据元素来指定每个文件的记录结构。
+*   我们还可以使用编码方案来表示数据项的值。
+*   基本上，你的数据库将有五个表，各个表之间定义了一个外键。
 
-History of DBMS
+DBMS的历史
 ---------------
 
-Here are the important landmarks from history:
+这里是一些重要的历史里程碑：
 
-*   1960 – Charles Bachman designed the first DBMS system
-*   1970 – Codd introduced IBM'S Information Management System (IMS)
-*   1976- Peter Chen coined and defined the Entity-relationship model, also known as the ER model
-*   1980 – Relational Model becomes a widely accepted database component
-*   1985- Object-oriented DBMS develops.
-*   1990s- Incorporation of object orientation in relational DBMS.
-*   1991- Microsoft ships MS access, a personal DBMS that displaces all other personal DBMS products.
-*   1995: First Internet database applications
-*   1997: XML applied to database processing. Many vendors begin to integrate XML into DBMS products.
+*   1960年 – 查尔斯·巴赫曼设计了第一个DBMS系统
+*   1970年 – 科德引入了IBM的信息管理系统（IMS）
+*   1976年- 彼得·陈提出并定义了实体-关系模型，也被称为ER模型
+*   1980年 – 关系模型成为广泛接受的数据库组件
+*   1985年- 对象导向的DBMS得到发展。
+*   1990年代- 在关系型DBMS中加入了面向对象的思想。
+*   1991年- 微软发布了MS Access，这是一款个人DBMS，取代了所有其他的个人DBMS产品。
+*   1995年: 第一批互联网数据库应用
+*   1997年: XML被应用于数据库处理。许多供应商开始将XML集成到DBMS产品中。
 
-Characteristics of DBMS
+DBMS的特性
 -----------------------
 
-Here are the characteristics and properties of a Database Management System:
+以下是数据库管理系统的特性和属性：
 
-*   Provides security and removes redundancy
-*   Self-describing the nature of a database system
-*   Insulation between programs and data abstraction
-*   Support of multiple views of the data
-*   Sharing of data and multi-user transaction processing
-*   Database Management Software allows entities and relations among them to form tables.
-*   It follows the ACID concept ( Atomicity, Consistency, Isolation, and Durability).
-*   DBMS supports a multi-user environment that allows users to access and manipulate data in parallel.
+*   提供安全性并消除冗余
+*   自我描述数据库系统的性质
+*   程序和数据抽象之间的隔离
+*   支持数据的多视图
+*   数据共享和多用户事务处理
+*   数据库管理软件允许实体和它们之间的关系形成表。
+*   它遵循ACID概念（原子性，一致性，隔离性和持久性）。
+*   DBMS支持多用户环境，允许用户并行访问和操作数据。
 
-Popular DBMS Software
+常见的DBMS软件
 ---------------------
 
-Here is the list of some popular DBMS systems:
+以下是一些常见的DBMS系统的列表:
 
 *   MySQL
 *   Microsoft Access
@@ -899,24 +896,23 @@ Here is the list of some popular DBMS systems:
 *   MariaDB
 *   Microsoft SQL Server etc.
 
-## [Cryptography](Cryptography/readme.md#cryptography)
-Cryptography is a technique to secure data and communication. It is a method of protecting information and communications through the use of codes so that only those for whom the information is intended can read and process it. Cryptography is used to protect data in transit, at rest, and in use. The prefix _crypt_ means "hidden" or "secret", and the suffix _graphy_ means "writing".
+## [密码学](Cryptography/readme.md#cryptography)
+密码学是一种保护数据和通信的技术。它是一种通过使用编码来保护信息和通信的方法，这样只有那些信息的预期接收者才能阅读和处理这些信息。密码学被用来保护在传输中、静止状态和使用中的数据。前缀_crypt_的意思是"隐藏"或"秘密"，后缀_graphy_的意思是"写作"。
 
-### Types of Cryptography
-There are two types of cryptography:
-1. [Symmetric Cryptography](Cryptography/readme.md#symmetric-cryptography)
-2. [Asymmetric Cryptography](Cryptography/readme.md#asymmetric-cryptography)
+### 密码学的类型
+密码学有两种类型:
+1. [对称密码学](Cryptography/readme.md#symmetric-cryptography)
+2. [非对称密码学](Cryptography/readme.md#asymmetric-cryptography)
 
-### [Crypto Currency](Cryptography/CryptoCurrency/readme.md#crypto-currency)
-Cryptocurrency is a digital currency in which encryption techniques are used to regulate the generation of units of currency and verify the transfer of funds, operating independently of a central bank. Cryptocurrencies use decentralized control as opposed to centralized digital currency and central banking systems. The decentralized control of each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database. A defining feature of a cryptocurrency, and arguably its most endearing allure, is its organic nature; it is not issued by any central authority, rendering it theoretically immune to government interference or manipulation.
+### [加密货币](Cryptography/CryptoCurrency/readme.md#crypto-currency)
+加密货币是一种数字货币，其中使用加密技术来规定货币的产生单位，并验证资金的转移，独立于中央银行运作。加密货币使用分散的控制，而不是集中的数字货币和中央银行系统。每种加密货币的分散控制通过分布式账本技术，通常是一种区块链，作为公共的金融交易数据库。加密货币的一个定义特性，也可以说是其最吸引人的特点，就是其有机的性质；它不是由任何中央权威发行的，理论上它对政府的干预或操纵是免疫的。
 
-## Types of Crypto Currency are as follows:
-1. [Proof of Work](Cryptography/CryptoCurrency/ProofOfWork/readme.md#proof-of-work)
-2. [Proof of Stake](Cryptography/CryptoCurrency/ProofOfStake/readme.md#proof-of-stake)
+## 加密货币的类型如下：
+1. [工作证明](Cryptography/CryptoCurrency/ProofOfWork/readme.md#proof-of-work)
+2. [权益证明](Cryptography/CryptoCurrency/ProofOfStake/readme.md#proof-of-stake)
 
 
-
-### _Most Popular Crypto Currencies are as follows:_
+### _以下是最受欢迎的加密货币：_
 1. [Bitcoin](Cryptography/CryptoCurrency/ProofOfWork/Bitcoin/readme.md#bitcoin)
 2. [Ethereum](Cryptography/CryptoCurrency/ProofOfStake/Ethereum/readme.md#ethereum)
 3. [Litecoin](Cryptography/CryptoCurrency/ProofOfWork/Litecoin/readme.md#litecoin)
@@ -925,29 +921,27 @@ Cryptocurrency is a digital currency in which encryption techniques are used to 
 
 
 
-## Theory of Computation
-In theoretical computer science and mathematics, the theory of computation is the branch that deals with what problems can be solved on a model of computation using an algorithm, how efficiently they can be solved, or to what degree (e.g., approximate solutions versus precise ones). The field is divided into three major branches: automata theory and formal languages, computability theory, and computational complexity theory, which are linked by the question: "What are the fundamental capabilities and limitations of computers?".
+## 计算理论
+在理论计算机科学和数学中，计算理论是一门研究算法在一种计算模型上可以解决哪些问题，解决的效率如何，或者解决的程度（例如，近似解与精确解）的学科。这个领域主要分为三大分支：自动机理论和形式语言、可计算性理论、计算复杂性理论，这三个问题围绕着一个问题展开：“计算机的基本能力和限制是什么？”。
 
-### Automata Theory
-Automata theory is the study of abstract machines and automata, as well as the computational problems that can be solved using them. It is a theory in theoretical computer science. The word automata comes from the Greek word αὐτόματος, which means "self-acting, self-willed, self-moving". An automaton (automata in plural) is an abstract self-propelled computing device that follows a predetermined sequence of operations automatically. An automaton with a finite number of states is called a Finite Automaton (FA) or Finite-State Machine (FSM). The figure on the right illustrates a finite-state machine, which is a well-known type of automaton. This automaton consists of states (represented in the figure by circles) and transitions (represented by arrows). As the automaton sees a symbol of input, it makes a transition (or jump) to another state, according to its transition function, which takes the previous state and current input symbol as its arguments. 
+### 自动机理论
+自动机理论是对抽象机器和自动机以及使用它们可以解决的计算问题的研究。它是理论计算机科学中的一个理论。单词automata来源于希腊语的αὐτόματος，意味着“自行行动，自愿，自我移动”。自动机（复数形式为automata）是一个遵循预设操作顺序自动执行的抽象自推进计算设备。有限状态的自动机被称为有限自动机(FA)或有限状态机(FSM)。右图展示了一个著名的自动机类型 - 有限状态机。这个自动机由状态（图中以圆形表示）和转换（以箭头表示）组成。当自动机看到一个输入符号时，它根据转移函数（该函数以前一个状态和当前输入符号作为参数）转移到另一个状态。
 
+### 形式语言
+在逻辑学、数学、计算机科学和语言学中，形式语言由字母组成的单词，这些字母取自一个字母表，并根据一套特定的规则形成。
 
-### Formal Languages
-In logic, mathematics, computer science, and linguistics, a formal language consists of words whose letters are taken from an alphabet and are well-formed according to a specific set of rules.
+形式语言的字母表由符号、字母或标记组成，这些符号、字母或标记串联成语言的字符串。每个由此字母表的符号串联成的字符串称为单词，属于特定形式语言的单词有时被称为良构单词或良构公式。形式语言通常通过形式语法（如正则语法或无上下文语法）定义，这包括了其形成规则。
 
-The alphabet of a formal language consists of symbols, letters, or tokens that concatenate into strings of the language. Each string concatenated from symbols of this alphabet is called a word, and the words that belong to a particular formal language are sometimes called well-formed words or well-formed formulas. A formal language is often defined using formal grammar, such as regular grammar or context-free grammar, which consists of its formation rules.
+在计算机科学中，形式语言用于定义编程语言的语法和自然语言的正式化版本的基础，其中语言的单词代表与特定含义或语义相关的概念。在计算复杂性理论中，决策问题通常被定义为形式语言，复杂性类被定义为可以由具有有限计算能力的机器解析的形式语言集合。在逻辑和数学基础中，形式语言用于表示公理系统的语法，数学形式主义是一种所有数学都可以被归约为以这种方式对形式语言进行句法操控的哲学。
 
-In computer science, formal languages are used, among others, as the basis for defining the grammar of programming languages and formalized versions of subsets of natural languages in which the words of the language represent concepts that are associated with particular meanings or semantics. In computational complexity theory, decision problems are typically defined as formal languages and complexity classes are defined as the sets of formal languages that can be parsed by machines with limited computational power. In logic and the foundations of mathematics, formal languages are used to represent the syntax of axiomatic systems, and mathematical formalism is the philosophy that all mathematics can be reduced to the syntactic manipulation of formal languages in this way. 
+### 可计算性理论
+可计算性理论，也称为递归理论，是数学逻辑、计算机科学和计算理论的一个分支，起源于20世纪30年代对可计算函数和图灵度的研究。该领域已扩展到包括对广义可计算性和可定义性的研究。在这些领域，可计算性理论与证明理论和有效描述集理论有所重叠。
+### 计算复杂性理论
+在理论计算机科学和数学中，计算复杂性理论主要关注的是根据其资源使用情况对计算问题进行分类，并将这些类别相互关联。计算问题是由计算机解决的任务。计算问题可以通过数学步骤（例如算法）的机械应用进行解决。
 
-### Computability Theory
-Computability theory, also known as recursion theory, is a branch of mathematical logic, computer science, and the theory of computation that originated in the 1930s with the study of computable functions and Turing degrees. The field has since expanded to include the study of generalized computability and definability. In these areas, computability theory overlaps with the proof theory and effective descriptive set theory. 
+如果一个问题的解决需要大量的资源，无论使用何种算法，都被认为是固有的困难。这种理论通过引入计算的数学模型来形式化这种直觉，研究这些问题，并量化它们的计算复杂性，即，解决它们所需要的资源数量，如时间和存储。也会使用其他复杂性度量，如通信量（用于通信复杂性）、电路中的门数（用于电路复杂性）和处理器数量（用于并行计算）。计算复杂性理论的一个角色是确定计算机能做什么和不能做什么的实际限制。P/NP问题，作为七个千禧年奖问题之一，是专门用于计算复杂性领域的。
 
-### Computational complexity theory
-In theoretical computer science and mathematics, computational complexity theory focuses on classifying computational problems according to their resource usage and relating these classes to each other. A computational problem is a task solved by a computer. A computation problem is solvable by a mechanical application of mathematical steps, such as an algorithm.
-
-A problem is regarded as inherently difficult if its solution requires significant resources, whatever the algorithm used. The theory formalizes this intuition by introducing mathematical models of computation to study these problems and quantifying their computational complexity, i.e., the number of resources needed to solve them, such as time and storage. Other measures of complexity are also used, such as the amount of communication (used in communication complexity), the number of gates in a circuit (used in circuit complexity), and the number of processors (used in parallel computing). One of the roles of computational complexity theory is to determine the practical limits on what computers can and cannot do. The P versus NP problem, one of the seven Millennium Prize Problems, is dedicated to the field of computational complexity.
-
-Closely related fields in theoretical computer science are the analysis of algorithms and computability theory. A key distinction between the analysis of algorithms and computational complexity theory is that the former is devoted to analyzing the number of resources needed by a particular algorithm to solve a problem, whereas the latter asks a more general question about all possible algorithms that could be used to solve the same problem. More precisely, computational complexity theory tries to classify problems that can or cannot be solved with appropriately restricted resources. In turn, imposing restrictions on the available resources is what distinguishes computational complexity from computability theory: the latter theory asks what kinds of problems can, in principle, be solved algorithmically. 
+理论计算机科学中与计算复杂性理论密切相关的领域是算法分析和可计算性理论。算法分析与计算复杂性理论之间的一个关键区别是，前者致力于分析特定算法解决问题所需的资源数量，而后者则提出了关于所有可能用于解决同一问题的算法的更一般性问题。更准确地说，计算复杂性理论试图分类可以或不能用适当的限制资源解决的问题。反过来，对可用资源进行限制是计算复杂性与可计算性理论的区别所在：后者的理论询问的是原则上可以用算法解决哪些问题。
 
 
  

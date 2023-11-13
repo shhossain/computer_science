@@ -13,6 +13,7 @@ Put simply, Algorithm is a step-by-step procedure, which defines a set of instru
 
 ### Design Techniques
 * [Sliding WindowBADLINK](Not-Added)
+* [Disjoint Set Union / Union find](Not-added)
 
 
 ## [Sorting](Sorting/readme.md)
@@ -44,42 +45,47 @@ Searching is algorithm for finding a certain target element inside a container. 
 * [Sequential/Linear Search](Searching/SequentialSearch/readme.md)
 
 
-## [Graph SearchBADLINK](Graphs/readme.md)
+## [Graph Algorithms](Graphs/readme.md)
 Graph search is the process of searching through a graph to find a particular node. A graph is a data structure that consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges, arcs, or lines for an undirected graph and as arrows, directed edges, directed arcs, or directed lines for a directed graph. The vertices may be part of the graph structure, or may be external entities represented by integer indices or references. Graphs are one of the most useful data structures for many real-world applications. Graphs are used to model pairwise relations between objects. For example, the airline route network is a graph in which the cities are the vertices and the flight routes are the edges. Graphs are also used to represent networks. The Internet can be modeled as a graph in which the computers are the vertices and the links between computers are the edges. Graphs are also used in social networks like linkedIn, Facebook. In fact, graphs are used to represent many real-world applications: computer networks, circuit design, and aeronautical scheduling to name just a few.
-### Popular Graph Search Algorithms
-* [Breadth First SearchBADLINK](Graph%20Search/BreadthFirstSearch/readme.md)
-* [Depth First SearchBADLINK](Graph%20Search/DepthFirstSearch/readme.md)
-* [Dijkstra's AlgorithmBADLINK](Graph%20Search/Dijkstra'sAlgorithm/readme.md)
-* [A* SearchBADLINK](Graph%20Search/A*Search/readme.md)
-* [Articulation Points](Not-added)
-* [Bellman-Ford Algorithm](Not-added)
-* [Cycle Detection](Not-added)
-* [Disjoint Set Union / Union find](Not-added)
-* [Kosaraju's Algorithm](Not-added)
-* [Shortest path](Not-added)
-    * [bellman Ford](Not-added)
-    * [Floyd warshalls](Not-added)
-* [Topological Sort](Not-added)
-* [Traversal Algorithims](Not-added)
-    * [AStart search](Not-added)
-    * [breathdfirst search](Not-added)
-    * [depth first search](Not-added)
-    * [Dijkstras?](Not-added)
-* [Tree based Algorithms](Not-added) 
 
-## [Spanning TreeBADLINK](Algorithms/Spanning%20Tree%20Algorithm/readme.md)
+### Graph Components
+- Vertices - A vertex is a node of the graph. This node also has a degree or the number of edges connected to it. Indegrees is the number of edges that point to a vertex and outdegree is the number of edges that point to outer vertices. There can be many different types of vertices such as 
+    - Isolated vertex - No edges point to the vertex and has no out edges, its indegree and outdegree is zero.
+    - Source vertex  - No edges point to the vertex, its indegree is zero.
+    - Sink vertex - No out edges, its outdegree is zero.
+    - [Articulation Points](Graphs/Articulation%20Points/readme.md) - a vertex creates an undirected graph id removed.
+- Edges -  An edge is a connection between two nodes.
+- Weight - A weight is a value associated with an edge.
 
-A spanning tree is a sub-graph of an undirected connected graph, which includes all the vertices of the graph with a minimum possible number of edges. If a vertex is missed, then it is not a spanning tree.
+### Types of Graphs
+- Undirected Graph - A graph where edges of the graph go two ways. 
+- Directed Graph - A graph where edges of the graph only go one way, usually marked with arrows. 
+- Weighted Graph - A graph where edges of the graph have costs associated with taking them.
+- [Tree Graphs](Graphs/Tree%20Based%20Algorithms/readme.md) - A graph with n vertices and n-1 edges where all the nodes are connected to each other.
 
-The edges may or may not have weights assigned to them.
+### Graph Topics and Algorithms  
+1. [Graph Traversal](Graphs/Traversal%20Algorithms/readme.md)
+    - [Breadth First Search (BFS)](Graphs/Traversal%20Algorithms/BreadthFirstSearch/readme.md)
+    - [A* Search](Graphs/Traversal%20Algorithms/AstarSearch/readme.md)
+    - [Depth First Search (DFS)](Graphs/Traversal%20Algorithms/DepthFirstSearch/readme.md)
+2. [Topological Sorts](Graphs/Topological%20Sort/readme.md)
+3. [Cycle Detection](Graphs/Cycle%20Detection/readme.md)
+    - Undirected Graph
+        - [Using DFS](Graphs/Cycle%20Detection/Undirected%20Graph/DFS/readme.md)
+        - [Using BFS](Graphs/Cycle%20Detection/Undirected%20Graph/BFS/readme.md)
+    - [Directed Graph](Graphs/Cycle%20Detection/Directed%20Graph/readme.md)
+4. [Shortest Path](Graphs/Shortest%20Path/readme.md)
+    - [Dijkstra's Algorithm](Graphs/Traversal%20Algorithms/Dijkstra'sAlgorithm/readme.md)
+    - [Bellman Ford Algorithm](Graphs/Shortest%20Path/BellmanFordAlgorithm/readme.md)
+    - [Bellman-Ford Algorithm](Graphs/Bellman-Ford%20Algorithm/readme.md)
+    - [Floyd Warshall Algorithm](Graphs/Shortest%20Path/FloydWarshallAlgorithm/readme.md)
+5. [Spanning Tree Algorithm](Graphs/Spanning%20Tree%20Algorithm/readme.md)
+    - [Kruskals Algorithm](Graphs/Spanning%20Tree%20Algorithm/KruskalsAlgorithm/readme.md)
+    - [Prims Algorithm](Graphs/Spanning%20Tree%20Algorithm/PrimsAlgorithm/readme.md)  
+6. Strongly Connected Components
+    - [Kosaraju's Algorithm](Graphs/Kosaraju%20Algorithm/readme.md)
 
-The total number of spanning trees with n vertices that can be created from a complete graph is equal to n(n-2).
 
-If we have n = 4, the maximum number of possible spanning trees is equal to 44-2 = 16. Thus, 16 spanning trees can be formed from a complete graph with 4 vertices.
-
-### Popular Minimum Spanning tree Algorithms
-* [KruskalsAlgorithmBADLINK](Algorithms/Spanning%20Tree%20Algorithm\KruskalsAlgorithm/readme.md)
-* [PrimsAlgorithmBADLINK](Algorithms/Spanning%20Tree%20Algorithm\PrimsAlgorithm/readme.md)
 
 ## [Greedy Algorithms](Greedy%20Algorithm/readme.md)
 Greedy algorithms are a simple, intuitive class of algorithms that can be used to find the optimal solution to some optimization problems. They are called greedy because at each step they make the choice that seems best at that moment. This means that greedy algorithms do not guarantee to return the globally optimal solution, but instead make locally optimal choices in the hope of finding a global optimum. Greedy algorithms are used for optimization problems. An optimization problem can be solved using Greedy if the problem has the following property: at every step, we can make a choice that looks best at the moment, and we get the optimal solution of the complete problem.

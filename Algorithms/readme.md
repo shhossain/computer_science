@@ -6,15 +6,14 @@ Put simply, Algorithm is a step-by-step procedure, which defines a set of instru
 ## Classification
 
 ## [Time Complexity](Time%20Complexity/readme.md)
+The time complexity of an algorithm estimates how much time it will take for an algorithm to run for a selected input. By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it. Normally written as O Notation but Ω  and Θ Notation are also used. An algorithm's time complexity can range from constant to factorial. 
 
-## [Space ComplexityBADLINK](Not-Added)
+## [Space Complexity](Space%20Complexity/readme.md)
+The space complexity of an algorithm refers to the total amount of memory space used by the algorithm, including the space of the input values for execution. Normally written as O Notation but Ω and Θ Notation are also used. An algorithm's space complexity can range from constant to factorial but is normally closer to the input size. 
 
-## Algorithm Design
-
-### Design Techniques
-* [Sliding WindowBADLINK](Not-Added)
-* [Disjoint Set Union / Union find](Not-added)
-
+## Algorithm Design Techniques
+When creating algorithms there are a few techniques that can be used to reduce the time complexity of an algorithm. 
+* [Sliding Window](Sliding%20Window%20Algorithm/readme.md)
 
 ## [Sorting](Sorting/readme.md)
 Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Or if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
@@ -82,6 +81,7 @@ Graph search is the process of searching through a graph to find a particular no
 5. [Spanning Tree Algorithm](Graphs/Spanning%20Tree%20Algorithm/readme.md)
     - [Kruskals Algorithm](Graphs/Spanning%20Tree%20Algorithm/KruskalsAlgorithm/readme.md)
     - [Prims Algorithm](Graphs/Spanning%20Tree%20Algorithm/PrimsAlgorithm/readme.md)  
+    - [Disjoint Set Union / Union find](Graphs/DSU/readme.md)
 6. Strongly Connected Components
     - [Kosaraju's Algorithm](Graphs/Kosaraju%20Algorithm/readme.md)
 

@@ -81,6 +81,30 @@ If we have n = 4, the maximum number of possible spanning trees is equal to 44-2
 * [KruskalsAlgorithmBADLINK](Algorithms/Spanning%20Tree%20Algorithm\KruskalsAlgorithm/readme.md)
 * [PrimsAlgorithmBADLINK](Algorithms/Spanning%20Tree%20Algorithm\PrimsAlgorithm/readme.md)
 
+## [Greedy Algorithms](Greedy%20Algorithm/readme.md)
+Greedy algorithms are a simple, intuitive class of algorithms that can be used to find the optimal solution to some optimization problems. They are called greedy because at each step they make the choice that seems best at that moment. This means that greedy algorithms do not guarantee to return the globally optimal solution, but instead make locally optimal choices in the hope of finding a global optimum. Greedy algorithms are used for optimization problems. An optimization problem can be solved using Greedy if the problem has the following property: at every step, we can make a choice that looks best at the moment, and we get the optimal solution of the complete problem.
+
+### Greedy Algorithms
+* Activity Selection
+* [Huffman Coding](Greedy%20Algorithm/Huffman%20Coding%20Algorithm/readme.md)
+* [Prim's Algorithm](Greedy%20Algorithm/Prim%27s%20Algorithm/readme.md)
+* [Kruskal's Algorithm](Greedy%20Algorithm/Krushkal%27s%20Algorithm/readme.md)
+* [Dijkstra's Algorithm](Greedy%20Algorithm/Dijkstra's%20Algorithm/readme.md)
+* Job Sequencing
+* Fractional Knapsack
+* [Ford-Fulkerson Algorithm](Greedy%20Algorithm/Ford-Fulkerson/readme.md)
+
+## [String Based Algorithms](String%20Based%20Algorithms/readme.md)
+String-based algorithms are algorithms limited to strings, but are used for operations like, searching for a specific substring, pattern matching, and other text processing.
+
+### Popular String Algorithms
+* [Knuth-Morris-Pratt(KMP)](String%20Based%20Algorithms/KMP/readme.md)
+* [Rabin Karp](String%20Based%20Algorithms/RabinKarp/readme.md)
+* [Suffix Trie](String%20Based%20Algorithms/SuffixTrie/readme.md)
+* Boyer-Moore Algorithm
+* String Hashing
+
+
 ## [Dynamic Programming](Dynamic%20Programming/README.md)
 Dynamic programming is both a mathematical optimization method and a computer programming method. The method was developed by Richard Bellman in the 1950s and has found applications in numerous fields, from aerospace engineering to economics. In both contexts it refers to simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner. While some decision problems cannot be taken apart this way, decisions that span several points in time do often break apart recursively. Likewise, in computer science, if a problem can be solved optimally by breaking it into sub-problems and then recursively finding the optimal solutions to the sub-problems, then it is said to have optimal substructure. Dynamic programming is one way to solve problems with these properties. The process of breaking a complicated problem down into simpler sub-problems is called "divide and conquer".
 
@@ -105,19 +129,24 @@ Dynamic programming is both a mathematical optimization method and a computer pr
 * [Staircase](Dynamic%20Programming/Staircase/README.md)
 * [Subset Sum Problem](Dynamic%20Programming/Subset%20Sum%20Problem/readme.md)
 
+## [Divide and Conquer](Divide%20and%20Conquer/readme.md)
+Divide and Conquer is an algorithmic paradigm in which the problem is recursively solved using the Divide, Conquer, and Combine strategy.
+A problem is broken down into two or more similar sub-problems until they can be easily solved. Those solutions are then combined to solve the larger sub-problems until the original problem is solved. Divide and Conquer algorithms offer from Dynamic Programming algorithms in that Divide and Conquer algorithms do not have overlapping sub-problems. Meaning that all Divide and Conquer algorithms are also Dynamic Programming algorithms, but not all Dynamic Programming algorithms are Divide and Conquer algorithms.
 
-## [Greedy Algorithms](Greedy%20Algorithm/readme.md)
-Greedy algorithms are a simple, intuitive class of algorithms that can be used to find the optimal solution to some optimization problems. They are called greedy because at each step they make the choice that seems best at that moment. This means that greedy algorithms do not guarantee to return the globally optimal solution, but instead make locally optimal choices in the hope of finding a global optimum. Greedy algorithms are used for optimization problems. An optimization problem can be solved using Greedy if the problem has the following property: at every step, we can make a choice that looks best at the moment, and we get the optimal solution of the complete problem.
+### Popular Divide and Conquer Algorithms
+* [Convex Hull Problem](Divide%20and%20Conquer/Convex%20Hull%20PRoblem/Readme.md)
+* [The Inversion Problem](Divide%20and%20Conquer/Inversion%20Problem/readme.md)
+* [Maximum and minimum of an array](Divide%20and%20Conquer/Maximum%20and%20minium%20of%20an%20array/readme.md)
+* [Strassen's Matrix Multiplication](Divide%20and%20Conquer/Strassen's%20Algorithm/readme.md)
 
-### Greedy Algorithms
-* Activity Selection
-* [Huffman Coding](Greedy%20Algorithm/Huffman%20Coding%20Algorithm/readme.md)
-* [Prim's Algorithm](Greedy%20Algorithm/Prim%27s%20Algorithm/readme.md)
-* [Kruskal's Algorithm](Greedy%20Algorithm/Krushkal%27s%20Algorithm/readme.md)
-* [Dijkstra's Algorithm](Greedy%20Algorithm/Dijkstra's%20Algorithm/readme.md)
-* Job Sequencing
-* Fractional Knapsack
-* [Ford-Fulkerson Algorithm](Greedy%20Algorithm/Ford-Fulkerson/readme.md)
+
+## [Branch and Bound](Branch%20and%20Bound/README.md)
+Branch and bound is a general technique for solving combinatorial optimization problems. It is a systematic enumeration technique that reduces the number of candidate solutions by using the problem's structure to eliminate candidate solutions that cannot possibly be optimal. It is a divide and conquer algorithm that is used to solve optimization problems.
+
+### Popular Branch and Bound Algorithms
+* [Knapsack Problem](Branch%20and%20Bound/Knapsack%20Problem/README.md)
+* [Traveling Salesman Problem](Traveling%20Salesman%20Problem/readme.md)
+* [Job Assignment Problem](Branch%20and%20Bound/Job%20Assignment%20Problem/README.md)
 
 
 ## [Backtracking Algorithms](Backtracking/README.md)
@@ -140,30 +169,4 @@ Backtracking is an algorithmic-technique for solving problems recursively by try
 * [Magnet Puzzle](Backtracking/Magnet%20Puzzle/README.md)
 * [Tug of War](Backtracking/Tug%20of%20War/README.md)
 
-
-## [Branch and BoundBADLINK](Not-Added)
-Branch and bound is a general technique for solving combinatorial optimization problems. It is a systematic enumeration technique that reduces the number of candidate solutions by using the problem's structure to eliminate candidate solutions that cannot possibly be optimal. It is a divide and conquer algorithm that is used to solve optimization problems. It is a systematic enumeration technique that reduces the number of candidate solutions by using the problem's structure to eliminate candidate solutions that cannot possibly be optimal. It is a divide and conquer algorithm that is used to solve optimization problems. It is a systematic enumeration technique that reduces the number of candidate solutions by using the problem's structure to eliminate candidate solutions that cannot possibly be optimal. It is a divide and conquer algorithm that is used to solve optimization problems.
-### Popular Branch and Bound Algorithms
-* [0-1 KnapsackBADLINK](BranchandBound/0-1Knapsack/readme.md)
-* [Travelling Salesman ProblemBADLINK](BranchandBound/TravellingSalesmanProblem/readme.md)
-* [Job Assignment ProblemBADLINK](Not-Added)
-
-
-## [Divide and ConquerBADLINK](Not-Added)
-Explnation needed
-
-### Popular Divide and Conquer Algorithms
-* [Convex Hull ProblemBADLINK](Not-Added)
-* [Inversion ProblemBADLINK](Not-Added)
-* [Maximum and minimum of an arrayBADLINK](Not-Added)
-* [Strassen's Matrix MultiplicationBADLINK](Not-Added)
-
-
-## [String Based AlgorithmsBADLINK](Not-Added)
-
-### Popular String Algorithms
-* [KMPBADLINK](Not-Added)
-* [Naive SearchingBADLINK](Not-Added)
-* [Rabin KarpBADLINK](Not-Added)
-* [Suffix TrieBADLINK](Not-Added)
 

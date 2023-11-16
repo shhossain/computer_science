@@ -1301,6 +1301,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "jakenybo",
+      "name": "jakenybo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57851055?v=4",
+      "profile": "https://github.com/jakenybo",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,

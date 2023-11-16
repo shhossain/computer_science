@@ -16,6 +16,9 @@
     </p>
 </h4>
 
+## 贡献指南
+如果你对于贡献这个项目感兴趣，请查看 [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) 以了解如何对项目做出贡献。非常感谢你的贡献！
+
 ## 目录
 
 - [介绍](#introduction)

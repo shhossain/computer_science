@@ -19,7 +19,7 @@ Sliding window can be used on fixed-length windows or variable-length windows.
     Eg. Find the largest subarray in a given array with sum equal to k.
 
 
-You will understand more cleary when we will solve the questions by both the methods.
+You will understand more clearly when we will solve the questions by both the methods.
 
 
 ### Popular Sliding Window Algorithms

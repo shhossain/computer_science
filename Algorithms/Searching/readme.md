@@ -3,6 +3,9 @@ A search algorithm is the step-by-step procedure used to locate specific data am
 
 
 * [Sequential / Linear Search](./SequentialSearch/readme.md)
+* [Linear Search](./LinearSearch/readme.md)
 * [Binary Search](./BinarySearch/readme.md)
 * [Hashing](./Hashing/readme.md)
-
+* Jump Search
+* Interpolation Search
+* Exponential Search

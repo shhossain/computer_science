@@ -4,10 +4,10 @@ Algorithms are the sets of steps necessary to complete computation - they are at
 Basically, an Algorithm is a step-by-step procedure, which defines a set of instructions to be executed in a certain order to get the desired output.
 
 ## [Time Complexity](Time%20Complexity/readme.md)
-The time complexity of an algorithm is an estimate of how much time it will take for an algorithm to run for a selected input. By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it. Normally written as O Notation but Ω and Θ Notation are also used. An algorithm's time complexity can range from constant to factorial. 
+The time complexity of an algorithm is an estimate of how much time it will take for an algorithm to run for a selected input. In other words, it describes how the run time of an algorithm grows as the input size grows. By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it. Normally written as O Notation but Ω and Θ Notation are also used. An algorithm's time complexity can range from constant to factorial.
 
 ## [Space Complexity](Space%20Complexity/readme.md)
-The space complexity of an algorithm refers to the total amount of memory space used by the algorithm while it is executed, including the space of the input values. Normally written as O Notation but Ω and Θ Notation are also used. An algorithm's space complexity can range from constant to factorial but is normally closer to the input size.  
+The space complexity of an algorithm refers to the total amount of memory space used by the algorithm. It’s the space of the input values and the space used while it is executed. Normally written as O Notation but Ω and Θ Notation are also used. An algorithm's space complexity can range from constant to factorial but is normally closer to the input size.
 
 ## Algorithm Design Techniques
 When creating algorithms there are a few techniques that can be used to reduce the time complexity of an algorithm.  This allows for larger inputs to be calculated at faster times. 
@@ -29,16 +29,16 @@ Sorting is the process of arranging a list of items in a particular order. For e
 * [Tim Sort](Sorting/TimSort/readme.md)
 
 
-## [Searching](Searching/README.md)
+## [Searching](Searching/readme.md)
 Searching is the process of finding a certain target element inside a container. Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
 ### Popular Searching Algorithms 
+* [Sequential](Searching/SequentialSearch/readme.md)
 * [Linear Search](Searching/LinearSearch/readme.md)
 * [Binary Search](Searching/BinarySearch/readme.md)
+* [Hashing](Searching/Hashing/readme.md)
 * Jump Search
 * Interpolation Search
 * Exponential Search
-* [Hashing](Searching/Hashing/readme.md)
-* [Sequential/Linear Search](Searching/SequentialSearch/readme.md)
 
 
 ## [Graph Algorithms](Graphs/readme.md)
@@ -127,7 +127,7 @@ Dynamic programming is both a mathematical optimization method and a computer pr
 * [Matrix Chain Multiplication](Dynamic%20Programming/Matrix%20Chain%20Multiplication/README.md)
 * [Balanced Tree Count](Dynamic%20Programming/Count%20Balanced%20Binary%20Trees%20of%20Height%20h/readme.md)
 * [Counting Hops](Dynamic%20Programming/Count%20Number%20Of%20Hops/README.md)
-* [Floyd Warshall](Dynamic%20Programming/Floyd%20Warshall%20Algorithm/readme.md)
+* [Floyd Warshall Algorithm](Dynamic%20Programming/Floyd%20Warshall%20Algorithm/readme.md)
 * [Gold Mine Problem](Dynamic%20Programming/Gold%20Mine%20Problem/README.md)
 * [Least Common Multiple (LCM)](Dynamic%20Programming/LCM/LCM.md)
 * [Painting Fence Algorithm](Dynamic%20Programming/Painting%20Fence%20Algorithm/readme.md)

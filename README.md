@@ -204,7 +204,7 @@ There are two types of conditional statements mainly:
 
 2. [Loops](Statements%20and%20Functions/readme.md#loops)
 
-There are three types of conditional statements mainly:
+There are three types of Loops mainly:
 - for loop
 - while loop
 - do - while loop (a variation of while loop)

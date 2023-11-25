@@ -10,14 +10,14 @@ The general idea of Branch and Bound algorithm is a BFS-like search for the opti
 
 - 0/1 knapsack problem
 - Job Assignment Problem
-- Travelling Salesman Problem
-- Nearest Neighbour search
+- Traveling Salesman Problem
+- Nearest Neighbor search
 - N-Queens Problem
 
 
 ## Popular Dynamic Programming Algorithms
 * [0/1 knapsack problem](Knapsack%20Problem/README.md)
 * [Job Assignment Problem](Job%20Assignment%20Problem/README.md)
-* [Travelling Salesman Problem](Not-Added)
-* [Nearest Neighbour search](Not-Added)
-* [N-Queens](Not-Added)
+* [Traveling Salesman Problem](../Traveling%20Salesman%20Problem/readme.md)
+* Nearest Neighbor search
+* [N-Queens](../Backtracking/N%20Queen%20Problem/README.md)

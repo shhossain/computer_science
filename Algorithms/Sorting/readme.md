@@ -8,6 +8,7 @@ the study of algorithms. There are several reasons:
 Sometimes an application inherently needs to sort information. For example,
 in order to prepare customer statements, banks need to sort checks by check
 number.
+
 Algorithms often use sorting as a key subroutine. For example, a program that
 renders graphical objects which are layered on top of each other might have
 to sort the objects according to an “above” relation so that it can draw these
@@ -18,16 +19,15 @@ ploy a rich set of techniques. In fact, many important techniques used through-
 out algorithm design appear in the body of sorting algorithms that have been
 developed over the years. In this way, sorting is also a problem of historical
 interest.
+
 We can prove a nontrivial lower bound for sorting (as we shall do in Chapter 8).
 Our best upper bounds match the lower bound asymptotically, and so we know
 that our sorting algorithms are asymptotically optimal. Moreover, we can use
 the lower bound for sorting to prove lower bounds for certain other problems.
-Many engineering issues come to the fore when implementing sorting algo-
-rithms. The fastest sorting program for a particular situation may depend on
+Many engineering issues come to the fore when implementing sorting algorithms. The fastest sorting program for a particular situation may depend on
 many factors, such as prior knowledge about the keys and satellite data, the
 memory hierarchy (caches and virtual memory) of the host computer, and the
-software environment. Many of these issues are best dealt with at the algorith-
-mic level, rather than by “tweaking” the code.
+software environment. Many of these issues are best dealt with at the algorithmic level, rather than by “tweaking” the code.
 
 ### Popular Sorting Algorithms
 - [Bubble Sort](BubbleSort/readme.md)
@@ -41,4 +41,3 @@ mic level, rather than by “tweaking” the code.
 - [Shell Sort](ShellSort/readme.md)
 - [Count Sort](CountSort/readme.md)
 - [Tim Sort](TimSort/readme.md)
-

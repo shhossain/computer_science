@@ -3,7 +3,7 @@ A Graph is a non-linear data structure consisting of vertices and edges. The ver
 
 
 ## Components of a Graph
-- **[Vertices](#verticies)** - A vertex is a node of the graph. It can be denoted by any symbol such as V, U, X, Y, etc. A vertex may also be referred to as a node or a point.
+- **[Vertices](#vertices)** - A vertex is a node of the graph. It can be denoted by any symbol such as V, U, X, Y, etc. A vertex may also be referred to as a node or a point.
 - **[Edges](#edges)** - An edge is a connection between two nodes. It can be denoted by any symbol such as E, F, G, H, etc. An edge may also be referred to as a link or a line.
 - **[Weight](#weight)** - A weight is a value associated with an edge. It can be denoted by any symbol such as W, X, Y, Z, etc. A weight may also be referred to as a cost.
 
@@ -102,18 +102,22 @@ Pic Will be added
 ## Graph Topics
 1. [Graph Traversal](Traversal%20Algorithms/readme.md)
     - [Breadth First Search](Traversal%20Algorithms/BreadthFirstSearch/readme.md)
-    - [Depth First Search](Traversal%20Algorithms/DepthFirstSearch/readme.md)]
-2. [Cycle Detection](Cycle%20Detection/readme.md)
-    - [Undirected Graph](Cycle%20Detection/Undirected%20Graph/readme.md)
+    - [A* Search](Traversal%20Algorithms/AstarSearch/readme.md)
+    - [Depth First Search](Traversal%20Algorithms/DepthFirstSearch/readme.md)
+2. [Topological Sorts](Topological%20Sort/readme.md)
+3. [Cycle Detection](Cycle%20Detection/readme.md)
+    - Undirected Graph
         - [DFS](Cycle%20Detection/Undirected%20Graph/DFS/readme.md)
         - [BFS](Cycle%20Detection/Undirected%20Graph/BFS/readme.md)
     - [Directed Graph](Cycle%20Detection/Directed%20Graph/readme.md)
-        - [DFS](notadded)
-        - [BFS](notadded)
-3. [Shortest Path](Shortest%20Path/readme.md)
+4. [Shortest Path](Shortest%20Path/readme.md)
     - [Dijkstra's Algorithm](Traversal%20Algorithms/Dijkstra'sAlgorithm/readme.md)
     - [Bellman Ford Algorithm](Shortest%20Path/BellmanFordAlgorithm/readme.md)
+    - [Bellman-Ford Algorithm](Bellman-Ford%20Algorithm/readme.md)
     - [Floyd Warshall Algorithm](Shortest%20Path/FloydWarshallAlgorithm/readme.md)
-4. [Spanning Tree Algorithm](Spanning%20Tree%20Algorithm/readme.md)
-    - [KruskalsAlgorithm](Spanning%20Tree%20Algorithm\KruskalsAlgorithm/readme.md)
-    - [PrimsAlgorithm](Spanning%20Tree%20Algorithm\PrimsAlgorithm/readme.md)]    
+5. [Spanning Tree Algorithm](Spanning%20Tree%20Algorithm/readme.md)
+    - [KruskalsAlgorithm](Spanning%20Tree%20Algorithm/KruskalsAlgorithm/readme.md)
+    - [PrimsAlgorithm](Spanning%20Tree%20Algorithm/PrimsAlgorithm/readme.md)
+    - [Disjoint Set Union / Union find](DSU/readme.md)
+6. Strongly Connected Components
+    - [Kosaraju's Algorithm](Kosaraju%20Algorithm/readme.md)

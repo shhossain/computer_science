@@ -13,6 +13,7 @@
         <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_ar.md">العربية</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_np.md">Nepali</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_cn.md">简体中文</a>
     </p>
 </h4>
 
@@ -20,7 +21,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-142-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-143-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1244,6 +1245,7 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://yashsajwan.netlify.app/"><img src="https://avatars.githubusercontent.com/u/52412969?v=4?s=50" width="50px;" alt="Yash Sajwan"/><br /><sub><b>Yash Sajwan</b></sub></a><br /><a href="#content-Yash-Sajwan24" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/AbhishekKumar993"><img src="https://avatars.githubusercontent.com/u/121042725?v=4?s=50" width="50px;" alt="Abhishek Kumar"/><br /><sub><b>Abhishek Kumar</b></sub></a><br /><a href="#content-AbhishekKumar993" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/jakenybo"><img src="https://avatars.githubusercontent.com/u/57851055?v=4?s=50" width="50px;" alt="jakenybo"/><br /><sub><b>jakenybo</b></sub></a><br /><a href="#content-jakenybo" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=jakenybo" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/jiangfz1997"><img src="https://avatars.githubusercontent.com/u/63608649?v=4?s=50" width="50px;" alt="Fangzhou_Jiang"/><br /><sub><b>Fangzhou_Jiang</b></sub></a><br /><a href="#content-jiangfz1997" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

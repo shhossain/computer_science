@@ -1329,6 +1329,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Ettubrute05",
+      "name": "Kevin Garfield",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89800208?v=4",
+      "profile": "https://github.com/Ettubrute05",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,

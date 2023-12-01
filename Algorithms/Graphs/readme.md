@@ -1,57 +1,91 @@
 # Graphs 
-A Graph is a non-linear data structure consisting of vertices and edges. The vertices are sometimes also referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph. More formally a Graph is composed of a set of vertices( V ) and a set of edges( E ). The graph is denoted by G(E, V).
+A graph is a data structure used in computer science and mathematics. Graphs are used to model pairwise relations between objects and are the most useful data structures for many real-world applications. For example, the airline route network is a graph in which the cities are the vertices, and the flight routes are the edges. It is a non-linear data structure consisting of a set of vertices and edges.
+
+The vertices, also called nodes or points, is a finite but possibly changeable set of vertices and are written as a set of vertex names, e.g. V=(A, B, C, ..)
+
+The edges or connections between vertices are called edges. These edges are known as arcs, lines, and arrows. Edges are written as a set of unordered pairs, e.g. E= ((A,B), (A,C), ..). 
+
+These vertices and edges are what make up a graph. More formally, a Graph is defined as a set of vertices( V ), a set of edges( E ) and is denoted by G(E, V).
+
+### Example graph
+Here is an example graph of a group of cities and plane flights in between them.   
+
+Cities       
+New York (NY)
+Los Angeles (LA)
+Houston (H)
+San Francisco (SF)
+Atlanta (A)
+Denver (D)
+
+Flights
+New York to Atlanta (NY, A)
+Atlanta to Denver (A, D)
+Atlanta to Houston (A, H)
+Atlanta to Los Angeles (A, LA)
+Denver to San Francisco (D, SF)
+Denver to Huston (D, H)
+San Francisco to Los Angeles (SF, LA)
+Los Angeles to Houston (LA, H)
+
+A graph representing the relation between cities and flights would look like this:
+
+V = (NY, LA, H, SF, A, D)
+
+E = ((NY, A), (A, D), (A, H), (A, LA), (D, SF), (D, H), (SF, LA), (LA, H))
+
+flights = G(E, V)
+
+TODO add image of graph
+(![alt text](graph.png "Title"))
 
 
-## Components of a Graph
-- **[Vertices](#vertices)** - A vertex is a node of the graph. It can be denoted by any symbol such as V, U, X, Y, etc. A vertex may also be referred to as a node or a point.
-- **[Edges](#edges)** - An edge is a connection between two nodes. It can be denoted by any symbol such as E, F, G, H, etc. An edge may also be referred to as a link or a line.
-- **[Weight](#weight)** - A weight is a value associated with an edge. It can be denoted by any symbol such as W, X, Y, Z, etc. A weight may also be referred to as a cost.
+
+
+## Graph Components
+- Edges - An edge is a connection between two nodes. It can be denoted by any symbol such as E, F, G, H, etc. An edge may also be referred to as a link or a line.
+- Weight - A weight is a value associated with an edge. It can be denoted by any symbol such as W, X, Y, Z, etc. A weight may also be referred to as a cost.
+- Vertices - A vertex is a node of the graph. It can be denoted by any symbol such as V, U, X, Y, etc. Vertices also have a degree, or the number of edges connected to it. A vertex’s in-degree is defined as the number of edges that point to a vertex and the vertex’s out-degree is the number of edges that point to other vertices. There can be many different types of vertices such as:
+    - Isolated vertex - Has no edges pointing to the vertex, and it has no outgoing edges. Its in-degree and out-degree is zero.
+    TODO add example
+    - Source vertex - Has no edges point to the vertex, its in-degree is zero.
+    TODO add example
+    - Sink vertex - Has no outgoing edges, it’s out-degree is zero.
+    TODO add example
+    - [Articulation Points](Graphs/Articulation%20Points/readme.md) - A vertex that creates an undirected graph if it is removed from the graph.
+    TODO add example and fix explanation 
+
 
 ## Types of Graphs
-- [Undirected Graph](#undirected-graph)
-- [Directed Graph](#directed-graph)
-- [Weighted Graph](#weighted-graph)
+There are a few different types of graphs that are used in computer science. Some graph algorithms will only work on a specific type of graph.  It is important to remember what kind of graph is 
+- Undirected Graph - A graph where edges of the graph are two-way paths or relations. 
+TODO add example
+- Directed Graph - A graph where edges of the graph go only one way, usually marked with arrows. 
+TODO add example
+- Weighted Graph - A graph where edges of the graph have costs or weights associated with them.
+TODO add example
+- [Tree Graphs](Graphs/Tree%20Based%20Algorithms/readme.md) - A graph with n vertices and n-1 edges where there exists only one path between vertices.
+TODO add example
 
 ## Common Graph Representations
-- [Adjacency Matrix](#adjacency-matrix)
-- [Adjacency List](#adjacency-list)
+In order to run algorithms on graphs we need to be able to store the vertex and edge data in a data structure. There are many different ways to represent a graph but the two most common ways are by using an adjacency matrix or list. 
 
-
-## Vertices
-## Edges
-## Weight
-### Example
-Pic Will be added
-
-## Undirected Graph
-An undirected graph is a graph where all the edges are bidirectional. That is, the undirected graph does not move in any direction.
-
-### Example
-Pic Will be added
-
-## Directed Graph
-A directed graph is a graph where all the edges are unidirectional. That is, the directed graph moves in a particular direction.
-
-### Example
-Pic Will be added
-
-## Weighted Graph
-A weighted graph is a graph where all the edges have a weight associated with them. That is, the weighted graph has a value associated with each edge.
-
-### Example
-Pic Will be added
-
-
-## Adjacency Matrix
+### Adjacency Matrix
 An adjacency matrix is a 2D array of size V x V where V is the number of vertices in a graph. Let the 2D array be adj[][], a slot adj[i][j] = 1 indicates that there is an edge from vertex i to vertex j. Adjacency matrix for undirected graph is always symmetric. Adjacency Matrix is also used to represent weighted graphs. If adj[i][j] = w, then there is an edge from vertex i to vertex j with weight w.
 
-### Example
-Pic Will be added
+#### Example
+TODO add image
 
-## Adjacency List
+#### Adjacency Matrix code
+TODO add example code 
+
+### Adjacency List
 An adjacency list is a collection of unordered lists used to represent a finite graph. Each list describes the set of neighbors of a node in the graph. The number of lists is equal to the number of vertices in the graph. If there are n vertices, then there are n adjacency lists. An adjacency list is an array of linked lists. The size of the array is equal to the number of vertices. Let the array be array[]. An entry array[i] represents the linked list of vertices adjacent to the ith vertex. This representation can also be used to represent a weighted graph. The weights of edges can be represented as nodes with additional information.
 
-### Example
+#### Example
+TODO - Pic Will be added
+
+#### Adjacency list code
 ```cpp
 // A C++ Program to demonstrate adjacency list
 // representation of graphs
@@ -97,7 +131,6 @@ int main()
     return 0;
 }
 ```
-Pic Will be added
 
 ## Graph Topics
 1. [Graph Traversal](Traversal%20Algorithms/readme.md)

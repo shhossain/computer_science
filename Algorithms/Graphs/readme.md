@@ -124,9 +124,39 @@ Weighted Directed - ToDo-fix to match image when its updated.
 | D  | 2  |    | 1  | 3  |    |    |
 
 #### Adjacency Matrix code
-TODO add example code
-```cpp
+TODO test example code
+```
+#include <iostream>
+#include <vector>
+using namespace std;
 
+const int N = 5; // number of vertices
+
+int main() 
+{
+  vector<vector<int>> adjMatrix(N, vector<int>(N, 0));
+
+  // Add edges
+  adjMatrix[0][1] = 1; 
+  adjMatrix[0][4] = 1;
+  adjMatrix[1][2] = 1;
+  adjMatrix[1][3] = 1;
+  adjMatrix[1][4] = 1;
+  adjMatrix[2][3] = 1;
+  adjMatrix[3][4] = 1;
+
+  // Print the matrix
+  for (int i = 0; i < N; i++) 
+  {
+    for (int j = 0; j < N; j++) 
+    {
+      cout << adjMatrix[i][j] << " "; 
+    }
+    cout << endl;
+  }
+
+  return 0;
+}
 ```
 
 ### Adjacency List

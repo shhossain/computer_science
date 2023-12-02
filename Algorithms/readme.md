@@ -53,7 +53,7 @@ Graphs are used to model pairwise relations between objects and are the most use
     - Isolated vertex - Has no edges pointing to the vertex, and it has no outgoing edges. Its in-degree and out-degree is zero.
     - Source vertex - Has no edges point to the vertex, its in-degree is zero.
     - Sink vertex - Has no outgoing edges, it’s out-degree is zero.
-    - [Articulation Points](Graphs/Articulation%20Points/readme.md) - A vertex that creates an undirected graph if it is removed from the graph..
+    - [Articulation Points](Graphs/Articulation%20Points/readme.md) - A vertex in an undirected graph that would created a disconnected graph if removed.
 
 ### Types of Graphs
 - Undirected Graph - A graph where edges of the graph are two-way paths or relations. 

@@ -33,48 +33,65 @@ These vertices and edges are what make up a graph. More formally, a graph is def
 
 A graph representing the relation between cities and flights would look like this:
 
-TODO add image of directed graph
-(![alt text](graph.png "Title"))
-
+### Flights Digraph
+<img src="graphImages\directedFlightsGraph.png " width="225" />
 
 With this graph we can now answer questions like: Can I get to San Francisco from New York? How many layovers are there between Atlanta and Denver? Can I get to Houston from Los Angeles? How many different flights are there from New York to Los Angeles? We can look at the graph and count the edges and vertices as we move from one city to another. But instead of calculating solutions by hand we can use algorithms like Dijkstra's, Bellman-Ford, or Kruskal's to give us the answers to those questions. 
 
 ## Types of Graphs
-There are a few different types of graphs that are used in computer science. Some graph algorithms will only work on a specific type of graph.  It is important to remember what kind of graph is 
+There are a few different types of graphs that are used in computer science. Note that some graph algorithms will only work on a specific types of graph. 
 
-- Undirected Graph - A graph where edges of the graph are two-way paths or relations. 
-TODO add example
-- Directed Graph - Also called a Digraph, is a graph where edges of the graph go only one way, usually marked with arrows. 
-TODO add example
-- Weighted/Unweighted Graph - A graph where edges of the graph have costs or weights associated with them.
-TODO add example
-- [Tree Graphs](Graphs/Tree%20Based%20Algorithms/readme.md) - A graph with n vertices and n-1 edges where there exists only one path between vertices.
-TODO add example
-- Connected and Disconnected Graph - A graph were not all of the nodes are connected.  
-TODO add example
-    - Complete Graph - A graph where all of the nodes are connected to all of the other nodes.
-- Acyclic and Cyclic Graphs - A graph that has a cycle. A cycle is a path that starts and ends at the same vertex.
-- Sparse Graph 
-TODO add example
-- Dense Graph
-TODO add example
+- Directed Graph - Also called a Digraph, is a graph where edges of the graph go only one way with the directions marked with arrows. The above graph is an example of a directed graph.
 
+Directed Flights Graph
+
+<img src="graphImages\directedFlightsGraph.png " width="150" />
+
+- Undirected Graph - A graph where edges of the graph are two-way paths or relations. If we were to update change the flghts examples to be round-trip or two way we would get an undirected graph. 
+
+Undirected Flights Graph
+
+<img src="graphImages\undirectedFlightsGraph.png " width="150" />
+
+- Unweighted Graph - A graph were the edges of the graph do not have any weight or cost associated with them. Undirected graphs are used to model connections. like social networks, where the cost of connecting two vertices does not matter. The above graph is an example of an undirected graph.
+
+- Weighted Graph - A graph where edges of the graph have costs or weights associated with them. As we traverse the graph we can add up the costs of the edges to get the total cost of taking the route. From theses costs we can determine the shortest path or the cheapest route. If we add weights to our flight graph we get the following weighted graph. 
+
+Weighted Flights Graph - ToDo-fix image, one edge is missing an image. 
+
+<img src="graphImages\weightedDirectedFlightsGraph.png " width="150" />
+
+- Connected Graphs 
+    - Undirected Connected and Disconnected Graphs - An undirected graph is considered connected if there exists a path between every pair of vertices. Otherwise it is disconnected. In a undirected connected graph you can get to very node in the graph from any other node. The  flight graph is an undirected connected graph but if we remove the edge between NY and A it would create an undirected graph. 
+
+        Disconnected Flights Graph
+
+        <img src="graphImages\disconnectedDirectedFlightsGraph.png " width="150" />
+
+    - Connected Directed Graphs - An directed graph can be strongly or weakly connected. A strongly connected digraph graph has as path from every vertex to every other other vertex. A weakly connected digraph is one where every vertex is connected to graph in some way. See [Kosaraju's Algorithm](Kosaraju%20Algorithm/readme.md) for calculating strongly connected components in a graph. If we ignore the directionality of the edges and make our graph undirected that is connected then the digraph is considered weakly connected. Our digraph flight example is not an strongly connected graph but it is weakly connected. to create a strongly connected graph we would have to add more connecting edges.
+
+        Todo-Example?  
+
+- Acyclic and Cyclic Graphs - Graphs can have cycles or paths that allow us to get back to the same node. In other words A cycle is a path that starts and ends at the same vertex. A graph is cyclic if is has one or more of these loops and acyclic and if it does not. Not all graphs have a cycle and some algorithms like Prims assume there are no cycles and algorithms like Floyd-Warshall cannot handle negative cycles (a cycle where all the edge costs are negative). 
+
+    Todo-Example?  
+
+- [Tree Graphs](Graphs/Tree%20Based%20Algorithms/readme.md) - Trees are acyclic and connected graphs where the vertices are connected in such a way that there is only one path between vertices. A tree graph will n vertices and n-1 edges with each node connected to the tree. A set of disconnected tree graphs is called a forest. A tree can have either directed or undirected edges.   
+
+    Todo-Example?  
 
 ## Graph Components
 The typed of edges and vertices a graph has can vary. Here is a brief explanation of some of them.
 - Edges - An edge is a connection between two nodes. It can be denoted by any symbol such as E, F, G, H, etc. An edge may also be referred to as a link or a line. 
-    - Weighted Edge - When a weight or cost value associated with an edge it is an weighted edge. The weight may also be referred to as a cost. This cost can be distance, money, time, etc. These weights can be zero, negative, positive, or infinite. It depends on the relations the graph is representing.
-    - Undirected - A undirected edge is an edge that allows for to two way connections. In other words, if vertex A is connected to B then B is connected to A. The flight graph shown above is undirected edges. 
-    TODO fix example
-    - Directed - A directed edge is an edge that only goes one way. In other words, vertex A is connected to B but B is not connected to A. If we were to alter the flight list in the above example and change the flights to be one-way then the edges would become directed edges. 
-    TODO fix example
+    - Weighted Edge - When a weight or cost value associated with an edge it is an weighted edge. The weight may also be referred to as a cost. This cost can be distance, money, time, etc. These weights can be zero, negative, positive, or infinite. It depends on the relations the graph is representing. See Weighted Flights Graph for an example. 
+    - Undirected - A undirected edge is an edge that allows for to two way connections. In other words, if vertex A is connected to B then B is connected to A. See Undirected Flights Graph for an example. 
+    - Directed - A directed edge is an edge that only goes one way. In other words, vertex A is connected to B but B is not connected to A. If we were to alter the flight list in the above example and change the flights to be one-way then the edges would become directed edges. see Directed Flights Graph for an example.  
 
-- Vertices - A vertex is a node of the graph. It can be denoted by any symbol such as V, U, X, Y, etc. Vertices also have a degree, or the number of edges connected to it. A vertex’s in-degree is defined as the number of edges that point to a vertex. The vertex’s out-degree is the number of edges that point to other vertices. The different types of vertices are defined by these degrees.
-    - Isolated vertex - Has no edges pointing to the vertex, and it has no outgoing edges. Its in-degree and out-degree is zero. If we were to add the city Oklahoma to our list of vertices it would be an isolated vertex as there are no flights going in or our of the city.   
-    - Source vertex - Has no edges point to the vertex, its in-degree is zero. The city, New York, is source vertex as there are no flights going to the city. 
-    - Sink vertex - Has no outgoing edges, it’s out-degree is zero. The city Houston is a sink vertex as there are no flights going out of that city.
-    - [Articulation Points](Graphs/Articulation%20Points/readme.md) - Also called a bridge, is vertex in an undirected graph that would created a disconnected graph if removed.
-    TODO add example
+- Vertices - A vertex is a node of the graph. It can be denoted by any symbol such as V, U, X, Y, etc. Vertices also have a degree, or the number of edges connected to it. A vertex’s in-degree is defined as the number of edges that point to a vertex. The vertex’s out-degree is the number of edges that point to other vertices. In an undirected graph the in and out degree is the same. The different types of vertices are defined by these degrees.
+    - Isolated vertex - No edges pointing to the vertex, and it has no outgoing edges. Its in-degree and out-degree is zero. In the Disconnected Flights Graph NY is an isolated vertex. 
+    - Source vertex - No edges point to the vertex, its in-degree is zero. In the Directed Flights Graph, NY is a source vertex as there are no flights or edges going to the city. 
+    - Sink vertex - Has no outgoing edges, it’s out-degree is zero. In the Directed Flights Graph, vertex H is a sink vertex as there are no flights going out of that city.
+    - [Articulation Points](Graphs/Articulation%20Points/readme.md) - Also called a bridge, is vertex in an undirected graph that would created a disconnected graph if removed. if we were to remove A and all its edges from the Directed Flights Graph we would get an disconnected graph. A is an articulation point. 
 
 
 ## Common Graph Representations
@@ -84,16 +101,53 @@ In order to run algorithms on graphs we need to be able to store the vertex and 
 An adjacency matrix is a 2D array of size V x V where V is the number of vertices in a graph. Let the 2D array be adj[][], a slot adj[i][j] = 1 indicates that there is an edge from vertex i to vertex j. Adjacency matrix for undirected graph is always symmetric. Adjacency Matrix is also used to represent weighted graphs. If adj[i][j] = w, then there is an edge from vertex i to vertex j with weight w.
 
 #### Example
-TODO add image
+Adjacency matrix for the undirected and directed flight graphs 
+
+Undirected 
+|    | NY | LA | H  | SF | A  | D  |
+|----|----|----|----|----|----|----|
+| NY |    |    |    |    | 1  |    |
+| LA |    |    | 1  | 1  | 1  |    |
+| H  |    | 1  |    |    | 1  | 1  |
+| SF |    | 1  |    |    |    | 1  |
+| A  | 1  | 1  | 1  |    |    | 1  |
+| D  |    |    | 1  | 1  | 1  |    |
+
+Weighted Directed - ToDo-fix to match image when its updated. 
+|    | NY | LA | H  | SF | A  | D  |
+|----|----|----|----|----|----|----|
+| NY |    |    |    |    | 3  |    |
+| LA |    |    | 4  |    |    |    |
+| H  |    |    |    |    |    |    |
+| SF |    | 2  |    |    |    |    |
+| A  |    | ?  | 3  |    |    |    |
+| D  | 2  |    | 1  | 3  |    |    |
 
 #### Adjacency Matrix code
-TODO add example code 
+TODO add example code
+```cpp
+
+```
 
 ### Adjacency List
 An adjacency list is a collection of unordered lists used to represent a finite graph. Each list describes the set of neighbors of a node in the graph. The number of lists is equal to the number of vertices in the graph. If there are n vertices, then there are n adjacency lists. An adjacency list is an array of linked lists. The size of the array is equal to the number of vertices. Let the array be array[]. An entry array[i] represents the linked list of vertices adjacent to the ith vertex. This representation can also be used to represent a weighted graph. The weights of edges can be represented as nodes with additional information.
 
 #### Example
-TODO - Pic Will be added
+Undirected 
+NY -> A
+LA -> H
+H  ->
+SF -> LA
+A  -> D, H, LA
+D  -> SF, H
+
+Weighted Directed  ToDo-fix to match image when its updated. 
+NY -> A(3)
+LA -> H(4)
+H  ->
+SF -> LA(2)
+A  -> D(2), H(3), LA(?)
+D  -> SF(4), H(1)
 
 #### Adjacency list code
 ```cpp

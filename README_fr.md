@@ -18,7 +18,38 @@ Si vous souhaitez participez à ce projet, prenez le temps de jeter un oeil au g
 
 ## Table des matières
 
+- [Introduction](#introduction)
+- [Ordinateur électronique](#oridnateur-electronique)
+- [Logique booléenne](#logique-booleene)
 - [Langages de programmation](#langages-de-programation)
+
+## Introduction
+
+L'informatique est l'étude des ordinateurs mais également de l'application théorique et pratique de ceux-ci. L'informatique utilise les principes des mathématiques, de l'ingénierie et de la logique afin de répondre à une multitude de problèmes. Ceci comprend la formulation d'algorithmes, le développement de logiciels et de matériel ainsi que d'intelligence artificielle.
+
+## [Ordinateur électronique](/Electronic%20Computer/readme_fr.md)
+Un ordinateur électronique est un appareil qui calcule et plus particulièrement une machine électronique programmable qui effectue des calculs ou des opérations logiques à grande vitesse. Elle peut également assembler, stocker, mettre en corrélation ou traiter l'information.
+
+## [Logique booléenne (ou opérateurs logiques)](Boolean%20Logic/readme.md)
+La logique booléenne est une branche des mathématiques qui traite des valeurs dites vraies ou fausses (true ou false). C'est un système logique qui utilise 2 valeurs, 0 et 1, pour différencier respectivement le vrai et le faux. Elle est également appelée algèbre de Boole par son créateur George Boole en 1854.
+
+
+### Opérateurs booléen récurrents
+| Opérateur | Nom |               Description               |
+| :------: | :--: | :-------------------------------------: |
+|    !     | NON  | Inverse l'état d'une variable booléene. (0 -> 1 ; 1 -> 0) |
+|    &&    |  ET  | Retoune **vrai** si TOUTES les conditions sont respéctées. |
+|   \|\|   |  OU  | Retoune **vrai** si au moins UNE des conditions est respéctées. |
+
+### Opérateurs booléens utiles
+| Opérateur | Nom |               Description               |
+| :------: | :--: | :-------------------------------------: |
+|    ()    | Parenthèses |   Permet de regrouper des mots-clés et/ou controler l'ordre de recherche. (priorité) |
+|    “”    | Guillemets | Renvoie le résultat comprenant la phrase exacte. |
+|   *      |  Astérix | Renvoie le résultat comprenant un mot-clé. |
+|   ⊕     |  XOR  - OU exclusif | Retourne **vrai** si les entrées sont différentes. |
+|   ⊽      |  NOR - OU inversé | Retourne **vrai** si toutes les entrées sont fausses. |
+|   ⊼      |  NAND - ET inversé | Retourne **faux** si les deux valeurs d'entrée sont vrais. |
 
 ## [Langages de programation](/Programming_Languages/readme_fr.md)
 

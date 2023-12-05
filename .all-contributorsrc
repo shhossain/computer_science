@@ -1339,6 +1339,15 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "xaviermonb",
+      "name": "xaviermonb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144323061?v=4",
+      "profile": "https://github.com/xaviermonb",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 6,

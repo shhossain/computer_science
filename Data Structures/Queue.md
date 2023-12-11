@@ -1,19 +1,35 @@
-## Queue
+# [Queue](#queue)
 A queue stores a collection of data values in a FIFO (First In, First Out) order. The first element added to the queue will be the first to be processed (removed).\
 A queue can only be accessed through its ends, referred as _head_ for its rear and _tail_ for its back.\
 The implementation could be an array-like (static and contiguous) or a linked-list-like (dynamic and dis-contiguous).
-### Common operations on Queue
-#### Enqueue
+
+## [Table of Contents](#table-of-contents)
+[Queue](#queue)
+- [Table of Contents](#table-of-contents)
+- [Common operations on Queue](#common-operations-on-queue)
+  - [Enqueue](#enqueue)
+    - [Enqueue Example](#enqueue-example)
+  - [Dequeue](#dequeue)
+    - [Dequeue Example](#dequeue-example)
+  - [Peek](#peek)
+    - [Peek Example](#peek-example)
+  - [Circular Queue](#circular-queue)
+    - [Circular Queue Example](#circular-queue-example)
+  - [Double Ended Queue](#double-ended-queue)
+    - [Double Ended Queue Example](#double-ended-queue-example)
+
+## [Common operations on Queue](#common-operations-on-queue)
+### [Enqueue](#enqueue)
 Add item to the rear of the queue
-##### Example
+#### [Enqueue Example](#enqueue-example)
 ``
 let queue = [4, 1, 0, 2];
 queue.enqueue(5);
 // queue is now [4, 1, 0, 2, 5]
 ``
-#### Dequeue
+### [Dequeue](#dequeue)
 Remove the item from the front of the queue
-##### Example
+#### [Dequeue Example](#dequeue-example)
 
 ``
 let queue = [4, 1, 0, 2];
@@ -21,9 +37,9 @@ let head = queue.dequeue();
 // head is 4
 // queue is now [1, 0, 2]
 ``
-#### Peek
+### [Peek](#peek)
 Some programming languages provides `peek` method to allow checking the value of the current head without removing the value from the queue.
-##### Example
+#### [Peek Example](#peek-example)
 
 ``
 let queue = [4, 1, 0, 2];
@@ -38,11 +54,11 @@ There are more types of Queues:
 - Circular Queue
 - Double Ended Queue
 
-### Circular Queue
+### [Circular Queue](#circular-queue)
 
 If the last position is full and the first position is empty, we can not insert an element in the first position in a Simple Queue. However this is possible if we use circular Queue, where the last element is connected to the first element forming a circle-like structure.
 
-#### Example to show the Implementaion of Circular Queue
+#### [Circular Queue Example](#circular-queue-example)
 
 ##### Dequeue and then enqueue
 ``
@@ -57,11 +73,11 @@ enqueue(8);
 
 ``
 
-### Double Ended Queue
+### [Double Ended Queue](#double-ended-queue)
 
 Double Ended Queue or Deque is a type of queue where insertion and deletions can be done from both ends (front and rear).it does not follow FIFO rule (First In First Out).
 
-#### Example to show the Implementaion of Double Ended Queue
+#### [Double Ended Queue Example](#double-ended-queue-example)
 
 ##### Insert from front
 
@@ -91,7 +107,6 @@ let queue = [4, 1, 0, 2];
 queue.DeleteEnd();
 //The queue is now [4, 1, 0]. 2 has been deleted
 ``
-
 
 There are 2 types of Deque:
 

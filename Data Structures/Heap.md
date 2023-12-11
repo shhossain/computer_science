@@ -36,4 +36,32 @@ A min-heap representation of the array would look like this:
                  /  \   /  \
                40   50 100  40
 ```
+
+### Common Use Cases
+
+Heaps are commonly used in various scenarios where you need efficient access to the minimum or maximum element in a collection of data. Here are some situations where heaps are particularly useful:
+
+- Priority Queues:
+  - Heaps are widely used to implement priority queues, where elements are assigned priorities, and the element with the highest (or lowest) priority can be efficiently retrieved.
+
+- Dijkstra's Shortest Path Algorithm:
+  - The min-heap is often employed in algorithms like Dijkstra's algorithm for finding the shortest path in a graph. It allows for quick extraction of the vertex with the minimum distance.
+
+- Heap Sort:
+  - Heaps are used in the heap sort algorithm, a comparison-based sorting algorithm that operates by building a max-heap or min-heap.
+
+- Job Scheduling:
+  - Heaps can be used in job scheduling algorithms where tasks with the highest (or lowest) priority need to be processed first.
+
+- Graph Algorithms:
+  - Algorithms like Prim's and Kruskal's for minimum spanning trees use heaps to efficiently select and process edges with the minimum weights.
+
+- Task Scheduling in Operating Systems:
+  - Heaps can be employed in operating systems for managing tasks with different priorities and scheduling them for execution.
+
+- Median Maintenance:
+  - Heaps can be used to efficiently maintain the median of a set of numbers, where you need quick access to both the smaller and larger halves of the dataset.
+
+In general, heaps are chosen when you need fast access to the extreme values (minimum or maximum) in a dataset or when you need to efficiently maintain a dynamically changing priority queue. They offer logarithmic time complexity for both insertion and extraction of the extremal values, making them suitable for various algorithmic applications.
+
 [Read more about Heaps here](https://en.wikipedia.org/wiki/Heap_(data_structure))

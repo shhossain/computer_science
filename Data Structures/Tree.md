@@ -1,8 +1,32 @@
-## Tree
+# [Tree](#tree)
 
 A tree is non-linear and has a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value and a list of references to other nodes (the “children”).
 
-### Example
+## [Table of Contents](#table-of-contents)
+
+[Tree](#tree)
+- [Table of Contents](#table-of-contents)
+- [Example](#example)
+- [Applications of Tree data structure](#applications-of-tree-data-structure)
+  - [Heap](#heap)
+  - [Binary Search Tree (BST)](#binary-search-tree-bst)
+    - [BST Example](#bst-example)
+  - [AVL Tree](#avl-tree)
+    - [AVL Example](#avl-example)
+  - [Red Black Tree](#red-black-tree)
+  - [Fenwick Tree](#fenwick-tree)
+    - [Fenwick Tree Example](#fenwick-tree-example)
+    - [Summing in a Fenwick Tree](#summing-in-a-fenwick-tree)
+    - [Update Value in Fenwick Tree](#update-value-in-fenwick-tree)
+  - [Splay Tree](#splay-tree)
+    - [Splay Tree Properties](#splay-tree-properties)
+    - [Advantages of Splay Tree](#advantages-of-splay-tree)
+    - [Drawbacks of Splay Tree](#drawbacks-of-splay-tree)
+    - [Algorithm For Splaying Operation](#algorithm-for-splaying-operation)
+    - [Splay Tree Example](#splay-tree-example)
+- [Some Real-life Applications of Tree data structure](#some-real-life-applications-of-tree-data-structure)
+
+## [Example](#example)
 
 ```
 Let the array of numbers be [100, 7, 2, 17, 3, 25, 1, 36, 19]
@@ -17,16 +41,16 @@ A tree representation of the array would look like this:
              2    7
 ```
 
-# Applications of Tree data structure
+## [Applications of Tree data structure](#applications-of-tree-data-structure)
 
-## Heap
+### [Heap](#heap)
 [Read about Heaps here](Heap.md)
 
-## Binary Search Tree
+### [Binary Search Tree (BST)](#binary-search-tree-bst)
 
 A BST (Binary Search Tree) also known as an ordered or sorted binary tree is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree
 
-### Example
+#### [BST Example](#bst-example)
 
 ```
 Let the array of numbers be [8, 13, 14, 6, 7, 4, 10, 1, 3]
@@ -40,7 +64,7 @@ A BST representation of these numbers would look like this:
                     4   7    13
 ```
 
-## AVL Tree
+### [AVL Tree](#avl-tree)
 
 AVL Tree is invented by GM Adelson - Velsky and EM Landis in 1962. The tree is named AVL in honor of its inventors.
 
@@ -53,7 +77,7 @@ If the balance factor of any node is 1, it means that the left sub-tree is one l
 If the balance factor of any node is 0, it means that the left sub-tree and right sub-tree contain equal height.
 If the balance factor of any node is -1, it means that the left sub-tree is one level lower than the right sub-tree.
 
-### Example
+#### [AVL Example](#avl-example)
 
 ```
 Let the array of numbers be [8, 3, 10, 1, 6, 5, 14, 4, 7, 13]
@@ -79,7 +103,7 @@ Balance Factor (8) = 1
 
 ```
 
-## Red Black Tree
+### [Red Black Tree](#red-black-tree)
 
 A Red Black Tree is a category of the self-balancing binary search tree. It was created in 1972 by Rudolf Bayer who termed them "symmetric binary B-trees."
 
@@ -117,11 +141,11 @@ Color(12) = R
 Here R denotes a red color and B denotes black color.
 Each leaf node is having two child nodes with black color and is considered nil.
 
-## Fenwick Tree
+### [Fenwick Tree](#fenwick-tree)
 
 Fenwick tree, also known as a binary indexed tree is a data structure that can efficiently update elements and calculate prefix sums in a table of numbers
 
-### Example
+#### [Fenwick Tree Example](#fenwick-tree-example)
 
 ```
 If you have an array of numbers [5, 2, 9, -3, 5, 20, 10, -7, 2, 3]
@@ -131,7 +155,7 @@ Index: 1 2 3 4  5 6  7  8  9 10 (starting from 1)
 Let this Fenwick tree be T
 ```
 
-### Summing in a Fenwick Tree
+#### [Summing in a Fenwick Tree](#summing-in-a-fenwick-tree)
 ```
 Suppose you were to do a RSQ(Ranged Query Sum) from index 1 to 7 so basically RSQ(1, 7)
 Normally you would sum from index 1 to 7 of a normal array: 5 + 2 + 9 + (-3) + 5 + 20 + 10 = 48
@@ -139,7 +163,7 @@ For a Fenwick Tree, you would take the binary equivalent of 7 which is 0111, the
 The sum using Fenwick Tree would look like this: T(0111) + T(0110) + T(0100) + T(0000) = 10 + 25 + 13 = 48
 ```
 
-### Update Value in Fenwick Tree
+#### [Update Value in Fenwick Tree](#update-value-in-fenwick-tree)
 ```
 Suppose we were to add 10 to the value at index 4, the Fenwick tree has to update since further indexes may be dependent on index 4
 To change the value at index 4, we would have to update the value at further indexes
@@ -149,24 +173,24 @@ T[0100] + 10 = 13 + 10 = 23
 T[1000] + 10 = 41 + 10 = 51
 T[10000] is out of bounds as 10000 would be 16 and the maximum index of T is 10
 ```
-## Splay Tree
+### [Splay Tree](#splay-tree)
 Splay trees are self-balancing or self-adjusted binary search trees. In other words, we can say that the splay trees are the variants of the binary search trees
 
 A splay tree contains the same operations as a Binary search tree, i.e., Insertion, deletion, and searching, but it also contains one more operation, i.e., splaying. So. all the operations in the splay tree are followed by splaying.
 
-### Properties
+#### [Splay Tree Properties](#splay-tree-properties)
 1.  Follow the properties of binary search trees.
 2.  Self-balancing.
 3.  Recently accessed elements are quick to access again.
 
-### Advantages of Splay Tree
+#### [Advantages of Splay Tree](#advantages-of-splay-tree)
 1. In the splay tree, we do not need to store the extra information. In contrast, in AVL trees, we need to store the balance factor of each node that requires extra space, and Red-Black trees also require storing one extra bit of information that denotes the color of the node, either Red or Black.
 2. It is the fastest type of Binary Search tree for various practical applications. It is used in Windows NT and GCC compilers.
 
-### Drawbacks of Splay Tree
+#### [Drawbacks of Splay Tree](#drawbacks-of-splay-tree)
 The major drawback of the splay tree would be that trees are not strictly balanced, i.e., they are roughly balanced. Sometimes the splay trees are linear, so it will take O(n) time complexity.
 
-### Algorithm For Splaying Operation
+#### [Algorithm For Splaying Operation](#algorithm-for-splaying-operation)
 ```
 *Splaying an element, is the process of bringing it to the root position by performing suitable rotation operations.
 
@@ -196,7 +220,7 @@ Implementation of right.rotation(T, x)
   y->right=x  
   return y  
 ```
-### Example
+#### [Splay Tree Example](#splay-tree-example)
 ```
                       10
                     /    \
@@ -237,7 +261,7 @@ Step 2: Once the element is found, we will perform splaying. The right rotation 
                              30
                              
 ```
-### Some Real-life Applications of Tree data structure
+## [Some Real-life Applications of Tree data structure](#some-real-life-applications-of-tree-data-structure)
 1. Store hierarchical data, like folder structure, organization structure, and XML/HTML data.
 2. B-Tree and B+ Tree: They are used to implement indexing in databases.
 3. In Computer Graphics.

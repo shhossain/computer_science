@@ -1,8 +1,23 @@
-# Priority Queue
+# [Priority Queue](#priority-queue)
 
 A priority queue is a data structure that allows you to store elements with associated priorities and provides efficient access to the element with the highest priority. Priority queues are often used in scenarios where elements must be processed in order of their priority, such as scheduling tasks in operating systems or finding the shortest path in graph algorithms.
 
-### Example 
+## [Table of Contents](#table-of-contents)
+
+[Priority Queue](#priority-queue)
+- [Table of Contents](#table-of-contents)
+- [Example](#example)
+- [Key Characteristics](#key-characteristics)
+- [Example Use Cases](#example-use-cases)
+- [Implementation](#implementation)
+- [Operations](#operations)
+  - [1. Insertion](#1-insertion)
+  - [2. Deletion (Peek/Pop)](#2-deletion-peekpop)
+  - [3. Peek (Top)](#3-peek-top)
+- [Implementing a Priority Queue (C++ Example)](#implementing-a-priority-queue-c-example)
+- [Conclusion](#conclusion)
+
+## [Example](#example) 
 ![](https://cdn.programiz.com/sites/tutorial2program/files/Introduction.png)
 
 In this figure
@@ -12,21 +27,21 @@ The element with the highest value is considered the highest priority element. H
 We can also set priorities according to our needs.
 
 
-## Key Characteristics
+## [Key Characteristics](#key-characteristics)
 
 - **Priority:** Each element in the priority queue has an associated priority value.
 - **Ordering:** Elements are organized in the queue based on their priority, with the element of highest priority at the front.
 - **Operations:** Common operations on a priority queue include insertion, deletion (removing the highest priority element), and peek (viewing the highest priority element).
 
 
-## Example Use Cases
+## [Example Use Cases](#example-use-cases)
 
 1. **Task Scheduling:** In an operating system, processes with higher priority are scheduled to run before processes with lower priority.
 2. **Dijkstra's Algorithm:** Finding the shortest path in a weighted graph using a priority queue to explore nodes with the least path cost first.
 3. **Huffman Coding:** Building efficient variable-length codes for data compression based on the frequency of characters.
 
 
-## Implementation
+## [Implementation](#implementation)
 
 Priority queues can be implemented using various data structures, such as:
 
@@ -36,24 +51,24 @@ Priority queues can be implemented using various data structures, such as:
 4. **Standard Library (STL) Priority Queue:** Many programming languages, including C++ and Python, provide built-in priority queue data structures.
 
 
-## Operations
+## [Operations](#operations)
 
 A priority queue typically supports the following operations:
 
-### 1. Insertion
+### [1. Insertion](#1-insertion)
    - **Description:** Add an element to the priority queue with an associated priority.
    - **Method:** `push` (C++), `insert` (Python), `offer` (Java).
 
-### 2. Deletion (Peek/Pop)
+### [2. Deletion (Peek/Pop)](#2-deletion-peekpop)
    - **Description:** Remove and return the element with the highest priority from the priority queue.
    - **Methods:** `pop` (C++), `get` and `pop` (Python), `poll` (Java).
 
-### 3. Peek (Top)
+### [3. Peek (Top)](#3-peek-top)
    - **Description:** Return the element with the highest priority without removing it from the priority queue.
    - **Methods:** `top` (C++), `peek` (Python), `peek` (Java).
 
 
-## Implementing a Priority Queue (C++ Example)
+## [Implementing a Priority Queue (C++ Example)](#implementing-a-priority-queue-c-example)
 
 Below is an example of implementing a min-priority queue using C++'s Standard Template Library (STL):
 
@@ -86,9 +101,9 @@ int main() {
     return 0;
 }
 ```
-## Conclusion
-Priority queues are versatile data structures that find applications in various domains, including algorithms, operating systems, and more. They allow efficient management of elements with associated priorities, making it possible to process tasks in order of their importance or urgency.
+## [Conclusion](#conclusion)
 
+Priority queues are versatile data structures that find applications in various domains, including algorithms, operating systems, and more. They allow efficient management of elements with associated priorities, making it possible to process tasks in order of their importance or urgency.
 
 Here are the time and space complexities for the Priority Queue operations described in the C++ example provided:
 

@@ -71,13 +71,19 @@ As mentioned above, the private key consists of the multiplicative inverse of ou
 So there is nothing more to do than to calculate $d=e^{-1}\,mod\,\Phi(n)$.
 We have to do this using the extended Euclidean algorithm, for which there are various approaches.
 
-To decrypt a received ciphertext, we have to exponentiate it with our private key: $m'=c^d\,mod\,n$
+To decrypt a received ciphertext, we have to exponentiate it with our private key:
+
+$m'=c^d\,mod\,n$
 
 ### Example
 In the following I will give a small example of the RSA calculation. This is carried out with comparatively tiny integers and is purely for demonstration purposes.
-We are given the prime numbers $p=23$ and $q=31$. Our n is therefore $n=p*q=23*31=713$.
+We are given the prime numbers $p=23$ and $q=31$. Our n is therefore 
+
+$n=p*q=23*31=713$.
+
 #### Step 1: $\Phi(n)$
 As shown above, we do a simple calculation:
+
 $\Phi(n)=\Phi(p)*\Phi(q)=(p-1)*(q-1)=30*22=660$
 
 #### Step 2: Encryption exponent e

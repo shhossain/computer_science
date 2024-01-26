@@ -58,9 +58,9 @@ The next step is to search for our encryption exponent e. This is used to encryp
 The n from step 1 and the e combined are therefore the public key with which messages can be encrypted.
 The following steps must be observed when choosing a suitable e: 
 
-1. It must be co-prime to \(\Phi(n)\): The value of \(e\) must have no common factors with \(\Phi(n)\) except 1, which is expressed mathematically as \(\text{GCD}(e, \Phi(n)) = 1\). This requirement ensures that \(e\) has a unique multiplicative inverse modulo \(\Phi(n)\). In simpler terms, there must be a number \(d\) (which will be the decryption exponent) such that \(e \times d\) is congruent to 1 modulo \(\Phi(n)\).
+1. **It must be co-prime to $\Phi(n)$**: The value of $e$ must have no common factors with $\Phi(n)$ except 1, which is expressed mathematically as $GCD(e, \Phi(n)) = 1$. This requirement ensures that $e$ has a unique multiplicative inverse modulo $\Phi(n)$. In simpler terms, there must be a number $d$ (which will be the decryption exponent) such that $e \times d$ is congruent to 1 modulo $\Phi(n)$.
 
-2. It must be within the range \(1 < e < \Phi(n)\): This range ensures that \(e\) is a valid exponent for the modulo operation and helps maintain the encryption's mathematical properties.
+2. It must be within the range $1 < e < \Phi(n)$: This range ensures that $e$ is a valid exponent for the modulo operation and helps maintain the encryption's mathematical properties.
 
     
 This means that the e must be located in the residue class ring and is not a divisor of $\Phi(n)$.

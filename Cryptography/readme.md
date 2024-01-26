@@ -57,8 +57,10 @@ With this step, we have now determined our n and the phi of n.
 The next step is to search for our encryption exponent e. This is used to encrypt the message we are transmitting.
 The n from step 1 and the e combined are therefore the public key with which messages can be encrypted.
 The following steps must be observed when choosing a suitable e: 
-    1. $1 < e < \Phi(n)$ 
+
+    1. $1 < e < \Phi(n)$
     2. $GCD(e, \Phi(n)) = 1$
+    
 This means that the e must be located in the residue class ring and is not a divisor of $\Phi(n)$.
 A frequently used e is 65537, which is $2^{16}+1$ and a prime number.
 

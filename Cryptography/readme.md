@@ -64,7 +64,7 @@ The following steps must be observed when choosing a suitable e:
 This means that the e must be located in the residue class ring and is not a divisor of $\Phi(n)$.
 A frequently used e is 65537, which is $2^{16}+1$ and a prime number.
 
-Now we have our public key composed of n and e and can encrypt messages m as follows: $c=m^{e}mod\:n$
+Now we have our public key composed of n and e and can encrypt messages m as follows: $c=m^{e}mod\n$
 
 ### Step 3: Private Key
 As mentioned above, the private key consists of the multiplicative inverse of our encryption exponent in the remainder class ring $\Phi(n)$.

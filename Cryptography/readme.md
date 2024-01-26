@@ -73,7 +73,7 @@ We have to do this using the extended Euclidean algorithm, for which there are v
 
 To decrypt a received ciphertext, we have to exponentiate it with our private key:
 
-$m'=c^dmodn$
+$m'=c^d\ mod\ n$
 
 ### Example
 In the following I will give a small example of the RSA calculation. This is carried out with comparatively tiny integers and is purely for demonstration purposes.

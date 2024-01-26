@@ -79,12 +79,12 @@ $m'=c^dmodn$
 In the following I will give a small example of the RSA calculation. This is carried out with comparatively tiny integers and is purely for demonstration purposes.
 We are given the prime numbers $p=23$ and $q=31$. Our n is therefore 
 
-$n=p\timesq=23\times31=713$.
+$n=p\times q=23\times 31=713$.
 
 #### Step 1: $\Phi(n)$
 As shown above, we do a simple calculation:
 
-$\Phi(n)=\Phi(p)\times\Phi(q)=(p-1)\times(q-1)=30\times22=660$
+$\Phi(n)=\Phi(p)\times \Phi(q)=(p-1)\times (q-1)=30\times 22=660$
 
 #### Step 2: Encryption exponent e
 I have chosen a small value for demonstration purposes.
@@ -99,7 +99,7 @@ In the example, a table form is used in which the following formulae apply:
 1. $a_{i+1}=b_i$
 2. $b_{i+1}=r_i$
 3. $x_i=y_{i+1}$
-4. $y_i=x_{i+1}-q_i\timesx_i$
+4. $y_i=x_{i+1}-q_i\times x_i$
 5. $x_n=0$ ^ $y_n=1$
 
 We remember that the decryption exponent is calculated as follows: $d=e^{-1}\ mod\ \Phi(n)$

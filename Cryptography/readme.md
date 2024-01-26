@@ -64,16 +64,16 @@ The following steps must be observed when choosing a suitable e:
 This means that the e must be located in the residue class ring and is not a divisor of $\Phi(n)$.
 A frequently used e is 65537, which is $2^{16}+1$ and a prime number.
 
-Now we have our public key composed of n and e and can encrypt messages m as follows: $cipher\,c=m^e\,mod\,n$
+Now we have our public key composed of n and e and can encrypt messages m as follows: $cipher\quadc=m^e\quadmod\quadn$
 
 ### Step 3: Private Key
 As mentioned above, the private key consists of the multiplicative inverse of our encryption exponent in the remainder class ring $\Phi(n)$.
-So there is nothing more to do than to calculate $d=e^{-1}\,mod\,\Phi(n)$.
+So there is nothing more to do than to calculate $d=e^{-1}\quadmod\quad\Phi(n)$.
 We have to do this using the extended Euclidean algorithm, for which there are various approaches.
 
 To decrypt a received ciphertext, we have to exponentiate it with our private key:
 
-$m'=c^d\,mod\,n$
+$m'=c^d\quadmod\quadn$
 
 ### Example
 In the following I will give a small example of the RSA calculation. This is carried out with comparatively tiny integers and is purely for demonstration purposes.
@@ -102,7 +102,7 @@ In the example, a table form is used in which the following formulae apply:
 4. $y_i=x_{i+1}-q_i\timesx_i$
 5. $x_n=0$ ^ $y_n=1$
 
-We remember that the decryption exponent is calculated as follows: $d=e^{-1}\,mod\,\Phi(n)$
+We remember that the decryption exponent is calculated as follows: $d=e^{-1}\quadmod\quad\Phi(n)$
 
 We determine this as follows: 
 

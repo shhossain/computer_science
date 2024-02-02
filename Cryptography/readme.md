@@ -34,11 +34,88 @@ Hash functions are used to map data of arbitrary size to data of fixed size. The
 3. [Playfair Cipher](notadded)
 4. [DES](notadded)
 5. [AES](notadded)
-6. [RSA](notadded)
+6. [RSA](#rsa-rivest-shamir-adleman)
 7. [Diffie-Hellman Key Exchange](notadded)
 8. [ElGamal](notadded)
 9. [Digital Signature Algorithm](notadded)
 10. [Elliptic Curve Cryptography](notadded)
+
+## RSA (Rivest-Shamir-Adleman)
+**IMPORTANT NOTE**: 
+    1. Do not implement techniques like these yourself in an environment, that can hurt you in any kind of way.
+    2. The shown RSA method is already broken! This guide aims to give you a basic understanding of the algorithm.
+Broken down, the RSA method is nothing more than the multiplicative inverse within a residue class ring.
+This means that the task is to find an inverse modulo the Eulerian phi function of a high integer n that is difficult to compute.
+This proves to be particularly difficult to do, as even computers have difficulties with the calculation algorithm above a certain length.
+### Step 1: Finding n
+To avoid this when generating the key, the n is chosen so that it is the product of two high prime numbers. This has the advantage that simple mathematical rules can be applied to determine the Phi of the product n.
+The property that prime numbers and the Phi function share is that they are divisors of all numbers (except 1, but this does not play a role in the Phi function either) and therefore Phi of a prime number p is equal to p-1.
+If you now want to determine the Phi of the product, you can simply multiply the prime numbers p and q as follows: $\Phi(n)=\Phi(p)\times\Phi(q)=(p-1)\times(q-1)$.
+With this step, we have now determined our n and the phi of n.
+
+### Step 2: Finding e
+The next step is to search for our encryption exponent e. This is used to encrypt the message we are transmitting.
+The n from step 1 and the e combined are therefore the public key with which messages can be encrypted.
+The following steps must be observed when choosing a suitable e: 
+
+1. **It must be co-prime to $\Phi(n)$**: The value of $e$ must have no common factors with $\Phi(n)$ except 1, which is expressed mathematically as $GCD(e, \Phi(n)) = 1$. This requirement ensures that $e$ has a unique multiplicative inverse modulo $\Phi(n)$. In simpler terms, there must be a number $d$ (which will be the decryption exponent) such that $e \times d$ is congruent to 1 modulo $\Phi(n)$.
+
+2. **It must be within the range $1 < e < \Phi(n)$**: This range ensures that $e$ is a valid exponent for the modulo operation and helps maintain the encryption's mathematical properties.
+
+    
+This means that the e must be located in the residue class ring and is not a divisor of $\Phi(n)$.
+A frequently used e is 65537, which is $2^{16}+1$ and a prime number.
+
+Now we have our public key composed of n and e and can encrypt messages m as follows: $c=m^{e}\ mod\ n$
+
+### Step 3: Private Key
+As mentioned above, the private key consists of the multiplicative inverse of our encryption exponent in the remainder class ring $\Phi(n)$.
+So there is nothing more to do than to calculate $d=e^{-1}\ mod\ \Phi(n)$.
+We have to do this using the extended Euclidean algorithm, for which there are various approaches.
+
+To decrypt a received ciphertext, we have to exponentiate it with our private key:
+
+$m'=c^d\ mod\ n$
+
+### Example
+In the following I will give a small example of the RSA calculation. This is carried out with comparatively tiny integers and is purely for demonstration purposes.
+We are given the prime numbers $p=23$ and $q=31$. Our n is therefore 
+
+$n=p\times q=23\times 31=713$.
+
+#### Step 1: $\Phi(n)$
+As shown above, we do a simple calculation:
+
+$\Phi(n)=\Phi(p)\times \Phi(q)=(p-1)\times (q-1)=30\times 22=660$
+
+#### Step 2: Encryption exponent e
+I have chosen a small value for demonstration purposes.
+Let $e=7$
+We can now show that the above rules are observed:
+1. $1<7<660$
+2. $GCD(7,660)=1$
+
+#### Step 3: Decryption exponent d
+As already mentioned above, there are various techniques for applying the extended Euclidean algorithm. 
+In the example, a table form is used in which the following formulae apply:
+1. $a_{i+1}=b_i$
+2. $b_{i+1}=r_i$
+3. $x_i=y_{i+1}$
+4. $y_i=x_{i+1}-q_i\times x_i$
+5. $x_n=0$ ^ $y_n=1$
+
+We remember that the decryption exponent is calculated as follows: $d=e^{-1}\ mod\ \Phi(n)$
+
+We determine this as follows: 
+
+| i | a   | b | q  | r | x  | y   |
+|---|-----|---|----|---|----|-----|
+| 1 | 660 | 7 | 94 | 2 | -3 | 283 |
+| 2 | 7   | 2 | 3  | 1 | 1  | -3  |
+| 3 | 2   | 1 | 2  | 0 | 0  | 1   |
+
+The procedure is quite simple. We calculate our $\Phi(n)$ modulo our e and work our way down from there until we have a remainder of 0. Until then, x and y remain empty.
+When we have the remainder 0, we insert the standard values for x and y and work our way up again from below
 
 __NOTE__: 
 ```

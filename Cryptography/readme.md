@@ -34,7 +34,7 @@ Hash functions are used to map data of arbitrary size to data of fixed size. The
 3. [Playfair Cipher](notadded)
 4. [DES](notadded)
 5. [AES](notadded)
-6. [RSA](##RSA (Rivest-Shamir-Adleman))
+6. [RSA](#rsa-rivest-shamir-adleman)
 7. [Diffie-Hellman Key Exchange](notadded)
 8. [ElGamal](notadded)
 9. [Digital Signature Algorithm](notadded)
@@ -42,7 +42,7 @@ Hash functions are used to map data of arbitrary size to data of fixed size. The
 
 ## RSA (Rivest-Shamir-Adleman)
 **IMPORTANT NOTE**: 
-    1. Do not implement techniques like these yourself in an enviroment, that can hurt you in any kind of way.
+    1. Do not implement techniques like these yourself in an environment, that can hurt you in any kind of way.
     2. The shown RSA method is already broken! This guide aims to give you a basic understanding of the algorithm.
 Broken down, the RSA method is nothing more than the multiplicative inverse within a residue class ring.
 This means that the task is to find an inverse modulo the Eulerian phi function of a high integer n that is difficult to compute.

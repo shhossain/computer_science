@@ -1,5 +1,6 @@
 # Register
-A register is a collection of flip flop (A flip flop is basicaaly a storage device capable of storing 1 bit of information). Hence a register is able to store
+Registers are small, fast storage units within a computer's CPU that temporarily hold data and instructions during processing, enabling quick access and manipulation of information.
+Internally, A register is a collection of flip flop (A flip flop is basically a storage device capable of storing 1 bit of information). Hence a register is able to store
 multiple bits of information. It is a very cruicial and important part of a computer. Even a very basic computer has atleast eight major reigsters.
 
 These eight major registers are:
@@ -14,6 +15,7 @@ These eight major registers are:
 | Input Register (INPR)     | 8  | Holds the input character                        |
 | Output Register (OUTR)    | 8  | Holds the output character                       | 
 
+The above values are for a 16 bit machine.
 These basic computer registers are connected by a common bus through which information is transferred among these registers and operations are performed.
 
 If we talk about basic operations, then any basic register is capable of four operations:

@@ -1348,6 +1348,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "AryasCodeTreks",
+      "name": "AryasCodeTreks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159680137?v=4",
+      "profile": "https://github.com/AryasCodeTreks",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

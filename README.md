@@ -21,7 +21,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-146-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-147-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1251,6 +1251,7 @@ Closely related fields in theoretical computer science are the analysis of algor
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Ettubrute05"><img src="https://avatars.githubusercontent.com/u/89800208?v=4?s=50" width="50px;" alt="Kevin Garfield"/><br /><sub><b>Kevin Garfield</b></sub></a><br /><a href="#content-Ettubrute05" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=Ettubrute05" title="Code">💻</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/xaviermonb"><img src="https://avatars.githubusercontent.com/u/144323061?v=4?s=50" width="50px;" alt="xaviermonb"/><br /><sub><b>xaviermonb</b></sub></a><br /><a href="#content-xaviermonb" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/AryasCodeTreks"><img src="https://avatars.githubusercontent.com/u/159680137?v=4?s=50" width="50px;" alt="AryasCodeTreks"/><br /><sub><b>AryasCodeTreks</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=AryasCodeTreks" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

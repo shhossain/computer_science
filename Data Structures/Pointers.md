@@ -1,9 +1,28 @@
-## Pointers
+# [Pointers](#pointers)
 
 A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location.
-The general form of a pointer variable declaration is −
+The general form of a pointer variable declaration is as follows.
 
-### example
+## [Table of Contents](#table-of-contents)
+
+[Pointers](#pointers)
+ - [Table of Contents](#table-of-contents)
+ - [Example](#example)
+ - [Introduction to Double Pointers](#introduction-to-double-pointers)
+ - [Dynamic Memory Allocation](#dynamic-memory-allocation)
+   - [C Malloc](#c-calloc)
+   - [C Calloc](#c-calloc)
+   - [C free](#c-free)
+   - [C realloc()](#c-realloc)
+ - [How to Use Pointers?](#how-to-use-pointers)
+ - [Types of Pointers](#types-of-pointers)
+   - [Void Pointers](#void-pointers)
+   - [Invalid Pointers](#invalid-pointers)
+   - [Null Pointer](#null-pointer)
+ - [Get Value of Thing Pointed by Pointers](#get-value-of-thing-pointed-by-pointers)
+
+
+## [Example](#example)
 To use pointers in C, we must understand below two operators. 
 To access address of a variable to a pointer, we use the unary operator & (ampersand) that returns the address of that variable. For example &x gives us address of variable x.
 
@@ -51,7 +70,7 @@ The actual data type of the value of all pointers, whether integer, float, chara
 
 From the above we got to know about implementation and working of pointers, Lets get to know about what are **double pointers/ pointer to pointer** and how they work..!
 
-### Introduction to Double Pointers
+## [Introduction to Double Pointers](#introduction-to-double-pointers)
 We already know that a pointer points to a location in memory and thus used to store the address of variables which we have seen above. So, when we define a **pointer to pointer**. The first pointer is used to store the address of the variable. And the second pointer is used to store the address of the first pointer. That is why they are also known as **double pointers**.
 
 Syntax of declaring a double pointer:-
@@ -118,13 +137,13 @@ cout << a << " " << b << endl; // 10 21
 
 ```
 
-## Dynamic Memory Allocation
+## [Dynamic Memory Allocation](#dynamic-memory-allocation)
 
 Sometimes the size of the array you declared may be insufficient. To solve this issue, you can allocate memory manually during run-time. This is known as dynamic memory allocation in C programming.
 
 To allocate memory dynamically, library functions are malloc(), calloc(), realloc() and free() are used. These functions are defined in the <stdlib.h> header file.
 
-### C Malloc
+### [C malloc](#c-calloc)
 
 The name "malloc" stands for memory allocation.
 
@@ -132,7 +151,7 @@ The malloc() function reserves a block of memory of the specified number of byte
 
 Syntax: ptr = (castType*) malloc(size);
 
-### C calloc()
+### [C calloc](#c-calloc)
 
 The name "calloc" stands for contiguous allocation.
 
@@ -140,32 +159,32 @@ The malloc() function allocates memory and leaves the memory uninitialized, wher
 
 Syntax: ptr = (castType*)calloc(n, size);
 
-### C free()
+### [C free](#c-free)
 
 Dynamically allocated memory created with either calloc() or malloc() doesn't get freed on their own. You must explicitly use free() to release the space.
 
 free(ptr);
 
-### C realloc()
+### [C realloc()](#c-realloc)
 
 If the dynamically allocated memory is insufficient or more than required, you can change the size of previously allocated memory using the realloc() function.
 
 Syntax: ptr = realloc(ptr, x);
 
-## How to Use Pointers?
+## [How to Use Pointers?](#how-to-use-pointers)
 
 (a) We define a pointer variable 
 (b) assign the address of a variable to a pointer and 
 (c) finally access the value at the address available in the pointer variable.
 
 
-## Types of Pointers
+## [Types of Pointers](#types-of-pointers)
 
-### Void Pointers
+### [Void Pointers](#void-pointers)
 
 This is a special type of pointer available in C++ which represents absence of type. void pointers are pointers that point to a value that has no type.This means that void pointers have great flexibility as it can point to any data type.
 
-### Invalid Pointers
+### [Invalid Pointers](#invalid-pointers)
 
 A pointer should point to a valid address but not necessarily to valid elements. These are called invalid pointers. Uninitialized pointers are also invalid pointers.
 
@@ -174,14 +193,14 @@ int *ptr1;
 int arr[10];
 int *ptr2 = arr+20;
 
-### Null Pointer
+### [Null Pointer](#null-pointer)
 
 Null pointer is a pointer which point nowhere and not just an invalid address.
 eg:
 int *ptr1 = 0;
 int *ptr2 = NULL;
 
-# Get Value of Thing Pointed by Pointers
+## [Get Value of Thing Pointed by Pointers](#get-value-of-thing-pointed-by-pointers)
 
 To get the value of the thing pointed by the pointers, we use the * operator. 
 For example:

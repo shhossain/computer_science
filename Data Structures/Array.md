@@ -1,10 +1,29 @@
-# Array
+# [Array](#array)
 
 * An array is a collection of items of same data type stored at contiguous memory locations.
 
+## [Table of Contents](#table-of-contents)
+
+- [Array](#array)
+  - [Table of Contents](#table-of-contents)
+  - [Example](#Example)
+  - [Initalization of Array](#initalization-of-array)
+  - [Time complexities of some basic array operations](#time-complexities-of-some-basic-array-operations)
+  - [Algorithms on Arrays](#algorithms-on-arrays)
+    - [Searching](#searching)
+      - [1. Linear Search](#1-linear-search)
+      - [2. Binary Search](#2-binary-search)
+    - [Insertion](#insertion)
+      - [Insertion at the beginning of an Array](#insertion-at-the-beginning-of-an-array)
+      - [Insertion at the Given Index of an Array](#insertion-at-the-given-index-of-an-array)
+      - [Insertion at the end of the Array](#insertion-at-the-end-of-the-array)
+    - [Deletion](#deletion)
+      - [Delete Operation in an Unsorted Array](#delete-operation-in-an-unsorted-array)
+  - [When to Use Arrays](#when-to-use-arrays)
+
 * This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array). The base value is index 0 and the difference between the two indexes is the offset.
 
-## Example
+## [Example](#Example)
 
 ```javascript
 let array = [4,3,8,1,0,14,6];
@@ -36,9 +55,9 @@ array[6] // 6 (index 6 is the seventh element) (1006)
   <img src="images/Array.png?raw=true" alt="Array Image"/>
 </p>
 
-## Initalization of Array
+## [Initalization of Array](#initalization-of-array)
 
-* To initilaize an array it is necessary to specify its size:
+* To initialize an array it is necessary to specify its size:
 
 In C++, for example, here is how we initialize an array of 5 elements:
 
@@ -49,7 +68,7 @@ int arr[5];
 
 this will initialize an array of 5 elements with the value 0.
   
-## Time complexities of some basic array operations
+## [Time complexities of some basic array operations](#time-complexities-of-some-basic-array-operations)
 
 | Operation | Time Complexity |
 |-----------------|-------|
@@ -60,11 +79,11 @@ this will initialize an array of 5 elements with the value 0.
 
 * Inserting and deleting elements take O(n) time because we need to shift the remaining data points either right or left after inserting or deleting them, in order to preserve the memory indexing.
 
-## Algorithms on Arrays
+## [Algorithms on Arrays](#algorithms-on-arrays)
 
-### Searching
+### [Searching](#searching)
 
-### 1. Linear Search
+### [1. Linear Search](#1-linear-search)
 
 Algorithm :
 
@@ -80,7 +99,7 @@ Algorithm :
 
      print "Element Not Found".
 
-### 2. Binary Search
+### [2. Binary Search](#2-binary-search)
 
 Algorithm :
 
@@ -111,7 +130,7 @@ print "value is not present in the array"
 [end of if]  
 Step 6: exit  
 
-## Insertion
+## [Insertion](#insertion)
 
 It basically means inserting an element inside an array.
 There are following types of Insertions in Arrays:
@@ -121,7 +140,7 @@ There are following types of Insertions in Arrays:
 * Insertion at the end of the Array
 
 
-### Insertion at the beginning of an Array
+### [Insertion at the beginning of an Array](#insertion-at-the-beginning-of-an-array)
 
 ```C
 #include <stdio.h>
@@ -176,7 +195,7 @@ array[3] = 4
 array[4] = 5
 ```
 
-### Insertion at the Given Index of an Array
+### [Insertion at the Given Index of an Array](#insertion-at-the-given-index-of-an-array)
 
 ```C
 #include<stdio.h>
@@ -224,7 +243,7 @@ Enter position and element
 1 20 5 78 30 5
 ```
 
-### Insertion at the end of the Array
+### [Insertion at the end of the Array](#insertion-at-the-end-of-the-array)
 
 ```C
 #include <stdio.h>
@@ -259,13 +278,13 @@ void main()
 <img src="https://quescol.com/wp-content/uploads/2021/11/image-35.png?ezimgfmt=ng:webp/ngcb1" alt="output">
 <br>
 
-## Deletion
+## [Deletion](#deletion)
 
 * Deletion refers to removing an existing/given element from the array using indexes and re-organizing all elements of an array.
 
 * In the delete operation, the element to be deleted is searched using the **linear search**, and then the delete operation is performed followed by shifting the elements.
 
-### Delete Operation in an Unsorted Array
+### [Delete Operation in an Unsorted Array](#delete-operation-in-an-unsorted-array)
 
 ```C++
 
@@ -327,3 +346,30 @@ int main()
     return 0;
 }
 ```
+
+
+## [When to Use Arrays](#when-to-use-arrays)
+
+- Sequential Access Requirements:
+  - If you need to access elements in a sequential manner and the order of elements is important, arrays are a suitable choice. Elements in an array are stored in contiguous memory locations, making sequential access efficient.
+
+- Fixed Size Data Storage:
+  - When the number of elements is known and fixed, arrays provide a straightforward way to store and access the data. The fixed size of arrays ensures that a specific amount of memory is allocated, making them efficient for static data structures.
+
+- Random Access Needs:
+  - If you need fast and direct access to elements based on their position (index), arrays are well-suited. Accessing an element by index has constant time complexity O(1).
+
+- Efficient Memory Usage:
+  - Arrays are memory-efficient as they allocate a contiguous block of memory for elements. This makes them suitable for scenarios where memory utilization needs to be optimized.
+
+- Simple Data Structures:
+  - For simple data structures like lists of items or collections where elements are of the same type, arrays provide a straightforward and easy-to-understand solution.
+
+- Implementation of Matrices and Multidimensional Data:
+  - In cases where you need to represent matrices or multidimensional data, arrays offer a natural and efficient representation. Each dimension can be addressed using a separate index.
+
+- Efficient Iteration:
+  - If you plan to iterate through the elements of a collection sequentially, arrays are efficient for loop-based operations. Iterating over the elements is fast and can be done using simple loop constructs.
+
+- Implementation of Other Data Structures:
+  - Arrays serve as the foundation for implementing other data structures like stacks, queues, and dynamic arrays (lists). Many dynamic data structures use arrays to manage and organize their elements.

@@ -1,4 +1,4 @@
-## Graph
+# [Graph](#graph)
 
 A Graph is a non-linear data structure consisting of vertices and edges. The vertices are sometimes also referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph. More formally a Graph is composed of a set of vertices( V ) and a set of edges( E ). The graph is denoted by G(E, V).
 
@@ -7,8 +7,18 @@ Components of a Graph :
 Vertices: Vertices are the fundamental units of the graph. Sometimes, vertices are also known as vertex or nodes. Every node/vertex can be labeled or unlabelled.
 Edges: Edges are drawn or used to connect two nodes of the graph. It can be ordered pair of nodes in a directed graph. Edges can connect any two nodes in any possible way. There are no rules. Sometimes, edges are also known as arcs. Every edge can be labeled/unlabelled.
 
+## [Table of Contents](#table-of-contents)
+[Graph](#graph)
+  - [Example of a Graph](#example-of-a-graph)
+  - [Graph Traversal](#graph-traversal)
+    - [1. Breadth First Search (BFS)](#1-breadth-first-search-bfs)
+      - [BFS Code Example](#bfs-code-example)
+    - [2. Depth First Search (DFS)](#2-depth-first-search-dfs) 
+      - [DFS Code Example](#dfs-code-example)
+  - [Graph Use Cases](#graph-use-cases)
 
-### Example 
+
+### [Example of a Graph](#example-of-a-graph)
 ![](https://cdn.programiz.com/sites/tutorial2program/files/graph-vertices-edges_0.png)
 ```
 In the graph,
@@ -63,11 +73,11 @@ int main()
 }
 ```
 
-## Graph Traversal : 
+## [Graph Traversal](#graph-traversal)
 
 There are two types of traversal in graph
 
-#### 1. Breadth First Search (BFS)
+### [1. Breadth First Search (BFS)](#1-breadth-first-search-bfs)
    * In BFS traversal , we start at the root of the graph and visits all nodes at the current depth level before moving on to the nodes at the next depth level.
 
    BFS Implementation:
@@ -80,7 +90,7 @@ There are two types of traversal in graph
    * In this way, all the nodes are traversed in a breadthwise manner.
 
 
-### Example 
+#### [BFS Code Example](#bfs-code-example)
 ![](https://cdn.programiz.com/sites/tutorial2program/files/graph-vertices-edges_0.png)
 
 > Code for BFS Traversal :
@@ -156,7 +166,7 @@ Time Complexity: O(N) + O(2E), Where N = Nodes, 2E is for total degrees as we tr
 Space Complexity: O(3N) ~ O(N), Space for queue data structure visited array and an adjacency list
 Space Complexity: O(3N) ~ O(N), Space for queue data structure visited array and an adjacency list
 
-#### 2. Depth First Search (DFS)
+### [2. Depth First Search (DFS)](#2-depth-first-search-dfs)
    * In  DFS, concept of recursion and backtracking is used. DFS goes in-depth, i.e., traverses all nodes by going ahead, and when there are no further nodes to traverse in the current path, then it backtracks on the same path and traverses other unvisited nodes. 
 
    DFS Implementation:
@@ -167,7 +177,7 @@ Space Complexity: O(3N) ~ O(N), Space for queue data structure visited array and
 
   In this way, all the nodes are traversed in a depthwise manner.
 
-
+#### [DFS Code Example](#dfs-code-example)
 
 > Code for DFS Traversal :
 ```cpp
@@ -236,3 +246,35 @@ Output: 0 1 2 3
 Time Complexity: For an undirected graph, O(N) + O(2E), For a directed graph, O(N) + O(E), Because for every node we are calling the recursive function once, the time taken is O(N) and 2E is for total degrees as we traverse for all adjacent nodes.
 
 Space Complexity: O(3N) ~ O(N), Space for dfs stack space, visited array and an adjacency list.
+
+## [Graph Use Cases](#graph-use-cases)
+
+- Social Networks:
+  - Graphs are widely used to model social networks, where individuals are represented as nodes, and connections or friendships between them are represented as edges. Algorithms on graphs can analyze network structures, identify influential nodes, and recommend connections.
+
+- Network Routing:
+  - Graphs play a crucial role in computer networks. Nodes represent routers or computers, and edges represent connections or links between them. Graph algorithms help optimize routing paths, manage network congestion, and ensure efficient data transmission.
+
+- Recommendation Systems:
+  - Recommendation systems often use graphs to model relationships between users and items. Nodes can represent users or products, and edges can represent interactions or preferences. Graph-based algorithms help identify related items for personalized recommendations.
+
+- Geographical Information Systems (GIS):
+  - Graphs are used to model spatial relationships in GIS applications. Nodes represent locations, and edges represent connections like roads or pathways. Graph algorithms can find the shortest path between two locations, optimize routes, and analyze geographical networks.
+
+- Circuit Design and Analysis:
+  - Electrical circuits can be modeled as graphs, with nodes representing components and edges representing connections. Graph algorithms help analyze circuit behavior, optimize designs, and identify critical components.
+
+- Dependency Analysis:
+  - In software development, graphs can represent dependencies between modules or functions. Nodes represent code entities, and edges represent dependencies. Dependency graphs help identify the impact of changes, manage software versions, and optimize build processes.
+
+- Internet Web Pages:
+  - The World Wide Web can be represented as a directed graph, where web pages are nodes, and hyperlinks are edges. Graph algorithms, such as PageRank, are used to analyze the importance and relevance of web pages for search engine ranking.
+
+- Scheduling and Task Dependency:
+  - Graphs are employed in scheduling tasks and project management. Nodes represent tasks, and edges represent dependencies between tasks. Graph algorithms help determine the optimal order of task execution and identify critical paths.
+
+- Genetics and Bioinformatics:
+  - Graphs are used to model relationships in biological data. For example, nodes can represent genes, and edges can represent interactions between genes. Graph algorithms help analyze biological networks, identify gene functions, and study genetic interactions.
+
+- Transportation Networks:
+  - Graphs model transportation systems, where nodes represent locations (such as cities or stops), and edges represent transportation routes (roads, railways, or flight paths). Graph algorithms help optimize routes, manage traffic, and improve transportation efficiency.

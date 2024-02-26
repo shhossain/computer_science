@@ -21,7 +21,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-148-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-149-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1257,6 +1257,7 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/xaviermonb"><img src="https://avatars.githubusercontent.com/u/144323061?v=4?s=50" width="50px;" alt="xaviermonb"/><br /><sub><b>xaviermonb</b></sub></a><br /><a href="#content-xaviermonb" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/AryasCodeTreks"><img src="https://avatars.githubusercontent.com/u/159680137?v=4?s=50" width="50px;" alt="AryasCodeTreks"/><br /><sub><b>AryasCodeTreks</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=AryasCodeTreks" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/khouloudhaddad"><img src="https://avatars.githubusercontent.com/u/22796050?v=4?s=50" width="50px;" alt="khouloud HADDAD AMAMOU"/><br /><sub><b>khouloud HADDAD AMAMOU</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=khouloudhaddad" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/WalterMarch"><img src="https://avatars.githubusercontent.com/u/38635451?v=4?s=50" width="50px;" alt="Walter March"/><br /><sub><b>Walter March</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3AWalterMarch" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>

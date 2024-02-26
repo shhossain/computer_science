@@ -1366,6 +1366,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "WalterMarch",
+      "name": "Walter March",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38635451?v=4",
+      "profile": "https://github.com/WalterMarch",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 6,

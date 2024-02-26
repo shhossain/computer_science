@@ -1375,6 +1375,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "niv-png",
+      "name": "Nivea Hanley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66550479?v=4",
+      "profile": "https://github.com/niv-png",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

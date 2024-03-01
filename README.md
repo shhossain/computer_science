@@ -21,7 +21,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-148-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-150-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -40,6 +40,7 @@ If you're interested in contributing to this project, please take a moment to re
 - [Algorithms](#algorithms)
 - [Alan Turing](#alan-turing)
 - [Software Engineering](#software-engineering)
+- [Data Science](#data-science)
 - [Integrated Circuits](#integrated-circuits)
 - [Object Oriented Programming](#object-oriented-programming)
 - [Functional Programming](#functional-programming)
@@ -377,6 +378,9 @@ The software engineering process involves several phases, including requirements
 - Economics: In this sector, software engineering helps you estimate resources and control costs. A computing system must be developed, and data should be maintained regularly within a given budget.
 - System Engineering: Most software is a component of a much larger system. For example, the software in an Industry monitoring system or the flight software on an airplane. Software engineering methods should be applied to the study of this type of system.
 
+## [Data Science](Data%20Science/readme.md)
+
+Data Science extracts valuable insights from often messy data by applying computer science, statistics, and knowledge of the domain under consideration. Examples of the use of data science include deriving customer sentiment from call records or purchase recommendation systems derived from sales records.
 
 ## [Integrated Circuits](Integrated%20Circuits/readme.md)
 An integrated circuit or monolithic integrated circuit (also referred to as an IC, a chip, or a microchip) is a set of electronic circuits on one small flat piece (or "chip") of semiconductor material, usually silicon. Many tiny MOSFETs (metal–oxide–semiconductor field-effect transistors) integrate into a small chip. This results in circuits that are orders of magnitude smaller, faster, and less expensive than those constructed of discrete electronic components. The IC's mass production capability, reliability, and building-block approach to integrated circuit design have ensured the rapid adoption of standardized ICs in place of discrete transistors. ICs are now used in virtually all electronic equipment and have revolutionized the world of electronics. Computers, mobile phones, and other home appliances are now inextricable parts of the structure of modern societies, made possible by the small size and low cost of ICs such as modern computer processors and microcontrollers.
@@ -1253,6 +1257,8 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/xaviermonb"><img src="https://avatars.githubusercontent.com/u/144323061?v=4?s=50" width="50px;" alt="xaviermonb"/><br /><sub><b>xaviermonb</b></sub></a><br /><a href="#content-xaviermonb" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/AryasCodeTreks"><img src="https://avatars.githubusercontent.com/u/159680137?v=4?s=50" width="50px;" alt="AryasCodeTreks"/><br /><sub><b>AryasCodeTreks</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=AryasCodeTreks" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/khouloudhaddad"><img src="https://avatars.githubusercontent.com/u/22796050?v=4?s=50" width="50px;" alt="khouloud HADDAD AMAMOU"/><br /><sub><b>khouloud HADDAD AMAMOU</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=khouloudhaddad" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/WalterMarch"><img src="https://avatars.githubusercontent.com/u/38635451?v=4?s=50" width="50px;" alt="Walter March"/><br /><sub><b>Walter March</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3AWalterMarch" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/niv-png"><img src="https://avatars.githubusercontent.com/u/66550479?v=4?s=50" width="50px;" alt="Nivea Hanley"/><br /><sub><b>Nivea Hanley</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=niv-png" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

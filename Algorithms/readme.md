@@ -16,7 +16,9 @@ When creating algorithms there are a few techniques that can be used to reduce t
 ## [Sorting](Sorting/readme.md)
 Sorting is the process of arranging a list of items in a particular order. For example, if you had a list of names, you might want to sort them alphabetically. Or if you had a list of numbers, you might want to put them in order from smallest to largest. Sorting is a common task, and it’s one that we can do in many different ways.
 ### Popular Sorting Algorithms
+
 * [Bubble Sort](Sorting/BubbleSort/readme.md)
+* [Bucket Sort](Sorting/BucketSort/readme.md)
 * [Insertion Sort](Sorting/InsertionSort/readme.md)
 * [Selection Sort](Sorting/SelectionSort/readme.md)
 * [Merge Sort](Sorting/MergeSort/readme.md)

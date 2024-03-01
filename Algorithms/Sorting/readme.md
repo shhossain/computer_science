@@ -30,7 +30,9 @@ memory hierarchy (caches and virtual memory) of the host computer, and the
 software environment. Many of these issues are best dealt with at the algorithmic level, rather than by “tweaking” the code.
 
 ### Popular Sorting Algorithms
+
 - [Bubble Sort](BubbleSort/readme.md)
+- [Bucket Sort](BucketSort/readme.md)
 - [Insertion Sort](InsertionSort/readme.md)
 - [Selection Sort](SelectionSort/readme.md)
 - [Merge Sort](MergeSort/readme.md)

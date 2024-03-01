@@ -1,13 +1,15 @@
 # Bucket Sort
+
 Bucket sort is a sorting algorithm that works by distributing the elements of an array into a number of buckets. Each bucket is then sorted individually, either using a different sorting algorithm or by recursively applying the bucket sort algorithm. After all the individual buckets are sorted, the elements are concatenated together to form the sorted array.
 
 ## Complexity
+
 | Best | Average | Worst | Memory | Stable |
 |------|---------|-------|--------|--------|
 | log(n+k)  | log(n+k)     | log(n^2)   | n      | Yes     |
 
-
 ## Pseudo Code
+
 ```
 BucketSort(arr, n):
     # Find the minimum and maximum values in the array
@@ -38,16 +40,16 @@ BucketSort(arr, n):
 ```
 
 ## Implementations
-* [Python](#python)!
-* [C++](#cpp)!
-* [C](#c)!
-* [Java](#java)!
-* [JavaScript](#javascript)
-* [Go](#go)!
-* [Ruby](#ruby)!
 
+* [Python](#python)
+* [C++](#cpp)
+* [C](#c)
+* [Java](#java)
+* [JavaScript](#javascript)
+* [Go](#go)
 
 ### Python
+
 ```python
 def bucket_sort(arr):
     # Find the minimum and maximum values in the input array
@@ -81,6 +83,7 @@ print(sorted_arr)
 ```
 
 ### CPP
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -128,7 +131,9 @@ int main() {
 }
 
 ```
+
 ### C
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -193,7 +198,7 @@ void bucketSort(double arr[], int size) {
         buckets[i] = NULL;
     }
     // Place each element in the appropriate bucket
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < numBuckets + 1; i++) {
         int index = (int)((arr[i] - minVal) / bucketSize);
         insert(&buckets[index], arr[i]);
     }
@@ -222,6 +227,7 @@ int main() {
 ```
 
 ### Java
+
 ```java
 import java.util.ArrayList;
 import java.util.Collections;
@@ -271,6 +277,7 @@ public class BucketSort {
 ```
 
 ### JavaScript
+
 ```javascript
 function bucketSort(arr) {
     // Find the minimum and maximum values in the array
@@ -338,66 +345,67 @@ console.log(sortedArray);
 ```
 
 ### Go
+
 ```go
 package main
 
 import (
-	"fmt"
-	"sort"
+    "fmt"
+    "sort"
 )
 
 func bucketSort(arr []float64) []float64 {
-	if len(arr) == 0 {
-		return arr
-	}
+    if len(arr) == 0 {
+        return arr
+    }
 
-	// Find the minimum and maximum values in the array
-	minVal, maxVal := arr[0], arr[0]
-	for _, num := range arr {
-		if num < minVal {
-			minVal = num
-		}
-		if num > maxVal {
-			maxVal = num
-		}
-	}
+    // Find the minimum and maximum values in the array
+    minVal, maxVal := arr[0], arr[0]
+    for _, num := range arr {
+        if num < minVal {
+            minVal = num
+        }
+        if num > maxVal {
+            maxVal = num
+        }
+    }
 
-	// Determine the range and the number of buckets
-	rangeVal := maxVal - minVal
-	numBuckets := len(arr)
-	bucketSize := rangeVal / float64(numBuckets)
+    // Determine the range and the number of buckets
+    rangeVal := maxVal - minVal
+    numBuckets := len(arr)
+    bucketSize := rangeVal / float64(numBuckets)
 
-	// Create an array of empty buckets
-	buckets := make([][]float64, numBuckets)
-	for i := range buckets {
-		buckets[i] = make([]float64, 0)
-	}
+    // Create an array of empty buckets
+    buckets := make([][]float64, numBuckets)
+    for i := range buckets {
+        buckets[i] = make([]float64, 0)
+    }
 
-	// Place each element in the appropriate bucket
-	for _, num := range arr {
-		index := int((num - minVal) / bucketSize)
+    // Place each element in the appropriate bucket
+    for _, num := range arr {
+        index := int((num - minVal) / bucketSize)
 
-		// Ensure that the index remains within a valid range
-		if index == numBuckets {
-			index--
-		}
-		buckets[index] = append(buckets[index], num)
-	}
+        // Ensure that the index remains within a valid range
+        if index == numBuckets {
+            index--
+        }
+        buckets[index] = append(buckets[index], num)
+    }
 
-	// Sort each bucket and concatenate them to get the sorted array
-	sortedArr := make([]float64, 0, len(arr))
-	for _, bucket := range buckets {
-		sort.Float64s(bucket)
-		sortedArr = append(sortedArr, bucket...)
-	}
+    // Sort each bucket and concatenate them to get the sorted array
+    sortedArr := make([]float64, 0, len(arr))
+    for _, bucket := range buckets {
+        sort.Float64s(bucket)
+        sortedArr = append(sortedArr, bucket...)
+    }
 
-	return sortedArr
+    return sortedArr
 }
 
 func main() {
-	arr := []float64{3.2, 0.4, 2.8, 4.5, 1.1, 0.9}
-	sortedArr := bucketSort(arr)
-	fmt.Println(sortedArr)
+    arr := []float64{3.2, 0.4, 2.8, 4.5, 1.1, 0.9}
+    sortedArr := bucketSort(arr)
+    fmt.Println(sortedArr)
 }
 
 ```

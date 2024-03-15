@@ -18,44 +18,44 @@
     </p>
 </h4>
 
-## Contributing Guidelines
-If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
+## Nasıl Katkı Yapabilirsiniz
+Eğer bu projeye katkı yapmak isterseniz lütfen şu dosyayı kontrol edin. [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) Burada detaylı bir biçimde nasıl yapabilirsiniz açıklanıyor. Katkılarınız için teşekkürler!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-150-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Table of Contents
+## İçerik Tablosu
 
-- [Introduction](#introduction)
-- [Electronic Computer](#electronic-computer)
-- [Boolean Logic](#boolean-logic)
-- [Number Systems](#number-systems)
-- [Central Processing Unit(CPU)](#central-processing-unit-cpu)
-- [Registers, Cache, and RAM](#registers-cache-and-ram)
-- [Instructions and Program](#instructions-and-program)
-- [Programming Languages](#programming-languages)
-- [Data Types](#data-types)
-- [Statements and Functions](#statements-and-functions)
-- [Data Structures](#data-structures)
-- [Algorithms](#algorithms)
+- [Giriş Bölümü](#introduction)
+- [Elektronik Bilgisayar](#electronic-computer)
+- [Bool Mantığı](#boolean-logic)
+- [Sayı Sistemleri](#number-systems)
+- [Merkezi İşlem Birimi(CPU)](#central-processing-unit-cpu)
+- [Kaydediciler, Önbellek, Rastgele Erişimli Bellek(RAM)](#registers-cache-and-ram)
+- [Talimatlar ve Program](#instructions-and-program)
+- [Programlama Dilleri](#programming-languages)
+- [Veri Türleri](#data-types)
+- [İfadeler ve Fonksiyonlar](#statements-and-functions)
+- [Veri Yapıları](#data-structures)
+- [Algoritmalar](#algorithms)
 - [Alan Turing](#alan-turing)
-- [Software Engineering](#software-engineering)
-- [Data Science](#data-science)
-- [Integrated Circuits](#integrated-circuits)
-- [Object Oriented Programming](#object-oriented-programming)
-- [Functional Programming](#functional-programming)
-- [Operating Systems](#operating-systems)
-- [Memory and Storage](#memory-and-storage)
-- [File System](#file-system)
-- [Cloud Computing](#cloud-computing)
-- [Machine Learning](#machine-learning)
-- [Web Technology](#web-technology)
-- [Networking](#networking)
+- [Yazılım Mühendisliği](#software-engineering)
+- [Veri Bilimi](#data-science)
+- [Entegre Devreler](#integrated-circuits)
+- [Nesne Yönelimli Programlama](#object-oriented-programming)
+- [Fonksiyonel Programlama](#functional-programming)
+- [İşletim Sistemleri](#operating-systems)
+- [Bellek ve Depolama](#memory-and-storage)
+- [Dosyalama Sistemleri](#file-system)
+- [Bulut Kompütasyon](#cloud-computing)
+- [Makine Öğrenmesi](#machine-learning)
+- [Ağ Teknolojisi](#web-technology)
+- [Ağ Oluşturma](#networking)
 - [Internet](#internet)
-- [DBMS(Database Management System)](#dbms)
-- [Cryptography](#cryptography)
-- [Theory of Computation](#theory-of-computation)
+- [Veritabanı Yönetim Sistemleri(DBMS)](#dbms)
+- [Kriptografi](#cryptography)
+- [Kompütsayon Teorisi](#theory-of-computation)
 
 
 ## Introduction

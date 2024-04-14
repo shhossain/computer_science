@@ -29,6 +29,7 @@ If you're interested in contributing to this project, please take a moment to re
 - [Introduction](#introduction)
 - [Electronic Computer](#electronic-computer)
 - [Boolean Logic](#boolean-logic)
+- [Digital Circuits](#digital-circuits)
 - [Number Systems](#number-systems)
 - [Central Processing Unit(CPU)](#central-processing-unit-cpu)
 - [Registers, Cache, and RAM](#registers-cache-and-ram)
@@ -85,6 +86,26 @@ Boolean logic is a branch of mathematics that deals with the values of truth and
 |   ⊽      |  NOR            | Returns **true** if all operands are false. |
 |   ⊼      |  NAND           | Returns **false** only if both values of its two inputs are true. |
 
+## [Digital Circuits](Digital%20Circuits/readme.md)
+
+Digital circuits deal with Boolean signals (1 and 0). They are the fundatmental building blocks of a computer. They are the components and circuits used to create processor units and memory units essential to a computer system.
+
+### Truth tables
+
+Truth tables are mathematical tables used in logic and digital circuit design. They help to map out the functionality of a circuit. We can use them to help design complex digital circuits.
+
+Truth tables have 1 column for each input variable and 1 final column showing all of the possible results of the logical operation that the table represents.
+
+### Types of digital circuits
+
+There are 2 types of digital circuits: Combinational and Sequential
+
+- **Combinational Circuits**: In this type of digital circuit, the output is reliant on the input it receives at an instant. This type of circuit will stay constant to its input.
+- **Sequential Circuits**: In this type of digital circuit, the output is reliant on not only the input it receives at an instant but also the previous input that it received. The output generated from the previous input is transferred into the output of the current input
+
+### Design methodology
+
+When designing a digital circuit, especially complex ones. It is important to utilize Boolean algebra tools to help with the design process (example: Karnaugh map). It is also important to break everything down into smaller circuits and examine the truth table needed for that smaller circuit. Don't try to tackle the whole circuit at once, break it down and gradually put the pieces together.
 
 ## [Number Systems](Number%20System/readme.md#number-systems)
 Number systems are mathematical systems for expressing numbers. A number system consists of a set of symbols that are used to represent numbers and a set of rules for manipulating those symbols. The symbols used in a number system are called numerals.

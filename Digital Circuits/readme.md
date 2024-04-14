@@ -5,8 +5,6 @@ Digital circuits carry electrical signals, just like normal analog circuits. The
 Digital circuits are made of multiple logic gates, which are devices that perform can perform Boolean logic. These circuits can perform mathematical calculations using just electrical signals. 
 
 ## Table of Contents
-- [Digital Circuits](#digital-circuits)
-  - [Table of Contents](#table-of-contents)
 - [How digital circuits changed the world](#how-digital-circuits-changed-the-world)
 - [Logic gates](#logic-gates)
 - [Types of digital circuits](#types-of-digital-circuits)

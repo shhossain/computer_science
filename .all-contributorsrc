@@ -1384,6 +1384,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "namberino",
+      "name": "nam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70761157?v=4",
+      "profile": "http://namberino.github.io",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

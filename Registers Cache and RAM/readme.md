@@ -26,7 +26,28 @@ If we talk about basic operations, then any basic register is capable of four op
 4. Shift - A register is capable of shifting the values in the flip flop leading to left shift(multiply by 2) or right shift(divide by 2) operations.
 
 # Special Purpose Register
-Special type of register such as: the status register, control register, and floating-point control registers, are crucial components of CPU architecture. They facilitate essential functions such as managing arithmetic operation outcomes, controlling CPU behavior and configuration, and handling floating-point arithmetic operations. These registers play vital roles in ensuring efficient, reliable, and versatile operation of modern CPUs across various computing tasks and environments.
+Special types of register such as: the status register, control register, and floating-point control registers, are special components of CPU architecture. They facilitate essential functions such as managing arithmetic operation outcomes, controlling CPU behavior and configuration, and handling floating-point arithmetic operations. These registers play vital roles in ensuring efficient, reliable, and versatile operation of modern CPUs across various computing tasks and environments. 
+
+# Status Register (Flag Register): 
+Holds individual flags indicating various conditions or outcomes of arithmetic and logic operations. Some common flags found in the status register include:
+
+Zero Flag (Z): This flag is set if the result of an arithmetic or logic operation is zero.
+Carry Flag (C): The carry flag is set if an arithmetic operation generates a carry out of the most significant bit or a borrow from the least significant bit.
+Sign Flag (S): The sign flag reflects the sign of the result of an arithmetic operation. It is set if the result is negative (i.e., the most significant bit is 1).
+Overflow Flag (V): The overflow flag indicates whether an arithmetic operation resulted in an overflow, typically in signed arithmetic, where the result exceeds the representable range of the data type.
+Parity Flag (P): In some architectures, the parity flag indicates whether the number of set bits in the result is even or odd.
+Direction Flag (D): The direction flag controls the direction of string instructions, specifying whether they auto-increment or auto-decrement the memory address.
+
+# Control Register: 
+Used to control certain aspects of CPU operation and configuration. They may include registers such as:
+
+Program Status Word (PSW): The PSW is a control register that contains status bits and control bits that influence the behavior of the CPU, such as interrupt enable/disable flags, privilege level bits, and mode bits indicating the current CPU mode (e.g., user mode, kernel mode).
+Interrupt Mask Register (IMR): The IMR is used to mask or enable specific interrupt sources, allowing the CPU to prioritize interrupts and handle them appropriately.
+Timer Control Register: This register controls the behavior of system timers, such as setting timer intervals, enabling timer interrupts, and configuring timer modes.
+Memory Protection Registers: These registers define memory protection settings, such as read/write permissions, access control lists, and memory segmentation parameters, to enforce memory protection and security policies.
+
+# Floating-Point Control Registers: 
+In CPUs with floating-point units (FPUs) for performing floating-point arithmetic operations, floating-point control registers are used to control FPU operation, precision, rounding modes, and exception handling.
 
 # Cache
 A cache -- pronounced CASH -- is hardware or software that is used to store something, usually data, temporarily in a computing environment.

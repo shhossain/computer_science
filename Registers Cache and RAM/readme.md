@@ -20,10 +20,34 @@ These basic computer registers are connected by a common bus through which infor
 
 If we talk about basic operations, then any basic register is capable of four operations:
 
-1. Load - In this operation a value is laoded into the flip flops of the register.
+1. Load - In this operation a value is loaded into the flip flops of the register.
 2. Increment - In this operation the register functions as a counter and increments the data stored in it.
 3. Clear - In this operation the registers clears the data in its flip flops i.e. whichever flip flop in the register has a state of 1 (High) is made 0 (low)
 4. Shift - A register is capable of shifting the values in the flip flop leading to left shift(multiply by 2) or right shift(divide by 2) operations.
+
+# Special Purpose Register
+Special types of register such as: the status register, control register, and floating-point control registers, are special components of CPU architecture. They facilitate essential functions such as managing arithmetic operation outcomes, controlling CPU behavior and configuration, and handling floating-point arithmetic operations. These registers play vital roles in ensuring efficient, reliable, and versatile operation of modern CPUs across various computing tasks and environments. 
+
+# Status Register (Flag Register): 
+Holds individual flags indicating various conditions or outcomes of arithmetic and logic operations. Some common flags found in the status register include:
+
+Zero Flag (Z): This flag is set if the result of an arithmetic or logic operation is zero.
+Carry Flag (C): The carry flag is set if an arithmetic operation generates a carry out of the most significant bit or a borrow from the least significant bit.
+Sign Flag (S): The sign flag reflects the sign of the result of an arithmetic operation. It is set if the result is negative (i.e., the most significant bit is 1).
+Overflow Flag (V): The overflow flag indicates whether an arithmetic operation resulted in an overflow, typically in signed arithmetic, where the result exceeds the representable range of the data type.
+Parity Flag (P): In some architectures, the parity flag indicates whether the number of set bits in the result is even or odd.
+Direction Flag (D): The direction flag controls the direction of string instructions, specifying whether they auto-increment or auto-decrement the memory address.
+
+# Control Register: 
+Used to control certain aspects of CPU operation and configuration. They may include registers such as:
+
+Program Status Word (PSW): The PSW is a control register that contains status bits and control bits that influence the behavior of the CPU, such as interrupt enable/disable flags, privilege level bits, and mode bits indicating the current CPU mode (e.g., user mode, kernel mode).
+Interrupt Mask Register (IMR): The IMR is used to mask or enable specific interrupt sources, allowing the CPU to prioritize interrupts and handle them appropriately.
+Timer Control Register: This register controls the behavior of system timers, such as setting timer intervals, enabling timer interrupts, and configuring timer modes.
+Memory Protection Registers: These registers define memory protection settings, such as read/write permissions, access control lists, and memory segmentation parameters, to enforce memory protection and security policies.
+
+# Floating-Point Control Registers: 
+In CPUs with floating-point units (FPUs) for performing floating-point arithmetic operations, floating-point control registers are used to control FPU operation, precision, rounding modes, and exception handling.
 
 # Cache
 A cache -- pronounced CASH -- is hardware or software that is used to store something, usually data, temporarily in a computing environment.
@@ -42,6 +66,8 @@ Requested data that isn't found in the cache -- referred to as a cache miss -- i
 ## Cache associated with CPU
 Data in primary memory can be accessed faster than secondary memory but still, access times of primary memory are generally in a few microseconds, whereas the CPU is capable of performing operations in nanoseconds. Due to the time lag between accessing data and acting on data performance of the system decreases as the CPU is not utilized properly, it may remain idle for some time. In order to minimize this time gap new segment of memory is Introduced known as Cache Memory.
 
+
+
 ### Benefits
 1. **Faster access**: Faster than main memory. It resides closer to CPU , typically on same chip or in close proximity. Cache stores subset of data and instruction.
 2. **Reducing memory latency**: Memory access latency refers to time taken for processes to retrieve data from memory. Caches are designed to exploit principle of locality.
@@ -50,12 +76,16 @@ Data in primary memory can be accessed faster than secondary memory but still, a
 5. **Enhancing system scalability**: Cache memory helps improve system scalability by reducing impact of memory latency on overall system performance.
 
 ### Types of cache
+Within a CPU, there are usually multiple levels of cache organized in a hierarchy, each offering different characteristics in terms of size, latency, and proximity to the CPU cores. 
+
 **L1 or Level 1 Cache**: It is the first level of cache memory that is present inside the processor. It is present in a small amount inside every core of the processor separately. The size of this memory ranges from 2KB to 64 KB.
 
 **L2 or Level 2 Cache**: It is the second level of cache memory that may present inside or outside the CPU. If not present inside the core, It can be shared between two cores depending upon the architecture and is connected to a processor with the high-speed bus. The size of memory ranges from 256 KB to 512 KB.
 
 **L3 or Level 3 Cache**: It is the third level of cache memory that is present outside the CPU and is shared by all the cores of the CPU. Some high processors may have this cache. This cache is used to increase the performance of the L2 and L1 cache. The size of this memory ranges from 1 MB to 8MB.
 
+# Cache Coherency:
+In multi-core processors where multiple cores share the same L3 cache, maintaining cache coherency becomes essential to ensure data consistency across cores. Cache coherency protocols, such as MESI (Modified, Exclusive, Shared, Invalid), are use to manage data coherence and synchronization between caches, minimizing data inconsistencies and ensuring correct program execution.
 
 
 # RAM

@@ -41,22 +41,19 @@ Testing can be divided into functional and non-functional testing. To start with
 Testing strategies describe how testing is approached and conducted:  
   
 **Black Box Testing:**  
-  
-Black box testing is a method of software testing that examines the functionality of an application without peering into its internal structures or workings.  
-This type of testing is typically conducted by testers who evaluate the software from an end-user perspective.  
-The goal is to verify that the software functions as expected based on the specified requirements and to identify any discrepancies.  
+• Black box testing is a method of software testing that examines the  functionality of an application without peering into its internal structures or workings.   
+• This type of testing is typically conducted by testers who  evaluate the software from an end-user perspective.      
+• The goal is  to verify that the software functions as expected based on the specified requirements and to identify any  discrepancies.
 
 **Grey Box Testing:**  
- 
-Grey box testing is a method of software testing that involves having some knowledge of the internal workings of the application, but not as much as white box testing.  
-This approach combines aspects of both black box and white box testing.  
-The goal is to design test cases based on a limited understanding of the internal logic and structure of the system, allowing for more thorough testing of both functionality and potential edge cases.  
+• Grey box testing is a method of software testing that involves having some knowledge of the internal workings of the application, but not as much as white box testing.      
+• This approach combines aspects of both black box and white box testing.    
+• The goal is to design test cases based on a limited understanding of the internal logic and  structure of the system, allowing for more thorough testing of both functionality and potential edge cases.
 
 **White Box Testing:**  
-  
-White box testing involves testing the internal structures or workings of an application.  
-It is typically done by developers who have knowledge of the internal code and architecture.  
-The goal is to verify the internal operations of the system, including paths, branches, and loops.  
+• White box testing involves testing the internal structures or workings of an application. 
+• It is typically done by developers who have knowledge of the internal code and architecture.
+• The goal is to verify the internal operations of the system, including paths, branches, and loops.
   
 There are “testing development frameworks” as well to consider:  
 

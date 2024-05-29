@@ -1,5 +1,5 @@
   
-Testing is the process of evaluating a system or its components to ensure that it meets the specified requirements and functions as intended. Testing helps identify defects, errors, or gaps in the software and verifies that the product is reliable, efficient, and user-friendly.  
+**Testing is the process of evaluating a system or its components to ensure that it meets the specified requirements and functions as intended. Testing helps identify defects, errors, or gaps in the software and verifies that the product is reliable, efficient, and user-friendly.**
 
 Testing can be divided into functional and non-functional testing. To start with, I am going to describe functional testing:   
   

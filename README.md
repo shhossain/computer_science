@@ -21,7 +21,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-152-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-153-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1284,6 +1284,7 @@ Closely related fields in theoretical computer science are the analysis of algor
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="http://namberino.github.io"><img src="https://avatars.githubusercontent.com/u/70761157?v=4?s=50" width="50px;" alt="nam"/><br /><sub><b>nam</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=namberino" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/shaanrxx"><img src="https://avatars.githubusercontent.com/u/62669918?v=4?s=50" width="50px;" alt="Shaan Rehsi"/><br /><sub><b>Shaan Rehsi</b></sub></a><br /><a href="#content-shaanrxx" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/mjung1"><img src="https://avatars.githubusercontent.com/u/86390269?v=4?s=50" width="50px;" alt="mjung1"/><br /><sub><b>mjung1</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=mjung1" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

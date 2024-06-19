@@ -733,42 +733,41 @@ Major file systems include the following:
 
 
 ## [Cloud Computing](Cloud%20Computing/Readme.md)
-Cloud computing is the ability to access information and applications over the Internet. Cloud computing allows users to access applications and data from any location with an Internet connection.
 
-Cloud computing is a type of Internet-based computing that provides shared computer processing resources and data to computers and other devices on demand.
+Cloud computing is a type of Internet-based computing that provides shared computer processing resources and data to computers and other devices on demand. It also allows authorized users and systems to access applications and data from any location with an internet connection.
 
 It is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.
  
- ### Top benefits of cloud computing
+ ### Top benefits of Cloud Computing
  
 Cloud computing is a big shift from how businesses think about IT resources. Here are seven common reasons organizations are turning to cloud computing services:
 
 
-Cost
+#### Cost
 Cloud computing eliminates the capital expense of buying hardware and software and setting up and running on-site data centers—the racks of servers, the round-the-clock electricity for power and cooling, and the IT experts for managing the infrastructure. It adds up fast.
 
 
-Speed
+#### Speed
 Most cloud computing services are provided self-service and on demand, so even vast amounts of computing resources can be provisioned in minutes, typically with just a few mouse clicks, giving businesses a lot of flexibility and taking the pressure off capacity planning.
 
 
-Global scale
+#### Global scale
 The benefits of cloud computing services include the ability to scale elastically. In cloud speak, that means delivering the right amount of IT resources—for example, more or less computing power, storage, and bandwidth—right when it is needed and from the right geographic location.
 
 
-Productivity
+#### Productivity
 On-site data centers typically require a lot of "racking and stacking"—hardware setup, software patching, and other time-consuming IT management chores. Cloud computing removes the need for many of these tasks, so IT teams can spend time on achieving more important business goals.
 
 
-Performance
+#### Performance
 The biggest cloud computing services run on a worldwide network of secure data centers, which are regularly upgraded to the latest generation of fast and efficient computing hardware. This offers several benefits over a single corporate data center, including reduced network latency for applications and greater economies of scale.
 
 
-Reliability
+#### Reliability
 Cloud computing makes data backup, disaster recovery, and business continuity easier and less expensive because data can be mirrored at multiple redundant sites on the cloud provider's network.
 
 
-Security
+#### Security
 Many cloud providers offer a broad set of policies, technologies, and controls that strengthen your security posture overall, helping protect your data, apps, and infrastructure from potential threats.
 
 ### Types of Cloud Computing Services

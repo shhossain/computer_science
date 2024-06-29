@@ -270,3 +270,4 @@ Consider an online banking application:
 - **Fault**: A developer accidentally uses the wrong interest rate formula in the code.
 - **Error**: When a user requests an interest calculation, the software calculates the interest incorrectly due to the faulty formula.
 - **Failure**: The user receives an incorrect interest amount, leading to a failure in the application's functionality.
+

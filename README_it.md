@@ -44,7 +44,7 @@ Se sei interessato a contribuire a questo progetto, prenditi un momento per legg
 - [Algoritmi](#algoritmi)
 - [Alan Turing](#alan-turing)
 - [Ingegneria del Software](#ingegneria-del-software)
-- [Scienza dei Dati](#scienza-dei-dati)
+- [Data Science](#data-science)
 - [Circuiti Integrati](#circuiti-integrati)
 - [Programmazione Orientata agli Oggetti](#programmazione-orientata-agli-oggetti)
 - [Programmazione Funzionale](#programmazione-funzionale)
@@ -52,7 +52,7 @@ Se sei interessato a contribuire a questo progetto, prenditi un momento per legg
 - [Memoria e Archiviazione](#memoria-e-archiviazione)
 - [File System](#file-system)
 - [Cloud Computing](#cloud-computing)
-- [Apprendimento Automatico](#apprendimento-automatico)
+- [Machine Learning](#machine-learning)
 - [Tecnologia Web](#tecnologia-web)
 - [Reti](#reti)
 - [Internet](#internet)
@@ -397,9 +397,6 @@ Il processo di ingegneria del software comprende diverse fasi, tra cui la raccol
 - **Economia**: In questo settore, l'ingegneria del software aiuta a stimare le risorse e controllare i costi. Un sistema informatico deve essere sviluppato e i dati devono essere mantenuti regolarmente all'interno di un budget definito.
 - **Ingegneria dei Sistemi**: La maggior parte del software è un componente di un sistema molto più grande. Ad esempio, il software in un sistema di monitoraggio industriale o il software di volo su un aereo. I metodi di ingegneria del software dovrebbero essere applicati allo studio di questo tipo di sistema.
 
-Ecco la traduzione del testo dall'inglese all'italiano:
-
----
 
 ## [Data Science](Data%20Science/readme.md)
 
@@ -429,7 +426,7 @@ La programmazione orientata agli oggetti è un paradigma di programmazione fonda
 
 È il modo standard di scrivere codice che ogni programmatore deve seguire per garantire una migliore leggibilità e riutilizzabilità del codice.
 
-### * Ci sono quattro concetti base della programmazione orientata agli oggetti:
+###  Ci sono quattro concetti base della programmazione orientata agli oggetti:
 - Astrazione
 - Incapsulamento
 - Ereditarietà
@@ -641,3 +638,609 @@ Questo scambio dinamico di dati dentro e fuori dalla memoria fisica è gestito d
 
 In sintesi, la memoria virtuale funge da strato di virtualizzazione che estende la memoria fisica disponibile trasferendo temporaneamente parti di programmi e dati tra la RAM e l'archiviazione secondaria. Questo processo garantisce che il computer possa gestire compiti più grandi e numerosi programmi simultaneamente, mantenendo al contempo prestazioni e reattività efficienti.
 
+
+## [File System](File%20System/readme.md)
+
+In informatica, un sistema di file o filesystem (spesso abbreviato in fs) è un metodo e una struttura dati che il sistema operativo utilizza per controllare come i dati sono memorizzati e recuperati. Senza un sistema di file, i dati immagazzinati in un supporto di memorizzazione sarebbero un grande corpo di dati senza modo di sapere dove finisce un pezzo di dati e dove inizia il successivo o dove si trova un dato quando è il momento di recuperarlo. Separando i dati in pezzi e dando a ciascun pezzo un nome, i dati sono facilmente isolati e identificati. Prendendo il nome da come è denominato un sistema di gestione dei dati cartaceo, ogni gruppo di dati è chiamato "file". La struttura e le regole logiche utilizzate per gestire i gruppi di dati e i loro nomi sono chiamate "sistema di file".
+
+Esistono molti tipi di sistemi di file, ciascuno con una struttura e una logica uniche, proprietà di velocità, flessibilità, sicurezza, dimensioni e altro ancora. Alcuni sistemi di file sono stati progettati per applicazioni specifiche. Ad esempio, il sistema di file ISO 9660 è progettato specificamente per i dischi ottici.
+
+I sistemi di file possono essere utilizzati su molti tipi di dispositivi di archiviazione utilizzando vari media. A partire dal 2019, i dischi rigidi sono stati dispositivi di archiviazione chiave e si prevede che rimarranno tali nel prossimo futuro. Altri tipi di media utilizzati includono SSD, nastri magnetici e dischi ottici. In alcuni casi, come con tmpfs, la memoria principale del computer (memoria ad accesso casuale, RAM) crea un sistema di file temporaneo per un uso a breve termine.
+
+Alcuni sistemi di file sono utilizzati su dispositivi di archiviazione locale; altri forniscono accesso ai file tramite un protocollo di rete (ad esempio, NFS, SMB o client 9P). Alcuni sistemi di file sono "virtuali", il che significa che i "file" forniti (chiamati file virtuali) vengono calcolati su richiesta (come procfs e sysfs) o sono semplicemente una mappatura in un altro sistema di file utilizzato come archivio di supporto. Il sistema di file gestisce l'accesso sia al contenuto dei file sia ai metadati su tali file. È responsabile dell'organizzazione dello spazio di archiviazione; l'affidabilità, l'efficienza e la regolazione rispetto al supporto di memorizzazione fisico sono considerazioni progettuali importanti.
+
+### Come funzionano i sistemi di file
+Un sistema di file memorizza e organizza i dati e può essere considerato come un tipo di indice per tutti i dati contenuti in un dispositivo di archiviazione. Questi dispositivi possono includere dischi rigidi, dischi ottici e unità flash.
+
+I sistemi di file specificano convenzioni per la denominazione dei file, inclusi il numero massimo di caratteri in un nome, quali caratteri possono essere utilizzati e, in alcuni sistemi, quanto può essere lunga l'estensione del nome del file. In molti sistemi di file, i nomi dei file non sono sensibili al caso.
+
+Oltre al file stesso, i sistemi di file contengono informazioni come le dimensioni del file e i suoi attributi, la posizione e la gerarchia nella directory nei metadati. I metadati possono anche identificare blocchi liberi di spazio disponibile sull'unità e quanto spazio è disponibile.
+
+Un sistema di file include anche un formato per specificare il percorso a un file attraverso la struttura delle directory. Un file è collocato in una directory - o in una cartella in Windows OS - o in una sottodirectory nel punto desiderato della struttura ad albero. I sistemi operativi PC e mobili hanno sistemi di file in cui i file sono collocati in una struttura ad albero gerarchica.
+
+Prima che i file e le directory vengano creati sul supporto di memorizzazione, le partizioni devono essere messe in atto. Una partizione è una regione del disco rigido o di un altro supporto che il sistema operativo gestisce separatamente. Un sistema di file è contenuto nella partizione principale e alcuni sistemi operativi consentono più partizioni su un disco. In questo caso, se un sistema di file si corrompe, i dati in una partizione diversa saranno al sicuro.
+
+### Tipi di sistemi di file
+Esistono diversi tipi di sistemi di file, tutti con diverse strutture logiche e proprietà, come velocità e dimensioni. Il tipo di sistema di file può variare a seconda del sistema operativo e delle esigenze di quel sistema operativo. Microsoft Windows, Mac OS X e Linux sono i tre sistemi operativi PC più comuni. I sistemi operativi mobili includono Apple iOS e Google Android.
+
+I principali sistemi di file includono i seguenti:
+
+- La tabella di allocazione dei file (FAT) è supportata dal sistema operativo Microsoft Windows. FAT è considerato semplice e affidabile e modellato sui sistemi di file legacy. FAT è stato progettato nel 1977 per i dischetti, ma è stato successivamente adattato per i dischi rigidi. Sebbene sia efficiente e compatibile con la maggior parte dei sistemi operativi attuali, FAT non può eguagliare le prestazioni e la scalabilità dei sistemi di file più moderni.
+
+- Il Global File System (GFS) è un sistema di file per il sistema operativo Linux ed è un sistema di file su disco condiviso. GFS offre accesso diretto all'archiviazione a blocchi condivisi e può essere utilizzato come sistema di file locale.
+
+- GFS2 è una versione aggiornata con funzionalità non incluse nel GFS originale, come un sistema di metadati aggiornato. Sotto i termini della GNU General Public License, sia i sistemi di file GFS che GFS2 sono disponibili come software gratuito.
+
+- Il Hierarchical File System (HFS) è stato sviluppato per essere utilizzato con i sistemi operativi Mac. L'HFS può essere anche chiamato Mac OS Standard, succeduto da Mac OS Extended. Introdotto originariamente nel 1985 per dischetti e dischi rigidi, l'HFS ha sostituito il sistema di file Macintosh originale. Può essere utilizzato anche su CD-ROM.
+
+- Il New Technology File System (NTFS) è il sistema di file predefinito per i prodotti Windows a partire dal sistema operativo Windows NT 3.1. I miglioramenti rispetto al precedente sistema di file FAT includono un migliore supporto ai metadati, prestazioni e utilizzo dello spazio su disco. NTFS è anche supportato nel sistema operativo Linux attraverso un driver NTFS gratuito e open source. I sistemi operativi Mac hanno supporto in sola lettura per NTFS.
+
+- Il Universal Disk Format (UDF) è un sistema di file neutro dal fornitore per i media ottici e i DVD. UDF sostituisce il sistema di file ISO 9660 ed è il sistema di file ufficiale per video e audio DVD, come scelto dal DVD Forum.
+
+## [Cloud Computing](Cloud%20Computing/Readme.md)
+Il cloud computing è la capacità di accedere a informazioni e applicazioni tramite Internet. Il cloud computing consente agli utenti di accedere a applicazioni e dati da qualsiasi posizione con una connessione a Internet.
+
+Il cloud computing è un tipo di elaborazione basata su Internet che fornisce risorse di elaborazione e dati condivisi a computer e altri dispositivi su richiesta.
+
+È un modello per abilitare l'accesso universale, conveniente e su richiesta a un pool condiviso di risorse informatiche configurabili (ad esempio, reti, server, archiviazione, applicazioni e servizi) che possono essere rapidamente fornite e rilasciate con un minimo sforzo di gestione o interazione con il fornitore di servizi.
+
+### Principali vantaggi del cloud computing
+
+Il cloud computing rappresenta un grande cambiamento nel modo in cui le aziende pensano alle risorse IT. Ecco sette motivi comuni per cui le organizzazioni si stanno rivolgendo ai servizi di cloud computing:
+
+**Costo**
+Il cloud computing elimina la spesa di capitale per l'acquisto di hardware e software e per l'allestimento e la gestione dei data center sul posto: gli scaffali di server, l'elettricità continua per l'alimentazione e il raffreddamento e gli esperti IT per gestire l'infrastruttura. I costi si accumulano rapidamente.
+
+**Velocità**
+La maggior parte dei servizi di cloud computing sono forniti in modalità self-service e su richiesta, quindi anche grandi quantità di risorse informatiche possono essere fornite in pochi minuti, tipicamente con solo pochi clic del mouse, offrendo alle aziende molta flessibilità e togliendo la pressione dalla pianificazione della capacità.
+
+**Scala globale**
+I benefici dei servizi di cloud computing includono la capacità di scalare elasticamente. Nel linguaggio del cloud, questo significa fornire la giusta quantità di risorse IT—ad esempio, maggiore o minore potenza di calcolo, archiviazione e banda—esattamente quando è necessario e dalla giusta posizione geografica.
+
+**Produttività**
+I data center sul posto richiedono tipicamente molta "installazione e configurazione"—impost
+
+azione hardware, aggiornamento software e altre mansioni di gestione IT che richiedono tempo. Il cloud computing elimina la necessità di molte di queste attività, così i team IT possono dedicare tempo al raggiungimento di obiettivi aziendali più importanti.
+
+**Prestazioni**
+I maggiori servizi di cloud computing operano su una rete mondiale di data center sicuri, che vengono regolarmente aggiornati con l'ultima generazione di hardware di calcolo veloce ed efficiente. Questo offre diversi vantaggi rispetto a un singolo data center aziendale, inclusa una riduzione della latenza di rete per le applicazioni e maggiori economie di scala.
+
+**Affidabilità**
+Il cloud computing rende più facile e meno costoso il backup dei dati, il recupero da disastri e la continuità aziendale poiché i dati possono essere replicati in più siti ridondanti sulla rete del fornitore di servizi cloud.
+
+**Sicurezza**
+Molti fornitori di cloud offrono un ampio insieme di politiche, tecnologie e controlli che rafforzano la tua postura di sicurezza complessiva, aiutando a proteggere i tuoi dati, applicazioni e infrastrutture da potenziali minacce.
+
+### Tipi di Servizi di Cloud Computing
+- [Infrastruttura come Servizio (IaaS)](Cloud%20Computing/Readme.md#infrastructure-as-a-service-iaas)
+- [Piattaforma come Servizio (PaaS)](Cloud%20Computing/Readme.md#platform-as-a-service-paas)
+- [Software come Servizio (SaaS)](Cloud%20Computing/Readme.md#software-as-a-service-saas)
+
+
+## [Machine Learning](Machine%20Learning/)
+
+Il machine learning è la pratica di insegnare a un computer ad apprendere. Il concetto utilizza il riconoscimento dei modelli, così come altre forme di algoritmi predittivi, per formulare giudizi sui dati in arrivo. Questo campo è strettamente correlato all'intelligenza artificiale e alla statistica computazionale.
+
+### Esistono tre sottocategorie del machine learning:
+
+### Machine learning supervisionato
+In questo tipo, i modelli di machine learning vengono addestrati con set di dati etichettati, che permettono ai modelli di apprendere e migliorare con maggiore precisione nel tempo. Ad esempio, un algoritmo verrebbe addestrato con immagini di cani e altri oggetti, tutti etichettati da umani, e la macchina imparerebbe a identificare le immagini di cani autonomamente. Il machine learning supervisionato è il tipo più comune utilizzato oggi.
+
+Applicazioni pratiche del Machine Learning Supervisionato – 
+1. **Bioinformatica:** La bioinformatica è lo studio di come gli individui conservano conoscenze biologiche come impronte digitali, texture degli occhi, lobi delle orecchie e così via. I telefoni cellulari sono ora abbastanza intelligenti da comprendere i nostri dati biologici e poi verificarci per aumentare la sicurezza del sistema.
+2. **Riconoscimento vocale:** È il tipo di programma in cui puoi trasmettere la tua voce al programma, e esso ti riconoscerà. I dispositivi reali più noti sono assistenti digitali come Google Assistant o Siri, che rispondono al termine solo con la tua voce.
+3. **Rilevamento dello spam:** Questo strumento viene utilizzato per prevenire l'invio di comunicazioni false o generate da macchina. Gmail include un algoritmo che apprende numerosi termini sbagliati. L'app Messaggi di Oneplus chiede all'utente di specificare quali termini dovrebbero essere bloccati, e la parola chiave impedirà tali testi dall'app.
+4. **Riconoscimento oggetti per la visione:** Questo tipo di software è utilizzato quando devi definire qualcosa. Hai un grande dataset che utilizzi per addestrare l'algoritmo, e può riconoscere un nuovo oggetto utilizzando questo.
+
+### Machine learning non supervisionato
+Nel machine learning non supervisionato, un programma cerca schemi nei dati non etichettati. Il machine learning non supervisionato può scoprire schemi o tendenze che le persone non stanno cercando esplicitamente. Ad esempio, un programma di machine learning non supervisionato potrebbe esaminare i dati delle vendite online e identificare diversi tipi di clienti che effettuano acquisti.
+
+Applicazioni pratiche del Machine Learning Non Supervisionato
+1. **Clustering:** Il clustering è il processo di categorizzazione dei dati in gruppi separati. Quando non conosciamo tutti i dettagli sui cluster, possiamo utilizzare il machine learning non supervisionato per clusterizzarli. Il machine learning non supervisionato viene utilizzato per analizzare e organizzare dati che non hanno classi o proprietà di classe pre-etichettate. Il clustering può aiutare le aziende a gestire i loro dati in modo più efficace.
+   Supponiamo che tu abbia un canale YouTube. Potresti avere molte informazioni sui tuoi abbonati. Se vuoi trovare abbonati simili, dovresti utilizzare una tecnica di clustering.
+2. **Visualizzazione:** Il processo di creazione di diagrammi, foto, grafici, tabelle e così via per presentare informazioni è noto come visualizzazione. Il machine learning non supervisionato può essere utilizzato per implementare questa strategia.
+   Supponiamo che tu sia un allenatore di cricket con informazioni riguardanti le prestazioni della tua squadra in un torneo. Potresti voler trovare rapidamente tutte le statistiche delle partite. Puoi passare i dati non etichettati e complessi a un algoritmo di visualizzazione.
+3. **Rilevamento delle anomalie:** Il rilevamento delle anomalie è la scoperta di cose, eventi o osservazioni insoliti che sollevano sospetti deviando notevolmente dai dati normali. In questo caso, il sistema è programmato con un gran numero di casi tipici. Pertanto, quando rileva un evento inatteso, può determinare se si tratta di un'anomalia o meno.
+   Il rilevamento delle frodi con carta di credito è un buon esempio di questo. Questo problema viene ora affrontato utilizzando approcci di rilevamento delle anomalie nel machine learning non supervisionato. Per evitare frodi, il sistema identifica transazioni con carta di credito inaspettate.
+
+### Machine learning semi-supervisionato
+Lo svantaggio del machine learning supervisionato è che richiede etichettatura manuale da parte di specialisti di ML o scienziati dei dati e comporta un alto costo di elaborazione. Il machine learning non supervisionato ha anche uno spettro limitato per le sue applicazioni. Per superare questi svantaggi degli algoritmi di machine learning supervisionato e non supervisionato, è stato introdotto il concetto di machine learning semi-supervisionato. Tipicamente, questa combinazione contiene una quantità molto piccola di dati etichettati e una grande quantità di dati non etichettati. La procedura di base consiste nel fatto che prima il programmatore clasterizza i dati simili utilizzando un algoritmo di machine learning non supervisionato e poi utilizza i dati etichettati esistenti per etichettare il resto dei dati non etichettati.
+
+Applicazioni pratiche del Machine Learning Semi-Supervisionato – 
+1. **Analisi del parlato:** Poiché l'etichettatura dei file audio è un compito molto intensivo, il machine learning semi-supervisionato è un approccio molto naturale per risolvere questo problema.
+2. **Classificazione dei contenuti su Internet:** L'etichettatura di ogni pagina web è un processo poco praticabile e fattibile e quindi utilizza algoritmi di machine learning semi-supervisionato. Anche l'algoritmo di ricerca di Google utilizza una variante del machine learning semi-supervisionato per classificare la rilevanza di una pagina web per una determinata query.
+3. **Classificazione delle sequenze proteiche:** Poiché i filamenti di DNA sono tipicamente molto grandi, l'ascesa del machine learning semi-supervisionato è stata imminente in questo campo.
+
+### Machine learning per rinforzo
+Questo addestra le macchine attraverso tentativi ed errori a prendere la migliore azione stabilendo un sistema di ricompensa. Il machine learning per rinforzo può addestrare modelli a giocare ai giochi o ad addestrare veicoli autonomi a guidare dicendo alla macchina quando ha preso le decisioni giuste, il che aiuta a imparare nel tempo quali azioni dovrebbe intraprendere.
+
+Applicazioni pratiche del Machine Learning per Rinforzo - 
+1. **Sistemi di produzione** 
+   e.g. Google Cloud AutoML, Facebook Horizon, raccomandazioni, pubblicità, ricerca 
+2. **Guida autonoma**
+3. **Gestione aziendale** 
+   e.g. risoluzione del problema del routing dei veicoli, comportamento fraudolento nell'e-commerce, apprendimento per rinforzo concorrente dalle interazioni con i clienti
+4. **Sistemi di raccomandazione**
+   e.g. per ricerca, raccomandazioni e pubblicità online
+
+### Il machine learning è anche associato a diversi altri sottocampi dell'intelligenza artificiale:
+
+### Elaborazione del linguaggio naturale
+
+L'elaborazione del linguaggio naturale è un campo del machine learning in cui le macchine apprendono a comprendere il linguaggio naturale parlato e scritto dagli esseri umani anziché i dati e i numeri normalmente usati per programmare i computer. Questo consente alle macchine di riconoscere il linguaggio, comprenderlo e rispondere, così come creare nuovo testo e tradurre tra lingue. L'elaborazione del linguaggio naturale abilita tecnologie familiari come i chatbot e assistenti digitali come Siri o Alexa.
+
+Applicazioni pratiche della NLP:
+1. **Risposta alle domande:** La Risposta alle domande si concentra sulla costruzione di sistemi che rispondono automaticamente alle domande poste dagli esseri umani in un linguaggio naturale. 
+2. **Rilevamento dello spam:** Il rilevamento dello spam viene utilizzato per rilevare e-mail indesiderate che arrivano alla casella di posta di un utente.
+3. **Analisi del sentiment:** L'Analisi del sentiment è anche nota come mining dell'opinione. Viene utilizzata sul web per analizzare l'atteggiamento, il comportamento e lo stato emotivo del mittente. Questa applicazione viene implementata attraverso una combinazione di NLP (Elaborazione del Linguaggio Naturale) e statistica assegnando valori al testo (positivo, negativo o neutro) e identificando l'umore del contesto (felice, triste, arrabbiato, ecc.)
+4. **Traduzione automatica:** La traduzione automatica viene utilizzata per tradurre testo o discorsi da una lingua naturale a un'altra lingua naturale. e.g. Google Translate
+5. **Correzione ortografica:** Microsoft Corporation fornisce software di elaborazione testi come MS Word e PowerPoint per la correzione ortografica.
+
+### Reti neurali
+
+Le reti neurali sono una classe specifica di algoritmi di machine learning comunemente utilizzati. Le reti neurali artificiali sono modellate sul cervello umano, in cui migliaia o milioni di nodi di elaborazione sono interconnessi e organizzati in strati.
+
+In una rete neurale artificiale, le cellule o i nodi sono collegati, con ciascuna cellula che elabora gli input e produce un output che viene inviato ad altri neuroni. I dati etichettati si muovono attraverso i nodi o le cellule, con ciascuna cellula che svolge una funzione diversa. In una rete neurale addestrata per identificare se una foto contiene un gatto o meno, i diversi nodi valuterebbero le informazioni e arriverebbero a un output che indica se la foto presenta un gatto.
+
+Applicazioni pratiche delle Reti Neurali:
+1. **Previsione del mercato azionario:** Per fare una previsione di successo in tempo reale, viene impiegato un Multilayer Perceptron MLP (classe di algoritmo di intelligenza artificiale feedforward). L'MLP comprende più strati di nodi, e ciascuno di questi strati è completamente connesso ai nodi successivi. Le prestazioni passate delle azioni, i ritorni annuali e i rapporti senza profitto vengono considerati per costruire il modello MLP.
+2. **Social Media:** I Perceptron Multistrato prevedono le tendenze dei social media. Utilizza diversi metodi di addestramento come Mean Absolute Error (MAE), Root Mean Squared Error (RMSE) e Mean Squared Error (MSE). L'MLP considera diversi fattori come le pagine Instagram preferite dall'utente, le scelte salvate, ecc. Dopo l'analisi dei comportamenti degli individui tramite i social media, i dati possono essere collegati alle abitudini di spesa delle persone. L'MLP ANN viene utilizzato per estrarre dati dalle applicazioni dei social media.  
+3. **Aerospace:** L'Ingegneria Aerospaziale è un termine ampio che comprende i progressi nei veicoli spaziali e negli aerei. Diagnosi dei guasti, pilotaggio automatico ad alte prestazioni, sicurezza dei sistemi di controllo degli aerei e modellizzazione di simulazioni dinamiche chiave sono alcune delle aree chiave che le reti neurali hanno assunto. Le reti neurali a ritardo di tempo possono essere impiegate per modellare sistemi dinamici non lineari nel tempo.
+
+### Deep learning
+
+Le reti di deep learning sono reti neurali con molti strati. La rete stratificata può elaborare enormi quantità di dati e determinare il “peso” di ciascun collegamento nella rete — ad esempio, in un sistema di riconoscimento delle immagini, alcuni strati della rete neurale potrebbero rilevare caratteristiche individuali di un volto, come occhi, naso o bocca, mentre un altro strato potrebbe essere in grado di dire se queste caratteristiche appaiono in modo tale da indicare un volto.
+
+Applicazioni pratiche del Deep Learning:
+1. **Generazione automatica di testo –** Un corpus di testo viene appreso, e da questo modello viene generato nuovo testo, parola per parola o carattere per carattere. Poi questo modello è in grado di apprendere come scrivere, punteggiare e formare frasi, o può anche catturare lo stile.
+2. **Salute –** Aiuta nella diagnosi di varie malattie e nel loro trattamento.
+3. **Traduzione automatica –** Alcune parole, frasi o espressioni in una lingua vengono trasformate in un'altra lingua (Il Deep Learning sta ottenendo risultati migliori nelle aree di testo e immagini).
+4. **Riconoscimento delle immagini –** Riconosce e identifica persone e oggetti nelle immagini e comprende contenuti e contesti. Quest'area è già utilizzata nei settori dei giochi, del retail, del turismo, ecc.
+5. **Previsione dei terremoti –** Insegna a un computer a eseguire calcoli viscoelastici, utilizzati nella previsione dei terremoti.
+
+
+## [Tecnologia Web](Web%20Technology/WebTechnology.md#web-tecnology)
+La Tecnologia Web si riferisce ai vari strumenti e tecniche utilizzati nel processo di comunicazione tra diversi tipi di dispositivi su Internet. Un browser web viene utilizzato per accedere alle pagine web. I browser web possono essere definiti come programmi che visualizzano testo, dati, immagini, animazioni e video su Internet. Le risorse ipertestuali sul World Wide Web possono essere accessibili utilizzando le interfacce software fornite dai browser web.
+
+### La Tecnologia Web può essere classificata nelle seguenti sezioni:
+- World Wide Web (WWW)
+Il World Wide Web si basa su diverse tecnologie: browser web, Linguaggio di Marcatura Ipertestuale (HTML) e Protocollo di Trasferimento Ipertestuale (HTTP).
+
+- Browser Web
+Il browser web è un software applicativo per esplorare il www (World Wide Web). Fornisce un'interfaccia tra il server e il client e richiede al server documenti e servizi web.
+
+- Server Web
+Un server web è un programma che elabora le richieste di rete degli utenti e le serve con file che creano pagine web. Questo scambio avviene utilizzando il Protocollo di Trasferimento Ipertestuale (HTTP).
+
+- Pagine Web
+Una pagina web è un documento digitale che è collegato al World Wide Web e visualizzabile da chiunque sia connesso a Internet e abbia un browser web.
+
+- Sviluppo Web
+Lo sviluppo web si riferisce alla costruzione, creazione e manutenzione di siti web. Include aspetti come design web, pubblicazione web, programmazione web e gestione di database. È la creazione di un'applicazione che funziona su Internet, cioè, siti web.
+
+### Lo Sviluppo Web può essere classificato in due modi:
+### Sviluppo Frontend
+La parte di un sito web con cui l'utente interagisce direttamente è chiamata front end. Viene anche definita come il ‘lato client’ dell'applicazione.
+
+### Sviluppo Backend
+Il backend è il lato server di un sito web. È la parte del sito web che gli utenti non possono vedere e con cui non interagiscono. È la porzione di software che non entra in contatto diretto con gli utenti. Viene utilizzato per memorizzare e organizzare i dati.
+
+
+## [Reti](Networking/readme.md#networking)
+Una rete di computer è un insieme di computer che condividono risorse situate su o fornite dai nodi della rete. I computer utilizzano protocolli di comunicazione comuni attraverso connessioni digitali per comunicare tra loro. Queste connessioni sono costituite da tecnologie di rete basate su metodi fisicamente cablati, ottici e wireless a radiofrequenza, che possono essere disposti in una varietà di topologie di rete.
+
+I nodi di una rete di computer possono includere computer personali, server, hardware di rete o altri host specializzati o generali. Essi sono identificati da indirizzi di rete e possono avere nomi host. I nomi host servono come etichette memorabili per i nodi, raramente cambiate dopo l'assegnazione iniziale. Gli indirizzi di rete servono per localizzare e identificare i nodi tramite protocolli di comunicazione come il Protocollo Internet.
+
+Le reti di computer possono essere classificate secondo diversi criteri, tra cui il mezzo di trasmissione utilizzato per trasportare i segnali, la larghezza di banda, i protocolli di comunicazione per organizzare il traffico di rete, le dimensioni della rete, la topologia, il meccanismo di controllo del traffico e l'intento organizzativo.
+
+### Tipi di rete
+Esistono due tipi principali di networking:
+- Networking cablato: Il networking cablato richiede l'uso di un mezzo fisico per il trasporto tra i nodi. I cavi Ethernet a base di rame, popolari per il loro basso costo e durabilità, sono comunemente utilizzati per le comunicazioni digitali in aziende e case. In alternativa, la fibra ottica viene utilizzata per trasportare dati su distanze maggiori e a velocità superiori, ma presenta diversi compromessi, inclusi costi più elevati e componenti più fragili.
+- Networking wireless: Il networking wireless utilizza onde radio per trasportare dati nell'aria, consentendo ai dispositivi di essere collegati a una rete senza alcun cablaggio. Le LAN wireless sono la forma più conosciuta e ampiamente implementata di networking wireless. Altre opzioni includono microonde, satelliti, cellulari e Bluetooth, tra gli altri.
+
+## MODELLO OSI
+OSI sta per **Open Systems Interconnection**. È stato sviluppato da ISO – ‘**International Organization for Standardization**’ nel 1984. È un'architettura a 7 strati, con ciascuno strato che ha una funzionalità specifica da eseguire. Tutti questi sette strati lavorano collaborativamente per trasmettere i dati da una persona all'altra in tutto il mondo.
+
+#### **1. Strato Fisico (Layer 1):**
+
+Il livello più basso del modello di riferimento OSI è lo strato fisico. È responsabile della connessione fisica effettiva tra i dispositivi. Lo strato fisico contiene informazioni sotto forma di **bit**. È responsabile della trasmissione di bit individuali da un nodo all'altro. Quando si riceve un dato, questo strato riceve il segnale e lo converte in 0 e 1 e li invia allo strato Data Link, che rimonta il frame.
+
+![](Networking/OSI%20Model/img/computer-network-osi-model-layers-bits.png)
+
+Le funzioni dello strato fisico sono le seguenti:
+
+1.  **Sincronizzazione dei bit:** Lo strato fisico fornisce la sincronizzazione dei bit mediante un orologio. Questo orologio controlla sia il mittente che il destinatario, fornendo così sincronizzazione a livello di bit.
+2.  **Controllo della velocità dei bit:** Lo strato fisico definisce anche la velocità di trasmissione, cioè il numero di bit inviati al secondo.
+3.  **Topologie fisiche:** Lo strato fisico specifica come i diversi dispositivi/nodi sono disposti in una rete, cioè topologia a bus, stella o maglia.
+4.  **Modalità di trasmissione:** Lo strato fisico definisce anche come i dati fluiscono tra i due dispositivi connessi. Le varie modalità di trasmissione possibili sono Simplex, half-duplex e full-duplex.
+
+#### **2. Data Link Layer (DLL) (Layer 2):**
+
+Lo strato di collegamento dati è responsabile della consegna del messaggio da nodo a nodo. La funzione principale di questo strato è assicurare che il trasferimento dei dati sia privo di errori da un nodo all'altro attraverso lo strato fisico. Quando un pacchetto arriva in una rete, è responsabilità del DLL trasmetterlo all'host utilizzando il suo indirizzo MAC.   
+Lo strato di collegamento dati è diviso in due sottostrati:
+
+1. Controllo del collegamento logico (LLC)
+2. Controllo di accesso ai mezzi (MAC)
+
+Il pacchetto ricevuto dallo strato di rete viene ulteriormente suddiviso in frame a seconda delle dimensioni del frame della NIC (Network Interface Card). Il DLL incapsula anche l'indirizzo MAC del mittente e del destinatario nell'intestazione. 
+
+L'indirizzo MAC del destinatario viene ottenuto inserendo una richiesta ARP (Address Resolution Protocol) sulla rete chiedendo: “Chi ha quell'indirizzo IP?” e l'host di destinazione risponderà con il proprio indirizzo MAC.
+
+![](Networking/OSI%20Model/img/computer-network-osi-model-layers-framing.png)
+
+Le funzioni dello strato di collegamento dati sono:
+
+1.  **Incapsulamento:** L'incapsulamento è una funzione dello strato di collegamento dati. Fornisce un modo per un mittente di trasmettere un insieme di bit che siano significativi per il destinatario. Questo può essere realizzato aggiungendo modelli di bit speciali all'inizio e alla fine del frame.
+2.  **Indirizzamento fisico:** Dopo aver creato i frame, lo strato di collegamento dati aggiunge indirizzi fisici (indirizzi MAC) del mittente e/o destinatario nell'intestazione di ciascun frame.
+3.  **Controllo degli errori:** Lo strato di collegamento dati fornisce il meccanismo di controllo degli errori in cui rileva e ritrasmette frame danneggiati o persi.
+4.  **Controllo del flusso:** La velocità dei dati deve essere costante su entrambi i lati altrimenti i dati potrebbero essere corrotti; pertanto, il controllo del flusso coordina la quantità di dati che può essere inviata prima di ricevere una conferma.
+5.  **Controllo dell'accesso:** Quando un singolo canale di comunicazione è condiviso da più dispositivi, il sottostrato MAC dello strato di collegamento dati aiuta a determinare quale dispositivo ha il controllo sul canale in un dato momento.
+
+#### **3. Network Layer (Layer 3):**
+
+Lo strato di rete lavora per la trasmissione dei dati da un host all'altro situati in reti diverse. Si occupa anche dell'instradamento dei pacchetti, cioè della selezione del percorso più breve per trasmettere il pacchetto tra i vari percorsi disponibili. Gli indirizzi IP del mittente e del destinatario sono inseriti nell'intestazione dallo strato di rete.
+
+Le funzioni dello strato di rete sono:
+
+1.  **Instradamento:** I protocolli dello strato di rete determinano quale percorso è adatto dal sorgente alla destinazione. Questa funzione dello strato di rete è conosciuta come instradamento.
+2.  **Indirizzamento logico:** Per identificare in modo univoco ogni dispositivo su una rete, lo strato di rete definisce uno schema di indirizzamento. Gli indirizzi IP del mittente e del destinatario sono inseriti nell'intestazione dallo strato di rete. Tale indirizzo distingue in modo univoco e universale ogni dispositivo.
+
+## [Internet](Internet/readme.md#internet)
+Internet è un sistema globale di reti di computer interconnesse che utilizzano il suite di protocolli standard Internet ([TCP/IP](Networking/readme.md#tcptransmission-control-protocol)) per servire miliardi di utenti in tutto il mondo. È una rete di reti che consiste in milioni di reti private, pubbliche, accademiche, aziendali e governative di portata locale e globale, collegate da una vasta gamma di tecnologie di rete elettroniche, wireless e ottiche. Internet trasporta una vasta gamma di risorse e servizi informativi, come i documenti ipertestuali e le applicazioni del World Wide Web ([WWW](Internet/readme.md#world-wide-web-www)) e l'infrastruttura per supportare la posta elettronica.
+
+### [World Wide Web (WWW)](Internet/readme.md#world-wide-web-www)
+Il World Wide Web (WWW) è uno spazio informativo dove i documenti e altre risorse web sono identificati da Localizzatori Uniformi di Risorse (URL), intercollegati da link ipertestuali e accessibili tramite Internet. Il ricercatore inglese Tim Berners-Lee inventò il World Wide Web nel 1989. Scrisse il primo
+
+ browser web nel 1990 mentre lavorava al CERN in Svizzera. Il browser fu rilasciato al di fuori del CERN nel 1991, prima ad altre istituzioni di ricerca a partire da gennaio 1991 e al pubblico generale su Internet nell'agosto 1991.
+
+### [Internet Protocol (IP)](Internet/readme.md#internet-protocol-ip)
+Il Protocollo Internet (IP) è un protocollo, o un insieme di regole, per instradare e indirizzare i pacchetti di dati in modo che possano viaggiare attraverso le reti e arrivare alla destinazione corretta. I dati che attraversano Internet sono suddivisi in pezzi più piccoli chiamati pacchetti.
+
+
+## [DBMS]()
+
+### Cos'è un Database?
+Un database è una raccolta di dati correlati che rappresentano un aspetto del mondo reale. Un sistema di database è progettato per essere costruito e popolato con dati per un certo compito.
+
+### Cos'è un DBMS?
+**Database Management System (DBMS)** è un software per memorizzare e recuperare i dati degli utenti, tenendo conto delle misure di sicurezza appropriate. Esso consiste in un insieme di programmi che manipolano il database. Il DBMS accetta la richiesta di dati da un'applicazione e istruisce il sistema operativo per fornire i dati specifici. Nei grandi sistemi, un DBMS aiuta gli utenti e altri software di terze parti a memorizzare e recuperare i dati.
+
+Il DBMS consente agli utenti di creare i propri database in base alle loro esigenze. Il termine "DBMS" include l'uso di un database e di altri programmi applicativi. Fornisce un'interfaccia tra i dati e l'applicazione software.
+
+### Esempio di un DBMS
+Vediamo un semplice esempio di un database universitario. Questo database mantiene informazioni riguardanti studenti, corsi e voti in un ambiente universitario. Il database è organizzato in cinque file:
+
+*   Il file STUDENT memorizza i dati di ogni studente.
+*   Il file COURSE memorizza i dati su ciascun corso.
+*   Il file SECTION memorizza le informazioni sui vari settori di un determinato corso.
+*   Il file GRADE memorizza i voti che gli studenti ricevono nelle varie sezioni.
+*   Il file TUTOR contiene informazioni su ciascun professore.
+
+Per definire un DBMS:
+
+*   Dobbiamo specificare la struttura dei record di ciascun file definendo i diversi tipi di elementi di dati da memorizzare in ciascun record.
+*   Possiamo anche utilizzare uno schema di codifica per rappresentare i valori di un elemento di dati.
+*   Fondamentalmente, il tuo database avrà cinque tabelle con una chiave esterna definita tra le varie tabelle.
+
+### Storia del DBMS
+Ecco i traguardi importanti della storia:
+
+*   1960 – Charles Bachman progettò il primo sistema DBMS.
+*   1970 – Codd introdusse il Sistema di Gestione delle Informazioni di IBM (IMS).
+*   1976 – Peter Chen coniò e definì il modello Entità-Relazione, noto anche come modello ER.
+*   1980 – Il Modello Relazionale diventa un componente ampiamente accettato dei database.
+*   1985 – Sviluppo del DBMS orientato agli oggetti.
+*   Anni '90 – Incorporazione dell'orientamento agli oggetti nei DBMS relazionali.
+*   1991 – Microsoft lancia MS Access, un DBMS personale che soppianta tutti gli altri prodotti DBMS personali.
+*   1995 – Prime applicazioni di database su Internet.
+*   1997 – XML applicato all'elaborazione dei database. Molti fornitori iniziano a integrare XML nei prodotti DBMS.
+
+### Caratteristiche del DBMS
+Ecco le caratteristiche e le proprietà di un Sistema di Gestione di Database:
+
+*   Fornisce sicurezza e rimuove la ridondanza.
+*   Descrive autonomamente la natura di un sistema di database.
+*   Isolamento tra programmi e astrazione dei dati.
+*   Supporto di più viste dei dati.
+*   Condivisione dei dati e elaborazione delle transazioni multi-utente.
+*   Il Software di Gestione dei Database consente a entità e relazioni tra esse di formare tabelle.
+*   Segue il concetto ACID (Atomicità, Coerenza, Isolamento e Durabilità).
+*   Il DBMS supporta un ambiente multi-utente che consente agli utenti di accedere e manipolare i dati in parallelo.
+
+### Software DBMS Popolari
+Ecco un elenco di alcuni sistemi DBMS popolari:
+
+*   MySQL
+*   Microsoft Access
+*   Oracle
+*   PostgreSQL
+*   dBASE
+*   FoxPro
+*   SQLite
+*   IBM DB2
+*   LibreOffice Base
+*   MariaDB
+*   Microsoft SQL Server, ecc.
+
+## [Crittografia](Cryptography/readme.md#cryptography)
+La crittografia è una tecnica per proteggere i dati e le comunicazioni. È un metodo di protezione delle informazioni e delle comunicazioni attraverso l'uso di codici in modo che solo coloro per cui le informazioni sono destinate possano leggerle e processarle. La crittografia è usata per proteggere i dati in transito, a riposo e in uso. Il prefisso _crypt_ significa "nascosto" o "segreto", e il suffisso _graphy_ significa "scrittura".
+
+### Tipi di Critttografia
+Ci sono due tipi di crittografia:
+1. [Crittografia Simmetrica](Cryptography/readme.md#symmetric-cryptography)
+2. [Crittografia Asimmetrica](Cryptography/readme.md#asymmetric-cryptography)
+
+### [Crypto Currency](Cryptography/CryptoCurrency/readme.md#crypto-currency)
+La criptovaluta è una valuta digitale in cui le tecniche di crittografia sono utilizzate per regolare la generazione di unità di valuta e verificare il trasferimento di fondi, operando indipendentemente da una banca centrale. Le criptovalute usano il controllo decentralizzato rispetto ai sistemi di valuta digitale centralizzati e alle banche centrali. Il controllo decentralizzato di ciascuna criptovaluta funziona attraverso la tecnologia del libro mastro distribuito, tipicamente una blockchain, che funge da database pubblico delle transazioni finanziarie. Una caratteristica distintiva di una criptovaluta, e probabilmente il suo fascino più duraturo, è la sua natura organica; non è emessa da alcuna autorità centrale, rendendola teoricamente immune a interferenze o manipolazioni governative.
+
+## Tipi di Criptovaluta sono i seguenti:
+1. [Proof of Work](Cryptography/CryptoCurrency/ProofOfWork/readme.md#proof-of-work)
+2. [Proof of Stake](Cryptography/CryptoCurrency/ProofOfStake/readme.md#proof-of-stake)
+
+### _Le Criptovalute più Popolari sono le seguenti:_
+1. [Bitcoin](Cryptography/CryptoCurrency/ProofOfWork/Bitcoin/readme.md#bitcoin)
+2. [Ethereum](Cryptography/CryptoCurrency/ProofOfStake/Ethereum/readme.md#ethereum)
+3. [Litecoin](Cryptography/CryptoCurrency/ProofOfWork/Litecoin/readme.md#litecoin)
+4. [Cardano](Cryptography/CryptoCurrency/ProofOfStake/Cardano/readme.md#cardano)
+5. [Dogecoin](Cryptography/CryptoCurrency/ProofOfWork/Dogecoin/readme.md#dogecoin)
+
+## Teoria della Computazione
+Nella scienza dei computer teorica e nella matematica, la teoria della computazione è il ramo che si occupa di quali problemi possono essere risolti su un modello di computazione usando un algoritmo, quanto efficientemente possono essere risolti, o a quale grado (ad esempio, soluzioni approssimate rispetto a soluzioni precise). Il campo è diviso in tre rami principali: la teoria degli automi e dei linguaggi formali, la teoria della calcolabilità e la teoria della complessità computazionale, che sono collegate dalla domanda: "Quali sono le capacità e le limitazioni fondamentali dei computer?".
+
+### Teoria degli Automati
+La teoria degli automi è lo studio di macchine astratte e automi, così come dei problemi computazionali che possono essere risolti usando questi. È una teoria nella scienza dei computer teorica. La parola automa deriva dalla parola greca αὐτόματος, che significa "auto-agente, auto-voluto, auto-movente". Un automa (automata al plurale) è un dispositivo di calcolo astratto auto-propulsato che segue una sequenza predeterminata di operazioni automaticamente. Un automa con un numero finito di stati è chiamato Automa Finito (FA) o Macchina a Stati Finiti (FSM). La figura a destra illustra una macchina a stati finiti, che è un tipo ben noto di automa. Questo automa è composto da stati (rappresentati nella figura da cerchi) e transizioni (rappresentate da frecce). Quando l'automa vede un simbolo di input, effettua una transizione (o salto) a un altro stato, in base alla sua funzione di transizione, che prende come argomenti lo stato precedente e il simbolo di input corrente.
+
+### Linguaggi Formali
+In logica, matematica, scienza dei computer e linguistica, un linguaggio formale consiste di parole i cui caratteri sono presi da un alfabeto e sono ben formati secondo un insieme specifico di regole.
+
+L'alfabeto di un linguaggio formale consiste di simboli, lettere o token che si concatenano in stringhe del linguaggio. Ogni stringa concatenata da simboli di questo alfabeto è chiamata parola, e le parole che appartengono a un particolare linguaggio formale sono talvolta chiamate parole ben formate o formule ben formate. Un linguaggio formale è spesso definito usando una grammatica formale, come la grammatica regolare o la grammatica senza contesto, che consiste nelle sue regole di formazione.
+
+Nella scienza dei computer, i linguaggi formali sono usati, tra l'altro, come base per definire la grammatica dei linguaggi di programmazione e versioni formalizzate di sottoinsiemi di linguaggi naturali in cui le parole del linguaggio rappresentano concetti associati a significati particolari o semantica. Nella teoria della complessità computazionale, i problemi decisionali sono tipicamente definiti come linguaggi formali e le classi di complessità sono definite come gli insiemi di linguaggi formali che possono essere analizzati da macchine con potere computazionale limitato. In logica e nelle fondamenta della matematica, i linguaggi formali sono usati per rappresentare la sintassi dei sistemi assiomatici, e il formalismo matematico è la filosofia secondo cui tutta la matematica può essere ridotta alla manipolazione sintattica di linguaggi formali in questo modo.
+
+Teoria della Calcolabilità
+La teoria della calcolabilità, nota anche come teoria della ricorsione, è un ramo della logica matematica, della scienza dei computer e della teoria della computazione che ha avuto origine negli anni '30 con lo studio delle funzioni calcolabili e dei gradi di Turing. Il campo si è successivamente espanso per includere lo studio della calcolabilità e della definibilità generalizzate. In questi ambiti, la teoria della calcolabilità si sovrappone alla teoria della dimostrazione e alla teoria degli insiemi descrittivi efficaci.
+
+Teoria della Complessità Computazionale
+Nella scienza dei computer teorica e nella matematica, la teoria della complessità computazionale si concentra sulla classificazione dei problemi computazionali in base al loro uso delle risorse e sul collegamento di queste classi tra loro. Un problema computazionale è un compito risolto da un computer. Un problema di calcolo è risolvibile mediante l'applicazione meccanica di passaggi matematici, come un algoritmo.
+
+Un problema è considerato intrinsecamente difficile se la sua soluzione richiede risorse significative, qualunque sia l'algoritmo utilizzato. La teoria formalizza questa intuizione introducendo modelli matematici di calcolo per studiare questi problemi e quantificare la loro complessità computazionale, cioè il numero di risorse necessarie per risolverli, come tempo e spazio di memorizzazione. Altre misure di complessità sono utilizzate, come la quantità di comunicazione (utilizzata nella complessità della comunicazione), il numero di porte in un circuito (utilizzato nella complessità dei circuiti) e il numero di processori (utilizzato nel calcolo parallelo). Uno dei ruoli della teoria della complessità computazionale è determinare i limiti pratici su ciò che i computer possono e non possono fare. Il problema P versus NP, uno dei sette problemi del Millennium Prize, è dedicato al campo della complessità computazionale.
+
+Campi strettamente correlati nella scienza dei computer teorica sono l'analisi degli algoritmi e la teoria della calcolabilità. Una distinzione chiave tra l'analisi degli algoritmi e la teoria della complessità computazionale è che la prima si dedica all'analisi del numero di risorse necessarie da un algoritmo particolare per risolvere un problema, mentre la seconda pone una domanda più generale su tutti gli algoritmi possibili che potrebbero essere utilizzati per risolvere lo stesso problema. Più precisamente, la teoria della complessità computazionale cerca di classificare i problemi che possono o non possono essere risolti con risorse appropriatamente limitate. A sua volta, l'imposizione di restrizioni sulle risorse disponibili è ciò che distingue la complessità computazionale dalla teoria della calcolabilità: quest'ultima teoria chiede quali tipi di problemi possono, in linea di principio, essere risolti algoritmicamente.
+
+
+
+
+
+
+
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="http://safayat.me"><img src="https://avatars.githubusercontent.com/u/80335059?v=4?s=50" width="50px;" alt="Sifat"/><br /><sub><b>Sifat</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=shhossain" title="Code">💻</a> <a href="#content-shhossain" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=shhossain" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Sabine91"><img src="https://avatars.githubusercontent.com/u/96158726?v=4?s=50" width="50px;" alt="Yuvraj Chauhan"/><br /><sub><b>Yuvraj Chauhan</b></sub></a><br /><a href="#content-Sabine91" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=Sabine91" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Rajesh144142"><img src="https://avatars.githubusercontent.com/u/82487522?v=4?s=50" width="50px;" alt="Rajesh kumar halder"/><br /><sub><b>Rajesh kumar halder</b></sub></a><br /><a href="#content-Rajesh144142" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=Rajesh144142" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=Rajesh144142" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="http://ishanmondal.me"><img src="https://avatars.githubusercontent.com/u/76674591?v=4?s=50" width="50px;" alt="Ishan Mondal"/><br /><sub><b>Ishan Mondal</b></sub></a><br /><a href="#content-ishan-im" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=ishan-im" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Apoorva08102000"><img src="https://avatars.githubusercontent.com/u/91753868?v=4?s=50" width="50px;" alt="Apoorva08102000"/><br /><sub><b>Apoorva08102000</b></sub></a><br /><a href="#content-Apoorva08102000" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=Apoorva08102000" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/apoorva1823000"><img src="https://avatars.githubusercontent.com/u/71769587?v=4?s=50" width="50px;" alt="Apoorva .S. Mehta"/><br /><sub><b>Apoorva .S. Mehta</b></sub></a><br /><a href="#content-apoorva1823000" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/utopian-coder"><img src="https://avatars.githubusercontent.com/u/66299782?v=4?s=50" width="50px;" alt="Imran Biswas"/><br /><sub><b>Imran Biswas</b></sub></a><br /><a href="#content-utopian-coder" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=utopian-coder" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=utopian-coder" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/subrata-9999"><img src="https://avatars.githubusercontent.com/u/109057053?v=4?s=50" width="50px;" alt="Subrata Pramanik"/><br /><sub><b>Subrata Pramanik</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=subrata-9999" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=subrata-9999" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://br.linkedin.com/in/samuelbratifavarin"><img src="https://avatars.githubusercontent.com/u/17628602?v=4?s=50" width="50px;" alt="Samuel Favarin"/><br /><sub><b>Samuel Favarin</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=SamuelBFavarin" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/commits?author=SamuelBFavarin" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/sahooabhipsa10"><img src="https://avatars.githubusercontent.com/u/99355886?v=4?s=50" width="50px;" alt="sahooabhipsa10"/><br /><sub><b>sahooabhipsa10</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=sahooabhipsa10" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Sahilrao09"><img src="https://avatars.githubusercontent.com/u/88286056?v=4?s=50" width="50px;" alt="Sahil Rao"/><br /><sub><b>Sahil Rao</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Sahilrao09" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Code-N-Bug"><img src="https://avatars.githubusercontent.com/u/103832013?v=4?s=50" width="50px;" alt="K K Chowdhury"/><br /><sub><b>K K Chowdhury</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Code-N-Bug" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=Code-N-Bug" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://manas6699.github.io/portfolio-website3.0/"><img src="https://avatars.githubusercontent.com/u/78929050?v=4?s=50" width="50px;" alt="Manas Baroi"/><br /><sub><b>Manas Baroi</b></sub></a><br /><a href="#example-manas6699" title="Examples">💡</a> <a href="https://github.com/shhossain/computer_science/commits?author=manas6699" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/kanaujiyaaditi"><img src="https://avatars.githubusercontent.com/u/94130073?v=4?s=50" width="50px;" alt="Aditi"/><br /><sub><b>Aditi</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=kanaujiyaaditi" title="Documentation">📖</a> <a href="#content-kanaujiyaaditi" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Talib-Hossain"><img src="https://avatars.githubusercontent.com/u/83373885?v=4?s=50" width="50px;" alt="Syed Talib Hossain"/><br /><sub><b>Syed Talib Hossain</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Talib-Hossain" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/JaiMehrotra02"><img src="https://avatars.githubusercontent.com/u/94130223?v=4?s=50" width="50px;" alt="Jai Mehrotra"/><br /><sub><b>Jai Mehrotra</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=JaiMehrotra02" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/commits?author=JaiMehrotra02" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/ShuvamBag"><img src="https://avatars.githubusercontent.com/u/82321197?v=4?s=50" width="50px;" alt="Shuvam Bag"/><br /><sub><b>Shuvam Bag</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ShuvamBag" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=ShuvamBag" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/AbhijitTurate"><img src="https://avatars.githubusercontent.com/u/46615905?v=4?s=50" width="50px;" alt="Abhijit Turate"/><br /><sub><b>Abhijit Turate</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=AbhijitTurate" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=AbhijitTurate" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Jayesh2812"><img src="https://avatars.githubusercontent.com/u/52153715?v=4?s=50" width="50px;" alt="Jayesh Deorukhkar"/><br /><sub><b>Jayesh Deorukhkar</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Jayesh2812" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/SohamDey80"><img src="https://avatars.githubusercontent.com/u/93932583?v=4?s=50" width="50px;" alt="JC Shankar"/><br /><sub><b>JC Shankar</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=SohamDey80" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=SohamDey80" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Subrata-Pramanik"><img src="https://avatars.githubusercontent.com/u/86642230?v=4?s=50" width="50px;" alt="Subrata Pramanik"/><br /><sub><b>Subrata Pramanik</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Subrata-Pramanik" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=Subrata-Pramanik" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/imams12"><img src="https://avatars.githubusercontent.com/u/59444865?v=4?s=50" width="50px;" alt="Imam Suyuti"/><br /><sub><b>Imam Suyuti</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=imams12" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/rahulmangla28"><img src="https://avatars.githubusercontent.com/u/93324315?v=4?s=50" width="50px;" alt="genius_koder"/><br /><sub><b>genius_koder</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=rahulmangla28" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://www.altafshaikh.ml"><img src="https://avatars.githubusercontent.com/u/26015187?v=4?s=50" width="50px;" alt="Altaf Shaikh"/><br /><sub><b>Altaf Shaikh</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=altafshaikh" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/rajdeepdas2000"><img src="https://avatars.githubusercontent.com/u/53941109?v=4?s=50" width="50px;" alt="Rajdeep Das"/><br /><sub><b>Rajdeep Das</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=rajdeepdas2000" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/its-red-eagle"><img src="https://avatars.githubusercontent.com/u/77643994?v=4?s=50" width="50px;" alt="Vikash Patel"/><br /><sub><b>Vikash Patel</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=its-red-eagle" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/alwenpy"><img src="https://avatars.githubusercontent.com/u/94129388?v=4?s=50" width="50px;" alt="Arvind Srivastav"/><br /><sub><b>Arvind Srivastav</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=alwenpy" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Naprila"><img src="https://avatars.githubusercontent.com/u/85901005?v=4?s=50" width="50px;" alt="Manish Kr Prasad"/><br /><sub><b>Manish Kr Prasad</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Naprila" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://linktr.ee/mohit_kushwaha"><img src="https://avatars.githubusercontent.com/u/73400792?v=4?s=50" width="50px;" alt="MOHIT KUMAR KUSHWAHA"/><br /><sub><b>MOHIT KUMAR KUSHWAHA</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=KimtVak8143" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/DryHitman"><img src="https://avatars.githubusercontent.com/u/116108787?v=4?s=50" width="50px;" alt="DryHitman"/><br /><sub><b>DryHitman</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=DryHitman" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/harshkulkarni17"><img src="https://avatars.githubusercontent.com/u/72391096?v=4?s=50" width="50px;" alt="Harsh Kulkarni"/><br /><sub><b>Harsh Kulkarni</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=harshkulkarni17" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/ATREAY"><img src="https://avatars.githubusercontent.com/u/66585295?v=4?s=50" width="50px;" alt="Atreay  Kukanur"/><br /><sub><b>Atreay  Kukanur</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ATREAY" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://sreeharan.github.io"><img src="https://avatars.githubusercontent.com/u/62993067?v=4?s=50" width="50px;" alt="Sree Haran"/><br /><sub><b>Sree Haran</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=SreeHaran" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://www.linkedin.com/in/auro-saswat-raj-d05m07y2003/"><img src="https://avatars.githubusercontent.com/u/83534307?v=4?s=50" width="50px;" alt="Auro Saswat Raj"/><br /><sub><b>Auro Saswat Raj</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=geeky-auro" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Aiyan-Faras"><img src="https://avatars.githubusercontent.com/u/55203889?v=4?s=50" width="50px;" alt="Aiyan Faras"/><br /><sub><b>Aiyan Faras</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Aiyan-Faras" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/commits?author=Aiyan-Faras" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/PriyanshiDavid"><img src="https://avatars.githubusercontent.com/u/71930453?v=4?s=50" width="50px;" alt="Priyanshi David"/><br /><sub><b>Priyanshi David</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=PriyanshiDavid" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/ishancode-dev"><img src="https://avatars.githubusercontent.com/u/115942220?v=4?s=50" width="50px;" alt="Ishan Mondal"/><br /><sub><b>Ishan Mondal</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ishancode-dev" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="http://expy.bio/NikhilShrivastava"><img src="https://avatars.githubusercontent.com/u/20610444?v=4?s=50" width="50px;" alt="Nikhil Shrivastava"/><br /><sub><b>Nikhil Shrivastava</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=NikhilShrivastava" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/deepshikha2708"><img src="https://avatars.githubusercontent.com/u/80972038?v=4?s=50" width="50px;" alt="deepshikha2708"/><br /><sub><b>deepshikha2708</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=deepshikha2708" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/rishiwardhan"><img src="https://avatars.githubusercontent.com/u/88772100?v=4?s=50" width="50px;" alt="L.RISHIWARDHAN"/><br /><sub><b>L.RISHIWARDHAN</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=rishiwardhan" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/DevTMK"><img src="https://avatars.githubusercontent.com/u/47377566?v=4?s=50" width="50px;" alt="Rahul RK"/><br /><sub><b>Rahul RK</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=DevTMK" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://www.linkedin.com/company/nscc-ggv/"><img src="https://avatars.githubusercontent.com/u/82573863?v=4?s=50" width="50px;" alt="Nishant Wankhade"/><br /><sub><b>Nishant Wankhade</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=NishantWankhade" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/pritika163"><img src="https://avatars.githubusercontent.com/u/102177744?v=4?s=50" width="50px;" alt="pritika163"/><br /><sub><b>pritika163</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=pritika163" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/AnjumanHasan"><img src="https://avatars.githubusercontent.com/u/82674743?v=4?s=50" width="50px;" alt="Anjuman Hasan"/><br /><sub><b>Anjuman Hasan</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=AnjumanHasan" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://linktr.ee/asthavarshney"><img src="https://avatars.githubusercontent.com/u/97240696?v=4?s=50" width="50px;" alt="Astha Varshney "/><br /><sub><b>Astha Varshney </b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Asthavarshneyy" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Gcettbdeveloper"><img src="https://avatars.githubusercontent.com/u/114204175?v=4?s=50" width="50px;" alt="Gcettbdeveloper"/><br /><sub><b>Gcettbdeveloper</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Gcettbdeveloper" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://elston-website.web.app"><img src="https://avatars.githubusercontent.com/u/66341506?v=4?s=50" width="50px;" alt="Elston Tan"/><br /><sub><b>Elston Tan</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Elstuhn" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/ShivanshDengla"><img src="https://avatars.githubusercontent.com/u/66008449?v=4?s=50" width="50px;" alt="Shivansh Dengla"/><br /><sub><b>Shivansh Dengla</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ShivanshDengla" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://www.tetricz.com"><img src="https://avatars.githubusercontent.com/u/49681400?v=4?s=50" width="50px;" alt="David Daniels"/><br /><sub><b>David Daniels</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Tetricz" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/ayushverma14"><img src="https://avatars.githubusercontent.com/u/65187507?v=4?s=50" width="50px;" alt="ayushverma14"/><br /><sub><b>ayushverma14</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ayushverma14" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://kontentkreator.tech"><img src="https://avatars.githubusercontent.com/u/70800059?v=4?s=50" width="50px;" alt="Pratik Rai"/><br /><sub><b>Pratik Rai</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=pratikkumar399" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/yash-ch"><img src="https://avatars.githubusercontent.com/u/66888087?v=4?s=50" width="50px;" alt="Yash"/><br /><sub><b>Yash</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=yash-ch" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/pranavyatnalkar"><img src="https://avatars.githubusercontent.com/u/84735288?v=4?s=50" width="50px;" alt="pranavyatnalkar"/><br /><sub><b>pranavyatnalkar</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=pranavyatnalkar" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/jeremiaaxel"><img src="https://avatars.githubusercontent.com/u/57858415?v=4?s=50" width="50px;" alt="Jeremia Axel"/><br /><sub><b>Jeremia Axel</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=jeremiaaxel" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://in.linkedin.com/in/akhil-soni-9827181a1"><img src="https://avatars.githubusercontent.com/u/58397226?v=4?s=50" width="50px;" alt="Akhil Soni"/><br /><sub><b>Akhil Soni</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=akhil-maker" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/DevZahraShahid"><img src="https://avatars.githubusercontent.com/u/111266434?v=4?s=50" width="50px;" alt="Zahra Shahid"/><br /><sub><b>Zahra Shahid</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=DevZahraShahid" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Mihir20K"><img src="https://avatars.githubusercontent.com/u/112269999?v=4?s=50" width="50px;" alt="Mihir20K"/><br /><sub><b>Mihir20K</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Mihir20K" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/computerwala"><img src="https://avatars.githubusercontent.com/u/30777038?v=4?s=50" width="50px;" alt="Aman"/><br /><sub><b>Aman</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=computerwala" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/mauriallegrettiswnat"><img src="https://avatars.githubusercontent.com/u/71467262?v=4?s=50" width="50px;" alt="Mauricio Allegretti"/><br /><sub><b>Mauricio Allegretti</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=mauriallegrettiswnat" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Bruno-Vasconcellos-Betella"><img src="https://avatars.githubusercontent.com/u/57138664?v=4?s=50" width="50px;" alt="Bruno-Vasconcellos-Betella"/><br /><sub><b>Bruno-Vasconcellos-Betella</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Bruno-Vasconcellos-Betella" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://itdadakan.site"><img src="https://avatars.githubusercontent.com/u/62456215?v=4?s=50" width="50px;" alt="Febi Arifin"/><br /><sub><b>Febi Arifin</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=febiarifin" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/dinesh9-ai"><img src="https://avatars.githubusercontent.com/u/63300423?v=4?s=50" width="50px;" alt="Dineshwar Doddapaneni"/><br /><sub><b>Dineshwar Doddapaneni</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=dinesh9-ai" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Dheerajsoni93"><img src="https://avatars.githubusercontent.com/u/82114565?v=4?s=50" width="50px;" alt="Dheeraj_Soni"/><br /><sub><b>Dheeraj_Soni</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Dheerajsoni93" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://www.linkedin.com/in/ojash-kushwaha-791770185"><img src="https://avatars.githubusercontent.com/u/96474959?v=4?s=50" width="50px;" alt="Ojash Kushwaha"/><br /><sub><b>Ojash Kushwaha</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=OjashKush" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Sleep-lover"><img src="https://avatars.githubusercontent.com/u/82304155?v=4?s=50" width="50px;" alt="Laleet Borse"/><br /><sub><b>Laleet Borse</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Sleep-lover" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Wahaj-Raza"><img src="https://avatars.githubusercontent.com/u/103155321?v=4?s=50" width="50px;" alt="Wahaj Raza"/><br /><sub><b>Wahaj Raza</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Wahaj-Raza" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/WahajRaza1"><img src="https://avatars.githubusercontent.com/u/90937190?v=4?s=50" width="50px;" alt="WahajRaza1"/><br /><sub><b>WahajRaza1</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=WahajRaza1" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://ravencolevol.github.io"><img src="https://avatars.githubusercontent.com/u/44892121?v=4?s=50" width="50px;" alt="Ravi Lamkoti"/><br /><sub><b>Ravi Lamkoti</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=RavenColEvol" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/UperscuzziSchoolAcc"><img src="https://avatars.githubusercontent.com/u/111448336?v=4?s=50" width="50px;" alt="The One and Only Uper"/><br /><sub><b>The One and Only Uper</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=UperscuzziSchoolAcc" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/AdarshBajpai67"><img src="https://avatars.githubusercontent.com/u/95476086?v=4?s=50" width="50px;" alt="AdarshBajpai67"/><br /><sub><b>AdarshBajpai67</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=AdarshBajpai67" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="http://deepakkharah.me"><img src="https://avatars.githubusercontent.com/u/42672761?v=4?s=50" width="50px;" alt="Deepak Kharah"/><br /><sub><b>Deepak Kharah</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Deepak-Kharah" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/sairohit360"><img src="https://avatars.githubusercontent.com/u/55144209?v=4?s=50" width="50px;" alt="sairohit360"/><br /><sub><b>sairohit360</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=sairohit360" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/sairohitzl"><img src="https://avatars.githubusercontent.com/u/86225259?v=4?s=50" width="50px;" alt="sairohitzl"/><br /><sub><b>sairohitzl</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=sairohitzl" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/RavalJinit"><img src="https://avatars.githubusercontent.com/u/72157334?v=4?s=50" width="50px;" alt="Raval Jinit"/><br /><sub><b>Raval Jinit</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=RavalJinit" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Vovka1759"><img src="https://avatars.githubusercontent.com/u/75867274?v=4?s=50" width="50px;" alt="Vovka1759"/><br /><sub><b>Vovka1759</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Vovka1759" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Nijin-P-S"><img src="https://avatars.githubusercontent.com/u/101330853?v=4?s=50" width="50px;" alt="Nijin"/><br /><sub><b>Nijin</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Nijin-P-S" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/avinilcode"><img src="https://avatars.githubusercontent.com/u/111761529?v=4?s=50" width="50px;" alt="Avinil Bedarkar"/><br /><sub><b>Avinil Bedarkar</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=avinilcode" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/FercueNat"><img src="https://avatars.githubusercontent.com/u/113535859?v=4?s=50" width="50px;" alt="FercueNat"/><br /><sub><b>FercueNat</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=FercueNat" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://khareyash05.github.io/home/"><img src="https://avatars.githubusercontent.com/u/60147732?v=4?s=50" width="50px;" alt="Yash Khare"/><br /><sub><b>Yash Khare</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=khareyash05" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/ayushanand16"><img src="https://avatars.githubusercontent.com/u/96689639?v=4?s=50" width="50px;" alt="Ayush Anand"/><br /><sub><b>Ayush Anand</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ayushanand16" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/DharmaWarrior"><img src="https://avatars.githubusercontent.com/u/97218268?v=4?s=50" width="50px;" alt="DharmaWarrior"/><br /><sub><b>DharmaWarrior</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=DharmaWarrior" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://linktr.ee/hitarthraval"><img src="https://avatars.githubusercontent.com/u/62943532?v=4?s=50" width="50px;" alt="Hitarth Raval"/><br /><sub><b>Hitarth Raval</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=hitarthraval" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/WiemBorchani"><img src="https://avatars.githubusercontent.com/u/52404192?v=4?s=50" width="50px;" alt="Wiem Borchani "/><br /><sub><b>Wiem Borchani </b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=WiemBorchani" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Kambo2320"><img src="https://avatars.githubusercontent.com/u/98479408?v=4?s=50" width="50px;" alt="Kamden Burke"/><br /><sub><b>Kamden Burke</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Kambo2320" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/denschiro"><img src="https://avatars.githubusercontent.com/u/6161324?v=4?s=50" width="50px;" alt="denschiro"/><br /><sub><b>denschiro</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=denschiro" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/nishat48"><img src="https://avatars.githubusercontent.com/u/109063023?v=4?s=50" width="50px;" alt="Nishat"/><br /><sub><b>Nishat</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=nishat48" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/mdfaizanahmed786"><img src="https://avatars.githubusercontent.com/u/85175130?v=4?s=50" width="50px;" alt="Mohammed Faizan Ahmed"/><br /><sub><b>Mohammed Faizan Ahmed</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=mdfaizanahmed786" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/manish831"><img src="https://avatars.githubusercontent.com/u/74316266?v=4?s=50" width="50px;" alt="Manish Agrahari"/><br /><sub><b>Manish Agrahari</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=manish831" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/lokesh-katari"><img src="https://avatars.githubusercontent.com/u/111894942?v=4?s=50" width="50px;" alt="Katari Lokeswara rao"/><br /><sub><b>Katari Lokeswara rao</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=lokesh-katari" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://g.dev/ZahraShahid"><img src="https://avatars.githubusercontent.com/u/65255043?v=4?s=50" width="50px;" alt="Zahra Shahid"/><br /><sub><b>Zahra Shahid</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ZahraShahid" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/glenntu15"><img src="https://avatars.githubusercontent.com/u/10324492?v=4?s=50" width="50px;" alt="Glenn Turner"/><br /><sub><b>Glenn Turner</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=glenntu15" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/vinayak9303"><img src="https://avatars.githubusercontent.com/u/55548976?v=4?s=50" width="50px;" alt="Vinayak godse"/><br /><sub><b>Vinayak godse</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=vinayak9303" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Satyajeetbh"><img src="https://avatars.githubusercontent.com/u/88246318?v=4?s=50" width="50px;" alt="Satyajeetbh"/><br /><sub><b>Satyajeetbh</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Satyajeetbh" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/P-Dhruva-Teja"><img src="https://avatars.githubusercontent.com/u/81409709?v=4?s=50" width="50px;" alt="Paidipelly Dhruvateja"/><br /><sub><b>Paidipelly Dhruvateja</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=P-Dhruva-Teja" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/helloausrine"><img src="https://avatars.githubusercontent.com/u/30316810?v=4?s=50" width="50px;" alt="helloausrine"/><br /><sub><b>helloausrine</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=helloausrine" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/SourabhJoshi209"><img src="https://avatars.githubusercontent.com/u/69594540?v=4?s=50" width="50px;" alt="SourabhJoshi209"/><br /><sub><b>SourabhJoshi209</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=SourabhJoshi209" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://bio.link/stefantaitano"><img src="https://avatars.githubusercontent.com/u/85418632?v=4?s=50" width="50px;" alt="Stefan Taitano"/><br /><sub><b>Stefan Taitano</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=codewithfan" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="http://linkedin.com/in/anmspro"><img src="https://avatars.githubusercontent.com/u/33668152?v=4?s=50" width="50px;" alt="Abu Noman Md. Sakib"/><br /><sub><b>Abu Noman Md. Sakib</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=anmspro" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="http://skyrunner360.pythonanywhere.com"><img src="https://avatars.githubusercontent.com/u/44318840?v=4?s=50" width="50px;" alt="Rishi Mathur"/><br /><sub><b>Rishi Mathur</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=skyrunner360" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Atharv-Nalwade"><img src="https://avatars.githubusercontent.com/u/98139553?v=4?s=50" width="50px;" alt="Darky001"/><br /><sub><b>Darky001</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Atharv-Nalwade" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Retr0Sushi"><img src="https://avatars.githubusercontent.com/u/110653014?v=4?s=50" width="50px;" alt="himanshu"/><br /><sub><b>himanshu</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Retr0Sushi" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/kusumita29"><img src="https://avatars.githubusercontent.com/u/99873488?v=4?s=50" width="50px;" alt="Kusumita Ghose"/><br /><sub><b>Kusumita Ghose</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=kusumita29" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Yash1107"><img src="https://avatars.githubusercontent.com/u/76468153?v=4?s=50" width="50px;" alt="Yashvi Patel"/><br /><sub><b>Yashvi Patel</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Yash1107" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/ArshadAriff"><img src="https://avatars.githubusercontent.com/u/113685884?v=4?s=50" width="50px;" alt="ArshadAriff"/><br /><sub><b>ArshadAriff</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ArshadAriff" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/ishashukla183"><img src="https://avatars.githubusercontent.com/u/93022787?v=4?s=50" width="50px;" alt="ishashukla183"/><br /><sub><b>ishashukla183</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=ishashukla183" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/jhuynh06"><img src="https://avatars.githubusercontent.com/u/111946833?v=4?s=50" width="50px;" alt="jhuynh06"/><br /><sub><b>jhuynh06</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3Ajhuynh06" title="Bug reports">🐛</a> <a href="https://github.com/shhossain/computer_science/commits?author=jhuynh06" title="Tests">⚠️</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="http://asche.tech"><img src="https://avatars.githubusercontent.com/u/2975712?v=4?s=50" width="50px;" alt="Andrew Asche"/><br /><sub><b>Andrew Asche</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=andrewasche" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="http://nateonmission.github.io"><img src="https://avatars.githubusercontent.com/u/37854313?v=4?s=50" width="50px;" alt="J. Nathan Allen"/><br /><sub><b>J. Nathan Allen</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3Anateonmission" title="Bug reports">🐛</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Sayed-Afnan-Khazi"><img src="https://avatars.githubusercontent.com/u/83779299?v=4?s=50" width="50px;" alt="Sayed Afnan Khazi"/><br /><sub><b>Sayed Afnan Khazi</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Sayed-Afnan-Khazi" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Technic143"><img src="https://avatars.githubusercontent.com/u/117275755?v=4?s=50" width="50px;" alt="Technic143"/><br /><sub><b>Technic143</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Technic143" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/issues?q=author%3ATechnic143" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/snowflake1201"><img src="https://avatars.githubusercontent.com/u/56119216?v=4?s=50" width="50px;" alt="Pin Yuan Wang"/><br /><sub><b>Pin Yuan Wang</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=snowflake1201" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/BogdanOtava"><img src="https://avatars.githubusercontent.com/u/103674688?v=4?s=50" width="50px;" alt="Bogdan Otava"/><br /><sub><b>Bogdan Otava</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=BogdanOtava" title="Code">💻</a> <a href="https://github.com/shhossain/computer_science/commits?author=BogdanOtava" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Vedeesh6"><img src="https://avatars.githubusercontent.com/u/88491153?v=4?s=50" width="50px;" alt="Vedeesh Dwivedi"/><br /><sub><b>Vedeesh Dwivedi</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3AVedeesh6" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/TsiG-404"><img src="https://avatars.githubusercontent.com/u/74056836?v=4?s=50" width="50px;" alt="Tsig"/><br /><sub><b>Tsig</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=TsiG-404" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://brandonawan.github.io/Resume/"><img src="https://avatars.githubusercontent.com/u/74030681?v=4?s=50" width="50px;" alt="Brandon Awan"/><br /><sub><b>Brandon Awan</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Brandonawan" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/issues?q=author%3ABrandonawan" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Evy04"><img src="https://avatars.githubusercontent.com/u/84919650?v=4?s=50" width="50px;" alt="Sanya Madre"/><br /><sub><b>Sanya Madre</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Evy04" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/steventohme"><img src="https://avatars.githubusercontent.com/u/56594084?v=4?s=50" width="50px;" alt="Steven"/><br /><sub><b>Steven</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=steventohme" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://www.linkedin.com/in/garrett-crowley-a0b931126/"><img src="https://avatars.githubusercontent.com/u/86014840?v=4?s=50" width="50px;" alt="Garrett Crowley"/><br /><sub><b>Garrett Crowley</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=crowleyg" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Francesco601"><img src="https://avatars.githubusercontent.com/u/130352141?v=4?s=50" width="50px;" alt="Francesco Franco"/><br /><sub><b>Francesco Franco</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3AFrancesco601" title="Bug reports">🐛</a> <a href="https://github.com/shhossain/computer_science/commits?author=Francesco601" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/aclittle096"><img src="https://avatars.githubusercontent.com/u/43685369?v=4?s=50" width="50px;" alt="Alexander Little"/><br /><sub><b>Alexander Little</b></sub></a><br /><a href="#content-aclittle096" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Wandererr01"><img src="https://avatars.githubusercontent.com/u/129178279?v=4?s=50" width="50px;" alt="Subham Maji"/><br /><sub><b>Subham Maji</b></sub></a><br /><a href="#content-Wandererr01" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/ZRX-SIGMA"><img src="https://avatars.githubusercontent.com/u/100613008?v=4?s=50" width="50px;" alt="SK Jiyad"/><br /><sub><b>SK Jiyad</b></sub></a><br /><a href="#content-ZRX-SIGMA" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/exrol"><img src="https://avatars.githubusercontent.com/u/86170495?v=4?s=50" width="50px;" alt="exrol"/><br /><sub><b>exrol</b></sub></a><br /><a href="#content-exrol" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/manavmittal05"><img src="https://avatars.githubusercontent.com/u/65654441?v=4?s=50" width="50px;" alt="Manav Mittal"/><br /><sub><b>Manav Mittal</b></sub></a><br /><a href="#content-manavmittal05" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Rathish-Rajendran"><img src="https://avatars.githubusercontent.com/u/61904970?v=4?s=50" width="50px;" alt="Rathish R"/><br /><sub><b>Rathish R</b></sub></a><br /><a href="#content-Rathish-Rajendran" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/anubhav1450"><img src="https://avatars.githubusercontent.com/u/124580419?v=4?s=50" width="50px;" alt="Anubhav Kulshreshtha"/><br /><sub><b>Anubhav Kulshreshtha</b></sub></a><br /><a href="#content-anubhav1450" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="http://sarthak950.netlify.app"><img src="https://avatars.githubusercontent.com/u/93645760?v=4?s=50" width="50px;" alt="Sarthak "/><br /><sub><b>Sarthak </b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Sarthak950" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/architO21"><img src="https://avatars.githubusercontent.com/u/97817943?v=4?s=50" width="50px;" alt="architO21"/><br /><sub><b>architO21</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=architO21" title="Code">💻</a> <a href="#content-architO21" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/nik-6174"><img src="https://avatars.githubusercontent.com/u/78644716?v=4?s=50" width="50px;" alt="Nikhil Kumar Jha"/><br /><sub><b>Nikhil Kumar Jha</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=nik-6174" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Kundai10"><img src="https://avatars.githubusercontent.com/u/76932641?v=4?s=50" width="50px;" alt="Kundai Chasinda"/><br /><sub><b>Kundai Chasinda</b></sub></a><br /><a href="#content-Kundai10" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/rohankaushal123"><img src="https://avatars.githubusercontent.com/u/76746752?v=4?s=50" width="50px;" alt="Rohan kaushal"/><br /><sub><b>Rohan kaushal</b></sub></a><br /><a href="#content-rohankaushal123" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/AayushKumar176"><img src="https://avatars.githubusercontent.com/u/110240629?v=4?s=50" width="50px;" alt="Aayush Kumar"/><br /><sub><b>Aayush Kumar</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=AayushKumar176" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/vladimir-cucu"><img src="https://avatars.githubusercontent.com/u/108150922?v=4?s=50" width="50px;" alt="Vladimir Cucu"/><br /><sub><b>Vladimir Cucu</b></sub></a><br /><a href="#content-vladimir-cucu" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://www.linkedin.com/in/mohammed-ali-alsakkaf-899b44224/"><img src="https://avatars.githubusercontent.com/u/87440507?v=4?s=50" width="50px;" alt="Mohammed Ali Alsakkaf (Binbasri)"/><br /><sub><b>Mohammed Ali Alsakkaf (Binbasri)</b></sub></a><br /><a href="#content-Binbasri-in" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/serv-er"><img src="https://avatars.githubusercontent.com/u/120189782?v=4?s=50" width="50px;" alt="serv-er"/><br /><sub><b>serv-er</b></sub></a><br /><a href="#content-serv-er" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/ABarpanda"><img src="https://avatars.githubusercontent.com/u/145291762?v=4?s=50" width="50px;" alt="Amritanshu Barpanda"/><br /><sub><b>Amritanshu Barpanda</b></sub></a><br /><a href="#content-ABarpanda" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/aheaton22"><img src="https://avatars.githubusercontent.com/u/117932053?v=4?s=50" width="50px;" alt="aheaton22"/><br /><sub><b>aheaton22</b></sub></a><br /><a href="#content-aheaton22" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/geeknees"><img src="https://avatars.githubusercontent.com/u/701242?v=4?s=50" width="50px;" alt="Masumi Kawasaki"/><br /><sub><b>Masumi Kawasaki</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3Ageeknees" title="Bug reports">🐛</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/aslezar"><img src="https://avatars.githubusercontent.com/u/97354675?v=4?s=50" width="50px;" alt="aslezar"/><br /><sub><b>aslezar</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=aslezar" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://yashsajwan.netlify.app/"><img src="https://avatars.githubusercontent.com/u/52412969?v=4?s=50" width="50px;" alt="Yash Sajwan"/><br /><sub><b>Yash Sajwan</b></sub></a><br /><a href="#content-Yash-Sajwan24" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/AbhishekKumar993"><img src="https://avatars.githubusercontent.com/u/121042725?v=4?s=50" width="50px;" alt="Abhishek Kumar"/><br /><sub><b>Abhishek Kumar</b></sub></a><br /><a href="#content-AbhishekKumar993" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/jakenybo"><img src="https://avatars.githubusercontent.com/u/57851055?v=4?s=50" width="50px;" alt="jakenybo"/><br /><sub><b>jakenybo</b></sub></a><br /><a href="#content-jakenybo" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=jakenybo" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/jiangfz1997"><img src="https://avatars.githubusercontent.com/u/63608649?v=4?s=50" width="50px;" alt="Fangzhou_Jiang"/><br /><sub><b>Fangzhou_Jiang</b></sub></a><br /><a href="#content-jiangfz1997" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://nelsonuprety.netlify.app/"><img src="https://avatars.githubusercontent.com/u/25173636?v=4?s=50" width="50px;" alt="Nelson Uprety"/><br /><sub><b>Nelson Uprety</b></sub></a><br /><a href="#content-nelsonuprety1" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Ettubrute05"><img src="https://avatars.githubusercontent.com/u/89800208?v=4?s=50" width="50px;" alt="Kevin Garfield"/><br /><sub><b>Kevin Garfield</b></sub></a><br /><a href="#content-Ettubrute05" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=Ettubrute05" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/xaviermonb"><img src="https://avatars.githubusercontent.com/u/144323061?v=4?s=50" width="50px;" alt="xaviermonb"/><br /><sub><b>xaviermonb</b></sub></a><br /><a href="#content-xaviermonb" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/AryasCodeTreks"><img src="https://avatars.githubusercontent.com/u/159680137?v=4?s=50" width="50px;" alt="AryasCodeTreks"/><br /><sub><b>AryasCodeTreks</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=AryasCodeTreks" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/khouloudhaddad"><img src="https://avatars.githubusercontent.com/u/22796050?v=4?s=50" width="50px;" alt="khouloud HADDAD AMAMOU"/><br /><sub><b>khouloud HADDAD AMAMOU</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=khouloudhaddad" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/WalterMarch"><img src="https://avatars.githubusercontent.com/u/38635451?v=4?s=50" width="50px;" alt="Walter March"/><br /><sub><b>Walter March</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/issues?q=author%3AWalterMarch" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/niv-png"><img src="https://avatars.githubusercontent.com/u/66550479?v=4?s=50" width="50px;" alt="Nivea Hanley"/><br /><sub><b>Nivea Hanley</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=niv-png" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="http://namberino.github.io"><img src="https://avatars.githubusercontent.com/u/70761157?v=4?s=50" width="50px;" alt="nam"/><br /><sub><b>nam</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=namberino" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/shaanrxx"><img src="https://avatars.githubusercontent.com/u/62669918?v=4?s=50" width="50px;" alt="Shaan Rehsi"/><br /><sub><b>Shaan Rehsi</b></sub></a><br /><a href="#content-shaanrxx" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/mjung1"><img src="https://avatars.githubusercontent.com/u/86390269?v=4?s=50" width="50px;" alt="mjung1"/><br /><sub><b>mjung1</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=mjung1" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-104-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->

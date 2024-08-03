@@ -397,4 +397,214 @@ Il processo di ingegneria del software comprende diverse fasi, tra cui la raccol
 - **Economia**: In questo settore, l'ingegneria del software aiuta a stimare le risorse e controllare i costi. Un sistema informatico deve essere sviluppato e i dati devono essere mantenuti regolarmente all'interno di un budget definito.
 - **Ingegneria dei Sistemi**: La maggior parte del software è un componente di un sistema molto più grande. Ad esempio, il software in un sistema di monitoraggio industriale o il software di volo su un aereo. I metodi di ingegneria del software dovrebbero essere applicati allo studio di questo tipo di sistema.
 
+Ecco la traduzione del testo dall'inglese all'italiano:
+
+---
+
+## [Data Science](Data%20Science/readme.md)
+
+La Data Science estrae informazioni preziose dai dati spesso disordinati applicando informatica, statistica e conoscenza del dominio in considerazione. Esempi di utilizzo della data science includono la derivazione del sentimento dei clienti dai record delle chiamate o i sistemi di raccomandazione basati sui dati di vendita.
+
+## [Circuiti Integrati](Integrated%20Circuits/readme.md)
+
+Un circuito integrato o circuito integrato monolitico (indicato anche come IC, chip o microchip) è un insieme di circuiti elettronici su un piccolo pezzo piatto (o "chip") di materiale semiconduttore, di solito silicio. Moltissimi piccoli MOSFET (transistor a effetto di campo metallo-ossido-semiconduttore) vengono integrati in un piccolo chip. Ciò si traduce in circuiti che sono ordini di grandezza più piccoli, più veloci e meno costosi di quelli costruiti con componenti elettronici discreti. La capacità di produzione di massa degli IC, la loro affidabilità e l'approccio modulare alla progettazione di circuiti integrati hanno assicurato la rapida adozione degli IC standardizzati al posto dei transistor discreti. Gli IC sono ora utilizzati in quasi tutte le apparecchiature elettroniche e hanno rivoluzionato il mondo dell'elettronica. Computer, telefoni cellulari e altri elettrodomestici sono ormai parti inseparabili della struttura delle società moderne, resi possibili dalle piccole dimensioni e dal basso costo degli IC come i moderni processori per computer e microcontrollori.
+
+L'integrazione su larga scala è diventata pratica grazie ai progressi tecnologici nella fabbricazione di dispositivi semiconduttori MOS. Dai loro esordi negli anni '60, la dimensione, la velocità e la capacità dei chip sono progredite enormemente, grazie agli avanzamenti tecnici che consentono di inserire sempre più transistor MOS su chip della stessa dimensione: un chip moderno può avere molti miliardi di transistor MOS in un'area delle dimensioni di un'unghia umana. Questi progressi, seguendo approssimativamente la legge di Moore, fanno sì che i chip di oggi abbiano milioni di volte la capacità e migliaia di volte la velocità dei chip dei primi anni '70.
+
+Gli IC hanno due principali vantaggi rispetto ai circuiti discreti: costo e prestazioni. Il costo è basso perché i chip, con tutti i loro componenti, sono stampati come un'unità tramite fotolitografia anziché essere costruiti un transistor alla volta. Inoltre, i circuiti integrati confezionati utilizzano molto meno materiale rispetto ai circuiti discreti. Le prestazioni sono elevate perché i componenti dell'IC commutano rapidamente e consumano relativamente poca energia grazie alle loro piccole dimensioni e alla loro vicinanza. Lo svantaggio principale degli IC è l'elevato costo di progettazione e fabbricazione delle maschere fotolitografiche richieste. Questo alto costo iniziale rende gli IC commercialmente viabili solo quando si prevede una produzione di grandi volumi.
+
+### Tipi
+
+I distributori di componenti elettronici moderni spesso suddividono ulteriormente i circuiti integrati:
+
+- I circuiti integrati digitali sono categorizzati come IC logici (come microprocessori e microcontrollori), chip di memoria (come memoria MOS e memoria a gate flottante), IC di interfaccia (shifter di livello, serializer/deserializer, ecc.), IC di gestione dell'alimentazione e dispositivi programmabili.
+- I circuiti integrati analogici sono categorizzati come circuiti integrati lineari e circuiti a radiofrequenza (circuiti RF).
+- I circuiti integrati a segnali misti sono categorizzati come IC di acquisizione dati (convertitori A/D, convertitori D/A e potenziometri digitali), IC di temporizzazione/clock, circuiti a capacità commutata (SC) e circuiti CMOS RF.
+- I circuiti integrati tridimensionali (IC 3D) sono categorizzati in IC con via attraverso il silicio (TSV) e IC con connessione Cu-Cu.
+
+
+## [Programmazione Orientata agli Oggetti](Object%20Oriented%20Programming/readme.md)
+
+La programmazione orientata agli oggetti è un paradigma di programmazione fondamentale basato sui concetti di oggetti e dati.
+
+È il modo standard di scrivere codice che ogni programmatore deve seguire per garantire una migliore leggibilità e riutilizzabilità del codice.
+
+### * Ci sono quattro concetti base della programmazione orientata agli oggetti:
+- Astrazione
+- Incapsulamento
+- Ereditarietà
+- Polimorfismo
+
+Leggi di più su questi concetti della programmazione orientata agli oggetti [qui](Object%20Oriented%20Programming/readme.md)
+
+
+
+## [Programmazione Funzionale](Functional%20Programming/readme.md)
+
+In informatica, la programmazione funzionale è un paradigma di programmazione in cui i programmi sono costruiti applicando e componendo funzioni. È un paradigma di programmazione dichiarativa in cui le definizioni delle funzioni sono alberi di espressioni che mappano valori su altri valori, piuttosto che una sequenza di istruzioni imperative che aggiornano lo stato del programma in esecuzione.
+
+Nella programmazione funzionale, le funzioni sono trattate come cittadini di prima classe, il che significa che possono essere legate a nomi (compresi identificatori locali), passate come argomenti e restituite da altre funzioni, proprio come qualsiasi altro tipo di dato. Questo consente di scrivere programmi in uno stile dichiarativo e composabile, dove piccole funzioni sono combinate in modo modulare.
+
+La programmazione funzionale è talvolta trattata come sinonimo di programmazione puramente funzionale, un sottoinsieme della programmazione funzionale che tratta tutte le funzioni come funzioni matematiche deterministiche, o funzioni pure. Quando una funzione pura è chiamata con determinati argomenti, restituirà sempre lo stesso risultato e non può essere influenzata da alcuno stato mutabile o altri effetti collaterali. Questo contrasta con le procedure impure, comuni nella programmazione imperativa, che possono avere effetti collaterali (come modificare lo stato del programma o prendere input da un utente). I sostenitori della programmazione puramente funzionale affermano che, limitando gli effetti collaterali, i programmi possono avere meno bug, essere più facili da eseguire il debug e testare, e essere più adatti alle procedure di verifica formale.
+
+La programmazione funzionale ha le sue radici nell'accademia, evolvendosi dal calcolo lambda, un sistema formale di calcolo basato solo su funzioni. La programmazione funzionale è storicamente stata meno popolare rispetto alla programmazione imperativa, ma molti linguaggi funzionali sono oggi utilizzati nell'industria e nell'istruzione.
+
+Alcuni esempi di linguaggi di programmazione funzionale sono:
+- <a href="https://lisp-lang.org/"> Common Lisp </a>
+- <a href="https://www.scheme.org/"> Scheme </a>
+- <a href="https://racket-lang.org/"> Racket </a>
+- <a href="https://www.erlang.org/"> Erlang </a>
+- <a href="https://www.haskell.org/"> Haskell </a>
+- <a href="https://fsharp.org/"> F# </a>
+- <a href="https://cs.lmu.edu/~ray/notes/introml/"> ML </a>
+
+La programmazione funzionale è derivata storicamente dal *calcolo lambda*. Il calcolo lambda è un framework sviluppato da Alonzo Church per studiare i calcoli con le funzioni. È spesso chiamato "il linguaggio di programmazione più piccolo del mondo." Fornisce una definizione di ciò che è computabile e ciò che non lo è. È equivalente a una macchina di Turing nella sua capacità computazionale e qualsiasi cosa computabile dal calcolo lambda, proprio come qualsiasi cosa computabile da una macchina di Turing, è computabile. Fornisce un framework teorico per descrivere le funzioni e le loro valutazioni.
+
+Alcuni concetti essenziali della programmazione funzionale sono:
+- Funzioni pure
+- Ricorsione
+- Trasparenza referenziale
+- Funzioni come prime classi e funzioni di ordine superiore
+- Le variabili sono immutabili.
+
+**Funzioni pure**: Queste funzioni hanno due proprietà principali. Prima, producono sempre lo stesso output per gli stessi argomenti indipendentemente da qualsiasi altra cosa. In secondo luogo, non hanno effetti collaterali, ovvero non modificano argomenti o variabili locali/globali o flussi di input/output. Questa ultima proprietà è chiamata *immutabilità*. L'unico risultato di una funzione pura è il valore che restituisce. Sono deterministiche. I programmi scritti usando la programmazione funzionale sono facili da eseguire il debug perché non hanno effetti collaterali o I/O nascosto. Le funzioni pure rendono anche più facile scrivere applicazioni parallele/concurrenti. Quando il codice è scritto in questo stile, un compilatore intelligente può fare molte cose: può parallelizzare le istruzioni, attendere di valutare i risultati fino a quando sono necessari e memorizzare i risultati poiché i risultati non cambiano finché l'input non cambia. Ecco un semplice esempio di una funzione pura in Python:
+
+```python
+def sum(x ,y): # sum è una funzione che prende x e y come argomenti
+    return x + y  # restituisce x + y senza cambiare il valore
+```
+
+**Ricorsione**: Non ci sono loop "for" o "while" nei linguaggi di programmazione funzionale pura. L'iterazione è implementata attraverso la ricorsione. Le funzioni ricorsive chiamano ripetutamente se stesse fino a quando viene raggiunto un caso base. Ecco un semplice esempio di una funzione ricorsiva in C:
+
+```c
+int fib(n) {
+  if(n <= 1)
+    return 1;
+   else
+     return (fib(n-1) + fib(n-2));
+}
+```
+
+**Trasparenza referenziale**: Nei programmi funzionali, le variabili una volta definite non cambiano il loro valore durante l'esecuzione del programma. I programmi funzionali non hanno istruzioni di assegnamento. Se dobbiamo memorizzare un valore, definiamo una nuova variabile. Questo elimina qualsiasi possibilità di effetti collaterali perché qualsiasi variabile può essere sostituita con il suo valore effettivo in qualsiasi punto dell'esecuzione. Lo stato di qualsiasi variabile è costante in ogni istante. Esempio:
+
+```bash
+x = x + 1 # questo ha cambiato il valore assegnato alla variabile x
+         # Pertanto, l'espressione NON è referenzialmente trasparente
+```
+
+**Le funzioni sono di prima classe e possono essere di ordine superiore**: Le funzioni di prima classe sono trattate come variabili di prima classe. Le variabili di prima classe possono essere passate alle funzioni come parametri, possono essere restituite dalle funzioni o memorizzate in strutture dati.
+
+Una combinazione di applicazioni di funzioni può essere definita usando una forma LISP chiamata **funcall**, che prende come argomenti una funzione e una serie di argomenti e applica quella funzione a quegli argomenti:
+
+```Lisp
+(defun filter (list-of-elements test)
+    (cond ((null list-of-elements) nil)
+          ((funcall test (car list-of-elements))
+            (cons (car list-of-elements)
+                (filter (cdr list-of-elements)
+                      test)))
+           (t (filter (cdr list-of-elements)
+                       test))))
+```
+
+La funzione **filter** applica il test al primo elemento della lista. Se il test restituisce non-nil, consente l'elemento al risultato di filter applicato al cdr della lista; altrimenti, restituisce semplicemente il cdr filtrato. Questa funzione può essere utilizzata con diversi predicati passati come parametri per eseguire una varietà di compiti di filtraggio:
+
+```Lisp
+    > (filter '(1 3 -9 5 -2 -7 6) #'plusp)   ; filtra tutti i numeri negativi
+```    
+    output: (1 3 5 6)
+
+```Lisp
+   > (filter '(1 2 3 4 5 6 7 8 9) #'evenp)   ; filtra tutti i numeri dispari
+```   
+   output: (2 4 6 8)
+
+   e così via.
+
+**Le variabili sono immutabili**: Nella programmazione funzionale, non possiamo modificare una variabile dopo che è stata inizializzata. Possiamo creare nuove variabili, ma non possiamo modificare quelle esistenti, e questo aiuta a mantenere lo stato durante l'esecuzione di un programma. Una volta creata una variabile e impostato il suo valore, possiamo avere piena fiducia sapendo che il valore di quella variabile non cambierà mai.
+
+
+## [Sistemi Operativi](Operating%20Systems/readme.md)
+
+Un sistema operativo (o OS in breve) funge da intermediario tra un utente del computer e l'hardware del computer. Lo scopo di un sistema operativo è fornire un ambiente in cui un utente possa eseguire programmi in modo conveniente ed efficiente.
+
+Un sistema operativo è un software che gestisce l'hardware del computer. L'hardware deve fornire meccanismi appropriati per garantire il corretto funzionamento del sistema informatico e per prevenire che i programmi degli utenti interferiscano con il funzionamento corretto del sistema.
+
+Una definizione ancora più comune è che il sistema operativo è l'unico programma che è sempre in esecuzione sul computer (di solito chiamato kernel), mentre tutto il resto sono programmi applicativi.
+
+I sistemi operativi possono essere visti da due punti di vista: come gestori delle risorse e come macchine estese. Dal punto di vista del gestore delle risorse, il compito del sistema operativo è gestire le diverse parti del sistema in modo efficiente. Dal punto di vista della macchina estesa, il compito del sistema è fornire agli utenti astrazioni che sono più comode da usare rispetto alla macchina reale. Queste includono processi, spazi di indirizzamento e file.
+
+I sistemi operativi hanno una lunga storia, dall'epoca in cui hanno sostituito l'operatore ai moderni sistemi di multiprogrammazione. I momenti salienti includono i primi sistemi batch, i sistemi di multiprogrammazione e i sistemi per computer personali.
+
+Poiché i sistemi operativi interagiscono strettamente con l'hardware, una certa conoscenza dell'hardware del computer è utile per comprenderli. I computer sono costituiti da processori, memorie e dispositivi di I/O. Queste parti sono collegate tramite bus.
+
+I concetti di base su cui sono costruiti tutti i sistemi operativi sono processi, gestione della memoria, gestione degli I/O, sistema dei file e sicurezza. Il cuore di qualsiasi sistema operativo è il set di chiamate di sistema che può gestire. Queste indicano cosa fa il sistema operativo.
+
+### Sistema operativo come gestore delle risorse
+
+Il sistema operativo gestisce tutti i pezzi di un sistema complesso. I computer moderni sono costituiti da processori, memorie, timer, dischi, mouse, interfacce di rete, stampanti e una vasta gamma di altri dispositivi. 
+
+Dal punto di vista dal basso verso l'alto, il compito del sistema operativo è fornire una allocazione ordinata e controllata dei processori, delle memorie e dei dispositivi di I/O tra i vari programmi che ne hanno bisogno.
+
+I moderni sistemi operativi permettono a più programmi di essere in memoria ed eseguiti simultaneamente. Immagina cosa succederebbe se tre programmi in esecuzione su un computer tentassero di stampare il loro output simultaneamente sulla stessa stampante. Il risultato sarebbe un completo caos. Il sistema operativo può portare ordine al potenziale caos memorizzando tutto l'output destinato alla stampante sul disco. Quando un programma è terminato, il sistema operativo può quindi copiare il suo output dal file sul disco per la stampante, mentre allo stesso tempo, l'altro programma può continuare a generare altro output, ignaro del fatto che l'output non sta andando ancora alla stampante.
+
+Quando un computer (o una rete) ha più di un utente, è necessario gestire e proteggere la memoria, i dispositivi di I/O e altre risorse ancora di più, poiché gli utenti potrebbero altrimenti interferire tra loro. Inoltre, gli utenti spesso devono condividere non solo l'hardware ma anche informazioni (file, database, ecc.). In breve, questo punto di vista del sistema operativo sostiene che il suo compito principale è tenere traccia di quali programmi stanno usando quale risorsa, concedere le richieste di risorse, contabilizzare l'uso e mediare le richieste conflittuali tra diversi programmi e utenti.
+
+### Sistema operativo come macchina estesa
+
+L'architettura della maggior parte dei computer a livello di linguaggio macchina è primitiva e scomoda da programmare, specialmente per l'input/output. Per rendere questo punto più concreto, considera i moderni dischi rigidi SATA (Serial ATA) utilizzati nella maggior parte dei computer. Cosa dovrebbe sapere un programmatore per utilizzare il disco. Da allora, l'interfaccia è stata rivista più volte ed è più complicata rispetto al 2007. Nessun programmatore sano di mente vorrebbe trattare con questo disco a livello hardware. Invece, un pezzo di software chiamato driver del disco si occupa dell'hardware e fornisce un'interfaccia per leggere e scrivere blocchi del disco, senza entrare nei dettagli.
+
+I sistemi operativi contengono molti driver per il controllo dei dispositivi di I/O. Ma anche questo livello è molto troppo basso per la maggior parte delle applicazioni. Per questo motivo, tutti i sistemi operativi forniscono un ulteriore livello di astrazione per l'utilizzo dei dischi: i file. Utilizzando questa astrazione, i programmi possono creare, scrivere e leggere file senza dover affrontare i dettagli disordinati di come funziona l'hardware. Questa astrazione è la chiave per gestire tutta questa complessità. Buone astrazioni trasformano un compito quasi impossibile in due compiti gestibili. Il primo è definire e implementare le astrazioni. Il secondo è utilizzare queste astrazioni per risolvere il problema in questione.
+
+### Storia dei Sistemi Operativi
+
+- **Prima Generazione (1945-55)**: Poco progresso è stato raggiunto nella costruzione di computer digitali dopo i disastrosi tentativi di Babbage fino all'era della Seconda Guerra Mondiale. Alla Iowa State University, il professor John Atanasoff e il suo studente Clifford Berry crearono quello che oggi è riconosciuto come il primo computer digitale operativo. Konrad Zuse a Berlino costruì il computer Z3 utilizzando relè elettromeccanici quasi nello stesso periodo. Il Mark I fu creato da Howard Aiken ad Harvard, il Colossus da un team di scienziati a Bletchley Park in Inghilterra, e l'ENIAC da William Mauchley e il suo dottorando J. Presper Eckert all'Università della Pennsylvania nel 1944.
+
+- **Seconda Generazione (1955-65)**: L'invenzione del transistor a metà degli anni '50 cambiò drasticamente la situazione. I computer divennero abbastanza affidabili da poter essere fabbricati e venduti ai clienti paganti con l'assunzione che avrebbero continuato a funzionare abbastanza a lungo per eseguire un lavoro significativo. I mainframe, come sono ora conosciuti, erano tenuti chiusi in enormi sale computer particolarmente climatizzate, con squadre di operatori qualificati per gestirli. Solo grandi aziende, importanti enti governativi o istituzioni potevano permettersi il prezzo di diversi milioni di dollari.
+
+- **Terza Generazione (1965-80)**: Rispetto ai computer di seconda generazione, costruiti con transistor singoli, l'IBM 360 fu la prima grande linea di computer a utilizzare circuiti integrati (IC) (in piccola scala). Di conseguenza, offrì un notevole vantaggio in termini di prezzo/performance. Fu un successo immediato e tutti gli altri grandi produttori abbracciarono rapidamente il concetto di una famiglia di computer interoperabili. Tutto il software, incluso il sistema operativo OS/360, doveva essere compatibile con tutti i modelli nel design originale. Doveva funzionare su sistemi enormi, che spesso sostituivano i 7094 per calcoli pesanti e previsioni meteorologiche, e su sistemi piccoli, che spesso sostituivano solo i 1401 per trasferimenti di schede a nastro. Entrambi i sistemi con pochi periferici e i sistemi con molti periferici dovevano funzionare bene con esso. Doveva funzionare sia in ambienti professionali che accademici. Soprattutto, doveva essere efficace per ciascuna di queste numerose applicazioni.
+
+- **Quarta Generazione (1980-Presente)**: L'era dei computer personali iniziò con la creazione di circuiti LSI (Large Scale Integration), processori con migliaia di transistor su un centimetro quadrato di silicio. Anche se i computer personali, originariamente conosciuti come microcomputer, non cambiarono significativamente in architettura rispetto ai minicomputer della classe PDP-11, differivano significativamente nel prezzo.
+
+- **Quinta Generazione (1990-Presente)**: Le persone hanno desiderato un dispositivo di comunicazione portatile sin da quando il detective Dick Tracy nella striscia comica degli anni '40 iniziò a conversare con il suo "orologio radio a due vie". Nel 1946, un vero telefono mobile fece il suo debutto e pesava circa 40 chilogrammi. Il primo vero telefono portatile fece il suo debutto negli anni '70 ed era incredibilmente leggero, circa un chilogrammo. Era scherzosamente chiamato "il mattone". Presto, tutti stavano cercando uno.
+
+### Funzioni di un OS
+
+- **Convenienza**: Un OS rende un computer più conveniente da usare
+
+.
+- **Efficienza**: Un OS permette di utilizzare le risorse del sistema informatico in modo efficiente.
+- **Capacità di Evolversi**: Un OS dovrebbe essere costruito in modo tale da permettere lo sviluppo, il test e l'introduzione di nuove funzioni di sistema in modo efficace allo stesso tempo senza interferire con il servizio.
+- **Throughput**: Un OS dovrebbe essere costruito in modo da fornire il massimo throughput (Numero di compiti per unità di tempo).
+
+### Funzionalità principali di un OS
+
+- **Gestione delle Risorse**: Quando avviene l'accesso parallelo nel sistema operativo, significa che quando più utenti stanno accedendo al sistema, l'OS funge da Gestore delle Risorse. La sua responsabilità è fornire hardware all'utente. Riduce il carico nel sistema.
+- **Gestione dei Processi**: Include vari compiti come la pianificazione e la terminazione dei processi. L'OS gestisce vari compiti contemporaneamente. Qui avviene la Pianificazione della CPU, cioè tutti i compiti verrebbero eseguiti da molti algoritmi utilizzati per la pianificazione.
+- **Gestione dello Storage**: Il meccanismo del file system utilizzato per la gestione dello storage. NIFS, CFS, CIFS, NFS, ecc. sono alcuni file system. Tutti i dati sono memorizzati in vari tracce dei dischi rigidi che sono tutti gestiti dal gestore dello storage. Include un Disco Rigido.
+- **Gestione della Memoria**: Si riferisce alla gestione della memoria primaria. Il sistema operativo deve tenere traccia di quanto memoria è stata utilizzata e da chi. Deve decidere quale processo ha bisogno di spazio in memoria e quanto. L'OS deve anche allocare e deallocare lo spazio in memoria.
+- **Gestione della Sicurezza/Privacy**: La privacy è fornita anche dal sistema operativo utilizzando password in modo che applicazioni non autorizzate non possano accedere a programmi o dati. Ad esempio, Windows utilizza l'autenticazione **_Kerberos_** per prevenire accessi non autorizzati ai dati.
+
+### Tipi di Sistemi Operativi
+
+- **OS per Mainframe**:
+Alla fascia alta ci sono i sistemi operativi per mainframe, quei computer di dimensioni da sala ancora trovati nei principali centri dati aziendali. Questi computer differiscono dai computer personali in termini di capacità di I/O. Un mainframe con 1000 dischi e milioni di gigabyte di dati non è insolito; un computer personale con queste specifiche sarebbe l'invidia dei suoi amici. I mainframe stanno anche facendo una sorta di ritorno come server di alta gamma, server per siti di commercio elettronico su larga scala e server per transazioni business-to-business. 
+
+I sistemi operativi per mainframe sono fortemente orientati al trattamento di molti lavori contemporaneamente, la maggior parte dei quali richiede enormi quantità di I/O. Offrono tipicamente tre tipi di servizi: batch, elaborazione delle transazioni e time-sharing.
+
+- **OS per Server**:
+Un livello sotto ci sono i sistemi operativi per server. Essi girano su server, che sono computer personali molto grandi, workstation o anche mainframe. Servono più utenti contemporaneamente attraverso una rete e permettono agli utenti di condividere risorse hardware e software. I server possono fornire servizi di stampa, servizi di file o servizi Web. I provider di Internet eseguono molti server per supportare i loro clienti e i siti Web utilizzano server per memorizzare pagine Web e gestire le richieste in entrata. Tipici sistemi operativi per server sono Solaris, FreeBSD, Linux e Windows Server 201x.
+
+- **OS per Multiprocessori**:
+Un modo sempre più comune per ottenere una potenza di calcolo di alto livello è connettere più CPU in un unico sistema. A seconda di come sono collegati e cosa è condiviso, questi sistemi sono chiamati computer paralleli, multi-computer o multiprocessori. Hanno bisogno di sistemi operativi speciali, ma spesso questi sono variazioni dei sistemi operativi per server, con caratteristiche speciali per la comunicazione, la connettività e la coerenza.
+
+- **OS per Computer Personali**:
+La categoria successiva è il sistema operativo per computer personali. Quelli moderni supportano tutti la multiprogrammazione, spesso con decine di programmi avviati all'avvio. Il loro compito è fornire un buon supporto a un singolo utente. Sono ampiamente utilizzati per l'elaborazione di testi, fogli di calcolo, giochi e accesso a Internet. Esempi comuni sono Linux, FreeBSD, Windows 7, Windows 8 e OS X di Apple. I sistemi operativi per computer personali sono così ampiamente conosciuti che probabilmente non è necessaria molta introduzione. Molte persone non sono nemmeno consapevoli che esistono altri tipi.
+
+- **OS per Sistemi Embedded**:
+I sistemi embedded girano su computer che controllano dispositivi che non sono generalmente considerati computer e non accettano software installato dall'utente. Esempi tipici sono i forni a microonde, i televisori, le auto, i lettori DVD, i telefoni tradizionali e i lettori MP3. La principale proprietà che distingue i sistemi embedded dai dispositivi portatili è la certezza che nessun software non autorizzato verrà mai eseguito su di essi. Non puoi scaricare nuove applicazioni nel tuo forno a microonde—tutto il software è in ROM. Questo significa che non c'è bisogno di protezione tra le applicazioni, semplificando il design. Sistemi come Embedded Linux, QNX e VxWorks sono popolari in questo dominio.
+
+- **OS per Smart Card**:
+I sistemi operativi più piccoli girano su dispositivi smart card delle dimensioni di una carta di credito con chip CPU. Hanno vincoli molto severi di potenza di elaborazione e memoria. Alcuni sono alimentati tramite contatti nel lettore in cui sono inseriti, ma le smart card senza contatto sono alimentate per induzione, limitando notevolmente cosa possono fare. Alcuni possono gestire solo una singola funzione, come i pagamenti elettronici, ma altri possono gestire più funzioni. Spesso questi sono sistemi proprietari. Alcune smart card sono orientate a Java. Questo significa che la ROM sulla smart card contiene un interprete per la Java Virtual Machine (JVM). Gli applet Java (piccoli programmi) vengono scaricati sulla scheda e sono interpretati dall'interprete JVM. Alcune di queste schede possono gestire più applet Java contemporaneamente, portando alla multiprogrammazione e alla necessità di pianificarli. La gestione delle risorse e la protezione diventano anche un problema quando sono presenti due o più applet contemporaneamente. Questi problemi devono essere gestiti dal sistema operativo (di solito estremamente primitivo) presente sulla scheda.
+
 

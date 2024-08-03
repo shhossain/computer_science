@@ -608,3 +608,36 @@ I sistemi embedded girano su computer che controllano dispositivi che non sono g
 I sistemi operativi più piccoli girano su dispositivi smart card delle dimensioni di una carta di credito con chip CPU. Hanno vincoli molto severi di potenza di elaborazione e memoria. Alcuni sono alimentati tramite contatti nel lettore in cui sono inseriti, ma le smart card senza contatto sono alimentate per induzione, limitando notevolmente cosa possono fare. Alcuni possono gestire solo una singola funzione, come i pagamenti elettronici, ma altri possono gestire più funzioni. Spesso questi sono sistemi proprietari. Alcune smart card sono orientate a Java. Questo significa che la ROM sulla smart card contiene un interprete per la Java Virtual Machine (JVM). Gli applet Java (piccoli programmi) vengono scaricati sulla scheda e sono interpretati dall'interprete JVM. Alcune di queste schede possono gestire più applet Java contemporaneamente, portando alla multiprogrammazione e alla necessità di pianificarli. La gestione delle risorse e la protezione diventano anche un problema quando sono presenti due o più applet contemporaneamente. Questi problemi devono essere gestiti dal sistema operativo (di solito estremamente primitivo) presente sulla scheda.
 
 
+## [Memoria e Archiviazione](Memory%20and%20Storage/readme.md)
+
+### Memoria
+Il termine _memoria_ si riferisce al componente all'interno del computer che consente l'accesso ai dati a breve termine. Potresti riconoscere questo componente come DRAM o memoria ad accesso casuale dinamico. Il computer esegue molte operazioni accedendo ai dati memorizzati nella sua memoria a breve termine. Alcuni esempi di tali operazioni includono la modifica di un documento, il caricamento delle applicazioni e la navigazione su Internet. La velocità e le prestazioni del tuo sistema dipendono dalla quantità di memoria installata sul computer.
+
+Se hai una scrivania e un armadietto, la scrivania rappresenta la memoria del computer. Gli oggetti che devi utilizzare immediatamente sono tenuti sulla scrivania per un facile accesso. Tuttavia, non si può memorizzare molto su una scrivania a causa delle sue limitazioni di spazio.
+
+### Archiviazione
+Mentre la memoria si riferisce alla posizione dei dati a breve termine, _archiviazione_ è il componente all'interno del computer che ti consente di memorizzare e accedere ai dati a lungo termine. Di solito, l'archiviazione si presenta sotto forma di un'unità a stato solido o di un disco rigido. L'archiviazione contiene le tue applicazioni, il sistema operativo e i file in modo indefinito. I computer devono leggere e scrivere informazioni dal sistema di archiviazione, quindi la velocità dell'archiviazione determina quanto velocemente il sistema può avviarsi, caricare e accedere a ciò che hai salvato.
+
+Mentre la scrivania rappresenta la memoria del computer, l'armadietto rappresenta l'archiviazione del computer. Esso conserva gli oggetti che devono essere salvati e memorizzati, ma non sono necessariamente necessari per un accesso immediato. La dimensione dell'armadietto significa che può contenere molte cose.
+
+**Una distinzione importante** tra memoria e archiviazione è che la memoria si cancella quando il computer viene spento. D'altra parte, l'archiviazione rimane intatta indipendentemente da quante volte spegni il computer. Pertanto, nell'analogia tra scrivania e armadietto, qualsiasi file lasciato sulla tua scrivania verrà gettato via quando lasci l'ufficio. Tutto ciò che è nel tuo armadietto rimarrà.
+
+### Memoria Virtuale
+Al centro dei sistemi informatici c'è la memoria, lo spazio in cui i programmi vengono eseguiti e i dati sono memorizzati. Ma cosa succede quando i programmi che stai eseguendo e i dati con cui stai lavorando superano la capacità fisica della memoria del computer? Qui entra in gioco la memoria virtuale, che funge da estensione intelligente alla memoria del computer e ne migliora le capacità.
+
+**Definizione e Scopo della Memoria Virtuale:**
+
+La memoria virtuale è una tecnica di gestione della memoria impiegata dai sistemi operativi per superare le limitazioni della memoria fisica (RAM). Crea un'illusione per le applicazioni software di avere accesso a una quantità di memoria maggiore rispetto a quella fisicamente installata sul computer. In sostanza, consente ai programmi di utilizzare spazio di memoria al di là dei confini della RAM fisica del computer.
+
+Lo scopo principale della memoria virtuale è consentire un multitasking efficiente e l'esecuzione di programmi più grandi, mantenendo al contempo la reattività del sistema. Questo viene ottenuto creando un'interazione fluida tra la RAM fisica e i dispositivi di archiviazione secondari, come il disco rigido o l'SSD.
+
+**Come la Memoria Virtuale Estende la Memoria Fisica Disponibile:**
+
+Considera la memoria virtuale come un ponte che collega la RAM del computer e l'archiviazione secondaria (unità disco). Quando esegui un programma, parti di esso vengono caricate nella memoria fisica più veloce (RAM). Tuttavia, non tutte le parti del programma potrebbero essere utilizzate immediatamente.
+
+La memoria virtuale sfrutta questa situazione spostando le sezioni del programma che non sono attivamente utilizzate dalla RAM all'archiviazione secondaria, creando più spazio nella RAM per le parti che sono attivamente in uso. Questo processo è trasparente per l'utente e per i programmi in esecuzione. Quando le parti spostate sono nuovamente necessarie, vengono trasferite di nuovo nella RAM, mentre altre parti meno attive possono essere spostate nell'archiviazione secondaria.
+
+Questo scambio dinamico di dati dentro e fuori dalla memoria fisica è gestito dal sistema operativo. Consente ai programmi di funzionare anche se sono più grandi della RAM disponibile, poiché il sistema operativo decide intelligentemente quali dati devono essere nella RAM per un'ottimale performance.
+
+In sintesi, la memoria virtuale funge da strato di virtualizzazione che estende la memoria fisica disponibile trasferendo temporaneamente parti di programmi e dati tra la RAM e l'archiviazione secondaria. Questo processo garantisce che il computer possa gestire compiti più grandi e numerosi programmi simultaneamente, mantenendo al contempo prestazioni e reattività efficienti.
+

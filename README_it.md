@@ -3,8 +3,8 @@
 <h1 align="center">Informatica</h1>
 <h4 align="center">
     <p>
-        <b>Italiano</b> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README.md">English</a> |
+        <b>Italiano</b> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |

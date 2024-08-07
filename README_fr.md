@@ -2,6 +2,7 @@
 <h4 align="center">
     <p>
         <a href="https://github.com/shhossain/computer_science/blob/main/README.md">English</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_it.md">Italiano</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
         <b>Français</b> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |

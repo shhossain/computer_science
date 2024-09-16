@@ -75,7 +75,7 @@ Boolean logic is a branch of mathematics focused on truth values, specifically t
 | :------: | :--: | :-------------------------------------: |
 |    !     | NOT  | Negates (inverts) the value of the operand.   |
 |    &&    | AND  | Returns true if both operands are true. |
-|    ||    |  OR  | Returns true if at least one operand is true. |
+|   \|\|   |  OR  | Returns true if at least one operand is true. |
 
 ### Nice to know Boolean Operators
 | Operator | Name |               Description               |

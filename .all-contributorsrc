@@ -1420,6 +1420,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Naveen7003",
+      "name": "Naveen Prajapati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/140879750?v=4",
+      "profile": "https://github.com/Naveen7003",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

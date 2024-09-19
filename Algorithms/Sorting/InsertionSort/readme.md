@@ -3,8 +3,8 @@ Insertion Sort is a simple sorting algorithm that works the way we sort playing 
 
 ## Complexity
 | Best | Average | Worst | Memory | Stable |
-|------|---------|-------|--------|--------|
-| n    | n^2     | n^2   | 1      | Yes    |
+|:------:|:---------:|:-------:|:--------:|:--------:|
+| $O(n)$    | $O(n^2)$     | $O(n^2)$   | $O(1)$     | Yes    |
 
 ## Pseudo Code
 ```

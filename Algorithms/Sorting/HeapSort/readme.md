@@ -3,13 +3,13 @@ Heap Sort is a comparison based sorting technique based on Binary Heap data stru
 
 ## Complexity
 | Best | Average | Worst | Memory | Stable |
-|------|---------|-------|--------|--------|
-| nlogn | nlogn     | nlogn   | 1      | No    |
+|:------:|:---------:|:-------:|:--------:|:--------:|
+| $O(n*log(n))$ | $O(n*log(n))$     | $O(n*log(n))$   | 1      | No    |
 
-- The worst-case time complexity of heap sort is O(nlogn).
-- The best-case time complexity of heap sort is O(nlogn).
-- The average case time complexity of heap sort is O(nlogn).
-- The space complexity of heap sort is O(1).
+- The worst-case time complexity of Heap Sort is $O(n*log(n))$.
+- The best-case time complexity of Heap Sort is $O(n*log(n))$.
+- The average case time complexity of Heap Sort is $O(n*log(n))$.
+- The space complexity of Heap Sort is $O(1)$.
 
 ## Pseudo Code
 ```

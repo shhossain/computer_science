@@ -3,13 +3,13 @@ Shell sort is mainly a variation of Insertion Sort. In insertion sort, we move e
 
 ## Complexity
 | Best         | Average | Worst | Memory | Stable |
-|-------------|----------|-------|--------|--------|
-| Ω(n log(n)) |θ(nlog(n)2)|O(n2)|1| No    |
+|:-------------:|:----------:|:-------:|:--------:|:--------:|
+| $Ω(n*log(n))$ | $θ(n*log(n)^2)$ | $O(n^2)$ | $O(1)$       | No    |
 
-- The worst-case time complexity of heap sort is O(n^2).
-- The best-case time complexity of heap sort is Ω(nlogn).
-- The average case time complexity of heap sort is θ(nlogn).
-- The space complexity of heap sort is O(1).
+- The worst-case time complexity of Shell Sort is $O(n^2)$.
+- The best-case time complexity of Shell Sort is $Ω(n*log(n))$.
+- The average case time complexity of Shell Sort is $θ(n*log(n)^2)$.
+- The space complexity of Shell Sort is $O(1)$.
 
 ## Pseudo Code
 ```Caculate gap size ($gap)

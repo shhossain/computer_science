@@ -1,33 +1,33 @@
 # Merge Sort
-Merge sort is a sorting algorithm based on the divide and conquer technique. With worst-case time complexity being Ο(n log n), it is one of the most important and commonly used algorithms.
+Merge sort is a sorting algorithm based on the divide and conquer technique. With worst-case time complexity being $Ο(n*log(n))$, it is one of the most important and commonly used algorithms.
 
 
 ## Time and Space Complexity
 
 | Best | Average | Worst | Memory | Stable |
-|------|---------|-------|--------|--------|
-| n log(n)  | n log(n)     | n log(n)   | n      | Yes     |
+|:------:|:---------:|:-------:|:--------:|:--------:|
+| $O(n*log(n))$  | $O(n*log(n))$     | $O(n*log(n))$   | $O(n)$      | Yes     |
 
 
 1. Space Complexity
-Auxiliary Space: O(n) Sorting In Place.
+Auxiliary Space: $O(n)$ Sorting In Place.
 
 2. Time Complexity
 Merge Sort is a recursive algorithm and its time complexity can be expressed with the following recurrence relation for divide and conquer algorithms.
-``
- T(n) = aT(n/b) + f(n)
 
-    where,
-        n = size of input
-        a = 2, we divide our array in half and solve them first, so our number of subproblems is 2
-        n/b = n/2, we divide our array in half each time we recurse
-        f(n) = n, we still have to iterate though the list to check it and then combine the two halves together
+ - $T(n) = aT(n/b) + f(n)$
+
+   - where,
+      -  $n$ = size of input
+      -  $a = 2$, we divide our array in half and solve them first, so our number of subproblems is 2
+      -  $n/b = n/2$, we divide our array in half each time we recurse
+      -  $f(n) = n$, we still have to iterate though the list to check it and then combine the two halves together
 
 
- T(n) = 2T(n/2) + n
-``
-The solution for the above recurrence is O(n log(n)).
-The list of size n is divided into a max of log(n) parts, and the merging of all sublists into a single list takes O(n) time. Making the worst, best and average-case run time of this algorithm O(n log(n)).
+ - $T(n) = 2T(n/2) + n$
+
+The solution for the above recurrence is $O(n*log(n))$.
+The list of size $n$ is divided into a max of $log(n)$ parts, and the merging of all sublists into a single list takes $O(n)$ time. Making the worst, best and average-case run time of this algorithm $O(n*log(n))$.
 
 ## Pseudo Code
 ```

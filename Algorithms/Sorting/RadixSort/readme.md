@@ -4,13 +4,13 @@ Radix sort is a sorting algorithm that sorts the elements by first grouping the 
 Suppose, we have an array of 8 elements. First, we will sort elements based on the value of the unit place. Then, we will sort elements based on the value of the tenth place. This process goes on until the last significant place.
 ## Complexity
 | Best | Average | Worst | Memory | Stable |
-|------|---------|-------|--------|--------|
-| O(d*(n+b)) | O(d*(n+b))     | O(d*(n+b))   | O(b + n)      | Yes    |
+|:------:|:---------:|:-------:|:--------:|:--------:|
+| $O(d*(n+b))$ | $O(d*(n+b))$     | $O(d*(n+b))$   | $O(b + n)$      | Yes    |
 
 Where:
-* n = the number of elements to sort
-* k = the maximum key length (number of digit places) of the elements to sort
-* b = the base (for example, for the decimal system, b is 10)
+* $n$ = the number of elements to sort
+* $k$ = the maximum key length (number of digit places) of the elements to sort
+* $b$ = the base (for example, for the decimal system, $b$ is 10)
 
 ## Algorithm
 ```

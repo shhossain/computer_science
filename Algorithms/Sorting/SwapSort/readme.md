@@ -1,15 +1,15 @@
 # Swap Sort
-Swap Sort is also a sorting algorithm, which is not known by many.It has O(n) time complexity.It works only on numbers [1 to N] and must not contain duplicates.You might be thinking what is the use of Swap Sort as there is Count Sort which time complexity is O(N) and can also sort data with dupliactes, but Swap sort is useful and efficient in solving many problems namely, find duplicate and missing, find all duplicates and missing from Array.
+Swap Sort is also a sorting algorithm, which is not known by many.It has $O(n)$ time complexity.It works only on numbers [1 to n] and must not contain duplicates.You might be thinking what is the use of Swap Sort as there is Count Sort which time complexity is $O(n)$ and can also sort data with dupliactes, but Swap sort is useful and efficient in solving many problems namely, find duplicate and missing, find all duplicates and missing from Array.
 
 ## Complexity
 | Best | Average | Worst | Memory | Stable |
-|------|---------|-------|--------|--------|
-| n    | n       | n     | 1      | No     |
+|:------:|:---------:|:-------:|:--------:|:--------:|
+| $O(n)$   | $O(n)$       | $O(n)$   | $O(1)$      | No     |
 
-- The worst-case time complexity of heap sort is O(n).
-- The best-case time complexity of heap sort is O(n).
-- The average case time complexity of heap sort is O(n).
-- The space complexity of heap sort is O(1).
+- The worst-case time complexity of Swap Sort is $O(n)$.
+- The best-case time complexity of Swap Sort is $O(n)$.
+- The average case time complexity of Swap Sort is $O(n)$.
+- The space complexity of Swap Sort is $O(1)$.
 
 
 ## Pseudo Code

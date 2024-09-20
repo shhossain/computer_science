@@ -3,13 +3,13 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
 
 ## Complexity
 | Best | Average | Worst | Memory | Stable |
-|------|---------|-------|--------|--------|
-| n    | n^2     | n^2   | 1      | Yes    |
+|:------:|:---------:|:-------:|:--------:|:--------:|
+| $O(n)$  | $O(n^2)$     | $O(n^2)$  | $O(1)$      | Yes    |
 
-- The worst-case time complexity of bubble sort is O(n x n) = O(n^2)
-- The best-case time complexity of bubble sort is O(n).
-- The average case time complexity of bubble sort is O(n/2 x n) = O (n2).
-- The space complexity of bubble sort is O(1).
+- The worst-case time complexity of Bubble Sort is $O(n^2)$.
+- The best-case time complexity of Bubble Sort is $O(n)$.
+- The average case time complexity of Bubble Sort is $O(n^2)$.
+- The space complexity of Bubble Sort is $O(1)$.
 
 ## Pseudo Code
 ```

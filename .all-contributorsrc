@@ -1418,8 +1418,43 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/30055141?v=4",
       "profile": "https://github.com/jklatham",
       "contributions": [
-        "doc",
         "bug"
+        ]
+    },
+    {
+      "login": "Pietrob5",
+      "name": "Pietro Bartolocci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82363996?v=4",
+      "profile": "https://github.com/Pietrob5",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Naveen7003",
+      "name": "Naveen Prajapati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/140879750?v=4",
+      "profile": "https://github.com/Naveen7003",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "MarcusW03",
+      "name": "Billy Marcus Wright",
+      "avatar_url": "https://avatars.githubusercontent.com/u/145816209?v=4",
+      "profile": "https://github.com/MarcusW03",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Raquel-James",
+      "name": "Raquel-James",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121463070?v=4",
+      "profile": "https://github.com/Raquel-James",
+      "contributions": [
+        "doc"
       ]
     }
   ],

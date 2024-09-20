@@ -2,6 +2,7 @@
 <h4 align="center">
     <p>
         <b>English</b> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_it.md">Italiano</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
         <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |
@@ -21,7 +22,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-154-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-157-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -64,17 +65,17 @@ Computer science is the study of computers and computing and their theoretical a
 
 
 ## [Electronic Computer](Electronic%20Computer/readme.md)
-A device that computes, especially a programmable electronic machine that performs high-speed mathematical or logical operations or assembles, stores, correlates, or otherwise processes information.
+A computer is a device designed to perform high-speed mathematical, logical, or data-processing operations. It is a programmable electronic machine that can assemble, store, correlate, and process information efficiently.
 
 ## [Boolean Logic](Boolean%20Logic/readme.md)
-Boolean logic is a branch of mathematics that deals with the values of truth and falsehood. It is a system of logic that uses only two values, 0 and 1, to represent false and true, respectively. It is also known as Boolean algebra, named after George Boole, who first described it in 1854.
+Boolean logic is a branch of mathematics focused on truth values, specifically true and false. It operates with a binary system where 0 represents false and 1 represents true. Known as Boolean algebra, this system was first introduced by George Boole in 1854.
 
 ### Common Boolean Operators
 | Operator | Name |               Description               |
 | :------: | :--: | :-------------------------------------: |
-|    !     | NOT  |    Negates the value of the operand.    |
-|    &&    | AND  | Returns **true** if both operands are true. |
-|   \|\|   |  OR  | Returns **true** if one or all operands are true. |
+|    !     | NOT  | Negates (inverts) the value of the operand.   |
+|    &&    | AND  | Returns true if both operands are true. |
+|   \|\|   |  OR  | Returns true if at least one operand is true. |
 
 ### Nice to know Boolean Operators
 | Operator | Name |               Description               |
@@ -122,17 +123,17 @@ Number systems are mathematical systems for expressing numbers. A number system 
 
 
 ### Importance Of Binary
-Binary is a base-2 number system invented by Gottfried Leibniz that's made up of only two numbers or digits: 0 (zero) and 1 (one). This numbering system is the basis for all binary code, which is used to write digital data such as the computer processor instructions used every day. The 0s and 1s in binary represent OFF or ON, respectively. In a transistor, a "0" represents no flow of electricity, and a "1" represents electricity is allowed to flow. In this way, numbers are represented physically inside the computing device, permitting calculations.
+Binary is a base-2 number system, invented by Gottfried Leibniz, consisting of only two digits: 0 and 1. This system is fundamental to all binary code, which is used to encode digital data, including computer processor instructions. In binary, the digits represent states: 0 corresponds to "OFF," and 1 corresponds to "ON."
 
- 
-Binary is still the primary language for computers and is used with electronics and computer hardware for the following reasons:
+In transistors, a "0" indicates no flow of electricity, while a "1" signifies that electricity is flowing. This physical representation of numbers enables computers to perform calculations and operations efficiently.
 
-- It is a simple and elegant design.
-- Binary's 0 and 1 method is quick to detect an electrical signal's off (false) or on (true) state.
-- Having only two states placed far apart in an electrical signal makes it less susceptible to electrical interference.
-- The positive and negative poles of magnetic media are quickly translated to binary.
-- Binary is the most efficient way to control logic circuits.
+Binary remains the core language of computers and is used in electronics and hardware for several key reasons:
 
+- Simplicity and Efficiency: The binary system offers an elegant and straightforward design.
+- Signal Detection: Binary's use of 0 and 1 makes it easy to detect whether an electrical signal is off     (false) or on (true).
+- Resistance to Interference: With only two distinct states, binary signals are less susceptible to electrical interference.
+- Magnetic Translation: The positive and negative poles of magnetic media are easily converted into binary.
+- Logic Circuit Efficiency: Binary is the most effective system for controlling logic circuits.
 
 
 ## [Central Processing Unit (CPU)](CPU/readme.md#central-processing-unitcpu)
@@ -327,7 +328,7 @@ Some common time complexities are :
 |   :---:        |  :---:      |  :---: 	   |   :---: 	   |   :---:          |
 |  	             | Best	       | Average	   |  Worst	     |  Worst           |
 | Selection Sort | Ω(n^2)	     | θ(n^2)	     | O(n^2)	     | O(1)             |
-| Bubble Sort	 | Ω(n)	         | θ(n^2)	     | O(n^2)	     | O(1)             |
+| Bubble Sort	   | Ω(n)	       | θ(n^2)	     | O(n^2)	     | O(1)             |
 | Insertion Sort | Ω(n)	       | θ(n^2)	     | O(n^2)	     | O(1)             |
 | Heap Sort	     | Ω(n log(n)) | θ(n log(n)) | O(n log(n)) | O(1)             |
 | Quick Sort	   | Ω(n log(n)) | θ(n log(n)) | O(n^2)	     | O(n)             |
@@ -733,42 +734,41 @@ Major file systems include the following:
 
 
 ## [Cloud Computing](Cloud%20Computing/Readme.md)
-Cloud computing is the ability to access information and applications over the Internet. Cloud computing allows users to access applications and data from any location with an Internet connection.
 
-Cloud computing is a type of Internet-based computing that provides shared computer processing resources and data to computers and other devices on demand.
+Cloud computing is a type of Internet-based computing that provides shared computer processing resources and data to computers and other devices on demand. It also allows authorized users and systems to access applications and data from any location with an internet connection.
 
 It is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.
  
- ### Top benefits of cloud computing
+ ### Top benefits of Cloud Computing
  
 Cloud computing is a big shift from how businesses think about IT resources. Here are seven common reasons organizations are turning to cloud computing services:
 
 
-Cost
+#### Cost
 Cloud computing eliminates the capital expense of buying hardware and software and setting up and running on-site data centers—the racks of servers, the round-the-clock electricity for power and cooling, and the IT experts for managing the infrastructure. It adds up fast.
 
 
-Speed
+#### Speed
 Most cloud computing services are provided self-service and on demand, so even vast amounts of computing resources can be provisioned in minutes, typically with just a few mouse clicks, giving businesses a lot of flexibility and taking the pressure off capacity planning.
 
 
-Global scale
+#### Global scale
 The benefits of cloud computing services include the ability to scale elastically. In cloud speak, that means delivering the right amount of IT resources—for example, more or less computing power, storage, and bandwidth—right when it is needed and from the right geographic location.
 
 
-Productivity
+#### Productivity
 On-site data centers typically require a lot of "racking and stacking"—hardware setup, software patching, and other time-consuming IT management chores. Cloud computing removes the need for many of these tasks, so IT teams can spend time on achieving more important business goals.
 
 
-Performance
+#### Performance
 The biggest cloud computing services run on a worldwide network of secure data centers, which are regularly upgraded to the latest generation of fast and efficient computing hardware. This offers several benefits over a single corporate data center, including reduced network latency for applications and greater economies of scale.
 
 
-Reliability
+#### Reliability
 Cloud computing makes data backup, disaster recovery, and business continuity easier and less expensive because data can be mirrored at multiple redundant sites on the cloud provider's network.
 
 
-Security
+#### Security
 Many cloud providers offer a broad set of policies, technologies, and controls that strengthen your security posture overall, helping protect your data, apps, and infrastructure from potential threats.
 
 ### Types of Cloud Computing Services
@@ -848,7 +848,7 @@ Practical applications of Neural Networks:
 
 ### Deep learning
 
-Deep learning networks are neural networks with many layers. The layered network can process extensive amounts of data and determine the “weight” of each link in the network — for example, in an image recognition system, some layers of the neural network might detect individual features of a face, like eyes, nose, or mouth, while another layer would be able to tell whether those features appear in a way that indicates a face.  
+Deep learning networks are advanced neural networks with multiple layers. These layered networks can process vast amounts of data and adjust the "weights" of each connection within the network. For example, in an image recognition system, certain layers of the neural network might detect individual facial features like eyes, nose, or mouth. Another layer would then analyze whether these features are arranged in a way that identifies a face.  
 
 Practical applications of Deep Learning:
 1. **Automatic Text Generation –** Corpus of text is learned, and from this model, new text is generated, word-by-word or character-by-character. Then this model is capable of learning how to spell, punctuate, and form sentences, or it may even capture the style.
@@ -1010,17 +1010,23 @@ Popular DBMS Software
 
 Here is the list of some popular DBMS systems:
 
-*   MySQL
-*   Microsoft Access
-*   Oracle
-*   PostgreSQL
-*   dBASE
-*   FoxPro
-*   SQLite
-*   IBM DB2
-*   LibreOffice Base
-*   MariaDB
-*   Microsoft SQL Server etc.
+*  MySQL
+*  Microsoft Access
+*  Oracle
+*  PostgreSQL
+*  dBASE
+*  FoxPro
+*  SQLite
+*  IBM DB2
+*  LibreOffice Base
+*  MariaDB
+*  Microsoft SQL Server
+*  Amazon RDS
+*  MongoDB
+*  Cassandra
+*  Redis
+*  Firebird
+
 
 ## [Cryptography](Cryptography/readme.md#cryptography)
 Cryptography is a technique to secure data and communication. It is a method of protecting information and communications through the use of codes so that only those for whom the information is intended can read and process it. Cryptography is used to protect data in transit, at rest, and in use. The prefix _crypt_ means "hidden" or "secret", and the suffix _graphy_ means "writing".
@@ -1063,7 +1069,7 @@ The alphabet of a formal language consists of symbols, letters, or tokens that c
 In computer science, formal languages are used, among others, as the basis for defining the grammar of programming languages and formalized versions of subsets of natural languages in which the words of the language represent concepts that are associated with particular meanings or semantics. In computational complexity theory, decision problems are typically defined as formal languages and complexity classes are defined as the sets of formal languages that can be parsed by machines with limited computational power. In logic and the foundations of mathematics, formal languages are used to represent the syntax of axiomatic systems, and mathematical formalism is the philosophy that all mathematics can be reduced to the syntactic manipulation of formal languages in this way. 
 
 ### Computability Theory
-Computability theory, also known as recursion theory, is a branch of mathematical logic, computer science, and the theory of computation that originated in the 1930s with the study of computable functions and Turing degrees. The field has since expanded to include the study of generalized computability and definability. In these areas, computability theory overlaps with the proof theory and effective descriptive set theory. 
+Computability theory, also known as recursion theory, is a branch of mathematical logic and computer science that began in the 1930s with the study of computable functions and Turing degrees. Since its inception, the field has expanded to encompass the study of generalized computability and definability. In these areas, computability theory intersects with proof theory and effective descriptive set theory, reflecting its broad and interdisciplinary nature.
 
 ### Computational complexity theory
 In theoretical computer science and mathematics, computational complexity theory focuses on classifying computational problems according to their resource usage and relating these classes to each other. A computational problem is a task solved by a computer. A computation problem is solvable by a mechanical application of mathematical steps, such as an algorithm.
@@ -1286,6 +1292,12 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/shaanrxx"><img src="https://avatars.githubusercontent.com/u/62669918?v=4?s=50" width="50px;" alt="Shaan Rehsi"/><br /><sub><b>Shaan Rehsi</b></sub></a><br /><a href="#content-shaanrxx" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/mjung1"><img src="https://avatars.githubusercontent.com/u/86390269?v=4?s=50" width="50px;" alt="mjung1"/><br /><sub><b>mjung1</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=mjung1" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/jklatham"><img src="https://avatars.githubusercontent.com/u/30055141?v=4?s=50" width="50px;" alt="Joshua Latham"/><br /><sub><b>Joshua Latham</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=jklatham" title="Documentation">📖</a> <a href="https://github.com/shhossain/computer_science/issues?q=author%3Ajklatham" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Pietrob5"><img src="https://avatars.githubusercontent.com/u/82363996?v=4?s=50" width="50px;" alt="Pietro Bartolocci"/><br /><sub><b>Pietro Bartolocci</b></sub></a><br /><a href="#content-Pietrob5" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Naveen7003"><img src="https://avatars.githubusercontent.com/u/140879750?v=4?s=50" width="50px;" alt="Naveen Prajapati"/><br /><sub><b>Naveen Prajapati</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Naveen7003" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/MarcusW03"><img src="https://avatars.githubusercontent.com/u/145816209?v=4?s=50" width="50px;" alt="Billy Marcus Wright"/><br /><sub><b>Billy Marcus Wright</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=MarcusW03" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Raquel-James"><img src="https://avatars.githubusercontent.com/u/121463070?v=4?s=50" width="50px;" alt="Raquel-James"/><br /><sub><b>Raquel-James</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Raquel-James" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
@@ -1303,5 +1315,5 @@ Closely related fields in theoretical computer science are the analysis of algor
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-104-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-157-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->

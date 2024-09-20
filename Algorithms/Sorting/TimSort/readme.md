@@ -5,8 +5,8 @@ TimSort is a sorting algorithm based on Insertion Sort and Merge Sort. It is use
 ## Complexity
 
 | Best | Average  | Worst    | Memory | Stable |
-| ---- | -------- | -------- | ------ | ------ |
-| n    | n log(n) | n log(n) | n      | Yes    |
+|:----:|:--------:|:--------:|:------:|:------:|
+| $O(n)$    | $O(n*log(n))$ | $O(n*log(n))$ | $O(n)$     | Yes    |
 
 ## Algorithm
 

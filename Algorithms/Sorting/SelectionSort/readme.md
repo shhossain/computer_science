@@ -1,15 +1,15 @@
 # Selection Sort
-Selection Sort is a sorting algorithm, specifically an in-place comparison sort. It has O(n2) time complexity, making it inefficient on large lists, and generally performs worse than the similar insertion sort. Selection sort is noted for its simplicity, and it has performance advantages over more complicated algorithms in certain situations, particularly where auxiliary memory is limited.
+Selection Sort is a sorting algorithm, specifically an in-place comparison sort. It has $O(n^2)$ time complexity, making it inefficient on large lists, and generally performs worse than the similar insertion sort. Selection sort is noted for its simplicity, and it has performance advantages over more complicated algorithms in certain situations, particularly where auxiliary memory is limited.
 
 ## Complexity
-| Best | Average | Worst | Memory | Stable |
-|------|---------|-------|--------|--------|
-| n^2  | n^2     | n^2   | 1      | No     |
+|  Best  | Average | Worst | Memory | Stable |
+|:--------:|:---------:|:-------:|:--------:|:--------:|
+|  $O(n^2)$ |  $O(n^2)$  | $O(n^2)$ | $O(1)$  |   No   |
 
-- The worst-case time complexity of heap sort is O(n^2).
-- The best-case time complexity of heap sort is O(n^2).
-- The average case time complexity of heap sort is O(n^2).
-- The space complexity of heap sort is O(1).
+- The worst-case time complexity of Selection Sort is O($n^2$).
+- The best-case time complexity of Selection Sort is O($n^2$).
+- The average case time complexity of Selection Sort is O($n^2$).
+- The space complexity of Selection Sort is O(1).
 
 ## Pseudo Code
 ```

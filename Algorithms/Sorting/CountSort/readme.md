@@ -3,13 +3,13 @@ Counting sort is a sorting algorithm that sorts the elements of an array by coun
 
 ## Complexity
 | Best   | Average | Worst  | Memory | Stable |
-|--------|---------|--------|--------|--------|
-| O(n+k) | O(n+k)  | O(n+k) | O(max) | Yes    |
+|:--------:|:---------:|:--------:|:--------:|:-------:|
+| $O(n+k)$ | $O(n+k)$  | $O(n+k)$ | $O(n+k)$ | Yes    |
 
-- The worst-case time complexity of counting sort is O(n^k)
-- The best-case time complexity of counting sort is O(n).
-- The average case time complexity of counting sort is O(n+k)
-- The space complexity of counting sort is O(k).
+- The worst-case time complexity of Counting Sort is $O(n+k)$.
+- The best-case time complexity of Counting Sort is $O(n+k)$.
+- The average case time complexity of Counting Sort is $O(n+k)$.
+- The space complexity of Counting Sort is $O(n+k)$.
 
 ## Pseudo Code
 ```

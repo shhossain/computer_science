@@ -22,7 +22,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-155-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-156-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1294,6 +1294,7 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/mjung1"><img src="https://avatars.githubusercontent.com/u/86390269?v=4?s=50" width="50px;" alt="mjung1"/><br /><sub><b>mjung1</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=mjung1" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Pietrob5"><img src="https://avatars.githubusercontent.com/u/82363996?v=4?s=50" width="50px;" alt="Pietro Bartolocci"/><br /><sub><b>Pietro Bartolocci</b></sub></a><br /><a href="#content-Pietrob5" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Naveen7003"><img src="https://avatars.githubusercontent.com/u/140879750?v=4?s=50" width="50px;" alt="Naveen Prajapati"/><br /><sub><b>Naveen Prajapati</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Naveen7003" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/MarcusW03"><img src="https://avatars.githubusercontent.com/u/145816209?v=4?s=50" width="50px;" alt="Billy Marcus Wright"/><br /><sub><b>Billy Marcus Wright</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=MarcusW03" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

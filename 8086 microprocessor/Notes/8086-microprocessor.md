@@ -1,4 +1,4 @@
-# 8086 MICROPROCESSOR
+# [8086 MICROPROCESSOR](#8086-microprocessor)
 The 8086 microprocessor is an **8-bit/16-bit** microprocessor designed by Intel in the late 1970s. It is the first member of the x86 family of microprocessors, which includes many popular CPUs used in personal computers. It was followed by 80186, 80286…80486 with increasing speed, memory, register size etc.
 The 8086 microprocessor has a 20-bit address bus, which can address up to 1 MB of memory, and a 16-bit data bus, which can transfer data between the microprocessor and memory or I/O devices.
 The 8086 microprocessor has a segmented memory architecture, which means that memory is divided into segments that are addressed using both a segment register and an offset. The segment register points to the start of a segment, while the offset specifies the location of a specific byte within the segment. This allows the 8086 microprocessor to access large amounts of memory, while still using a 16-bit registers and data bus.

@@ -1,4 +1,4 @@
-Types of Programming Languages
+# Types of Programming Languages
 
 The computer language is defined as code or syntax which is used to write computer programs or any specific applications. The computer language is used to communicate with computers. Broadly the computer language can be classified into types:
 •	Machine language

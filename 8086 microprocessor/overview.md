@@ -1,4 +1,4 @@
-# 8086 Microprocessor
+# Overview
 
 The 8086 microprocessor, developed by Intel in 1978, is a 16-bit processor that laid the foundation for modern x86 architecture. It was a significant advancement from earlier 8-bit microprocessors like the Intel 8080 and 8085, offering higher performance, larger memory addressing, and support for more complex instructions.
 

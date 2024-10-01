@@ -31,7 +31,7 @@ Quelques langages de script incluent :
 - [Go](https://www.go.dev/) 
 - [Swift](https://developer.apple.com/swift/) 
 
-### Paradigmes de Langages de Programmation 
+### Paradigmes de Langages de Programmation
 
 Les langages de programmation sont également souvent classés en plusieurs _paradigmes de programmation_ différents. Les paradigmes de programmation sont des façons ou styles différents selon lesquels un programme ou un langage de programmation peut être organisé. Chaque paradigme comporte certaines structures, fonctionnalités et opinions sur la manière dont les problèmes courants de programmation doivent être abordés.
 

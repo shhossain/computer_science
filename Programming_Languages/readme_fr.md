@@ -1,85 +1,83 @@
 # Langages de programmation
 
-On peut distinguer deux types de langages de programmation :
+>On peut distinguer deux types de langages de programmation :
 
-1. Les langages dit de "haut-niveau" qui utilisent une syntaxe proche du langage humain. Le code source y est plus intelligible et il est compilé en code executable via un compilateur ou un interpréteur. Java et Python sont deux exemples de langages de "haut-niveau".
+1. Les langages dit de "haut-niveau" qui utilisent une syntaxe proche du langage humain. Le code source y est plus intelligible et il est compilé en code executable via un compilateur ou un interpréteur. Java et Python sont deux exemples de langages de "haut-niveau". Ceux-ci sont généralement plus lents que les langages de bas niveau, mais cela s'accompagne d'une plus grande facilité. 
+2. Les langages de programmation de bas niveau fonctionnent plus étroitement avec le matériel et offrent plus de contrôle sur celui-ci. Ils interagissent directement avec le matériel. Deux exemples courants de langages de bas niveau sont le langage machine et le langage assembleur. Ceux-ci sont généralement plus rapides que les langages de haut niveau, mais cela se fait au prix d'une grande complexité.
 
-<!-- TODO : These are usually slower than Low-level, but it comes with being easier.
-2. Low-level programming languages work more closely with the hardware and have more control over it. They directly interact with the hardware. Two common examples of low-level languages are machine language and assembly language. These are usually faster than High-level, but it comes at the cost of very great difficulty.
+Quelques langages incluent : 
 
-Some Languages Include:
-
-- [Python](https://www.python.org)
-- [Java](https://www.java.com/)
-- [JavaScript](https://www.javascript.com/)
-- [C++](https://www.cplusplus.com/)
-- [C](No-Website)
-- [C#](No-Website)
-- [Go](https://www.go.dev/)
+- [Python](https://www.python.org) - [Java](https://www.java.com/) 
+- [JavaScript](https://www.javascript.com/) 
+- [C++](https://www.cplusplus.com/) 
+- [C](Pas-de-site-web)
+- [C#](Pas-de-site-web) 
+- [Go](https://www.go.dev/) 
 - [Swift](https://developer.apple.com/swift/)
 
-### Scripting Languages
+### Langages de Script 
 
-A scripting language is a computer language that doesn't have to be compiled. One advantage of Scripting languages is that the code can be quickly edited and can be re-executed. They can be used on the server side of web applications and the client side of web applications.
+Un langage de script est un langage informatique qui n'a pas besoin d'être compilé. Un des avantages des langages de script est que le code peut être rapidement modifié et réexécuté. Ils peuvent être utilisés du côté serveur des applications web et du côté client des applications web.
 
-Some Scripting Languages include:
+Quelques langages de script incluent : 
 
-- [JavaScript](https://www.javascript.com/)
-- [PHP](https://www.php.net/)- [Java](https://www.java.com/)
-- [JavaScript](https://www.javascript.com/)
-- [C++](https://www.cplusplus.com/)
-- [C](No-Website)
-- [C#](No-Website)
-- [Go](https://www.go.dev/)
-- [Swift](https://developer.apple.com/swift/)
+- [JavaScript](https://www.javascript.com/) 
+- [PHP](https://www.php.net/) 
+- [Java](https://www.java.com/) 
+- [JavaScript](https://www.javascript.com/) 
+- [C++](https://www.cplusplus.com/) 
+- [C](Pas-de-siteweb) 
+- [C#](Pas-de-site-web) 
+- [Go](https://www.go.dev/) 
+- [Swift](https://developer.apple.com/swift/) 
 
-### Programming Language Paradigms
+### Paradigmes de Langages de Programmation 
 
-Programming languages are also often classified into several different _programming paradigms_. Programming paradigms are different ways or styles in which a given program or programming language can be organized. Each paradigm consists of certain structures, features, and opinions about how common programming problems should be addressed.
+Les langages de programmation sont également souvent classés en plusieurs _paradigmes de programmation_ différents. Les paradigmes de programmation sont des façons ou styles différents selon lesquels un programme ou un langage de programmation peut être organisé. Chaque paradigme comporte certaines structures, fonctionnalités et opinions sur la manière dont les problèmes courants de programmation doivent être abordés.
 
-Some popular programming paradigms include:
+Quelques paradigmes de programmation populaires incluent : 
 
-- imperative programmming
-- procedural programming
-- functional programming
-- object oriented programming
-- declarative programming
+- programmation impérative 
+- programmation procédurale 
+- programmation fonctionnelle 
+- programmation orientée objet 
+- programmation déclarative 
 
-**Imperative programming**: Imperative programming consists of sets of detailed instructions that are given to the computer to execute in a given order. It's called "impeerative" because as programmers we dictate exactly what the computer has to do, in a very specific way, step by step. An example of imperative programming might look like this:
+**Programmation impérative** : La programmation impérative consiste en un ensemble d'instructions détaillées données à l'ordinateur pour être exécutées dans un ordre précis. On l'appelle "impérative" parce que, en tant que programmeurs, nous dictons exactement ce que l'ordinateur doit faire, de manière très spécifique, étape par étape. Un exemple de programmation impérative pourrait ressembler à ceci : 
 
-```javascript
-const nums = [1, 4, 3, 6, 7, 8, 9, 2];
+```javascript 
+const nums = [1, 4, 3, 6, 7, 8, 9, 2]; 
 const result = [];
 
 for (let i = 0; i < nums.length; i++) {
   if (nums[i] > 5) result.push(nums[i]);
 }
-console.log(result); // Output: [6,7,8,9]
+console.log(result); // Sortie : [6,7,8,9] 
 ```
 
-We are telling the program to iterate through each element in the array, compare the item value with 5, push it into an array. We're being detailed and specific in our instructions, which is what imperative programming stands for.
+Nous demandons au programme de parcourir chaque élément du tableau, de comparer la valeur de l'élément avec 5, et de l'ajouter à un tableau. Nous donnons des instructions détaillées et spécifiques, ce qui est typique de la programmation impérative. 
 
-**Procedural programming**: Prodecural programming is a derivation of imperative programming, adding to it the features of functions (also known as "prodecures or "subroutines"). In procedural programming, the user is encouragd to subdivide the program execution into proecudures, as a way of improving modularity and organization.
+**Programmation procédurale** : La programmation procédurale est une dérivation de la programmation impérative, y ajoutant les fonctionnalités des fonctions (également appelées "procédures" ou "sous-routines"). En programmation procédurale, l'utilisateur est encouragé à subdiviser l'exécution du programme en procédures, dans le but d'améliorer la modularité et l'organisation. 
 
-**Functional programming**: Functional programming takes the concept of functions a little bit further. Functions are treated as **first-class citizens**, meaning they can be assigned to variables, passed as arguments, and returned from other functions. Functional programming defends the idea that code modularity and the absence of side effects make it easier to identify and separate responsibilities within the codebase. This, therefore, improves code maintainability. Going back to the array filtering example, we can see that with the imperative paradigm, we might use an external variable to store the function's result, which can be considered a side effect.
+**Programmation fonctionnelle** : La programmation fonctionnelle pousse le concept de fonctions un peu plus loin. Les fonctions sont traitées comme des **citoyens de première classe**, ce qui signifie qu'elles peuvent être assignées à des variables, passées comme arguments, et retournées par d'autres fonctions. La programmation fonctionnelle défend l'idée que la modularité du code et l'absence d'effets secondaires facilitent l'identification et la séparation des responsabilités au sein du code. Cela améliore ainsi la maintenabilité du code. Revenons à l'exemple du filtrage de tableau ; dans le paradigme impératif, nous pourrions utiliser une variable externe pour stocker le résultat de la fonction, ce qui peut être considéré comme un effet secondaire. 
 
-```javascript
+```javascript 
 const nums = [1, 4, 3, 6, 7, 8, 9, 2];
-const result = []; // External variable
+const result = []; // Variable externe
 
-for (let i = 0; i < nums.length; i++) {
-  if (nums[i] > 5) result.push(nums[i]);
-}
-console.log(result); //Output: [ 6,7,8,9 ]
-```
+for (let i = 0; i < nums.length; i++) { 
+  if (nums[i] > 5) result.push(nums[i]); 
+} 
+console.log(result); // Sortie : [6,7,8,9] 
+``` 
 
-To transform this into a functional idiom, we could do it like this:
+Pour transformer cela en un idiome fonctionnel, nous pourrions procéder ainsi :
 
 ```javascript
 const nums = [1, 2, 3, 6, 7, 8, 9, 2];
 
 function filterNums() {
-  const result = []; // Internal variable
+  const result = []; // Variable interne
 
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] > 5) result.push(nums[i]);
@@ -87,14 +85,14 @@ function filterNums() {
   return result;
 }
 
-console.log(filterNums()); // Output: [ 6,7,8,9 ]
+console.log(filterNums()); // Sortie: [ 6,7,8,9 ]
 ```
 
-It is almost the same code, but we wrap our iteration within a function, in which we also store the result array. In this way, we can assure the function doesn't modify anything outside its scope. It only creates a variable to process its own information, and once the execution is finished, the variable is gone too.
+Le code est presque le même, mais nous encapsulons notre itération dans une fonction, dans laquelle nous stockons également le tableau de résultats. De cette façon, nous pouvons nous assurer que la fonction ne modifie rien en dehors de sa portée. Elle ne crée qu'une variable pour traiter ses propres informations, et une fois l'exécution terminée, la variable disparaît également.
 
-**Declarative Programming**: Declarative programming is all about hiding away complexity and bringing programming languages closer to human language and thinking. It's the direct opposite of imperative programming in the sense that the programmer doesn't give instructions about _how_ the computer should execute its task,, but rather _what_ result is needed.
+**Programmation déclarative** : La programmation déclarative consiste à masquer la complexité et à rapprocher les langages de programmation du langage humain et de la réflexion humaine. C'est l'opposé direct de la programmation impérative dans le sens où le programmeur ne donne pas d'instructions sur _comment_ l'ordinateur doit exécuter sa tâche, mais plutôt sur _quel_ résultat est nécessaire. Cela sera beaucoup plus clair avec un exemple. 
 
-This will be much clearer with an example. Following the same array filtering story, a declarative approach might be:
+En suivant la même histoire de filtrage de tableau, une approche déclarative pourrait être : 
 
 ```javascript
 const nums = [1, 4, 3, 6, 7, 8, 9, 2];
@@ -102,9 +100,8 @@ const nums = [1, 4, 3, 6, 7, 8, 9, 2];
 comsole.log(nums.filter((num) => num > 5)); //
 ```
 
-See that with the filter function, we're not explicitly telling the computer to iterate over the array or store the values in a separate array. we just say what we want ("filter") and the condition to meet ("num > 5).
+On voit qu'avec la fonction `filter`, nous ne disons pas explicitement à l'ordinateur de parcourir le tableau ou de stocker les valeurs dans un tableau séparé. Nous disons simplement ce que nous voulons ("filter") et la condition à remplir ("num > 5"). 
 
-**Object Oriented Programming**: One of the most popular programming paradigms is object-oriented programming (OOP). The core concept of OOP is to separate concerns into entities which are coded
-as objects, Each entity will group a given set of information (properties) and actions (methods) that can be performed by the entity.
+**Programmation orientée objet** : L'un des paradigmes de programmation les plus populaires est la programmation orientée objet (POO). Le concept central de la POO est de séparer les préoccupations en entités codées sous forme d'objets. Chaque entité regroupe un ensemble d'informations (propriétés) et d'actions (méthodes) qui peuvent être réalisées par l'entité. 
 
-OOP makes heavy use of classes, which are a way of creating new objects starting out from a blueprint or boilerplate that the programmer sets. Objects that are created from a class are called instances. -->
+La POO utilise largement les classes, qui sont une manière de créer de nouveaux objets à partir d'un modèle ou d'une structure prédéfinie que le programmeur définit. Les objets créés à partir d'une classe sont appelés des instances. 

@@ -1419,7 +1419,7 @@
       "profile": "https://github.com/jklatham",
       "contributions": [
         "bug"
-        ]
+      ]
     },
     {
       "login": "Pietrob5",
@@ -1453,6 +1453,15 @@
       "name": "Raquel-James",
       "avatar_url": "https://avatars.githubusercontent.com/u/121463070?v=4",
       "profile": "https://github.com/Raquel-James",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Ionfinisher",
+      "name": "Teddy ASSIH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110066080?v=4",
+      "profile": "https://teddy-assih-portfolio.vercel.app/",
       "contributions": [
         "doc"
       ]

@@ -57,6 +57,7 @@ If you're interested in contributing to this project, please take a moment to re
 - [DBMS(Database Management System)](#dbms)
 - [Cryptography](#cryptography)
 - [Theory of Computation](#theory-of-computation)
+- [8086 Microprocessor](#8086-microprocessor)
 
 
 ## Introduction
@@ -1077,6 +1078,1005 @@ In theoretical computer science and mathematics, computational complexity theory
 A problem is regarded as inherently difficult if its solution requires significant resources, whatever the algorithm used. The theory formalizes this intuition by introducing mathematical models of computation to study these problems and quantifying their computational complexity, i.e., the number of resources needed to solve them, such as time and storage. Other measures of complexity are also used, such as the amount of communication (used in communication complexity), the number of gates in a circuit (used in circuit complexity), and the number of processors (used in parallel computing). One of the roles of computational complexity theory is to determine the practical limits on what computers can and cannot do. The P versus NP problem, one of the seven Millennium Prize Problems, is dedicated to the field of computational complexity.
 
 Closely related fields in theoretical computer science are the analysis of algorithms and computability theory. A key distinction between the analysis of algorithms and computational complexity theory is that the former is devoted to analyzing the number of resources needed by a particular algorithm to solve a problem, whereas the latter asks a more general question about all possible algorithms that could be used to solve the same problem. More precisely, computational complexity theory tries to classify problems that can or cannot be solved with appropriately restricted resources. In turn, imposing restrictions on the available resources is what distinguishes computational complexity from computability theory: the latter theory asks what kinds of problems can, in principle, be solved algorithmically. 
+
+
+
+# [8086 Microprocessor](#8086-microprocessor)
+
+The 8086 microprocessor, developed by Intel in 1978, is a 16-bit processor that laid the foundation for modern x86 architecture. It was a significant advancement from earlier 8-bit microprocessors like the Intel 8080 and 8085, offering higher performance, larger memory addressing, and support for more complex instructions.
+
+Key Features:
+1. 16-bit Architecture: The 8086 is a 16-bit processor, meaning it can process 16 bits of data simultaneously. This was a  major upgrade over its predecessors, which were 8-bit.
+
+2. Memory Addressing: The 8086 can address up to 1 MB of memory using segmented memory addressing. It uses four segment   registers (Code, Data, Stack, Extra) to access memory, dividing it into 64 KB segments.
+
+3. Registers: It has a set of 16-bit registers, including:
+
+**AX** (Accumulator): Used for arithmetic and data transfer.
+
+**BX** (Base Register): Primarily for addressing.
+
+**CX** (Count Register): Often used in loop and shift/rotate instructions.
+
+**DX** (Data Register): Used for I/O operations and extended precision arithmetic. Other registers include ``SI, DI, BP, SP, IP, and flag registers``.
+
+4. Instruction Set: The 8086 supports a robust instruction set with instructions for data transfer, arithmetic, logic, control, and string manipulation.
+
+5. Pipelining: It introduced a form of pipelining with its fetch-decode-execute cycle, allowing it to fetch the next instruction while executing the current one, improving performance.
+
+6. Clock Speed: The 8086 operated at a clock speed between 5 MHz and 10 MHz, which was fast for its time.
+
+7. Bus Architecture: It uses a 16-bit data bus and a 20-bit address bus, enabling it to transfer 16 bits of data at a time and access a 1 MB memory space.
+
+### Applications:
+The 8086 was widely used in early personal computers, such as the original IBM PC. Its architecture became the basis for the entire family of Intel processors, including the 80286, 80386, and ultimately, the modern x86 processors used today.
+
+```
+In summary, the Intel 8086 played a crucial role in the evolution of microprocessor technology, setting the stage for future advancements in computer architecture.
+```
+
+## Types of Programming Languages
+
+The computer language is defined as code or syntax which is used to write computer programs or any specific applications. The computer language is used to communicate with computers. Broadly the computer language can be classified into types:
+
+•	Machine language
+
+•	Assembly language
+
+•	High-level language.
+
+1.	Machine Language
+The machine language is considered as oldest computer language among all three. In machine language, the input is directly given as binary input which is processed by the machine. Binary inputs mean one and zero form. For computer language processing the system needs compiler and interpreter to convert the language in computer language so that it can be processed by a machine (the computer).
+The machine language is sometimes referred to as machine code or object code which is set of binary digits 0 and 1. These binary digits are understood and read by a computer system and interpret it easily. It is considered a native language as it can be directly understood by a central processing unit (CPU). The machine language is not so easy to understand, as the language uses the binary system in which the commands are written in 1 and 0 form which is not easy to interpret. There is only one language which is understood by computer language which is machine language. The operating system of the computer system is used to identify the exact machine language used for that particular system.
+The operating system defines how the program should write so that it can be converted to machine language and the system takes appropriate action. The computer programs and scripts can also be written in other programming languages like C, C++, and JAVA. However, these languages cannot be directly understood by a computer system so there is a need for a program that can convert these computer programs to machine language. The compiler is used to convert the programs to machine language which can be easily understood by computer systems. The compiler generates the binary file and executable file.
+Example of machine language for the text “Hello World”.
+01001000 0110101 01101100 01101100 01101111 00100000 01010111 01101111 01110010 01101100 01100100.
+2. Assembly Language
+The assembly language is considered a low-level language for microprocessors and many other programmable devices. The assembly language is also considered as second-generation language. The first generation language is machine language. The assembly language is mostly famous for writing an operating system and also in writing different desktop applications. The operations carried out by programmers using assembly language are memory management, registry access, and clock cycle operations. The drawback of assembly language is the code cannot be reused and the language is not so easy to understand. The assembly language is considered a group of other languages. It is used to implements the symbolic representation of machine code which is used to program CPU architecture. The other name of assembly language is assembly code. For any processor, the most used programming language is assembly language.
+In assembly language, the programmer does the operation which can be directly executed on a central processing unit (CPU). The language has certain drawbacks as it does not contain any variables or functions in programs and also the program is not portable on different processors. The assembly language uses the same structure and commands which machine language does use but it uses names in place of numbers. The operations performed using the assembly language is very fast. The operations are much faster when it is compared to high-level language.
+3. ## High-Level Language
+The development of high-level language was done when the programmers face the issue in writing programs as the older language has portability issues which mean the code written in one machine cannot be transferred to other machines. Thus lead to the development of high-level language. The high-level language is easy to understand and the code can be written easily as the programs written are user-friendly in a high-level language. The other advantage of code written in a high-level language is the code is independent of a computer system which means the code can be transferred to other machines. The high-level of language uses the concept of abstraction and also focus on programming language rather than focusing on computer hardware components like register utilization or memory utilization.
+Differences between Machine Language and Assembly Language:
+Machine Language	Assembly Language
+Machine language is only understand by the computers.	Assembly language is only understand by human beings not by the computers.
+In machine language data only represented with the help of binary format(0s and 1s), hexadecimal and octadecimal.	In assembly language data can be represented with the help of mnemonics such as Mov, Add, Sub, End etc.
+Machine language is very difficult to understand by the human beings.	Assembly language is easy to understand by the human being as compare to machine language.
+Modifications and error fixing cannot be done in machine language.	Modifications and error fixing can be done in assembly language.
+Machine language is very difficult to memorize so it is not possible to learn the machine language.	Easy to memorize the assembly language because some alphabets and mnemonics are used.
+Execution is fast in machine language because all data is already present in binary format.	Execution is slow as compared to machine language.
+There is no need of translator.The machine understandable form is the machine language.	Assembler is used as translator to convert mnemonics into machine understandable form.
+Machine language is hardware dependent.	Assembly language is the machine dependent and it is not portable.
+
+Language Processors: Assembler, Compiler and Interpreter
+
+Compilers, interpreters, translate programs written in high-level languages into machine code that a computer understands. And assemblers translate programs written in low-level or assembly language into machine code. In the compilation process, there are several stages. To help programmers write error-free code, tools are available.
+Assembly language is machine-dependent, yet mnemonics(eg MOV, ADD) used to represent instructions in it are not directly understandable by machine and high-Level language is machine-independent. A computer understands instructions in machine code, i.e. in the form of 0s and 1s. It is a tedious task to write a computer program directly in machine code. The programs are written mostly in high-level languages like Java, C++, Python etc. and are called source code. These source code cannot be executed directly by the computer and must be converted into machine language to be executed. Hence, a special translator system software is used to translate the program written in a high-level language into machine code is called Language Processor and the program after translated into machine code (object program/object code).  
+
+
+
+The language processors can be any of the following three types:  
+1.	Compiler : 
+
+The language processor that reads the complete source program written in high-level language as a whole in one go and translates it into an equivalent program in machine language is called a Compiler.  Example: C, C++, C#, Java.   
+In a compiler, the source code is translated to object code successfully if it is free of errors. The compiler specifies the errors at the end of the compilation with line numbers when there are any errors in the source code. The errors must be removed before the compiler can successfully recompile the source code again
+ 
+ 
+2.	Assembler :
+
+The Assembler is used to translate the program written in Assembly language into machine code. The source program is an input of an assembler that contains assembly language instructions. The output generated by the assembler is the object code or machine code understandable by the computer. Assembler is basically the 1st interface that is able to communicate humans with the machine. We need an Assembler to fill the gap between human and machine so that they can communicate with each other. code written in assembly language is some sort of mnemonics(instructions) like ADD, MUL, MUX, SUB, DIV, MOV and so on. And the assembler is basically able to convert these mnemonics in to binary code. Here, these mnemonics also depend upon the architecture of the machine. 
+For example, the architecture of Intel 8085 and Intel 8086 are different even as they are made by the same manufacturer.
+
+ 
+ 
+3.	Interpreter : 
+
+The translation of a single statement of the source program into machine code is done by a language processor and executes immediately before moving on to the next line is called an interpreter. If there is an error in the statement, the interpreter terminates its translating process at that statement and displays an error message. The interpreter moves on to the next line for execution only after the removal of the error. An Interpreter directly executes instructions written in a programming or scripting language without previously converting them to an object code or machine code.            
+Example: Perl, Python and Matlab.
+ 
+ 
+
+
+
+## Difference between Compiler and Interpreter – 
+ 
+```
+--> Compiler	Interpreter
+A compiler is a program that converts the entire source code of a programming language into executable machine code for a CPU. 
+
+--> An interpreter takes a source program and runs it line by line, translating each line as it comes to it.
+
+--> The compiler takes a large amount of time to analyze the entire source code but the overall execution time of the program is comparatively faster.
+
+--> An interpreter takes less amount of time to analyze the source code but the overall execution time of the program is slower.
+
+--> The compiler generates the error message only after scanning the whole program, so debugging is comparatively hard as the error can be present anywhere in the program. 
+
+--> Interpreter: Its Debugging is easier as it continues translating the program until the error is met.
+
+--> The compiler requires a lot of memory for generating object codes.
+
+--> Interpreter: It requires less memory than a compiler because no object code is generated.
+
+--> Compiler: Generates intermediate object code.
+
+--> Interpreter: No intermediate object code is generated.
+
+--> For Security purpose compiler is more useful.	
+
+--> The interpreter is a little vulnerable in case of security.
+```
+
+# OVERVIEW OF NUMBER SYSTEMS
+
+## Introduction
+ To appreciate how computersystems operate you will need to understand digital logic and Boolean algebra.
+ A digital computer stores data in terms of digits (numbers) and proceeds in discrete steps from one state to the next. The states of a digital computer typically involve binary digits which may take the form of the presence or absence of magnetic markers in a storage medium , on-off switches or relays. In digital computers, even letters, words and whole texts are represented digitally. 
+
+**Digital Logic** is the basis of electronic systems, such as computers and cell phones. Digital Logic is rooted in binary code, a series of zeroes and ones ( example 11011010). This system facilitates the design of electronic circuits that convey information, including logic gates. Digital Logic gate functions include AND, OR and NOT. The value system translates input signals into specific output. Digital Logic facilitates computing, robotics and other electronic applications.
+Digital vs. Analog
+
+The term *digital* refers to the fact that the signal is limited to only a few possible values. In
+general, digits signals are represented by only two possible voltages on a wire - 0 volts (which we call "binary 0", or just "0") and 5 volts (which we call "binary 1", or just "1"). Wesometimes call these values "low" and "high", or "false" and "true".More complicated signals can be constructed from 1s and 0s by stringing them end-to-end, like
+a necklace. If we put three binary digits end-to-end, we have eight possible combinations: 000,001, 010, 011, 100, 101, 110 and 111.
+The number of possible combinations is 2nwhere n is the number of bits.
+Example for 4 bits 24= 16
+
+0	--> 0000
+
+1	--> 0001
+
+2	--> 0010
+
+3	--> 0011
+
+4	--> 0100
+
+5	--> 0101
+
+6--> 0110
+
+7	--> 0111
+
+7	--> 1000
+
+9 --> 1001
+
+10 --> 1010
+
+11 --> 1011
+
+12 --> 1100
+
+13 --> 1101
+
+14 --> 1110
+
+15 --> 1111
+
+ In principle, there is no limit to how many binary digits we can use in a signal, so signals can be as complicated as you like. The figure below shows atypical digital signal, firstly represented as a series of voltage levels that change as time goeson, and then as a series of 1s and 0s.
+ 
+### Figure 1. A digital signal
+
+Analog electronics uses voltages that can be any value (within limits, of course - it's difficult to imagine a radio with voltages of a million volts!) The voltages often change smoothly from one value to the next, like gradually turning a light dimmer switch up or down. The figure below shows an analog signal that changes with time.
+
+ 
+### Figure 2. An analog signal
+Number Systems
+The numeric system we use daily is the decimal system, but this system is not convenient for machines since the information is handled codified in the shape of on or off bits; this way of codifying takes us to the necessity of knowing the positional calculation which will allow us to express a number in any base where we need it.
+The binary number system is a natural choice for representing the behavior of circuits that
+operate in one of two states (on or off, 1 or 0).
+Lets count from zero to ten  using the decimal number system and the binary number system.
+
+
+
+### Decimal	 Binary
+------- ----------
+0  ==	0
+
+1	== 1
+
+2 == 10
+
+3 == 11
+
+4 == 100
+
+5 == 101
+
+6 == 110
+
+7 == 111
+
+8 == 1000
+
+9	== 1001
+
+10 == 1010
+
+``Notice``, though, how much shorter decimal notation is over binary notation, for the same
+number of quantities. What takes five bits in binary notation only takes two digits in decimal
+notation.
+Adding binary numbers is a very simple task, and very similar to the long hand addition of
+decimal numbers. As with decimal numbers, you start by adding the bits (digits) one column, or place weight, at a time, from right to left. Unlike decimal addition, there is little to memorize in the way of rules for the addition of binary bits:
+
+0 + 0 = 0
+
+1 + 0 = 1
+
+0 + 1 = 1
+
+1 + 1 = 10
+
+1 + 1 + 1 = 11
+
+Just as with decimal addition, when the sum in one column is a two-bit (two-digit) number, the least significant figure is written as part of the total sum and the most significant figure is "carried" to the next left column. Consider the following examples:
+ 
+
+Radix number systems
+The numeric system we use daily is the decimal system, but this system is not convenient for machines since the information is handled codified in the shape of on or off bits; this way of codifying takes us to the necessity of knowing the positional calculation which will allow us to express a number in any base where we need it.
+A base of a number system or radix defines the range of values that a digit may have.
+In the binary system or base 2, there can be only two values for each digit of a number, either a "0" or a "1".
+In the octal system or base 8, there can be eight choices for each digit of a number:
+"0", "1", "2", "3", "4", "5", "6", "7".
+In the decimal system or base 10, there are ten different values for each digit of a number:
+"0", "1", "2", "3", "4", "5", "6", "7", "8", "9".
+In the hexadecimal system, we allow 16 values for each digit of a number:
+"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", and "F".
+Where “A” stands for 10, “B” for 11, “C” for 12 and so on up to “F” for 15.
+Conversion among radices
+To convert a number in binary numeration to its equivalent in decimal form, all you have to dois calculate the sum of all the products of bits with their respective place-weight constants. Toillustrate:
+
+Convert 11012 to decimal form:
+bits = 						 1 	1 	 0	 1
+weight ( IN DECIMAL NOTATION) =	8 	4	 2	 1
+
+The bit on the far right side is called the Least Significant Bit (LSB), because it stands in the
+place of the lowest weight (the one's place). The bit on the far left side is called the Most
+Significant Bit (MSB), because it stands in the place of the highest weight. Remember, a bit value of "1" means that the respective place weight gets added to the total value, and a bit value of "0" means that the respective place weight does not get added to the total value.
+
+
+i.e 1x8 + 1x4 +  0x2  + 1x1
+=8 + 4 + 1
+=1310	   ( So 11012 is 1310)
+Convert from Decimal to Any Base
+Let’s think about what you do to obtain each digit. As an example, let's start with a decimal
+ number 1234 and convert it to decimal notation. To extract the last digit, you move the decimal point left by one digit, which means that you divide the given number by its base 10. 
+1234/10 = 123 + 4/10 
+The remainder of 4 is the last digit. To extract the next last digit, you again move the decimal point left by one digit and see what drops out.
+ 123/10 = 12 + 3/10 
+The remainder of 3 is the next last digit. You repeat this process until there is nothing left. 
+Then you stop. In summary, you do the following:
+			Quotient       Remaider
+ 
+Now, let's try a nontrivial example. Let's express a decimal number 1341 in binary notation. Note that the desired base is 2, so we repeatedly divide the given decimal number by 2.
+ 
+
+### The Hexadecimal Number System
+
+Because binary numeration requires so many bits to represent relatively small numbers
+compared to the economy of the decimal system, analyzing the numerical states inside of digital electronic circuitry can be a tedious task. Computer programmers who design sequences of number codes instructing a computer what to do would have a very difficult task if they were forced to work with nothing but long strings of 1's and 0's, the "native language" of any digital circuit. To make it easier for human engineers, technicians, and programmers to "speak" this language of the digital world, other systems of place-weighted numeration have been made which are very easy to convert to and from binary. One of those numeration systems is called octal, because it is a place-weighted system with a base of eight.
+Another is the hexadecimal system which is a place-weighted system with a base of sixteen. Valid digits in hex include the normal decimal symbols 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9, plus six alphabetical characters A, B, C, D, E, and F, to make a total of sixteen. As you might have guessed already,each place weight differs from the one before it by a factor of sixteen.
+
+Let's count again from zero to twenty using decimal, binary and hexadecimal to contrast these systems of numeration:
+
+ 
+ 
+
+
+### OCTAL NUMBER SYSTEM
+
+Octal (base 8) uses 0,1,2,...7 only.
+
+Conversion of Octal to Decimal
+
+3728	= 3x82 +7x81+2x80
+=3x64+7x8+2x1
+=25010
+
+Decimal to Octal
+
+You can convert decimal to Octal using repeated division (by the base which is 8)
+
+Eg. Convert 266 to Octal( base 8)
+
+266/8 	=	33	 + 	remainder 	2 
+
+33/8	 =	 4	+ 	remainder 	1
+
+4/8	=	0	+	remainder	4
+
+26610 	=	412 8
+
+Octal to Binary
+
+•	Advantage ease of conversion
+
+Convert each digit to its binary equivalent.
+
+Eg Convert 4728  to binary ( that is base 2).
+
+4               1002	, 7            1112,	
+2             0102
+
+Pack the binary digits (note you have to use 3 binary digits per octal digit. Eg 2 converts to 10 but you have to write 010.)
+
+So,	 4728 = 1001110102
+
+### Binary to Octal Conversion
+
+•	Group the digits in to 3s from the right and pad with 0s to the left where necessary.
+•	The convert the grouped bits.
+
+
+
+
+
+
+
+Eg     1.  Convert 1001110102to  Octal
+ Solution
+
+Group in to 3 bits 
+
+100,111,010
+
+Convert the grouped bits,
+
+= 4728
+
+2. Convert 110101102 to Octal
+
+```
+Solution
+```
+Group in to 3 bits from the right. You notice that you have to pad (add) leading 0 to the left to have  the last group to have 3 bits.
+
+011,010,110  			3	2	6
+
+011010110 = 3268
+
+### HEXADECIMAL TO DECIMAL CONVERSION
+```
+Eg 1.       35616		= 3x162	+	5x161	+	6x160
+		
+				= 768		+	80	+	6
+		
+				= 85410
+```
+
+```
+Eg 2.	2AF16			=2x162		+	10x161	+	15x160
+
+				= 512	+	160	+	16
+
+				= 68710
+
+```
+
+
+
+# [8086 MICROPROCESSOR](#8086-microprocessor)
+The 8086 microprocessor is an **8-bit/16-bit** microprocessor designed by Intel in the late 1970s. It is the first member of the x86 family of microprocessors, which includes many popular CPUs used in personal computers. It was followed by 80186, 80286…80486 with increasing speed, memory, register size etc.
+The 8086 microprocessor has a 20-bit address bus, which can address up to 1 MB of memory, and a 16-bit data bus, which can transfer data between the microprocessor and memory or I/O devices.
+The 8086 microprocessor has a segmented memory architecture, which means that memory is divided into segments that are addressed using both a segment register and an offset. The segment register points to the start of a segment, while the offset specifies the location of a specific byte within the segment. This allows the 8086 microprocessor to access large amounts of memory, while still using a 16-bit registers and data bus.
+A bus is a communication system (like electric wires) for transferring data within the processor or between components inside a computer, 
+8086 ARCHITECTURE
+ 
+### The 8086 is divided into two parts:
+
+•	Bus Interface Unit (BIU)
+
+•	Execution Unit (EU)
+
+### Bus Interface Unit (BIU):
+```
+The BIU consists of the following units, like the Instruction Queue, Segment Registers, Instruction Pointer etc
+It interfaces the processor to the outside i.e it is responsible for performing all external bus operations like fetch, read, write, input and output of data to the processor.
+
+The BIU uses instruction queue for the pipelined operation. The instruction queue is a 6-byte first-in-first-out register which can be understood as a cache memory. The queue permits the pre-fetch of up to 6-bytes of the instruction code.
+```
+## Execution Unit(EU):
+
+```
+The EU consists of the following units like the ALU(arithmetic and logic unit), Flag register, General Purpose Registers, Pointers and Index Registers etc
+The EU decodes and executes the instructions pre-fetched by the BIU.
+```
+
+It also tests the status and control flags and updates the flags based on the results of the instruction.
+
+## THE REGISTER ORGANISATION:
+8086 microprocessor has a powerful set of registers of 16-bit each. The registers are categorised into four groups:
+
+•	General purpose Registers
+•	Segment Registers
+•	Pointers and Index Registers
+•	Flag Register
+GENERAL PURPOSE REGISTERS:
+16-BIT
+8-BIT	8-BIT
+
+AX --> AH	& AL
+
+BX --> BH &	BL
+
+CX --> CH	& CL
+
+DX --> DH &	DL
+
+The 8086 microprocessor contains four general purpose registers: AX, BX, CX and DX registers
+They are used to hold data, variables, results etc temporarily for faster operations.
+
+### Accumulator (AX)
+AX is used as a 16-bit register accumulator, with the lower 8-bits designated as AL and the higher 8-bits as AH for 8-bit operations.
+It performs all the arithmetic and logic operations and the result is also stored in the accumulator for most operations.
+
+### Base Register (BX)
+BX register also called base register is used as a general purpose register as well as to store the offset for forming physical address in certain addressing mode. Remember the physical address (and address bus) are 20-bits while the registers are 16-bit.
+
+### Count Register (CX)
+CX register is used as a default counter in case of string and loop instructions.
+CX register is also used for the count of the number of bits by which the content of an operand must be shifted or rotated during the execution of multi-bit shift or rotate instructions.
+
+### Data Register (DX)
+DX register is used in input/output (I/O) operations to hold the address of I/O port.
+DX register also holds the remainder after a word division and holds the higher order bits (most significant bits MSB) of the result of  word(16-bit) multiplication.
+
+## SEGMENT REGISTERS:
+There are four segment register: Code Segment (CS) register, Stack Segment (SS) register, Data Segment (DS) register and Extra Segment (ES) register.
+Each of them contains a 16-bit base address that points to the corresponding segment in memory.
+
+### Code Segment (CS):
+It is used for the addressing memory locations in the code segment of memory where the executable program(instructions) are stored.
+
+### Stack Segment (SS):
+It is used for addressing stack segment of the memory which is used to stack data.
+
+### Data Segment (DS):
+The data segment register points to the data segment of the memory where data is stored. 
+
+### Extra Segment (ES):
+This register points to the extra segment of the memory. The ES is used as another data segment of memory.
+
+**NOTE:** memory is segmented and each segment is 64Kb in size while the 8086 can have 1 MB memory.
+
+## POINTERS AND INDEX REGISTERS:
+There are three pointers: Instruction Pointer (IP), Base Pointer (BP) and Stack Pointer (SP). While there are two index registers: Source Index register (SI) and Destination Index register (DI).
+
+### Instruction Pointer (IP)
+The function of IP is similar to program counter, but it contains the offset address instead of the actual address of the next instruction to execute.
+IP contains the offset address within the code segment.
+IP is combined with the CS register content to generate the address of the next instruction to be executed.
+
+### Stack Pointer (SP)
+The content of SP is used as offset from the current value of stack segment (SS) during the execution of instructions that involve the stack segment.
+
+### Base Pointer (BP)
+BP also contains an offset within the stack segment (SS). BP contains the offset in the based address mode.
+Index registers are used as general purpose registers as well as for offset storage purpose. 
+
+The SI register is used to store the offset of source data in the data segment and DI register is used to store the offset of destination data in the data or extra segment.
+
+### Default segment and offset registers:
+
+| **Segment**  | **Offset** |
+|--------------|------------|
+| CS           | IP         |
+| SS           | SP or BP   |
+| DS           | BX, SI, DI |
+| ES           | DI         |
+
+
+## FLAG REGISTER
+In 8086 the EU contains a 16-bit flag register which contains 9 active flags and the remaining 7 bits are undefined.
+
+**The flag register is divided into two parts:**
+
+1. Conditional or status flags
+
+2. Machine control flags
+
+```
+The conditional or status flags are set or reset on the basis of the result generated from the ALU. By set we mean made 1 while reset means made 0.
+The lower bit of the flag register along with the overflow flag contains the conditional flags.
+The control flags are: Direction Flag (DF), Interrupt Flag (IF) and Trap Flag (TF)
+These flags are used to control the program flow and for controlling the microprocessor.
+```
+ 
+### Carry Flag (CF):
+This flag is set( CF=1) when there is a carry from the MSB (most significant bit) in case of addition or borrow in the case of subtraction.
+ i.e 	carry from D15 bit for 16-bit operation or
+carry from D7 bit for 8-bit operation
+
+--------------------------------------------------------------------------------------------------------------------------
+|D15	| D14	| D13	| D12	| D11	| D10	|D9	| D8	| D7	| D6	| D5	| D4	| D3	| D2	| D1	| D0 |
+--------------------------------------------------------------------------------------------------------------------------         											                                                                        
+MSB- most significant bit
+LSB- least significant bit
+
+### Parity Flag (PF):
+Parity flag is set (PF=1) when the ALU output has even parity. Ie even number of 1’s. And is reset (PF=0) when the ALU output has odd parity ie odd number of 1’s. 
+NOTE: even if the result is a word (16 bits) only the 8 low bits are analysed (considered). So only  the number of 1’s in AL not all of AX determine PF status.
+
+### Auxiliary Carry Flag (AF or AC):
+The AF flag is set when there is a carry after addition or borrow after subtraction between bit D3 and D4 positions in 8-bit operations.
+Zero Flag (ZF):
+This flag shows that the result an ALU operation is zero or non zero.
+i.e if ZF=1, the result is zero.
+ If ZF=0, the result is non zero.
+Sign Flag (SF):
+This flag is set (SF=1) when the result of any ALU operation is negative. (SF=0) when the result is positive.
+The MSB of the result indicates the sign bit.
+If sign bit =0 the number is positive
+If sign bit=1 the number is negative
+For 8-bit operation D7 bit represents the sign bit while for 16-bit operation D15 bit represents the sign bit.
+
+### Overflow Flag (OF):
+It is based on the (n-1) bit carry of the result.
+Overflow occurs when signed numbers are added or subtracted.
+If the result of a signed number operation is large enough to be accommodated in a destination register, then overflow occurs.
+i.e for 8-bit signed operation,if there is a carry from D6 to D7 bit OF flag is set(1).
+For 16-bit signed operation, if there is a carry D14 to D15 bit of the result OF flag is set (1).
+Eg +127= 7F hex=  0111 1111
+     +01=01 hex   =  0000 0001
+      =  1000 0000 		OF=1(set) (because the is carry from D6 to D7
+
+### Trap Flag (TF):
+If  TF=1 (set)  the 8086 processor enters into the single step mode. Else it is reset.
+In the single step mode the processor executes one instruction at a time and it is useful for debugging programs.
+
+### The Interrupt Flag (IF):
+This flag (IF) is set (1) when the maskable interrupt or INTR is received by the processor.
+ IF=1 (set), if the INTR pin on the 8086 processor chip is enabled
+IF=0 (reset), if the INTR pin on the 8086 processor chip is disabled.
+
+### Direction Flag (DF):
+It is used for string manipulation instructions ie the direction flag selects the increment or decrement mode for DI and SI registers in string instructions.
+If DF=1 (set), the registers are automatically decremented
+If DF=0 (reset), the registers are automatically incremented 
+
+## INSTRUCTION SET
+An instruction set is a group of commands for a CPU in machine language. A set of instructions that a microprocessor understands. It is design based and architecture dependent as such differs from one microprocessor to the other especial by different manufactures.
+Within the same family of microprocessors like 8086, 80x86 there is backward compatibility 
+where by the later processors understand the instruction set of the older 8086.
+#### The 8086 microprocessor supports 8 types of instructions −
+•	Data Transfer Instructions
+
+•	Arithmetic Instructions
+
+•	Bit Manipulation Instructions
+
+•	String Instructions
+
+•	Program Execution Transfer Instructions (Branch & Loop Instructions)
+
+•	Processor Control Instructions
+
+•	Iteration Control Instructions
+
+•	Interrupt Instructions
+
+### Data Transfer Instructions
+These instructions are used to transfer the data from the source operand to the destination operand
+Some Instructions to transfer a word
+
+•	MOV − Used to copy the byte or word from the provided source to the provided destination.
+
+•	POP − Used to get a word from the top of the stack to the provided location.
+
+•	PUSHA − Used to put all the registers into the stack.
+
+•	POPA − Used to get words from the stack to all registers.
+
+•	XCHG − Used to exchange the data from two locations.
+
+### Instructions to transfer the address
+•	LEA − Used to load the address of operand into the provided register.
+
+•	LDS − Used to load DS register and other provided register from the memory.
+
+•	LES − Used to load ES register and other provided register from the memory.
+
+### Arithmetic Instructions
+These instructions are used to perform arithmetic operations like addition, subtraction, multiplication, division, etc.
+
+**Some Instructions to perform addition**
+
+•	ADD − Used to add the provided byte to byte/word to word.
+
+•	ADC − Used to add with carry.
+
+•	INC − Used to increment the provided byte/word by 1.
+
+**Some Instructions to perform subtraction**
+
+•	SUB − Used to subtract the byte from byte/word from word.
+
+•	SBB − Used to perform subtraction with borrow.
+
+•	DEC − Used to decrement the provided byte/word by 1.
+
+•	CMP − Used to compare 2 provided byte/word.
+
+**Some Instruction to perform multiplication**
+
+•	MUL − Used to multiply unsigned byte by byte/word by word.
+
+•	IMUL − Used to multiply signed byte by byte/word by word.
+
+**Some Instructions to perform division**
+
+•	DIV − Used to divide the unsigned word by byte or unsigned double word by word.
+
+•	IDIV − Used to divide the signed word by byte or signed double word by word.
+
+**Some Bit Manipulation Instructions**
+
+These instructions are used to perform operations where data bits are involved, i.e. operations like logical, shift, etc.
+Following is the list of instructions under this group −
+
+**Some Instructions to perform logical operation**
+
+•	NOT − Used to invert each bit of a byte or word.( 1111 becomes 0000)
+
+•	AND − Used for adding each bit in a byte/word with the corresponding bit in another byte/word.
+
+•	OR − Used to multiply each bit in a byte/word with the corresponding bit in another byte/word. Logical OR operation.
+
+•	XOR − Used to perform Exclusive-OR operation over each bit in a byte/word with the corresponding bit in another byte/word.
+
+**Instructions to perform shift operations**
+
+•	SHL/SAL − Used to shift bits of a byte/word towards left and put zero(S) in LSBs(least significant bit).
+
+•	SHR − Used to shift bits of a byte/word towards the right and put zero(S) in MSBs(most significant bit).
+
+•	SAR − Used to shift bits of a byte/word towards the right and copy the old MSB into the new MSB.
+
+**Instructions to perform rotate operations**
+
+•	ROL − Used to rotate bits of byte/word towards the left, i.e. MSB to LSB and to Carry Flag [CF].
+
+•	ROR − Used to rotate bits of byte/word towards the right, i.e. LSB to MSB and to Carry Flag [CF].
+
+•	RCR − Used to rotate bits of byte/word towards the right, i.e. LSB to CF and CF to MSB.
+•	RCL − Used to rotate bits of byte/word towards the left, i.e. MSB to CF and CF to LSB.
+
+**Some String Instructions**
+
+String is a group of bytes/words and their memory is always allocated in a sequential order.
+Following is the list of instructions under this group −
+
+•	REP − Used to repeat the given instruction till CX ≠ 0.
+
+•	REPE/REPZ − Used to repeat the given instruction until CX = 0 or zero flag ZF = 1.
+
+•	REPNE/REPNZ − Used to repeat the given instruction until CX = 0 or zero flag ZF = 1.
+
+•	MOVS/MOVSB/MOVSW − Used to move the byte/word from one string to another.
+
+•	COMS/COMPSB/COMPSW − Used to compare two string bytes/words.
+
+•	LODS/LODSB/LODSW − Used to store the string byte into AL or string word into AX.
+
+•	LODSB- The LODSB loads the byte addressed by DS:[SI] into register AL. SI is then incremented (if DF=0) or decremented (if DF=1) by 1. That is it loads the byte in the data segment whose address is in the source Index(SI)  and increment SI (when DF=0).
+Program Execution Transfer Instructions (Branch and Loop Instructions)
+These instructions are used to transfer/branch the instructions during an execution. It includes the following instructions −
+**Instructions to transfer the instruction during an execution without any condition**
+
+•	CALL − Used to call a procedure and save their return address to the stack.
+
+•	RET − Used to return from the procedure to the main program.
+
+•	JMP − Used to jump to the provided address to proceed to the next instruction.
+
+**Some Instructions to transfer the instruction during an execution with some conditions −**
+
+•	JC − Used to jump if carry flag CF = 1
+
+•	JE/JZ − Used to jump if equal/zero flag ZF = 1
+
+•	JNC − Used to jump if no carry flag (CF = 0)
+
+•	JNE/JNZ − Used to jump if not equal/zero flag ZF = 0
+
+•	JNO − Used to jump if no overflow flag OF = 0
+
+•	JNP/JPO − Used to jump if not parity/parity odd PF = 0
+
+•	JNS − Used to jump if not sign SF = 0
+
+•	JO − Used to jump if overflow flag OF = 1
+
+•	JS − Used to jump if sign flag SF = 1
+
+**Processor Control Instructions**
+
+These instructions are used to control the processor action by setting/resetting the flag values.
+Following are the instructions under this group −
+
+•	STC − Used to set carry flag CF to 1
+
+•	CLC − Used to clear/reset carry flag CF to 0
+
+•	CMC − Used to put complement at the state of carry flag CF.
+
+•	STD − Used to set the direction flag DF to 1
+
+•	CLD − Used to clear/reset the direction flag DF to 0
+
+•	STI − Used to set the interrupt enable flag to 1, i.e., enable INTR input.
+
+•	CLI − Used to clear the interrupt enable flag to 0, i.e., disable INTR input.
+
+**Iteration Control Instructions**
+
+These instructions are used to execute the given instructions for number of times. Following is the list of instructions under this group −
+
+•	LOOP − Used to loop a group of instructions until the condition satisfies, i.e., CX = 0
+
+•	LOOPE/LOOPZ − Used to loop a group of instructions till it satisfies ZF = 1 & CX = 0
+
+•	LOOPNE/LOOPNZ − Used to loop a group of instructions till it satisfies ZF = 0 & CX = 0
+
+•	JCXZ − Used to jump to the provided address if CX = 0
+
+**Interrupt Instructions**
+
+These instructions are used to call the interrupt during program execution.
+
+•	INT − Used to interrupt the program during execution and calling service specified.
+
+•	INTO − Used to interrupt the program during execution if OF = 1
+
+•	IRET − Used to return from interrupt service to the main program
+
+## SYNTAX OF AN ALLEMBLY LANGUAGE INSTRUCTION
+
+Each assembly line begins with either a label, a blank (tab), an asterisk, or a semicolon l Each line has four fields: 
+
+``` assembly
+[label]   mnemonic   [operands]   [;comment]
+```
+The fields in the square brackets are optional. A basic instruction has two parts, the first one is the name of the instruction (or the mnemonic or opcode), which is to be executed, and the second are the operands or the parameters of the command.
+Following are some examples of typical assembly language statements −
+```
+INC COUNT     	     ; Increment the memory variable COUNT
+
+MOV TOTAL, 48   	 ; Transfer the value 48 in the 
+                 ; memory variable TOTAL
+          
+ADD AH, BH      	 ; Add the content of the 
+                 ; BH register into the AH register
+```
+
+## ADDRESSING MODES IN 8086 MICROPROCESSOR
+
+```
+An instruction consists of an opcode  (operation code) and an operand. The operand may reside in the accumulator(AX), or in a general purpose register (eg BX,CX) or in a memory location. The manner in which an operand is specified (or referred to) in an instruction is called addressing mode.
+.
+Example MOV AX, BX  here MOV is the opcode while AX and AX are the registers holding the operands.
+```
+
+#### REGISTER MODE – In this type of addressing mode both the operands are registers.
+Example:
+
+```
+MOV AX, BX	; Moves/copies content of BX to AX register
+
+XOR AX, DX	; exclusive OR the content of Ax and DX with the result in AX
+
+ADD AL, BL	; adds content of BL to AL and the result in AL register
+```
+
+#### IMMEDIATE MODE  – In this type of addressing mode the source operand is an 8 bit or 16 bit data. Example:
+```
+MOV AX, 2000	; moves 2000 to AX register
+
+MOV CL, 0A
+
+ADD AL, 45	; adds 45 to the contents of AL register and the result in AL register.
+
+AND AX, 0000
+```
+#### DISPLACEMENT OR DIRECT MODE – In this type of addressing mode the effective address is directly given in the instruction as displacement.
+Example:
+```
+MOV AX, [DISP]	 ; DISP is the displacement 
+
+MOV AX, [0500]	; displacement of 0500 in the data segment.
+```
+
+#### REGISTER INDIRECT MODE – In this addressing mode the effective address is in SI, DI or BX registers.
+Example:
+```
+MOV AX, [DI]	; moves contents of the address location DI is holding
+
+ADD AL, [BX]	; adds the contents of the address BX is holding to AL and the result in AL.
+
+MOV AX, [SI] moves contents of the address location SI is holding
+```
+#### BASED INDEXED MODE – In this the effective address is sum of base register and index register.
+
+```
+Base registers are: BX and BP
+Index registers are : SI and DI 
+```
+The physical memory address is calculated according to the base register.
+Example of based indexed addressing mode:
+
+MOV AL, [BP+SI]
+
+MOV AX, [BX+DI]
+
+#### INDEXED MODE – In this type of addressing mode the effective address is sum of index register and displacement.
+
+Example:
+```
+MOV AX, [SI+2000]	; move the contents at address SI is holding plus a displacement    ; of 2000
+MOV AL, [DI+3000]
+```
+
+#### BASED MODE – In this the effective address is the sum of base register and displacement.
+Example:
+```
+MOV AL, [BP+ 0100]
+BASED INDEXED DISPLACEMENT MODE – In this type of addressing mode the effective address is the sum of index register, base register and displacement.
+Example:
+MOV AL, [SI+BP+2000] 
+```
+
+## SIGNED  NUMBER REPRESENTATION
+
+There are three ways in which signed binary numbers may be expressed:  
+1.	Signed magnitude or sign and magnitude
+2.	One’s complement (1’s complement)
+3.	Two’s complement (2’s complement)
+
+### Signed Magnitude:
+The left most digit (MSB) designate the sign while the rest represent the magnitude. 
+In an 8-bit word, signed magnitude representation places the absolute value of the number in the 7 bits to the right of the sign bit.
+
+Exercise:  in 8-bit signed magnitude(SM),                positive 3 is:	00000011
+                                                             Negative 3 is:	10000011
+ 
+When 4 bits are used: +ve 3 is 0011
+       -ve 3 is  1011
+ SM has the disadvantage of having positive zero and negative zero (for example 4-bit 0000 and 1000).
+To represent a number in signed magnitude: 
+  convert the number to binary
+if the number is positive attach 0 to the left 
+or if the number is negative attach 1 to the left.
+NOTE: Any binary number that is signed magnitude or 1’s or 2’s complement for that matter that has the MSB as 1 is negative. If the MSB is 0 then it is positive.
+Exercise  Represent + and -7 in SM using 8 bits
+S is the MSB while the remaining 7 bits for magnitude.
+7 base 10 to binary (7 bits) is 0000111
+For +7 the sign is positive so MSB is 0
+so +ve 7 is 00000111
+for -7 the MSB is 1
+so –ve 7 is 10000111
+
+One’s  Complement:
+ To convert a number to 1’s complement :
+Convert the number to binary
+Add sign bit MSB (0 )
+If the number is negative complement all bits including the sign bit. By complementing each bit we mean flip the bit. Zero becomes 1 and 1 becomes zero.
+Exercise:  in 4-bit one’s complement,             positive 3 is: 		0011
+                                                        Negative 3 is:	1100 
+
+Note that 3 can be represented by as little as 3 digits no less. 
+
+
+Two’s Complement:
+ 2’s complement is obtained by finding the 1’s complement and adding 1 to it.
+As such 2’s complement= 1’s complement +1.
+
+Exercise:  Adding 1 to -3 in 1’s complement (1100 ) gives us -3 in two’s complement form:       1101
+
+Exercise:  convert using SM method (01011001)2 back to decimal  = +(1 * 26 + 0 * 25 + 1 * 24 + 1 * 23 + 0 * 22 + 0 * 21        + 1 * 20)
+                     = + (64 + 0 + 16 + 8 + 0 + 0 + 1)
+              = (+89)10              
+Exercise:  convert using SM method (10011100)2 = - (0 * 26 + 0 * 25 + 1 * 24 + 1 * 23 + 1 * 22 + 0 * 21 + 0 * 20)
+                     = - (0 + 0 + 16 + 8 + 4 + 0 + 0)	  = (-28)10               
+MOV  INSTRUCTION
+
+SYNTAX 
+– MOV Destination, Source or MOV first operand, second operand
+The MOV instruction copies a word or byte of data from a specified source to a specified destination. The destination can be a register or a memory location. The source can be a register, a memory location or an immediate number. The source and destination cannot both be memory locations. They must both be of the same type (bytes or words). MOV instruction does not affect any flag. Both source and destination must be the same size which can by byte or word.
+Examples of MOV
+
+    MOV CX, 037AH	 ;Put immediate number 037AH to CX 
+                MOV BL, [437AH]	; Copy byte in DS at offset 437AH to BL 
+                MOV AX, BX 		;Copy content of register BX to AX 
+                MOV DL, [BX]	; Copy byte from memory at [BX] to DL 
+                MOV DS, BX		; Copy word from BX to DS register 
+
+NOTE: MOV instruction cannot:
+•	set the value of the CS and IP registers.
+
+•	copy value of one segment register to another segment register (should copy to
+              general register first).
+
+•	copy immediate value to segment register (should copy to general register first).
+
+
+#### MULTIPLICATION IN 8086
+when operand is a byte:
+
+AX <= AL * operand.
+when operand is a word:
+(DX AX) <= AX * operand. (that is the result is 32-bit:  the higher part is stored in DX while the lower part in AX)
+
+Exercise: Program to multiply two 8-bit numbers.
+```
+MOV AL, 05H	   ; copy 05 hex to AL it can be written  
+                as 0x05 as well
+MOV BL, 08H	; copy 08 hex to BL
+MUL BL	; mutiplies BL with AL and the result is in AX (16 bits)
+```
+| Memory Address | Content |
+|----------------|---------|
+| 1100           | 1A      |
+| 1101           | EF      |
+| 1102           | 50      |
+| 1103           | CD      |
+| 1104           | 20      |
+| 1105           | 8A      |
+| 1106           | C2      |
+| 1107           | BF      |
+| 1108           |         |
+
+Exercise: Write a program to multiply the data in memory location (offset) 1100-1103 and store the result.
+```
+MOV SI, 1100H	 ; load address of data in SI register
+MOV AX, [SI] 		; copy first operand
+MOV BX, [SI+2]	; copy second operand
+MUL BX		; multiply
+MOV [SI+4], AX 	; copy result lower byte to memory
+MOV [SI+6], DX	; copy result higher byte to memory
+HLT			 ; halt
+```
+
+#### DIVISION IN 8086
+8086 can divide 16-bit by 8-bit the result quotient will be in AL register while the remainder in AH register.
+or 32-bit by 16-bit and the result quotient will be stored in AX register while the remainder in DX register.
+Exercise: divide 1389h by 19h.
+
+```
+MOV AX, 1389H
+MOV BL, 19H
+DIV BL			; divides AX by BL and Q in AL while R
+                ;in AH registers
+```
+Exercise  A program to display a character on screen using EMU8086 emulator.
+```
+ORG 100H ; this is an assembler directive to start 
+          ;code at 100h in the code segment.
+MOV AH, 0Eh; 0E HEX IN AH is required by the INT 10h 
+           ;bios interrupt to display
+MOV AL, ‘A’; the character to display
+INT 10h ; the interrupt routine will display what is 
+          ;in AL
+HLT
+```
+Exercise  A program to display ‘hello world’on screen using EMU8086 emulator.
+```
+org 100h
+JMP MAIN	 ; jump to label main 
+MESSAGE: DB 'HELLO WORLD',0 ; databyte store the string hello world in contagious 
+                                                                  ;   location in the data segment 
+PRINT:  MOV AH,0EH		 ; set Ah for INT 10h interrupt to display AL content
+LOOP:	LODSB 		; this copies data at SI and increments SI to point to the next data
+CMP AL, 0	 ; compare AL to 0 to check the end of characters to display
+JE DONE 	; jump to done when AL=0 that is ZF=1
+INT 10H	; display what is in AL
+JMP LOOP	; jump to label loop to get the next character to display
+DONE:	RET		 ; return from call
+MAIN:	MOV SI, MESSAGE
+CALL PRINT; call is like jump to label print
+RET		; or hlt
+```
+
+
 
 
  

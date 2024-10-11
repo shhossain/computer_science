@@ -57,6 +57,7 @@ If you're interested in contributing to this project, please take a moment to re
 - [DBMS(Database Management System)](#dbms)
 - [Cryptography](#cryptography)
 - [Theory of Computation](#theory-of-computation)
+- [DevOps](#devops)
 
 
 ## Introduction
@@ -1078,6 +1079,12 @@ A problem is regarded as inherently difficult if its solution requires significa
 
 Closely related fields in theoretical computer science are the analysis of algorithms and computability theory. A key distinction between the analysis of algorithms and computational complexity theory is that the former is devoted to analyzing the number of resources needed by a particular algorithm to solve a problem, whereas the latter asks a more general question about all possible algorithms that could be used to solve the same problem. More precisely, computational complexity theory tries to classify problems that can or cannot be solved with appropriately restricted resources. In turn, imposing restrictions on the available resources is what distinguishes computational complexity from computability theory: the latter theory asks what kinds of problems can, in principle, be solved algorithmically. 
 
+
+## [DevOps](DevOps/readme.md)
+
+**DevOps** is a set of practices, tools, and cultural philosophies that automate and integrate the processes between software development (Dev) and IT operations (Ops). The primary goal is to foster a culture of collaboration, automate processes across teams, and deliver high-quality software efficiently, reducing the time between committing a change to a system and the change being placed into production.
+
+In essence, DevOps integrates all aspects of development (coding, building, testing, and releasing) with operations (deployment, monitoring, and maintenance) into a unified, automated pipeline. It builds on the principles of **Agile** development, but extends them into the operational phase of software deployment.
 
  
 ## Contributors

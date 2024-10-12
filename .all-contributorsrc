@@ -1465,6 +1465,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "logan67-9",
+      "name": "Logan Dutton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74495915?v=4",
+      "profile": "https://github.com/logan67-9",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 6,

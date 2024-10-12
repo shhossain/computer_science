@@ -22,7 +22,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-159-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-160-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1299,6 +1299,7 @@ Closely related fields in theoretical computer science are the analysis of algor
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/MarcusW03"><img src="https://avatars.githubusercontent.com/u/145816209?v=4?s=50" width="50px;" alt="Billy Marcus Wright"/><br /><sub><b>Billy Marcus Wright</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=MarcusW03" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Raquel-James"><img src="https://avatars.githubusercontent.com/u/121463070?v=4?s=50" width="50px;" alt="Raquel-James"/><br /><sub><b>Raquel-James</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Raquel-James" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://teddy-assih-portfolio.vercel.app/"><img src="https://avatars.githubusercontent.com/u/110066080?v=4?s=50" width="50px;" alt="Teddy ASSIH"/><br /><sub><b>Teddy ASSIH</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Ionfinisher" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/logan67-9"><img src="https://avatars.githubusercontent.com/u/74495915?v=4?s=50" width="50px;" alt="Logan Dutton"/><br /><sub><b>Logan Dutton</b></sub></a><br /><a href="#content-logan67-9" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

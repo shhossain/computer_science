@@ -58,6 +58,7 @@ If you're interested in contributing to this project, please take a moment to re
 - [Cryptography](#cryptography)
 - [Theory of Computation](#theory-of-computation)
 - [DevOps](#devops)
+- [Artificial Intelligence](#artificial-intelligence)
 
 
 ## Introduction
@@ -1086,6 +1087,9 @@ Closely related fields in theoretical computer science are the analysis of algor
 
 In essence, DevOps integrates all aspects of development (coding, building, testing, and releasing) with operations (deployment, monitoring, and maintenance) into a unified, automated pipeline. It builds on the principles of **Agile** development, but extends them into the operational phase of software deployment.
 
+
+## [Artificial Intelligence](Artificial%20Intelligence/readme.md)
+**Artificial intelligence (AI)** has quickly progressed from a sci-fi idea to a crucial component of contemporary technology. It is transforming industries, improving human capabilities, and reshaping how we interact with the world. Understanding the basics of AI, its applications, and its potential impact is crucial as we continue to integrate this technology into various aspects of life.
  
 ## Contributors
 

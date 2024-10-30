@@ -1,21 +1,21 @@
 <h1 align="center">علوم کامپیوتر</h1>
 <h4 align="center">
     <p>
-        <b>انگلیسی</b> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_it.md">ایتالیایی</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">اسپانیول</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">فرانسوی</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">بنگالی</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_ta.md">تامیلی</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">گجراتی</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">پرتغالی</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_hi.md">هندی</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_te.md">تلوگو</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">رومانیایی</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_ar.md">عربی</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_fa.md">فارسی</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_np.md">نپالی</a> |
-        <a href="https://github.com/shhossain/computer_science/blob/main/README_cn.md">چینی ساده</a>
+        <b>English</b> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_it.md">Italiano</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_es.md">Español</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_fr.md">Français</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_bn.md">বাংলা</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ta.md">தமிழ்</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_guj.md">ગુજરાતી</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_pt.md">Portuguese</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_hi.md">हिंदी</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_te.md">తెలుగు</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ro.md">Română</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_ar.md">العربية</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_pr.md">فارسی</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_np.md">Nepali</a> |
+        <a href="https://github.com/shhossain/computer_science/blob/main/README_cn.md">简体中文</a>
     </p>
 </h4>
 

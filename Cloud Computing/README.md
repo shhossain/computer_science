@@ -64,7 +64,7 @@ Cloud systems automatically control and optimize resource use by leveraging a me
 
 In a private cloud model, the cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple consumers . It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises.
 
-Example: A large corporation, such as a bank, might have its own data center where it hosts all of its data and applications. This data center is not shared with any other organization and is fully controlled by the bank. This is an example of a private cloud.
+Example: A large corporation, such as a bank, might have its own data center where it hosts all of its data and applications. This data center is not shared with any other organization and is fully controlled by the bank. 
 
 ### Public Cloud
 
@@ -79,7 +79,7 @@ Example: Services like Amazon Web Services (AWS), Google Cloud Platform (GCP), a
 In a community cloud model, the cloud infrastructure is provisioned for exclusive use by a specific community of consumers from
 organizations that have shared concerns.
 
-Example: A group of hospitals and clinics in a particular region might use a community cloud to share patient data. This allows for efficient coordination of patient care, as doctors and nurses from different hospitals can access the same patient records. This shared resource is only available to the participating hospitals and clinics, ensuring the privacy and security of patient data. This is an example of a community cloud.
+Example: A group of hospitals and clinics in a particular region might use a community cloud to share patient data. This allows for efficient coordination of patient care, as doctors and nurses from different hospitals can access the same patient records. This shared resource is only available to the participating hospitals and clinics, ensuring the privacy and security of patient data. 
 
 ### Hybrid Cloud
 

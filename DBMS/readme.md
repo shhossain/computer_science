@@ -172,13 +172,13 @@ b) The object-oriented model.
 c) The semantic data model.
 d) The functional data model.
 
-### The Entity-Relationship Model
+### [The Entity-Relationship Model](<ER Model/readme.md>)
 
 ER model stands for an Entity-Relationship model. It is a high-level data model. This model is used to define the data elements and relationship for a specified system.
 It develops a conceptual design for the database. It also develops a very simple and easy to design view of data.
 In ER modeling, the database structure is portrayed as a diagram called an entity-relationship diagram.
 
-### The Object-Oriented Model
+### [The Object-Oriented Model](<Object based model/Readme.md>)
 
 The Object-Oriented Model is the data model in which data is stored in form of objects, which are instances of classes. These classes and objects together make an object-oriented data model. An extension of the ER model with notions of functions, encapsulation, and object identity, as well. This model supports a rich type system that includes structured and collection types. Thus, in 1980s, various database systems following the object-oriented approach were developed. Here, the objects are nothing but the data carrying its properties.
 
@@ -207,11 +207,11 @@ In a Hierarchical database, model data is organized in a tree-like structure. Da
 
 The network database model allows each child to have multiple parents. It helps you to address the need to model more complex relationships like as the orders/parts many-to-many relationship. In this model, entities are organized in a graph which can be accessed through several paths.
 
-### Relational Model
+### [Relational Model](<Relational Model/readme.md>)
 
 Relational DBMS is the most widely used DBMS model because it is one of the easiest. This model is based on normalizing data in the rows and columns of the tables. Relational model stored in fixed structures and manipulated using SQL.
 
-### Object-Oriented Model
+### [Object-Oriented Model](<Object based model/Readme.md>)
 
 In Object-oriented Model data stored in the form of objects. The structure which is called classes which display data within it. It is one of the components of DBMS that defines a database as a collection of objects which stores both data members values and operations.
 

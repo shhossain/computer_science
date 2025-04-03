@@ -22,7 +22,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-162-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-163-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1309,6 +1309,9 @@ In essence, DevOps integrates all aspects of development (coding, building, test
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/usernayeem"><img src="https://avatars.githubusercontent.com/u/93907431?v=4?s=50" width="50px;" alt="Md Nayeem"/><br /><sub><b>Md Nayeem</b></sub></a><br /><a href="#content-usernayeem" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Francisco-G-P"><img src="https://avatars.githubusercontent.com/u/186766789?v=4?s=50" width="50px;" alt="Francisco-G-P"/><br /><sub><b>Francisco-G-P</b></sub></a><br /><a href="#translation-Francisco-G-P" title="Translation">🌍</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/RyanBuck182"><img src="https://avatars.githubusercontent.com/u/84095987?v=4?s=50" width="50px;" alt="Ryan Buck"/><br /><sub><b>Ryan Buck</b></sub></a><br /><a href="#content-RyanBuck182" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/logan-e-dutton"><img src="https://avatars.githubusercontent.com/u/74495915?v=4?s=50" width="50px;" alt="Logan Dutton"/><br /><sub><b>Logan Dutton</b></sub></a><br /><a href="#content-logan-e-dutton" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

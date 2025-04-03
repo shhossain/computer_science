@@ -1483,6 +1483,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "RyanBuck182",
+      "name": "Ryan Buck",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84095987?v=4",
+      "profile": "https://github.com/RyanBuck182",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 6,

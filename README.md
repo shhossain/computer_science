@@ -22,7 +22,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-163-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-164-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1312,6 +1312,7 @@ In essence, DevOps integrates all aspects of development (coding, building, test
     </tr>
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/logan-e-dutton"><img src="https://avatars.githubusercontent.com/u/74495915?v=4?s=50" width="50px;" alt="Logan Dutton"/><br /><sub><b>Logan Dutton</b></sub></a><br /><a href="#content-logan-e-dutton" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/AkivaNugent"><img src="https://avatars.githubusercontent.com/u/143728005?v=4?s=50" width="50px;" alt="AkivaNugent"/><br /><sub><b>AkivaNugent</b></sub></a><br /><a href="#content-AkivaNugent" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

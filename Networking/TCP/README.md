@@ -65,7 +65,7 @@ TCP increases or reduces the sending rate based on network feedback. The basic a
 
 - **Fast Retransmit:** Quickly resends packets after detecting duplicate ACK numbers
 
-These mechanisms help avoid netowrk collapse and allow the server to throttle individual connections when too many hosts try to send too much data. 
+These mechanisms help avoid network collapse and allow the server to throttle individual connections when too many hosts try to send too much data. 
 
 ## TCP Checksum
 Checksum is a computed number based on the data from a given packet. The sender computes this sum, and adds it to the header of the packet. When the client receives the packet, it makes the same calculation and checks its sum against the one it received. If there is a difference in the number, it indicates that some information in that packet changed during transmission.

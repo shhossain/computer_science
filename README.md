@@ -1298,7 +1298,7 @@ Closely related fields in theoretical computer science are the analysis of algor
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/MarcusW03"><img src="https://avatars.githubusercontent.com/u/145816209?v=4?s=50" width="50px;" alt="Billy Marcus Wright"/><br /><sub><b>Billy Marcus Wright</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=MarcusW03" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Raquel-James"><img src="https://avatars.githubusercontent.com/u/121463070?v=4?s=50" width="50px;" alt="Raquel-James"/><br /><sub><b>Raquel-James</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=Raquel-James" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/emmagarr"><img src="https://avatars.githubusercontent.com/u/114946981?v=4?s=50" width="50px;" alt="Emma Garrett"/><br /><sub><b>Emma Garrett</b></sub></a><br /><a href="#content-emmagarr" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/emmagarr"><img src="https://avatars.githubusercontent.com/u/114946981?v=4?s=50" width="50px;" alt="Emma Garrett"/><br /><sub><b>Emma Garrett</b></sub></a><br /><a href="#content-emmagarr" title="Content">🖋</a> <a href="https://github.com/shhossain/computer_science/commits?author=emmagarr" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

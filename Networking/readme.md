@@ -335,7 +335,7 @@ Whether you know it or not, you’ve absolutely encountered network protocols wh
 - [TELNET(Terminal Network))](#telnet-terminal-network)
 - [PPP(Point-to-Point Protocol)](#ppp-point-to-point-protocol)
 
-### TCP(Transmission Control Protocol)
+### [TCP (Transmission Control Protocol)](TCP/README.md)
 TCP/IP(Transmission Control Protocol/ Internet Protocol): These are a set of standard rules that allows different types of computers to communicate with each other. The IP protocol ensures that each computer that is connected to the Internet is having a specific serial number called the IP address. TCP specifies how data is exchanged over the internet and how it should be broken into IP packets. It also makes sure that the packets have the information about the source of the message data, the destination of the message data, the sequence in which the message data should be re-assembled, and checks if the message has been sent correctly to the specific destination.
 
 The functionality of TCP/IP is divided into 4 layers with each one having specific protocols:

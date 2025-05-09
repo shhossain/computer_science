@@ -70,4 +70,4 @@ These mechanisms help avoid network collapse and allow the server to throttle in
 ## TCP Checksum
 Checksum is a computed number based on the data from a given packet. The sender computes this sum, and adds it to the header of the packet. When the client receives the packet, it makes the same calculation and checks its sum against the one it received. If there is a difference in the number, it indicates that some information in that packet changed during transmission.
 
-TCP checksum calculated by concatenating the pseudo-header (sender IP, reciever IP, protocol, length), TCP header (with checksum set to zero), and the payload (packet data). It then splits this data into 16-bit words, adds them using 1s complement, and takes the 1s complement of the result.
+TCP checksum calculated by concatenating the pseudo-header (sender IP, receiver IP, protocol, length), TCP header (with checksum set to zero), and the payload (packet data). It then splits this data into 16-bit words, adds them using 1s complement, and takes the 1s complement of the result.

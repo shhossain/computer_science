@@ -1510,6 +1510,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "emmagarr",
+      "name": "Emma Garrett",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114946981?v=4",
+      "profile": "https://github.com/emmagarr",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,

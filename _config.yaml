@@ -1,0 +1,22 @@
+title: My Site
+markdown: kramdown
+
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+
+
+include:
+  - readme.md
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      title: My Site
+      description: My site description
+      render_with_liquid: false

@@ -1,0 +1,94 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    display: flex;
+    min-height: 100vh;
+  }
+
+
+  h1, h2, h3, h4 {
+    color: #222;
+    margin-top: 2rem;
+  }
+  
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  pre, code {
+    background: #f4f4f4;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    font-family: "Fira Code", monospace;
+  }
+  
+  pre {
+    overflow-x: auto;
+    padding: 1em;
+  }
+  
+  blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1em;
+    color: #666;
+    margin: 1em 0;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1em;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: #1e1e1e;
+      color: #ddd;
+    }
+    a { color: #7abaff; }
+    pre, code { background: #2d2d2d; }
+    blockquote { border-left-color: #666; }
+  }
+  
+.container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background: #f4f4f4;
+    padding: 1rem;
+    box-shadow: 2px 0 4px rgba(0,0,0,0.1);
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #007acc;
+  }
+main{
+    flex-grow: 1;
+    padding-left: 6rem;
+    padding-right: 2rem;
+  }

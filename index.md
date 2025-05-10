@@ -1,10 +1,3 @@
----
-
-title: test
-
----
-
-
 <h1 align="center">Computer Science</h1>
 <h4 align="center">
     <p>

@@ -1,63 +1,90 @@
 # Time Complexity
 
-The time complexity of an algorithm estimates how much time the algorithm will use for some input. The idea is to represent the efficiency as a function whose parameter is the size of the input. By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it.
+When we measure how *fast* an operation is, we are not referring to real-world time (seconds, milliseconds, etc.), but rather to how many **steps** the operation takes.
+
+We do this because the actual running time depends on factors such as the computer’s hardware, the programming language used, and even background processes. Therefore, time complexity focuses on the **growth rate** of the number of steps as the input size increases, rather than the literal clock time.
 
 ## Analysis of Algorithm
-* Algorithm is a combination or sequence of finite-state to solve a given problem. If the problem is having more than one solution or algorithm then the best one is decided by the analysis based on two factors. 
+
+An **algorithm** is a finite sequence of steps designed to solve a given problem.  
+If a problem can be solved using multiple algorithms, the best one is determined by analyzing two key factors:
 
 * CPU Time (Time Complexity)
-* Main memory space (Space Complexity)
-Time complexity of an algorithm can be calculated by using two methods: 
-* Posteriori Analysis
-* Priori Analysis
+* Main Memory Space (Space Complexity)
 
-### Aposteriori Analysis / Posteriori Analysis
-**Advantages of Aposteriori Analysis**
-* It will give exact values of time and space in actual units.
+The time complexity of an algorithm can be calculated using two methods:
+* **Posteriori Analysis**
+* **Apriori Analysis**
 
-**Drawbacks of Aposteriori Analysis**
+---
+
+### Aposteriori Analysis (Posteriori Analysis)
+
+**Advantages**
+* Provides exact values of time and space in actual units.
+
+**Drawbacks**
 * Not easy to carry out.
-* It is not uniform i.e It changes system to system as it is machine dependent; Non-uniformity of the platform makes it difficult to carry out performance comparision due to different values reported.
-* Experiments can be done on a limited set of Test Input's.
-* It is difficult to compare the efficiency of two algorithms unless they are executed on the same platform (Hardware and Software) experiments, inorder to determine running time.
+* Not uniform — results vary from system to system as it is machine-dependent.
+* Experiments can only be performed on a limited set of test inputs.
+* Difficult to compare algorithms unless executed on the same hardware and software.
 
-<br>
+Because of these difficulties, **posteriori analysis** is often not desirable.  
+To overcome its limitations, we use **apriori analysis** instead.
 
-In view of these difficulties , carryout analysis in Aposteriori mode is not desirable. Therefore to overcome these limitations we are going for another method of analysis called as **Apriori Analysis**. 
+---
 
 ### Apriori Analysis
-* The objective of apriori analysis is to represent the running time of algorithm by a mathematical function with respect to I/P size.
-* This is a theoretical analysis of an algorithm.
-* Time Complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of Input Size. **{f(n)}**
-* There various methods to determine time complexity. One of the general Method is Input Size. As Input Size increases time complexity also increases. Therefore time taken by an Algorithm is directly proportional to size of Input.
-* In an industry, we cannot perform Apostiari analysis as the software is generally made for an anonymous user, which runs it on a system different from those present in the industry.
-* In Apriori, it is the reason that we use **asymptotic notations** to determine time and space complexity as they change from computer to computer; however, asymptotically they are the same.
 
-## Best Case, Worst Case, and Average Case in Time Complexity Analysis
-**Best Case**: It is defined as the condition that allows an algorithm to complete statement execution in the shortest amount of time. In this case, the execution time serves as a lower bound on the algorithm's time complexity.
-Example: In the linear search when search data is present at the first location of large data then the best case occurs.
+* The objective is to represent the running time of an algorithm as a mathematical function with respect to the input size.
+* This is a **theoretical** analysis of an algorithm.
+* The time complexity of an algorithm quantifies the amount of time it takes to run as a function of input size (*f(n)*).
+* Generally, as the input size increases, the running time increases — hence, time is directly proportional to input size.
+* In the industry, posteriori analysis is not practical since software is executed by end users on diverse systems.
+* Therefore, we use **asymptotic notations** to estimate performance independently of specific hardware or software.
 
-**Average Case**: You add the running times for each possible input combination and take the average in the average case. Here, the execution time serves as both a lower and upper bound on the algorithm's time complexity.
+---
 
-**Worst Case**: It is defined as the condition that allows an algorithm to complete statement execution in the shortest amount of time possible. In this case, the execution time serves as an upper bound on the algorithm's time complexity.
-Example: In the linear search when search data is present at the last location of large data then the worst case occurs.
+### Best Case, Worst Case, and Average Case
+
+**Best Case:** The scenario where the algorithm completes in the *minimum* possible time.  
+*Example:* In linear search, when the target is found at the first position.
+
+**Average Case:** The expected running time over all possible inputs.  
+It serves as a balance between best and worst cases.
+
+**Worst Case:** The scenario where the algorithm takes the *maximum* possible time.  
+*Example:* In linear search, when the target is found at the last position.
+
+---
 
 ## Asymptotic Notations
 
-Asymptotic Notations are programming notations that allow you to analyze an algorithm's running time by identifying its behavior as its input size grows.
-We compare time complexity using asymptotic analysis. It compares two algorithms based on changes in their performance as the input size is increased or decreased.
+Asymptotic notations describe how the running time of an algorithm behaves as the input size grows.  
+They help compare algorithms by focusing on performance trends rather than specific execution times.
 
-## Various Asymptotic notations
+There are three main notations:
+* **O** — Big O (upper bound)
+* **Ω** — Omega (lower bound)
+* **Θ** — Theta (tight bound)
 
-There are 3 types of notations for time complexity.
-* O Notation
-* Ω Notation
-* Θ Notation
+---
 
-## Big O Notation, O
+### Big O Notation (O)
 
-The Big O Notation is a systematic way to express the upper limit of an algorithm's running time. 
-It calculates the worst case time complexity.
+The **Big O Notation** expresses the upper limit of an algorithm's running time — that is, the *worst-case* time complexity.
+
+Simply put, Big O helps answer a fundamental question:
+
+> If there are N data elements, how many steps will the algorithm take?
+
+It provides a way to express the upper bound of an algorithm’s running time as the input size grows.
+
+To fully understand Big O, it’s helpful to first understand **logarithms**, since they often appear in algorithm analysis (for example, O(log N) in binary search).
+
+---
+
+📚 *Explanation adapted from “A Common-Sense Guide to Data Structures and Algorithms” by Jay Wengrow.*
 
 ### Mathematical Representation
 

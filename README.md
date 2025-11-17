@@ -22,7 +22,7 @@
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-165-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-166-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -1318,6 +1318,7 @@ In essence, DevOps integrates all aspects of development (coding, building, test
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/logan-e-dutton"><img src="https://avatars.githubusercontent.com/u/74495915?v=4?s=50" width="50px;" alt="Logan Dutton"/><br /><sub><b>Logan Dutton</b></sub></a><br /><a href="#content-logan-e-dutton" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/AkivaNugent"><img src="https://avatars.githubusercontent.com/u/143728005?v=4?s=50" width="50px;" alt="AkivaNugent"/><br /><sub><b>AkivaNugent</b></sub></a><br /><a href="#content-AkivaNugent" title="Content">🖋</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/emmagarr"><img src="https://avatars.githubusercontent.com/u/114946981?v=4?s=50" width="50px;" alt="Emma Garrett"/><br /><sub><b>Emma Garrett</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=emmagarr" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Barnab1"><img src="https://avatars.githubusercontent.com/u/111515950?v=4?s=50" width="50px;" alt="AGUEH Barnabé Prudent Mahugnon"/><br /><sub><b>AGUEH Barnabé Prudent Mahugnon</b></sub></a><br /><a href="#content-Barnab1" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

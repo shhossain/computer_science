@@ -1,10 +1,3 @@
----
-
-title: test
-
----
-
-
 <h1 align="center">Computer Science</h1>
 <h4 align="center">
     <p>
@@ -29,7 +22,7 @@ title: test
 If you're interested in contributing to this project, please take a moment to review [CONTRIBUTING.md](https://github.com/shhossain/computer_science/blob/main/CONTRIBUTING.md) for detailed instructions on how to get started. Your contributions are greatly appreciated!
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-167-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-163-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Table of Contents
@@ -65,7 +58,6 @@ If you're interested in contributing to this project, please take a moment to re
 - [Cryptography](#cryptography)
 - [Theory of Computation](#theory-of-computation)
 - [DevOps](#devops)
-- [Artificial Intelligence](#artificial-intelligence)
 
 
 ## Introduction
@@ -1096,9 +1088,6 @@ Closely related fields in theoretical computer science are the analysis of algor
 
 In essence, DevOps integrates all aspects of development (coding, building, testing, and releasing) with operations (deployment, monitoring, and maintenance) into a unified, automated pipeline. It builds on the principles of **Agile** development, but extends them into the operational phase of software deployment.
 
-
-## [Artificial Intelligence](Artificial%20Intelligence/readme.md)
-**Artificial intelligence (AI)** has quickly progressed from a sci-fi idea to a crucial component of contemporary technology. It is transforming industries, improving human capabilities, and reshaping how we interact with the world. Understanding the basics of AI, its applications, and its potential impact is crucial as we continue to integrate this technology into various aspects of life.
  
 ## Contributors
 
@@ -1325,10 +1314,6 @@ In essence, DevOps integrates all aspects of development (coding, building, test
     </tr>
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/logan-e-dutton"><img src="https://avatars.githubusercontent.com/u/74495915?v=4?s=50" width="50px;" alt="Logan Dutton"/><br /><sub><b>Logan Dutton</b></sub></a><br /><a href="#content-logan-e-dutton" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/AkivaNugent"><img src="https://avatars.githubusercontent.com/u/143728005?v=4?s=50" width="50px;" alt="AkivaNugent"/><br /><sub><b>AkivaNugent</b></sub></a><br /><a href="#content-AkivaNugent" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/emmagarr"><img src="https://avatars.githubusercontent.com/u/114946981?v=4?s=50" width="50px;" alt="Emma Garrett"/><br /><sub><b>Emma Garrett</b></sub></a><br /><a href="https://github.com/shhossain/computer_science/commits?author=emmagarr" title="Code">💻</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Barnab1"><img src="https://avatars.githubusercontent.com/u/111515950?v=4?s=50" width="50px;" alt="AGUEH Barnabé Prudent Mahugnon"/><br /><sub><b>AGUEH Barnabé Prudent Mahugnon</b></sub></a><br /><a href="#content-Barnab1" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="16.66%"><a href="https://github.com/chenpoyo0219"><img src="https://avatars.githubusercontent.com/u/190273963?v=4?s=50" width="50px;" alt="chenpoyo0219"/><br /><sub><b>chenpoyo0219</b></sub></a><br /><a href="#content-chenpoyo0219" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

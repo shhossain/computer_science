@@ -65,6 +65,7 @@ Um dispositivo que calcula, especialmente uma máquina eletrônica programável 
 
 A lógica booleana é um ramo da matemática que lida com os valores de verdade e falsidade. É um sistema lógico que utiliza apenas dois valores, 0 e 1, para representar falso e verdadeiro, respectivamente. Também é conhecida como álgebra booleana, nomeada em homenagem a George Boole, que a descreveu pela primeira vez em 1854.
 ### Operadores Booleanos Comuns
+
 | Operador | Nome | Descrição |
 | :------: | :--: | :-------------------------------------: |
 |    !     | NÃO  | Nega o valor do operando. |
@@ -72,6 +73,7 @@ A lógica booleana é um ramo da matemática que lida com os valores de verdade 
 |   \|\|   | OU   | Retorna **verdadeiro** se um ou todos os operandos forem verdadeiros. |
 
 ### Operadores Booleanos Úteis
+
 | Operador | Nome | Descrição |
 | :------: | :--: | :-------------------------------------: |
 |    ()    | Parênteses     | Permite agrupar palavras-chave e controlar a ordem na qual os termos serão pesquisados. |
@@ -421,6 +423,7 @@ int fib(n) {
      return (fib(n-1) + fib(n-2));
 }
 x = x + 1 # isso altera o valor atribuído à variável x
+```
 **As funções são de primeira classe e podem ser de ordem superior**: Funções de primeira classe são tratadas como variáveis de primeira classe. As variáveis de primeira classe podem ser passadas como parâmetros para funções, podem ser retornadas por funções ou armazenadas em estruturas de dados.
 
 Uma combinação de aplicações de função pode ser definida usando uma forma de LISP chamada **funcall**, que recebe como argumentos uma função e uma série de argumentos e aplica essa função a esses argumentos:

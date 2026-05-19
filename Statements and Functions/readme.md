@@ -1,3 +1,46 @@
+## Statements
+
+A statement is an instruction that a program executes.
+
+Statements are used to perform actions such as:
+- assigning values
+- making decisions
+- repeating tasks
+- displaying output
+
+* In Python:
+```python
+x = 10
+print(x)
+```
+
+In the example above:
+- `x = 10` is an assignment statement
+- `print(x)` is an output statement
+
+* In C++:
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 10;
+    cout << x << endl;
+    return 0;
+}
+```
+
+In the example above:
+- `int x = 10;` is an assignment statement
+- `cout << x << endl;` is an output statement
+- `return 0;` is a return statement
+
+## Types of statements include:
+- conditional statements (`if`, `else`)
+- looping statements (`for`, `while`)
+- assignment statements
+- function call statements
+
 # Conditional Statements
 
 The conditional statements are a very fundamental part of any program as it helps to change the flow of control (which is generally top to bottom) depending on a given condition. 
@@ -11,16 +54,16 @@ Code snippet:
 ## Python
 ```python
 if number % 2 == 0:
-	print ("Number is even")
+    print ("Number is even")
 else:
-	print ("Number is odd")
+    print ("Number is odd")
 ```
 ## CPP
 ```cpp
 if (number % 2 == 0)
-	cout << "Number is even";
+    cout << "Number is even";
 else
-	cout << "Number is odd";
+    cout << "Number is odd";
 ```
 
 
@@ -57,15 +100,15 @@ else {
 * In Python:
  ```python
 if marks >= 90:
-	print ("A")
+    print ("A")
 elif marks >= 80:
-	print ("B")
+    print ("B")
 elif marks >= 70:
-	print ("C")
+    print ("C")
 elif marks >= 40:
-	print ("D")
+    print ("D")
 else:
-	print ("F")
+    print ("F")
 ```
 
 
@@ -76,7 +119,7 @@ In switch case, we take a value from user which is generally integer or of a cha
 
 It is used in-place of if statement if the decision making branches are independent of each other.
 
-*Let us assume that a player is picking a colour for playing Ludo, and based on what he enters, i.e., R, B, Y and G, he is given Red, Blue, Yellow and Green respectively. In case, they enter any other alpahabet, the code returns an error message as no colour is associated with that alphabet.*
+*Let us assume that a player is picking a colour for playing Ludo, and based on what he enters, i.e., R, B, Y and G, he is given Red, Blue, Yellow and Green respectively. In case, they enter any other alphabet, the code returns an error message as no colour is associated with that alphabet.*
 
 * A code in C++ to implement the same:
 
@@ -98,7 +141,7 @@ switch (alphabet) {
             cout << "No other colour exists";
     }
 ```
-* *Note: Python does not have switch case statements.*
+* Note: Python does not have switch case statements.
 
 
 
@@ -129,15 +172,31 @@ else{
 }
 ```
 
-* It is considered a better coding practice to use `if...elif...elif...else` in Python
+* Syntax of nested if-else in Python:
+
+```python
+if (condition1):
+    if (condition2):
+        if (condition3):
+            statement_1
+        else:
+            statement_2
+    else:
+        statement_3
+else:
+    statement_4
+```	
+
+
+* However, it is considered a better coding practice to use `if...elif...elif...else` in Python
 
 ------------
 
-# Terniary operators
+# Ternary operators
 
 There's also an another way get the functionality of if-else with more compact
 and concise syntax. 
-Yes, we're talking about terniary operators.
+Yes, we're talking about ternary operators.
 
 Let's consider an example of a typical example of an if-else to check whether
 a number is even or odd. 
@@ -149,7 +208,7 @@ Traditional way::
 	else:
 		print("it is odd number")
 
-Now using terniary operators:
+Now using ternary operators:
 * [Python Example](#python-example)
 * [C++ Example](#cpp-example)
 
@@ -201,7 +260,7 @@ for i in range(2, 11, 2):
 	print (i)
 ```
 
-***Output:
+**Output:
 2
 4
 6
@@ -230,7 +289,7 @@ while (i <= 10)	{
  
 
 * In Python:
- ```python
+```python
 i = 2
 while i <= 10:
 	print (i)
@@ -333,28 +392,106 @@ Library functions are also called "builtin Functions" that are grouped together 
 ### 1. Pass by Value
 In this parameter passing method, values of actual parameters are copied to the function’s formal parameters and the two types of parameters are stored in different memory locations. So any changes made inside functions are not reflected in the actual parameters of the caller. 
 
+* In C++:
+```cpp
+#include <iostream>
+using namespace std;
+
+void change(int x) {
+    x = 20;
+}
+
+int main() {
+    int a = 10;
+    change(a);
+    cout << a;  // Output: 10
+}
+```
+* In Python:
+```python
+def change(x):
+    x = 20
+    print("Inside function:", x)
+
+a = 10
+change(a)
+print("Outside function:", a)
+```
+
 ### 2. Pass by Reference
 Actual and formal parameters both refer to the same locations. Hence, any changes made inside the function are actually reflected in the actual parameters of the caller.
+
+* In C++:
+```cpp
+#include <iostream>
+using namespace std;
+
+void change(int &x) {
+    x = 20;
+}
+
+int main() {
+    int a = 10;
+    change(a);
+    cout << a;  // Output: 20
+}
+```
+
+* In Python:
+```python
+def change(lst):
+    lst.append(100)
+
+a = [1, 2, 3]
+change(a)
+print(a)  # Output: [1, 2, 3, 100]
+```
 
 ------------
 
 ## Function Overloading
 Certain programming languages allow function overloading which is the ability to create multiple functions with the same name with different implementations. For example, C++ lets you specify more than one function of the same name in the same scope. The determination of which function to use for a particular call is resolved at compile time and is based on the number of parameters the function takes or the datatype of the parameters. 
 
+* In C++:
+```cpp
+#include <iostream>
+using namespace std;
+
+void add(int a, int b) {
+    cout << "Sum (int): " << a + b << endl;
+}
+
+void add(double a, double b) {
+    cout << "Sum (double): " << a + b << endl;
+}
+
+int main() {
+    add(2, 3);       // calls int version
+    add(2.5, 3.5);   // calls double version
+}
+```
+
+_note_: Python does not support function overloading directly. If you define multiple functions with the same name, the last one overwrites the previous ones.
+
 ------------
 
 # Lambda Function
 
-A lambda function is a small *anonymus* or also known as *unknown* function meaning that the function does not have a name. They reduce down the code size and makes it for the programmer to do faster software development.
+A lambda function is a small *anonymous* or also known as *unknown* function meaning that the function does not have a name. They reduce down the code size and makes it for the programmer to do faster software development.
 
 * Syntax:
 ```python
 lambda arguments: expression
 ```
+* Example:
+```python
+square = lambda x: x * x
+print(square(5))  # Output: 25
+```
 
 **Characteristic of lambda function:**
 
-* Lambda function takes an unlimited number of arguments however has only one expression. This expression return the result when the lambda function is called
+* Lambda function takes an unlimited number of arguments however has only one expression. This expression return the result when the lambda function is called.
 * Since it contain only one expression which return the result by default, it does not require the *return* statement.
 
 * An example of lambda function:

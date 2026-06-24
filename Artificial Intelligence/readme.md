@@ -41,6 +41,9 @@ In retail, AI helps businesses predict consumer behavior, optimize inventory, an
 #### 5. **Manufacturing**
 AI is enhancing manufacturing processes by optimizing supply chains, predicting equipment failures, and improving product quality. Robotics powered by AI can perform repetitive tasks with precision and efficiency, reducing human error and increasing productivity.
 
+#### 6. **Edge Computing and IoT**
+AI is moving from massive cloud data centers directly onto local physical devices (such as smartphones, factory machinery, and environmental sensors). By deploying lightweight machine learning models directly onto embedded hardware, systems can process image classification and sensor data locally. This enables instant real-time decision-making, protects data privacy, and allows critical infrastructure—like smart agriculture sensors or remote monitoring grids—to function completely offline without relying on an active internet connection.
+
 ### Ethical Considerations and Challenges
 
 While AI holds great promise, it also raises ethical concerns and challenges that need to be addressed:

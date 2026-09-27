@@ -436,14 +436,14 @@ The functions of the Transport layer are :
 4. **Flow control:** The transport layer is also responsible for flow control but it is performed end-to-end rather than across a single link.
 5. **Error control:** Error control is performed end-to-end rather than across the single link. The sender transport layer ensures that the message reaches at the destination without any error.
 
-### **5\. Session Layer (Layer 4):**
+### **5\. Session Layer (Layer 5):**
 
 The Session layer is used to establish, maintain and synchronize the interaction between communicating devices.
 The functions of the session layer are:
 1. **Dialog control:** The Session layer acts as a dialog controller that creates a dialog between two processes or we can say that it allows communication between two processes which can be either half-duplex or full-duplex.
 2. **Synchronization:** The Session layer adds some checkpoints when transmitting the data in a sequence. If some error occurs in the middle of the transmission of data, then the transmission will take place again from the checkpoint. This process is known as Synchronization and recovery.
 
-### **6\. Presentation Layer (Layer 5):**
+### **6\. Presentation Layer (Layer 6):**
 
 The presentation layer is also called the Translation layer. The data from the application layer is extracted here and manipulated as per the required format to transmit over the network. 
 The functions of the presentation layer are : 
